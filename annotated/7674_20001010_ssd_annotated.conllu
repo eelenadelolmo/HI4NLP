@@ -144,8 +144,8 @@
 32	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
 33	,	,	fc	fc	matched=no	4	punct	_	_
 34	advirtió	advertir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-35	Joaquim	Joaquim	np0000l	np0000l	matched=no	34	nsubj	_	_
-36	Triadú	Triadú	np0000l	np0000l	matched=no	35	appos	_	_
+35	Joaquim	Joaquim	np0000l	np0000l	matched=yes: nsubj child of root deprel	34	nsubj	_	_
+36	Triadú	Triadú	np0000l	np0000l	matched=yes: nsubj child of root deprel	35	appos	_	_
 37	.	.	fp	fp	matched=no	34	punct	_	_
 
 1	Según	según	sps00	sps00	matched=no	6	advcl	_	_

@@ -175,7 +175,7 @@
 39	.	.	fp	fp	matched=no	24	punct	_	_
 
 1	Supone	suponer	vmip3s0	vmip3s0	matched=no	0	root	_	_
-2	esto	este	pd0ns000	pd0ns000	matched=no	1	nsubj	_	_
+2	esto	este	pd0ns000	pd0ns000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 3	una	uno	di0fs0	di0fs0	matched=no	4	det	_	_
 4	conclusión	conclusión	ncfs000	ncfs000	matched=no	1	dobj	_	_
 5	importante	importante	aq0cs0	aq0cs0	matched=no	4	amod	_	_
@@ -248,10 +248,10 @@
 1	En	en	sps00	sps00	matched=no	3	prepv	_	_
 2	ello	él	pp3ns000	pp3ns000	matched=no	1	pobj	_	_
 3	trabaja	trabajar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-4	nuestro	nuestro	dp1msp	dp1msp	matched=no	5	poss	_	_
-5	grupo	grupo	ncms000	ncms000	matched=no	3	nsubj	_	_
-6	de	de	sps00	sps00	matched=no	5	prepn	_	_
-7	investigación	investigación	ncfs000	ncfs000	matched=no	6	pobj	_	_
+4	nuestro	nuestro	dp1msp	dp1msp	matched=yes: nsubj child of root deprel	5	poss	_	_
+5	grupo	grupo	ncms000	ncms000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+6	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	5	prepn	_	_
+7	investigación	investigación	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	pobj	_	_
 8	(	(	fpa	fpa	matched=no	9	punct	_	_
 9	fig.	fig.	ncfs000	ncfs000	matched=no	3	dobj	_	_
 10	6	6	z	z	matched=no	9	num	_	_

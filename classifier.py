@@ -32,12 +32,12 @@ def conllu_classifier(inputfile, unmatchedfile, matchedfile):
 
 def main(argv):
 
-    inputdir = 'annotated/'
-    unmatched_outputdir = 'annotated/_unmatched/'
-    matched_outputdir = 'annotated/_matched/'
+    inputdir = 'annotated_freeling/'
+    unmatched_outputdir = 'annotated_freeling/_unmatched/'
+    matched_outputdir = 'annotated_freeling/_matched/'
 
     try:
-        opts, args = getopt.getopt(argv, "hi:au:", ["idir=", "udir=", "mdir="])
+        opts, args = getopt.getopt(argv, "hua:i:", ["idir=", "udir=", "mdir="])
 
     except getopt.GetoptError:
         print('transformer_conllu.py -i <inputDirectoru> -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
@@ -50,13 +50,13 @@ def main(argv):
             sys.exit()
 
         elif opt in ("-i", "--idir"):
-            inputdir = arg+ "/"
+            inputdir = arg + '/'
 
         elif opt in ("-u", "--udir"):
-            unmatched_outputdir = arg+ "/"
+            unmatched_outputdir = arg + '/'
 
         elif opt in ("-a", "--adir"):
-            matched_outputdir = arg+ "/"
+            matched_outputdir = arg + '/'
 
     print('The input directory is', inputdir)
     print('The unmatched output directory is', unmatched_outputdir)
@@ -72,8 +72,6 @@ def main(argv):
             # Creates two new folders to classify the sentences in a document depending on
             # whether they contains a matched feature annotation or not
             conllu_classifier(inputdir + f, unmatched_outputdir + f_noExt + ".conllu", matched_outputdir + f_noExt + ".conllu")
-
-
 
 if __name__ == "__main__":
     main(sys.argv[1:])

@@ -109,14 +109,14 @@
 28	rueda	rueda	ncfs000	ncfs000	matched=no	27	pobj	_	_
 29	de	de	sps00	sps00	matched=no	28	prepn	_	_
 30	prensa	prensa	ncfs000	ncfs000	matched=no	29	pobj	_	_
-31	el	el	da0ms0	da0ms0	matched=no	32	det	_	_
-32	ministro	ministro	ncms000	ncms000	matched=no	25	nsubj	_	_
-33	de	de	sps00	sps00	matched=no	32	prepn	_	_
-34	Economía	Economía	np0000o	np0000o	matched=no	33	pobj	_	_
-35	,	,	fc	fc	matched=no	32	punct	_	_
-36	José	José	ncfs000	ncfs000	matched=no	32	appos	_	_
-37	Luis	luis	ncms000	ncms000	matched=no	36	appos	_	_
-38	Machinea	Machinea	np00000	np00000	matched=no	37	appos	_	_
+31	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	32	det	_	_
+32	ministro	ministro	ncms000	ncms000	matched=yes: nsubj child of root deprel	25	nsubj	_	_
+33	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	32	prepn	_	_
+34	Economía	Economía	np0000o	np0000o	matched=yes: nsubj child of root deprel	33	pobj	_	_
+35	,	,	fc	fc	matched=yes: nsubj child of root deprel	32	punct	_	_
+36	José	José	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	32	appos	_	_
+37	Luis	luis	ncms000	ncms000	matched=yes: nsubj child of root deprel	36	appos	_	_
+38	Machinea	Machinea	np00000	np00000	matched=yes: nsubj child of root deprel	37	appos	_	_
 39	.	.	fp	fp	matched=no	25	punct	_	_
 
 1	En	en	sps00	sps00	matched=no	5	prepv	_	_
@@ -226,10 +226,10 @@
 37	&quot;	&quot;	fe	fe	matched=no	24	punct	_	_
 38	,	,	fc	fc	matched=no	39	punct	_	_
 39	añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-40	el	el	da0ms0	da0ms0	matched=no	41	det	_	_
-41	ministro	ministro	ncms000	ncms000	matched=no	39	nsubj	_	_
-42	de	de	sps00	sps00	matched=no	41	prepn	_	_
-43	Economía	Economía	np0000o	np0000o	matched=no	42	pobj	_	_
+40	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	41	det	_	_
+41	ministro	ministro	ncms000	ncms000	matched=yes: nsubj child of root deprel	39	nsubj	_	_
+42	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	41	prepn	_	_
+43	Economía	Economía	np0000o	np0000o	matched=yes: nsubj child of root deprel	42	pobj	_	_
 44	.	.	fp	fp	matched=no	39	punct	_	_
 
 1	Entre	entre	sps00	sps00	matched=no	8	prepv	_	_

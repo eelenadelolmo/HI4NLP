@@ -31,9 +31,9 @@
 31	,	,	fc	fc	matched=no	6	punct	_	_
 32	informaron	informar	vmis3p0	vmis3p0	matched=no	0	root	_	_
 33	hoy	hoy	rg	rg	matched=no	32	advmod	_	_
-34	fuentes	fuente	ncfp000	ncfp000	matched=no	32	nsubj	_	_
-35	del	del	spcms	spcms	matched=no	34	prepn	_	_
-36	sector	sector	ncms000	ncms000	matched=no	35	pobj	_	_
+34	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	32	nsubj	_	_
+35	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	34	prepn	_	_
+36	sector	sector	ncms000	ncms000	matched=yes: nsubj child of root deprel	35	pobj	_	_
 37	.	.	fp	fp	matched=no	32	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -263,12 +263,12 @@
 18	se	se	p0000000	p0000000	matched=no	20	reflec	_	_
 19	debería	deber	vmic1s0	vmic1s0	matched=no	0	root	_	_
 20	alcanzar	alcanzar	vmn0000	vmn0000	matched=no	19	dobj	_	_
-21	los	el	da0mp0	da0mp0	matched=no	23	det	_	_
-22	600	600	z	z	matched=no	21	num	_	_
-23	millones	millón	ncmp000	ncmp000	matched=no	19	nsubj	_	_
-24	de	de	sps00	sps00	matched=no	23	prepn	_	_
-25	dólares	dólar	zm	zm	matched=no	24	pobj	_	_
-26	de	de	sps00	sps00	matched=no	23	prepn	_	_
-27	exportación	exportación	ncfs000	ncfs000	matched=no	26	pobj	_	_
+21	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	23	det	_	_
+22	600	600	z	z	matched=yes: nsubj child of root deprel	21	num	_	_
+23	millones	millón	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	19	nsubj	_	_
+24	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	23	prepn	_	_
+25	dólares	dólar	zm	zm	matched=yes: nsubj child of root deprel	24	pobj	_	_
+26	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	23	prepn	_	_
+27	exportación	exportación	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	26	pobj	_	_
 28	.	.	fp	fp	matched=no	19	punct	_	_
 

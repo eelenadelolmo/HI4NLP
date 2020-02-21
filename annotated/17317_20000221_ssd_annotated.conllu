@@ -385,12 +385,12 @@
 55	,	,	fc	fc	matched=no	39	punct	_	_
 56	se	se	p0000000	p0000000	matched=no	57	reflec	_	_
 57	prevé	prever	vmip3s0	vmip3s0	matched=no	0	root	_	_
-58	la	el	da0fs0	da0fs0	matched=no	59	det	_	_
-59	eliminación	eliminación	ncfs000	ncfs000	matched=no	57	nsubj	_	_
-60	de	de	sps00	sps00	matched=no	59	prepn	_	_
-61	algunas	alguno	di0fp0	di0fp0	matched=no	62	det	_	_
-62	exenciones	exención	ncfp000	ncfp000	matched=no	60	pobj	_	_
-63	tributarias	tributario	aq0fp0	aq0fp0	matched=no	62	amod	_	_
+58	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	59	det	_	_
+59	eliminación	eliminación	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	57	nsubj	_	_
+60	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	59	prepn	_	_
+61	algunas	alguno	di0fp0	di0fp0	matched=yes: nsubj child of root deprel	62	det	_	_
+62	exenciones	exención	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	60	pobj	_	_
+63	tributarias	tributario	aq0fp0	aq0fp0	matched=yes: nsubj child of root deprel	62	amod	_	_
 64	.	.	fp	fp	matched=no	57	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=no	2	det	_	_

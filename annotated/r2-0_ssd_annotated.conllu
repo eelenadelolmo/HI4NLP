@@ -162,7 +162,7 @@
 5	!	!	fat	fat	matched=no	4	punct	_	_
 6	-	-	fg	fg	matched=no	4	punct	_	_
 7	contestó	contestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-8	Anasagasti	Anasagasti	np0000p	np0000p	matched=no	7	nsubj	_	_
+8	Anasagasti	Anasagasti	np0000p	np0000p	matched=yes: nsubj child of root deprel	7	nsubj	_	_
 9	-	-	fg	fg	matched=no	7	punct	_	_
 
 1	-	-	fg	fg	matched=no	4	punct	_	_
@@ -321,7 +321,7 @@
 26	-	-	fg	fg	matched=no	5	punct	_	_
 27	,	,	fc	fc	matched=no	28	punct	_	_
 28	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-29	Pilar	Pilar	np0000p	np0000p	matched=no	28	nsubj	_	_
+29	Pilar	Pilar	np0000p	np0000p	matched=yes: nsubj child of root deprel	28	nsubj	_	_
 30	a	a	sps00	sps00	matched=no	28	advmod	_	_
 31	tiempo	tiempo	ncmp000	ncmp000	matched=no	30	pobj	_	_
 32	.	.	fp	fp	matched=no	28	punct	_	_

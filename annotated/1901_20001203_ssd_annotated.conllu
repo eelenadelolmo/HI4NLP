@@ -103,7 +103,7 @@
 17	&quot;	&quot;	fe	fe	matched=no	13	punct	_	_
 18	,	,	fc	fc	matched=no	19	punct	_	_
 19	aseguró	asegurar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-20	Kirmair	Kirmair	np0000p	np0000p	matched=no	19	nsubj	_	_
+20	Kirmair	Kirmair	np0000p	np0000p	matched=yes: nsubj child of root deprel	19	nsubj	_	_
 21	en	en	sps00	sps00	matched=no	19	prepv	_	_
 22	declaraciones	declaración	ncfp000	ncfp000	matched=no	21	pobj	_	_
 23	a	a	sps00	sps00	matched=no	22	prepn	_	_
@@ -290,7 +290,7 @@
 53	&quot;	&quot;	fe	fe	matched=no	12	punct	_	_
 54	,	,	fc	fc	matched=no	55	punct	_	_
 55	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-56	Kirmair	Kirmair	np0000p	np0000p	matched=no	55	nsubj	_	_
+56	Kirmair	Kirmair	np0000p	np0000p	matched=yes: nsubj child of root deprel	55	nsubj	_	_
 57	en	en	sps00	sps00	matched=no	55	prepv	_	_
 58	sus	su	dp3cp0	dp3cp0	matched=no	59	poss	_	_
 59	declaraciones	declaración	ncfp000	ncfp000	matched=no	57	pobj	_	_

@@ -154,13 +154,13 @@
 34	&quot;	&quot;	fe	fe	matched=no	17	punct	_	_
 35	,	,	fc	fc	matched=no	36	punct	_	_
 36	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-37	Peter	Peter	np0000l	np0000l	matched=no	36	nsubj	_	_
-38	Ryall	Ryall	np0000l	np0000l	matched=no	37	appos	_	_
-39	,	,	fc	fc	matched=no	37	punct	_	_
-40	vendedor	vendedor	ncms000	ncms000	matched=no	37	appos	_	_
-41	de	de	sps00	sps00	matched=no	40	prepn	_	_
-42	Cash`s	Cash`s	np0000l	np0000l	matched=no	41	pobj	_	_
-43	Aminco	Aminco	np0000l	np0000l	matched=no	42	appos	_	_
+37	Peter	Peter	np0000l	np0000l	matched=yes: nsubj child of root deprel	36	nsubj	_	_
+38	Ryall	Ryall	np0000l	np0000l	matched=yes: nsubj child of root deprel	37	appos	_	_
+39	,	,	fc	fc	matched=yes: nsubj child of root deprel	37	punct	_	_
+40	vendedor	vendedor	ncms000	ncms000	matched=yes: nsubj child of root deprel	37	appos	_	_
+41	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	40	prepn	_	_
+42	Cash`s	Cash`s	np0000l	np0000l	matched=yes: nsubj child of root deprel	41	pobj	_	_
+43	Aminco	Aminco	np0000l	np0000l	matched=yes: nsubj child of root deprel	42	appos	_	_
 44	.	.	fp	fp	matched=no	36	punct	_	_
 
 1	A	a	sps00	sps00	matched=no	25	advcl	_	_
@@ -389,7 +389,7 @@
 11	inevitable	inevitable	aq0cs0	aq0cs0	matched=no	10	coord	_	_
 12	&quot;	&quot;	fe	fe	matched=no	8	punct	_	_
 13	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-14	Kennedy	Kennedy	np00000	np00000	matched=no	13	nsubj	_	_
+14	Kennedy	Kennedy	np00000	np00000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
 15	.	.	fp	fp	matched=no	13	punct	_	_
 
 1	&quot;	&quot;	ncms000	ncms000	matched=no	2	punct	_	_
@@ -564,7 +564,7 @@
 37	&quot;	&quot;	fe	fe	matched=no	13	punct	_	_
 38	,	,	fc	fc	matched=no	39	punct	_	_
 39	manifestó	manifestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-40	Hume	Hume	np00000	np00000	matched=no	39	nsubj	_	_
+40	Hume	Hume	np00000	np00000	matched=yes: nsubj child of root deprel	39	nsubj	_	_
 41	.	.	fp	fp	matched=no	39	punct	_	_
 
 1	Según	según	sps00	sps00	matched=no	37	advcl	_	_
@@ -728,6 +728,6 @@
 35	&quot;	&quot;	fe	fe	matched=no	20	punct	_	_
 36	,	,	fc	fc	matched=no	37	punct	_	_
 37	precisó	precisar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-38	Kennedy	Kennedy	np00000	np00000	matched=no	37	nsubj	_	_
+38	Kennedy	Kennedy	np00000	np00000	matched=yes: nsubj child of root deprel	37	nsubj	_	_
 39	.	.	fp	fp	matched=no	37	punct	_	_
 

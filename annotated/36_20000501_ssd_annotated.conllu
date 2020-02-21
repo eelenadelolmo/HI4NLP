@@ -177,8 +177,8 @@
 2	-	-	fg	fg	matched=no	4	punct	_	_
 3	¿	¿	fia	fia	matched=no	4	punct	_	_
 4	Aspira	aspirar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-5	el	el	da0ms0	da0ms0	matched=no	6	det	_	_
-6	PP	PP	np00000	np00000	matched=no	4	nsubj	_	_
+5	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	PP	PP	np00000	np00000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
 7	a	a	sps00	sps00	matched=no	4	agent	_	_
 8	marcar	marcar	vmn0000	vmn0000	matched=no	7	pobj	_	_
 9	cuál	cuál	pt0cs000	pt0cs000	matched=no	10	nsubj	_	_
@@ -417,8 +417,8 @@
 2	,	,	fc	fc	matched=no	4	punct	_	_
 3	se	se	p0000000	p0000000	matched=no	4	reflec	_	_
 4	falsea	falsear	vmip3s0	vmip3s0	matched=no	0	root	_	_
-5	la	el	da0fs0	da0fs0	matched=no	6	det	_	_
-6	realidad	realidad	ncfs000	ncfs000	matched=no	4	nsubj	_	_
+5	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	realidad	realidad	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
 7	si	si	cs	cs	matched=no	4	advcl	_	_
 8	se	se	p0000000	p0000000	matched=no	9	reflec	_	_
 9	plantea	plantear	vmip3s0	vmip3s0	matched=no	21	cobj	_	_
@@ -444,12 +444,12 @@
 2	debe	deber	vmip3s0	vmip3s0	matched=no	0	root	_	_
 3	contemplar	contemplar	vmn0000	vmn0000	matched=no	2	dobj	_	_
 4	también	también	rg	rg	matched=no	3	advmod	_	_
-5	el	el	da0ms0	da0ms0	matched=no	6	det	_	_
-6	flujo	flujo	ncms000	ncms000	matched=no	2	nsubj	_	_
-7	comercial	comercial	aq0cs0	aq0cs0	matched=no	8	coord	_	_
-8	y	y	cc	cc	matched=no	6	prepn	_	_
-9	de	de	sps00	sps00	matched=no	8	coord	_	_
-10	capitales	capital	ncmp000	ncmp000	matched=no	9	pobj	_	_
+5	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	flujo	flujo	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+7	comercial	comercial	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	8	coord	_	_
+8	y	y	cc	cc	matched=yes: nsubj child of root deprel	6	prepn	_	_
+9	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	coord	_	_
+10	capitales	capital	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	9	pobj	_	_
 11	.	.	fp	fp	matched=no	2	punct	_	_
 
 1	Porque	porque	cs	cs	matched=no	0	root	_	_
@@ -564,8 +564,8 @@
 6	qué	qué	dt0cn0	dt0cn0	matched=no	7	det	_	_
 7	plazo	plazo	ncms000	ncms000	matched=no	5	pobj	_	_
 8	aspira	aspirar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-9	el	el	da0ms0	da0ms0	matched=no	10	det	_	_
-10	PP	PP	np00000	np00000	matched=no	8	nsubj	_	_
+9	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	PP	PP	np00000	np00000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
 11	poder	poder	vmn0000	vmn0000	matched=no	8	oobj	_	_
 12	gobernar	gobernar	vmn0000	vmn0000	matched=no	11	cobj	_	_
 13	Catalunya	Catalunya	np00000	np00000	matched=no	12	dobj	_	_
@@ -611,15 +611,15 @@
 2	se	él	p0300000	p0300000	matched=no	4	reflec	_	_
 3	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
 4	roto	romper	vmp00sm	vmp00sm	matched=no	3	vobj	_	_
-5	el	el	da0ms0	da0ms0	matched=no	6	det	_	_
-6	tabú	tabú	ncms000	ncms000	matched=no	3	nsubj	_	_
-7	que	que	pr0cn000	pr0cn000	matched=no	8	nsubj	_	_
-8	impedía	impedir	vmii3s0	vmii3s0	matched=no	6	rcmod	_	_
-9	que	que	cs	cs	matched=no	8	dobj	_	_
-10	tuviese	tener	vmsi3s0	vmsi3s0	matched=no	9	cobj	_	_
-11	capacidad	capacidad	ncfs000	ncfs000	matched=no	10	dobj	_	_
-12	de	de	sps00	sps00	matched=no	11	prepn	_	_
-13	influencia	influencia	ncfs000	ncfs000	matched=no	12	pobj	_	_
+5	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	tabú	tabú	ncms000	ncms000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+7	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+8	impedía	impedir	vmii3s0	vmii3s0	matched=yes: nsubj child of root deprel	6	rcmod	_	_
+9	que	que	cs	cs	matched=yes: nsubj child of root deprel	8	dobj	_	_
+10	tuviese	tener	vmsi3s0	vmsi3s0	matched=yes: nsubj child of root deprel	9	cobj	_	_
+11	capacidad	capacidad	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	10	dobj	_	_
+12	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	11	prepn	_	_
+13	influencia	influencia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	12	pobj	_	_
 14	.	.	fp	fp	matched=no	3	punct	_	_
 
 1	Y	y	cc	cc	matched=no	3	te	_	_
@@ -971,7 +971,7 @@
 5	influencia	influencia	ncfs000	ncfs000	matched=no	7	dobj	_	_
 6	podrá	poder	vmif3s0	vmif3s0	matched=no	0	root	_	_
 7	tener	tener	vmn0000	vmn0000	matched=no	6	dobj	_	_
-8	Piqué	Piqué	np00000	np00000	matched=no	6	nsubj	_	_
+8	Piqué	Piqué	np00000	np00000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
 9	en	en	sps00	sps00	matched=no	7	prepv	_	_
 10	el	el	da0ms0	da0ms0	matched=no	11	det	_	_
 11	PP	PP	np00000	np00000	matched=no	9	pobj	_	_

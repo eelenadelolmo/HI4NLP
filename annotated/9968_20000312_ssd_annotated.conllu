@@ -119,9 +119,9 @@
 30	,	,	fc	fc	matched=no	31	punct	_	_
 31	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
 32	concluido	concluir	vmp00sm	vmp00sm	matched=no	31	vobj	_	_
-33	López	López	np0000o	np0000o	matched=no	31	nsubj	_	_
-34	de	de	sps00	sps00	matched=no	33	prepn	_	_
-35	Lerma	Lerma	np0000l	np0000l	matched=no	34	pobj	_	_
+33	López	López	np0000o	np0000o	matched=yes: nsubj child of root deprel	31	nsubj	_	_
+34	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	33	prepn	_	_
+35	Lerma	Lerma	np0000l	np0000l	matched=yes: nsubj child of root deprel	34	pobj	_	_
 36	.	.	fp	fp	matched=no	31	punct	_	_
 
 1	Por	por	sps00	sps00	matched=no	21	advcl	_	_

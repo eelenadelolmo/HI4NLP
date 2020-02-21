@@ -98,9 +98,9 @@
 32	&quot;	&quot;	fe	fe	matched=no	16	punct	_	_
 33	,	,	fc	fc	matched=no	34	punct	_	_
 34	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-35	el	el	da0ms0	da0ms0	matched=no	36	det	_	_
-36	ministro	ministro	ncms000	ncms000	matched=no	34	nsubj	_	_
-37	Siwiec	Siwiec	np0000p	np0000p	matched=no	36	appos	_	_
+35	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	36	det	_	_
+36	ministro	ministro	ncms000	ncms000	matched=yes: nsubj child of root deprel	34	nsubj	_	_
+37	Siwiec	Siwiec	np0000p	np0000p	matched=yes: nsubj child of root deprel	36	appos	_	_
 38	en	en	sps00	sps00	matched=no	34	prepv	_	_
 39	un	uno	di0ms0	di0ms0	matched=no	40	det	_	_
 40	comunicado	comunicado	ncms000	ncms000	matched=no	38	pobj	_	_
@@ -316,7 +316,7 @@
 47	una	uno	di0fs0	di0fs0	matched=no	49	det	_	_
 48	primera	primero	ao0fs0	ao0fs0	matched=no	49	amod	_	_
 49	reacción	reacción	ncfs000	ncfs000	matched=no	46	pobj	_	_
-50	Kwasniewski	Kwasniewski	np0000p	np0000p	matched=no	45	nsubj	_	_
+50	Kwasniewski	Kwasniewski	np0000p	np0000p	matched=yes: nsubj child of root deprel	45	nsubj	_	_
 51	.	.	fp	fp	matched=no	45	punct	_	_
 
 1	Pero	pero	cc	cc	matched=no	19	dep	_	_

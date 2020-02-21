@@ -187,8 +187,8 @@
 16	&quot;	&quot;	fe	fe	matched=no	22	punct	_	_
 17	,	,	fc	fc	matched=no	18	punct	_	_
 18	precisó	precisar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-19	la	el	da0fs0	da0fs0	matched=no	20	det	_	_
-20	policía	policía	nccs000	nccs000	matched=no	18	nsubj	_	_
+19	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	20	det	_	_
+20	policía	policía	nccs000	nccs000	matched=yes: nsubj child of root deprel	18	nsubj	_	_
 21	tras	tras	sps00	sps00	matched=no	18	prepv	_	_
 22	liberar	liberar	vmn0000	vmn0000	matched=no	21	pobj	_	_
 23	a	a	sps00	sps00	matched=no	22	dobj	_	_

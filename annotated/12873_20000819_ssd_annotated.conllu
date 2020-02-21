@@ -54,8 +54,8 @@
 54	,	,	fc	fc	matched=no	55	punct	_	_
 55	informaron	informar	vmis3p0	vmis3p0	matched=no	0	root	_	_
 56	hoy	hoy	rg	rg	matched=no	55	advmod	_	_
-57	fuentes	fuente	ncfp000	ncfp000	matched=no	55	nsubj	_	_
-58	oficiales	oficial	aq0cp0	aq0cp0	matched=no	57	amod	_	_
+57	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	55	nsubj	_	_
+58	oficiales	oficial	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	57	amod	_	_
 59	.	.	fp	fp	matched=no	55	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

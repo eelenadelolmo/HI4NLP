@@ -314,13 +314,13 @@
 26	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 27	,	,	fc	fc	matched=no	28	punct	_	_
 28	opina	opinar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-29	un	uno	di0ms0	di0ms0	matched=no	31	det	_	_
-30	ex	ex	aq0cn0	aq0cn0	matched=no	31	amod	_	_
-31	rector	rector	ncms000	ncms000	matched=no	28	nsubj	_	_
-32	de	de	sps00	sps00	matched=no	31	prepn	_	_
-33	una	uno	di0fs0	di0fs0	matched=no	34	det	_	_
-34	universidad	universidad	ncfs000	ncfs000	matched=no	32	pobj	_	_
-35	catalana	catalán	aq0fs0	aq0fs0	matched=no	34	amod	_	_
+29	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	31	det	_	_
+30	ex	ex	aq0cn0	aq0cn0	matched=yes: nsubj child of root deprel	31	amod	_	_
+31	rector	rector	ncms000	ncms000	matched=yes: nsubj child of root deprel	28	nsubj	_	_
+32	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	31	prepn	_	_
+33	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	34	det	_	_
+34	universidad	universidad	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	32	pobj	_	_
+35	catalana	catalán	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	34	amod	_	_
 36	.	.	fp	fp	matched=no	28	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=no	13	det	_	_

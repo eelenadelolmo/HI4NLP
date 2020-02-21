@@ -100,10 +100,10 @@
 27	Gobierno	Gobierno	np0000o	np0000o	matched=no	25	pobj	_	_
 28	,	,	fc	fc	matched=no	23	punct	_	_
 29	añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-30	el	el	da0ms0	da0ms0	matched=no	31	det	_	_
-31	titular	titular	ncms000	ncms000	matched=no	29	nsubj	_	_
-32	de	de	sps00	sps00	matched=no	31	prepn	_	_
-33	Agricultura	Agricultura	np0000o	np0000o	matched=no	32	pobj	_	_
+30	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	31	det	_	_
+31	titular	titular	ncms000	ncms000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
+32	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	31	prepn	_	_
+33	Agricultura	Agricultura	np0000o	np0000o	matched=yes: nsubj child of root deprel	32	pobj	_	_
 34	.	.	fp	fp	matched=no	29	punct	_	_
 
 1	Un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

@@ -407,8 +407,8 @@
 37	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 38	,	,	fc	fc	matched=no	39	punct	_	_
 39	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-40	el	el	da0ms0	da0ms0	matched=no	41	det	_	_
-41	dirigente	dirigente	nccs000	nccs000	matched=no	39	nsubj	_	_
+40	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	41	det	_	_
+41	dirigente	dirigente	nccs000	nccs000	matched=yes: nsubj child of root deprel	39	nsubj	_	_
 42	.	.	fp	fp	matched=no	39	punct	_	_
 
 1	Agregó	agregar	vmis3s0	vmis3s0	matched=no	0	root	_	_
@@ -553,5 +553,5 @@
 33	&quot;	&quot;	fe	fe	matched=no	23	punct	_	_
 34	,	,	fc	fc	matched=no	35	punct	_	_
 35	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-36	Pons	Pons	np0000p	np0000p	matched=no	35	nsubj	_	_
+36	Pons	Pons	np0000p	np0000p	matched=yes: nsubj child of root deprel	35	nsubj	_	_
 

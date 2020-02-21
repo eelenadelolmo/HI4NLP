@@ -373,10 +373,10 @@
 9	gobernar	gobernar	vmn0000	vmn0000	matched=no	8	pobj	_	_
 10	-	-	fg	fg	matched=no	11	punct	_	_
 11	agregó	agregar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-12	el	el	da0ms0	da0ms0	matched=no	13	det	_	_
-13	presidente	presidente	ncms000	ncms000	matched=no	11	nsubj	_	_
-14	del	del	spcms	spcms	matched=no	13	prepn	_	_
-15	PNV	PNV	np0000o	np0000o	matched=no	14	pobj	_	_
+12	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	13	det	_	_
+13	presidente	presidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+14	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	13	prepn	_	_
+15	PNV	PNV	np0000o	np0000o	matched=yes: nsubj child of root deprel	14	pobj	_	_
 16	en	en	sps00	sps00	matched=no	11	prepv	_	_
 17	alusión	alusión	ncfs000	ncfs000	matched=no	16	pobj	_	_
 18	a	a	sps00	sps00	matched=no	17	prepn	_	_

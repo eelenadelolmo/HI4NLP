@@ -390,8 +390,8 @@
 
 1	Aquí	aquí	rg	rg	matched=no	2	advmod	_	_
 2	entran	entrar	vmip3p0	vmip3p0	matched=no	0	root	_	_
-3	otras	otro	di0fp0	di0fp0	matched=no	4	det	_	_
-4	razones	razón	ncfp000	ncfp000	matched=no	2	nsubj	_	_
+3	otras	otro	di0fp0	di0fp0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	razones	razón	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 5	:	:	fd	fd	matched=no	30	punct	_	_
 6	por	por	sps00	sps00	matched=no	11	dobj	_	_
 7	pasar	pasar	vmn0000	vmn0000	matched=no	6	cobj	_	_

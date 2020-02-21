@@ -18,18 +18,18 @@
 
 1	Así	así	rg	rg	matched=no	2	advmod	_	_
 2	definió	definir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-3	el	el	da0ms0	da0ms0	matched=no	4	det	_	_
-4	vicepresidente	vicepresidente	ncms000	ncms000	matched=no	2	nsubj	_	_
-5	de	de	sps00	sps00	matched=no	4	prepn	_	_
-6	la	el	da0fs0	da0fs0	matched=no	7	det	_	_
-7	asociación	asociación	ncfs000	ncfs000	matched=no	5	pobj	_	_
-8	de	de	sps00	sps00	matched=no	7	prepn	_	_
-9	vecinos	vecino	ncmp000	ncmp000	matched=no	8	pobj	_	_
-10	,	,	fc	fc	matched=no	4	punct	_	_
-11	Joan	Joan	ncfs000	ncfs000	matched=no	4	appos	_	_
-12	Maria	Maria	ncms000	ncms000	matched=no	11	appos	_	_
-13	Soler	soler	np00000	np00000	matched=no	12	appos	_	_
-14	,	,	fc	fc	matched=no	4	punct	_	_
+3	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	vicepresidente	vicepresidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+5	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	4	prepn	_	_
+6	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	7	det	_	_
+7	asociación	asociación	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	pobj	_	_
+8	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	7	prepn	_	_
+9	vecinos	vecino	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	8	pobj	_	_
+10	,	,	fc	fc	matched=yes: nsubj child of root deprel	4	punct	_	_
+11	Joan	Joan	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	appos	_	_
+12	Maria	Maria	ncms000	ncms000	matched=yes: nsubj child of root deprel	11	appos	_	_
+13	Soler	soler	np00000	np00000	matched=yes: nsubj child of root deprel	12	appos	_	_
+14	,	,	fc	fc	matched=yes: nsubj child of root deprel	4	punct	_	_
 15	la	el	da0fs0	da0fs0	matched=no	16	det	_	_
 16	protesta	protesta	ncfs000	ncfs000	matched=no	2	dobj	_	_
 17	que	que	pr0cn000	pr0cn000	matched=no	19	nsubj	_	_
@@ -53,8 +53,8 @@
 
 1	Pero	pero	cc	cc	matched=no	2	te	_	_
 2	fueron	ser	vsis3p0	vsis3p0	matched=no	0	root	_	_
-3	los	el	da0mp0	da0mp0	matched=no	4	det	_	_
-4	jóvenes	joven	nccp000	nccp000	matched=no	2	nsubj	_	_
+3	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	jóvenes	joven	nccp000	nccp000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 5	quienes	quien	pr0cp000	pr0cp000	matched=no	6	nsubj	_	_
 6	dieron	dar	vmis3p0	vmis3p0	matched=no	2	attr	_	_
 7	color	color	ncms000	ncms000	matched=no	9	coord	_	_

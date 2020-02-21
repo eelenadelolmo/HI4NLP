@@ -46,8 +46,8 @@
 4	que	que	cs	cs	matched=no	6	te	_	_
 5	no	no	rn	rn	matched=no	6	neg	_	_
 6	caía	caer	vmii3s0	vmii3s0	matched=no	0	root	_	_
-7	tanta	tanto	di0fs0	di0fs0	matched=no	8	det	_	_
-8	agua	agua	ncfs000	ncfs000	matched=no	6	nsubj	_	_
+7	tanta	tanto	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	agua	agua	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
 9	en	en	sps00	sps00	matched=no	6	prepv	_	_
 10	Valencia	Valencia	np00000	np00000	matched=no	9	pobj	_	_
 11	en	en	sps00	sps00	matched=no	6	prepv	_	_

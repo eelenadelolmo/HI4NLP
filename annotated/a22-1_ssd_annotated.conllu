@@ -38,8 +38,8 @@
 5	-	-	fg	fg	matched=no	3	punct	_	_
 6	intentó	intentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 7	explicar	explicar	vmn0000	vmn0000	matched=no	6	dobj	_	_
-8	mi	mi	dp1css	dp1css	matched=no	9	poss	_	_
-9	hijo	hijo	ncms000	ncms000	matched=no	6	nsubj	_	_
+8	mi	mi	dp1css	dp1css	matched=yes: nsubj child of root deprel	9	poss	_	_
+9	hijo	hijo	ncms000	ncms000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
 10	tras	tras	sps00	sps00	matched=no	6	prepv	_	_
 11	unos	uno	di0mp0	di0mp0	matched=no	12	det	_	_
 12	momentos	momento	ncmp000	ncmp000	matched=no	10	pobj	_	_
@@ -291,8 +291,8 @@
 4	tampoco	tampoco	rg	rg	matched=no	2	advmod	_	_
 5	-	-	fg	fg	matched=no	2	punct	_	_
 6	respondió	responder	vmis3s0	vmis3s0	matched=no	0	root	_	_
-7	mi	mi	dp1css	dp1css	matched=no	8	poss	_	_
-8	mujer	mujer	ncfs000	ncfs000	matched=no	6	nsubj	_	_
+7	mi	mi	dp1css	dp1css	matched=yes: nsubj child of root deprel	8	poss	_	_
+8	mujer	mujer	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
 9	a	a	sps00	sps00	matched=no	6	prepv	_	_
 10	nombre	nombre	ncfs000	ncfs000	matched=no	9	pobj	_	_
 11	de	de	sps00	sps00	matched=no	10	prepn	_	_

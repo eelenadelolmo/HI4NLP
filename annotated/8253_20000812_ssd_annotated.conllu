@@ -61,7 +61,7 @@
 32	,	,	fc	fc	matched=no	31	punct	_	_
 33	Sábado	Sábado	ncms000	ncms000	matched=no	31	dep	_	_
 34	,	,	fc	fc	matched=no	31	punct	_	_
-35	Saleta	Saleta	np00000	np00000	matched=no	30	nsubj	_	_
+35	Saleta	Saleta	np00000	np00000	matched=yes: nsubj child of root deprel	30	nsubj	_	_
 36	.	.	fp	fp	matched=no	30	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -139,7 +139,7 @@
 42	&quot;	&quot;	fe	fe	matched=no	19	punct	_	_
 43	,	,	fc	fc	matched=no	44	punct	_	_
 44	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-45	Saleta	Saleta	np00000	np00000	matched=no	44	nsubj	_	_
+45	Saleta	Saleta	np00000	np00000	matched=yes: nsubj child of root deprel	44	nsubj	_	_
 46	en	en	sps00	sps00	matched=no	44	prepv	_	_
 47	su	su	dp3cs0	dp3cs0	matched=no	48	poss	_	_
 48	página	página	ncfs000	ncfs000	matched=no	46	pobj	_	_
@@ -282,7 +282,7 @@
 46	&quot;	&quot;	fe	fe	matched=no	21	punct	_	_
 47	,	,	fc	fc	matched=no	48	punct	_	_
 48	dice	decir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-49	Saleta	Saleta	np00000	np00000	matched=no	48	nsubj	_	_
+49	Saleta	Saleta	np00000	np00000	matched=yes: nsubj child of root deprel	48	nsubj	_	_
 50	.	.	fp	fp	matched=no	48	punct	_	_
 
 1	Tras	tras	sps00	sps00	matched=no	8	prepv	_	_
@@ -471,6 +471,6 @@
 57	&quot;	&quot;	fe	fe	matched=no	35	punct	_	_
 58	,	,	fc	fc	matched=no	59	punct	_	_
 59	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-60	Saleta	Saleta	np00000	np00000	matched=no	59	nsubj	_	_
+60	Saleta	Saleta	np00000	np00000	matched=yes: nsubj child of root deprel	59	nsubj	_	_
 61	.	.	fp	fp	matched=no	59	punct	_	_
 

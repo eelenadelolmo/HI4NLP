@@ -47,8 +47,8 @@
 47	,	,	fc	fc	matched=no	48	punct	_	_
 48	informa	informar	vmip3s0	vmip3s0	matched=no	0	root	_	_
 49	hoy	hoy	rg	rg	matched=no	48	advmod	_	_
-50	la	el	da0fs0	da0fs0	matched=no	51	det	_	_
-51	prensa	prensa	ncfs000	ncfs000	matched=no	48	nsubj	_	_
+50	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	51	det	_	_
+51	prensa	prensa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	48	nsubj	_	_
 52	.	.	fp	fp	matched=no	48	punct	_	_
 
 1	Según	según	sps00	sps00	matched=no	30	advcl	_	_

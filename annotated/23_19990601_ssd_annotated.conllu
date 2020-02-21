@@ -52,14 +52,14 @@
 52	,	,	fc	fc	matched=no	53	punct	_	_
 53	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 54	ayer	ayer	rg	rg	matched=no	53	advmod	_	_
-55	el	el	da0ms0	da0ms0	matched=no	56	det	_	_
-56	ministro	ministro	ncms000	ncms000	matched=no	53	nsubj	_	_
-57	de	de	sps00	sps00	matched=no	56	prepn	_	_
-58	Asuntos	asunto	ncms000	ncms000	matched=no	57	pobj	_	_
-59	Exteriores	exterior	aq0ms0	aq0ms0	matched=no	58	amod	_	_
-60	,	,	fc	fc	matched=no	56	punct	_	_
-61	Abel	Abel	np00000	np00000	matched=no	56	appos	_	_
-62	Matutes	matute	ncms000	ncms000	matched=no	61	appos	_	_
+55	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	56	det	_	_
+56	ministro	ministro	ncms000	ncms000	matched=yes: nsubj child of root deprel	53	nsubj	_	_
+57	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	56	prepn	_	_
+58	Asuntos	asunto	ncms000	ncms000	matched=yes: nsubj child of root deprel	57	pobj	_	_
+59	Exteriores	exterior	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	58	amod	_	_
+60	,	,	fc	fc	matched=yes: nsubj child of root deprel	56	punct	_	_
+61	Abel	Abel	np00000	np00000	matched=yes: nsubj child of root deprel	56	appos	_	_
+62	Matutes	matute	ncms000	ncms000	matched=yes: nsubj child of root deprel	61	appos	_	_
 63	.	.	fp	fp	matched=no	53	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=no	2	det	_	_
@@ -197,7 +197,7 @@
 16	&quot;	&quot;	fe	fe	matched=no	13	punct	_	_
 17	,	,	fc	fc	matched=no	18	punct	_	_
 18	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-19	Matutes	Matutes	np00000	np00000	matched=no	18	nsubj	_	_
+19	Matutes	Matutes	np00000	np00000	matched=yes: nsubj child of root deprel	18	nsubj	_	_
 20	.	.	fp	fp	matched=no	18	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
@@ -235,7 +235,7 @@
 15	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
 16	,	,	fc	fc	matched=no	17	punct	_	_
 17	aseguró	asegurar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-18	Matutes	Matutes	np00000	np00000	matched=no	17	nsubj	_	_
+18	Matutes	Matutes	np00000	np00000	matched=yes: nsubj child of root deprel	17	nsubj	_	_
 19	.	.	fp	fp	matched=no	17	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_

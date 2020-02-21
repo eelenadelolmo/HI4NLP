@@ -124,9 +124,9 @@
 12	pública	público	aq0fs0	aq0fs0	matched=no	11	amod	_	_
 13	europea	europeo	aq0fs0	aq0fs0	matched=no	11	amod	_	_
 14	avanza	avanzar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-15	una	uno	di0fs0	di0fs0	matched=no	16	det	_	_
-16	tesis	tesis	ncfn000	ncfn000	matched=no	14	nsubj	_	_
-17	distinta	distinto	aq0fs0	aq0fs0	matched=no	16	amod	_	_
+15	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	16	det	_	_
+16	tesis	tesis	ncfn000	ncfn000	matched=yes: nsubj child of root deprel	14	nsubj	_	_
+17	distinta	distinto	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	16	amod	_	_
 18	.	.	fp	fp	matched=no	14	punct	_	_
 
 1	Cuesta	costar	vmip3s0	vmip3s0	matched=no	0	root	_	_

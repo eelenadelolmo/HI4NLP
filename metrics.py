@@ -11,8 +11,8 @@ from tabulate import tabulate
 
 def main(argv):
 
-    unmatcheddir = 'annotated/_unmatched/'
-    matcheddir = 'annotated/_matched/'
+    unmatcheddir = 'annotated_freeling/_unmatched/'
+    matcheddir = 'annotated_freeling/_matched/'
 
     try:
         opts, args = getopt.getopt(argv, "hi:au:", ["udir=", "mdir="])
@@ -81,7 +81,7 @@ def main(argv):
 
 
 
-    nf = open("metrics.txt", "w")
+    nf = open("metrics_freeling.txt", "w")
 
     nf.write("Número de oraciones principales con sujeto antepuesto: " + str(n_matched))
     nf.write("\n")

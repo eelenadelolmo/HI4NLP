@@ -298,10 +298,10 @@
 15	,	,	fc	fc	matched=no	16	punct	_	_
 16	han	haber	vaip3p0	vaip3p0	matched=no	0	root	_	_
 17	señalado	señalar	vmp00sm	vmp00sm	matched=no	16	vobj	_	_
-18	los	el	da0mp0	da0mp0	matched=no	19	det	_	_
-19	sindicalistas	sindicalista	nccp000	nccp000	matched=no	16	nsubj	_	_
-20	más	más	rg	rg	matched=no	21	advmod	_	_
-21	duros	duro	aq0mp0	aq0mp0	matched=no	19	amod	_	_
+18	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	19	det	_	_
+19	sindicalistas	sindicalista	nccp000	nccp000	matched=yes: nsubj child of root deprel	16	nsubj	_	_
+20	más	más	rg	rg	matched=yes: nsubj child of root deprel	21	advmod	_	_
+21	duros	duro	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	19	amod	_	_
 22	.	.	fp	fp	matched=no	16	punct	_	_
 
 1	Como	como	cs	cs	matched=no	8	advcl	_	_

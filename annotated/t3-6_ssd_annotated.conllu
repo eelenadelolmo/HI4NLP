@@ -144,11 +144,11 @@
 7	recuerdo	recuerdo	ncms000	ncms000	matched=no	5	nsubj	_	_
 8	fue	ser	vsis3s0	vsis3s0	matched=no	0	root	_	_
 9	creciendo	crecer	vmg0000	vmg0000	matched=no	8	attr	_	_
-10	el	el	da0ms0	da0ms0	matched=no	11	det	_	_
-11	rostro	rostro	ncms000	ncms000	matched=no	8	nsubj	_	_
-12	de	de	sps00	sps00	matched=no	11	prepn	_	_
-13	la	el	da0fs0	da0fs0	matched=no	14	det	_	_
-14	mujer	mujer	ncfs000	ncfs000	matched=no	12	pobj	_	_
+10	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	rostro	rostro	ncms000	ncms000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+12	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	11	prepn	_	_
+13	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	14	det	_	_
+14	mujer	mujer	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	12	pobj	_	_
 15	hasta	hasta	sps00	sps00	matched=no	8	prepv	_	_
 16	coincidir	coincidir	vmn0000	vmn0000	matched=no	27	coord	_	_
 17	con	con	sps00	sps00	matched=no	16	oobj	_	_
@@ -215,7 +215,7 @@
 12	le	él	pp3csd00	pp3csd00	matched=no	14	iobj	_	_
 13	habría	haber	vaic3s0	vaic3s0	matched=no	0	root	_	_
 14	salido	salir	vmp00sm	vmp00sm	matched=no	13	vobj	_	_
-15	todo	todo	pi0ms000	pi0ms000	matched=no	13	nsubj	_	_
+15	todo	todo	pi0ms000	pi0ms000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
 16	mucho	mucho	rg	rg	matched=no	17	advmod	_	_
 17	más	más	rg	rg	matched=no	18	advmod	_	_
 18	barato	barato	aq0ms0	aq0ms0	matched=no	14	cpred	_	_

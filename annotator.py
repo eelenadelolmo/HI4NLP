@@ -7,8 +7,6 @@ import sys
 import getopt
 
 
-
-
 def conllu_annotator_scope(file_conllu_annotated, rules_file, file_conllu_annotated_rules, order):
 
     nf = open(file_conllu_annotated_rules, "w")
@@ -73,7 +71,6 @@ def conllu_annotator_scope(file_conllu_annotated, rules_file, file_conllu_annota
 
             parent_rules.append(new_rule)
 
-
     sentences = parse(input.read())
 
     for sentence in sentences:
@@ -121,12 +118,8 @@ def conllu_annotator_scope(file_conllu_annotated, rules_file, file_conllu_annota
 
                                         hijos = nietos
 
-
-
                                     if padre is not None:
                                         hijos = padre.children
-
-
 
                                     # Annotating all children
                                     while len(hijos) > 0:
@@ -141,8 +134,6 @@ def conllu_annotator_scope(file_conllu_annotated, rules_file, file_conllu_annota
                                             nietos.extend(hijo.children)
 
                                         hijos = nietos
-
-
 
         n_anotados_parent_rules = 0
 
@@ -169,7 +160,6 @@ def conllu_annotator_scope(file_conllu_annotated, rules_file, file_conllu_annota
                                 token_2['feats']['matched'] = 'yes: ' + rule['deprel'] + ' parent of ' + rule['select_value'] + " " + rule['select_key']
                                 n_anotados_parent_rules += 1
 
-
                                 # If the parent must be annotated recursively
                                 if rule['type'] == "ALL":
 
@@ -192,12 +182,8 @@ def conllu_annotator_scope(file_conllu_annotated, rules_file, file_conllu_annota
 
                                         hijos = nietos
 
-
-
                                     if padre is not None:
                                         hijos = padre.children
-
-
 
                                     # Annotating all children
                                     while len(hijos) > 0:
@@ -215,16 +201,13 @@ def conllu_annotator_scope(file_conllu_annotated, rules_file, file_conllu_annota
 
                                         hijos = nietos
 
-
-
         nf.write(sentence.serialize())
-
 
 
 def main(argv):
 
-    inputdir = 'conllu' + "/"
-    outputdir = 'annotated' + "/"
+    inputdir = 'conllu_freeling' + '/'
+    outputdir = 'annotated_freeling' + '/'
     rulesfile = 'syntax_rules/' + 'rules_nsubj.txt'
     order_option = 'ALL'
 
@@ -242,10 +225,10 @@ def main(argv):
             sys.exit()
 
         elif opt in ("-i", "--idir"):
-            inputdir = arg + "/"
+            inputdir = arg + '/'
 
         elif opt in ("-o", "--odir"):
-            outputdir = arg + "/"
+            outputdir = arg + '/'
 
         elif opt in ("-r", "--rfile"):
             rulesfile = 'syntax_rules/' + arg
@@ -266,8 +249,6 @@ def main(argv):
 
             # Exploits a conllu file in order to add new fields depending on rules
             conllu_annotator_scope(inputdir + f_noExt + ".conllu", rulesfile, outputdir + f_noExt + "_annotated" + ".conllu", order_option)
-
-
 
 
 if __name__ == "__main__":

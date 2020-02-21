@@ -47,8 +47,8 @@
 10	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 11	,	,	fc	fc	matched=no	12	punct	_	_
 12	dice	decir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-13	el	el	da0ms0	da0ms0	matched=no	14	det	_	_
-14	dirigente	dirigente	nccs000	nccs000	matched=no	12	nsubj	_	_
+13	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	14	det	_	_
+14	dirigente	dirigente	nccs000	nccs000	matched=yes: nsubj child of root deprel	12	nsubj	_	_
 15	.	.	fp	fp	matched=no	12	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_

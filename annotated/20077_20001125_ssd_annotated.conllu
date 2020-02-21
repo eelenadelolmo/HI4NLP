@@ -210,13 +210,13 @@
 13	,	,	fc	fc	matched=no	15	punct	_	_
 14	ahora	ahora	rg	rg	matched=no	15	advmod	_	_
 15	empieza	empezar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-16	una	uno	di0fs0	di0fs0	matched=no	17	det	_	_
-17	etapa	etapa	ncfs000	ncfs000	matched=no	15	nsubj	_	_
-18	a	a	sps00	sps00	matched=no	22	advmod	_	_
-19	priori	priori	np00000	np00000	matched=no	18	pobj	_	_
-20	mucho	mucho	rg	rg	matched=no	21	advmod	_	_
-21	más	más	rg	rg	matched=no	22	advmod	_	_
-22	sencilla	sencillo	aq0fs0	aq0fs0	matched=no	17	amod	_	_
+16	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	etapa	etapa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	15	nsubj	_	_
+18	a	a	sps00	sps00	matched=yes: nsubj child of root deprel	22	advmod	_	_
+19	priori	priori	np00000	np00000	matched=yes: nsubj child of root deprel	18	pobj	_	_
+20	mucho	mucho	rg	rg	matched=yes: nsubj child of root deprel	21	advmod	_	_
+21	más	más	rg	rg	matched=yes: nsubj child of root deprel	22	advmod	_	_
+22	sencilla	sencillo	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	17	amod	_	_
 23	.	.	fp	fp	matched=no	15	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_

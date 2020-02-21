@@ -30,14 +30,14 @@
 30	,	,	fc	fc	matched=no	31	punct	_	_
 31	informa	informar	vmip3s0	vmip3s0	matched=no	0	root	_	_
 32	hoy	hoy	rg	rg	matched=no	31	advmod	_	_
-33	el	el	da0ms0	da0ms0	matched=no	34	det	_	_
-34	diario	diario	ncms000	ncms000	matched=no	31	nsubj	_	_
-35	&quot;	&quot;	fe	fe	matched=no	36	punct	_	_
-36	The	The	ncms000	ncms000	matched=no	34	appos	_	_
-37	New	New	np0000o	np0000o	matched=no	36	appos	_	_
-38	York	York	ncms000	ncms000	matched=no	36	appos	_	_
-39	Times	timar	np0000a	np0000a	matched=no	38	appos	_	_
-40	&quot;	&quot;	fe	fe	matched=no	36	punct	_	_
+33	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	34	det	_	_
+34	diario	diario	ncms000	ncms000	matched=yes: nsubj child of root deprel	31	nsubj	_	_
+35	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	36	punct	_	_
+36	The	The	ncms000	ncms000	matched=yes: nsubj child of root deprel	34	appos	_	_
+37	New	New	np0000o	np0000o	matched=yes: nsubj child of root deprel	36	appos	_	_
+38	York	York	ncms000	ncms000	matched=yes: nsubj child of root deprel	36	appos	_	_
+39	Times	timar	np0000a	np0000a	matched=yes: nsubj child of root deprel	38	appos	_	_
+40	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	36	punct	_	_
 41	.	.	fp	fp	matched=no	31	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=no	3	det	_	_

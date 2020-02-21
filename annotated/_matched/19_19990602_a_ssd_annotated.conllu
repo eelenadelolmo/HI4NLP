@@ -9,6 +9,49 @@
 9	discreta	discreto	aq0fs0	aq0fs0	matched=no	8	coord	_	_
 10	.	.	fp	fp	matched=no	3	punct	_	_
 
+1	Parece	parecer	vmip3s0	vmip3s0	matched=no	0	root	_	_
+2	gustarle	gustar	vmn0000	vmn0000	matched=no	1	attr	_	_
+3	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	palabra	palabra	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+5	racional	racional	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	4	amod	_	_
+6	.	.	fp	fp	matched=no	1	punct	_	_
+
+1	Y	y	cc	cc	matched=no	18	te	_	_
+2	,	,	fc	fc	matched=no	18	punct	_	_
+3	sin	sin	sps00	sps00	matched=no	18	advmod	_	_
+4	embargo	embargo	ncmp000	ncmp000	matched=no	3	pobj	_	_
+5	,	,	fc	fc	matched=no	18	punct	_	_
+6	a	a	sps00	sps00	matched=no	18	dobj	_	_
+7	este	este	dd0ms0	dd0ms0	matched=no	8	det	_	_
+8	hombre	hombre	ncms000	ncms000	matched=no	6	pobj	_	_
+9	en	en	sps00	sps00	matched=no	14	coord	_	_
+10	estado	estado	ncms000	ncms000	matched=no	9	pobj	_	_
+11	de	de	sps00	sps00	matched=no	10	prepn	_	_
+12	alerta	alerta	ncfs000	ncfs000	matched=no	11	pobj	_	_
+13	permanente	permanente	aq0cs0	aq0cs0	matched=no	12	amod	_	_
+14	y	y	cc	cc	matched=no	8	dep	_	_
+15	quizá	quizá	rg	rg	matched=no	16	advmod	_	_
+16	hermético	hermético	aq0ms0	aq0ms0	matched=no	14	coord	_	_
+17	le	él	pp30sa00	pp30sa00	matched=no	18	iobj	_	_
+18	entusiasman	entusiasmar	vmip3p0	vmip3p0	matched=no	0	root	_	_
+19	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	20	det	_	_
+20	cosas	cosa	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	18	nsubj	_	_
+21	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	22	nsubj	_	_
+22	vuelan	volar	vmip3p0	vmip3p0	matched=yes: nsubj child of root deprel	20	rcmod	_	_
+23	.	.	fp	fp	matched=no	18	punct	_	_
+
+1	-	-	fg	fg	matched=no	7	punct	_	_
+2	-	-	fg	fg	matched=no	7	punct	_	_
+3	¿	¿	fia	fia	matched=no	7	punct	_	_
+4	Qué	qué	dt0cn0	dt0cn0	matched=no	5	det	_	_
+5	opinión	opinión	ncfs000	ncfs000	matched=no	7	dobj	_	_
+6	le	él	pp3csd00	pp3csd00	matched=no	7	iobj	_	_
+7	merecen	merecer	vmip3p0	vmip3p0	matched=no	0	root	_	_
+8	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	avionetas	avioneta	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+10	?	?	fit	fit	matched=no	7	punct	_	_
+11	.	.	fp	fp	matched=no	7	punct	_	_
+
 1	-	-	fg	fg	matched=no	9	punct	_	_
 2	-	-	fg	fg	matched=no	9	punct	_	_
 3	En	en	sps00	sps00	matched=no	9	te	_	_
@@ -29,6 +72,21 @@
 5	dicen	decir	vmip3p0	vmip3p0	matched=no	0	root	_	_
 6	avión	avión	ncms000	ncms000	matched=no	5	dobj	_	_
 7	.	.	fp	fp	matched=no	5	punct	_	_
+
+1	-	-	fg	fg	matched=no	11	punct	_	_
+2	-	-	fg	fg	matched=no	11	punct	_	_
+3	Nada	nada	pi0cs000	pi0cs000	matched=no	4	nsubj	_	_
+4	sorprende	sorprender	vmip3s0	vmip3s0	matched=no	11	dobj	_	_
+5	en	en	sps00	sps00	matched=no	4	prepv	_	_
+6	estos	este	dd0mp0	dd0mp0	matched=no	7	det	_	_
+7	tiempos	tiempo	ncmp000	ncmp000	matched=no	5	pobj	_	_
+8	de	de	sps00	sps00	matched=no	7	prepn	_	_
+9	elecciones	elección	ncfp000	ncfp000	matched=no	8	pobj	_	_
+10	,	,	fc	fc	matched=no	11	punct	_	_
+11	dicen	decir	vmip3p0	vmip3p0	matched=no	0	root	_	_
+12	muchos	mucho	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	13	det	_	_
+13	ciudadanos	ciudadano	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+14	.	.	fp	fp	matched=no	11	punct	_	_
 
 1	-	-	fg	fg	matched=no	4	punct	_	_
 2	-	-	fg	fg	matched=no	4	punct	_	_
@@ -91,6 +149,18 @@
 14	criterios	criterio	ncmp000	ncmp000	matched=no	13	dobj	_	_
 15	norteamericanos	norteamericano	aq0mp0	aq0mp0	matched=no	14	amod	_	_
 16	.	.	fp	fp	matched=no	13	punct	_	_
+
+1	Ahí	ahí	rg	rg	matched=no	2	advmod	_	_
+2	tiene	tener	vmip3s0	vmip3s0	matched=no	0	root	_	_
+3	usted	tú	pp2cs00p	pp2cs00p	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+4	los	el	da0mp0	da0mp0	matched=no	6	det	_	_
+5	últimos	último	ao0mp0	ao0mp0	matched=no	6	amod	_	_
+6	ejemplos	ejemplo	ncmp000	ncmp000	matched=no	2	dobj	_	_
+7	de	de	sps00	sps00	matched=no	6	prepn	_	_
+8	Alemania	Alemania	np00000	np00000	matched=no	9	coord	_	_
+9	o	o	cc	cc	matched=no	7	pobj	_	_
+10	Israel	Israel	np00000	np00000	matched=no	9	coord	_	_
+11	.	.	fp	fp	matched=no	2	punct	_	_
 
 1	Esa	ese	pd0fs000	pd0fs000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 2	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
@@ -157,6 +227,20 @@
 7	todos	todo	pi0mp000	pi0mp000	matched=no	8	nsubj	_	_
 8	entienden	entender	vmip3p0	vmip3p0	matched=no	4	rcmod	_	_
 9	.	.	fp	fp	matched=no	3	punct	_	_
+
+1	-	-	fg	fg	matched=no	6	punct	_	_
+2	-	-	fg	fg	matched=no	6	punct	_	_
+3	¿	¿	fia	fia	matched=no	6	punct	_	_
+4	De	de	sps00	sps00	matched=no	6	prepv	_	_
+5	qué	qué	pt0cs000	pt0cs000	matched=no	4	pobj	_	_
+6	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
+7	responsable	responsable	aq0cs0	aq0cs0	matched=no	6	attr	_	_
+8	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	director	director	ncms000	ncms000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+10	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	9	prepn	_	_
+11	campaña	campaña	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	10	pobj	_	_
+12	?	?	fit	fit	matched=no	6	punct	_	_
+13	.	.	fp	fp	matched=no	6	punct	_	_
 
 1	-	-	fg	fg	matched=no	9	punct	_	_
 2	-	-	fg	fg	matched=no	9	punct	_	_
@@ -234,6 +318,15 @@
 11	disimulan	disimular	vmip3p0	vmip3p0	matched=no	5	cobj	_	_
 12	.	.	fp	fp	matched=no	4	punct	_	_
 
+1	-	-	fg	fg	matched=no	5	punct	_	_
+2	-	-	fg	fg	matched=no	5	punct	_	_
+3	¿	¿	fia	fia	matched=no	5	punct	_	_
+4	Nos	yo	pp1cp000	pp1cp000	matched=no	5	iobj	_	_
+5	falta	faltar	vmip3s0	vmip3s0	matched=no	0	root	_	_
+6	valor	valor	ncms000	ncms000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+7	?	?	fit	fit	matched=no	5	punct	_	_
+8	.	.	fp	fp	matched=no	5	punct	_	_
+
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	norteamericanos	norteamericano	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 3	supieron	saber	vmis3p0	vmis3p0	matched=no	0	root	_	_
@@ -281,6 +374,26 @@
 19	diario	diario	ncms000	ncms000	matched=no	16	nsubj	_	_
 20	.	.	fp	fp	matched=no	3	punct	_	_
 
+1	-	-	fg	fg	matched=no	4	punct	_	_
+2	-	-	fg	fg	matched=no	4	punct	_	_
+3	¿	¿	fia	fia	matched=no	4	punct	_	_
+4	Han	haber	vaip3p0	vaip3p0	matched=no	0	root	_	_
+5	tenido	tener	vmp00sm	vmp00sm	matched=no	4	vobj	_	_
+6	alguna	alguno	di0fs0	di0fs0	matched=no	7	det	_	_
+7	responsabilidad	responsabilidad	ncfs000	ncfs000	matched=no	5	dobj	_	_
+8	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	partidos	partido	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+10	políticos	político	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	9	amod	_	_
+11	en	en	sps00	sps00	matched=no	5	prepv	_	_
+12	la	el	da0fs0	da0fs0	matched=no	13	det	_	_
+13	situación	situación	ncfs000	ncfs000	matched=no	11	pobj	_	_
+14	actual	actual	aq0cs0	aq0cs0	matched=no	13	amod	_	_
+15	de	de	sps00	sps00	matched=no	13	prepn	_	_
+16	nuestra	nuestro	dp1fsp	dp1fsp	matched=no	17	poss	_	_
+17	prensa	prensa	ncfs000	ncfs000	matched=no	15	pobj	_	_
+18	?	?	fit	fit	matched=no	4	punct	_	_
+19	.	.	fp	fp	matched=no	4	punct	_	_
+
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	partidos	partido	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
 3	simplemente	simplemente	rg	rg	matched=no	6	advmod	_	_
@@ -291,6 +404,27 @@
 8	la	el	da0fs0	da0fs0	matched=no	9	det	_	_
 9	situación	situación	ncfs000	ncfs000	matched=no	7	pobj	_	_
 10	.	.	fp	fp	matched=no	5	punct	_	_
+
+1	-	-	fg	fg	matched=no	4	punct	_	_
+2	-	-	fg	fg	matched=no	4	punct	_	_
+3	¿	¿	fia	fia	matched=no	4	punct	_	_
+4	Ganará	ganar	vmif3s0	vmif3s0	matched=no	0	root	_	_
+5	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	6	poss	_	_
+6	candidato	candidato	ncms000	ncms000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+7	?	?	fit	fit	matched=no	4	punct	_	_
+8	.	.	fp	fp	matched=no	4	punct	_	_
+
+1	-	-	fg	fg	matched=no	4	punct	_	_
+2	-	-	fg	fg	matched=no	4	punct	_	_
+3	¿	¿	fia	fia	matched=no	4	punct	_	_
+4	Tuvo	tener	vmis3s0	vmis3s0	matched=no	0	root	_	_
+5	usted	tú	pp2cs00p	pp2cs00p	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+6	el	el	da0ms0	da0ms0	matched=no	7	det	_	_
+7	domingo	domingo	ncms000	ncms000	matched=no	4	dobj	_	_
+8	un	uno	di0ms0	di0ms0	matched=no	9	det	_	_
+9	sueño	sueño	ncms000	ncms000	matched=no	4	dobj	_	_
+10	?	?	fit	fit	matched=no	4	punct	_	_
+11	.	.	fp	fp	matched=no	4	punct	_	_
 
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	sueños	sueño	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_

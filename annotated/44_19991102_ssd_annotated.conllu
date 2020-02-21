@@ -365,16 +365,16 @@
 8	,	,	fc	fc	matched=no	10	punct	_	_
 9	se	él	p0300000	p0300000	matched=no	10	reflec	_	_
 10	reunieron	reunir	vmis3p0	vmis3p0	matched=no	0	root	_	_
-11	el	el	da0ms0	da0ms0	matched=no	12	det	_	_
-12	cardenal	cardenal	ncms000	ncms000	matched=no	15	coord	_	_
-13	Edward	Edward	np0000l	np0000l	matched=no	12	appos	_	_
-14	Cassidy	Cassidy	np0000l	np0000l	matched=no	13	appos	_	_
-15	y	y	cc	cc	matched=no	10	nsubj	_	_
-16	el	el	da0ms0	da0ms0	matched=no	17	det	_	_
-17	obispo	obispo	ncms000	ncms000	matched=no	15	coord	_	_
-18	luterano	luterano	aq0ms0	aq0ms0	matched=no	17	amod	_	_
-19	Christian	Christian	np0000l	np0000l	matched=no	17	appos	_	_
-20	Krause	Krause	np0000l	np0000l	matched=no	19	appos	_	_
+11	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	12	det	_	_
+12	cardenal	cardenal	ncms000	ncms000	matched=yes: nsubj child of root deprel	15	coord	_	_
+13	Edward	Edward	np0000l	np0000l	matched=yes: nsubj child of root deprel	12	appos	_	_
+14	Cassidy	Cassidy	np0000l	np0000l	matched=yes: nsubj child of root deprel	13	appos	_	_
+15	y	y	cc	cc	matched=yes: nsubj child of root deprel	10	nsubj	_	_
+16	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	obispo	obispo	ncms000	ncms000	matched=yes: nsubj child of root deprel	15	coord	_	_
+18	luterano	luterano	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	17	amod	_	_
+19	Christian	Christian	np0000l	np0000l	matched=yes: nsubj child of root deprel	17	appos	_	_
+20	Krause	Krause	np0000l	np0000l	matched=yes: nsubj child of root deprel	19	appos	_	_
 21	,	,	fc	fc	matched=no	10	punct	_	_
 22	en	en	sps00	sps00	matched=no	10	prepv	_	_
 23	nombre	nombre	ncfs000	ncfs000	matched=no	22	pobj	_	_
@@ -562,8 +562,8 @@
 39	&quot;	&quot;	fe	fe	matched=no	21	punct	_	_
 40	,	,	fc	fc	matched=no	41	punct	_	_
 41	informa	informar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-42	Gonzalo	Gonzalo	np0000l	np0000l	matched=no	41	nsubj	_	_
-43	Cáceres	Cáceres	np0000l	np0000l	matched=no	42	appos	_	_
+42	Gonzalo	Gonzalo	np0000l	np0000l	matched=yes: nsubj child of root deprel	41	nsubj	_	_
+43	Cáceres	Cáceres	np0000l	np0000l	matched=yes: nsubj child of root deprel	42	appos	_	_
 44	.	.	fp	fp	matched=no	41	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

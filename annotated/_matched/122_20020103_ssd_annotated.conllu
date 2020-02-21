@@ -40,6 +40,26 @@
 18	tesitura	tesitura	ncfs000	ncfs000	matched=no	15	pobj	_	_
 19	.	.	fp	fp	matched=no	13	punct	_	_
 
+1	Pero	pero	cc	cc	matched=no	2	te	_	_
+2	había	haber	vaii3s0	vaii3s0	matched=no	0	root	_	_
+3	algo	algo	pi0cs000	pi0cs000	matched=no	2	dobj	_	_
+4	que	que	pr0cn000	pr0cn000	matched=no	6	nsubj	_	_
+5	le	él	pp30sa00	pp30sa00	matched=no	6	iobj	_	_
+6	perturbaba	perturbar	vmii3s0	vmii3s0	matched=no	3	rcmod	_	_
+7	aún	aún	rg	rg	matched=no	8	advmod	_	_
+8	más	más	rg	rg	matched=no	6	advmod	_	_
+9	:	:	fd	fd	matched=no	2	punct	_	_
+10	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	cinta	cinta	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+12	contenía	contener	vmii3s0	vmii3s0	matched=no	2	cobj	_	_
+13	algunos	alguno	di0mp0	di0mp0	matched=no	14	det	_	_
+14	planos	plano	ncmp000	ncmp000	matched=no	12	dobj	_	_
+15	de	de	sps00	sps00	matched=no	14	prepn	_	_
+16	las	el	da0fp0	da0fp0	matched=no	17	det	_	_
+17	Torres	torre	ncms000	ncms000	matched=no	15	pobj	_	_
+18	Gemelas	Gemelas	np00000	np00000	matched=no	17	appos	_	_
+19	.	.	fp	fp	matched=no	2	punct	_	_
+
 1	Stiller	Stiller	np00000	np00000	matched=yes: nsubj child of root deprel	14	nsubj	_	_
 2	,	,	fc	fc	matched=yes: nsubj child of root deprel	1	punct	_	_
 3	guionista	guionista	nccs000	nccs000	matched=yes: nsubj child of root deprel	8	coord	_	_
@@ -94,6 +114,33 @@
 14	septiembre	septiembre	ncms000	ncms000	matched=no	13	pobj	_	_
 15	.	.	fp	fp	matched=no	3	punct	_	_
 
+1	Pendía	pender	vmii3s0	vmii3s0	matched=no	0	root	_	_
+2	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	4	det	_	_
+3	gran	gran	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	4	amod	_	_
+4	interrogante	interrogante	nccs000	nccs000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+5	sobre	sobre	sps00	sps00	matched=no	1	prepv	_	_
+6	si	si	cs	cs	matched=no	5	pobj	_	_
+7	era	ser	vsii3s0	vsii3s0	matched=no	6	cobj	_	_
+8	conveniente	conveniente	aq0cs0	aq0cs0	matched=no	9	cpred	_	_
+9	estrenar	estrenar	vmn0000	vmn0000	matched=no	6	cobj	_	_
+10	en	en	sps00	sps00	matched=no	9	prepv	_	_
+11	esos	ese	dd0mp0	dd0mp0	matched=no	12	det	_	_
+12	momentos	momento	ncmp000	ncmp000	matched=no	10	pobj	_	_
+13	una	uno	di0fs0	di0fs0	matched=no	14	det	_	_
+14	comedia	comedia	ncfs000	ncfs000	matched=no	9	dobj	_	_
+15	,	,	fc	fc	matched=no	20	punct	_	_
+16	y	y	cc	cc	matched=no	20	pobj	_	_
+17	ya	ya	rg	rg	matched=no	16	advmod	_	_
+18	no	no	rn	rn	matched=no	19	neg	_	_
+19	digamos	decir	vmsp1p0	vmsp1p0	matched=no	16	coord	_	_
+20	con	con	sps00	sps00	matched=no	14	prepn	_	_
+21	referencias	referencia	ncfp000	ncfp000	matched=no	20	pobj	_	_
+22	al	al	spcms	spcms	matched=no	21	prepn	_	_
+23	World	World	ncfs000	ncfs000	matched=no	22	pobj	_	_
+24	Trade	Trade	ncms000	ncms000	matched=no	23	appos	_	_
+25	Center	Center	np00000	np00000	matched=no	24	appos	_	_
+26	.	.	fp	fp	matched=no	1	punct	_	_
+
 1	Nadie	nadie	pi0cs000	pi0cs000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 2	sabía	saber	vmii3s0	vmii3s0	matched=no	0	root	_	_
 3	qué	qué	pt0cs000	pt0cs000	matched=no	4	dobj	_	_
@@ -130,6 +177,18 @@
 10	-	-	fg	fg	matched=no	4	punct	_	_
 11	-	-	fg	fg	matched=no	4	punct	_	_
 12	.	.	fp	fp	matched=no	4	punct	_	_
+
+1	-	-	fg	fg	matched=no	6	punct	_	_
+2	-	-	fg	fg	matched=no	6	punct	_	_
+3	En	en	sps00	sps00	matched=no	6	prepv	_	_
+4	la	el	da0fs0	da0fs0	matched=no	5	det	_	_
+5	película	película	ncfs000	ncfs000	matched=no	3	pobj	_	_
+6	aparecen	aparecer	vmip3p0	vmip3p0	matched=no	0	root	_	_
+7	cameos	cameos	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+8	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	7	prepn	_	_
+9	muchísimos	muchísimo	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	famosos	famoso	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	8	pobj	_	_
+11	.	.	fp	fp	matched=no	6	punct	_	_
 
 1	A	a	sps00	sps00	matched=no	7	prepv	_	_
 2	partir	partir	vmn0000	vmn0000	matched=no	1	pobj	_	_
@@ -207,4 +266,16 @@
 7	muy	mucho	rg	rg	matched=no	8	advmod	_	_
 8	cómico	cómico	aq0ms0	aq0ms0	matched=no	6	amod	_	_
 9	.	.	fp	fp	matched=no	4	punct	_	_
+
+1	-	-	fg	fg	matched=no	5	punct	_	_
+2	-	-	fg	fg	matched=no	5	punct	_	_
+3	En	en	sps00	sps00	matched=no	5	prepv	_	_
+4	Zoolander	Zoolander	np00000	np00000	matched=no	3	pobj	_	_
+5	aparecen	aparecer	vmip3p0	vmip3p0	matched=no	0	root	_	_
+6	sus	su	dp3cp0	dp3cp0	matched=yes: nsubj child of root deprel	7	poss	_	_
+7	padres	padre	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	8	coord	_	_
+8	y	y	cc	cc	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+9	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	10	poss	_	_
+10	esposa	esposa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	8	coord	_	_
+11	.	.	fp	fp	matched=no	5	punct	_	_
 

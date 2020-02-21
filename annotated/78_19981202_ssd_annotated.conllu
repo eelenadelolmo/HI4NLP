@@ -298,8 +298,8 @@
 13	Turons	Turons	ncfs000	ncfs000	matched=no	11	appos	_	_
 14	,	,	fc	fc	matched=no	15	punct	_	_
 15	aparecieron	aparecer	vmis3p0	vmis3p0	matched=no	0	root	_	_
-16	los	el	da0mp0	da0mp0	matched=no	17	det	_	_
-17	delincuentes	delincuente	nccp000	nccp000	matched=no	15	nsubj	_	_
+16	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	delincuentes	delincuente	nccp000	nccp000	matched=yes: nsubj child of root deprel	15	nsubj	_	_
 18	con	con	sps00	sps00	matched=no	15	prepv	_	_
 19	uno	uno	pi0ms000	pi0ms000	matched=no	18	pobj	_	_
 20	de	de	sps00	sps00	matched=no	19	prepn	_	_
@@ -435,15 +435,15 @@
 5	se	se	p0000000	p0000000	matched=no	7	reflec	_	_
 6	les	él	pp3cpd00	pp3cpd00	matched=no	7	iobj	_	_
 7	imputan	imputar	vmip3p0	vmip3p0	matched=no	0	root	_	_
-8	algunos	alguno	di0mp0	di0mp0	matched=no	9	det	_	_
-9	incendios	incendio	ncmp000	ncmp000	matched=no	7	nsubj	_	_
-10	de	de	sps00	sps00	matched=no	9	prepn	_	_
-11	coches	coche	ncmp000	ncmp000	matched=no	10	pobj	_	_
-12	estacionados	estacionado	aq0mpp	aq0mpp	matched=no	11	amod	_	_
-13	en	en	sps00	sps00	matched=no	12	prepa	_	_
-14	la	el	da0fs0	da0fs0	matched=no	15	det	_	_
-15	vía	vía	ncfs000	ncfs000	matched=no	13	pobj	_	_
-16	pública	público	aq0fs0	aq0fs0	matched=no	15	amod	_	_
+8	algunos	alguno	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	incendios	incendio	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+10	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	9	prepn	_	_
+11	coches	coche	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	10	pobj	_	_
+12	estacionados	estacionado	aq0mpp	aq0mpp	matched=yes: nsubj child of root deprel	11	amod	_	_
+13	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	12	prepa	_	_
+14	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	15	det	_	_
+15	vía	vía	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	13	pobj	_	_
+16	pública	público	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	15	amod	_	_
 17	.	.	fp	fp	matched=no	7	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

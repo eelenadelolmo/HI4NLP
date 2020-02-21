@@ -48,15 +48,15 @@
 2	el	el	da0ms0	da0ms0	matched=no	3	det	_	_
 3	programa	programa	ncms000	ncms000	matched=no	1	pobj	_	_
 4	intervienen	intervenir	vmip3p0	vmip3p0	matched=no	0	root	_	_
-5	políticos	político	ncmp000	ncmp000	matched=no	11	coord	_	_
-6	,	,	fc	fc	matched=no	11	punct	_	_
-7	historiadores	historiador	ncmp000	ncmp000	matched=no	11	coord	_	_
-8	,	,	fc	fc	matched=no	11	punct	_	_
-9	profesores	profesor	ncmp000	ncmp000	matched=no	11	coord	_	_
-10	universitarios	universitario	aq0mp0	aq0mp0	matched=no	9	amod	_	_
-11	y	y	cc	cc	matched=no	4	nsubj	_	_
-12	víctimas	víctima	ncfp000	ncfp000	matched=no	11	coord	_	_
-13	del	del	spcms	spcms	matched=no	12	prepn	_	_
-14	terrorismo	terrorismo	ncms000	ncms000	matched=no	13	pobj	_	_
+5	políticos	político	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	11	coord	_	_
+6	,	,	fc	fc	matched=yes: nsubj child of root deprel	11	punct	_	_
+7	historiadores	historiador	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	11	coord	_	_
+8	,	,	fc	fc	matched=yes: nsubj child of root deprel	11	punct	_	_
+9	profesores	profesor	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	11	coord	_	_
+10	universitarios	universitario	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	9	amod	_	_
+11	y	y	cc	cc	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+12	víctimas	víctima	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	11	coord	_	_
+13	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	12	prepn	_	_
+14	terrorismo	terrorismo	ncms000	ncms000	matched=yes: nsubj child of root deprel	13	pobj	_	_
 15	.	.	fp	fp	matched=no	4	punct	_	_
 

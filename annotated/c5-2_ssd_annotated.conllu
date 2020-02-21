@@ -167,8 +167,8 @@
 6	3	3	z	z	matched=no	5	num	_	_
 7	TV	TV	np00000	np00000	matched=no	6	tmod	_	_
 8	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
-9	un	uno	di0ms0	di0ms0	matched=no	10	det	_	_
-10	drama	drama	ncms000	ncms000	matched=no	8	nsubj	_	_
+9	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	drama	drama	ncms000	ncms000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
 11	lo	el	da0ns0	da0ns0	matched=no	12	det	_	_
 12	que	que	pr0cn000	pr0cn000	matched=no	15	nsubj	_	_
 13	para	para	sps00	sps00	matched=no	15	prepv	_	_

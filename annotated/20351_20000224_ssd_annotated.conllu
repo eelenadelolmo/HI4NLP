@@ -168,8 +168,8 @@
 102	&quot;	&quot;	fe	fe	matched=no	71	punct	_	_
 103	,	,	fc	fc	matched=no	104	punct	_	_
 104	comentó	comentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-105	el	el	da0ms0	da0ms0	matched=no	106	det	_	_
-106	guardavallas	guardavalla	ncmp000	ncmp000	matched=no	104	nsubj	_	_
+105	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	106	det	_	_
+106	guardavallas	guardavalla	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	104	nsubj	_	_
 107	.	.	fp	fp	matched=no	104	punct	_	_
 
 1	Por	por	sps00	sps00	matched=no	15	cobj	_	_
@@ -204,11 +204,11 @@
 6	falso	falso	np00000	np00000	matched=no	5	dep	_	_
 7	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 8	tituló	titular	vmis3s0	vmis3s0	matched=no	0	root	_	_
-9	el	el	da0ms0	da0ms0	matched=no	11	det	_	_
-10	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
-11	Diario	diario	ncms000	ncms000	matched=no	8	nsubj	_	_
-12	Deportivo	deportivo	aq0ms0	aq0ms0	matched=no	11	amod	_	_
-13	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
+9	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	11	det	_	_
+10	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	11	punct	_	_
+11	Diario	diario	ncms000	ncms000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+12	Deportivo	deportivo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	11	amod	_	_
+13	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	11	punct	_	_
 14	,	,	fc	fc	matched=no	8	punct	_	_
 15	tras	tras	sps00	sps00	matched=no	8	prepv	_	_
 16	comentar	comentar	vmn0000	vmn0000	matched=no	15	pobj	_	_
@@ -388,8 +388,8 @@
 11	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
 12	,	,	fc	fc	matched=no	13	punct	_	_
 13	resumió	resumir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-14	el	el	da0ms0	da0ms0	matched=no	15	det	_	_
-15	diario	diario	ncms000	ncms000	matched=no	13	nsubj	_	_
+14	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	15	det	_	_
+15	diario	diario	ncms000	ncms000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
 16	.	.	fp	fp	matched=no	13	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_

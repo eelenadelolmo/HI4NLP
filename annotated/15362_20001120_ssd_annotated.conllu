@@ -22,9 +22,9 @@
 22	,	,	fc	fc	matched=no	23	punct	_	_
 23	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 24	hoy	hoy	rg	rg	matched=no	23	advmod	_	_
-25	la	el	da0fs0	da0fs0	matched=no	26	det	_	_
-26	prensa	prensa	ncfs000	ncfs000	matched=no	23	nsubj	_	_
-27	local	local	aq0cs0	aq0cs0	matched=no	26	amod	_	_
+25	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	26	det	_	_
+26	prensa	prensa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	23	nsubj	_	_
+27	local	local	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	26	amod	_	_
 28	.	.	fp	fp	matched=no	23	punct	_	_
 
 1	Las	el	da0fp0	da0fp0	matched=no	2	det	_	_

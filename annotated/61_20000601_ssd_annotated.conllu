@@ -299,8 +299,8 @@
 12	herida	herida	ncfs000	ncfs000	matched=no	10	coord	_	_
 13	,	,	fc	fc	matched=no	4	punct	_	_
 14	aseguraron	asegurar	vmis3p0	vmis3p0	matched=no	0	root	_	_
-15	fuentes	fuente	ncfp000	ncfp000	matched=no	14	nsubj	_	_
-16	oficiales	oficial	aq0cp0	aq0cp0	matched=no	15	amod	_	_
+15	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	14	nsubj	_	_
+16	oficiales	oficial	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	15	amod	_	_
 17	.	.	fp	fp	matched=no	14	punct	_	_
 
 1	Poco	poco	rg	rg	matched=no	2	advmod	_	_

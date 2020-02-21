@@ -3,11 +3,11 @@
 3	SE	se	p0000000	p0000000	matched=no	5	reflec	_	_
 4	HAN	han	vaip3p0	vaip3p0	matched=no	0	root	_	_
 5	REGISTRADO	registrado	vmp00sm	vmp00sm	matched=no	4	vobj	_	_
-6	OCHO	ocho	dn00p0	dn00p0	matched=no	7	det	_	_
-7	ACCIDENTES	accidente	ncmp000	ncmp000	matched=no	4	nsubj	_	_
-8	CON	con	sps00	sps00	matched=no	7	prepn	_	_
-9	AUTOBUSES	autobús	ncmp000	ncmp000	matched=no	8	pobj	_	_
-10	IMPLICADOS	implicado	aq0mpp	aq0mpp	matched=no	9	amod	_	_
+6	OCHO	ocho	dn00p0	dn00p0	matched=yes: nsubj child of root deprel	7	det	_	_
+7	ACCIDENTES	accidente	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+8	CON	con	sps00	sps00	matched=yes: nsubj child of root deprel	7	prepn	_	_
+9	AUTOBUSES	autobús	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	8	pobj	_	_
+10	IMPLICADOS	implicado	aq0mpp	aq0mpp	matched=yes: nsubj child of root deprel	9	amod	_	_
 11	.	.	fp	fp	matched=no	4	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

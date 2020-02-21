@@ -40,8 +40,8 @@
 7	-	-	fg	fg	matched=no	4	punct	_	_
 8	,	,	fc	fc	matched=no	9	punct	_	_
 9	reconocía	reconocer	vmii3s0	vmii3s0	matched=no	0	root	_	_
-10	Chechu	Chechu	np0000l	np0000l	matched=no	9	nsubj	_	_
-11	Biriukov	Biriukov	np0000l	np0000l	matched=no	10	appos	_	_
+10	Chechu	Chechu	np0000l	np0000l	matched=yes: nsubj child of root deprel	9	nsubj	_	_
+11	Biriukov	Biriukov	np0000l	np0000l	matched=yes: nsubj child of root deprel	10	appos	_	_
 12	...	...	fs	fs	matched=no	9	punct	_	_
 
 1	De	de	sps00	sps00	matched=no	3	advmod	_	_

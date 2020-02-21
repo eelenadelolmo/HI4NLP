@@ -126,7 +126,7 @@
 8	-	-	fg	fg	matched=no	4	punct	_	_
 9	-	-	fg	fg	matched=no	4	punct	_	_
 10	preguntó	preguntar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-11	Rafael	Rafael	np0000p	np0000p	matched=no	10	nsubj	_	_
+11	Rafael	Rafael	np0000p	np0000p	matched=yes: nsubj child of root deprel	10	nsubj	_	_
 12	un	uno	di0ms0	di0ms0	matched=no	13	det	_	_
 13	día	día	ncms000	ncms000	matched=no	10	tmod	_	_
 14	.	.	fp	fp	matched=no	10	punct	_	_
@@ -332,7 +332,7 @@
 1	-	-	fg	fg	matched=no	3	punct	_	_
 2	-	-	fg	fg	matched=no	3	punct	_	_
 3	coqueteó	coquetear	vmis3s0	vmis3s0	matched=no	0	root	_	_
-4	Antonia	Antonia	np0000p	np0000p	matched=no	3	nsubj	_	_
+4	Antonia	Antonia	np0000p	np0000p	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 5	púdicamente	púdicamente	rg	rg	matched=no	3	advmod	_	_
 6	.	.	fp	fp	matched=no	3	punct	_	_
 
@@ -353,11 +353,11 @@
 8	solo	solo	aq0ms0	aq0ms0	matched=no	7	amod	_	_
 9	se	se	p0000000	p0000000	matched=no	10	reflec	_	_
 10	necesita	necesitar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-11	la	el	da0fs0	da0fs0	matched=no	12	det	_	_
-12	mano	mano	ncfs000	ncfs000	matched=no	10	nsubj	_	_
-13	de	de	sps00	sps00	matched=no	12	prepn	_	_
-14	una	uno	di0fs0	di0fs0	matched=no	15	det	_	_
-15	esposa	esposa	ncfs000	ncfs000	matched=no	13	pobj	_	_
+11	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	12	det	_	_
+12	mano	mano	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	10	nsubj	_	_
+13	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	12	prepn	_	_
+14	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	15	det	_	_
+15	esposa	esposa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	13	pobj	_	_
 16	.	.	fp	fp	matched=no	10	punct	_	_
 
 1	Dios	Dios	np00000	np00000	matched=no	2	nsubj	_	_
@@ -375,7 +375,7 @@
 13	-	-	fg	fg	matched=no	2	punct	_	_
 14	-	-	fg	fg	matched=no	2	punct	_	_
 15	contestó	contestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-16	Rafael	Rafael	np0000p	np0000p	matched=no	15	nsubj	_	_
+16	Rafael	Rafael	np0000p	np0000p	matched=yes: nsubj child of root deprel	15	nsubj	_	_
 17	.	.	fp	fp	matched=no	15	punct	_	_
 
 1	Visto	visto	aq0msp	aq0msp	matched=no	7	cpred	_	_

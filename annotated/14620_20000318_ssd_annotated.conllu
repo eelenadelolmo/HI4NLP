@@ -33,12 +33,12 @@
 33	Unidos	unido	aq0ms0	aq0ms0	matched=no	32	amod	_	_
 34	,	,	fc	fc	matched=no	35	punct	_	_
 35	confirmó	confirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-36	hoy	hoy	rg	rg	matched=no	37	advmod	_	_
-37	un	uno	di0ms0	di0ms0	matched=no	38	det	_	_
-38	portavoz	portavoz	nccs000	nccs000	matched=no	35	nsubj	_	_
-39	del	del	spcms	spcms	matched=no	38	prepn	_	_
-40	Servicio	servicio	ncfs000	ncfs000	matched=no	39	pobj	_	_
-41	Secreto	secreto	nc00000	nc00000	matched=no	40	appos	_	_
+36	hoy	hoy	rg	rg	matched=yes: nsubj child of root deprel	37	advmod	_	_
+37	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	38	det	_	_
+38	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	35	nsubj	_	_
+39	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	38	prepn	_	_
+40	Servicio	servicio	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	39	pobj	_	_
+41	Secreto	secreto	nc00000	nc00000	matched=yes: nsubj child of root deprel	40	appos	_	_
 42	.	.	fp	fp	matched=no	35	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -116,13 +116,13 @@
 22	fraudes	fraude	ncmp000	ncmp000	matched=no	21	dobj	_	_
 23	,	,	fc	fc	matched=no	24	punct	_	_
 24	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-25	la	el	da0fs0	da0fs0	matched=no	26	det	_	_
-26	cadena	cadena	ncfs000	ncfs000	matched=no	24	nsubj	_	_
-27	de	de	sps00	sps00	matched=no	26	prepn	_	_
-28	noticias	noticia	ncfp000	ncfp000	matched=no	27	pobj	_	_
-29	por	por	sps00	sps00	matched=no	28	prepn	_	_
-30	televisión	televisión	ncfs000	ncfs000	matched=no	29	pobj	_	_
-31	MSNBC	MSNBC	np0000o	np0000o	matched=no	26	appos	_	_
+25	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	26	det	_	_
+26	cadena	cadena	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	24	nsubj	_	_
+27	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	26	prepn	_	_
+28	noticias	noticia	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	27	pobj	_	_
+29	por	por	sps00	sps00	matched=yes: nsubj child of root deprel	28	prepn	_	_
+30	televisión	televisión	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	29	pobj	_	_
+31	MSNBC	MSNBC	np0000o	np0000o	matched=yes: nsubj child of root deprel	26	appos	_	_
 32	.	.	fp	fp	matched=no	24	punct	_	_
 
 1	Un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

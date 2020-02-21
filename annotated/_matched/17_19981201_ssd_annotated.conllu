@@ -100,6 +100,15 @@
 12	sentidos	sentido	ncmp000	ncmp000	matched=no	11	pobj	_	_
 13	.	.	fp	fp	matched=no	2	punct	_	_
 
+1	Hoy	hoy	rg	rg	matched=no	4	advmod	_	_
+2	ya	ya	rg	rg	matched=no	4	advmod	_	_
+3	se	se	p0000000	p0000000	matched=no	4	reflec	_	_
+4	confunde	confundir	vmip3s0	vmip3s0	matched=no	0	root	_	_
+5	información	información	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+6	con	con	sps00	sps00	matched=no	4	oobj	_	_
+7	conocimiento	conocimiento	ncms000	ncms000	matched=no	6	pobj	_	_
+8	.	.	fp	fp	matched=no	4	punct	_	_
+
 1	Mañana	mañana	rg	rg	matched=no	5	advmod	_	_
 2	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	3	det	_	_
 3	experiencia	experiencia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	nsubj	_	_

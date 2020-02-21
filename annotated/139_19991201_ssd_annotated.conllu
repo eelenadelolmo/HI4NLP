@@ -456,15 +456,15 @@
 3	tercero	tercero	ao0ms0	ao0ms0	matched=no	1	pobj	_	_
 4	se	se	p0300000	p0300000	matched=no	5	reflec	_	_
 5	reúnen	reunir	vmip3p0	vmip3p0	matched=no	0	root	_	_
-6	unas	uno	di0fp0	di0fp0	matched=no	8	det	_	_
-7	60	60	z	z	matched=no	6	num	_	_
-8	instantáneas	instantánea	ncfp000	ncfp000	matched=no	5	nsubj	_	_
-9	sobre	sobre	sps00	sps00	matched=no	8	prepn	_	_
-10	los	el	da0mp0	da0mp0	matched=no	11	det	_	_
-11	acontecimientos	acontecimiento	ncmp000	ncmp000	matched=no	9	pobj	_	_
-12	más	más	rg	rg	matched=no	13	advmod	_	_
-13	importantes	importante	aq0cp0	aq0cp0	matched=no	11	amod	_	_
-14	del	del	spcms	spcms	matched=no	11	prepn	_	_
-15	siglo	siglo	ncms000	ncms000	matched=no	14	pobj	_	_
+6	unas	uno	di0fp0	di0fp0	matched=yes: nsubj child of root deprel	8	det	_	_
+7	60	60	z	z	matched=yes: nsubj child of root deprel	6	num	_	_
+8	instantáneas	instantánea	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+9	sobre	sobre	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	acontecimientos	acontecimiento	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	9	pobj	_	_
+12	más	más	rg	rg	matched=yes: nsubj child of root deprel	13	advmod	_	_
+13	importantes	importante	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	11	amod	_	_
+14	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	11	prepn	_	_
+15	siglo	siglo	ncms000	ncms000	matched=yes: nsubj child of root deprel	14	pobj	_	_
 16	.	.	fp	fp	matched=no	5	punct	_	_
 

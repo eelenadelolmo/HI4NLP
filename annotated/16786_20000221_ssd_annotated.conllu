@@ -269,7 +269,7 @@
 41	negociaciones	negociación	ncfp000	ncfp000	matched=no	40	pobj	_	_
 42	,	,	fc	fc	matched=no	43	punct	_	_
 43	afirman	afirmar	vmip3p0	vmip3p0	matched=no	0	root	_	_
-44	los	el	da0mp0	da0mp0	matched=no	45	det	_	_
-45	expertos	experto	ncmp000	ncmp000	matched=no	43	nsubj	_	_
+44	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	45	det	_	_
+45	expertos	experto	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	43	nsubj	_	_
 46	.	.	fp	fp	matched=no	43	punct	_	_
 

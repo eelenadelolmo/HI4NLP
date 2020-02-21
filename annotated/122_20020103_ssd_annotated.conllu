@@ -93,8 +93,8 @@
 7	aún	aún	rg	rg	matched=no	8	advmod	_	_
 8	más	más	rg	rg	matched=no	6	advmod	_	_
 9	:	:	fd	fd	matched=no	2	punct	_	_
-10	la	el	da0fs0	da0fs0	matched=no	11	det	_	_
-11	cinta	cinta	ncfs000	ncfs000	matched=no	2	nsubj	_	_
+10	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	cinta	cinta	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 12	contenía	contener	vmii3s0	vmii3s0	matched=no	2	cobj	_	_
 13	algunos	alguno	di0mp0	di0mp0	matched=no	14	det	_	_
 14	planos	plano	ncmp000	ncmp000	matched=no	12	dobj	_	_
@@ -212,9 +212,9 @@
 24	.	.	fp	fp	matched=no	10	punct	_	_
 
 1	Pendía	pender	vmii3s0	vmii3s0	matched=no	0	root	_	_
-2	un	uno	di0ms0	di0ms0	matched=no	4	det	_	_
-3	gran	gran	aq0cs0	aq0cs0	matched=no	4	amod	_	_
-4	interrogante	interrogante	nccs000	nccs000	matched=no	1	nsubj	_	_
+2	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	4	det	_	_
+3	gran	gran	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	4	amod	_	_
+4	interrogante	interrogante	nccs000	nccs000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 5	sobre	sobre	sps00	sps00	matched=no	1	prepv	_	_
 6	si	si	cs	cs	matched=no	5	pobj	_	_
 7	era	ser	vsii3s0	vsii3s0	matched=no	6	cobj	_	_
@@ -400,10 +400,10 @@
 4	la	el	da0fs0	da0fs0	matched=no	5	det	_	_
 5	película	película	ncfs000	ncfs000	matched=no	3	pobj	_	_
 6	aparecen	aparecer	vmip3p0	vmip3p0	matched=no	0	root	_	_
-7	cameos	cameos	ncmp000	ncmp000	matched=no	6	nsubj	_	_
-8	de	de	sps00	sps00	matched=no	7	prepn	_	_
-9	muchísimos	muchísimo	di0mp0	di0mp0	matched=no	10	det	_	_
-10	famosos	famoso	ncmp000	ncmp000	matched=no	8	pobj	_	_
+7	cameos	cameos	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+8	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	7	prepn	_	_
+9	muchísimos	muchísimo	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	famosos	famoso	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	8	pobj	_	_
 11	.	.	fp	fp	matched=no	6	punct	_	_
 
 1	David	David	np0000l	np0000l	matched=no	6	coord	_	_
@@ -720,11 +720,11 @@
 3	En	en	sps00	sps00	matched=no	5	prepv	_	_
 4	Zoolander	Zoolander	np00000	np00000	matched=no	3	pobj	_	_
 5	aparecen	aparecer	vmip3p0	vmip3p0	matched=no	0	root	_	_
-6	sus	su	dp3cp0	dp3cp0	matched=no	7	poss	_	_
-7	padres	padre	ncmp000	ncmp000	matched=no	8	coord	_	_
-8	y	y	cc	cc	matched=no	5	nsubj	_	_
-9	su	su	dp3cs0	dp3cs0	matched=no	10	poss	_	_
-10	esposa	esposa	ncfs000	ncfs000	matched=no	8	coord	_	_
+6	sus	su	dp3cp0	dp3cp0	matched=yes: nsubj child of root deprel	7	poss	_	_
+7	padres	padre	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	8	coord	_	_
+8	y	y	cc	cc	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+9	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	10	poss	_	_
+10	esposa	esposa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	8	coord	_	_
 11	.	.	fp	fp	matched=no	5	punct	_	_
 
 1	¿	¿	fia	fia	matched=no	5	punct	_	_

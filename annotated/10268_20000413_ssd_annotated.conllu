@@ -167,7 +167,7 @@
 42	confesó	confesar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 43	a	a	sps00	sps00	matched=no	42	iobj	_	_
 44	Efe	Efe	np0000o	np0000o	matched=no	43	pobj	_	_
-45	Toni	Toni	np0000p	np0000p	matched=no	42	nsubj	_	_
+45	Toni	Toni	np0000p	np0000p	matched=yes: nsubj child of root deprel	42	nsubj	_	_
 46	.	.	fp	fp	matched=no	42	punct	_	_
 
 1	Además	además	rg	rg	matched=no	7	advmod	_	_
@@ -456,8 +456,8 @@
 45	&quot;	&quot;	fe	fe	matched=no	30	punct	_	_
 46	,	,	fc	fc	matched=no	47	punct	_	_
 47	confesó	confesar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-48	el	el	da0ms0	da0ms0	matched=no	49	det	_	_
-49	guardameta	guardameta	nccs000	nccs000	matched=no	47	nsubj	_	_
+48	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	49	det	_	_
+49	guardameta	guardameta	nccs000	nccs000	matched=yes: nsubj child of root deprel	47	nsubj	_	_
 50	.	.	fp	fp	matched=no	47	punct	_	_
 
 1	Respecto	respecto	ncfp000	ncfp000	matched=no	22	advcl	_	_
@@ -634,6 +634,6 @@
 11	&quot;	&quot;	fe	fe	matched=no	5	punct	_	_
 12	,	,	fc	fc	matched=no	13	punct	_	_
 13	concluyó	concluir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-14	Toni	Toni	np0000p	np0000p	matched=no	13	nsubj	_	_
+14	Toni	Toni	np0000p	np0000p	matched=yes: nsubj child of root deprel	13	nsubj	_	_
 15	.	.	fp	fp	matched=no	13	punct	_	_
 

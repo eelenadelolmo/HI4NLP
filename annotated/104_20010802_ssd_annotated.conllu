@@ -19,10 +19,10 @@
 2	estos	este	dd0mp0	dd0mp0	matched=no	3	det	_	_
 3	términos	término	ncmp000	ncmp000	matched=no	1	pobj	_	_
 4	justifica	justificar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-5	la	el	da0fs0	da0fs0	matched=no	6	det	_	_
-6	Audiencia	audiencia	ncfs000	ncfs000	matched=no	4	nsubj	_	_
-7	de	de	sps00	sps00	matched=no	6	prepn	_	_
-8	Girona	Girona	np00000	np00000	matched=no	7	pobj	_	_
+5	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	Audiencia	audiencia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+7	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	6	prepn	_	_
+8	Girona	Girona	np00000	np00000	matched=yes: nsubj child of root deprel	7	pobj	_	_
 9	la	el	da0fs0	da0fs0	matched=no	10	det	_	_
 10	petición	petición	ncfs000	ncfs000	matched=no	4	dobj	_	_
 11	de	de	sps00	sps00	matched=no	10	prepn	_	_

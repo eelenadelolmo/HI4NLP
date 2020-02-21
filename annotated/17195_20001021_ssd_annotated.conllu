@@ -41,10 +41,10 @@
 41	humano	humano	aq0ms0	aq0ms0	matched=no	40	amod	_	_
 42	,	,	fc	fc	matched=no	43	punct	_	_
 43	informaron	informar	vmis3p0	vmis3p0	matched=no	0	root	_	_
-44	fuentes	fuente	ncfp000	ncfp000	matched=no	43	nsubj	_	_
-45	de	de	sps00	sps00	matched=no	44	prepn	_	_
-46	la	el	da0fs0	da0fs0	matched=no	47	det	_	_
-47	industria	industria	ncfs000	ncfs000	matched=no	45	pobj	_	_
+44	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	43	nsubj	_	_
+45	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	44	prepn	_	_
+46	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	47	det	_	_
+47	industria	industria	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	45	pobj	_	_
 48	.	.	fp	fp	matched=no	43	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=no	2	det	_	_
@@ -417,8 +417,8 @@
 35	&quot;	&quot;	fe	fe	matched=no	26	punct	_	_
 36	,	,	fc	fc	matched=no	37	punct	_	_
 37	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-38	el	el	da0ms0	da0ms0	matched=no	39	det	_	_
-39	ejecutivo	ejecutivo	ncms000	ncms000	matched=no	37	nsubj	_	_
+38	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	39	det	_	_
+39	ejecutivo	ejecutivo	ncms000	ncms000	matched=yes: nsubj child of root deprel	37	nsubj	_	_
 40	.	.	fp	fp	matched=no	37	punct	_	_
 
 1	Portavoces	portavoz	nccp000	nccp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_

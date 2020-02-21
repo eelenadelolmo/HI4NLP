@@ -217,8 +217,8 @@
 53	Telecomunicaciones	telecomunicación	ncms000	ncms000	matched=no	52	pobj	_	_
 54	,	,	fc	fc	matched=no	55	punct	_	_
 55	indica	indicar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-56	el	el	da0ms0	da0ms0	matched=no	57	det	_	_
-57	aviso	aviso	ncms000	ncms000	matched=no	55	nsubj	_	_
+56	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	57	det	_	_
+57	aviso	aviso	ncms000	ncms000	matched=yes: nsubj child of root deprel	55	nsubj	_	_
 58	.	.	fp	fp	matched=no	55	punct	_	_
 
 1	Telefónica	Telefónica	np00000	np00000	matched=yes: nsubj child of root deprel	3	nsubj	_	_

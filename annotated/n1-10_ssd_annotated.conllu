@@ -5,8 +5,8 @@
 5	desplazados	desplazado	ncmp000	ncmp000	matched=no	4	pobj	_	_
 6	lo	él	pp3msa00	pp3msa00	matched=no	7	dobj	_	_
 7	constituyen	constituir	vmip3p0	vmip3p0	matched=no	0	root	_	_
-8	los	el	da0mp0	da0mp0	matched=no	9	det	_	_
-9	estudiantes	estudiante	nccp000	nccp000	matched=no	7	nsubj	_	_
+8	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	estudiantes	estudiante	nccp000	nccp000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
 10	.	.	fp	fp	matched=no	7	punct	_	_
 
 1	Andrea	Andrea	np0000l	np0000l	matched=yes: nsubj child of root deprel	3	nsubj	_	_
@@ -111,8 +111,8 @@
 19	-	-	fg	fg	matched=no	16	punct	_	_
 20	,	,	fc	fc	matched=no	21	punct	_	_
 21	afirma	afirmar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-22	este	este	dd0ms0	dd0ms0	matched=no	23	det	_	_
-23	universitario	universitario	ncms000	ncms000	matched=no	21	nsubj	_	_
+22	este	este	dd0ms0	dd0ms0	matched=yes: nsubj child of root deprel	23	det	_	_
+23	universitario	universitario	ncms000	ncms000	matched=yes: nsubj child of root deprel	21	nsubj	_	_
 24	.	.	fp	fp	matched=no	21	punct	_	_
 
 1	Entre	entre	sps00	sps00	matched=no	19	prepv	_	_

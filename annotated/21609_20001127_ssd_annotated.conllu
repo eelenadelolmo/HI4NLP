@@ -164,8 +164,8 @@
 27	&quot;	&quot;	fe	fe	matched=no	17	punct	_	_
 28	,	,	fc	fc	matched=no	29	punct	_	_
 29	asegura	asegurar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-30	la	el	da0fs0	da0fs0	matched=no	31	det	_	_
-31	organización	organización	ncfs000	ncfs000	matched=no	29	nsubj	_	_
+30	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	31	det	_	_
+31	organización	organización	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
 32	.	.	fp	fp	matched=no	29	punct	_	_
 
 1	Amigos	amigo	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	nsubj	_	_

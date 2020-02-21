@@ -26,15 +26,15 @@
 26	país	país	ncms000	ncms000	matched=no	24	pobj	_	_
 27	,	,	fc	fc	matched=no	28	punct	_	_
 28	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-29	el	el	da0ms0	da0ms0	matched=no	30	det	_	_
-30	ministro	ministro	ncms000	ncms000	matched=no	28	nsubj	_	_
-31	egipcio	egipcio	aq0ms0	aq0ms0	matched=no	30	amod	_	_
-32	de	de	sps00	sps00	matched=no	30	prepn	_	_
-33	Asuntos	asunto	ncms000	ncms000	matched=no	32	pobj	_	_
-34	Exteriores	exterior	aq0ms0	aq0ms0	matched=no	33	amod	_	_
-35	,	,	fc	fc	matched=no	30	punct	_	_
-36	Amro	Amro	np0000l	np0000l	matched=no	30	appos	_	_
-37	Musa	Musa	np0000l	np0000l	matched=no	36	appos	_	_
+29	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	30	det	_	_
+30	ministro	ministro	ncms000	ncms000	matched=yes: nsubj child of root deprel	28	nsubj	_	_
+31	egipcio	egipcio	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	30	amod	_	_
+32	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	30	prepn	_	_
+33	Asuntos	asunto	ncms000	ncms000	matched=yes: nsubj child of root deprel	32	pobj	_	_
+34	Exteriores	exterior	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	33	amod	_	_
+35	,	,	fc	fc	matched=yes: nsubj child of root deprel	30	punct	_	_
+36	Amro	Amro	np0000l	np0000l	matched=yes: nsubj child of root deprel	30	appos	_	_
+37	Musa	Musa	np0000l	np0000l	matched=yes: nsubj child of root deprel	36	appos	_	_
 38	.	.	fp	fp	matched=no	28	punct	_	_
 
 1	Al	al	sps00	sps00	matched=no	3	advmod	_	_
@@ -187,7 +187,7 @@
 38	&quot;	&quot;	fe	fe	matched=no	35	punct	_	_
 39	,	,	fc	fc	matched=no	40	punct	_	_
 40	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-41	Musa	Musa	np0000p	np0000p	matched=no	40	nsubj	_	_
+41	Musa	Musa	np0000p	np0000p	matched=yes: nsubj child of root deprel	40	nsubj	_	_
 42	.	.	fp	fp	matched=no	40	punct	_	_
 
 1	Especialistas	especialista	nccp000	nccp000	matched=yes: nsubj child of root deprel	7	nsubj	_	_

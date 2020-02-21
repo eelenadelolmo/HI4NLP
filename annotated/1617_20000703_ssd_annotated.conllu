@@ -34,8 +34,8 @@
 34	hoy	hoy	rg	rg	matched=no	33	advmod	_	_
 35	a	a	sps00	sps00	matched=no	33	iobj	_	_
 36	EFE	EFE	np0000o	np0000o	matched=no	35	pobj	_	_
-37	fuentes	fuente	ncfp000	ncfp000	matched=no	33	nsubj	_	_
-38	oficiales	oficial	aq0cp0	aq0cp0	matched=no	37	amod	_	_
+37	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	33	nsubj	_	_
+38	oficiales	oficial	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	37	amod	_	_
 39	.	.	fp	fp	matched=no	33	punct	_	_
 
 1	Cuatro	cuatro	pn0cp000	pn0cp000	matched=no	6	nsubj	_	_

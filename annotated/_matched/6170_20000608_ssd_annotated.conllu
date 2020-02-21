@@ -268,6 +268,36 @@
 31	inmigrantes	inmigrante	aq0cp0	aq0cp0	matched=no	30	amod	_	_
 32	.	.	fp	fp	matched=no	4	punct	_	_
 
+1	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
+2	Hay	haber	vaip3s0	vaip3s0	matched=no	25	dobj	_	_
+3	que	que	cs	cs	matched=no	2	dep	_	_
+4	ordenar	ordenar	vmn0000	vmn0000	matched=no	2	cobj	_	_
+5	la	el	da0fs0	da0fs0	matched=no	6	det	_	_
+6	llegada	llegada	ncfs000	ncfs000	matched=no	7	coord	_	_
+7	y	y	cc	cc	matched=no	2	dobj	_	_
+8	la	el	da0fs0	da0fs0	matched=no	9	det	_	_
+9	estancia	estancia	ncfs000	ncfs000	matched=no	7	coord	_	_
+10	para	para	sps00	sps00	matched=no	2	prepv	_	_
+11	conseguir	conseguir	vmn0000	vmn0000	matched=no	10	pobj	_	_
+12	la	el	da0fs0	da0fs0	matched=no	13	det	_	_
+13	integración	integración	ncfs000	ncfs000	matched=no	14	coord	_	_
+14	y	y	cc	cc	matched=no	11	dobj	_	_
+15	la	el	da0fs0	da0fs0	matched=no	17	det	_	_
+16	mayor	mayor	aq0cs0	aq0cs0	matched=no	17	amod	_	_
+17	dignidad	dignidad	ncfs000	ncfs000	matched=no	14	coord	_	_
+18	para	para	sps00	sps00	matched=no	11	prepv	_	_
+19	quienes	quien	pr0cp000	pr0cp000	matched=no	20	nsubj	_	_
+20	vienen	venir	vmip3p0	vmip3p0	matched=no	18	rcmod	_	_
+21	a	a	sps00	sps00	matched=no	20	prepv	_	_
+22	trabajar	trabajar	vmn0000	vmn0000	matched=no	21	pobj	_	_
+23	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
+24	,	,	fc	fc	matched=no	25	punct	_	_
+25	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
+26	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	27	det	_	_
+27	presidente	presidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	25	nsubj	_	_
+28	autonómico	autonómico	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	27	amod	_	_
+29	.	.	fp	fp	matched=no	25	punct	_	_
+
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	ministro	ministro	ncms000	ncms000	matched=yes: nsubj child of root deprel	10	nsubj	_	_
 3	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	2	appos	_	_

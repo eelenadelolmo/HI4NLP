@@ -270,6 +270,14 @@
 19	contenerlo	contener	vmn0000	vmn0000	matched=no	17	dobj	_	_
 20	.	.	fp	fp	matched=no	7	punct	_	_
 
+1	Después	después	rg	rg	matched=no	2	advmod	_	_
+2	llegaron	llegar	vmis3p0	vmis3p0	matched=no	0	root	_	_
+3	otros	otro	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	5	det	_	_
+4	nueve	nueve	dn0cp0	dn0cp0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	coches	coche	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+6	policiales	policial	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	5	amod	_	_
+7	.	.	fp	fp	matched=no	2	punct	_	_
+
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	agentes	agente	nccp000	nccp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 3	acabaron	acabar	vmis3p0	vmis3p0	matched=no	0	root	_	_

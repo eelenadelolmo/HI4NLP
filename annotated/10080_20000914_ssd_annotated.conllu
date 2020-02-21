@@ -85,9 +85,9 @@
 41	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 42	,	,	fc	fc	matched=no	43	punct	_	_
 43	comentó	comentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-44	De	de	sps00	sps00	matched=no	43	nsubj	_	_
-45	la	el	da0fs0	da0fs0	matched=no	46	det	_	_
-46	Torre	torre	ncfs000	ncfs000	matched=no	44	pobj	_	_
+44	De	de	sps00	sps00	matched=yes: nsubj child of root deprel	43	nsubj	_	_
+45	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	46	det	_	_
+46	Torre	torre	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	44	pobj	_	_
 47	.	.	fp	fp	matched=no	43	punct	_	_
 
 1	Desde	desde	sps00	sps00	matched=no	8	prepv	_	_

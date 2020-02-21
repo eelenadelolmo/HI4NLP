@@ -123,8 +123,8 @@
 29	.	.	fp	fp	matched=no	16	punct	_	_
 
 1	Dicen	decir	vmip3p0	vmip3p0	matched=no	0	root	_	_
-2	ciertas	cierto	di0fp0	di0fp0	matched=no	3	det	_	_
-3	admiradoras	admiradora	ncfp000	ncfp000	matched=no	1	nsubj	_	_
+2	ciertas	cierto	di0fp0	di0fp0	matched=yes: nsubj child of root deprel	3	det	_	_
+3	admiradoras	admiradora	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 4	que	que	cs	cs	matched=no	1	dobj	_	_
 5	una	uno	di0fs0	di0fs0	matched=no	6	det	_	_
 6	pizca	pizca	ncfs000	ncfs000	matched=no	20	nsubj	_	_

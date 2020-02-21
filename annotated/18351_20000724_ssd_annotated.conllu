@@ -408,8 +408,8 @@
 4	se	se	p0000000	p0000000	matched=no	6	reflec	_	_
 5	han	haber	vaip3p0	vaip3p0	matched=no	0	root	_	_
 6	perfilado	perfilar	vmp00sm	vmp00sm	matched=no	5	vobj	_	_
-7	dos	dos	dn0cp0	dn0cp0	matched=no	8	det	_	_
-8	sectores	sector	ncmp000	ncmp000	matched=no	5	nsubj	_	_
+7	dos	dos	dn0cp0	dn0cp0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	sectores	sector	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
 9	dentro	dentro	rg	rg	matched=no	6	advmod	_	_
 10	del	del	spcms	spcms	matched=no	9	prep	_	_
 11	PSOE	PSOE	np00000	np00000	matched=no	10	pobj	_	_

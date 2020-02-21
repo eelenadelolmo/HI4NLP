@@ -105,8 +105,8 @@
 28	caso	caso	ncms000	ncms000	matched=no	27	pobj	_	_
 29	,	,	fc	fc	matched=no	4	punct	_	_
 30	agrega	agregar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-31	la	el	da0fs0	da0fs0	matched=no	32	det	_	_
-32	nota	nota	ncfs000	ncfs000	matched=no	30	nsubj	_	_
+31	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	32	det	_	_
+32	nota	nota	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	30	nsubj	_	_
 33	.	.	fp	fp	matched=no	30	punct	_	_
 
 1	Además	además	rg	rg	matched=no	7	advmod	_	_
@@ -272,8 +272,8 @@
 42	lienzos	lienzo	ncmp000	ncmp000	matched=no	40	nsubj	_	_
 43	,	,	fc	fc	matched=no	44	punct	_	_
 44	afirma	afirmar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-45	el	el	da0ms0	da0ms0	matched=no	46	det	_	_
-46	comunicado	comunicado	ncms000	ncms000	matched=no	44	nsubj	_	_
+45	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	46	det	_	_
+46	comunicado	comunicado	ncms000	ncms000	matched=yes: nsubj child of root deprel	44	nsubj	_	_
 47	.	.	fp	fp	matched=no	44	punct	_	_
 
 1	Hasta	hasta	sps00	sps00	matched=no	13	prepv	_	_

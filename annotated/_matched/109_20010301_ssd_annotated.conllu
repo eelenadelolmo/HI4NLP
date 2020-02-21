@@ -65,6 +65,24 @@
 30	plazas	plaza	ncfp000	ncfp000	matched=no	29	dobj	_	_
 31	.	.	fp	fp	matched=no	4	punct	_	_
 
+1	En	en	sps00	sps00	matched=no	7	prepv	_	_
+2	los	el	da0mp0	da0mp0	matched=no	4	det	_	_
+3	otros	otro	di0mp0	di0mp0	matched=no	4	det	_	_
+4	casos	caso	ncmp000	ncmp000	matched=no	1	pobj	_	_
+5	,	,	fc	fc	matched=no	7	punct	_	_
+6	se	se	p0000000	p0000000	matched=no	7	reflec	_	_
+7	esperan	esperar	vmip3p0	vmip3p0	matched=no	0	root	_	_
+8	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	resultados	resultado	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+10	inminentes	inminente	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	9	amod	_	_
+11	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	9	prepn	_	_
+12	estudios	estudio	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	11	pobj	_	_
+13	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	15	nsubj	_	_
+14	se	se	p0000000	p0000000	matched=yes: nsubj child of root deprel	15	reflec	_	_
+15	están	estar	vmip3p0	vmip3p0	matched=yes: nsubj child of root deprel	12	rcmod	_	_
+16	ultimando	ultimar	vmg0000	vmg0000	matched=yes: nsubj child of root deprel	15	attr	_	_
+17	.	.	fp	fp	matched=no	7	punct	_	_
+
 1	Estos	este	dd0mp0	dd0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	equipamientos	equipamiento	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
 3	se	se	p0000000	p0000000	matched=no	4	reflec	_	_

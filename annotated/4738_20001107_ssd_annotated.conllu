@@ -193,11 +193,11 @@
 63	&quot;	&quot;	fe	fe	matched=no	46	punct	_	_
 64	,	,	fc	fc	matched=no	65	punct	_	_
 65	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-66	el	el	da0ms0	da0ms0	matched=no	67	det	_	_
-67	presidente	presidente	ncms000	ncms000	matched=no	65	nsubj	_	_
-68	de	de	sps00	sps00	matched=no	67	prepn	_	_
-69	la	el	da0fs0	da0fs0	matched=no	70	det	_	_
-70	ACB	ACB	np00000	np00000	matched=no	68	pobj	_	_
+66	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	67	det	_	_
+67	presidente	presidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	65	nsubj	_	_
+68	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	67	prepn	_	_
+69	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	70	det	_	_
+70	ACB	ACB	np00000	np00000	matched=yes: nsubj child of root deprel	68	pobj	_	_
 71	.	.	fp	fp	matched=no	65	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	19	punct	_	_
@@ -318,9 +318,9 @@
 19	&quot;	&quot;	fe	fe	matched=no	13	punct	_	_
 20	,	,	fc	fc	matched=no	21	punct	_	_
 21	añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-22	el	el	da0ms0	da0ms0	matched=no	23	det	_	_
-23	directivo	directivo	ncms000	ncms000	matched=no	21	nsubj	_	_
-24	catalán	catalán	aq0ms0	aq0ms0	matched=no	23	amod	_	_
+22	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	23	det	_	_
+23	directivo	directivo	ncms000	ncms000	matched=yes: nsubj child of root deprel	21	nsubj	_	_
+24	catalán	catalán	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	23	amod	_	_
 25	.	.	fp	fp	matched=no	21	punct	_	_
 
 1	Además	además	rg	rg	matched=no	4	advmod	_	_
@@ -430,6 +430,6 @@
 69	&quot;	&quot;	fe	fe	matched=no	43	punct	_	_
 70	,	,	fc	fc	matched=no	71	punct	_	_
 71	recalcó	recalcar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-72	Portela	Portela	np00000	np00000	matched=no	71	nsubj	_	_
+72	Portela	Portela	np00000	np00000	matched=yes: nsubj child of root deprel	71	nsubj	_	_
 73	.	.	fp	fp	matched=no	71	punct	_	_
 

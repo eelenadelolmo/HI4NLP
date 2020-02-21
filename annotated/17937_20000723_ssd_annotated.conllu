@@ -34,9 +34,9 @@
 34	,	,	fc	fc	matched=no	32	punct	_	_
 35	domingo	domingo	ncms000	ncms000	matched=no	32	dobj	_	_
 36	,	,	fc	fc	matched=no	32	punct	_	_
-37	la	el	da0fs0	da0fs0	matched=no	38	det	_	_
-38	prensa	prensa	ncfs000	ncfs000	matched=no	32	nsubj	_	_
-39	local	local	aq0cs0	aq0cs0	matched=no	38	amod	_	_
+37	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	38	det	_	_
+38	prensa	prensa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	32	nsubj	_	_
+39	local	local	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	38	amod	_	_
 40	.	.	fp	fp	matched=no	32	punct	_	_
 
 1	Según	según	sps00	sps00	matched=no	37	advcl	_	_
@@ -76,11 +76,11 @@
 35	se	se	p0300000	p0300000	matched=no	37	reflec	_	_
 36	han	haber	vaip3p0	vaip3p0	matched=no	0	root	_	_
 37	incrementado	incrementar	vmp00sm	vmp00sm	matched=no	36	vobj	_	_
-38	los	el	da0mp0	da0mp0	matched=no	39	det	_	_
-39	decomisos	decomiso	ncmp000	ncmp000	matched=no	36	nsubj	_	_
-40	de	de	sps00	sps00	matched=no	39	prepn	_	_
-41	dinero	dinero	ncms000	ncms000	matched=no	40	pobj	_	_
-42	ilegal	ilegal	aq0cs0	aq0cs0	matched=no	41	amod	_	_
+38	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	39	det	_	_
+39	decomisos	decomiso	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	36	nsubj	_	_
+40	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	39	prepn	_	_
+41	dinero	dinero	ncms000	ncms000	matched=yes: nsubj child of root deprel	40	pobj	_	_
+42	ilegal	ilegal	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	41	amod	_	_
 43	hasta	hasta	sps00	sps00	matched=no	37	prepv	_	_
 44	duplicar	duplicar	vmn0000	vmn0000	matched=no	43	pobj	_	_
 45	la	el	da0fs0	da0fs0	matched=no	46	det	_	_

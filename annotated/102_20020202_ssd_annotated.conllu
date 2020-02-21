@@ -84,8 +84,8 @@
 
 1	Y	y	cc	cc	matched=no	2	te	_	_
 2	dice	decir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-3	el	el	da0ms0	da0ms0	matched=no	4	det	_	_
-4	hotelero	hotelero	ncms000	ncms000	matched=no	2	nsubj	_	_
+3	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	hotelero	hotelero	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 5	que	que	cs	cs	matched=no	2	dobj	_	_
 6	su	su	dp3cs0	dp3cs0	matched=no	7	poss	_	_
 7	amigo	amigo	ncms000	ncms000	matched=no	10	nsubj	_	_
@@ -202,8 +202,8 @@
 66	.	.	fp	fp	matched=no	37	punct	_	_
 
 1	Incluido	incluir	vmp00sm	vmp00sm	matched=no	0	root	_	_
-2	el	el	da0ms0	da0ms0	matched=no	3	det	_	_
-3	presidente	presidente	ncms000	ncms000	matched=no	1	nsubj	_	_
+2	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	3	det	_	_
+3	presidente	presidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 4	.	.	fp	fp	matched=no	1	punct	_	_
 
 1	Diga	decir	vmm03s0	vmm03s0	matched=no	0	root	_	_

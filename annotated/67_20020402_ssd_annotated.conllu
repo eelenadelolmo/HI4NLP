@@ -63,10 +63,10 @@
 6	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 7	,	,	fc	fc	matched=no	8	punct	_	_
 8	señalaron	señalar	vmis3p0	vmis3p0	matched=no	0	root	_	_
-9	fuentes	fuente	ncfp000	ncfp000	matched=no	8	nsubj	_	_
-10	de	de	sps00	sps00	matched=no	9	prepn	_	_
-11	la	el	da0fs0	da0fs0	matched=no	12	det	_	_
-12	compañía	compañía	ncfs000	ncfs000	matched=no	10	pobj	_	_
+9	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+10	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	9	prepn	_	_
+11	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	12	det	_	_
+12	compañía	compañía	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	10	pobj	_	_
 13	.	.	fp	fp	matched=no	8	punct	_	_
 
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_

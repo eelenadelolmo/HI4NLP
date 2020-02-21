@@ -101,7 +101,7 @@
 24	&quot;	&quot;	fe	fe	matched=no	30	punct	_	_
 25	,	,	fc	fc	matched=no	28	punct	_	_
 26	reconoció	reconocer	vmis3s0	vmis3s0	matched=no	0	root	_	_
-27	Clinton	Clinton	np0000p	np0000p	matched=no	26	nsubj	_	_
+27	Clinton	Clinton	np0000p	np0000p	matched=yes: nsubj child of root deprel	26	nsubj	_	_
 28	en	en	sps00	sps00	matched=no	26	prepv	_	_
 29	un	uno	di0ms0	di0ms0	matched=no	30	det	_	_
 30	acto	acto	ncms000	ncms000	matched=no	28	pobj	_	_
@@ -386,7 +386,7 @@
 14	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 15	,	,	fc	fc	matched=no	16	punct	_	_
 16	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-17	el	el	da0ms0	da0ms0	matched=no	18	det	_	_
-18	presidente	presidente	ncms000	ncms000	matched=no	16	nsubj	_	_
+17	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	18	det	_	_
+18	presidente	presidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	16	nsubj	_	_
 19	.	.	fp	fp	matched=no	16	punct	_	_
 

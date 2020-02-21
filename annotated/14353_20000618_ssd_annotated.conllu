@@ -58,8 +58,8 @@
 15	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 16	,	,	fc	fc	matched=no	17	punct	_	_
 17	titula	titular	vmip3s0	vmip3s0	matched=no	0	root	_	_
-18	The	The	np0000l	np0000l	matched=no	17	nsubj	_	_
-19	Observer	Observer	np0000l	np0000l	matched=no	18	appos	_	_
+18	The	The	np0000l	np0000l	matched=yes: nsubj child of root deprel	17	nsubj	_	_
+19	Observer	Observer	np0000l	np0000l	matched=yes: nsubj child of root deprel	18	appos	_	_
 20	.	.	fp	fp	matched=no	17	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	3	det	_	_
@@ -167,9 +167,9 @@
 14	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
 15	,	,	fc	fc	matched=no	16	punct	_	_
 16	titula	titular	vmip3s0	vmip3s0	matched=no	0	root	_	_
-17	The	The	ncfs000	ncfs000	matched=no	16	nsubj	_	_
-18	Sunday	Sunday	ncms000	ncms000	matched=no	17	appos	_	_
-19	Times	timar	np00000	np00000	matched=no	18	appos	_	_
+17	The	The	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	16	nsubj	_	_
+18	Sunday	Sunday	ncms000	ncms000	matched=yes: nsubj child of root deprel	17	appos	_	_
+19	Times	timar	np00000	np00000	matched=yes: nsubj child of root deprel	18	appos	_	_
 20	.	.	fp	fp	matched=no	16	punct	_	_
 
 1	Este	este	dd0ms0	dd0ms0	matched=no	2	det	_	_

@@ -179,16 +179,16 @@
 6	,	,	fc	fc	matched=no	8	punct	_	_
 7	se	él	p0300000	p0300000	matched=no	8	reflec	_	_
 8	acabó	acabar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-9	eso	ese	pd0ns000	pd0ns000	matched=no	8	nsubj	_	_
-10	de	de	sps00	sps00	matched=no	9	prepn	_	_
-11	usar	usar	vmn0000	vmn0000	matched=no	17	coord	_	_
-12	los	el	da0mp0	da0mp0	matched=no	13	det	_	_
-13	palillos	palillo	ncmp000	ncmp000	matched=no	11	dobj	_	_
-14	una	uno	di0fs0	di0fs0	matched=no	16	det	_	_
-15	sola	solo	aq0fs0	aq0fs0	matched=no	16	amod	_	_
-16	vez	vez	ncfs000	ncfs000	matched=no	11	tmod	_	_
-17	y	y	cc	cc	matched=no	10	pobj	_	_
-18	tirarlos	tirar	vmn0000	vmn0000	matched=no	17	coord	_	_
+9	eso	ese	pd0ns000	pd0ns000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+10	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	9	prepn	_	_
+11	usar	usar	vmn0000	vmn0000	matched=yes: nsubj child of root deprel	17	coord	_	_
+12	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	13	det	_	_
+13	palillos	palillo	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	11	dobj	_	_
+14	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	16	det	_	_
+15	sola	solo	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	16	amod	_	_
+16	vez	vez	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	11	tmod	_	_
+17	y	y	cc	cc	matched=yes: nsubj child of root deprel	10	pobj	_	_
+18	tirarlos	tirar	vmn0000	vmn0000	matched=yes: nsubj child of root deprel	17	coord	_	_
 19	.	.	fp	fp	matched=no	8	punct	_	_
 
 1	Hay	haber	vaip3s0	vaip3s0	matched=no	17	coord	_	_

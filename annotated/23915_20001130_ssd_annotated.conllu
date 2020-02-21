@@ -35,14 +35,14 @@
 35	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 36	hoy	hoy	rg	rg	matched=no	35	advmod	_	_
 37	Jueves	Jueves	ncms000	ncms000	matched=no	36	dep	_	_
-38	el	el	da0ms0	da0ms0	matched=no	39	det	_	_
-39	Instituto	instituto	ncms000	ncms000	matched=no	35	nsubj	_	_
-40	Nacional	nacional	aq0ms0	aq0ms0	matched=no	39	amod	_	_
-41	de	de	sps00	sps00	matched=no	39	prepn	_	_
-42	Estadística	Estadística	np0000o	np0000o	matched=no	41	pobj	_	_
-43	(	(	fpa	fpa	matched=no	44	punct	_	_
-44	INSEE	INSEE	np00000	np00000	matched=no	39	appos	_	_
-45	)	)	fpt	fpt	matched=no	44	punct	_	_
+38	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	39	det	_	_
+39	Instituto	instituto	ncms000	ncms000	matched=yes: nsubj child of root deprel	35	nsubj	_	_
+40	Nacional	nacional	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	39	amod	_	_
+41	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	39	prepn	_	_
+42	Estadística	Estadística	np0000o	np0000o	matched=yes: nsubj child of root deprel	41	pobj	_	_
+43	(	(	fpa	fpa	matched=yes: nsubj child of root deprel	44	punct	_	_
+44	INSEE	INSEE	np00000	np00000	matched=yes: nsubj child of root deprel	39	appos	_	_
+45	)	)	fpt	fpt	matched=yes: nsubj child of root deprel	44	punct	_	_
 46	.	.	fp	fp	matched=no	35	punct	_	_
 
 1	Si	si	cs	cs	matched=no	33	advcl	_	_

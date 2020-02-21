@@ -256,9 +256,9 @@
 32	&quot;	&quot;	fe	fe	matched=no	22	punct	_	_
 33	,	,	fc	fc	matched=no	34	punct	_	_
 34	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-35	el	el	da0ms0	da0ms0	matched=no	36	det	_	_
-36	líder	líder	nccs000	nccs000	matched=no	34	nsubj	_	_
-37	cubano	cubano	aq0ms0	aq0ms0	matched=no	36	amod	_	_
+35	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	36	det	_	_
+36	líder	líder	nccs000	nccs000	matched=yes: nsubj child of root deprel	34	nsubj	_	_
+37	cubano	cubano	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	36	amod	_	_
 38	.	.	fp	fp	matched=no	34	punct	_	_
 
 1	Castro	Castro	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_

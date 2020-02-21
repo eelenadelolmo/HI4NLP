@@ -36,8 +36,8 @@
 22	,	,	fc	fc	matched=no	24	punct	_	_
 23	se	se	p0000000	p0000000	matched=no	24	reflec	_	_
 24	registraron	registrar	vmis3p0	vmis3p0	matched=no	0	root	_	_
-25	varios	varios	di0mp0	di0mp0	matched=no	26	det	_	_
-26	incidentes	incidente	nccp000	nccp000	matched=no	24	nsubj	_	_
+25	varios	varios	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	26	det	_	_
+26	incidentes	incidente	nccp000	nccp000	matched=yes: nsubj child of root deprel	24	nsubj	_	_
 27	.	.	fp	fp	matched=no	24	punct	_	_
 
 1	Un	uno	di0ms0	di0ms0	matched=no	2	det	_	_

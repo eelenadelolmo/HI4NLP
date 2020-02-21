@@ -2,8 +2,8 @@
 2	consiguiente	consiguiente	aq0msp	aq0msp	matched=no	1	pobj	_	_
 3	,	,	fc	fc	matched=no	4	punct	_	_
 4	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
-5	condición	condición	ncfs000	ncfs000	matched=no	4	nsubj	_	_
-6	necesaria	necesario	aq0fs0	aq0fs0	matched=no	5	amod	_	_
+5	condición	condición	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+6	necesaria	necesario	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	5	amod	_	_
 7	que	que	cs	cs	matched=no	4	attr	_	_
 8	0	0	z	z	matched=no	7	cobj	_	_
 9	-	-	fg	fg	matched=no	7	punct	_	_

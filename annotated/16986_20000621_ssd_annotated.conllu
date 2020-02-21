@@ -70,8 +70,8 @@
 35	viajes	viaje	ncmp000	ncmp000	matched=no	33	dobj	_	_
 36	,	,	fc	fc	matched=no	19	punct	_	_
 37	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-38	la	el	da0fs0	da0fs0	matched=no	39	det	_	_
-39	ejecutiva	ejecutiva	ncfs000	ncfs000	matched=no	37	nsubj	_	_
+38	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	39	det	_	_
+39	ejecutiva	ejecutiva	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	37	nsubj	_	_
 40	.	.	fp	fp	matched=no	37	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

@@ -38,14 +38,14 @@
 38	)	)	fpt	fpt	matched=no	37	punct	_	_
 39	,	,	fc	fc	matched=no	40	punct	_	_
 40	señaló	señalar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-41	el	el	da0ms0	da0ms0	matched=no	42	det	_	_
-42	portavoz	portavoz	nccs000	nccs000	matched=no	40	nsubj	_	_
-43	de	de	sps00	sps00	matched=no	42	prepn	_	_
-44	la	el	da0fs0	da0fs0	matched=no	45	det	_	_
-45	Alianza	Alianza	np00000	np00000	matched=no	43	pobj	_	_
-46	,	,	fc	fc	matched=no	42	punct	_	_
-47	Jamie	Jamie	np0000l	np0000l	matched=no	42	appos	_	_
-48	Shea	Shea	np0000l	np0000l	matched=no	47	appos	_	_
+41	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	42	det	_	_
+42	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	40	nsubj	_	_
+43	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	42	prepn	_	_
+44	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	45	det	_	_
+45	Alianza	Alianza	np00000	np00000	matched=yes: nsubj child of root deprel	43	pobj	_	_
+46	,	,	fc	fc	matched=yes: nsubj child of root deprel	42	punct	_	_
+47	Jamie	Jamie	np0000l	np0000l	matched=yes: nsubj child of root deprel	42	appos	_	_
+48	Shea	Shea	np0000l	np0000l	matched=yes: nsubj child of root deprel	47	appos	_	_
 49	.	.	fp	fp	matched=no	40	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -236,6 +236,6 @@
 23	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 24	,	,	fc	fc	matched=no	25	punct	_	_
 25	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-26	Shea	Shea	np00000	np00000	matched=no	25	nsubj	_	_
+26	Shea	Shea	np00000	np00000	matched=yes: nsubj child of root deprel	25	nsubj	_	_
 27	.	.	fp	fp	matched=no	25	punct	_	_
 

@@ -262,13 +262,13 @@
 24	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 25	esta	este	dd0fs0	dd0fs0	matched=no	26	det	_	_
 26	tarde	tarde	ncfs000	ncfs000	matched=no	24	tmod	_	_
-27	Zhang	Zhang	np0000l	np0000l	matched=no	24	nsubj	_	_
-28	Qiyue	Qiyue	np0000l	np0000l	matched=no	27	appos	_	_
-29	,	,	fc	fc	matched=no	27	punct	_	_
-30	portavoz	portavoz	nccs000	nccs000	matched=no	27	appos	_	_
-31	de	de	sps00	sps00	matched=no	30	prepn	_	_
-32	la	el	da0fs0	da0fs0	matched=no	33	det	_	_
-33	Cancillería	Cancillería	np0000o	np0000o	matched=no	31	pobj	_	_
+27	Zhang	Zhang	np0000l	np0000l	matched=yes: nsubj child of root deprel	24	nsubj	_	_
+28	Qiyue	Qiyue	np0000l	np0000l	matched=yes: nsubj child of root deprel	27	appos	_	_
+29	,	,	fc	fc	matched=yes: nsubj child of root deprel	27	punct	_	_
+30	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	27	appos	_	_
+31	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	30	prepn	_	_
+32	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	33	det	_	_
+33	Cancillería	Cancillería	np0000o	np0000o	matched=yes: nsubj child of root deprel	31	pobj	_	_
 34	.	.	fp	fp	matched=no	24	punct	_	_
 
 1	Zhang	Zhang	np0000p	np0000p	matched=yes: nsubj child of root deprel	2	nsubj	_	_
@@ -412,8 +412,8 @@
 22	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 23	,	,	fc	fc	matched=no	24	punct	_	_
 24	reiteró	reiterar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-25	Zhang	Zhang	np0000l	np0000l	matched=no	24	nsubj	_	_
-26	Qiyue	Qiyue	np0000l	np0000l	matched=no	25	appos	_	_
+25	Zhang	Zhang	np0000l	np0000l	matched=yes: nsubj child of root deprel	24	nsubj	_	_
+26	Qiyue	Qiyue	np0000l	np0000l	matched=yes: nsubj child of root deprel	25	appos	_	_
 27	para	para	sps00	sps00	matched=no	24	prepv	_	_
 28	dejar	dejar	vmn0000	vmn0000	matched=no	27	pobj	_	_
 29	clara	claro	aq0fs0	aq0fs0	matched=no	28	cpred	_	_

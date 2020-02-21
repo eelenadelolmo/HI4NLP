@@ -43,6 +43,37 @@
 43	incondicionales	incondicional	nccp000	nccp000	matched=no	41	pobj	_	_
 44	.	.	fp	fp	matched=no	35	punct	_	_
 
+1	En	en	sps00	sps00	matched=no	5	prepv	_	_
+2	unos	uno	di0mp0	di0mp0	matched=no	3	det	_	_
+3	días	día	ncmp000	ncmp000	matched=no	1	pobj	_	_
+4	se	se	p0000000	p0000000	matched=no	5	reflec	_	_
+5	pondrá	poner	vmif3s0	vmif3s0	matched=no	0	root	_	_
+6	a	a	sps00	sps00	matched=no	5	prepv	_	_
+7	la	el	da0fs0	da0fs0	matched=no	8	det	_	_
+8	venta	venta	ncfs000	ncfs000	matched=no	6	pobj	_	_
+9	en	en	sps00	sps00	matched=no	5	prepv	_	_
+10	España	España	np00000	np00000	matched=no	9	pobj	_	_
+11	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	12	det	_	_
+12	videojuego	videojuego	ncms000	ncms000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+13	protagonizado	protagonizado	aq0msp	aq0msp	matched=yes: nsubj child of root deprel	12	amod	_	_
+14	por	por	sps00	sps00	matched=yes: nsubj child of root deprel	13	agent	_	_
+15	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	17	det	_	_
+16	sugerente	sugerente	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	17	amod	_	_
+17	Britney	Britney	np00000	np00000	matched=yes: nsubj child of root deprel	14	pobj	_	_
+18	digital	digital	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	17	amod	_	_
+19	,	,	fc	fc	matched=yes: nsubj child of root deprel	17	punct	_	_
+20	a	a	sps00	sps00	matched=yes: nsubj child of root deprel	17	prepn	_	_
+21	imagen	imagen	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	22	coord	_	_
+22	y	y	cc	cc	matched=yes: nsubj child of root deprel	20	pobj	_	_
+23	semejanza	semejanza	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	22	coord	_	_
+24	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	22	coord	_	_
+25	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	26	pobj	_	_
+26	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	24	pobj	_	_
+27	carne	carne	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	28	coord	_	_
+28	y	y	cc	cc	matched=yes: nsubj child of root deprel	26	pobj	_	_
+29	hueso	hueso	ncms000	ncms000	matched=yes: nsubj child of root deprel	28	coord	_	_
+30	.	.	fp	fp	matched=no	5	punct	_	_
+
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	juego	juego	ncms000	ncms000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
 3	básicamente	básicamente	rg	rg	matched=no	4	advmod	_	_

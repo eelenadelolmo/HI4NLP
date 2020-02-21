@@ -10,6 +10,37 @@
 10	ruta	ruta	ncfs000	ncfs000	matched=no	8	pobj	_	_
 11	.	.	fp	fp	matched=no	5	punct	_	_
 
+1	En	en	sps00	sps00	matched=no	13	prepv	_	_
+2	su	su	dp3cs0	dp3cs0	matched=no	3	poss	_	_
+3	estado	estado	ncms000	ncms000	matched=no	1	pobj	_	_
+4	de	de	sps00	sps00	matched=no	3	prepn	_	_
+5	ánimo	ánimo	ncms000	ncms000	matched=no	4	pobj	_	_
+6	,	,	fc	fc	matched=no	13	punct	_	_
+7	además	además	rg	rg	matched=no	13	prepv	_	_
+8	de	de	sps00	sps00	matched=no	7	prep	_	_
+9	cansancio	cansancio	ncms000	ncms000	matched=no	8	pobj	_	_
+10	físico	físico	aq0ms0	aq0ms0	matched=no	9	amod	_	_
+11	,	,	fc	fc	matched=no	13	punct	_	_
+12	se	se	p0000000	p0000000	matched=no	13	reflec	_	_
+13	van	ir	vmip3p0	vmip3p0	matched=no	0	root	_	_
+14	acumulando	acumular	vmg0000	vmg0000	matched=no	13	dobj	_	_
+15	otros	otro	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	16	det	_	_
+16	tipos	tipo	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
+17	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	16	prepn	_	_
+18	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	19	punct	_	_
+19	fatigas	fatiga	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	17	pobj	_	_
+20	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	19	punct	_	_
+21	,	,	fc	fc	matched=yes: nsubj child of root deprel	19	punct	_	_
+22	como	como	cs	cs	matched=yes: nsubj child of root deprel	19	dep	_	_
+23	son	ser	vsip3p0	vsip3p0	matched=yes: nsubj child of root deprel	22	cobj	_	_
+24	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	25	det	_	_
+25	separación	separación	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	23	attr	_	_
+26	prolongada	prolongado	aq0fsp	aq0fsp	matched=yes: nsubj child of root deprel	25	amod	_	_
+27	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	25	prepn	_	_
+28	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	29	poss	_	_
+29	familia	familia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	27	pobj	_	_
+30	.	.	fp	fp	matched=no	13	punct	_	_
+
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	falta	falta	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	20	nsubj	_	_
 3	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	2	prepn	_	_

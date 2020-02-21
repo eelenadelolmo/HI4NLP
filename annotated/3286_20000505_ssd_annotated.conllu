@@ -106,8 +106,8 @@
 24	&quot;	&quot;	fe	fe	matched=no	8	punct	_	_
 25	,	,	fc	fc	matched=no	26	punct	_	_
 26	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-27	Del	del	sps00	sps00	matched=no	26	nsubj	_	_
-28	Bosque	bosque	ncmp000	ncmp000	matched=no	27	pobj	_	_
+27	Del	del	sps00	sps00	matched=yes: nsubj child of root deprel	26	nsubj	_	_
+28	Bosque	bosque	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	27	pobj	_	_
 29	.	.	fp	fp	matched=no	26	punct	_	_
 
 1	Sobre	sobre	sps00	sps00	matched=no	14	advcl	_	_
@@ -165,9 +165,9 @@
 14	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
 15	,	,	fc	fc	matched=no	16	punct	_	_
 16	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-17	Vicente	Vicente	np0000a	np0000a	matched=no	16	nsubj	_	_
-18	Del	del	sps00	sps00	matched=no	17	prepn	_	_
-19	Bosque	bosque	ncms000	ncms000	matched=no	18	pobj	_	_
+17	Vicente	Vicente	np0000a	np0000a	matched=yes: nsubj child of root deprel	16	nsubj	_	_
+18	Del	del	sps00	sps00	matched=yes: nsubj child of root deprel	17	prepn	_	_
+19	Bosque	bosque	ncms000	ncms000	matched=yes: nsubj child of root deprel	18	pobj	_	_
 20	.	.	fp	fp	matched=no	16	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	15	punct	_	_
@@ -226,8 +226,8 @@
 54	&quot;	&quot;	fe	fe	matched=no	15	punct	_	_
 55	,	,	fc	fc	matched=no	56	punct	_	_
 56	continuó	continuar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-57	el	el	da0ms0	da0ms0	matched=no	58	det	_	_
-58	entrenador	entrenador	ncms000	ncms000	matched=no	56	nsubj	_	_
+57	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	58	det	_	_
+58	entrenador	entrenador	ncms000	ncms000	matched=yes: nsubj child of root deprel	56	nsubj	_	_
 59	.	.	fp	fp	matched=no	56	punct	_	_
 
 1	Del	del	sps00	sps00	matched=yes: nsubj child of root deprel	4	nsubj	_	_

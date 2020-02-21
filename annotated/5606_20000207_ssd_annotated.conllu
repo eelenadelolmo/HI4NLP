@@ -53,8 +53,8 @@
 53	,	,	fc	fc	matched=no	54	punct	_	_
 54	publica	publicar	vmip3s0	vmip3s0	matched=no	0	root	_	_
 55	hoy	hoy	rg	rg	matched=no	54	advmod	_	_
-56	la	el	da0fs0	da0fs0	matched=no	57	det	_	_
-57	prensa	prensa	ncfs000	ncfs000	matched=no	54	nsubj	_	_
+56	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	57	det	_	_
+57	prensa	prensa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	54	nsubj	_	_
 58	.	.	fp	fp	matched=no	54	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

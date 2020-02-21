@@ -258,7 +258,7 @@
 19	&quot;	&quot;	fe	fe	matched=no	10	punct	_	_
 20	,	,	fc	fc	matched=no	21	punct	_	_
 21	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-22	Morales	Morales	np00000	np00000	matched=no	21	nsubj	_	_
+22	Morales	Morales	np00000	np00000	matched=yes: nsubj child of root deprel	21	nsubj	_	_
 23	.	.	fp	fp	matched=no	21	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	19	punct	_	_
@@ -357,7 +357,7 @@
 20	&quot;	&quot;	fe	fe	matched=no	10	punct	_	_
 21	,	,	fc	fc	matched=no	22	punct	_	_
 22	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-23	Barrera	Barrera	np00000	np00000	matched=no	22	nsubj	_	_
+23	Barrera	Barrera	np00000	np00000	matched=yes: nsubj child of root deprel	22	nsubj	_	_
 24	.	.	fp	fp	matched=no	22	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	13	punct	_	_
@@ -536,21 +536,21 @@
 42	&quot;	&quot;	fe	fe	matched=no	5	punct	_	_
 43	,	,	fc	fc	matched=no	44	punct	_	_
 44	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-45	Morales	Morales	np0000p	np0000p	matched=no	44	nsubj	_	_
-46	,	,	fc	fc	matched=no	45	punct	_	_
-47	que	que	pr0cn000	pr0cn000	matched=no	54	nsubj	_	_
-48	al	al	sps00	sps00	matched=no	50	coord	_	_
-49	igual	igual	rg	rg	matched=no	48	advmod	_	_
-50	que	que	cc	cc	matched=no	54	advcl	_	_
-51	su	su	dp3cs0	dp3cs0	matched=no	52	poss	_	_
-52	rival	rival	nccs000	nccs000	matched=no	50	cobj	_	_
-53	se	él	p0300000	p0300000	matched=no	54	reflec	_	_
-54	llevó	llevar	vmis3s0	vmis3s0	matched=no	45	rcmod	_	_
-55	una	uno	di0fs0	di0fs0	matched=no	56	det	_	_
-56	bolsa	bolsa	ncfs000	ncfs000	matched=no	54	dobj	_	_
-57	de	de	sps00	sps00	matched=no	56	prepn	_	_
-58	200.000	200000	z	z	matched=no	59	num	_	_
-59	dólares	dólar	zm	zm	matched=no	57	pobj	_	_
+45	Morales	Morales	np0000p	np0000p	matched=yes: nsubj child of root deprel	44	nsubj	_	_
+46	,	,	fc	fc	matched=yes: nsubj child of root deprel	45	punct	_	_
+47	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	54	nsubj	_	_
+48	al	al	sps00	sps00	matched=yes: nsubj child of root deprel	50	coord	_	_
+49	igual	igual	rg	rg	matched=yes: nsubj child of root deprel	48	advmod	_	_
+50	que	que	cc	cc	matched=yes: nsubj child of root deprel	54	advcl	_	_
+51	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	52	poss	_	_
+52	rival	rival	nccs000	nccs000	matched=yes: nsubj child of root deprel	50	cobj	_	_
+53	se	él	p0300000	p0300000	matched=yes: nsubj child of root deprel	54	reflec	_	_
+54	llevó	llevar	vmis3s0	vmis3s0	matched=yes: nsubj child of root deprel	45	rcmod	_	_
+55	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	56	det	_	_
+56	bolsa	bolsa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	54	dobj	_	_
+57	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	56	prepn	_	_
+58	200.000	200000	z	z	matched=yes: nsubj child of root deprel	59	num	_	_
+59	dólares	dólar	zm	zm	matched=yes: nsubj child of root deprel	57	pobj	_	_
 60	.	.	fp	fp	matched=no	44	punct	_	_
 
 1	Barrera	Barrera	np0000p	np0000p	matched=no	16	nsubj	_	_
@@ -621,7 +621,7 @@
 30	&quot;	&quot;	fe	fe	matched=no	17	punct	_	_
 31	,	,	fc	fc	matched=no	32	punct	_	_
 32	señaló	señalar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-33	Barrera	Barrera	np0000p	np0000p	matched=no	32	nsubj	_	_
+33	Barrera	Barrera	np0000p	np0000p	matched=yes: nsubj child of root deprel	32	nsubj	_	_
 34	.	.	fp	fp	matched=no	32	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -788,16 +788,16 @@
 30	&quot;	&quot;	fe	fe	matched=no	10	punct	_	_
 31	,	,	fc	fc	matched=no	32	punct	_	_
 32	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-33	Morales	Morales	np0000p	np0000p	matched=no	32	nsubj	_	_
-34	,	,	fc	fc	matched=no	33	punct	_	_
-35	que	que	pr0cn000	pr0cn000	matched=no	36	nsubj	_	_
-36	conectó	conectar	vmis3s0	vmis3s0	matched=no	33	rcmod	_	_
-37	319	319	z	z	matched=no	38	num	_	_
-38	golpes	golpe	ncmp000	ncmp000	matched=no	36	dobj	_	_
-39	por	por	sps00	sps00	matched=no	36	prepv	_	_
-40	299	299	z	z	matched=no	39	pobj	_	_
-41	para	para	sps00	sps00	matched=no	36	prepv	_	_
-42	Barrera	Barrera	np0000p	np0000p	matched=no	41	pobj	_	_
+33	Morales	Morales	np0000p	np0000p	matched=yes: nsubj child of root deprel	32	nsubj	_	_
+34	,	,	fc	fc	matched=yes: nsubj child of root deprel	33	punct	_	_
+35	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	36	nsubj	_	_
+36	conectó	conectar	vmis3s0	vmis3s0	matched=yes: nsubj child of root deprel	33	rcmod	_	_
+37	319	319	z	z	matched=yes: nsubj child of root deprel	38	num	_	_
+38	golpes	golpe	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	36	dobj	_	_
+39	por	por	sps00	sps00	matched=yes: nsubj child of root deprel	36	prepv	_	_
+40	299	299	z	z	matched=yes: nsubj child of root deprel	39	pobj	_	_
+41	para	para	sps00	sps00	matched=yes: nsubj child of root deprel	36	prepv	_	_
+42	Barrera	Barrera	np0000p	np0000p	matched=yes: nsubj child of root deprel	41	pobj	_	_
 43	.	.	fp	fp	matched=no	32	punct	_	_
 
 1	Lou	Lou	np0000l	np0000l	matched=yes: nsubj child of root deprel	21	nsubj	_	_
@@ -859,7 +859,7 @@
 26	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 27	,	,	fc	fc	matched=no	28	punct	_	_
 28	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-29	Barrera	Barrera	np0000p	np0000p	matched=no	28	nsubj	_	_
+29	Barrera	Barrera	np0000p	np0000p	matched=yes: nsubj child of root deprel	28	nsubj	_	_
 30	.	.	fp	fp	matched=no	28	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	9	punct	_	_

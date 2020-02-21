@@ -120,7 +120,7 @@
 31	.	.	fp	fp	matched=no	22	punct	_	_
 
 1	Resulta	resultar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-2	esto	este	pd0ns000	pd0ns000	matched=no	1	nsubj	_	_
+2	esto	este	pd0ns000	pd0ns000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 3	del	del	spcms	spcms	matched=no	1	prepv	_	_
 4	descubrimiento	descubrimiento	ncms000	ncms000	matched=no	3	pobj	_	_
 5	por	por	sps00	sps00	matched=no	4	prepn	_	_
@@ -157,10 +157,10 @@
 3	él	él	pp3ms000	pp3ms000	matched=no	2	pobj	_	_
 4	han	haber	vaip3p0	vaip3p0	matched=no	0	root	_	_
 5	surgido	surgir	vmp00sm	vmp00sm	matched=no	4	vobj	_	_
-6	otros	otro	pi0mp000	pi0mp000	matched=no	4	nsubj	_	_
-7	no	no	rn	rn	matched=no	8	neg	_	_
-8	menos	menos	rg	rg	matched=no	9	advmod	_	_
-9	importantes	importante	aq0cp0	aq0cp0	matched=no	6	amod	_	_
+6	otros	otro	pi0mp000	pi0mp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+7	no	no	rn	rn	matched=yes: nsubj child of root deprel	8	neg	_	_
+8	menos	menos	rg	rg	matched=yes: nsubj child of root deprel	9	advmod	_	_
+9	importantes	importante	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	6	amod	_	_
 10	.	.	fp	fp	matched=no	4	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_

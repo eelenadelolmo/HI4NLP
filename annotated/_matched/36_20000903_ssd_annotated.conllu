@@ -86,6 +86,27 @@
 16	Catalunya	Catalunya	np0000l	np0000l	matched=no	15	pobj	_	_
 17	.	.	fp	fp	matched=no	5	punct	_	_
 
+1	Se	se	p0000000	p0000000	matched=no	2	reflec	_	_
+2	impulsará	impulsar	vmif3s0	vmif3s0	matched=no	0	root	_	_
+3	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	ámbito	ámbito	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	coord	_	_
+5	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	4	prepn	_	_
+6	decisión	decisión	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	pobj	_	_
+7	y	y	cc	cc	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+8	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	estrategia	estrategia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	7	coord	_	_
+10	propia	propio	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	11	coord	_	_
+11	y	y	cc	cc	matched=yes: nsubj child of root deprel	9	dep	_	_
+12	complementaria	complementario	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	11	coord	_	_
+13	con	con	sps00	sps00	matched=yes: nsubj child of root deprel	12	prepa	_	_
+14	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	15	det	_	_
+15	proyecto	proyecto	ncms000	ncms000	matched=yes: nsubj child of root deprel	13	pobj	_	_
+16	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	15	prepn	_	_
+17	PP	PP	np00000	np00000	matched=yes: nsubj child of root deprel	16	pobj	_	_
+18	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	15	prepn	_	_
+19	España	España	np00000	np00000	matched=yes: nsubj child of root deprel	18	pobj	_	_
+20	.	.	fp	fp	matched=no	2	punct	_	_
+
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	3	det	_	_
 2	nuevo	nuevo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	3	amod	_	_
 3	escenario	escenario	ncms000	ncms000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
@@ -122,6 +143,31 @@
 34	España	España	np0000l	np0000l	matched=no	33	pobj	_	_
 35	.	.	fp	fp	matched=no	4	punct	_	_
 
+1	Es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
+2	CiU	CiU	np00000	np00000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+3	quien	quien	pr0cs000	pr0cs000	matched=no	4	nsubj	_	_
+4	ha	haber	vaip3s0	vaip3s0	matched=no	1	attr	_	_
+5	supeditado	supeditar	vmp00sm	vmp00sm	matched=no	4	cobj	_	_
+6	la	el	da0fs0	da0fs0	matched=no	7	det	_	_
+7	política	política	ncfs000	ncfs000	matched=no	5	dobj	_	_
+8	catalana	catalán	aq0fs0	aq0fs0	matched=no	7	amod	_	_
+9	a	a	sps00	sps00	matched=no	5	oobj	_	_
+10	la	el	da0fs0	da0fs0	matched=no	11	det	_	_
+11	española	español	aq0fs0	aq0fs0	matched=no	9	pobj	_	_
+12	,	,	fc	fc	matched=no	4	punct	_	_
+13	primero	primero	rg	rg	matched=no	14	advmod	_	_
+14	con	con	sps00	sps00	matched=no	19	coord	_	_
+15	el	el	da0ms0	da0ms0	matched=no	16	det	_	_
+16	Gobierno	Gobierno	np00000	np00000	matched=no	14	pobj	_	_
+17	del	del	spcms	spcms	matched=no	16	prepn	_	_
+18	PSOE	PSOE	np00000	np00000	matched=no	17	pobj	_	_
+19	y	y	cc	cc	matched=no	5	dep	_	_
+20	luego	luego	rg	rg	matched=no	21	advmod	_	_
+21	con	con	sps00	sps00	matched=no	19	coord	_	_
+22	el	el	da0ms0	da0ms0	matched=no	23	det	_	_
+23	PP	PP	np00000	np00000	matched=no	21	pobj	_	_
+24	.	.	fp	fp	matched=no	1	punct	_	_
+
 1	Piqué	Piqué	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 2	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
 3	un	uno	di0ms0	di0ms0	matched=no	4	det	_	_
@@ -149,6 +195,27 @@
 25	sociedad	sociedad	ncfs000	ncfs000	matched=no	23	pobj	_	_
 26	catalana	catalán	aq0fs0	aq0fs0	matched=no	25	amod	_	_
 27	.	.	fp	fp	matched=no	2	punct	_	_
+
+1	-	-	fg	fg	matched=no	5	punct	_	_
+2	-	-	fg	fg	matched=no	5	punct	_	_
+3	¿	¿	fia	fia	matched=no	5	punct	_	_
+4	Se	se	p0000000	p0000000	matched=no	6	reflec	_	_
+5	puede	poder	vmip3s0	vmip3s0	matched=no	0	root	_	_
+6	ocupar	ocupar	vmn0000	vmn0000	matched=no	5	dobj	_	_
+7	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	espacio	espacio	ncms000	ncms000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+9	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	CiU	CiU	np00000	np00000	matched=yes: nsubj child of root deprel	9	pobj	_	_
+11	impulsando	impulsar	vmg0000	vmg0000	matched=no	6	advcl	_	_
+12	un	uno	di0ms0	di0ms0	matched=no	13	det	_	_
+13	catalanismo	catalanismo	ncms000	ncms000	matched=no	11	dobj	_	_
+14	que	que	pr0cn000	pr0cn000	matched=no	16	nsubj	_	_
+15	no	no	rn	rn	matched=no	16	neg	_	_
+16	sea	ser	vssp3s0	vssp3s0	matched=no	13	rcmod	_	_
+17	nacionalista	nacionalista	aq0cs0	aq0cs0	matched=no	16	attr	_	_
+18	?	?	fit	fit	matched=no	5	punct	_	_
+19	-	-	fg	fg	matched=no	5	punct	_	_
+20	-	-	fg	fg	matched=no	5	punct	_	_
 
 1	CiU	CiU	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 2	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
@@ -324,6 +391,25 @@
 22	partido	partido	ncms000	ncms000	matched=no	21	pobj	_	_
 23	.	.	fp	fp	matched=no	4	punct	_	_
 
+1	Es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
+2	lógica	lógico	aq0fs0	aq0fs0	matched=no	1	attr	_	_
+3	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	aportación	aportación	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+5	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	4	prepn	_	_
+6	Piqué	Piqué	np00000	np00000	matched=yes: nsubj child of root deprel	5	pobj	_	_
+7	,	,	fc	fc	matched=no	1	punct	_	_
+8	como	como	cs	cs	matched=no	12	conj	_	_
+9	opción	opción	ncfs000	ncfs000	matched=no	8	cobj	_	_
+10	de	de	sps00	sps00	matched=no	9	prepn	_	_
+11	futuro	futuro	ncms000	ncms000	matched=no	10	pobj	_	_
+12	y	y	cc	cc	matched=no	1	dep	_	_
+13	por	por	sps00	sps00	matched=no	12	coord	_	_
+14	su	su	dp3cs0	dp3cs0	matched=no	15	poss	_	_
+15	condición	condición	ncfs000	ncfs000	matched=no	13	pobj	_	_
+16	de	de	sps00	sps00	matched=no	15	prepn	_	_
+17	ministro	ministro	ncms000	ncms000	matched=no	16	pobj	_	_
+18	.	.	fp	fp	matched=no	1	punct	_	_
+
 1	Birulés	Birulés	np00000	np00000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 2	ya	ya	rg	rg	matched=no	4	advmod	_	_
 3	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
@@ -343,6 +429,35 @@
 17	del	del	spcms	spcms	matched=no	14	cobj	_	_
 18	Gobierno	Gobierno	np00000	np00000	matched=no	17	pobj	_	_
 19	.	.	fp	fp	matched=no	3	punct	_	_
+
+1	-	-	fg	fg	matched=no	4	punct	_	_
+2	-	-	fg	fg	matched=no	4	punct	_	_
+3	Se	se	p0000000	p0000000	matched=no	4	reflec	_	_
+4	da	dar	vmip3s0	vmip3s0	matched=no	0	root	_	_
+5	por	por	sps00	sps00	matched=no	4	prepv	_	_
+6	sentada	sentado	aq0fsp	aq0fsp	matched=no	5	pobj	_	_
+7	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	8	poss	_	_
+8	candidatura	candidatura	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+9	a	a	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	reelección	reelección	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	9	pobj	_	_
+12	como	como	cs	cs	matched=yes: nsubj child of root deprel	11	prepn	_	_
+13	presidente	presidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	12	cobj	_	_
+14	,	,	fc	fc	matched=no	4	punct	_	_
+15	por	por	sps00	sps00	matched=no	4	advcl	_	_
+16	lo	el	da0ns0	da0ns0	matched=no	17	det	_	_
+17	que	que	pr0cn000	pr0cn000	matched=no	23	dobj	_	_
+18	la	el	da0fs0	da0fs0	matched=no	20	det	_	_
+19	principal	principal	aq0cs0	aq0cs0	matched=no	20	amod	_	_
+20	incógnita	incógnita	ncfs000	ncfs000	matched=no	23	nsubj	_	_
+21	del	del	spcms	spcms	matched=no	20	prepn	_	_
+22	congreso	congreso	ncms000	ncms000	matched=no	21	pobj	_	_
+23	está	estar	vmip3s0	vmip3s0	matched=no	15	rcmod	_	_
+24	en	en	sps00	sps00	matched=no	23	prepv	_	_
+25	el	el	da0ms0	da0ms0	matched=no	26	det	_	_
+26	número	número	ncms000	ncms000	matched=no	24	pobj	_	_
+27	dos	dos	pn0cp000	pn0cp000	matched=no	26	dep	_	_
+28	.	.	fp	fp	matched=no	4	punct	_	_
 
 1	¿	¿	fia	fia	matched=no	11	punct	_	_
 2	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	3	det	_	_

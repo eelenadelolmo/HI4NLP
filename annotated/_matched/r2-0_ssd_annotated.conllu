@@ -133,6 +133,16 @@
 36	ella	él	pp3fs000	pp3fs000	matched=no	35	pobj	_	_
 37	.	.	fp	fp	matched=no	15	punct	_	_
 
+1	-	-	fg	fg	matched=no	4	punct	_	_
+2	¡	¡	faa	faa	matched=no	4	punct	_	_
+3	No	no	rn	rn	matched=no	4	neg	_	_
+4	fastidies	fastidiar	vmsp2s0	vmsp2s0	matched=no	7	dobj	_	_
+5	!	!	fat	fat	matched=no	4	punct	_	_
+6	-	-	fg	fg	matched=no	4	punct	_	_
+7	contestó	contestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+8	Anasagasti	Anasagasti	np0000p	np0000p	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+9	-	-	fg	fg	matched=no	7	punct	_	_
+
 1	Pero	pero	cc	cc	matched=no	8	te	_	_
 2	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	3	det	_	_
 3	nombre	nombre	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
@@ -152,4 +162,37 @@
 17	del	del	spcms	spcms	matched=no	16	prepn	_	_
 18	poder	poder	ncms000	ncms000	matched=no	17	pobj	_	_
 19	.	.	fp	fp	matched=no	7	punct	_	_
+
+1	-	-	fg	fg	matched=no	5	punct	_	_
+2	Por	por	sps00	sps00	matched=no	5	prepv	_	_
+3	eso	ese	pd0ns000	pd0ns000	matched=no	2	pobj	_	_
+4	me	yo	pp1cs000	pp1cs000	matched=no	5	iobj	_	_
+5	pareció	parecer	vmis3s0	vmis3s0	matched=no	28	dobj	_	_
+6	bien	bien	rg	rg	matched=no	5	advmod	_	_
+7	la	el	da0fs0	da0fs0	matched=no	8	det	_	_
+8	fórmula	fórmula	ncfs000	ncfs000	matched=no	5	nsubj	_	_
+9	de	de	sps00	sps00	matched=no	8	prepn	_	_
+10	'	'	fz	fz	matched=no	11	punct	_	_
+11	ciudadano	ciudadano	nc00000	nc00000	matched=no	9	pobj	_	_
+12	'	'	fz	fz	matched=no	11	punct	_	_
+13	para	para	sps00	sps00	matched=no	5	prepv	_	_
+14	referirme	referir	vmn0000	vmn0000	matched=no	13	pobj	_	_
+15	al	al	spcms	spcms	matched=no	14	oobj	_	_
+16	Rey	Rey	np0000p	np0000p	matched=no	15	pobj	_	_
+17	,	,	fc	fc	matched=no	16	punct	_	_
+18	que	que	pr0cn000	pr0cn000	matched=no	22	nsubj	_	_
+19	como	como	cs	cs	matched=no	18	dep	_	_
+20	persona	persona	ncfs000	ncfs000	matched=no	19	cobj	_	_
+21	me	yo	pp1cs000	pp1cs000	matched=no	22	iobj	_	_
+22	merece	merecer	vmip3s0	vmip3s0	matched=no	16	rcmod	_	_
+23	todos	todo	di0mp0	di0mp0	matched=no	25	det	_	_
+24	los	el	da0mp0	da0mp0	matched=no	25	det	_	_
+25	respetos	respeto	ncmp000	ncmp000	matched=no	22	dobj	_	_
+26	-	-	fg	fg	matched=no	5	punct	_	_
+27	,	,	fc	fc	matched=no	28	punct	_	_
+28	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+29	Pilar	Pilar	np0000p	np0000p	matched=yes: nsubj child of root deprel	28	nsubj	_	_
+30	a	a	sps00	sps00	matched=no	28	advmod	_	_
+31	tiempo	tiempo	ncmp000	ncmp000	matched=no	30	pobj	_	_
+32	.	.	fp	fp	matched=no	28	punct	_	_
 

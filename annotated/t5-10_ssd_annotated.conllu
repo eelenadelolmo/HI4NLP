@@ -103,8 +103,8 @@
 4	tan	tanto	rg	rg	matched=no	5	advmod	_	_
 5	raros	raro	aq0mp0	aq0mp0	matched=no	3	attr	_	_
 6	,	,	fc	fc	matched=no	3	punct	_	_
-7	los	el	da0mp0	da0mp0	matched=no	8	det	_	_
-8	hombres	hombre	ncmp000	ncmp000	matched=no	3	nsubj	_	_
+7	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	hombres	hombre	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 9	.	.	fp	fp	matched=no	3	punct	_	_
 
 1	Así	así	rg	rg	matched=no	3	advmod	_	_

@@ -163,8 +163,8 @@
 19	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
 20	,	,	fc	fc	matched=no	21	punct	_	_
 21	agrega	agregar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-22	la	el	da0fs0	da0fs0	matched=no	23	det	_	_
-23	declaración	declaración	ncfs000	ncfs000	matched=no	21	nsubj	_	_
+22	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	23	det	_	_
+23	declaración	declaración	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	21	nsubj	_	_
 24	.	.	fp	fp	matched=no	21	punct	_	_
 
 1	Por	por	sps00	sps00	matched=no	11	advcl	_	_

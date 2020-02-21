@@ -31,10 +31,10 @@
 31	sexual	sexual	aq0cs0	aq0cs0	matched=no	30	amod	_	_
 32	,	,	fc	fc	matched=no	5	punct	_	_
 33	informa	informar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-34	el	el	da0ms0	da0ms0	matched=no	35	det	_	_
-35	Portavoz	Portavoz	np0000a	np0000a	matched=no	33	nsubj	_	_
-36	del	del	sps00	sps00	matched=no	35	prepn	_	_
-37	Gobierno	gobierno	ncms000	ncms000	matched=no	36	pobj	_	_
+34	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	35	det	_	_
+35	Portavoz	Portavoz	np0000a	np0000a	matched=yes: nsubj child of root deprel	33	nsubj	_	_
+36	del	del	sps00	sps00	matched=yes: nsubj child of root deprel	35	prepn	_	_
+37	Gobierno	gobierno	ncms000	ncms000	matched=yes: nsubj child of root deprel	36	pobj	_	_
 38	.	.	fp	fp	matched=no	33	punct	_	_
 
 1	Este	este	dd0ms0	dd0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -282,17 +282,17 @@
 24	la	el	da0fs0	da0fs0	matched=no	25	det	_	_
 25	indemnización	indemnización	ncfs000	ncfs000	matched=no	23	pobj	_	_
 26	,	,	fc	fc	matched=no	7	punct	_	_
-27	un	uno	di0ms0	di0ms0	matched=no	28	det	_	_
-28	límite	límite	ncms000	ncms000	matched=no	7	nsubj	_	_
-29	máximo	máximo	aq0ms0	aq0ms0	matched=no	30	coord	_	_
-30	y	y	cc	cc	matched=no	28	dep	_	_
-31	mínimo	mínimo	aq0ms0	aq0ms0	matched=no	30	coord	_	_
-32	en	en	sps00	sps00	matched=no	28	prepn	_	_
-33	el	el	da0ms0	da0ms0	matched=no	34	det	_	_
-34	pago	pago	ncms000	ncms000	matched=no	32	pobj	_	_
-35	de	de	sps00	sps00	matched=no	34	prepn	_	_
-36	la	el	da0fs0	da0fs0	matched=no	37	det	_	_
-37	misma	mismo	pi0fs000	pi0fs000	matched=no	35	pobj	_	_
+27	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	28	det	_	_
+28	límite	límite	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+29	máximo	máximo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	30	coord	_	_
+30	y	y	cc	cc	matched=yes: nsubj child of root deprel	28	dep	_	_
+31	mínimo	mínimo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	30	coord	_	_
+32	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	28	prepn	_	_
+33	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	34	det	_	_
+34	pago	pago	ncms000	ncms000	matched=yes: nsubj child of root deprel	32	pobj	_	_
+35	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	34	prepn	_	_
+36	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	37	det	_	_
+37	misma	mismo	pi0fs000	pi0fs000	matched=yes: nsubj child of root deprel	35	pobj	_	_
 38	.	.	fp	fp	matched=no	7	punct	_	_
 
 1	Por	por	spcms	spcms	matched=no	15	advmod	_	_

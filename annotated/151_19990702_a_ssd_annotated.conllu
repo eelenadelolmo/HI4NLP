@@ -103,14 +103,14 @@
 2	sea	sea	vsis3s0	vsis3s0	matched=no	1	rcmod	_	_
 3	,	,	fc	fc	matched=no	4	punct	_	_
 4	lloraba	llorar	vmii3s0	vmii3s0	matched=no	0	root	_	_
-5	el	el	da0ms0	da0ms0	matched=no	6	det	_	_
-6	músico	músico	ncms000	ncms000	matched=no	4	nsubj	_	_
+5	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	músico	músico	ncms000	ncms000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
 7	.	.	fp	fp	matched=no	4	punct	_	_
 
 1	Volverá	volver	vmif3s0	vmif3s0	matched=no	0	root	_	_
 2	en	en	sps00	sps00	matched=no	1	prepv	_	_
 3	octubre	octubre	ncms000	ncms000	matched=no	2	pobj	_	_
-4	Pedrito	Pedrito	np00000	np00000	matched=no	1	nsubj	_	_
+4	Pedrito	Pedrito	np00000	np00000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 5	.	.	fp	fp	matched=no	1	punct	_	_
 
 1	Volverá	volver	vmif3s0	vmif3s0	matched=no	2	coord	_	_

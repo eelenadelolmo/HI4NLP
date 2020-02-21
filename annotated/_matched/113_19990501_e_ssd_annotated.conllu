@@ -1,3 +1,14 @@
+1	Hoy	hoy	rg	rg	matched=no	2	advmod	_	_
+2	empiezan	empezar	vmip3p0	vmip3p0	matched=no	0	root	_	_
+3	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	bonificaciones	bonificación	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+5	para	para	sps00	sps00	matched=yes: nsubj child of root deprel	4	prepn	_	_
+6	camiones	camión	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	5	pobj	_	_
+7	en	en	sps00	sps00	matched=no	2	prepv	_	_
+8	la	el	da0fs0	da0fs0	matched=no	9	det	_	_
+9	A-2	A-2	np00000	np00000	matched=no	7	pobj	_	_
+10	.	.	fp	fp	matched=no	2	punct	_	_
+
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	Cámara	Cámara	np00000	np00000	matched=yes: nsubj child of root deprel	9	coord	_	_
 3	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	2	prepn	_	_

@@ -401,7 +401,7 @@
 38	&quot;	&quot;	fe	fe	matched=no	47	punct	_	_
 39	,	,	fc	fc	matched=no	42	punct	_	_
 40	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-41	Solana	Solana	np00000	np00000	matched=no	40	nsubj	_	_
+41	Solana	Solana	np00000	np00000	matched=yes: nsubj child of root deprel	40	nsubj	_	_
 42	a	a	sps00	sps00	matched=no	40	iobj	_	_
 43	este	este	dd0ms0	dd0ms0	matched=no	44	det	_	_
 44	diario	diario	ncms000	ncms000	matched=no	42	pobj	_	_
@@ -539,7 +539,7 @@
 49	&quot;	&quot;	fe	fe	matched=no	55	punct	_	_
 50	,	,	fc	fc	matched=no	53	punct	_	_
 51	escribió	escribir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-52	Rubinstein	Rubinstein	np00000	np00000	matched=no	51	nsubj	_	_
+52	Rubinstein	Rubinstein	np00000	np00000	matched=yes: nsubj child of root deprel	51	nsubj	_	_
 53	en	en	sps00	sps00	matched=no	51	prepv	_	_
 54	su	su	dp3cs0	dp3cs0	matched=no	55	poss	_	_
 55	misiva	misiva	ncfs000	ncfs000	matched=no	53	pobj	_	_

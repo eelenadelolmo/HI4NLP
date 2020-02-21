@@ -1,3 +1,21 @@
+1	Desde	desde	sps00	sps00	matched=no	7	prepv	_	_
+2	la	el	da0fs0	da0fs0	matched=no	3	det	_	_
+3	cocina	cocina	ncfs000	ncfs000	matched=no	1	pobj	_	_
+4	del	del	spcms	spcms	matched=no	3	prepn	_	_
+5	bar	bar	ncms000	ncms000	matched=no	4	pobj	_	_
+6	,	,	fc	fc	matched=no	7	punct	_	_
+7	seducía	seducir	vmii3s0	vmii3s0	matched=no	0	root	_	_
+8	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	paella	paella	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+10	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+11	era	ser	vsii3s0	vsii3s0	matched=yes: nsubj child of root deprel	9	rcmod	_	_
+12	inmediatamente	inmediatamente	rg	rg	matched=yes: nsubj child of root deprel	11	advmod	_	_
+13	devorada	devorar	vmp00sf	vmp00sf	matched=yes: nsubj child of root deprel	11	attr	_	_
+14	por	por	sps00	sps00	matched=yes: nsubj child of root deprel	11	agent	_	_
+15	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	16	det	_	_
+16	apetitos	apetito	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	14	pobj	_	_
+17	.	.	fp	fp	matched=no	7	punct	_	_
+
 1	Por	por	sps00	sps00	matched=no	8	prepv	_	_
 2	si	si	cs	cs	matched=no	1	pobj	_	_
 3	fuera	ser	vssi3s0	vssi3s0	matched=no	2	cobj	_	_

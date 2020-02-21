@@ -80,10 +80,10 @@ def main(argv):
             sys.exit()
 
         elif opt in ("-i", "--idir"):
-            inputdir = arg
+            inputdir = arg + "/"
 
         elif opt in ("-o", "--odir"):
-            outputdir = arg
+            outputdir = arg + "/"
 
     print('The input directory is', inputdir)
     print('The output directory is', outputdir)

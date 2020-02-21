@@ -306,8 +306,8 @@
 47	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 48	,	,	fc	fc	matched=no	49	punct	_	_
 49	agrega	agregar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-50	el	el	da0ms0	da0ms0	matched=no	51	det	_	_
-51	consejero	consejero	ncms000	ncms000	matched=no	49	nsubj	_	_
+50	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	51	det	_	_
+51	consejero	consejero	ncms000	ncms000	matched=yes: nsubj child of root deprel	49	nsubj	_	_
 52	en	en	sps00	sps00	matched=no	49	prepv	_	_
 53	su	su	dp3cs0	dp3cs0	matched=no	54	poss	_	_
 54	carta	carta	ncfs000	ncfs000	matched=no	52	pobj	_	_

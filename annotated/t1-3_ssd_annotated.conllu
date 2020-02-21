@@ -103,8 +103,8 @@
 2	para	para	sps00	sps00	matched=no	4	prepv	_	_
 3	ella	él	pp3fs000	pp3fs000	matched=no	2	pobj	_	_
 4	pasaban	pasar	vmii3p0	vmii3p0	matched=no	0	root	_	_
-5	los	el	da0mp0	da0mp0	matched=no	6	det	_	_
-6	años	año	ncmp000	ncmp000	matched=no	4	nsubj	_	_
+5	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	años	año	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
 7	.	.	fp	fp	matched=no	4	punct	_	_
 
 1	Su	su	dp3cs0	dp3cs0	matched=no	2	poss	_	_
@@ -302,7 +302,7 @@
 20	,	,	fc	fc	matched=no	22	punct	_	_
 21	entonces	entonces	rg	rg	matched=no	22	advmod	_	_
 22	eran	ser	vsii3p0	vsii3p0	matched=no	0	root	_	_
-23	ellas	él	pp3fp000	pp3fp000	matched=no	22	nsubj	_	_
+23	ellas	él	pp3fp000	pp3fp000	matched=yes: nsubj child of root deprel	22	nsubj	_	_
 24	las	el	da0fp0	da0fp0	matched=no	27	det	_	_
 25	que	que	pr0cn000	pr0cn000	matched=no	27	nsubj	_	_
 26	se	él	p0300000	p0300000	matched=no	27	reflec	_	_

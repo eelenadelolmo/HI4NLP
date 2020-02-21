@@ -535,8 +535,8 @@
 13	,	,	fc	fc	matched=no	14	punct	_	_
 14	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
 15	añadido	añadir	vmp00sm	vmp00sm	matched=no	14	vobj	_	_
-16	Serra	Serra	np0000l	np0000l	matched=no	14	nsubj	_	_
-17	Ferrer	Ferrer	np0000l	np0000l	matched=no	16	appos	_	_
+16	Serra	Serra	np0000l	np0000l	matched=yes: nsubj child of root deprel	14	nsubj	_	_
+17	Ferrer	Ferrer	np0000l	np0000l	matched=yes: nsubj child of root deprel	16	appos	_	_
 18	,	,	fc	fc	matched=no	14	punct	_	_
 19	en	en	sps00	sps00	matched=no	15	advcl	_	_
 20	alusión	alusión	ncfs000	ncfs000	matched=no	19	pobj	_	_

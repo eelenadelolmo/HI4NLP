@@ -93,6 +93,25 @@
 6	prohibiciones	prohibición	ncfp000	ncfp000	matched=no	3	dobj	_	_
 7	.	.	fp	fp	matched=no	3	punct	_	_
 
+1	A	a	sps00	sps00	matched=no	14	iobj	_	_
+2	los	el	da0mp0	da0mp0	matched=no	3	det	_	_
+3	condenados	condenado	ncmp000	ncmp000	matched=no	1	pobj	_	_
+4	hasta	hasta	sps00	sps00	matched=no	3	prepn	_	_
+5	cuatro	cuatro	dn0cp0	dn0cp0	matched=no	6	det	_	_
+6	años	año	ncmp000	ncmp000	matched=no	4	pobj	_	_
+7	a	a	sps00	sps00	matched=no	3	prepn	_	_
+8	partir	partir	vmn0000	vmn0000	matched=no	7	pobj	_	_
+9	de	de	sps00	sps00	matched=no	8	iobj	_	_
+10	1994	1994	z	z	matched=no	9	pobj	_	_
+11	se	se	p0000000	p0000000	matched=no	14	reflec	_	_
+12	les	él	pp3cpd00	pp3cpd00	matched=no	14	iobj	_	_
+13	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
+14	aplicado	aplicar	vmp00sm	vmp00sm	matched=no	13	vobj	_	_
+15	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	16	det	_	_
+16	indulto	indulto	ncms000	ncms000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
+17	total	total	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	16	amod	_	_
+18	.	.	fp	fp	matched=no	13	punct	_	_
+
 1	Hernández	Hernández	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 2	recordó	recordar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 3	,	,	fc	fc	matched=no	2	punct	_	_

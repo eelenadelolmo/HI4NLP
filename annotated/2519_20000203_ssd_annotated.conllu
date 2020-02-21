@@ -28,11 +28,11 @@
 28	hoy	hoy	rg	rg	matched=no	27	advmod	_	_
 29	en	en	sps00	sps00	matched=no	27	prepv	_	_
 30	Caracas	Caracas	np00000	np00000	matched=no	29	pobj	_	_
-31	un	uno	di0ms0	di0ms0	matched=no	32	det	_	_
-32	portavoz	portavoz	nccs000	nccs000	matched=no	27	nsubj	_	_
-33	del	del	spcms	spcms	matched=no	32	prepn	_	_
-34	exilio	exilio	ncms000	ncms000	matched=no	33	pobj	_	_
-35	cubano	cubano	aq0ms0	aq0ms0	matched=no	34	amod	_	_
+31	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	32	det	_	_
+32	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	27	nsubj	_	_
+33	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	32	prepn	_	_
+34	exilio	exilio	ncms000	ncms000	matched=yes: nsubj child of root deprel	33	pobj	_	_
+35	cubano	cubano	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	34	amod	_	_
 36	.	.	fp	fp	matched=no	27	punct	_	_
 
 1	Salvador	salvador	ncms000	ncms000	matched=no	12	nsubj	_	_

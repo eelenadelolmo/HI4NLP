@@ -332,6 +332,31 @@
 50	EEUU	EEUU	np00000	np00000	matched=no	49	pobj	_	_
 51	.	.	fp	fp	matched=no	20	punct	_	_
 
+1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_
+2	incidente	incidente	nccs000	nccs000	matched=no	3	nsubj	_	_
+3	tuvo	tener	vmp00sm	vmp00sm	matched=no	22	dobj	_	_
+4	lugar	lugar	ncfp000	ncfp000	matched=no	3	dobj	_	_
+5	cerca	cerca	rg	rg	matched=no	3	advmod	_	_
+6	de	de	sps00	sps00	matched=no	5	prep	_	_
+7	Mosul	Mosul	np00000	np00000	matched=no	6	pobj	_	_
+8	,	,	fc	fc	matched=no	5	punct	_	_
+9	en	en	sps00	sps00	matched=no	5	prep	_	_
+10	la	el	da0fs0	da0fs0	matched=no	11	det	_	_
+11	zona	zona	ncfs000	ncfs000	matched=no	9	pobj	_	_
+12	de	de	sps00	sps00	matched=no	11	prepn	_	_
+13	exclusión	exclusión	ncfs000	ncfs000	matched=no	12	pobj	_	_
+14	aérea	aéreo	aq0fs0	aq0fs0	matched=no	13	amod	_	_
+15	situada	situado	aq0fsp	aq0fsp	matched=no	11	amod	_	_
+16	en	en	sps00	sps00	matched=no	15	prepa	_	_
+17	el	el	da0ms0	da0ms0	matched=no	18	det	_	_
+18	norte	norte	ncms000	ncms000	matched=no	16	pobj	_	_
+19	del	del	spcms	spcms	matched=no	18	prepn	_	_
+20	país	país	ncms000	ncms000	matched=no	19	pobj	_	_
+21	,	,	fc	fc	matched=no	22	punct	_	_
+22	informa	informar	vmip3s0	vmip3s0	matched=no	0	root	_	_
+23	Reuters	Reuters	np00000	np00000	matched=yes: nsubj child of root deprel	22	nsubj	_	_
+24	.	.	fp	fp	matched=no	22	punct	_	_
+
 1	Horas	hora	ncfp000	ncfp000	matched=no	22	tmod	_	_
 2	más	más	rg	rg	matched=no	3	advmod	_	_
 3	tarde	tarde	rg	rg	matched=no	1	advmod	_	_
@@ -383,6 +408,33 @@
 19	área	área	ncfs000	ncfs000	matched=no	17	pobj	_	_
 20	&quot;	&quot;	fe	fe	matched=no	16	punct	_	_
 21	.	.	fp	fp	matched=no	4	punct	_	_
+
+1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_
+2	Sábado	Sábado	ncms000	ncms000	matched=no	4	dobj	_	_
+3	se	él	p0300000	p0300000	matched=no	4	reflec	_	_
+4	produjeron	producir	vmis3p0	vmis3p0	matched=no	0	root	_	_
+5	seis	seis	dn0cp0	dn0cp0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	incidentes	incidente	nccp000	nccp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+7	entre	entre	sps00	sps00	matched=yes: nsubj child of root deprel	6	prepn	_	_
+8	cazas	caza	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	7	pobj	_	_
+9	estadounidenses	estadounidense	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	8	amod	_	_
+10	y	y	cc	cc	matched=yes: nsubj child of root deprel	7	pobj	_	_
+11	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	12	det	_	_
+12	defensa	defensa	nccs000	nccs000	matched=yes: nsubj child of root deprel	10	coord	_	_
+13	antiaérea	antiaéreo	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	12	amod	_	_
+14	iraquí	iraquí	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	12	amod	_	_
+15	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	6	prepn	_	_
+16	esta	este	dd0fs0	dd0fs0	matched=yes: nsubj child of root deprel	18	det	_	_
+17	misma	mismo	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	18	det	_	_
+18	zona	zona	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	15	pobj	_	_
+19	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	18	prepn	_	_
+20	exclusión	exclusión	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	19	pobj	_	_
+21	,	,	fc	fc	matched=yes: nsubj child of root deprel	18	punct	_	_
+22	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	24	dobj	_	_
+23	Bagdad	Bagdad	np00000	np00000	matched=yes: nsubj child of root deprel	24	nsubj	_	_
+24	considera	considerar	vmip3s0	vmip3s0	matched=yes: nsubj child of root deprel	18	rcmod	_	_
+25	ilegal	ilegal	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	24	cpred	_	_
+26	.	.	fp	fp	matched=no	4	punct	_	_
 
 1	Un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	5	nsubj	_	_

@@ -71,14 +71,14 @@
 29	hoy	hoy	rg	rg	matched=no	31	advmod	_	_
 30	le	él	pp3csd00	pp3csd00	matched=no	31	iobj	_	_
 31	llueven	llover	vmip3p0	vmip3p0	matched=no	0	root	_	_
-32	las	el	da0fp0	da0fp0	matched=no	33	det	_	_
-33	felicitaciones	felicitación	ncfp000	ncfp000	matched=no	35	coord	_	_
-34	internacionales	internacional	aq0cp0	aq0cp0	matched=no	33	amod	_	_
-35	y	y	cc	cc	matched=no	31	nsubj	_	_
-36	las	el	da0fp0	da0fp0	matched=no	37	det	_	_
-37	invitaciones	invitación	ncfp000	ncfp000	matched=no	35	coord	_	_
-38	a	a	sps00	sps00	matched=no	37	prepn	_	_
-39	cumbres	cumbre	ncfp000	ncfp000	matched=no	38	pobj	_	_
+32	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	33	det	_	_
+33	felicitaciones	felicitación	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	35	coord	_	_
+34	internacionales	internacional	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	33	amod	_	_
+35	y	y	cc	cc	matched=yes: nsubj child of root deprel	31	nsubj	_	_
+36	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	37	det	_	_
+37	invitaciones	invitación	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	35	coord	_	_
+38	a	a	sps00	sps00	matched=yes: nsubj child of root deprel	37	prepn	_	_
+39	cumbres	cumbre	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	38	pobj	_	_
 40	.	.	fp	fp	matched=no	31	punct	_	_
 
 1	De	de	sps00	sps00	matched=no	5	prepn	_	_
@@ -571,8 +571,8 @@
 34	se	él	p0300000	p0300000	matched=no	36	reflec	_	_
 35	le	él	pp3csd00	pp3csd00	matched=no	36	iobj	_	_
 36	caen	caer	vmip3p0	vmip3p0	matched=no	0	root	_	_
-37	los	el	da0mp0	da0mp0	matched=no	38	det	_	_
-38	anillos	anillo	ncmp000	ncmp000	matched=no	36	nsubj	_	_
+37	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	38	det	_	_
+38	anillos	anillo	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	36	nsubj	_	_
 39	por	por	sps00	sps00	matched=no	36	prepv	_	_
 40	confesarse	confesar	vmn0000	vmn0000	matched=no	39	pobj	_	_
 41	nacionalista	nacionalista	nccs000	nccs000	matched=no	40	dobj	_	_

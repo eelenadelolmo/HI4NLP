@@ -54,12 +54,12 @@
 23	de	de	sps00	sps00	matched=no	22	prepv	_	_
 24	ser	ser	vsn0000	vsn0000	matched=no	23	pobj	_	_
 25	trágica	trágico	aq0fs0	aq0fs0	matched=no	24	cpred	_	_
-26	la	el	da0fs0	da0fs0	matched=no	27	det	_	_
-27	situación	situación	ncfs000	ncfs000	matched=no	22	nsubj	_	_
-28	en	en	sps00	sps00	matched=no	31	prepv	_	_
-29	que	que	pr0cn000	pr0cn000	matched=no	28	pobj	_	_
-30	se	él	p0300000	p0300000	matched=no	31	reflec	_	_
-31	encuentran	encontrar	vmip3p0	vmip3p0	matched=no	27	prepn	_	_
+26	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	27	det	_	_
+27	situación	situación	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	22	nsubj	_	_
+28	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	31	prepv	_	_
+29	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	28	pobj	_	_
+30	se	él	p0300000	p0300000	matched=yes: nsubj child of root deprel	31	reflec	_	_
+31	encuentran	encontrar	vmip3p0	vmip3p0	matched=yes: nsubj child of root deprel	27	prepn	_	_
 32	.	.	fp	fp	matched=no	22	punct	_	_
 
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	3	det	_	_
@@ -224,12 +224,12 @@
 5	IU	IU	np00000	np00000	matched=no	4	pobj	_	_
 6	no	no	rn	rn	matched=no	7	neg	_	_
 7	queda	quedar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-8	otro	otro	di0ms0	di0ms0	matched=no	9	det	_	_
-9	remedio	remedio	ncms000	ncms000	matched=no	7	nsubj	_	_
-10	que	que	cs	cs	matched=no	9	dep	_	_
-11	dar	dar	vmn0000	vmn0000	matched=no	10	cobj	_	_
-12	la	el	da0fs0	da0fs0	matched=no	13	det	_	_
-13	cara	cara	ncfs000	ncfs000	matched=no	11	dobj	_	_
+8	otro	otro	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	remedio	remedio	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+10	que	que	cs	cs	matched=yes: nsubj child of root deprel	9	dep	_	_
+11	dar	dar	vmn0000	vmn0000	matched=yes: nsubj child of root deprel	10	cobj	_	_
+12	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	13	det	_	_
+13	cara	cara	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	11	dobj	_	_
 14	.	.	fp	fp	matched=no	7	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -263,20 +263,20 @@
 
 1	Les	él	pp3cpd00	pp3cpd00	matched=no	2	dobj	_	_
 2	asesoran	asesorar	vmip3p0	vmip3p0	matched=no	0	root	_	_
-3	las	el	da0fp0	da0fp0	matched=no	5	det	_	_
-4	mismísimas	mismísimo	aq0fp0	aq0fp0	matched=no	5	amod	_	_
-5	Comisiones	comisión	ncms000	ncms000	matched=no	2	nsubj	_	_
-6	Obreras	obrero	aq0ms0	aq0ms0	matched=no	5	amod	_	_
-7	,	,	fc	fc	matched=no	5	punct	_	_
-8	que	que	pr0cn000	pr0cn000	matched=no	11	nsubj	_	_
-9	ya	ya	rg	rg	matched=no	11	advmod	_	_
-10	no	no	rn	rn	matched=no	11	neg	_	_
-11	son	ser	vsip3p0	vsip3p0	matched=no	5	rcmod	_	_
-12	correa	correa	ncfs000	ncfs000	matched=no	11	attr	_	_
-13	de	de	sps00	sps00	matched=no	12	prepn	_	_
-14	transmisión	transmisión	ncfs000	ncfs000	matched=no	13	pobj	_	_
-15	del	del	spcms	spcms	matched=no	12	prepn	_	_
-16	PCE	PCE	np00000	np00000	matched=no	15	pobj	_	_
+3	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	5	det	_	_
+4	mismísimas	mismísimo	aq0fp0	aq0fp0	matched=yes: nsubj child of root deprel	5	amod	_	_
+5	Comisiones	comisión	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+6	Obreras	obrero	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	5	amod	_	_
+7	,	,	fc	fc	matched=yes: nsubj child of root deprel	5	punct	_	_
+8	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+9	ya	ya	rg	rg	matched=yes: nsubj child of root deprel	11	advmod	_	_
+10	no	no	rn	rn	matched=yes: nsubj child of root deprel	11	neg	_	_
+11	son	ser	vsip3p0	vsip3p0	matched=yes: nsubj child of root deprel	5	rcmod	_	_
+12	correa	correa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	11	attr	_	_
+13	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	12	prepn	_	_
+14	transmisión	transmisión	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	13	pobj	_	_
+15	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	12	prepn	_	_
+16	PCE	PCE	np00000	np00000	matched=yes: nsubj child of root deprel	15	pobj	_	_
 17	.	.	fp	fp	matched=no	2	punct	_	_
 
 1	No	no	rn	rn	matched=no	3	neg	_	_
@@ -347,7 +347,7 @@
 8	se	él	pp3cn000	pp3cn000	matched=no	10	reflec	_	_
 9	lo	él	pp3msa00	pp3msa00	matched=no	10	dobj	_	_
 10	pague	pagar	vmsp3s0	vmsp3s0	matched=no	0	root	_	_
-11	él	él	pp3ms000	pp3ms000	matched=no	10	nsubj	_	_
+11	él	él	pp3ms000	pp3ms000	matched=yes: nsubj child of root deprel	10	nsubj	_	_
 12	.	.	fp	fp	matched=no	10	punct	_	_
 
 1	Todo	todo	pi0ms000	pi0ms000	matched=no	2	nsubj	_	_

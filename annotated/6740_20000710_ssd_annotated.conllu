@@ -86,11 +86,11 @@
 16	&quot;	&quot;	fe	fe	matched=no	9	punct	_	_
 17	,	,	fc	fc	matched=no	18	punct	_	_
 18	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-19	el	el	da0ms0	da0ms0	matched=no	21	det	_	_
-20	&quot;	&quot;	fe	fe	matched=no	21	punct	_	_
-21	halcón	halcón	ncms000	ncms000	matched=no	18	nsubj	_	_
-22	&quot;	&quot;	fe	fe	matched=no	21	punct	_	_
-23	Sharon	Sharon	np00000	np00000	matched=no	21	appos	_	_
+19	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	21	det	_	_
+20	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	21	punct	_	_
+21	halcón	halcón	ncms000	ncms000	matched=yes: nsubj child of root deprel	18	nsubj	_	_
+22	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	21	punct	_	_
+23	Sharon	Sharon	np00000	np00000	matched=yes: nsubj child of root deprel	21	appos	_	_
 24	a	a	sps00	sps00	matched=no	18	iobj	_	_
 25	Barak	Barak	np00000	np00000	matched=no	24	pobj	_	_
 26	.	.	fp	fp	matched=no	18	punct	_	_
@@ -359,11 +359,11 @@
 48	&quot;	&quot;	fe	fe	matched=no	38	punct	_	_
 49	,	,	fc	fc	matched=no	50	punct	_	_
 50	señaló	señalar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-51	el	el	da0ms0	da0ms0	matched=no	52	det	_	_
-52	líder	líder	nccs000	nccs000	matched=no	50	nsubj	_	_
-53	de	de	sps00	sps00	matched=no	52	prepn	_	_
-54	la	el	da0fs0	da0fs0	matched=no	55	det	_	_
-55	oposición	oposición	ncfs000	ncfs000	matched=no	53	pobj	_	_
+51	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	52	det	_	_
+52	líder	líder	nccs000	nccs000	matched=yes: nsubj child of root deprel	50	nsubj	_	_
+53	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	52	prepn	_	_
+54	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	55	det	_	_
+55	oposición	oposición	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	53	pobj	_	_
 56	.	.	fp	fp	matched=no	50	punct	_	_
 
 1	Barak	Barak	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_

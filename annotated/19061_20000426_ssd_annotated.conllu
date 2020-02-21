@@ -626,8 +626,8 @@
 48	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
 49	,	,	fc	fc	matched=no	50	punct	_	_
 50	afirma	afirmar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-51	el	el	da0ms0	da0ms0	matched=no	52	det	_	_
-52	juez	juez	nccs000	nccs000	matched=no	50	nsubj	_	_
+51	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	52	det	_	_
+52	juez	juez	nccs000	nccs000	matched=yes: nsubj child of root deprel	50	nsubj	_	_
 53	.	.	fp	fp	matched=no	50	punct	_	_
 
 1	Pese	pese	vmip2s0	vmip2s0	matched=no	13	advcl	_	_

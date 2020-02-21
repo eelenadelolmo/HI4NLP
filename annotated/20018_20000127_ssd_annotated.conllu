@@ -212,8 +212,8 @@
 37	&quot;	&quot;	fe	fe	matched=no	19	punct	_	_
 38	,	,	fc	fc	matched=no	39	punct	_	_
 39	subraya	subrayar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-40	la	el	da0fs0	da0fs0	matched=no	41	det	_	_
-41	nota	nota	ncfs000	ncfs000	matched=no	39	nsubj	_	_
+40	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	41	det	_	_
+41	nota	nota	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	39	nsubj	_	_
 42	.	.	fp	fp	matched=no	39	punct	_	_
 
 1	Tras	tras	sps00	sps00	matched=no	18	prepv	_	_
@@ -551,11 +551,11 @@
 41	&quot;	&quot;	fe	fe	matched=no	12	punct	_	_
 42	,	,	fc	fc	matched=no	43	punct	_	_
 43	afirma	afirmar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-44	la	el	da0fs0	da0fs0	matched=no	45	det	_	_
-45	filial	filial	nccs000	nccs000	matched=no	43	nsubj	_	_
-46	de	de	sps00	sps00	matched=no	45	prepn	_	_
-47	Endesa	Endesa	np0000l	np0000l	matched=no	46	pobj	_	_
-48	España	España	np0000l	np0000l	matched=no	47	appos	_	_
+44	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	45	det	_	_
+45	filial	filial	nccs000	nccs000	matched=yes: nsubj child of root deprel	43	nsubj	_	_
+46	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	45	prepn	_	_
+47	Endesa	Endesa	np0000l	np0000l	matched=yes: nsubj child of root deprel	46	pobj	_	_
+48	España	España	np0000l	np0000l	matched=yes: nsubj child of root deprel	47	appos	_	_
 49	.	.	fp	fp	matched=no	43	punct	_	_
 
 1	A	a	sps00	sps00	matched=no	9	advcl	_	_

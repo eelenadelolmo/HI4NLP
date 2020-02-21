@@ -179,8 +179,8 @@
 
 1	También	también	rg	rg	matched=no	2	advmod	_	_
 2	rechaza	rechazar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-3	la	el	da0fs0	da0fs0	matched=no	4	det	_	_
-4	Federación	Federación	np00000	np00000	matched=no	2	nsubj	_	_
+3	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	Federación	Federación	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 5	la	el	da0fs0	da0fs0	matched=no	6	det	_	_
 6	acusación	acusación	ncfs000	ncfs000	matched=no	2	dobj	_	_
 7	de	de	sps00	sps00	matched=no	6	prepn	_	_
@@ -290,8 +290,8 @@
 
 1	También	también	rg	rg	matched=no	2	advmod	_	_
 2	niega	negar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-3	la	el	da0fs0	da0fs0	matched=no	4	det	_	_
-4	FGB	FGB	np00000	np00000	matched=no	2	nsubj	_	_
+3	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	FGB	FGB	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 5	que	que	cs	cs	matched=no	2	dobj	_	_
 6	el	el	da0ms0	da0ms0	matched=no	7	det	_	_
 7	resto	resto	ncms000	ncms000	matched=no	10	appos	_	_

@@ -217,7 +217,7 @@
 48	&quot;	&quot;	fe	fe	matched=no	47	punct	_	_
 49	,	,	fc	fc	matched=no	50	punct	_	_
 50	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-51	Satinet	Satinet	np00000	np00000	matched=no	50	nsubj	_	_
+51	Satinet	Satinet	np00000	np00000	matched=yes: nsubj child of root deprel	50	nsubj	_	_
 52	.	.	fp	fp	matched=no	50	punct	_	_
 
 1	Respecto	respecto	ncfp000	ncfp000	matched=no	15	advcl	_	_
@@ -509,8 +509,8 @@
 24	&quot;	&quot;	fe	fe	matched=no	13	punct	_	_
 25	,	,	fc	fc	matched=no	26	punct	_	_
 26	argumentó	argumentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-27	Claude	Claude	np0000l	np0000l	matched=no	26	nsubj	_	_
-28	Satinet	Satinet	np0000l	np0000l	matched=no	27	appos	_	_
+27	Claude	Claude	np0000l	np0000l	matched=yes: nsubj child of root deprel	26	nsubj	_	_
+28	Satinet	Satinet	np0000l	np0000l	matched=yes: nsubj child of root deprel	27	appos	_	_
 29	.	.	fp	fp	matched=no	26	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

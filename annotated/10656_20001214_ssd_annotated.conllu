@@ -70,17 +70,17 @@
 19	,	,	fc	fc	matched=no	20	punct	_	_
 20	anunció	anunciar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 21	ayer	ayer	rg	rg	matched=no	20	advmod	_	_
-22	el	el	da0ms0	da0ms0	matched=no	23	det	_	_
-23	titular	titular	ncms000	ncms000	matched=no	20	nsubj	_	_
-24	saudí	saudí	aq0cs0	aq0cs0	matched=no	23	amod	_	_
-25	de	de	sps00	sps00	matched=no	23	prepn	_	_
-26	Defensa	Defensa	np0000o	np0000o	matched=no	25	pobj	_	_
-27	,	,	fc	fc	matched=no	23	punct	_	_
-28	Sultan	Sultan	ncms000	ncms000	matched=no	23	appos	_	_
-29	Ben	ben	np0000o	np0000o	matched=no	28	appos	_	_
-30	Abdel	Abdel	ncms000	ncms000	matched=no	28	appos	_	_
-31	Aziz	Aziz	np0000a	np0000a	matched=no	30	appos	_	_
-32	,	,	fc	fc	matched=no	23	punct	_	_
+22	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	23	det	_	_
+23	titular	titular	ncms000	ncms000	matched=yes: nsubj child of root deprel	20	nsubj	_	_
+24	saudí	saudí	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	23	amod	_	_
+25	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	23	prepn	_	_
+26	Defensa	Defensa	np0000o	np0000o	matched=yes: nsubj child of root deprel	25	pobj	_	_
+27	,	,	fc	fc	matched=yes: nsubj child of root deprel	23	punct	_	_
+28	Sultan	Sultan	ncms000	ncms000	matched=yes: nsubj child of root deprel	23	appos	_	_
+29	Ben	ben	np0000o	np0000o	matched=yes: nsubj child of root deprel	28	appos	_	_
+30	Abdel	Abdel	ncms000	ncms000	matched=yes: nsubj child of root deprel	28	appos	_	_
+31	Aziz	Aziz	np0000a	np0000a	matched=yes: nsubj child of root deprel	30	appos	_	_
+32	,	,	fc	fc	matched=yes: nsubj child of root deprel	23	punct	_	_
 33	en	en	sps00	sps00	matched=no	20	prepv	_	_
 34	rueda	rueda	ncfs000	ncfs000	matched=no	33	pobj	_	_
 35	de	de	sps00	sps00	matched=no	34	prepn	_	_
@@ -223,7 +223,7 @@
 32	&quot;	&quot;	fe	fe	matched=no	26	punct	_	_
 33	,	,	fc	fc	matched=no	12	punct	_	_
 34	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-35	Ariani	Ariani	np0000p	np0000p	matched=no	34	nsubj	_	_
+35	Ariani	Ariani	np0000p	np0000p	matched=yes: nsubj child of root deprel	34	nsubj	_	_
 36	.	.	fp	fp	matched=no	34	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

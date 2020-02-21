@@ -109,7 +109,7 @@
 53	&quot;	&quot;	fe	fe	matched=no	42	punct	_	_
 54	,	,	fc	fc	matched=no	55	punct	_	_
 55	advirtió	advertir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-56	Espil	Espil	np0000p	np0000p	matched=no	55	nsubj	_	_
+56	Espil	Espil	np0000p	np0000p	matched=yes: nsubj child of root deprel	55	nsubj	_	_
 57	.	.	fp	fp	matched=no	55	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -332,9 +332,9 @@
 68	&quot;	&quot;	fe	fe	matched=no	49	punct	_	_
 69	,	,	fc	fc	matched=no	70	punct	_	_
 70	aseveró	aseverar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-71	el	el	da0ms0	da0ms0	matched=no	72	det	_	_
-72	escolta	escolta	nccs000	nccs000	matched=no	70	nsubj	_	_
-73	argentino	argentino	aq0ms0	aq0ms0	matched=no	72	amod	_	_
+71	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	72	det	_	_
+72	escolta	escolta	nccs000	nccs000	matched=yes: nsubj child of root deprel	70	nsubj	_	_
+73	argentino	argentino	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	72	amod	_	_
 74	.	.	fp	fp	matched=no	70	punct	_	_
 
 1	Por	por	spcms	spcms	matched=no	5	advmod	_	_
@@ -418,14 +418,14 @@
 33	&quot;	&quot;	fe	fe	matched=no	20	punct	_	_
 34	,	,	fc	fc	matched=no	35	punct	_	_
 35	concluyó	concluir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-36	el	el	da0ms0	da0ms0	matched=no	37	det	_	_
-37	jugador	jugador	ncms000	ncms000	matched=no	35	nsubj	_	_
-38	nacido	nacido	aq0msp	aq0msp	matched=no	37	amod	_	_
-39	en	en	sps00	sps00	matched=no	38	prepa	_	_
-40	Bahía	Bahía	np00000	np00000	matched=no	39	pobj	_	_
-41	Blanca	blanco	aq0ms0	aq0ms0	matched=no	40	amod	_	_
-42	(	(	fpa	fpa	matched=no	43	punct	_	_
-43	Argentina	Argentina	np0000l	np0000l	matched=no	39	pobj	_	_
-44	)	)	fpt	fpt	matched=no	43	punct	_	_
+36	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	37	det	_	_
+37	jugador	jugador	ncms000	ncms000	matched=yes: nsubj child of root deprel	35	nsubj	_	_
+38	nacido	nacido	aq0msp	aq0msp	matched=yes: nsubj child of root deprel	37	amod	_	_
+39	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	38	prepa	_	_
+40	Bahía	Bahía	np00000	np00000	matched=yes: nsubj child of root deprel	39	pobj	_	_
+41	Blanca	blanco	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	40	amod	_	_
+42	(	(	fpa	fpa	matched=yes: nsubj child of root deprel	43	punct	_	_
+43	Argentina	Argentina	np0000l	np0000l	matched=yes: nsubj child of root deprel	39	pobj	_	_
+44	)	)	fpt	fpt	matched=yes: nsubj child of root deprel	43	punct	_	_
 45	.	.	fp	fp	matched=no	35	punct	_	_
 

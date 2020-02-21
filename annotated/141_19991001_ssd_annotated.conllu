@@ -93,8 +93,8 @@
 26	&quot;	&quot;	fe	fe	matched=no	16	punct	_	_
 27	,	,	fc	fc	matched=no	28	punct	_	_
 28	afirma	afirmar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-29	el	el	da0ms0	da0ms0	matched=no	30	det	_	_
-30	director	director	ncms000	ncms000	matched=no	28	nsubj	_	_
+29	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	30	det	_	_
+30	director	director	ncms000	ncms000	matched=yes: nsubj child of root deprel	28	nsubj	_	_
 31	.	.	fp	fp	matched=no	28	punct	_	_
 
 1	Para	para	sps00	sps00	matched=no	6	prepv	_	_

@@ -60,7 +60,7 @@
 32	.	.	fp	fp	matched=no	15	punct	_	_
 
 1	Son	ser	vsip3p0	vsip3p0	matched=no	0	root	_	_
-2	muchas	mucho	pi0fp000	pi0fp000	matched=no	1	nsubj	_	_
+2	muchas	mucho	pi0fp000	pi0fp000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 3	las	el	da0fp0	da0fp0	matched=no	6	det	_	_
 4	otras	otro	di0fp0	di0fp0	matched=no	6	det	_	_
 5	posibles	posible	aq0cp0	aq0cp0	matched=no	6	amod	_	_
@@ -363,17 +363,17 @@
 6	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
 7	podido	poder	vmp00sm	vmp00sm	matched=no	6	vobj	_	_
 8	observar	observar	vmn0000	vmn0000	matched=no	6	vobj	_	_
-9	conducción	conducción	ncfs000	ncfs000	matched=no	6	nsubj	_	_
-10	por	por	sps00	sps00	matched=no	9	prepn	_	_
-11	contacto	contacto	ncms000	ncms000	matched=no	10	pobj	_	_
-12	entre	entre	sps00	sps00	matched=no	11	prepn	_	_
-13	los	el	da0mp0	da0mp0	matched=no	14	det	_	_
-14	tomos	tomo	ncmp000	ncmp000	matched=no	12	pobj	_	_
-15	metálicos	metálico	aq0mp0	aq0mp0	matched=no	14	amod	_	_
-16	contenidos	contenido	aq0mpp	aq0mpp	matched=no	14	amod	_	_
-17	en	en	sps00	sps00	matched=no	16	prepa	_	_
-18	los	el	da0mp0	da0mp0	matched=no	19	det	_	_
-19	macrociclos	macrociclo	ncmp000	ncmp000	matched=no	17	pobj	_	_
+9	conducción	conducción	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+10	por	por	sps00	sps00	matched=yes: nsubj child of root deprel	9	prepn	_	_
+11	contacto	contacto	ncms000	ncms000	matched=yes: nsubj child of root deprel	10	pobj	_	_
+12	entre	entre	sps00	sps00	matched=yes: nsubj child of root deprel	11	prepn	_	_
+13	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	14	det	_	_
+14	tomos	tomo	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	12	pobj	_	_
+15	metálicos	metálico	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	14	amod	_	_
+16	contenidos	contenido	aq0mpp	aq0mpp	matched=yes: nsubj child of root deprel	14	amod	_	_
+17	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	16	prepa	_	_
+18	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	19	det	_	_
+19	macrociclos	macrociclo	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	17	pobj	_	_
 20	.	.	fp	fp	matched=no	6	punct	_	_
 
 1	Sin	sin	sps00	sps00	matched=no	16	te	_	_
