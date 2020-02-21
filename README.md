@@ -1,5 +1,5 @@
 # Installation:
-pip install -r requiremets.txt
+pip install -r requirements.txt
 
 # Corpus processed:
 
