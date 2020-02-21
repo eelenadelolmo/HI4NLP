@@ -28,7 +28,7 @@ ISSN 1135-5948
 
 Options:
 
--i The directory where the input files are.
+-i The directory where the input files are (AnCora_Surface_Syntax_Dependencies corpus).
 -o The directory where the conllu files will be saved.
   
 # Execute annotator.py:
