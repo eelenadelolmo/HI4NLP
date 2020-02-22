@@ -1,12 +1,12 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	jugador	jugador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	riojano	riojano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	Athletic	athletic	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-8	Bilbao	bilbao	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-9	Daniel	dar_niel	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	7	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	jugador	jugador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	riojano	riojano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Athletic	athletic	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	Bilbao	bilbao	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+9	Daniel	dar_niel	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	7	comp	_	_
 10	Aranzubía	aranzubía	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 11	declaró	declarar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	10	modnomatch	_	_
 12	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
@@ -122,11 +122,11 @@
 55	Fernández	fernández	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	54	mod	_	_
 56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	54	punc	_	_
 
-1	Algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	6	subj	_	_
-2	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	1	modnomatch	_	_
-3	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
-4	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-5	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+1	Algo	algo	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	6	subj	_	_
+2	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	1	modnomatch	_	_
+3	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	1	punc	_	_
+4	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+5	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
 6	da	dar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	mucha	mucho	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	6	modnomatch	_	_
 8	más	más	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_

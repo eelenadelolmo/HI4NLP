@@ -1,10 +1,10 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	déficit	déficit	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	balanza	balanza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	pagos	pago	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	déficit	déficit	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	balanza	balanza	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	pagos	pago	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
 8	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	attr	_	_
 10	casi	casi	RG	RG	matched=no|pos=adverb|type=general	11	spec	_	_
@@ -13,8 +13,8 @@
 13	marzo	[??:??/3/??:??.??:??]	W	W	matched=no|pos=date	12	comp	_	_
 14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	ventas	venta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	ventas	venta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	extranjero	extranjero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
@@ -25,11 +25,11 @@
 10	1998	1998	Z	Z	matched=no|pos=number	9	comp	_	_
 11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	estancamiento	estancamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	exportación	exportación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	estancamiento	estancamiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	exportación	exportación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	restará	restar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 7	1,6	1.6	Z	Z	matched=no|pos=number	8	spec	_	_
 8	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
@@ -71,8 +71,8 @@
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 4	marzo	[??:??/3/??:??.??:??]	W	W	matched=no|pos=date	3	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	déficit	déficit	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	déficit	déficit	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 8	por	por	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 9	cuenta	cuenta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 10	corriente	corriente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
@@ -128,9 +128,9 @@
 23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
 24	1998	1998	Z	Z	matched=no|pos=number	23	comp	_	_
 25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
-26	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
-27	ingresos	ingreso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	33	subj	_	_
-28	netos	neto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	27	mod	_	_
+26	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	27	spec	_	_
+27	ingresos	ingreso	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	33	subj	_	_
+28	netos	neto	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	27	mod	_	_
 29	por	por	SP	SP	matched=no|pos=adposition|type=preposition	33	adjt	_	_
 30	turismo	turismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
 31	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	33	adjt	_	_
@@ -140,13 +140,13 @@
 35	93.400_millones	93400000000	Zd	Zd	matched=no|pos=number|type=partitive	34	comp	_	_
 36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	33	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	números	número	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-3	rojos	rojo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-6	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	7	mod	_	_
-7	trimestre	trimestre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	números	número	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+3	rojos	rojo	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+6	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	7	mod	_	_
+7	trimestre	trimestre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 8	habrían	haber	VAIC3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=conditional|type=auxiliary	9	aux	_	_
 9	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	0	top	_	_
 10	aún	aun	RG	RG	matched=no|pos=adverb|type=general	11	spec	_	_
@@ -207,8 +207,8 @@
 25	marzo	[??:??/3/??:??.??:??]	W	W	matched=no|pos=date	24	comp	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	cuenta	contar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	comp	_	_
@@ -241,9 +241,9 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 2	1998	1998	Z	Z	matched=no|pos=number	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	saldo	saldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-6	corriente	corriente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	saldo	saldo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+6	corriente	corriente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 7	ya	ya	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
 8	registró	registrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
@@ -258,8 +258,8 @@
 18	superávit	superávit	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	ingresos	ingreso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	ingresos	ingreso	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
 3	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 4	turismo	turismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
@@ -278,10 +278,10 @@
 1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	balanza	balanza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	rentas	renta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	balanza	balanza	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	rentas	renta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
 8	puso	poner	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
 10	saldo	saldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
@@ -333,8 +333,8 @@
 40	795.800_millones	795800000000	Zd	Zd	matched=no|pos=number|type=partitive	39	comp	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
 
-1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	cantidad	cantidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	cantidad	cantidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
 5	45_%	45/100	Zp	Zp	matched=no|pos=number|type=percentage	3	attr	_	_
@@ -355,12 +355,12 @@
 20	anterior	anterior	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	fuerte	fuerte	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	tirón	tirón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	turismo	turismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	fuerte	fuerte	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	tirón	tirón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	turismo	turismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 7	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
 8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
 9	compensado	compensar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -388,9 +388,9 @@
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
-10	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
-11	ingresos	ingreso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	subj	_	_
-12	netos	neto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	11	mod	_	_
+10	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	11	spec	_	_
+11	ingresos	ingreso	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	16	subj	_	_
+12	netos	neto	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	11	mod	_	_
 13	por	por	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
 14	turismo	turismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 15	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	16	aux	_	_
@@ -451,13 +451,13 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 2	concreto	concreto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	déficit	déficit	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	rúbrica	rúbrica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-10	rentas	renta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	déficit	déficit	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	rúbrica	rúbrica	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+10	rentas	renta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	comp	_	_
 11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	12	mphes	_	_
 12	situó	situar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
@@ -473,30 +473,30 @@
 23	325.200_millones	325200000000	Zd	Zd	matched=no|pos=number|type=partitive	22	comp	_	_
 24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cuenta	cuenta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	capital	capital	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-6	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-7	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
-8	integra	integrar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
-9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
-10	transferencias	transferencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	dobj	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
-12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	Feder	feder	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	modnomatch	_	_
-14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
-15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
-16	Fondo	fondo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
-18	Cohesión	cohesión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
-19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-21	Feoga	feoga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-22	Garantía	garantía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	mod	_	_
-23	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-24	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cuenta	cuenta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	25	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	capital	capital	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+6	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+7	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+8	integra	integrar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	10	spec	_	_
+10	transferencias	transferencia	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	dobj	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	Feder	feder	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	11	modnomatch	_	_
+14	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	8	punc	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	Fondo	fondo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	16	mod	_	_
+18	Cohesión	cohesión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
+19	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+21	Feoga	feoga	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+22	Garantía	garantía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	mod	_	_
+23	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+24	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
 25	registró	registrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 26	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
 27	marzo	[??:??/3/??:??.??:??]	W	W	matched=no|pos=date	26	comp	_	_
@@ -557,12 +557,12 @@
 3	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	4	mod	_	_
 4	trimestre	trimestre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	saldo	saldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	cuenta	cuenta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
-11	financiera	financiero	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	saldo	saldo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	cuenta	cuenta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+11	financiera	financiero	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
 12	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	13	mphes	_	_
 13	cerró	cerrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 14	con	con	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
@@ -591,10 +591,10 @@
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
 6	1999	1999	Z	Z	matched=no|pos=number	5	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
-9	reservas	reserva	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	12	subj	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
-11	divisas	divisa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	reservas	reserva	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+11	divisas	divisa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	comp	_	_
 12	disminuyeron	disminuir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 14	1,67_billones	1670000000000	Zd	Zd	matched=no|pos=number|type=partitive	13	comp	_	_

@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 4	Portugal	portugal	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	comp	_	_
 5	decidió	decidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -36,8 +36,8 @@
 36	Martins	martins	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	35	dobj	_	_
 37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	afirmó	afirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	con	con	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
@@ -87,9 +87,9 @@
 49	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Ejecutivo	ejecutivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	portugués	portugués	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Ejecutivo	ejecutivo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	portugués	portugués	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	quería	querer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 5	también	también	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 6	saludar	saludar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	dobj	_	_

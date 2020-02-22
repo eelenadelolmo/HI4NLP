@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Hacienda	hacienda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Hacienda	hacienda	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
 6	Colombia	colombia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
 8	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
@@ -51,13 +51,13 @@
 51	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	49	comp	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	presidió	presidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
-6	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	27	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	presidió	presidir	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+6	hoy	hoy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	adjt	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	por	por	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
 9	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	10	mod	_	_
 10	vez	vez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
@@ -233,7 +233,7 @@
 44	precisas	preciso	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	43	mod	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	42	punc	_	_
 
-1	Santos	santo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	subj	_	_
+1	Santos	santo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	subj	_	_
 2	reiteró	reiterar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	Colombia	colombia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	3	comp	_	_
@@ -297,15 +297,15 @@
 10	Brasil	brasil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
 11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Santos	santo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-4	ocupó	ocupar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	cargo	cargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	delegado	delegado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+1	Santos	santo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	ocupó	ocupar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	cargo	cargo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	dobj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	delegado	delegado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
 10	Colombia	colombia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 11	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
@@ -359,12 +359,12 @@
 3	última	último	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	4	mod	_	_
 4	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-8	internacional	internacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	grano	grano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	mercado	mercado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+8	internacional	internacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	grano	grano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
 12	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
 13	registrado	registrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 14	súbitas	súbito	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	15	mod	_	_
@@ -416,9 +416,9 @@
 60	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	58	comp	_	_
 61	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	grano	grano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	grano	grano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	cerró	cerrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
@@ -475,11 +475,11 @@
 57	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	55	comp	_	_
 58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	producción	producción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	café	café	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	producción	producción	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	café	café	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 6	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	calculada	calcular	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	6	attr	_	_
 8	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
@@ -543,21 +543,21 @@
 66	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	64	modnomatch	_	_
 67	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	precio	precio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	subj	_	_
-3	interno	interno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	paga	pagar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	Fondo	fondo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
-8	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	Café	café	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-12	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	13	modnomatch	_	_
-13	FNC	fnc	NC00000	NC	matched=no|pos=noun|type=common	5	modnomatch	_	_
-14	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	13	modnomatch	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	precio	precio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	30	subj	_	_
+3	interno	interno	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	paga	pagar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	Fondo	fondo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
+8	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	Café	café	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	13	modnomatch	_	_
+13	FNC	fnc	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	5	modnomatch	_	_
+14	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	13	modnomatch	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 16	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
 17	ente	ente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	modnomatch	_	_
 18	para-fiscal	parar_fiscal	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	17	mod	_	_

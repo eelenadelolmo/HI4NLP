@@ -5,8 +5,8 @@
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 6	ese	ese	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	7	spec	_	_
 7	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	empleo	empleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	empleo	empleo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
 10	de_la_mano_de	de_la_mano_de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 11	obra	obra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
 12	forzosa	forzoso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
@@ -38,9 +38,9 @@
 38	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
 39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	paro	paro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-3	registrado	registrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	paro	paro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+3	registrado	registrar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
 5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
 6	oficinas	oficina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
@@ -121,12 +121,12 @@
 32	total	total	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	descenso	descenso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-3	medio	medio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	paro	paro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	descenso	descenso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	medio	medio	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	paro	paro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 8	mayo	[??:??/5/??:??.??:??]	W	W	matched=no|pos=date	7	comp	_	_
 9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
@@ -218,9 +218,9 @@
 44	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	43	modnomatch	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	43	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	desempleo	desempleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	masculino	masculino	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	desempleo	desempleo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	masculino	masculino	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	situó	situar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
@@ -270,8 +270,8 @@
 2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
 3	colectivo	colectivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	femenino	femenino	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	paro	paro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	paro	paro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
 8	colocó	colocar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
@@ -311,15 +311,15 @@
 43	mayo_de_1999	[??:??/5/1999:??.??:??]	W	W	matched=no|pos=date	42	comp	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	desempleo	desempleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	jóvenes	joven	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	menores	menor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-8	25	25	Z	Z	matched=no|pos=number	9	spec	_	_
-9	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	desempleo	desempleo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	jóvenes	joven	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	menores	menor	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	25	25	Z	Z	matched=yes: subj child of top deprel|pos=number	9	spec	_	_
+9	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	redujo	reducir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
@@ -389,11 +389,11 @@
 33	Canarias	canario	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	32	comp	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	contratos	contrato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-5	registrados	registrar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	número	número	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	contratos	contrato	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	registrados	registrar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	4	mod	_	_
 6	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 7	mayo	[??:??/5/??:??.??:??]	W	W	matched=no|pos=date	6	comp	_	_
 8	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
@@ -495,7 +495,7 @@
 6	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 7	indefinidos	indefinido	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	1	comp	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-9	80.206	80206	Z	Z	matched=no|pos=number	11	subj	_	_
+9	80.206	80206	Z	Z	matched=yes: subj child of top deprel|pos=number	11	subj	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	realizaron	realizar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
@@ -520,8 +520,8 @@
 31	parcial	parcial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	restantes	restante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	4	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	restantes	restante	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	4	subj	_	_
 3	27.050	27050	Z	Z	matched=no|pos=number	4	modnomatch	_	_
 4	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 5	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
@@ -535,9 +535,9 @@
 2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
 3	17_de_mayo_de_1997	[??:17/5/1997:??.??:??]	W	W	matched=no|pos=date	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	fecha	fecha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	entrada	entrada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+5	fecha	fecha	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	entrada	entrada	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
 9	vigor	vigor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
@@ -555,8 +555,8 @@
 22	incentivados	incentivar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	17	adjt	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	restantes	restante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	7	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	restantes	restante	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	subj	_	_
 3	1.115.856	1115856	Z	Z	matched=no|pos=number	4	spec	_	_
 4	contrataciones	contratación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	modnomatch	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
@@ -594,12 +594,12 @@
 37	temporal	temporal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	36	mod	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	secretario	secretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	general	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	Empleo	empleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	general	general	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	Empleo	empleo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 7	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	Chozas	choza	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
@@ -707,14 +707,14 @@
 62	laboral	laboral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	61	mod	_	_
 63	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	59	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	secretaria	secretario	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-6	Izquierda	izquierda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-7	Unida	unir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	6	mod	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secretaria	secretario	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Trabajo	trabajo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	Izquierda	izquierda	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	Unida	unir	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	6	mod	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 9	Susana	susana	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
 10	López	lópez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_

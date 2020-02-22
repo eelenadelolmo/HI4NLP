@@ -1,8 +1,8 @@
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	contratos	contrato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-3	futuros	futuro	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	petróleo	petróleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	contratos	contrato	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	futuros	futuro	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	petróleo	petróleo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 6	subieron	subir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
@@ -36,9 +36,9 @@
 36	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	35	modnomatch	_	_
 37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	crudo	crudo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	Brent	brent	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	crudo	crudo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	Brent	brent	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
 4	para	para	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 5	agosto	[??:??/8/??:??.??:??]	W	W	matched=no|pos=date	4	comp	_	_
 6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_

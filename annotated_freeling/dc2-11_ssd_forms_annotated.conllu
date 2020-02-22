@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	observador	observador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	observador	observador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	sigue	seguir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	continuación	continuación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
@@ -33,8 +33,8 @@
 3	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 4	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	laboratorio	laboratorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	laboratorio	laboratorio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 8	también	también	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
 9	comienza	comenzar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	prt	_	_
 10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	prt	_	_
@@ -80,7 +80,7 @@
 14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
 15	observador	observador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-17	éste	este	PD0MS00	PD	gen=masculine|matched=no|num=singular|pos=pronoun|type=demonstrative	18	subj	_	_
+17	éste	este	PD0MS00	PD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	18	subj	_	_
 18	verá	ver	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 19	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	18	modnomatch	_	_
 20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
@@ -167,8 +167,8 @@
 16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
 17	torre	torre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
 18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
-19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
-20	corrimiento	corrimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	20	spec	_	_
+20	corrimiento	corrimiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
 21	hubiera	haber	VASI1S0	VAS	matched=no|mood=subjunctive|num=singular|person=1|pos=verb|tense=imperfect|type=auxiliary	22	aux	_	_
 22	tenido_lugar	tener_lugar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 23	hacia	hacia	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
@@ -273,8 +273,8 @@
 28	gravitatorio	gravitatorio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	27	mod	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	luz	luz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	luz	luz	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 3	podría	poder	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	6	prt	_	_
 4	haber	haber	VAN0000	VAN	matched=no|mood=infinitive|pos=verb|type=auxiliary	6	modnomatch	_	_
 5	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	6	aux	_	_

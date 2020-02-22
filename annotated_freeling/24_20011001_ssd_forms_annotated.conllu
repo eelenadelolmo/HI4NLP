@@ -1,8 +1,8 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Intifada	intifada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-4	A	a	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Intifada	intifada	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	A	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
 6	Aqsa	aqsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	modnomatch	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
 8	llamada	llamar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	17	adjt	_	_

@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Cor	cor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	Jove	jove	AQ00000	AQ	matched=no|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Cor	cor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	Jove	jove	AQ00000	AQ	matched=yes: subj child of top deprel|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
 6	Orfeó	orfeó	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	Català	català	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	modnomatch	_	_
 8	interpreta	interpretar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_

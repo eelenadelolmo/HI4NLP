@@ -70,8 +70,8 @@
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
 1	Entonces	entonces	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
-2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-3	base	base	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	base	base	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 4	Lee	leer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	Mayberry	mayberry	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
@@ -254,7 +254,7 @@
 2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 3	triple	triple	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 4	graduación	graduación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
-5	todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	6	subj	_	_
+5	todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	6	subj	_	_
 6	hablaron	hablar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
 8	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	6	punc	_	_
@@ -264,7 +264,7 @@
 12	Arkansas	arkansas	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Richardson	richardson	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Richardson	richardson	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 2	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	inmutó	inmutar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -335,8 +335,8 @@
 9	logrando	lograr	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	3	modnomatch	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	secreto	secreto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secreto	secreto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	estado	estar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
@@ -420,8 +420,8 @@
 83	faltaba	faltar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	70	mod	_	_
 84	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	70	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	resultado	resultado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	resultado	resultado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	siendo	ser	VSG0000	VSG	matched=no|mood=gerund|pos=verb|type=semiauxiliary	3	aux	_	_
 5	fulminante	fulminante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
@@ -584,15 +584,15 @@
 15	juzgarlo	juzgarlo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	desgracias	desgracia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-8	Real	real	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-9	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	primera	1	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	desgracias	desgracia	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+8	Real	real	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+9	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	llama	llamar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 12	Ramón	ramón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_

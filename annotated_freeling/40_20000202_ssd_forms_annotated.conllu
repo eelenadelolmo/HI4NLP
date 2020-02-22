@@ -1,6 +1,6 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	senador	senador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	republicano	republicano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	senador	senador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	republicano	republicano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	logra	lograr	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	47_%	47/100	Zp	Zp	matched=no|pos=number|type=percentage	4	dobj	_	_
@@ -15,8 +15,8 @@
 15	favorito	favorito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	13	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	senador	senador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	senador	senador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 3	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 4	Arizona	arizona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	John	john	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
@@ -67,7 +67,7 @@
 7	votos	voto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
 8	escrutados	escrutar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	7	mod	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-10	McCain	mccain	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
+10	McCain	mccain	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
 11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	12	mphes	_	_
 12	hizo	hacer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 13	con	con	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
@@ -100,9 +100,9 @@
 40	víspera	víspera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	36	modnomatch	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	multimillonario	multimillonario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	Steve	steve	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	multimillonario	multimillonario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	Steve	steve	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	Forbes	f_orbe	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
 5	logró	lograr	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
@@ -333,22 +333,22 @@
 3	ingente	ingente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 4	suma	suma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
-7	2.560_millones_de_pesetas	$_ESP:2560000000	Zm	Zm	matched=no|pos=number|type=currency	22	subj	_	_
-8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	10	subj	_	_
-9	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	10	aux	_	_
-10	logrado	lograr	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	mod	_	_
-11	reunir	reunir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	dobj	_	_
-12	McCain	mccain	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
-13	para	para	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
-14	pagar	pagar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	comp	_	_
-15	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
-16	enormes	enorme	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	17	mod	_	_
-17	gastos	gasto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	dobj	_	_
-18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
-19	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
-20	campaña	campaña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
-21	electoral	electoral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+6	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	7	spec	_	_
+7	2.560_millones_de_pesetas	$_ESP:2560000000	Zm	Zm	matched=yes: subj child of top deprel|pos=number|type=currency	22	subj	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	10	subj	_	_
+9	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	10	aux	_	_
+10	logrado	lograr	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	7	mod	_	_
+11	reunir	reunir	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	10	dobj	_	_
+12	McCain	mccain	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	dobj	_	_
+13	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	adjt	_	_
+14	pagar	pagar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	13	comp	_	_
+15	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	17	spec	_	_
+16	enormes	enorme	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	17	mod	_	_
+17	gastos	gasto	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	dobj	_	_
+18	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	adjt	_	_
+19	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	campaña	campaña	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	comp	_	_
+21	electoral	electoral	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	20	mod	_	_
 22	auguran	augurar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 23	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	24	spec	_	_
 24	lucha	lucha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
@@ -361,12 +361,12 @@
 3	carrera	carrera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	demócrata	demócrata	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-7	simple	simple	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-8	hecho	hecho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
-10	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	comp	_	_
-11	Gore	gore	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	10	comp	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+7	simple	simple	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+8	hecho	hecho	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	mod	_	_
+10	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	9	comp	_	_
+11	Gore	gore	VMSP3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	10	comp	_	_
 12	no	no	RN	RN	matched=no|pos=adverb|type=negative	13	spec	_	_
 13	lograse	lograr	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 14	batir	batir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	dobj	_	_
@@ -395,7 +395,7 @@
 37	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
 
-1	Precisamente	precisar_mente	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	11	subj	_	_
+1	Precisamente	precisar_mente	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	11	subj	_	_
 2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
 3	estrategia	estrategia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
@@ -480,9 +480,9 @@
 42	contiendas	contienda	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	39	comp	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	recuentos	recuento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
-3	iniciales	inicial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	recuentos	recuento	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	iniciales	inicial	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 4	revelaron	revelar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	dobj	_	_
 6	Bradley	bradley	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_

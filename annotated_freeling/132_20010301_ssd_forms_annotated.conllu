@@ -14,8 +14,8 @@
 4	dudas	duda	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
 5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	España	españa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	cierto	cierto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
@@ -43,7 +43,7 @@
 27	mes_de_agosto_del_2000	[??:??/8/2000:??.??:??]	W	W	matched=no|pos=date	25	comp	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	Birmingham	birmingham	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	3	subj	_	_
+1	Birmingham	birmingham	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	subj	_	_
 2	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 3	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 4	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
@@ -69,7 +69,7 @@
 24	Holanda	holanda	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	23	comp	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
 
-1	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	España	españa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	hizo	hacer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	ridículo	ridículo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
@@ -124,7 +124,7 @@
 37	Inglaterra	inglaterra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	36	comp	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Barmby	barmby	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Barmby	barmby	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	supera	superar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	salida	salida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
@@ -255,7 +255,7 @@
 41	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	33	punc	_	_
 
-1	Eriksson	eriksson	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Eriksson	eriksson	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	mantiene	mantener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
 4	apuesta	apuesta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
@@ -565,12 +565,12 @@
 11	Camacho	camacho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	delantero	delantero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-5	Real	real	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
-6	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	delantero	delantero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+5	Real	real	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+6	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
 8	desconectó	desconectar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
@@ -585,12 +585,12 @@
 18	ataque	ataque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	Tres	3	Z	Z	matched=no|pos=number	3	spec	_	_
-2	graves	grave	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
-3	despistes	despiste	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	defensa	defensa	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	Tres	3	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+2	graves	grave	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+3	despistes	despiste	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	defensa	defensa	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 7	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	8	iobj	_	_
 8	costaron	costar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
@@ -602,8 +602,8 @@
 15	Camacho	camacho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	seleccionador	seleccionador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	seleccionador	seleccionador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	debe	deber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	prt	_	_
 4	encontrar	encontrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 5	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_

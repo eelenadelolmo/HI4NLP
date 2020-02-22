@@ -1,6 +1,6 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Banco	banco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	Atlántico	atlántico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Banco	banco	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	Atlántico	atlántico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	ganó	ganar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
 6	13,22_%	13.22/100	Zp	Zp	matched=no|pos=number|type=percentage	4	dobj	_	_
@@ -11,9 +11,9 @@
 11	trimestre	trimestre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	beneficio	beneficio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	neto	neto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	beneficio	beneficio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	neto	neto	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	atribuido	atribuir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	adjt	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
@@ -38,9 +38,9 @@
 25	entidad	entidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	dobj	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	margen	margen	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	financiero	financiero	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	margen	margen	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	financiero	financiero	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	elevó	elevar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
@@ -57,9 +57,9 @@
 17	1997	1997	Z	Z	matched=no|pos=number	16	comp	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	comisiones	comisión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-3	netas	neto	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	comisiones	comisión	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	netas	neto	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 5	servicios	servicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
 6	aumentaron	aumentar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_

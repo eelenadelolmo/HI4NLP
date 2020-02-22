@@ -1,12 +1,12 @@
-1	Otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	amigos	amigo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	entorno	entorno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-8	ex	ex	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	9	mod	_	_
-9	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+1	Otros	otro	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	amigos	amigo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	entorno	entorno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+8	ex	ex	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	9	mod	_	_
+9	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 10	reconocen	reconocer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 11	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	dobj	_	_
 12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
@@ -46,36 +46,36 @@
 46	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	10	punc	_	_
 47	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Daniel	dar_niel	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	31	subj	_	_
-2	Vega	vega	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	ex	ex	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	5	mod	_	_
-5	gobernador	gobernador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-6	civil	civil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-8	Vizcaya	vizcaya	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
-10	comió	comer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	16	coor	_	_
-11	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
-12	Corcuera	corcuera	RG	RG	matched=no|pos=adverb|type=general	11	comp	_	_
-13	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	10	adjt	_	_
-14	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	15	modnorule	_	_
-15	semanas	semana	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	modnomatch	_	_
-16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
-17	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	16	coor	_	_
-18	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	19	spec	_	_
-19	compañero	compañero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	attr	_	_
-20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
-21	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	22	spec	_	_
-22	partida	partida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
-23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
-24	mus	mus	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	23	comp	_	_
-25	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	26	subj	_	_
-26	perdieron	perder	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	24	mod	_	_
-27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-28	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
-29	seguramente	seguramente	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
-30	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
+1	Daniel	dar_niel	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	31	subj	_	_
+2	Vega	vega	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+4	ex	ex	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	5	mod	_	_
+5	gobernador	gobernador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+6	civil	civil	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+8	Vizcaya	vizcaya	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	16	punc	_	_
+10	comió	comer	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	16	coor	_	_
+11	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	adjt	_	_
+12	Corcuera	corcuera	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	11	comp	_	_
+13	hace	hacer	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	10	adjt	_	_
+14	unas	uno	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	15	modnorule	_	_
+15	semanas	semana	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	modnomatch	_	_
+16	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+17	fue	ser	VSIS3S0	VSI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	16	coor	_	_
+18	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	19	spec	_	_
+19	compañero	compañero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	attr	_	_
+20	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	adjt	_	_
+21	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	22	spec	_	_
+22	partida	partida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	comp	_	_
+23	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	22	mod	_	_
+24	mus	mus	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	23	comp	_	_
+25	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	26	subj	_	_
+26	perdieron	perder	VMIS3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	24	mod	_	_
+27	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+28	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	1	punc	_	_
+29	seguramente	seguramente	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	1	modnomatch	_	_
+30	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	1	punc	_	_
 31	dice	decir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 32	Vega	vega	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	dobj	_	_
 33	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	31	punc	_	_
@@ -99,8 +99,8 @@
 51	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	31	punc	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	partida	partida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	partida	partida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	la	lo	PP3FSA0	PP	case=accusative|gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	dobj	_	_
 4	saldaron	saldar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	pagando	pagar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	4	adjt	_	_
@@ -221,10 +221,10 @@
 27	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	26	adjt	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	Estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
-2	compañeros	compañero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	envite	envite	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	Estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
+2	compañeros	compañero	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	envite	envite	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	7	iobj	_	_
 6	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
 7	visto	ver	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_

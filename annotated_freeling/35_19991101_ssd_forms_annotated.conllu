@@ -8,9 +8,9 @@
 8	EA	ea	I	I	matched=no|pos=interjection	1	comp	_	_
 9	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-11	Carlos	car_lo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-12	Garaikoetxea	garaikoetxea	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+11	Carlos	car_lo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+12	Garaikoetxea	garaikoetxea	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	11	punc	_	_
 14	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	16	iobj	_	_
 15	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	16	aux	_	_
 16	salido	salir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -54,9 +54,9 @@
 54	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	53	modnomatch	_	_
 55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	problema	problema	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	problema	problema	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 4	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 5	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
@@ -81,13 +81,13 @@
 25	Ibarretxe	ibarretxe	RG	RG	matched=no|pos=adverb|type=general	24	adjt	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	socio	socio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	pequeño	pequeño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	coalición	coalición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	electoral	electoral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	socio	socio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	pequeño	pequeño	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	coalición	coalición	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	electoral	electoral	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
 8	PNV-EA	pnv-ea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 9	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
@@ -355,8 +355,8 @@
 1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 2	momento	momento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	PNV	pnv	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	7	subj	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	PNV	pnv	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	7	subj	_	_
 6	no	no	RN	RN	matched=no|pos=adverb|type=negative	7	spec	_	_
 7	valora	valorar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
@@ -370,7 +370,7 @@
 
 1	Además	además	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	Garaikoetxea	garaikoetxea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+3	Garaikoetxea	garaikoetxea	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 4	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
 5	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
 6	aclarado	aclarar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_

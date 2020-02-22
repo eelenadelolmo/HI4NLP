@@ -153,8 +153,8 @@
 19	movelán	movelán	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	modnorule	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	cosas	cosa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	cosas	cosa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
 4	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	cambiado	cambiar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -166,8 +166,8 @@
 11	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	10	modnomatch	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	latinos	latino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	latinos	latino	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	tuvimos	tener	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
 5	fajal	faja_l	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -224,12 +224,12 @@
 33	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	modnorule	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	interior	interior	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Rincón	rincón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	Criollo	criollo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	interior	interior	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Rincón	rincón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Criollo	criollo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 7	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
 9	aire	aire	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
@@ -361,9 +361,9 @@
 1	Desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 2	fuera	fuera	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Rancho	rancho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-6	Criollo	criollo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Rancho	rancho	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+6	Criollo	criollo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 7	parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
 9	fuerte	fuerte	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
@@ -425,8 +425,8 @@
 65	maleantes	maleante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	64	coor	_	_
 66	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Ayuntamiento	ayuntamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Ayuntamiento	ayuntamiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	5	iobj	_	_
 4	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	invitado	invitar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_

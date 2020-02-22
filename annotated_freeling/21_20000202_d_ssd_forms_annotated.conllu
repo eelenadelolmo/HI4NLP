@@ -65,7 +65,7 @@
 58	vegetales	vegetal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	57	comp	_	_
 59	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Euzkadi	euzkadi	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	3	subj	_	_
+1	Euzkadi	euzkadi	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	traduciría	traducir	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
 4	literalmente	literal_mente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -168,7 +168,7 @@
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
 1	¿	¿	Fia	Fia	matched=no|pos=punctuation|punctenclose=open|type=questionmark	6	punc	_	_
-2	Alguien	alguien	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	6	subj	_	_
+2	Alguien	alguien	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	6	subj	_	_
 3	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	6	mphes	_	_
 4	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	6	dobj	_	_
 5	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	prt	_	_

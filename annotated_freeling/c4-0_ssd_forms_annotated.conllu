@@ -83,19 +83,19 @@
 61	social	social	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	60	mod	_	_
 62	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	52	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	modelo	modelo	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	comportamiento	comportamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
-6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
-7	venera	venerar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
-8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
-9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
-10	altares	altar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
-12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	pelotazo	pelotazo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	modelo	modelo	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	comportamiento	comportamiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+6	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	7	mphes	_	_
+7	venera	venerar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+8	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	adjt	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	10	spec	_	_
+10	altares	altar	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	pelotazo	pelotazo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
 14	no	no	RN	RN	matched=no|pos=adverb|type=negative	15	spec	_	_
 15	procura	procurar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 16	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
@@ -297,16 +297,16 @@
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	convencimiento	convencimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	modnomatch	_	_
-9	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	comp	_	_
-10	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
-11	merecen	merecer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	19	subj	_	_
-12	riqueza	riqueza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
-13	individual	individual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
-14	quienes	quien	PR0CP00	PR	gen=common|matched=no|num=plural|pos=pronoun|type=relative	15	subj	_	_
-15	generan	generar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	12	mod	_	_
-16	riqueza	riqueza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	dobj	_	_
-17	colectiva	colectivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	modnomatch	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	8	comp	_	_
+10	sólo	sólo	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	11	adjt	_	_
+11	merecen	merecer	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	19	subj	_	_
+12	riqueza	riqueza	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	dobj	_	_
+13	individual	individual	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+14	quienes	quien	PR0CP00	PR	gen=common|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=relative	15	subj	_	_
+15	generan	generar	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	12	mod	_	_
+16	riqueza	riqueza	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	dobj	_	_
+17	colectiva	colectivo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	16	mod	_	_
 18	he	haber	VAIP1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=auxiliary	19	aux	_	_
 19	descubierto	descubrir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
@@ -355,9 +355,9 @@
 63	semejantes	semejante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	61	comp	_	_
 64	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	61	punc	_	_
 
-1	Todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
-2	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-3	demás	demás	PI0CP00	PI	gen=common|matched=no|num=plural|pos=pronoun|type=indefinite	4	subj	_	_
+1	Todo	todo	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+2	lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	demás	demás	PI0CP00	PI	gen=common|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	4	subj	_	_
 4	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 5	tonterías	tontería	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	attr	_	_
 6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
@@ -407,8 +407,8 @@
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 6	Thailandia	thailandia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
-9	hombre	hombre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+8	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	hombre	hombre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	arrojó	arrojar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_

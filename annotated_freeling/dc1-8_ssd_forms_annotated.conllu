@@ -17,8 +17,8 @@
 17	magia	magia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	naturaleza	naturaleza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	naturaleza	naturaleza	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	5	mphes	_	_
 4	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	dotado	dotar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -53,9 +53,9 @@
 10	debidamente	debidamente	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
 11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	nieve	nieve	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	artificial	artificial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	nieve	nieve	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	artificial	artificial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	produce	producir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	dentro_de	dentro_de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
@@ -74,8 +74,8 @@
 19	proporciones	proporción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	mezcla	mezcla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	mezcla	mezcla	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	precipita	precipitar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	a_través_de	a_través_de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -89,8 +89,8 @@
 13	atomizador	atomizador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
 14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	truco	truco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	truco	truco	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	consiste	consistir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
 5	pulverizar	pulverizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
@@ -116,10 +116,10 @@
 25	tobera	tobera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	diminutos	diminuto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
-3	cristales	cristal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-4	helados	helar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	3	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	diminutos	diminuto	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+3	cristales	cristal	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+4	helados	helar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	3	mod	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
 6	unen	unir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
@@ -147,8 +147,8 @@
 29	nieve	nieve	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cañón	cañón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cañón	cañón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	prt	_	_
 4	expeler	expeler	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_

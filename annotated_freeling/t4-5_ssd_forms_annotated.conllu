@@ -69,22 +69,22 @@
 6	universalista	universalista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
 7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	perros	perro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	subj	_	_
-3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	cambio	cambio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-6	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-7	nacionalistas	nacionalista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	2	mod	_	_
-8	obtusos	obtuso	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
-9	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-10	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	perros	perro	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+3	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	cambio	cambio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+6	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+7	nacionalistas	nacionalista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	mod	_	_
+8	obtusos	obtuso	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+9	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+10	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
 11	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	12	mphes	_	_
 12	gruñen	gruñir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	mayas	maya	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	mayas	maya	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	fabrican	fabricar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	telas	tela	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_

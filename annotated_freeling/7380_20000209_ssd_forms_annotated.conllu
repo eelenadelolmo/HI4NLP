@@ -1,9 +1,9 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 7	José	josé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 8	María	maría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
 9	Aznar	aznar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	mod	_	_
@@ -75,7 +75,7 @@
 75	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	7	punc	_	_
 76	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Aznar	aznar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Aznar	aznar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	recibió	recibir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
@@ -155,8 +155,8 @@
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	reunión	reunión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	9	spec	_	_
-9	colectivo	colectivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+8	este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	9	spec	_	_
+9	colectivo	colectivo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
 10	entregó	entregar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
@@ -183,11 +183,11 @@
 33	estudiar	estudiar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	32	comp	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	reconoció	reconocer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	modnomatch	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
@@ -288,8 +288,8 @@
 54	domésticos	doméstico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	53	mod	_	_
 55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	anunció	anunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
 5	disposición	disposición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -532,11 +532,11 @@
 56	papel	papel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	53	dobj	_	_
 57	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	53	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	dobj	_	_
 8	éste	este	PD0MS00	PD	gen=masculine|matched=no|num=singular|pos=pronoun|type=demonstrative	9	subj	_	_
@@ -647,12 +647,12 @@
 33	por	por	SP	SP	matched=no|pos=adposition|type=preposition	42	adjt	_	_
 34	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	33	comp	_	_
 35	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
-36	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	37	spec	_	_
-37	esfuerzo	esfuerzo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	subj	_	_
-38	fundamental	fundamental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	37	mod	_	_
-39	de	de	SP	SP	matched=no|pos=adposition|type=preposition	37	mod	_	_
-40	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	41	spec	_	_
-41	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
+36	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	37	spec	_	_
+37	esfuerzo	esfuerzo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	42	subj	_	_
+38	fundamental	fundamental	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	37	mod	_	_
+39	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	37	mod	_	_
+40	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	41	spec	_	_
+41	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	39	comp	_	_
 42	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 43	dirigido	dirigir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	42	attr	_	_
 44	a	a	SP	SP	matched=no|pos=adposition|type=preposition	43	pobj	_	_

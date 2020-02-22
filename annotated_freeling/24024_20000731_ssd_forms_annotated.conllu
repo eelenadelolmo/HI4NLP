@@ -1,40 +1,40 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	francés	francés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	subj	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-4	cruzó	cruzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	pista	pista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
-7	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	disputa	disputa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
-11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-12	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
-13	Premio	premio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
-15	Alemania	alemania	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	comp	_	_
-16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
-17	Fórmula	fórmula	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
-18	Uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	4	modnomatch	_	_
-19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
-20	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	22	subj	_	_
-22	obligó	obligar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	20	coor	_	_
-23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	22	dobj	_	_
-24	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	25	spec	_	_
-25	pilotos	piloto	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
-26	a	a	SP	SP	matched=no|pos=adposition|type=preposition	22	pobj	_	_
-27	reducir	reducir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	26	comp	_	_
-28	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
-29	velocidad	velocidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	dobj	_	_
-30	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
-31	dos	2	Z	Z	matched=no|pos=number	32	spec	_	_
-32	vueltas	vuelta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
-33	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	27	adjt	_	_
-34	medida	medida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
-35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
-36	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
-37	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	francés	francés	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	39	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	cruzó	cruzar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	pista	pista	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	dobj	_	_
+7	durante	durante	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	adjt	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	disputa	disputa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+12	Gran	gran	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+13	Premio	premio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+14	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	adjt	_	_
+15	Alemania	alemania	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	14	comp	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	adjt	_	_
+17	Fórmula	fórmula	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
+18	Uno	uno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	4	modnomatch	_	_
+19	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	20	punc	_	_
+20	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	22	subj	_	_
+22	obligó	obligar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	20	coor	_	_
+23	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	22	dobj	_	_
+24	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	25	spec	_	_
+25	pilotos	piloto	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	23	comp	_	_
+26	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	22	pobj	_	_
+27	reducir	reducir	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	26	comp	_	_
+28	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	29	spec	_	_
+29	velocidad	velocidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	27	dobj	_	_
+30	durante	durante	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	27	adjt	_	_
+31	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	32	spec	_	_
+32	vueltas	vuelta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	30	comp	_	_
+33	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	27	adjt	_	_
+34	medida	medida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	33	comp	_	_
+35	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	27	adjt	_	_
+36	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	35	comp	_	_
+37	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 38	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	39	aux	_	_
 39	puesto	poner	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 40	en	en	SP	SP	matched=no|pos=adposition|type=preposition	39	pobj	_	_
@@ -47,13 +47,13 @@
 47	autoridades	autoridad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	45	dobj	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	espectador	espectador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	47	47	Z	Z	matched=no|pos=number	6	spec	_	_
-6	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	espectador	espectador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	47	47	Z	Z	matched=yes: subj child of top deprel|pos=number	6	spec	_	_
+6	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	invadió	invadir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
 10	pista	pista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
@@ -75,8 +75,8 @@
 26	salud	salud	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	entrada	entrada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	entrada	entrada	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	circuito	circuito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
@@ -126,9 +126,9 @@
 26	Schrank	schrank	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	25	mod	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	Norber	norber	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	subj	_	_
-2	Haug	haug	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Norber	norber	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	9	subj	_	_
+2	Haug	haug	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	dobj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 4	director	director	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
 6	Mercedes	merced	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_

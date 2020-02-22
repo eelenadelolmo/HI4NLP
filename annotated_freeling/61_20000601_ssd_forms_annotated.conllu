@@ -1,16 +1,16 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	hombre	hombre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	iba	ir	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
-6	armado	armar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	pred	_	_
-7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-8	pidió	pedir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	7	coor	_	_
-9	hablar	hablar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	dobj	_	_
-10	con	con	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-11	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	12	spec	_	_
-12	psiquiatra	psiquiatra	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	hombre	hombre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	iba	ir	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+6	armado	armar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	5	pred	_	_
+7	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+8	pidió	pedir	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	7	coor	_	_
+9	hablar	hablar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	8	dobj	_	_
+10	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+11	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	12	spec	_	_
+12	psiquiatra	psiquiatra	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 14	retenía	retener	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 15	anoche	anoche	RG	RG	matched=no|pos=adverb|type=general	14	adjt	_	_
 16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
@@ -24,8 +24,8 @@
 24	infantil	infantil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	23	mod	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	desequilibrado	desequilibrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	subj	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	desequilibrado	desequilibrar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	7	subj	_	_
 3	armado	armar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	adjt	_	_
 4	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
@@ -68,11 +68,11 @@
 42	alemana	alemán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	41	mod	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	secuestrador	secuestrador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	argelino	argelino	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secuestrador	secuestrador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	argelino	argelino	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 6	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	7	aux	_	_
 7	liberado	liberar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 8	anoche	anoche	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
@@ -83,8 +83,8 @@
 13	pequeños	pequeño	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	11	comp	_	_
 14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	enajenado	enajenar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	enajenado	enajenar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	3	subj	_	_
 3	reclamó	reclamar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	dobj	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -103,11 +103,11 @@
 18	Libia	libio	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	objetivo	objetivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	secuestro	secuestro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	objetivo	objetivo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	secuestro	secuestro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	sería	ser	VSIC1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=conditional|type=semiauxiliary	0	top	_	_
 7	recuperar	recuperar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	attr	_	_
 8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	dobj	_	_
@@ -185,8 +185,8 @@
 6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
 7	hechos	hecho	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	policía	policía	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	policía	policía	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 11	rodeó	rodear	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
 13	instalaciones	instalación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	dobj	_	_
@@ -198,18 +198,18 @@
 19	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	miembro	miembro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	psicólogos	psicólogo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
-10	fuerzas	fuerza	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-12	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	miembro	miembro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	equipo	equipo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	psicólogos	psicólogo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	10	spec	_	_
+10	fuerzas	fuerza	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+12	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
 13	comenzó	comenzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	15	prt	_	_
 14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	prt	_	_
 15	negociar	negociar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -220,13 +220,13 @@
 
 1	Simultáneamente	simultáneamente	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
-4	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	psicólogos	psicólogo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-8	Protección	protección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-9	Civil	civil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	psicólogos	psicólogo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+8	Protección	protección	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	Civil	civil	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	hizo_cargo	hacer_cargo	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
@@ -243,8 +243,8 @@
 23	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
 24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	individuo	individuo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	individuo	individuo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	sufre	sufrir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -266,8 +266,8 @@
 21	psiquiatra	psiquiatra	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	secuestrador	secuestrador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secuestrador	secuestrador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	aceptó	aceptar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
@@ -287,9 +287,9 @@
 19	salvos	salvo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	18	coor	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Ninguno	ninguno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	5	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	2	comp	_	_
+1	Ninguno	ninguno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	5	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	2	comp	_	_
 4	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	5	aux	_	_
 5	sufrido	sufrir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 6	ningún	ninguno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
@@ -314,22 +314,22 @@
 7	grupos	grupo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Dos	2	Z	Z	matched=no|pos=number	8	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-4	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
-6	seguían	seguir	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	1	mod	_	_
-7	retenidos	retener	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	6	pred	_	_
+1	Dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	8	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	niños	niño	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+6	seguían	seguir	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	1	mod	_	_
+7	retenidos	retener	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	6	pred	_	_
 8	precisaban	precisar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 9	medicación	medicación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
 10	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 11	asma	asma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	policía	policía	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	luxemburguesa	luxemburgués	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	policía	policía	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	luxemburguesa	luxemburgués	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	continuaba	continuar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 5	anoche	anoche	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 6	pacientemente	paciente_mente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_

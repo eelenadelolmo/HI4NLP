@@ -31,9 +31,9 @@
 31	sociedad	sociedad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	Sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	amigos	amigo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
-3	íntimos	íntimo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	amigos	amigo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	íntimos	íntimo	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 4	aseguraron	asegurar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
 6	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -118,8 +118,8 @@
 43	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	duelo	duelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	duelo	duelo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	constituido	constituir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	siempre	siempre	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
@@ -192,8 +192,8 @@
 
 1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 2	veces	vez	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
-3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-4	lances	lance	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	lances	lance	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
 6	cerraban	cerrar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 7	con	con	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
@@ -259,8 +259,8 @@
 34	siglo	siglo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	modnomatch	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
 
-1	Gregorio	gregorio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-2	Marañón	marañón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Gregorio	gregorio	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+2	Marañón	marañón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	explica	explicar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	6	spec	_	_
@@ -363,8 +363,8 @@
 50	personal	personal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	49	mod	_	_
 51	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	duelo	duelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	duelo	duelo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 3	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	8	adjt	_	_
 4	reparación	reparación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_

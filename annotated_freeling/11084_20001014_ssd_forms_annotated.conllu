@@ -188,12 +188,12 @@
 22	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	Agassi	aga_si	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-4	30	30	Z	Z	matched=no|pos=number	5	spec	_	_
-5	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Agassi	aga_si	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+4	30	30	Z	Z	matched=yes: subj child of top deprel|pos=number	5	spec	_	_
+5	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 7	volvió	volver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	9	prt	_	_
 8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	prt	_	_
 9	mostrar	mostrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -278,25 +278,25 @@
 48	Agassi	aga_si	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	47	dobj	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	47	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ganador	ganador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	seis	6	Z	Z	matched=no|pos=number	5	spec	_	_
-5	títulos	título	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	Grand	g_rand	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-8	Slam	slam	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	7	mod	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-10	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
-11	sucedió	suceder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	10	comp	_	_
-12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
-13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
-14	pasado	pasado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-15	Abierto	abrir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	mod	_	_
-16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
-17	Estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
-18	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	17	mod	_	_
-19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ganador	ganador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	seis	6	Z	Z	matched=yes: subj child of top deprel|pos=number	5	spec	_	_
+5	títulos	título	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	Grand	g_rand	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	Slam	slam	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	7	mod	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+10	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	2	modnomatch	_	_
+11	sucedió	suceder	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	10	comp	_	_
+12	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	adjt	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	pasado	pasado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	Abierto	abrir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	14	mod	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	mod	_	_
+17	Estados	estado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	16	comp	_	_
+18	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	17	mod	_	_
+19	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 20	mostró	mostrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 21	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	23	spec	_	_
 22	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	23	mod	_	_
@@ -394,23 +394,23 @@
 26	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	Agassi	aga_si	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-4	vivió	vivir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
-5	nueve	9	Z	Z	matched=no|pos=number	6	spec	_	_
-6	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	gloria	gloria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-9	deportiva	deportivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
-11	tres	3	Z	Z	matched=no|pos=number	12	spec	_	_
-12	títulos	título	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
-13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
-14	Grand	g_rand	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-15	Slam	slam	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	14	mod	_	_
-16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	mod	_	_
-17	finalista	finalista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	coor	_	_
+1	Agassi	aga_si	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	24	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	vivió	vivir	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+5	nueve	9	Z	Z	matched=yes: subj child of top deprel|pos=number	6	spec	_	_
+6	meses	mes	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	dobj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	gloria	gloria	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	deportiva	deportivo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	pobj	_	_
+11	tres	3	Z	Z	matched=yes: subj child of top deprel|pos=number	12	spec	_	_
+12	títulos	título	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	mod	_	_
+14	Grand	g_rand	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+15	Slam	slam	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	14	mod	_	_
+16	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	mod	_	_
+17	finalista	finalista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	16	coor	_	_
 18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
 19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
 20	cuarto	4	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	18	comp	_	_

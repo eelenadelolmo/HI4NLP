@@ -402,9 +402,9 @@
 59	ocasiones	ocasión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	57	comp	_	_
 60	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	56	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	técnico	técnico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	barcelonista	barcelonista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	técnico	técnico	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	barcelonista	barcelonista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	asegurado	asegurar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	dobj	_	_

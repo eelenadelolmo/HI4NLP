@@ -37,8 +37,8 @@
 37	podios	podio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	35	comp	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	catalanes	catalán	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	catalanes	catalán	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	dominaron	dominar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_

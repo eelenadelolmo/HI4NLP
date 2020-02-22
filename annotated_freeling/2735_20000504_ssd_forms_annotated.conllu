@@ -1,9 +1,9 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	titular	titular	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	19	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Juzgado	juzgado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	Central	central	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	titular	titular	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Juzgado	juzgado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Central	central	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 7	Número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
 8	6	6	Z	Z	matched=no|pos=number	19	modnomatch	_	_
 9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
@@ -50,7 +50,7 @@
 50	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	19	punc	_	_
 51	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	Gil	gil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Gil	gil	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	entregó	entregar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	pasado_20_de_enero	[??:20/1/??:??.??:??]	W	W	matched=no|pos=date	2	adjt	_	_
@@ -92,8 +92,8 @@
 40	hijo	hijo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	magistrado	magistrado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	magistrado	magistrado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	resuelto	resolver	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	modificar	modificar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	dobj	_	_

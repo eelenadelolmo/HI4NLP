@@ -1,5 +1,5 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	compañía	compañía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	estrena	estrenar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	5	modnomatch	_	_
 5	Proyecto	proyecto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -157,8 +157,8 @@
 21	Espanyol	espanyol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	intención	intención	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	intención	intención	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	convertir	convertir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	attr	_	_
 5	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -195,8 +195,8 @@
 36	música	música	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	coor	_	_
 37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	temporada	temporada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	temporada	temporada	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	contará	contar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
 5	más	más	RG	RG	matched=no|pos=adverb|type=general	6	spec	_	_
@@ -241,8 +241,8 @@
 32	Cumellas	cu_mella	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	dobj	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	oferta	oferta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	oferta	oferta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	concentrará	concentrar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
@@ -347,9 +347,9 @@
 57	Trastos	trasto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	56	comp	_	_
 58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	53	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	sábados	sábado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	sábados	sábado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	actuaciones	actuación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	modnomatch	_	_
 6	serán	ser	VSIF3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
@@ -358,11 +358,11 @@
 9	17.30_horas	TM_h:17.30	Zu	Zu	matched=no|pos=number|type=unit	7	comp	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	domingos	domingo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	domingos	domingo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
 6	11.30_horas_y_media	[??:??/??/??:11.30:??]	W	W	matched=no|pos=date	9	adjt	_	_
 7	hora	hora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	adjt	_	_
 8	antes	antes	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
@@ -399,22 +399,22 @@
 23	propuestas	propuesta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	comp	_	_
 24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	avance	avance	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	6	spec	_	_
-5	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
-6	experiencia	experiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	10	subj	_	_
-9	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	10	mphes	_	_
-10	pondrá	poner	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	2	mod	_	_
-11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
-12	marcha	marcha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
-13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
-14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
-15	2000	2000	Z	Z	matched=no|pos=number	13	comp	_	_
-16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	avance	avance	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	6	spec	_	_
+5	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+6	experiencia	experiencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	10	subj	_	_
+9	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	10	mphes	_	_
+10	pondrá	poner	VMIF3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	2	mod	_	_
+11	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	pobj	_	_
+12	marcha	marcha	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+13	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	pobj	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	2000	2000	Z	Z	matched=yes: subj child of top deprel|pos=number	13	comp	_	_
+16	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 17	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	18	mphes	_	_
 18	realizará	realizar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_

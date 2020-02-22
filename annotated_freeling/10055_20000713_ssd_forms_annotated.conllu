@@ -1,4 +1,4 @@
-1	Brasil	brasil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Brasil	brasil	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	buscará	buscar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 3	a_partir_de	a_partir_de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 4	mañana	mañana	RG	RG	matched=no|pos=adverb|type=general	3	comp	_	_
@@ -36,8 +36,8 @@
 36	Brisbane	brisbane	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
 37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
 
-1	Australia	australia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Australia	australia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	actual	actual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 4	campeona	campeón	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
@@ -133,10 +133,10 @@
 2	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
 3	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	capitán	capitán	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-7	brasileño	brasileño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	capitán	capitán	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+7	brasileño	brasileño	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
 9	Ricardo	ricardo	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 10	Acioly	acioly	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
@@ -163,16 +163,16 @@
 32	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	9	punc	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	doble	doble	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	subj	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
-5	enfrentará	enfrentar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	2	mod	_	_
-6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	pareja	pareja	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	Sandon	santo_don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	mod	_	_
-10	Stolle-Mark	stolle-mark	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	doble	doble	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+4	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	5	mphes	_	_
+5	enfrentará	enfrentar	VMIF3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	2	mod	_	_
+6	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	pareja	pareja	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	Sandon	santo_don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	mod	_	_
+10	Stolle-Mark	stolle-mark	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
 11	Woodforde	woodforde	VMSP1S0	VMS	matched=no|mood=subjunctive|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 12	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	11	modnomatch	_	_
 13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
@@ -222,9 +222,9 @@
 30	Meligeni	meligeni	RG	RG	matched=no|pos=adverb|type=general	29	comp	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
-3	semifinal	semifinal	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	otra	otro	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	semifinal	semifinal	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 4	enfrentará	enfrentar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
@@ -268,9 +268,9 @@
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
 5	Wimbledon	wimbledon	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-7	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-8	Bretaña	bretaña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+7	Gran	gran	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+8	Bretaña	bretaña	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	8	punc	_	_
 10	con	con	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 11	Tim	tim	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
 12	Henman	henman	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_

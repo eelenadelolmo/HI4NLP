@@ -121,8 +121,8 @@
 73	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	24	punc	_	_
 74	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	Esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	carta	carta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	Esa	ese	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	carta	carta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 4	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	recibido	recibir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -175,8 +175,8 @@
 52	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	5	punc	_	_
 53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	fuentes	fuente	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	destacaron	destacar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 5	segunda	2	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	6	mod	_	_
@@ -329,8 +329,8 @@
 52	fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	50	comp	_	_
 53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	50	punc	_	_
 
-1	Inicialmente	inicial_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Inicialmente	inicial_mente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	pensaba	pensar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	dobj	_	_
@@ -558,9 +558,9 @@
 29	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	Ninguno	ninguno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	7	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
-3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	spec	_	_
+1	Ninguno	ninguno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	7	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	1	spec	_	_
 4	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
 5	once	11	Z	Z	matched=no|pos=number	6	spec	_	_
 6	submarinos	submarino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	modnomatch	_	_
@@ -602,8 +602,8 @@
 42	Gibraltar	gibraltar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	41	comp	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	Estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
-2	submarinos	submarino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+1	Estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
+2	submarinos	submarino	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
 4	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
 5	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	6	aux	_	_

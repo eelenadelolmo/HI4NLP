@@ -206,7 +206,7 @@
 27	criticaron	criticar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	26	coor	_	_
 28	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
 29	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-30	SEPI	septiembre_i	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	34	subj	_	_
+30	SEPI	septiembre_i	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	34	subj	_	_
 31	no	no	RN	RN	matched=no|pos=adverb|type=negative	34	spec	_	_
 32	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	34	iobj	_	_
 33	haya	haber	VASP1S0	VAS	matched=no|mood=subjunctive|num=singular|person=1|pos=verb|tense=present|type=auxiliary	34	aux	_	_
@@ -226,18 +226,18 @@
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
 4	EFE	efe	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	secretario	secretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-8	regional	regional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	Federación	federación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
-14	Metal	metal	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-16	UGT	ugt	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
-17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+8	regional	regional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	Federación	federación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	Metal	metal	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+16	UGT	ugt	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+17	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
 18	Ricardo	ricardo	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 19	Jiménez	jiménez	RG	RG	matched=no|pos=adverb|type=general	18	adjt	_	_
 20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_

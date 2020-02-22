@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	paro	paro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	paro	paro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 4	Francia	francia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	cayó	caer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -17,10 +17,10 @@
 17	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	tasa	tasa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	desempleo	desempleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	tasa	tasa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	desempleo	desempleo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
 6	situó	situar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
@@ -31,12 +31,12 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 2	abril	[??:??/4/??:??.??:??]	W	W	matched=no|pos=date	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	demandantes	demandante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-9	empleo	empleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	número	número	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	demandantes	demandante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+9	empleo	empleo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
 10	disminuyó	disminuir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
 12	3,1_%	3.1/100	Zp	Zp	matched=no|pos=number|type=percentage	10	dobj	_	_
@@ -55,8 +55,8 @@
 25	parados	parado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	explicó	explicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
 5	caída	caída	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_

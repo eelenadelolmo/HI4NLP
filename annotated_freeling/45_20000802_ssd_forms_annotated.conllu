@@ -1,18 +1,18 @@
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	dos	2	Z	Z	matched=no|pos=number	3	spec	_	_
-3	turistas	turista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	28	subj	_	_
-4	alemanas	alemán	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	pasado_jueves	[J:??/??/??:??.??:??]	W	W	matched=no|pos=date	9	adjt	_	_
-8	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	9	mphes	_	_
-9	lanzaron	lanzar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	3	mod	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-11	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
-12	furgoneta	furgoneta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-14	marcha	marcha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	turistas	turista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	28	subj	_	_
+4	alemanas	alemán	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	pasado_jueves	[J:??/??/??:??.??:??]	W	W	matched=yes: subj child of top deprel|pos=date	9	adjt	_	_
+8	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	9	mphes	_	_
+9	lanzaron	lanzar	VMIS3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	3	mod	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+11	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	furgoneta	furgoneta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+14	marcha	marcha	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 16	una	uno	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	28	modnomatch	_	_
 17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	subj	_	_
 18	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	19	spec	_	_
@@ -59,29 +59,29 @@
 59	Alhambra	alhambra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	57	dobj	_	_
 60	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
 
-1	Sandra	sandra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	subj	_	_
-2	S.	s.	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-5	24	24	Z	Z	matched=no|pos=number	6	spec	_	_
-6	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
-9	resultó	resultar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
-10	herida	herir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	9	pred	_	_
-11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
-12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	arrojarse	arrojarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	modnomatch	_	_
-14	detrás_de	detrás_de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
-15	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	16	spec	_	_
-16	compañera	compañero	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
-17	Tanja	tanja	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	mod	_	_
-18	Z.	z.	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	modnomatch	_	_
-19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-21	25	25	Z	Z	matched=no|pos=number	22	spec	_	_
-22	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	comp	_	_
-23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Sandra	sandra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	24	subj	_	_
+2	S.	s.	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+5	24	24	Z	Z	matched=yes: subj child of top deprel|pos=number	6	spec	_	_
+6	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+9	resultó	resultar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+10	herida	herir	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	9	pred	_	_
+11	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	adjt	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	arrojarse	arrojarse	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	11	modnomatch	_	_
+14	detrás_de	detrás_de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	adjt	_	_
+15	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	16	spec	_	_
+16	compañera	compañero	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	comp	_	_
+17	Tanja	tanja	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	mod	_	_
+18	Z.	z.	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	13	modnomatch	_	_
+19	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+20	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+21	25	25	Z	Z	matched=yes: subj child of top deprel|pos=number	22	spec	_	_
+22	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	20	comp	_	_
+23	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 24	declaró	declarar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 25	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	24	dobj	_	_
 26	subieron	subir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	25	comp	_	_
@@ -109,9 +109,9 @@
 6	capital	capital	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
 7	granadina	granadino	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
-10	dos	2	Z	Z	matched=no|pos=number	11	spec	_	_
-11	turistas	turista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	14	subj	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	11	spec	_	_
+10	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	11	spec	_	_
+11	turistas	turista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	subj	_	_
 12	comenzaron	comenzar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	14	prt	_	_
 13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	prt	_	_
 14	inquietarse	inquietarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -152,9 +152,9 @@
 15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
 16	miedo	miedo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
 17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-18	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	20	spec	_	_
-19	dos	2	Z	Z	matched=no|pos=number	20	spec	_	_
-20	jóvenes	joven	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	21	subj	_	_
+18	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	20	spec	_	_
+19	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	20	spec	_	_
+20	jóvenes	joven	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	21	subj	_	_
 21	saltaron	saltar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 22	en	en	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
 23	marcha	marcha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
@@ -168,8 +168,8 @@
 31	rápido	rápido	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	29	pred	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	conductor	conductor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	conductor	conductor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 4	paró	parar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_

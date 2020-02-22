@@ -1,10 +1,10 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	reforma	reforma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Tratado	tratado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	Amsterdam	amsterdam	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	6	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	reforma	reforma	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Tratado	tratado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	Amsterdam	amsterdam	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	6	comp	_	_
 8	continúa	continuar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 9	estancada	estancar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	pred	_	_
 10	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	agnt	_	_
@@ -48,11 +48,11 @@
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
 1	Sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
-2	seis	6	Z	Z	matched=no|pos=number	10	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-5	quince	15	Z	Z	matched=no|pos=number	6	spec	_	_
-6	ministros	ministro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+2	seis	6	Z	Z	matched=yes: subj child of top deprel|pos=number	10	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+5	quince	15	Z	Z	matched=yes: subj child of top deprel|pos=number	6	spec	_	_
+6	ministros	ministro	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 8	Exteriores	exterior	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	7	comp	_	_
 9	comunitarios	comunitario	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	10	modnomatch	_	_
@@ -87,15 +87,15 @@
 38	negociaciones	negociación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	36	comp	_	_
 39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	mayoría	mayoría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	responsables	responsable	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	diplomacia	diplomacia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	comunitaria	comunitario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	mayoría	mayoría	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	responsables	responsable	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	diplomacia	diplomacia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	comunitaria	comunitario	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	sumarán	sumar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 12	mañana	mañana	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
@@ -142,9 +142,9 @@
 7	Asuntos	asunto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
 8	Europeos	europeo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-10	Pierre	pi_erre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-11	Moscovici	moscovici	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+10	Pierre	pi_erre	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+11	Moscovici	moscovici	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	mod	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	10	punc	_	_
 13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
 14	Quince	15	Z	Z	matched=no|pos=number	16	modnomatch	_	_
 15	no	no	RN	RN	matched=no|pos=adverb|type=negative	16	spec	_	_
@@ -373,8 +373,8 @@
 8	votos	voto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
 9	estancada	estancar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
-12	Quince	15	Z	Z	matched=no|pos=number	13	subj	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	12	spec	_	_
+12	Quince	15	Z	Z	matched=yes: subj child of top deprel|pos=number	13	subj	_	_
 13	aprovecharon	aprovechar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
 15	encuentro	encuentro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
@@ -496,8 +496,8 @@
 21	final	final	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	consenso	consenso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	consenso	consenso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	también	también	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 4	avanza	avanzar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	en_torno_a	en_torno_a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -599,9 +599,9 @@
 66	UE	u_e	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	64	comp	_	_
 67	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	64	punc	_	_
 
-1	Estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	3	spec	_	_
-2	dos	2	Z	Z	matched=no|pos=number	3	spec	_	_
-3	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	3	spec	_	_
+2	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	países	país	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 4	consideran	considerar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	modnomatch	_	_
 6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_

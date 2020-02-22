@@ -1,6 +1,6 @@
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	aficionado	aficionado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	inglés	inglés	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	aficionado	aficionado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	inglés	inglés	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	falleció	fallecer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 6	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
@@ -33,35 +33,35 @@
 33	NTV	ntv	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	mod	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	aficionado	aficionado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	acudió	acudir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
-6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
-7	Estanbul	estanbul	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-8	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-9	presenciar	presenciar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	comp	_	_
-10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	encuentro	encuentro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
-12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-13	ida	ida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-15	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
-16	semifinales	semifinal	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
-17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
-19	Copa	copa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
-20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
-22	UEFA	uefa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
-23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-24	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	25	subj	_	_
-25	disputarán	disputar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	2	mod	_	_
-26	mañana	mañana	RG	RG	matched=no|pos=adverb|type=general	25	adjt	_	_
-27	ambos	ambos	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	28	spec	_	_
-28	conjuntos	conjunto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	dobj	_	_
-29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	aficionado	aficionado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	30	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	acudió	acudir	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+6	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	pobj	_	_
+7	Estanbul	estanbul	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+9	presenciar	presenciar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	8	comp	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	encuentro	encuentro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	dobj	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+13	ida	ida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+14	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+15	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	16	spec	_	_
+16	semifinales	semifinal	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	comp	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+19	Copa	copa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
+20	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	22	spec	_	_
+22	UEFA	uefa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	comp	_	_
+23	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+24	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	25	subj	_	_
+25	disputarán	disputar	VMIF3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	2	mod	_	_
+26	mañana	mañana	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	25	adjt	_	_
+27	ambos	ambos	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	28	spec	_	_
+28	conjuntos	conjunto	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	25	dobj	_	_
+29	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 30	murió	morir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 31	a	a	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
 32	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_

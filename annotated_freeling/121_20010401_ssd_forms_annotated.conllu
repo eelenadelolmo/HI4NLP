@@ -1,12 +1,12 @@
-1	EL	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	JURADO	jurado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	presidido	presidir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_
-6	Miguel	miguel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-7	García	garcía	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
-8	Posada	posar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	EL	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	JURADO	jurado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	presidido	presidir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+5	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	agnt	_	_
+6	Miguel	miguel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	García	garcía	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	mod	_	_
+8	Posada	posar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 10	concedió	conceder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
 12	premio	premio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_

@@ -1,12 +1,12 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Paraguay	par_aguay	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-6	Luis	luis	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-7	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
-8	Macchi	macchi	RG	RG	matched=no|pos=adverb|type=general	2	modnomatch	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Paraguay	par_aguay	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	Luis	luis	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+7	González	gonzález	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	mod	_	_
+8	Macchi	macchi	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 10	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
 12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
@@ -128,7 +128,7 @@
 90	Cardoso	cardo_o	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	69	dobj	_	_
 91	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	69	punc	_	_
 
-1	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	González	gonzález	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	Macchi	macchi	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 3	concluirá	concluir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -144,9 +144,9 @@
 14	pasado_miércoles	[X:??/??/??:??.??:??]	W	W	matched=no|pos=date	12	adjt	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	gobernante	gobernante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	paraguayo	paraguayo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	gobernante	gobernante	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	paraguayo	paraguayo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	añadió	añadir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	dobj	_	_
 6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
@@ -188,11 +188,11 @@
 42	integración	integración	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
-2	procesos	proceso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	integración	integración	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
+2	procesos	proceso	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	integración	integración	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 6	agregó	agregar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
 8	deben	deber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	9	prt	_	_
@@ -266,25 +266,25 @@
 48	recalcó	recalcar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	modnorule	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	48	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
-3	Común	común	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	Sur	sur	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	2	punc	_	_
-8	MERCOSUR	mercosur	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
-10	formado	formar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-11	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	agnt	_	_
-12	Argentina	argentino	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
-14	Brasil	brasil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
-16	Paraguay	par_aguay	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-18	Uruguay	uruguay	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	coor	_	_
-19	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Mercado	mercado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+3	Común	común	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Sur	sur	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	2	punc	_	_
+8	MERCOSUR	mercosur	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	8	punc	_	_
+10	formado	formar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+11	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	agnt	_	_
+12	Argentina	argentino	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	10	punc	_	_
+14	Brasil	brasil	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	14	punc	_	_
+16	Paraguay	par_aguay	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+17	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+18	Uruguay	uruguay	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	coor	_	_
+19	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	2	punc	_	_
 20	requiere	requerir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
 22	prosiguió	proseguir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	20	modnomatch	_	_
@@ -327,7 +327,7 @@
 59	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	20	punc	_	_
 60	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	González	gonzález	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 2	Macchi	macchi	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 3	también	también	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 4	recordó	recordar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -407,7 +407,7 @@
 14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 15	Paraguay	par_aguay	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
 16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
-17	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	subj	_	_
+17	González	gonzález	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
 18	Macchi	macchi	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
 19	recalcó	recalcar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 20	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	19	modnomatch	_	_

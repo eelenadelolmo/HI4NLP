@@ -1,12 +1,12 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	decimoquinta	15	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	edición	edición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	regata	regata	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	transoceánica	transoceánico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
-8	ARC	arc	NC00000	NC	matched=no|pos=noun|type=common	3	mod	_	_
-9	`	`	Fe	Fe	matched=no|pos=punctuation|type=quotation	3	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	decimoquinta	15	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	edición	edición	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	regata	regata	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	transoceánica	transoceánico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	ARC	arc	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	3	mod	_	_
+9	`	`	Fe	Fe	matched=yes: subj child of top deprel|pos=punctuation|type=quotation	3	punc	_	_
 10	2000	2000	Z	Z	matched=no|pos=number	11	modnomatch	_	_
 11	batirá	batir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 12	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	13	spec	_	_
@@ -37,9 +37,9 @@
 37	Bishop	bishop	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	36	mod	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	rally	rally	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	náutico	náutico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	rally	rally	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	náutico	náutico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	partirá	partir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
@@ -155,8 +155,8 @@
 61	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	49	punc	_	_
 62	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	49	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	patrón	patrón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	patrón	patrón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 3	con	con	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 4	más	más	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
 5	edad	edad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
@@ -186,7 +186,7 @@
 2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
 3	momento	momento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-5	Bretaña	bretaña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+5	Bretaña	bretaña	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 6	lidera	liderar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	inscripción	inscripción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
@@ -358,13 +358,13 @@
 39	enfatizó	enfatizar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	modnorule	_	_
 40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	39	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	representante	representante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Autoridad	autoridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	Portuaria	portuario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	representante	representante	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Autoridad	autoridad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Portuaria	portuario	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	Manuel	manuel	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
 9	Vidal	vida_l	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_

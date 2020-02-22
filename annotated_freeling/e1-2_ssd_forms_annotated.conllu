@@ -19,11 +19,11 @@
 19	Figura	figura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	protagonistas	protagonista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	tragedia	tragedia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	protagonistas	protagonista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	tragedia	tragedia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	representan	representar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
 8	contradicción	contradicción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
@@ -48,8 +48,8 @@
 27	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	ZZNM	zznm	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	ZZNM	zznm	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 4	cambio	cambio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
@@ -131,12 +131,12 @@
 56	solo	solo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	54	attr	_	_
 57	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	54	punc	_	_
 
-1	Quienes	quien	PR0CP00	PR	gen=common|matched=no|num=plural|pos=pronoun|type=relative	2	subj	_	_
-2	conviven	convivir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	8	subj	_	_
-3	con	con	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	héroe	héroe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	trágico	trágico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+1	Quienes	quien	PR0CP00	PR	gen=common|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=relative	2	subj	_	_
+2	conviven	convivir	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	8	subj	_	_
+3	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	héroe	héroe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	trágico	trágico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 7	no	no	RN	RN	matched=no|pos=adverb|type=negative	8	spec	_	_
 8	desean	desear	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 9	más	más	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
@@ -257,8 +257,8 @@
 15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	dobj	_	_
 16	objetivo	objetivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	coor	_	_
 17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
-19	situación	situación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+19	situación	situación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
 20	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 21	trágica	trágico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	20	attr	_	_
 22	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	20	punc	_	_
@@ -286,15 +286,15 @@
 44	humorístico	humorístico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	42	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	clave	clave	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	todos	todo	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	5	spec	_	_
-5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	falseamientos	falseamiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-9	todas	todo	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	clave	clave	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	todos	todo	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	5	spec	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	falseamientos	falseamiento	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+7	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+9	todas	todo	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
 10	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
 11	malversaciones	malversación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	modnomatch	_	_
 12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
@@ -390,7 +390,7 @@
 20	tomado	tomar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
 21	a_el_pie_de_la_letra	al_pie_de_la_letra	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
 22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-23	ZZNM	zznm	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	subj	_	_
+23	ZZNM	zznm	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	25	subj	_	_
 24	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	25	mphes	_	_
 25	convierte	convertir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 26	en	en	SP	SP	matched=no|pos=adposition|type=preposition	25	pobj	_	_

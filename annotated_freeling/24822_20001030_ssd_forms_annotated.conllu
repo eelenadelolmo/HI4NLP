@@ -124,8 +124,8 @@
 3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
 4	prensa	prensa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	consejera	consejero	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	consejera	consejero	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 8	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	dobj	_	_
 10	en_materia_de	en_materia_de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
@@ -284,13 +284,13 @@
 35	Doñana	doñana	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
 36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	directora	director	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Ordenación	ordenación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	Territorio	territorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	directora	director	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Ordenación	ordenación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	Territorio	territorio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
 8	explicó	explicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	8	dobj	_	_
 10	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
@@ -326,8 +326,8 @@
 40	aplicación	aplicación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Josefina	josefino	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-2	Cruz	cruz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Josefina	josefino	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+2	Cruz	cruz	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_

@@ -63,16 +63,16 @@
 34	interpreta	interpretar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	33	comp	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Gata	gato	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
-2	golpeada	golpear	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
-3	por	por	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-7	pateada	patear	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-9	violada	violar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Gata	gato	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+2	golpeada	golpear	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
+3	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	mundo	mundo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+7	pateada	patear	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+9	violada	violar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 11	enganchada	enganchar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	22	pred	_	_
 12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 13	todos	todo	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	14	spec	_	_
@@ -89,8 +89,8 @@
 24	Edén	edén	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Edén	edén	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Edén	edén	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	dobj	_	_
 4	encontramos	encontrar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
 5	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	4	modnomatch	_	_

@@ -63,16 +63,16 @@
 18	diarios	diario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	Harrison	harrison	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-4	también	también	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
-5	compuso	componer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
-6	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
-7	canción	canción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
-8	llamada	llamar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	mod	_	_
-9	Bangladesh	bangladesh	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Harrison	harrison	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+4	también	también	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	adjt	_	_
+5	compuso	componer	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+6	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	canción	canción	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
+8	llamada	llamar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	7	mod	_	_
+9	Bangladesh	bangladesh	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	modnomatch	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 11	consiguió	conseguir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	nueve_millones_de_dólares	$_USD:9000000	Zm	Zm	matched=no|pos=number|type=currency	11	dobj	_	_
 13	para	para	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
@@ -80,10 +80,10 @@
 15	causa	causa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 5	Mme	milímetro_e	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	10	modnomatch	_	_
 6	Khaleda	khaleda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	mod	_	_
 7	Zia	zia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
@@ -106,11 +106,11 @@
 24	Pakistán	pakistán	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	10	modnomatch	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	contribuciones	contribución	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-3	humanitarias	humanitario	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	Harrison	harrison	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	contribuciones	contribución	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	humanitarias	humanitario	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	Harrison	harrison	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 6	alcanzaron	alcanzar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	también	también	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
 8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	dobj	_	_

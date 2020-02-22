@@ -149,18 +149,18 @@
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
 5	0-3	0-3	Z	Z	matched=no|pos=number	4	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-7	Guillén	guillén	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	subj	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
-9	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	subj	_	_
-10	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	prt	_	_
-11	batear	batear	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	mod	_	_
-12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
-13	ambos	ambos	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	14	spec	_	_
-14	lados	lado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
-15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
-16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
-17	plato	plato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
-18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+7	Guillén	guillén	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	11	subj	_	_
+10	puede	poder	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	prt	_	_
+11	batear	batear	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	7	mod	_	_
+12	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	adjt	_	_
+13	ambos	ambos	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	14	spec	_	_
+14	lados	lado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	mod	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	17	spec	_	_
+17	plato	plato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
 19	logró	lograr	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 20	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	21	spec	_	_
 21	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	19	modnomatch	_	_
@@ -383,8 +383,8 @@
 72	División	división	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	71	comp	_	_
 73	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	61	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	Yanquis	yanqui	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	Yanquis	yanqui	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	consiguieron	conseguir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	cuadrangulares	cuadrangular	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	modnomatch	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
@@ -468,8 +468,8 @@
 40	consecutiva	consecutivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	39	mod	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	Yanquis	yanqui	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	Yanquis	yanqui	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	perdieron	perder	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 5	tercer	3	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	6	mod	_	_

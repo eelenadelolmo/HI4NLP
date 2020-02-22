@@ -30,14 +30,14 @@
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	3	modnomatch	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-7	Mattos	mattos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
+7	Mattos	mattos	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
 8	actuará	actuar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 9	también	también	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
 10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
 11	L'Espai	l'espai	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	FNAC	fnac	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	FNAC	fnac	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	Triangle	triangle	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	Plaza	plaza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
@@ -50,9 +50,9 @@
 2	gratuita	gratuito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
 3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cantante	cantante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	flamenca	flamenco	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cantante	cantante	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	flamenca	flamenco	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	presenta	presentar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
 6	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	7	mod	_	_
@@ -63,11 +63,11 @@
 11	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	10	modnomatch	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	3	modnomatch	_	_
-3	cantaora	cantaor	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-4	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	3	modnomatch	_	_
-5	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	'	'	Fe	Fe	matched=yes: subj child of top deprel|pos=punctuation|type=quotation	3	modnomatch	_	_
+3	cantaora	cantaor	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+4	'	'	Fe	Fe	matched=yes: subj child of top deprel|pos=punctuation|type=quotation	3	modnomatch	_	_
+5	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 6	actúa	actuar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	acompañada	acompañar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	6	pred	_	_
 8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	dobj	_	_
@@ -95,11 +95,11 @@
 3	1.000_pesetas	$_ESP:1000	Zm	Zm	matched=no|pos=number|type=currency	1	mod	_	_
 4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	exlíder	ex_líder	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	Ronaldos	ronaldos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	exlíder	ex_líder	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	Ronaldos	ronaldos	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
 7	presenta	presentar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	en_compañía_de	en_compañía_de	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_

@@ -1,6 +1,6 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	carácter	carácter	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	emprendedor	emprendedor	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	carácter	carácter	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	emprendedor	emprendedor	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	suele	soler	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	prt	_	_
 5	asociarse	asociarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
@@ -39,8 +39,8 @@
 29	vital	vital	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
 
-1	Ricard	ricard	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
+1	Ricard	ricard	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
 5	excepción	excepción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
@@ -160,7 +160,7 @@
 3	72	72	Z	Z	matched=no|pos=number	4	spec	_	_
 4	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
+6	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
 7	posee	poseer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
 9	extenso	extenso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
@@ -300,7 +300,7 @@
 2	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
 3	inicios	inicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	Natura	natura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+5	Natura	natura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 6	Bissé	bissé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
 8	limitó	limitar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	6	modnomatch	_	_
@@ -327,8 +327,8 @@
 29	belleza	belleza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	asalto	asalto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	asalto	asalto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	mercados	mercado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
@@ -354,7 +354,7 @@
 8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 9	1995	1995	Z	Z	matched=no|pos=number	8	comp	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
-11	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	subj	_	_
+11	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
 12	vio	ver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
 14	necesidad	necesidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	dobj	_	_
@@ -409,8 +409,8 @@
 34	familiar	familiar	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	33	mod	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	Sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	hijas	hijo	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	hijas	hijo	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	copan	copar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	dirección	dirección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -442,7 +442,7 @@
 2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	ejecutivo	ejecutivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+5	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 6	considera	considerar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	dobj	_	_
 8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
@@ -496,9 +496,9 @@
 32	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	carácter	carácter	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	familiar	familiar	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	carácter	carácter	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	familiar	familiar	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 5	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	4	attr	_	_
 6	muy	muy	RG	RG	matched=no|pos=adverb|type=general	7	spec	_	_
@@ -516,10 +516,10 @@
 18	malo	malo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	16	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ideario	ideario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ideario	ideario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Fisas	fi_as	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
 6	basa	basar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
@@ -572,8 +572,8 @@
 2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
 3	gestión	gestión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	6	spec	_	_
-6	receta	receta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+5	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	6	spec	_	_
+6	receta	receta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 8	simple	simple	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
 9	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	7	punc	_	_

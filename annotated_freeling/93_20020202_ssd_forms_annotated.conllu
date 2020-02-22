@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	consistorio	consistorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	consistorio	consistorio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	reveló	revelar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	ganadores	ganador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
@@ -22,9 +22,9 @@
 22	Multimedia	multimedia	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	21	coor	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	Primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	categoría	categoría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	Primera	1	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	categoría	categoría	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 4	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 5	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
 6	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_
@@ -53,8 +53,8 @@
 
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 2	Multimedia	multimedia	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	1	comp	_	_
-3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	galardonado	galardonado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	galardonado	galardonado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 5	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 6	Vicente	vicente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
 7	Guallart	guallart	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	attr	_	_
@@ -79,8 +79,8 @@
 26	cotidiana	cotidiano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	premios	premio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	premios	premio	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	entregarán	entregar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_

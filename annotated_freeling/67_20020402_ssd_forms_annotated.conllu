@@ -93,9 +93,9 @@
 17	raíles	raíl	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	dobj	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	Unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
-2	30	30	Z	Z	matched=no|pos=number	3	spec	_	_
-3	convoyes	convoy	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+1	Unos	uno	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+2	30	30	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	convoyes	convoy	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	vieron	ver	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	afectados	afectar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	5	pred	_	_
@@ -114,8 +114,8 @@
 19	viajeros	viajero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	retrasos	retraso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	retrasos	retraso	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	oscilaron	oscilar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
 5	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	modnomatch	_	_
@@ -123,9 +123,9 @@
 7	dos_horas	TM_h:2	Zu	Zu	matched=no|pos=number|type=unit	6	coor	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
-2	30	30	Z	Z	matched=no|pos=number	3	spec	_	_
-3	autobuses	autobús	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Unos	uno	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+2	30	30	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	autobuses	autobús	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 4	ayudaron	ayudar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	coor	_	_
 6	algunos	alguno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	7	spec	_	_
@@ -156,8 +156,8 @@
 31	Tarragona	tarragona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	coor	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Tres	3	Z	Z	matched=no|pos=number	2	spec	_	_
-2	heridos	herido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Tres	3	Z	Z	matched=yes: subj child of top deprel|pos=number	2	spec	_	_
+2	heridos	herido	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 4	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 5	dados_de_alta	dar_de_alta	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
@@ -190,15 +190,15 @@
 32	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	coor	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Tres	3	Z	Z	matched=no|pos=number	3	subj	_	_
+1	Tres	3	Z	Z	matched=yes: subj child of top deprel|pos=number	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	hallan	hallar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
 5	graves	grave	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	pred	_	_
 6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	médicos	médico	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	médicos	médico	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	mostraban	mostrar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 5	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_

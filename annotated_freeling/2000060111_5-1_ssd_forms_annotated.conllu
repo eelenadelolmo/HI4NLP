@@ -1,7 +1,7 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	representante	representante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Perú	perú	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	representante	representante	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Perú	perú	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
 6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	Organización	organización	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
@@ -44,7 +44,7 @@
 44	peruana	peruano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	18	modnomatch	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	Ramacciotti	ramacciotti	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Ramacciotti	ramacciotti	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	afirmó	afirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
@@ -86,8 +86,8 @@
 40	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	representante	representante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	representante	representante	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	manifestó	manifestar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
 5	seguridad	seguridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -132,10 +132,10 @@
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	Perú	perú	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	10	modnomatch	_	_
-10	RPP	rpp	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-11	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	10	modnomatch	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+9	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	10	modnomatch	_	_
+10	RPP	rpp	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+11	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	10	modnomatch	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	10	punc	_	_
 13	Ramacciotti	ramacciotti	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	modnomatch	_	_
 14	afirmó	afirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 15	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	14	dobj	_	_
@@ -179,9 +179,9 @@
 53	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	14	punc	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	embajadora	embajador	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	peruana	peruano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	embajadora	embajador	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	peruana	peruano	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	OEA	oea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
@@ -213,14 +213,14 @@
 32	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	7	punc	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	jefe	jefe	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-6	Alberto	alberto	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
-7	Fujimori	fujimori	RG	RG	matched=no|pos=adverb|type=general	2	modnomatch	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	jefe	jefe	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	Alberto	alberto	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+7	Fujimori	fujimori	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 9	acudió	acudir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
 11	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
@@ -255,13 +255,13 @@
 40	extranjeros	extranjero	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	39	coor	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	misión	misión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-3	observadora	observador	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	OEA	oea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	misión	misión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	observadora	observador	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	OEA	oea	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
 9	presidió	presidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	14	modnomatch	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
@@ -353,15 +353,15 @@
 46	escrutadas	escrutar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	45	mod	_	_
 47	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Reunión	reunión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Consejo	consejo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	Permanente	permanente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	OEA	oea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Reunión	reunión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Consejo	consejo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Permanente	permanente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	OEA	oea	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
 10	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	11	aux	_	_
 11	generado	generar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 12	expectativa	expectativa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
@@ -410,9 +410,9 @@
 55	comicios	comicio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	modnomatch	_	_
 56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	55	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
-3	latinoamericanos	latinoamericano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	países	país	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	latinoamericanos	latinoamericano	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 4	evitaron	evitar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -460,7 +460,7 @@
 48	continente	continente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	46	comp	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Ramacciotti	ramacciotti	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Ramacciotti	ramacciotti	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	afirmó	afirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
 4	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
@@ -489,21 +489,21 @@
 3	reiterar	reiterar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	modnomatch	_	_
 4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	críticas	crítica	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
-6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
-7	pronunció	pronunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	24	subj	_	_
-8	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
-9	Stein	stein	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
-10	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
-11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
-12	reunión	reunión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
-14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
-15	Consejo	consejo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-16	Permanente	permanente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
-17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
-18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
-19	OEA	oea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
-20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	pronunció	pronunciar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	24	subj	_	_
+8	contra	contra	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	adjt	_	_
+9	Stein	stein	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+10	ante	ante	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	adjt	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	reunión	reunión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	mod	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	Consejo	consejo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+16	Permanente	permanente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	15	mod	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+19	OEA	oea	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
+20	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
 21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
 22	embajadora	embajador	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	modnomatch	_	_
 23	peruana	peruano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_

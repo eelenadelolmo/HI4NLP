@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	inicia	iniciar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	adjt	_	_
@@ -18,9 +18,9 @@
 18	pendientes	pendiente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	17	mod	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	escollo	escollo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	escollo	escollo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 4	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	Tenerife	tenerife	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
@@ -81,8 +81,8 @@
 25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
 26	Aquiles	aquiles	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
 27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
-28	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	29	spec	_	_
-29	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	subj	_	_
+28	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	29	spec	_	_
+29	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	30	subj	_	_
 30	pasará	pasar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 31	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	33	spec	_	_
 32	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	33	mod	_	_
@@ -95,7 +95,7 @@
 39	afición	afición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
 40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
 
-1	Hiddink	hiddink	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	2	subj	_	_
+1	Hiddink	hiddink	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	2	subj	_	_
 2	sigue	seguir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	atentamente	atentar_mente	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	2	dobj	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -105,11 +105,11 @@
 8	jugadores	jugador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	éxitos	éxito	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	éxitos	éxito	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	no	no	RN	RN	matched=no|pos=adverb|type=negative	8	spec	_	_
 7	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	8	aux	_	_
 8	tapado	tapar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -207,8 +207,8 @@
 57	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
 58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Davor	dar_vor	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	3	subj	_	_
-2	Suker	suker	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	Davor	dar_vor	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	subj	_	_
+2	Suker	suker	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 3	desveló	desvelar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
@@ -227,8 +227,8 @@
 18	situación	situación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	delantero	delantero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	delantero	delantero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	seguirá	seguir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_

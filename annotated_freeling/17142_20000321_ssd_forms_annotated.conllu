@@ -1,10 +1,10 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	entrenador	entrenador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	selección	selección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	entrenador	entrenador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	selección	selección	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
 9	Guatemala	guatemala	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	comp	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
@@ -41,9 +41,9 @@
 41	hondureño	hondureño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	40	mod	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	prensa	prensa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	deportiva	deportivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	prensa	prensa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	deportiva	deportivo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 5	crítica	crítica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
 6	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -130,8 +130,8 @@
 45	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	16	punc	_	_
 46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	técnico	técnico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	técnico	técnico	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	anunció	anunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	van	ir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	7	prt	_	_
@@ -199,7 +199,7 @@
 31	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Miloc	miloc	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Miloc	miloc	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
@@ -233,8 +233,8 @@
 32	juegos	juego	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	jugadores	jugador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	jugadores	jugador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
 3	volverán	volver	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	5	prt	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	prt	_	_
 5	concentrarse	concentrarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -296,7 +296,7 @@
 29	guatemaltecos	guatemalteco	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	modnomatch	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
 
-1	Belice	belice	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Belice	belice	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 2	volverá	volver	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	4	prt	_	_
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	prt	_	_
 4	enfrentar	enfrentar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -323,14 +323,14 @@
 25	7_de_mayo	[??:7/5/??:??.??:??]	W	W	matched=no|pos=date	23	comp	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-4	eliminatorio	eliminatorio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	Grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-8	A	a	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	último	último	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+4	eliminatorio	eliminatorio	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	Grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+8	A	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	modnomatch	_	_
 9	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 10	guatemaltecos	guatemalteco	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
 11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
@@ -355,9 +355,9 @@
 30	Caballeros	caballero	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	29	mod	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	dirigente	dirigente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	deportivo	deportivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	dirigente	dirigente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	deportivo	deportivo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
 5	descartó	descartar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	dobj	_	_

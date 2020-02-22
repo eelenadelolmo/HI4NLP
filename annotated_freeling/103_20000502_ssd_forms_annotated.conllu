@@ -1,7 +1,7 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Felicia	fe_licio	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	viaje	viaje	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Felicia	fe_licio	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
 6	situaría	situar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
 7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
@@ -160,8 +160,8 @@
 51	crecer	crecer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	50	comp	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	subj	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	3	subj	_	_
 3	juega	jugar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
 5	papel	papel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -224,16 +224,16 @@
 48	pretéritos	pretérito	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	47	mod	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	placidez	placidez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	3	comp	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	protagonista	protagonista	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-8	desarrolla	desarrollar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
-9	ese	ese	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	10	spec	_	_
-10	cometido	cometido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	placidez	placidez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	adjt	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	3	comp	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	protagonista	protagonista	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+8	desarrolla	desarrollar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+9	ese	ese	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	10	spec	_	_
+10	cometido	cometido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	dobj	_	_
 11	contrasta	contrastar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
 13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	adjt	_	_
@@ -268,11 +268,11 @@
 42	Felicia	fe_licio	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
 
-1	Una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	serie	serie	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	hechos	hecho	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-5	violentos	violento	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	serie	serie	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	hechos	hecho	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	violentos	violento	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	4	mod	_	_
 6	van	ir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	desvelándose	desvelándose	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_

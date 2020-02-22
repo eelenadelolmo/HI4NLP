@@ -110,10 +110,10 @@
 3	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	siguiente	siguiente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-9	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	compañía	compañía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+9	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
 10	volvió	volver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
@@ -156,9 +156,9 @@
 49	reparto	reparto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	47	comp	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	47	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
-2	última	último	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	interpretación	interpretación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
+2	última	último	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	interpretación	interpretación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 5	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
@@ -176,8 +176,8 @@
 18	Barca	barca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Miguel	miguel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-2	Narros	narros	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
+1	Miguel	miguel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+2	Narros	narros	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
 3	la	lo	PP3FSA0	PP	case=accusative|gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	dobj	_	_
 4	dirigió	dirigir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_

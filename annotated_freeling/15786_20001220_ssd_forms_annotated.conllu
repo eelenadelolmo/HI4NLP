@@ -58,8 +58,8 @@
 10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 11	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
 12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
-13	Pérez	pérez	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-14	Llorca	ll_orca	NCFN000	NC	gen=feminine|matched=no|num=invariable|pos=noun|type=common	13	mod	_	_
+13	Pérez	pérez	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+14	Llorca	ll_orca	NCFN000	NC	gen=feminine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	13	mod	_	_
 15	declaró	declarar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
 17	Efe	efe	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
@@ -230,11 +230,11 @@
 11	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
 12	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 13	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
-14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
-15	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
-16	asignatura	asignatura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	subj	_	_
-17	pendiente	pendiente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
-18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+15	gran	gran	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	asignatura	asignatura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	23	subj	_	_
+17	pendiente	pendiente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	16	punc	_	_
 19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
 20	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
 21	reto	reto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	modnomatch	_	_

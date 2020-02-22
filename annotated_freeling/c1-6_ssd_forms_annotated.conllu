@@ -73,8 +73,8 @@
 48	lata	lata	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	43	modnomatch	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	43	punc	_	_
 
-1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	niuspéiper	niuspéiper	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	niuspéiper	niuspéiper	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	ponía	poner	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 4	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
@@ -118,9 +118,9 @@
 43	1950	1950	Z	Z	matched=no|pos=number	42	comp	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	nombre	nombre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	semejante	semejante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	nombre	nombre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	semejante	semejante	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	considera	considerar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	perjudicial	perjudicial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	pred	_	_
@@ -135,8 +135,8 @@
 4	verdad	verdad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
 5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	neonatos	neonato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	neonatos	neonato	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
 3	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	prt	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	prt	_	_
 5	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -179,13 +179,13 @@
 
 1	Por_ejemplo	por_ejemplo	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
 2	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
-3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-4	próximo	próximo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-5	nieto	nieto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	señora	señor	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	Caballé	caballé	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	mod	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+4	próximo	próximo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+5	nieto	nieto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	señora	señor	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	Caballé	caballé	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	mod	_	_
 10	debería	deber	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	11	prt	_	_
 11	llamarse	llamarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 12	Chamuscado	chamuscar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	mod	_	_
@@ -329,8 +329,8 @@
 31	más	más	RG	RG	matched=no|pos=adverb|type=general	30	comp	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
 
-1	Darlin	darlin	NC00000	NC	matched=no|pos=noun|type=common	4	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Darlin	darlin	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	4	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	iobj	_	_
 4	digo	decir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -359,8 +359,8 @@
 28	grandeza	grandeza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	tiempos	tiempo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	tiempos	tiempo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	subj	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	comp	_	_
 5	doña	don	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_

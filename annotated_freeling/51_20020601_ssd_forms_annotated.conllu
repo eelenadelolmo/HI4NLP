@@ -249,7 +249,7 @@
 6	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Paso	paso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+1	Paso	paso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 2	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 3	paso	paso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
@@ -347,7 +347,7 @@
 4	RECURSOS	recurso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
 5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Francia	francia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Francia	francia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	también	también	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 3	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 4	hundida	hundir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	attr	_	_
@@ -559,18 +559,18 @@
 30	Francia	francia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	tipo	tipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-4	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
-5	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
-6	aspecto	aspecto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	estudioso	estudioso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	tipo	tipo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+4	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	5	spec	_	_
+5	tiene	tener	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+6	aspecto	aspecto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	estudioso	estudioso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 13	más	más	RG	RG	matched=no|pos=adverb|type=general	14	modnomatch	_	_
 14	bien	bien	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
 15	parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_

@@ -165,7 +165,7 @@
 29	conflicto	conflicto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	anunció	anunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	también	también	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
@@ -205,8 +205,8 @@
 
 1	Además	además	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	Pentágono	pentágono	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	Pentágono	pentágono	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 5	entregó	entregar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
 7	suministros	suministro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	dobj	_	_
@@ -242,7 +242,7 @@
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 6	Hanoi	hanoi	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-8	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
+8	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
 9	presidió	presidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
 11	ceremonia	ceremonia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_

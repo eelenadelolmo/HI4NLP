@@ -1,5 +1,5 @@
-1	Trece	13	Z	Z	matched=no|pos=number	2	spec	_	_
-2	palestinos	palestino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Trece	13	Z	Z	matched=yes: subj child of top deprel|pos=number	2	spec	_	_
+2	palestinos	palestino	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	murieron	morir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
 5	90	90	Z	Z	matched=no|pos=number	4	coor	_	_
@@ -42,9 +42,9 @@
 11	soldado	soldado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	tropas	tropa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	tropas	tropa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	caza	caza	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	comp	_	_

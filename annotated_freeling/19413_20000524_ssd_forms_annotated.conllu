@@ -1,5 +1,5 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	discusión	discusión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	discusión	discusión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	28	subj	_	_
 3	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	28	adjt	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	reelección	reelección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
@@ -158,8 +158,8 @@
 48	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Rodríguez	rodríguez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Rodríguez	rodríguez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	según	según	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 4	Arias	aria	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
@@ -185,10 +185,10 @@
 1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	Rodríguez	rodríguez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	Rodríguez	rodríguez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 8	acordó	acordar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
 10	Martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	8	adjt	_	_
@@ -206,7 +206,7 @@
 22	discusión	discusión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	Arias	aria	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	subj	_	_
+1	Arias	aria	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	subj	_	_
 2	acusó	acusar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -263,13 +263,13 @@
 55	presidencial	presidencial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	54	mod	_	_
 56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	42	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Asamblea	asamblea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	Legislativa	legislativo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Asamblea	asamblea	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Legislativa	legislativo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	socialcristiano	socialcristiano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
 10	Jorge	jorge	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
@@ -321,8 +321,8 @@
 21	Arias	aria	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	20	comp	_	_
 22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
 23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-24	PLN	pln	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	subj	_	_
-25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+24	PLN	pln	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	subj	_	_
+25	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	24	punc	_	_
 26	amenazó	amenazar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 27	con	con	SP	SP	matched=no|pos=adposition|type=preposition	26	pobj	_	_
 28	abandonar	abandonar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	27	comp	_	_
@@ -334,19 +334,19 @@
 34	actividad	actividad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	dobj	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	Arias	aria	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	33	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
-4	tampoco	tampoco	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
-5	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
-6	gozado	gozar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	apoyo	apoyo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
-11	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	12	spec	_	_
-12	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Arias	aria	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	33	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+4	tampoco	tampoco	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	6	adjt	_	_
+5	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
+6	gozado	gozar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	pobj	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	apoyo	apoyo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+11	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	12	spec	_	_
+12	partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 14	agitado	agitar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	33	pred	_	_
 15	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 16	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	18	spec	_	_
@@ -397,8 +397,8 @@
 6	Asamblea	asamblea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	Legislativa	legislativo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-9	Oscar	oscar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-10	Arias	ario	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+9	Oscar	oscar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+10	Arias	ario	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	9	mod	_	_
 11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	12	mphes	_	_
 12	juega	jugar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 13	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_

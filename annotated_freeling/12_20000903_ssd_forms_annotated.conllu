@@ -18,10 +18,10 @@
 18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
 19	Ebro	ebro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
 20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
-22	Plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	subj	_	_
-23	Hidrológico	hidrológico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
-24	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	22	spec	_	_
+22	Plan	plan	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	27	subj	_	_
+23	Hidrológico	hidrológico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	mod	_	_
 25	empieza	empezar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	27	prt	_	_
 26	a	a	SP	SP	matched=no|pos=adposition|type=preposition	27	prt	_	_
 27	dar	dar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -59,7 +59,7 @@
 8	favorables	favorable	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	6	attr	_	_
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Aragón	aragón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Aragón	aragón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	dice	decir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
 4	no	no	RN	RN	matched=no|pos=adverb|type=negative	2	spec	_	_

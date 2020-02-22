@@ -1,5 +1,5 @@
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	cárceles	cárcel	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	cárceles	cárcel	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	crean	crear	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	veces	vez	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
@@ -95,7 +95,7 @@
 21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	coor	_	_
 22	redención	redención	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
 23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-24	esto	este	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	25	subj	_	_
+24	esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	25	subj	_	_
 25	impone	imponer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 26	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	27	spec	_	_
 27	revisión	revisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	dobj	_	_
@@ -144,8 +144,8 @@
 30	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	5	punc	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Papa	papa	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Papa	papa	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 4	pide	pedir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	decisiones	decisión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_

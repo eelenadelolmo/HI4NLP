@@ -1,7 +1,7 @@
-1	Caja	caja	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-2	Rural	rural	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-4	Asturias	asturias	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	Caja	caja	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+2	Rural	rural	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+4	Asturias	asturias	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 5	prevé	prever	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	obtener	obtener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
 7	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	8	spec	_	_
@@ -123,8 +123,8 @@
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	entidad	entidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	9	spec	_	_
-9	datos	dato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
+8	estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	9	spec	_	_
+9	datos	dato	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
 10	reflejan	reflejar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
 12	constante	constante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
@@ -184,8 +184,8 @@
 66	53.273	53273	Z	Z	matched=no|pos=number	65	comp	_	_
 67	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	56	punc	_	_
 
-1	Suárez	suárez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	Blanco	blanco	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+1	Suárez	suárez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Blanco	blanco	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
 3	abogó	abogar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -252,24 +252,24 @@
 1	En_cuanto_a	en_cuanto_a	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
 2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
 3	incidencia	incidencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	tendrá	tener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	22	subj	_	_
-6	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	Caja	caja	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	Rural	rural	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
-11	reciente	reciente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
-12	subida	subida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
-13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
-14	tipos	tipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
-15	aprobada	aprobar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	pred	_	_
-16	por	por	SP	SP	matched=no|pos=adposition|type=preposition	15	agnt	_	_
-17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
-18	Banco	banco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
-19	Central	central	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
-20	Europeo	europeo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	15	modnomatch	_	_
-21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	tendrá	tener	VMIF3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	22	subj	_	_
+6	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	Caja	caja	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	Rural	rural	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+11	reciente	reciente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+12	subida	subida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	mod	_	_
+14	tipos	tipo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	comp	_	_
+15	aprobada	aprobar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	5	pred	_	_
+16	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	15	agnt	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	18	spec	_	_
+18	Banco	banco	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
+19	Central	central	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+20	Europeo	europeo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	15	modnomatch	_	_
+21	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
 22	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 23	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	22	dobj	_	_
 24	en	en	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
@@ -327,8 +327,8 @@
 5	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	6	spec	_	_
 6	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	entidad	entidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	entidad	entidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
 10	continuará	continuar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 11	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
@@ -362,11 +362,11 @@
 40	urbanas	urbano	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	39	mod	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	objetivo	objetivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Caja	caja	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	Rural	rural	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	objetivo	objetivo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Caja	caja	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	Rural	rural	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	finalizar	finalizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	modnomatch	_	_
@@ -388,11 +388,11 @@
 24	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	negocio	negocio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	diseñado	diseñar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	4	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	plan	plan	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	negocio	negocio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	diseñado	diseñar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	4	mod	_	_
 6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	entidad	entidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
@@ -468,11 +468,11 @@
 24	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	comp	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	evolución	evolución	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	balance	balance	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	evolución	evolución	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	balance	balance	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	muestra	mostrar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
 8	aumento	aumento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_

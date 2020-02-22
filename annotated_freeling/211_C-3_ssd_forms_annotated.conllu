@@ -1,15 +1,15 @@
 1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 2	Latinoamérica	latinoamérica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 3	figura	figura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	Asamblea	asamblea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-11	Nicaragua	nicaragua	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	Asamblea	asamblea	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+11	Nicaragua	nicaragua	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
 13	Iván	iván	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 14	Escobar	escoba_r	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
@@ -112,9 +112,9 @@
 23	gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
 24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	candidato	candidato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	opositor	opositor	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	candidato	candidato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	opositor	opositor	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	Alejandro	alejandro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 5	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	mod	_	_
 6	continuó	continuar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -160,7 +160,7 @@
 46	elecciones	elección	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	44	dobj	_	_
 47	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	44	punc	_	_
 
-1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -195,7 +195,7 @@
 33	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+1	Eso	ese	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
 2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 3	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
@@ -251,7 +251,7 @@
 47	observadores	observador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	46	coor	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
 3	participó	participar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
@@ -345,7 +345,7 @@
 53	domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	40	adjt	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	manifestó	manifestar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -407,8 +407,8 @@
 60	Fujimori	fujimori	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	59	comp	_	_
 61	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	59	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	mitin	mitin	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	mitin	mitin	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
 4	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	5	aux	_	_
 5	transmitido	transmitir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -467,7 +467,7 @@
 58	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	5	punc	_	_
 59	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -570,7 +570,7 @@
 52	domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	47	adjt	_	_
 53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
 
-1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Toledo	tole_do	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	anunció	anunciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
@@ -642,11 +642,11 @@
 36	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	9	punc	_	_
 37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-4	japonés	japonés	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+4	japonés	japonés	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 6	Yoshiro	yoshiro	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 7	Mori	mor_i	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
@@ -716,11 +716,11 @@
 49	tarde	tarde	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	47	comp	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Venezuela	venezuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Venezuela	venezuela	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 6	Hugo	hugo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 7	Chávez	chávez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_

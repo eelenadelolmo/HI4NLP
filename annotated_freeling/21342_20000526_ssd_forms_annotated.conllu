@@ -1,7 +1,7 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Consejo	consejo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Ministros	ministro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Consejo	consejo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Ministros	ministro	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 5	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
 6	aprobado	aprobar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 7	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
@@ -163,8 +163,8 @@
 64	clase	clase	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	62	comp	_	_
 65	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Dicha	decir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-2	indemnización	indemnización	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Dicha	decir	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+2	indemnización	indemnización	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	4	aux	_	_
 4	pagada	pagar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_
@@ -219,8 +219,8 @@
 54	delito	delito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	52	dobj	_	_
 55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	52	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	indemnización	indemnización	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	indemnización	indemnización	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	cubrirá	cubrir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	por_lo_menos	por_lo_menos	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
@@ -331,12 +331,12 @@
 29	asistencia	asistencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
 30	mutua	mutuo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
 31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
-32	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	33	spec	_	_
-33	autoridades	autoridad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	39	subj	_	_
-34	competentes	competente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	33	mod	_	_
-35	de	de	SP	SP	matched=no|pos=adposition|type=preposition	33	mod	_	_
-36	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	37	spec	_	_
-37	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
+32	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	33	spec	_	_
+33	autoridades	autoridad	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	39	subj	_	_
+34	competentes	competente	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	33	mod	_	_
+35	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	33	mod	_	_
+36	cada	cada	DI0CS0	DI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	37	spec	_	_
+37	país	país	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	35	comp	_	_
 38	deberán	deber	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	39	prt	_	_
 39	prestarse	prestarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 40	mutuamente	mutuo_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	dobj	_	_

@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Hispasat	hispasat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	1C	1C	Z	Z	matched=no|pos=number	2	mod	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	2	modnomatch	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Hispasat	hispasat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	1C	1C	Z	Z	matched=yes: subj child of top deprel|pos=number	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	2	modnomatch	_	_
 6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	7	aux	_	_
 7	lanzado	lanzar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 8	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
@@ -112,8 +112,8 @@
 63	telecomunicaciones	telecomunicación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	62	comp	_	_
 64	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	50	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Hispasat	hispasat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Hispasat	hispasat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	1C	1C	Z	Z	matched=no|pos=number	4	modnomatch	_	_
 4	aumenta	aumentar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -278,7 +278,7 @@
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
 
 1	López	lópez	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
-2	Amor	amor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+2	Amor	amor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	pidió	pedir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -318,7 +318,7 @@
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	satélite	satélite	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	1C	1C	Z	Z	matched=no|pos=number	10	subj	_	_
+9	1C	1C	Z	Z	matched=yes: subj child of top deprel|pos=number	10	subj	_	_
 10	finaliza	finalizar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
 12	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	13	mod	_	_

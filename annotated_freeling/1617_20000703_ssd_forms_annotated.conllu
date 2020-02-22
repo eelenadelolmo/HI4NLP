@@ -1,10 +1,10 @@
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	total	total	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	26	26	Z	Z	matched=no|pos=number	5	spec	_	_
-5	ciudadanos	ciudadano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	cubanos	cubano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	total	total	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	26	26	Z	Z	matched=yes: subj child of top deprel|pos=number	5	spec	_	_
+5	ciudadanos	ciudadano	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	cubanos	cubano	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	llegados	llegar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	20	pred	_	_
 9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
 10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
@@ -39,11 +39,11 @@
 39	oficiales	oficial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	34	modnomatch	_	_
 40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
 
-1	Cuatro	4	Z	Z	matched=no|pos=number	6	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	4	spec	_	_
-4	ciudadanos	ciudadano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
-5	cubanos	cubano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
+1	Cuatro	4	Z	Z	matched=yes: subj child of top deprel|pos=number	6	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	4	spec	_	_
+4	ciudadanos	ciudadano	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+5	cubanos	cubano	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	4	mod	_	_
 6	llegaron	llegar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
 8	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
@@ -122,7 +122,7 @@
 38	madrileño	madrileño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	37	mod	_	_
 39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	Todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	3	subj	_	_
+1	Todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	encuentran	encontrar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
@@ -235,9 +235,9 @@
 60	GMT	gmt	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	57	comp	_	_
 61	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	procedimiento	procedimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	seguido	seguir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	procedimiento	procedimiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	seguido	seguir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 5	todos	todo	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
 6	ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	4	comp	_	_
@@ -277,8 +277,8 @@
 40	político	político	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	39	mod	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	fuentes	fuente	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	señalaron	señalar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	15	adjt	_	_
@@ -321,10 +321,10 @@
 2	ese	ese	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
 3	momento	momento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	funcionarios	funcionario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	asilo	asilo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	funcionarios	funcionario	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	asilo	asilo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
 9	empiezan	empezar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
 11	estudio	estudio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
@@ -368,8 +368,8 @@
 3	caso	caso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
-6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	admisión	admisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	admisión	admisión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
 8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
 9	trámite	trámite	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
@@ -405,10 +405,10 @@
 2	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
 3	plazo	plazo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	funcionarios	funcionario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	asilo	asilo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	funcionarios	funcionario	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	asilo	asilo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
 9	comunican	comunicar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 10	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	11	spec	_	_
 11	decisión	decisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_

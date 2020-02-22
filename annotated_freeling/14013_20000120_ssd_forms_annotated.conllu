@@ -1,21 +1,21 @@
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	excavaciones	excavación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	19	subj	_	_
-3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	cuatro	4	Z	Z	matched=no|pos=number	5	spec	_	_
-5	fincas	finca	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	frontera	frontera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	con	con	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-10	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
-12	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	2	modnomatch	_	_
-13	agentes	agente	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	2	mod	_	_
-14	mexicanos	mexicano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	13	mod	_	_
-15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	coor	_	_
-17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
-18	FBI	fbi	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	excavaciones	excavación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	19	subj	_	_
+3	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	cuatro	4	Z	Z	matched=yes: subj child of top deprel|pos=number	5	spec	_	_
+5	fincas	finca	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	frontera	frontera	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+10	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+11	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	9	punc	_	_
+12	donde	donde	PR00000	PR	matched=yes: subj child of top deprel|pos=pronoun|type=relative	2	modnomatch	_	_
+13	agentes	agente	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	mod	_	_
+14	mexicanos	mexicano	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	13	mod	_	_
+15	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	15	coor	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	18	spec	_	_
+18	FBI	fbi	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
 19	hallaron	hallar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 20	nueve	9	Z	Z	matched=no|pos=number	21	spec	_	_
 21	cadáveres	cadáver	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	dobj	_	_
@@ -144,13 +144,13 @@
 54	narcotráfico	narcotráfico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	52	comp	_	_
 55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	procurador	procurador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	general	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	República	república	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	procurador	procurador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	general	general	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	República	república	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	Jorge	jorge	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 9	Madrazo	madrazo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
@@ -188,7 +188,7 @@
 42	confiscadas	confiscar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	41	mod	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	Madrazo	madrazo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Madrazo	madrazo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -255,7 +255,7 @@
 44	familiares	familiar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	42	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
 
-1	Madrazo	madrazo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Madrazo	madrazo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	reunió	reunir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
@@ -295,37 +295,37 @@
 38	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	37	modnomatch	_	_
 39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	operación	operación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	subj	_	_
-3	conjunta	conjunto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	recabar	recabar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
-6	pruebas	prueba	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	dobj	_	_
-7	físicas	físico	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	6	mod	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-9	operaciones	operación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
-12	cartel	cartel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
-15	narcotráfico	narcotráfico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-17	Carrillo	carrillo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
-18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
-19	alias	alias	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	5	modnomatch	_	_
-20	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
-21	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-22	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
-23	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
-24	señor	señor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	mod	_	_
-26	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
-27	cielos	cielo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
-28	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
-29	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-30	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
-31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	operación	operación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	32	subj	_	_
+3	conjunta	conjunto	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	recabar	recabar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	4	comp	_	_
+6	pruebas	prueba	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	dobj	_	_
+7	físicas	físico	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+9	operaciones	operación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	comp	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	cartel	cartel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	narcotráfico	narcotráfico	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+17	Carrillo	carrillo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	17	punc	_	_
+19	alias	alias	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	5	modnomatch	_	_
+20	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+21	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+22	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+23	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	24	spec	_	_
+24	señor	señor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+25	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	24	mod	_	_
+26	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	27	spec	_	_
+27	cielos	cielo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	25	comp	_	_
+28	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+29	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+30	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+31	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 32	generaron	generar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 33	en	en	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
 34	México	méxico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
@@ -353,7 +353,7 @@
 4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 5	senadores	senador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-7	Madrazo	madrazo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+7	Madrazo	madrazo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 8	ofreció	ofrecer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	explicaciones	explicación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	dobj	_	_
 10	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
@@ -402,9 +402,9 @@
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	reunión	reunión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	fiscal	fiscal	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-10	general	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	fiscal	fiscal	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+10	general	general	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
 11	recibió	recibir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
 13	apoyo	apoyo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
@@ -450,8 +450,8 @@
 53	excavaciones	excavación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	51	comp	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	operación	operación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	operación	operación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	implicó	implicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	trabajos	trabajo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_

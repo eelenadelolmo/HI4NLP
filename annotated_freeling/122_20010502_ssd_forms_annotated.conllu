@@ -85,9 +85,9 @@
 85	Trabal	traba_l	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	84	coor	_	_
 86	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	61	punc	_	_
 
-1	Bartomeu	bartomeu	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	9	subj	_	_
-2	Cruells	cruells	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Bartomeu	bartomeu	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	9	subj	_	_
+2	Cruells	cruells	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 4	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
 6	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
@@ -184,8 +184,8 @@
 54	exhibieron	exhibir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	45	modnomatch	_	_
 55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	54	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	obra	obra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	obra	obra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	presentará	presentar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	dobj	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
@@ -230,8 +230,8 @@
 44	sabadellense	sabadellense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	43	mod	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	40	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	repaso	repaso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	repaso	repaso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	abarca	abarcar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	época	época	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -320,8 +320,8 @@
 10	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
 11	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
 12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
-14	álbum-catálogo	álbum_catálogo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	álbum-catálogo	álbum_catálogo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
 15	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	16	dobj	_	_
 16	diseñan	diseñar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 17	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	modnomatch	_	_
@@ -414,7 +414,7 @@
 43	permanente	permanente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	42	mod	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
 
-1	Cruells	cruells	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Cruells	cruells	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	confirmó	confirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	la	lo	PP3FSA0	PP	case=accusative|gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	5	dobj	_	_
@@ -437,8 +437,8 @@
 21	provincial	provincial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	diputación	diputación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	diputación	diputación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	aprobó	aprobar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
 5	presupuesto	presupuesto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -502,7 +502,7 @@
 47	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	45	dobj	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
 
-1	Cruells	cruells	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Cruells	cruells	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	recordó	recordar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_

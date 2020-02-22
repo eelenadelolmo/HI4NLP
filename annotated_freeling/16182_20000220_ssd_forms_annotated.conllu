@@ -36,7 +36,7 @@
 9	peruanas	peruano	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	coor	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Perú	perú	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Perú	perú	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	clasificó	clasificar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
@@ -92,9 +92,9 @@
 54	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	52	comp	_	_
 55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	árbitro	árbitro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	chileno	chileno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	árbitro	árbitro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	chileno	chileno	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	Mario	m_ario	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
 5	Sánchez	sánchez	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
 6	tuvo	tener	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	prt	_	_
@@ -121,8 +121,8 @@
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	final	final	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	árbitro	árbitro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	árbitro	árbitro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
 9	anuló	anular	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
 11	gol	gol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
@@ -155,8 +155,8 @@
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
 
 1	Inmediatamente	inmediatamente	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
-2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-3	árbitro	árbitro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	árbitro	árbitro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 4	expulsó	expulsar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
 6	Pavón	pavón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
@@ -177,9 +177,9 @@
 21	Reyes	rey	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	dobj	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Algunos	alguno	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	20	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
-3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	spec	_	_
+1	Algunos	alguno	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	20	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	1	spec	_	_
 4	más	más	RG	RG	matched=no|pos=adverb|type=general	20	adjt	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
 6	10.000	10000	Z	Z	matched=no|pos=number	7	spec	_	_
@@ -205,9 +205,9 @@
 26	campo	campo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Segundos	segundo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-2	después	después	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Segundos	segundo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+2	después	después	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	1	modnomatch	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	producía	producir	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
@@ -236,9 +236,9 @@
 29	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	árbitro	árbitro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	chileno	chileno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	árbitro	árbitro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	chileno	chileno	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	ya	ya	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
 5	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	6	aux	_	_
 6	anulado	anular	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -259,8 +259,8 @@
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	campo	campo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	colegiado	colegiado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	colegiado	colegiado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
 10	dio	dar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
 12	terminado	terminar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	11	comp	_	_
@@ -331,7 +331,7 @@
 31	objetos	objeto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	30	comp	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Perú	perú	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Perú	perú	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	realizó	realizar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
 4	planteamiento	planteamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
@@ -368,9 +368,9 @@
 
 1	Así	así	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-4	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	5	mod	_	_
-5	gol	gol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+4	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	5	mod	_	_
+5	gol	gol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 6	no	no	RN	RN	matched=no|pos=adverb|type=negative	8	spec	_	_
 7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
 8	hizo	hacer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -404,8 +404,8 @@
 6	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
 7	ventaja	ventaja	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
-9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	selección	selección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	selección	selección	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
 11	continuó	continuar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	12	prt	_	_
 12	presionando	presionar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_
 13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	modnomatch	_	_
@@ -426,9 +426,9 @@
 28	Lagos	lago	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	penalti	penalti	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	penalti	penalti	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 4	lanzado	lanzar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	10	pred	_	_
 5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
@@ -473,11 +473,11 @@
 27	entonces	entonces	RG	RG	matched=no|pos=adverb|type=general	26	comp	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	gol	gol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-4	acortaba	acortar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
-5	distancias	distancia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	gol	gol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	acortaba	acortar	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+5	distancias	distancia	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	dobj	_	_
 6	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	7	dobj	_	_
 7	consiguió	conseguir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	Clavasquin	clavasquin	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	modnomatch	_	_
@@ -500,7 +500,7 @@
 25	atajarlo	atajarlo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	Honduras	hondura	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Honduras	hondura	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 2	continuó	continuar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	prt	_	_
 3	presionando	presionar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
@@ -568,7 +568,7 @@
 1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	Perú	perú	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+4	Perú	perú	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 6	apenas	apenas	RG	RG	matched=no|pos=adverb|type=general	5	comp	_	_
 7	dos_minutos	TM_min:2	Zu	Zu	matched=no|pos=number|type=unit	8	modnomatch	_	_

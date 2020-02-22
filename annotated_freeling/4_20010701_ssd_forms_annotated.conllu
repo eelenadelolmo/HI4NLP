@@ -54,15 +54,15 @@
 28	Brother	brother	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	mod	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	Endemol	endemol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
-4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
-5	1999	1999	Z	Z	matched=no|pos=number	4	comp	_	_
-6	facturó	facturar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
-7	casi	casi	RG	RG	matched=no|pos=adverb|type=general	8	spec	_	_
-8	73.000_millones_de_pesetas	$_ESP:73000000000	Zm	Zm	matched=no|pos=number|type=currency	6	dobj	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Endemol	endemol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+4	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	adjt	_	_
+5	1999	1999	Z	Z	matched=yes: subj child of top deprel|pos=number	4	comp	_	_
+6	facturó	facturar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+7	casi	casi	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	8	spec	_	_
+8	73.000_millones_de_pesetas	$_ESP:73000000000	Zm	Zm	matched=yes: subj child of top deprel|pos=number|type=currency	6	dobj	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 10	despertó	despertar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
 12	interés	interés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_

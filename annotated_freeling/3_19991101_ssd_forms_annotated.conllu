@@ -1,4 +1,4 @@
-1	Egypt	egypt	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+1	Egypt	egypt	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 2	Air	air	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	modnomatch	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
 4	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
@@ -208,8 +208,8 @@
 17	70.000_millones_de_pesetas	$_ESP:70000000000	Zm	Zm	matched=no|pos=number|type=currency	16	comp	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	flota	flota	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	flota	flota	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	38	38	Z	Z	matched=no|pos=number	5	spec	_	_
 5	aviones	avión	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_

@@ -58,8 +58,8 @@
 19	baratos	barato	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	18	coor	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Modelo	modelo	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Modelo	modelo	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	sería	ser	VSIC1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=conditional|type=semiauxiliary	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	resultado	resultado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
@@ -105,7 +105,7 @@
 7	demanda	demanda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Nuevamente	nueva_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Nuevamente	nueva_mente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	vio	ver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
@@ -230,8 +230,8 @@
 29	autos	auto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	dobj	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
 
-1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	filosofía	filosofía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	filosofía	filosofía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	recibió	recibir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	nombre	nombre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -316,8 +316,8 @@
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	siglo	siglo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	automóvil	automóvil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	automóvil	automóvil	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 11	hizo	hacer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	pagar	pagar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	dobj	_	_
 13	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_

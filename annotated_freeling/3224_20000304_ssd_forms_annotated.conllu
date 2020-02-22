@@ -1,6 +1,6 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Policía	policía	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Policía	policía	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	detenido	detener	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	dobj	_	_
@@ -101,17 +101,17 @@
 50	racistas	racista	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	49	mod	_	_
 51	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	40	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Jefe	jefe	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-3	Superior	superior	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	Policía	policía	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	comunidad	comunidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	valenciana	valenciano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-11	Segundo	2	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Jefe	jefe	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	Superior	superior	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	Policía	policía	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	comunidad	comunidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	valenciana	valenciano	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+11	Segundo	2	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	2	mod	_	_
 12	Martinez	martinez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	modnomatch	_	_
 13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
 14	descartó	descartar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -192,12 +192,12 @@
 41	elecciones	elección	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	39	comp	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	integrantes	integrante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	15	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
-5	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	integrantes	integrante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	15	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
+5	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 7	tres	3	Z	Z	matched=no|pos=number	15	modnomatch	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	attr	_	_
 9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
@@ -310,11 +310,11 @@
 37	actividades	actividad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	35	dobj	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Algunas	alguno	PI0FP00	PI	gen=feminine|matched=no|num=plural|pos=pronoun|type=indefinite	16	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	4	spec	_	_
-4	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Algunas	alguno	PI0FP00	PI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	16	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	estas	este	DD0FP0	DD	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	4	spec	_	_
+4	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 6	alertadas	alertar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	16	adjt	_	_
 7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 8	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	comp	_	_
@@ -489,8 +489,8 @@
 9	Comunidad	comunidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
 10	Valenciana	valenciano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
-12	Carlos	car_lo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
-13	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	mod	_	_
+12	Carlos	car_lo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+13	González	gonzález	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	mod	_	_
 14	Cepeda	cepeda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	modnomatch	_	_
 15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
 16	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	17	mphes	_	_
@@ -535,31 +535,31 @@
 55	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	17	punc	_	_
 56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
 
-1	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	subj	_	_
-2	Cepeda	cepeda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	aseguró	asegurar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
-6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
-7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
-8	detenidos	detenido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-9	no	no	RN	RN	matched=no|pos=adverb|type=negative	10	spec	_	_
-10	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	6	comp	_	_
-11	ninguna	ninguno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
-12	vinculación	vinculación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
-13	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
-14	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
-15	grupos	grupo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
-16	neonazis	neonazi	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	15	mod	_	_
-17	asentados	asentar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	10	pred	_	_
-18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
-19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
-20	localidad	localidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
-21	valenciana	valenciano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
-22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
-23	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	24	spec	_	_
-24	Pedriches	pedriches	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	22	comp	_	_
-25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	González	gonzález	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	subj	_	_
+2	Cepeda	cepeda	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	aseguró	asegurar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+6	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	1	modnomatch	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	8	spec	_	_
+8	detenidos	detenido	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+9	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	10	spec	_	_
+10	tienen	tener	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	6	comp	_	_
+11	ninguna	ninguno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	vinculación	vinculación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	dobj	_	_
+13	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	adjt	_	_
+14	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	15	spec	_	_
+15	grupos	grupo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	comp	_	_
+16	neonazis	neonazi	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	15	mod	_	_
+17	asentados	asentar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	10	pred	_	_
+18	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	adjt	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	20	spec	_	_
+20	localidad	localidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	comp	_	_
+21	valenciana	valenciano	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+22	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	adjt	_	_
+23	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	24	spec	_	_
+24	Pedriches	pedriches	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	22	comp	_	_
+25	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 26	explicó	explicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 27	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	26	dobj	_	_
 28	éstos	este	PD0MP00	PD	gen=masculine|matched=no|num=plural|pos=pronoun|type=demonstrative	29	subj	_	_
@@ -623,8 +623,8 @@
 44	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	43	coor	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
 
-1	Sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	integrantes	integrante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	integrantes	integrante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	realizaron	realizar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	anteriormente	anteriormente	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 5	ataques	ataque	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
@@ -666,11 +666,11 @@
 41	detención	detención	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	dobj	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	delegado	delegado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	delegado	delegado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	Comunidad	comunidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
@@ -719,8 +719,8 @@
 51	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	10	punc	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	Cepeda	cepeda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	González	gonzález	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Cepeda	cepeda	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 3	aseguró	asegurar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
@@ -765,25 +765,25 @@
 44	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	operación	operación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	calificada	calificar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	delegado	delegado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
-9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-12	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
-13	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-14	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
-15	brillante	brillante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-16	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
-17	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-18	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
-19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	operación	operación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	calificada	calificar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+5	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	agnt	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	delegado	delegado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+12	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+13	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+14	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+15	brillante	brillante	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+16	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+17	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+18	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+19	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 20	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	21	aux	_	_
 21	dirigida	dirigir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 22	por	por	SP	SP	matched=no|pos=adposition|type=preposition	21	agnt	_	_

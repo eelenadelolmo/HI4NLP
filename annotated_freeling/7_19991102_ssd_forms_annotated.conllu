@@ -1,8 +1,8 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	década	década	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	década	década	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 6	90	90	Z	Z	matched=no|pos=number	8	modnomatch	_	_
 7	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	8	aux	_	_
 8	resultado	resultar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -55,8 +55,8 @@
 23	Crivillé	crivillé	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	22	mod	_	_
 24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
 25	Champi	champi	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	24	coor	_	_
-26	Herreros	herrero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	37	subj	_	_
-27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+26	Herreros	herrero	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	37	subj	_	_
+27	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	26	punc	_	_
 28	en	en	SP	SP	matched=no|pos=adposition|type=preposition	37	adjt	_	_
 29	1989	1989	Z	Z	matched=no|pos=number	28	comp	_	_
 30	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
@@ -139,8 +139,8 @@
 58	Catalunya	catalunya	RG	RG	matched=no|pos=adverb|type=general	57	comp	_	_
 59	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	57	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	reaparición	reaparición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	reaparición	reaparición	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	125cc	125cc	Z	Z	matched=no|pos=number	3	comp	_	_
@@ -162,8 +162,8 @@
 21	1999	1999	Z	Z	matched=no|pos=number	20	comp	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	Tres	3	Z	Z	matched=no|pos=number	2	spec	_	_
-2	detalles	detalle	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Tres	3	Z	Z	matched=yes: subj child of top deprel|pos=number	2	spec	_	_
+2	detalles	detalle	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	certifican	certificar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -305,7 +305,7 @@
 8	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Nadie	nadie	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	5	subj	_	_
+1	Nadie	nadie	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	5	subj	_	_
 2	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_

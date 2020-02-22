@@ -44,11 +44,11 @@
 44	empresarial	empresarial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	43	mod	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cierre	cierre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	esas	ese	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	5	spec	_	_
-5	empresas	empresa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cierre	cierre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	esas	ese	DD0FP0	DD	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	5	spec	_	_
+5	empresas	empresa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 6	también	también	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
 7	afectó	afectar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
@@ -76,21 +76,21 @@
 30	bienes	bien	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	29	comp	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Asociación	asociación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	Exportadores	exportador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-9	Café	café	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-11	Honduras	hondura	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
-12	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	2	punc	_	_
-13	ADECAFEH	adecafeh	I	I	matched=no|pos=interjection	2	modnomatch	_	_
-14	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	2	punc	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Asociación	asociación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	Exportadores	exportador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+9	Café	café	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+11	Honduras	hondura	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	comp	_	_
+12	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	2	punc	_	_
+13	ADECAFEH	adecafeh	I	I	matched=yes: subj child of top deprel|pos=interjection	2	modnomatch	_	_
+14	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	2	punc	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 16	Javier	javier	RG	RG	matched=no|pos=adverb|type=general	17	adjt	_	_
 17	Echeverría	echeverría	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
@@ -110,8 +110,8 @@
 32	37	37	Z	Z	matched=no|pos=number	31	subj	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	empresas	empresa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	empresas	empresa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	sufrieron	sufrir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	graves	grave	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
 5	problemas	problema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
@@ -247,18 +247,18 @@
 52	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	50	comp	_	_
 53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	46	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	exportaciones	exportación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	20	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	café	café	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	hondureño	hondureño	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
-6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	cosecha	cosecha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	1999-2000	1999-2000	Z	Z	matched=no|pos=number	2	mod	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-12	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	exportaciones	exportación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	20	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	café	café	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	hondureño	hondureño	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	cosecha	cosecha	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	1999-2000	1999-2000	Z	Z	matched=yes: subj child of top deprel|pos=number	2	mod	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	9	punc	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+12	unos	uno	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
 13	3,5_millones	3500000	Zd	Zd	matched=no|pos=number|type=partitive	15	spec	_	_
 14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
 15	sacos	saco	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	modnomatch	_	_
@@ -274,7 +274,7 @@
 25	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	20	adjt	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Honduras	hondura	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	subj	_	_
+1	Honduras	hondura	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	subj	_	_
 2	retendrá	retener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 3	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_

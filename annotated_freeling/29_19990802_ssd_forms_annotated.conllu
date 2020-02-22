@@ -36,10 +36,10 @@
 7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
 8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	Marqués	marqués	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-10	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	11	modnomatch	_	_
-11	Avila	avila	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-12	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	11	modnomatch	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+10	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	11	modnomatch	_	_
+11	Avila	avila	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+12	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	11	modnomatch	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	11	punc	_	_
 14	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
 15	turismo	turismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	modnomatch	_	_
 16	impactó	impactar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -82,10 +82,10 @@
 22	coches	coche	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	comp	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Fruto	fruto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	choque	choque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+1	Fruto	fruto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	choque	choque	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	comp	_	_
 5	murieron	morir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	dos	2	Z	Z	matched=no|pos=number	7	spec	_	_
 7	jóvenes	joven	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	11	coor	_	_

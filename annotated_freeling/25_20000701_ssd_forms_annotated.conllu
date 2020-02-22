@@ -1,6 +1,6 @@
-1	David	dar_vid	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	17	subj	_	_
-2	Copeland	copeland	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	David	dar_vid	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	17	subj	_	_
+2	Copeland	copeland	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	nazi	nazi	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	17	modnomatch	_	_
 6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	10	subj	_	_
@@ -135,7 +135,7 @@
 14	asesinato	asesinato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Copeland	copeland	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Copeland	copeland	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	proclamó	proclamar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	2	dobj	_	_
 4	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_

@@ -1,14 +1,14 @@
-1	Eliminar	eliminar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	subj	_	_
-2	millones	millón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	dobj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	minas	mina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-5	antitanque	antitanque	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-6	colocadas	colocar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	1	adjt	_	_
-7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	desierto	desierto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-10	occidental	occidental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-11	egipcio	egipcio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	modnomatch	_	_
+1	Eliminar	eliminar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	12	subj	_	_
+2	millones	millón	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	dobj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	minas	mina	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	antitanque	antitanque	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+6	colocadas	colocar	VMP00PF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	1	adjt	_	_
+7	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	adjt	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	desierto	desierto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	occidental	occidental	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	egipcio	egipcio	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	modnomatch	_	_
 12	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 13	más	más	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
 14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	modnomatch	_	_
@@ -64,17 +64,17 @@
 18	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 19	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
 20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-21	Scharping	scharping	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	subj	_	_
-22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	21	punc	_	_
-23	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	26	subj	_	_
-24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
-25	martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	26	adjt	_	_
-26	finalizó	finalizar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	21	mod	_	_
-27	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	28	spec	_	_
-28	visita	visita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
-29	a	a	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
-30	Egipto	egipto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
-31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	21	punc	_	_
+21	Scharping	scharping	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	32	subj	_	_
+22	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	21	punc	_	_
+23	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	26	subj	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	25	spec	_	_
+25	martes	[M:??/??/??:??.??:??]	W	W	matched=yes: subj child of top deprel|pos=date	26	adjt	_	_
+26	finalizó	finalizar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	21	mod	_	_
+27	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	28	spec	_	_
+28	visita	visita	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	dobj	_	_
+29	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	26	adjt	_	_
+30	Egipto	egipto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	29	comp	_	_
+31	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	21	punc	_	_
 32	recordó	recordar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 33	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	32	modnomatch	_	_
 34	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	32	punc	_	_
@@ -257,7 +257,7 @@
 37	Scharpíng	scharpíng	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	36	dobj	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
 
-1	Egipto	egipto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Egipto	egipto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	quejado	quejar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -371,9 +371,9 @@
 58	suelo	suelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	56	comp	_	_
 59	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	Miles	mil	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
+1	Miles	mil	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
 4	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	muerto	morir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 6	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_

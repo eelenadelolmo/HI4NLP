@@ -27,9 +27,9 @@
 27	blancos	blanco	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	26	mod	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	lucha	lucha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	lucha	lucha	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 4	dicen	decir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
 6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	4	modnomatch	_	_
@@ -46,11 +46,11 @@
 1	Por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 2	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	veteranos	veterano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	guerra	guerra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	veteranos	veterano	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	guerra	guerra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 9	no	no	RN	RN	matched=no|pos=adverb|type=negative	10	spec	_	_
 10	quieren	querer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 11	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	dobj	_	_
@@ -66,10 +66,10 @@
 21	fuerza	fuerza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	veteranos	veterano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	guerra	guerra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	veteranos	veterano	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	guerra	guerra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	intentan	intentar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	justificar	justificar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
 7	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
@@ -82,8 +82,8 @@
 14	Zimbabue	zimbabue	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Goromonzi	goromonzi	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	35	subj	_	_
-2	Emmanuel	emmanuel	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+1	Goromonzi	goromonzi	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	35	subj	_	_
+2	Emmanuel	emmanuel	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
 3	Chitsaya	chitsaya	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	modnomatch	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
 5	vicesecretario	vicesecretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	modnomatch	_	_
@@ -186,13 +186,13 @@
 4	estilo	estilo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	modnomatch	_	_
-7	apparatchiki	apparatchiki	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	Europa	europa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	Este	este	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+7	apparatchiki	apparatchiki	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	Europa	europa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	Este	este	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
 14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
 15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
 16	época	época	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
@@ -281,8 +281,8 @@
 12	problemas	problema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	dobj	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	disputas	disputa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	disputas	disputa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	aparecido	aparecer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -389,10 +389,10 @@
 22	ocupada	ocupar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	21	mod	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Grupos	grupo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	excombatientes	excombatiente	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
-4	desarrapados	desarrapado	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+1	Grupos	grupo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	excombatientes	excombatiente	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+4	desarrapados	desarrapado	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
 5	jalonan	jalonar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	trayecto	trayecto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
@@ -519,10 +519,10 @@
 19	muy	muy	RG	RG	matched=no|pos=adverb|type=general	20	spec	_	_
 20	fértiles	fértil	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	16	modnomatch	_	_
 21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-22	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	23	spec	_	_
-23	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	subj	_	_
-24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
-25	veteranos	veterano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	comp	_	_
+22	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	23	spec	_	_
+23	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	27	subj	_	_
+24	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	23	mod	_	_
+25	veteranos	veterano	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	24	comp	_	_
 26	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	27	aux	_	_
 27	instalado	instalar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 28	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	29	spec	_	_
@@ -592,11 +592,11 @@
 12	desconocidos	desconocido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	responsable	responsable	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	responsable	responsable	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	camarada	camarada	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
@@ -692,14 +692,14 @@
 74	trenzadas	trenzar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	73	mod	_	_
 75	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	camarada	camarada	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	Norman	norma_n	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-6	40	40	Z	Z	matched=no|pos=number	7	spec	_	_
-7	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	camarada	camarada	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	Norman	norma_n	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	40	40	Z	Z	matched=yes: subj child of top deprel|pos=number	7	spec	_	_
+7	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 9	dice	decir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 10	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	dobj	_	_
 11	seis	6	Z	Z	matched=no|pos=number	12	spec	_	_
@@ -746,7 +746,7 @@
 11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
 12	cosecha	cosecha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
 13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-14	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	15	subj	_	_
+14	él	él	PP3MS00	PP	gen=masculine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	15	subj	_	_
 15	sigue	seguir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 16	allí	allí	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
 17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
@@ -782,11 +782,11 @@
 13	proclama	proclamar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
 14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	lavandería	lavandería	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	campamento	campamento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	lavandería	lavandería	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	campamento	campamento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	consta	constar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
 8	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	9	spec	_	_
@@ -898,11 +898,11 @@
 1	Detrás_de	detrás_de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 2	Norman	norma_n	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
-5	tanque	tanque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	agua	agua	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-8	prestado	prestar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	mod	_	_
+4	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	tanque	tanque	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	agua	agua	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	prestado	prestar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	7	mod	_	_
 9	por	por	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
 11	terrateniente	terrateniente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
@@ -942,8 +942,8 @@
 
 1	Mientras	mientras	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	dos	2	Z	Z	matched=no|pos=number	4	spec	_	_
-4	muchachos	muchacho	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+3	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	4	spec	_	_
+4	muchachos	muchacho	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
 5	juegan	jugar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	dobj	_	_
 7	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
@@ -1006,7 +1006,7 @@
 26	va	ir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	23	mod	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	Ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	2	subj	_	_
+1	Ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	2	subj	_	_
 2	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	vanguardia	vanguardia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
@@ -1027,8 +1027,8 @@
 19	internacional	internacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Algunos	alguno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	combatientes	combatiente	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Algunos	alguno	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	combatientes	combatiente	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	quizá	quizá	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 4	sepan	saber	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	dobj	_	_
@@ -1061,18 +1061,18 @@
 32	responsable	responsable	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	29	attr	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
 
-1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 4	parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	saberlo	saber_lo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
 6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	kilómetros	kilómetro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
-3	más	más	RG	RG	matched=no|pos=adverb|type=general	4	modnomatch	_	_
-4	adelante	adelante	RG	RG	matched=no|pos=adverb|type=general	2	modnomatch	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Unos	uno	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	kilómetros	kilómetro	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+3	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	modnomatch	_	_
+4	adelante	adelante	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	coche	coche	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
 8	recoge	recoger	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
@@ -1160,8 +1160,8 @@
 44	Kanyuchi	kanyuchi	RG	RG	matched=no|pos=adverb|type=general	43	adjt	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	43	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	viaje	viaje	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	concluye	concluir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_

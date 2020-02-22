@@ -1,8 +1,8 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	muerte	muerte	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Saúl	saúl	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	Morales	moral	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	muerte	muerte	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Saúl	saúl	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	Morales	moral	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 6	descubre	descubrir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
 8	deficiencias	deficiencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
@@ -68,21 +68,21 @@
 53	ciclista	ciclista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	52	mod	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cadáver	cadáver	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Saúl	saúl	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	Morales	moral	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	conjunto	conjunto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-10	español	español	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	Relax	relax	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
-14	Fuenlabrada	fuenlabrada	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cadáver	cadáver	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Saúl	saúl	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	Morales	moral	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	conjunto	conjunto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	español	español	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	Relax	relax	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+14	Fuenlabrada	fuenlabrada	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 16	llegará	llegar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 17	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
 18	a	a	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
@@ -135,8 +135,8 @@
 1	Hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	adjt	_	_
 2	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	modnorule	_	_
 3	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	camiones	camión	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	camiones	camión	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
 6	te	te	P02CS00	P0	gen=common|matched=no|num=singular|person=2|pos=pronoun	7	mphes	_	_
 7	adelantaban	adelantar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
@@ -231,8 +231,8 @@
 15	dirección	dirección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ciclista	ciclista	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ciclista	ciclista	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	encontró	encontrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	muerte	muerte	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -296,8 +296,8 @@
 2	motoristas	motorista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	0	top	_	_
 3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Ana	ana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-2	María	maría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	Ana	ana	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+2	María	maría	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 3	Gargiulo	gargiulo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
 5	coordinadora	coordinador	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
@@ -325,11 +325,11 @@
 2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
 3	periodistas	periodista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 4	locales	local	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
-6	cubren	cubrir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	13	subj	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	carrera	carrera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+6	cubren	cubrir	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	13	subj	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	carrera	carrera	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	dobj	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
 10	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	11	spec	_	_
 11	número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
 12	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	13	mphes	_	_
@@ -407,10 +407,10 @@
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 5	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	cifra	cifra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
-10	motoristas	motorista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	cifra	cifra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	mod	_	_
+10	motoristas	motorista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	comp	_	_
 11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	12	mphes	_	_
 12	eleva	elevar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	coor	_	_
@@ -454,9 +454,9 @@
 11	octava	8	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	12	mod	_	_
 12	etapa	etapa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
 13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
-14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
-15	conjunto	conjunto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-16	italiano	italiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	conjunto	conjunto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+16	italiano	italiano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	15	mod	_	_
 17	Mapei	mapei	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	18	modnomatch	_	_
 18	decidió	decidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 19	abandonar	abandonar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	18	dobj	_	_
@@ -483,8 +483,8 @@
 40	tráfico	tráfico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	carrera	carrera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	carrera	carrera	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	reanudó	reanudar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	luego	luego	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
@@ -502,12 +502,12 @@
 2	datos	dato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 3	estadísticos	estadístico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	siniestralidad	siniestralidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
-9	carreteras	carretera	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
-10	argentinas	argentino	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	siniestralidad	siniestralidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	carreteras	carretera	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
+10	argentinas	argentino	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	9	mod	_	_
 11	elevan	elevar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 13	10.000	10000	Z	Z	matched=no|pos=number	12	comp	_	_
@@ -553,14 +553,14 @@
 11	agentes	agente	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	ciclistas	ciclista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-4	corrían	correr	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
-5	conmigo	conmigo	PP1CSO0	PP	case=oblique|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	4	adjt	_	_
-6	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	adjt	_	_
-7	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	modnorule	_	_
-8	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	ciclistas	ciclista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	corrían	correr	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+5	conmigo	conmigo	PP1CSO0	PP	case=oblique|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	4	adjt	_	_
+6	hace	hacer	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	adjt	_	_
+7	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	8	modnorule	_	_
+8	año	año	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	modnomatch	_	_
 9	explicaban	explicar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 10	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	dobj	_	_
 11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_

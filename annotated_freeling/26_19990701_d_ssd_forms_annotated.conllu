@@ -45,8 +45,8 @@
 9	barrio	barrio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Todo	todo	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	8	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Todo	todo	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	8	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 4	dinamizar	dinamizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	comp	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_

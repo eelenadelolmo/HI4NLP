@@ -1,6 +1,6 @@
-1	Otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	importante	importante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	Otro	otro	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	importante	importante	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 5	desplazados	desplazar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	comp	_	_
 6	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	7	dobj	_	_
@@ -9,8 +9,8 @@
 9	estudiantes	estudiante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	7	modnomatch	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Andrea	andrea	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-2	Hoffmann	hoffmann	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Andrea	andrea	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+2	Hoffmann	hoffmann	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	originaria	originario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
@@ -61,7 +61,7 @@
 7	divertida	divertir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	attr	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Leipzig	leipzig	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Leipzig	leipzig	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 3	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
 4	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
@@ -70,7 +70,7 @@
 7	marcha	marcha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Constantemente	constante_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Constantemente	constante_mente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	abren	abrir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	nuevos	nuevo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
 4	bares	bar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
@@ -118,9 +118,9 @@
 1	Entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
 2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
 3	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
-5	quienes	quien	PR0CP00	PR	gen=common|matched=no|num=plural|pos=pronoun|type=relative	4	comp	_	_
-6	emigraron	emigrar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	19	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	modnomatch	_	_
+5	quienes	quien	PR0CP00	PR	gen=common|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=relative	4	comp	_	_
+6	emigraron	emigrar	VMIS3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	19	subj	_	_
 7	nada	nada	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	19	modnomatch	_	_
 8	más	más	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
 9	caer	caer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	modnomatch	_	_
@@ -138,7 +138,7 @@
 21	sentimental	sentimental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	19	attr	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	Gustav	gustar_v	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	3	subj	_	_
+1	Gustav	gustar_v	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	subj	_	_
 2	Sundermeyer	sundermeyer	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	agricultor	agricultor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
@@ -148,8 +148,8 @@
 8	Sajonia	sajonia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	mujer	mujer	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	mujer	mujer	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	procede	proceder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_

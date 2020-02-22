@@ -1,6 +1,6 @@
-1	1,2_millones	1200000	Zd	Zd	matched=no|pos=number|type=partitive	3	spec	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	trabajadores	trabajador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+1	1,2_millones	1200000	Zd	Zd	matched=yes: subj child of top deprel|pos=number|type=partitive	3	spec	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	trabajadores	trabajador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 4	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
 5	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	6	aux	_	_
 6	convocados	convocar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	0	top	_	_
@@ -26,9 +26,9 @@
 26	2000	2000	Z	Z	matched=no|pos=number	22	modnomatch	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	centrales	central	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
-3	sindicales	sindical	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	centrales	central	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	sindicales	sindical	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 4	vinculan	vincular	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
 6	numerosos	numeroso	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_

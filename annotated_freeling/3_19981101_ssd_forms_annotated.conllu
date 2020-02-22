@@ -15,18 +15,18 @@
 15	masculina	masculino	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	laboratorio	laboratorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-3	productor	productor	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	medicamento	medicamento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	empresa	empresa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-10	norteamericana	norteamericano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-11	Pfizer	pfizer	RG	RG	matched=no|pos=adverb|type=general	2	modnomatch	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	laboratorio	laboratorio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+3	productor	productor	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	medicamento	medicamento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	empresa	empresa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+10	norteamericana	norteamericano	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	Pfizer	pfizer	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 13	respaldó	respaldar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
 15	medida	medida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
@@ -57,12 +57,12 @@
 40	clientela	clientela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	espectacular	espectacular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	irrupción	irrupción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	Viagra	viagra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	espectacular	espectacular	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	irrupción	irrupción	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Viagra	viagra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 7	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	8	aux	_	_
 8	revolucionado	revolucionar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
@@ -73,8 +73,8 @@
 14	desconocidos	desconocer	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	13	mod	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	expectativas	expectativa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	expectativas	expectativa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	enormes	enorme	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	attr	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
@@ -121,10 +121,10 @@
 31	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	mod	_	_
 32	consumidores	consumidor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	28	modnomatch	_	_
 33	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-34	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
-35	posibilidad	posibilidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	subj	_	_
-36	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	mod	_	_
-37	negocio	negocio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	36	comp	_	_
+34	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	35	spec	_	_
+35	posibilidad	posibilidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	38	subj	_	_
+36	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	35	mod	_	_
+37	negocio	negocio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	36	comp	_	_
 38	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 39	enorme	enorme	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	38	attr	_	_
 40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
@@ -177,11 +177,11 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 2	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
 3	escrito	escrito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	incluye	incluir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	subj	_	_
-6	severas	severo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
-7	instrucciones	instrucción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	dobj	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	incluye	incluir	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	subj	_	_
+6	severas	severo	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+7	instrucciones	instrucción	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	dobj	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
 9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
 10	Administración	administración	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
 11	advierte	advertir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
@@ -218,8 +218,8 @@
 42	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	11	punc	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ministerio	ministerio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ministerio	ministerio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	pide	pedir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	6	mod	_	_
@@ -281,7 +281,7 @@
 2	igual	igual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 3	modo	modo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	Sanidad	sanidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+5	Sanidad	sanidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 6	recuerda	recordar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	dobj	_	_
 8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
@@ -367,10 +367,10 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 2	Catalunya	catalunya	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Conselleria	conselleria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	Sanitat	sanitat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Conselleria	conselleria	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	Sanitat	sanitat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
 9	renunciado	renunciar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
@@ -417,8 +417,8 @@
 2	otras	otro	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
 3	indicaciones	indicación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	departamento	departamento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	departamento	departamento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 7	destaca	destacar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	dobj	_	_
 9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
@@ -444,9 +444,9 @@
 29	cardiovasculares	cardiovascular	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	28	mod	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Varios	varios	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	ensayos	ensayo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
-3	clínicos	clínico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	Varios	varios	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	ensayos	ensayo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	clínicos	clínico	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 4	prueban	probar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	eficacia	eficacia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
@@ -456,8 +456,8 @@
 10	píldora	píldora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
 11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Viagra	viagra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Viagra	viagra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	funciona	funcionar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
@@ -478,7 +478,7 @@
 20	riesgo	riesgo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Esta	este	PD0FS00	PD	gen=feminine|matched=no|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+1	Esta	este	PD0FS00	PD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
 2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 4	principal	principal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
@@ -504,12 +504,12 @@
 24	impotencia	impotencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	7	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-4	experimentos	experimento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
-5	más	más	RG	RG	matched=no|pos=adverb|type=general	6	spec	_	_
-6	ambiciosos	ambicioso	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	1	mod	_	_
+1	Uno	uno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	7	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	experimentos	experimento	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+5	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	6	spec	_	_
+6	ambiciosos	ambicioso	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	1	mod	_	_
 7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	subj	_	_
@@ -525,13 +525,13 @@
 19	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	20	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-4	responsables	responsable	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-6	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	7	spec	_	_
-7	ensayo	ensayo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+1	Uno	uno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	20	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	responsables	responsable	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+6	este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	7	spec	_	_
+7	ensayo	ensayo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
 8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
 9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
 10	servicio	servicio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
@@ -569,8 +569,8 @@
 42	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	20	punc	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	iniciativa	iniciativa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	iniciativa	iniciativa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	inició	iniciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -599,7 +599,7 @@
 28	motivos	motivo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Lobato	lobato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Lobato	lobato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -614,9 +614,9 @@
 13	avanzada	avanzar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	12	mod	_	_
 14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	centro	centro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-3	sanitario	sanitario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	centro	centro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	sanitario	sanitario	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	privado	privar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	pred	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
 6	Bilbao	bilbao	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
@@ -644,8 +644,8 @@
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	estudio	estudio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	hechos	hecho	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	subj	_	_
-9	públicos	público	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
+8	hechos	hecho	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	20	subj	_	_
+9	públicos	público	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	8	mod	_	_
 10	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	11	spec	_	_
 11	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	adjt	_	_
 12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
@@ -695,8 +695,8 @@
 23	tratamientos	tratamiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	dobj	_	_
 24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ensayo	ensayo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ensayo	ensayo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	concluye	concluir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -924,7 +924,7 @@
 20	Lertxundi	lertxundi	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	19	dobj	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	Gurrea	gurrea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Gurrea	gurrea	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	calificó	calificar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
 4	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_

@@ -1,4 +1,4 @@
-1	ETA	eta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	ETA	eta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	HA	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	3	aux	_	_
 3	COLOCADO	colocar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 4	12	12	Z	Z	matched=no|pos=number	5	spec	_	_
@@ -26,9 +26,9 @@
 1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
 2	12_de_octubre_del_2001	[??:12/10/2001:??.??:??]	W	W	matched=no|pos=date	7	adjt	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
-5	coche	coche	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-6	bomba	bomba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	mod	_	_
+4	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	coche	coche	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+6	bomba	bomba	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	mod	_	_
 7	explotó	explotar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 9	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
@@ -47,10 +47,10 @@
 22	aparcado	aparcar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	adjt	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	atentado	atentado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	más	más	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
-4	sangriento	sangriento	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	atentado	atentado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	spec	_	_
+4	sangriento	sangriento	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 5	ocurrió	ocurrir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	30_de_octubre_del_2000	[??:30/10/2000:??.??:??]	W	W	matched=no|pos=date	5	adjt	_	_
@@ -67,9 +67,9 @@
 9	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	coor	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	atentado	atentado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	último	último	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	atentado	atentado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 5	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 6	ocurrió	ocurrir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_

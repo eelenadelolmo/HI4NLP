@@ -1,6 +1,6 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Recreativo	recreativo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Recreativo	recreativo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
 4	Huelva	huelva	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
 6	cuarto	4	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	4	modnomatch	_	_
@@ -154,7 +154,7 @@
 25	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	España	españa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
 3	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	miedo	miedo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_

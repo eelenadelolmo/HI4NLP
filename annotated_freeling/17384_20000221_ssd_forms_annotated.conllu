@@ -40,11 +40,11 @@
 40	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	39	modnomatch	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	AMEDEC	amedec	NC00000	NC	matched=no|pos=noun|type=common	3	comp	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	AMEDEC	amedec	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 6	Arturo	artículo_uro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 7	Lomelí	lomelí	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
@@ -98,7 +98,7 @@
 56	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	9	punc	_	_
 57	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	Lomeli	lomeli	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Lomeli	lomeli	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	agregó	agregar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
@@ -134,11 +134,11 @@
 34	extranjeras	extranjero	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	33	comp	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	amas	ama	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	mexicanas	mexicano	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	amas	ama	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	casa	casa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	mexicanas	mexicano	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 6	destinan	destinar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
 8	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	adjt	_	_
@@ -202,8 +202,8 @@
 1	Según	según	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 2	Lomelí	lomelí	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	fabricantes	fabricante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	fabricantes	fabricante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 6	gastan	gastar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	millones	millón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
@@ -243,13 +243,13 @@
 42	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	6	punc	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	uso	uso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	granulados	granular	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	3	comp	_	_
-5	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
-6	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-7	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	uso	uso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	granulados	granular	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	3	comp	_	_
+5	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+6	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+7	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
 8	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	10	mphes	_	_
 9	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	10	aux	_	_
 10	extendido	extender	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_

@@ -6,19 +6,19 @@
 6	cambiando	cambiar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	1	modnomatch	_	_
 7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
-3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	cuarenta	40	Z	Z	matched=no|pos=number	7	coor	_	_
-7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-8	cincuenta	50	Z	Z	matched=no|pos=number	7	coor	_	_
-9	parecía	parecer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	14	subj	_	_
-10	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
-11	simple	simple	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
-12	pesadilla	pesadilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	attr	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+1	Lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+3	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	cuarenta	40	Z	Z	matched=yes: subj child of top deprel|pos=number	7	coor	_	_
+7	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+8	cincuenta	50	Z	Z	matched=yes: subj child of top deprel|pos=number	7	coor	_	_
+9	parecía	parecer	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	14	subj	_	_
+10	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+11	simple	simple	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+12	pesadilla	pesadilla	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	attr	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	9	punc	_	_
 14	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 15	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 16	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
@@ -35,10 +35,10 @@
 2	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
 3	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	técnicas	técnica	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	diseminación	diseminación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	técnicas	técnica	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	diseminación	diseminación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
 9	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	10	aux	_	_
 10	mejorado	mejorar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 11	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
@@ -95,12 +95,12 @@
 
 1	Además	además	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	tecnología	tecnología	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
-7	misiles	misil	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
-8	balísticos	balístico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	tecnología	tecnología	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	7	spec	_	_
+7	misiles	misil	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	comp	_	_
+8	balísticos	balístico	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	mod	_	_
 9	ya	ya	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	encuentra	encontrar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
@@ -123,7 +123,7 @@
 28	iraquíes	iraquí	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	27	coor	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Precisamente	precisar_mente	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	6	subj	_	_
+1	Precisamente	precisar_mente	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	6	subj	_	_
 2	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
 3	tipo	tipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
@@ -168,8 +168,8 @@
 1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	5	spec	_	_
-5	naciones	nación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+4	estas	este	DD0FP0	DD	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	5	spec	_	_
+5	naciones	nación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 6	serían	ser	VSIC3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=conditional|type=semiauxiliary	0	top	_	_
 7	también	también	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
 8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
@@ -222,10 +222,10 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
 2	1972	1972	Z	Z	matched=no|pos=number	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	clima	clima	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	distensión	distensión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	clima	clima	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	distensión	distensión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 8	creado	crear	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	22	adjt	_	_
 9	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	agnt	_	_
 10	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_

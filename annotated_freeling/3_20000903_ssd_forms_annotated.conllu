@@ -3,8 +3,8 @@
 3	hora	hora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	temprana	temprano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	1965	1965	Z	Z	matched=no|pos=number	16	subj	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+6	1965	1965	Z	Z	matched=yes: subj child of top deprel|pos=number	16	subj	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
 8	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
 9	dos	2	Z	Z	matched=no|pos=number	10	spec	_	_
 10	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	adjt	_	_
@@ -48,12 +48,12 @@
 1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	beatificación	beatificación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	papa	papa	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	bueno	bueno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	beatificación	beatificación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	papa	papa	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	bueno	bueno	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
 10	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
 11	tenido	tener	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	prt	_	_
 12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	13	prt	_	_
@@ -62,13 +62,13 @@
 15	décadas	década	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	dobj	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	postulador	postulador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	causa	causa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	último	último	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	postulador	postulador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	causa	causa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 8	Luca	luca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
 9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
 10	Rosa	rosa	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	comp	_	_

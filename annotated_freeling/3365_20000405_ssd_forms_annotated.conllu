@@ -49,7 +49,7 @@
 49	residuales	residual	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	48	mod	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Plata	plata	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Plata	plata	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	defendió	defender	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
@@ -194,7 +194,7 @@
 56	andaluza	andaluz	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	54	attr	_	_
 57	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	Plata	plata	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Plata	plata	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	presentó	presentar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
 4	informe	informe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_

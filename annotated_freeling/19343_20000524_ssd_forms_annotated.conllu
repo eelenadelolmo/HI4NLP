@@ -1,11 +1,11 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	coyuntura	coyuntura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	actual	actual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-8	carburantes	carburante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	coyuntura	coyuntura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	actual	actual	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	mercado	mercado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	carburantes	carburante	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
 9	pone_de_manifiesto	poner_de_manifiesto	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 10	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
 11	errores	error	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	dobj	_	_
@@ -48,11 +48,11 @@
 3	diputada	diputado	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	socialista	socialista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	12	subj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
-9	mayores	mayor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	10	mod	_	_
-10	errores	error	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+6	uno	uno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	12	subj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	10	spec	_	_
+9	mayores	mayor	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	10	mod	_	_
+10	errores	error	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
 11	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	12	aux	_	_
 12	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	0	top	_	_
 13	limitar	limitar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	attr	_	_
@@ -279,8 +279,8 @@
 65	Europea	europeo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	64	mod	_	_
 66	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	47	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	PSOE	psoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	PSOE	psoe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	solicitado	solicitar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	dobj	_	_
@@ -347,11 +347,11 @@
 
 1	Para	para	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 2	lograr	lograr	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
-3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	subj	_	_
-4	aumente	aumentar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	3	comp	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	competencia	competencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+3	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	10	subj	_	_
+4	aumente	aumentar	VMSP3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	3	comp	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	competencia	competencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	dobj	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	PSOE	psoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
 10	pide	pedir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
@@ -435,11 +435,11 @@
 31	actual	actual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	29	comp	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Otra	otro	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	9	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-4	medidas	medida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
-5	solicitadas	solicitar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	mod	_	_
+1	Otra	otro	PI0FS00	PI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	9	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	medidas	medida	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+5	solicitadas	solicitar	VMP00PF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	4	mod	_	_
 6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	PSOE	psoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
@@ -502,8 +502,8 @@
 11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
 12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	modnomatch	_	_
-14	CNE	cne	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+14	CNE	cne	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	14	punc	_	_
 16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
 17	PSOE	psoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	modnomatch	_	_
 18	propone	proponer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_

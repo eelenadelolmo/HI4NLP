@@ -1,18 +1,18 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	prioridad	prioridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	razón	razón	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	práctica	práctico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-9	cuanto	cuanto	PR0MS00	PR	gen=masculine|matched=no|num=singular|pos=pronoun|type=relative	8	comp	_	_
-10	razón	razón	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-11	pura	puro	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
-12	vulgar	vulgar	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
-13	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-14	común	común	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	coor	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	prioridad	prioridad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	razón	razón	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	práctica	práctico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+9	cuanto	cuanto	PR0MS00	PR	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=relative	8	comp	_	_
+10	razón	razón	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+11	pura	puro	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	vulgar	vulgar	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+13	o	o	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+14	común	común	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	13	coor	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 16	sería	ser	VSIC1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=conditional|type=semiauxiliary	0	top	_	_
 17	todo	todo	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	16	attr	_	_
 18	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
@@ -105,26 +105,26 @@
 26	sí	sí	PP3CNO0	PP	case=oblique|gen=common|matched=no|num=invariable|person=3|pos=pronoun|type=personal	25	comp	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	9	9	Z	Z	matched=no|pos=number	34	subj	_	_
-2	Como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
-4	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
-5	confusión	confusión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	resulta	resultar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	comp	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	dogmatismo	dogmatismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-10	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	subj	_	_
-11	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	mod	_	_
-12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	final	final	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	11	attr	_	_
-14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
-15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
-16	animación	animación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
-17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
-18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
-19	razón	razón	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
-20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	9	9	Z	Z	matched=yes: subj child of top deprel|pos=number	34	subj	_	_
+2	Como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	1	modnomatch	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	adjt	_	_
+4	esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
+5	confusión	confusión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	resulta	resultar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	comp	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	dogmatismo	dogmatismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	dobj	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+10	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	11	subj	_	_
+11	es	ser	VSIP3S0	VSI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	final	final	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	attr	_	_
+14	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	mod	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	animación	animación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	comp	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	mod	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+19	razón	razón	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
+20	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 21	a	a	SP	SP	matched=no|pos=adposition|type=preposition	34	adjt	_	_
 22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
 23	salvaguardar	salvaguardar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	modnomatch	_	_
@@ -170,8 +170,8 @@
 63	letárgico	letárgico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	62	mod	_	_
 64	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	62	punc	_	_
 
-1	Lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	fundamental	fundamental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	subj	_	_
+1	Lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fundamental	fundamental	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	subj	_	_
 3	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
 4	comprender	comprender	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	attr	_	_
 5	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -260,9 +260,9 @@
 33	astros	astro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	31	comp	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	planetas	planeta	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-3	vistos	ver	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	2	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	planetas	planeta	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+3	vistos	ver	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	2	mod	_	_
 4	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	Tierra	tierra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
@@ -301,8 +301,8 @@
 1	Pues_bien	pues_bien	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
 3	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	desgracia	desgracia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	desgracia	desgracia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 7	precisamente	precisar_mente	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	6	attr	_	_
 8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	10	subj	_	_
@@ -421,8 +421,8 @@
 60	libertad	libertad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	58	comp	_	_
 61	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	51	punc	_	_
 
-1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	Naturaleza	naturaleza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	Naturaleza	naturaleza	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
@@ -467,12 +467,12 @@
 
 1	Así	así	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	acto	acto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	Juicio	juicio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-8	reflexionante	reflexionante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	acto	acto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	Juicio	juicio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+8	reflexionante	reflexionante	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	mod	_	_
 9	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	10	dobj	_	_
 10	ve	ver	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 11	Kant	kan_t	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_

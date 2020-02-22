@@ -5,8 +5,8 @@
 5	chileno	chileno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	titular	titular	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	titular	titular	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 4	Exteriores	exterior	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	comp	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
@@ -33,8 +33,8 @@
 11	contencioso	contencioso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	reitera	reiterar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
@@ -128,8 +128,8 @@
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 6	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
 10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 11	Exteriores	exterior	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	10	comp	_	_
 12	chileno	chileno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	13	modnomatch	_	_
@@ -181,8 +181,8 @@
 58	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	13	punc	_	_
 59	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	Ese	ese	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	ambiente	ambiente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Ese	ese	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	ambiente	ambiente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	lleva	llevar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	dobj	_	_
 5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
@@ -301,8 +301,8 @@
 7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 8	Londres	londres	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	ministro	ministro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	ministro	ministro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
 12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
 13	Exteriores	exterior	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	12	comp	_	_
 14	chileno	chileno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	15	modnomatch	_	_
@@ -434,7 +434,7 @@
 1	Según	según	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 2	Insulza	insulza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	Chile	chile	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+4	Chile	chile	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
 7	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	attr	_	_
@@ -625,9 +625,9 @@
 15	adecuado	adecuar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	mod	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	encuentro	encuentro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	último	último	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	encuentro	encuentro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	subj	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
 5	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	4	comp	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
@@ -690,11 +690,11 @@
 28	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	dirigentes	dirigente	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	PSOE	psoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	dirigentes	dirigente	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	PSOE	psoe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	están	estar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	convencidos	convencer	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	6	attr	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_

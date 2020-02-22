@@ -5,8 +5,8 @@
 5	dirigente	dirigente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	spec	_	_
-8	PCE	p_ce	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+8	PCE	p_ce	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	8	punc	_	_
 10	falleció	fallecer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 12	última	último	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	13	mod	_	_

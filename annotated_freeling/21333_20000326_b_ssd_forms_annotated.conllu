@@ -51,8 +51,8 @@
 43	derrotas	derrota	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	41	coor	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
 
-1	Patrick	patrick	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	2	mod	_	_
-2	Kluivert	kluivert	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Patrick	patrick	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	2	mod	_	_
+2	Kluivert	kluivert	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	convirtió	convertir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 5	polémico	polémico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
@@ -78,8 +78,8 @@
 25	Liga	liga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Málaga	málaga	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Málaga	málaga	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	volvió	volver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	prt	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	prt	_	_
 5	sentir	sentir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_

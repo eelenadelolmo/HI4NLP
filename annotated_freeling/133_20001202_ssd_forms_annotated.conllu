@@ -3,10 +3,10 @@
 3	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	4	mod	_	_
 4	fase	fase	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
-7	costará	costar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	11	subj	_	_
-8	44_millones_de_pesetas	$_ESP:44000000	Zm	Zm	matched=no|pos=number|type=currency	7	dobj	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	costará	costar	VMIF3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	11	subj	_	_
+8	44_millones_de_pesetas	$_ESP:44000000	Zm	Zm	matched=yes: subj child of top deprel|pos=number|type=currency	7	dobj	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
 10	serán	ser	VSIF3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=semiauxiliary	11	aux	_	_
 11	reparadas	reparar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	0	top	_	_
 12	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_

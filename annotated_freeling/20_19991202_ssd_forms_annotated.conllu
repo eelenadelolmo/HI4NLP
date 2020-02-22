@@ -30,10 +30,10 @@
 30	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	president	president	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	president	president	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
 5	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 7	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
@@ -44,13 +44,13 @@
 12	profesional	profesional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	míticos	mítico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
-3	Jacques	jacques	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
-4	Anquetil	anquetil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	mod	_	_
-6	Eddy	eddy	RG	RG	matched=no|pos=adverb|type=general	7	spec	_	_
-7	Merckx	merckx	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	5	coor	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	míticos	mítico	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+3	Jacques	jacques	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+4	Anquetil	anquetil	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	3	mod	_	_
+6	Eddy	eddy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	7	spec	_	_
+7	Merckx	merckx	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	5	coor	_	_
 8	ganaron	ganar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	cinco	5	Z	Z	matched=no|pos=number	10	spec	_	_
 10	Tours	tour	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	dobj	_	_
@@ -58,9 +58,9 @@
 12	Francia	francia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	extraordinario	extraordinario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	Miguel	miguel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	extraordinario	extraordinario	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	Miguel	miguel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 4	Induráin	induráin	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
 5	intentó	intentar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	ganar	ganar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
@@ -105,10 +105,10 @@
 5	elecciones	elección	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
 6	catalanas	catalán	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-9	poca	poco	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
-10	tradición	tradición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-11	democrática	democrático	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+9	poca	poco	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	tradición	tradición	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+11	democrática	democrático	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
 12	hizo	hacer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 13	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	12	dobj	_	_
 14	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
@@ -123,13 +123,13 @@
 23	amarillo	amarillo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
 24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	Todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	3	subj	_	_
+1	Todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	3	subj	_	_
 2	habían	haber	VAII3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=auxiliary	3	aux	_	_
 3	ganado	ganar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	perdedores	perdedor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	perdedores	perdedor	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 4	saben	saber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	perder	perder	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	dobj	_	_
@@ -142,13 +142,13 @@
 12	ganar	ganar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	dobj	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	candidato	candidato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	cambio	cambio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	frustrado	frustrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	candidato	candidato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	cambio	cambio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	frustrado	frustrar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	Pasqual	pasqual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
 9	Maragall	maragall	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
@@ -317,9 +317,9 @@
 38	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
 39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	equilibrista	equilibrista	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	miedoso	miedoso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	equilibrista	equilibrista	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	miedoso	miedoso	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	Josep	josep	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
 5	Lluís	lluís	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
 6	Carod-Rovira	carod-rovira	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
@@ -348,12 +348,12 @@
 29	gobernar	gobernar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	28	dobj	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	dependencia	dependencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	partidos	partido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	estatales	estatal	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	dependencia	dependencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	partidos	partido	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	estatales	estatal	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	5	mod	_	_
 7	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	todavía	todavía	RG	RG	matched=no|pos=adverb|type=general	10	spec	_	_
 9	más	más	RG	RG	matched=no|pos=adverb|type=general	10	spec	_	_
@@ -372,8 +372,8 @@
 22	Catalunya	catalunya	RG	RG	matched=no|pos=adverb|type=general	21	comp	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	nacionalistas	nacionalista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	nacionalistas	nacionalista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 3	aún	aun	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
 4	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	6	prt	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	prt	_	_
@@ -398,9 +398,9 @@
 24	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	23	mod	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ambición	ambición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	electoral	electoral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ambición	ambición	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	electoral	electoral	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	debe	deber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	prt	_	_
 5	completarse	completarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 6	con	con	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
@@ -412,8 +412,8 @@
 12	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	políticos	político	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	políticos	político	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
 4	pueden	poder	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	prt	_	_
 5	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -433,8 +433,8 @@
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
 
 1	Ciertamente	ciertamente	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
-2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-3	hijos	hijo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+3	hijos	hijo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
 4	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	6	prt	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	prt	_	_
 6	estar	estar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -528,8 +528,8 @@
 29	Pla	p_la	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	modnomatch	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	nacionalistas	nacionalista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	nacionalistas	nacionalista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
 5	dura	duro	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
@@ -591,7 +591,7 @@
 18	limpia	limpio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Este	este	PD0MS00	PD	gen=masculine|matched=no|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+1	Este	este	PD0MS00	PD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
 2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	monumento	monumento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_

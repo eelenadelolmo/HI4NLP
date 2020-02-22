@@ -1,4 +1,4 @@
-1	Alguno	alguno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	2	subj	_	_
+1	Alguno	alguno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	2	subj	_	_
 2	entreveía	entrever	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 3	algún	alguno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
 4	complot	complot	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
@@ -74,8 +74,8 @@
 40	Gutiérrez	gutiérrez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnorule	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	40	punc	_	_
 
-1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	amistad	amistad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	amistad	amistad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 4	ido	ir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	prt	_	_
 5	cesando	cesar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_
@@ -141,8 +141,8 @@
 44	obligaciones	obligación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	42	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Liga	liga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Liga	liga	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	decidirá	decidir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
@@ -163,9 +163,9 @@
 20	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	última	último	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	bala	bala	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	última	último	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	bala	bala	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 4	acompañará	acompañar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
@@ -195,8 +195,8 @@
 
 1	Hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 2	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
-3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	Depor	depor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	Depor	depor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 5	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
 6	estado	estar	VAP00SM	VAP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=auxiliary	7	modnomatch	_	_
 7	disparando	disparar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_

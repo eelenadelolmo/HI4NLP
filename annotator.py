@@ -208,8 +208,8 @@ def main(argv):
 
     inputdir = 'conllu_freeling' + '/'
     outputdir = 'annotated_freeling' + '/'
-    rulesfile = 'syntax_rules/' + 'rules_nsubj.txt'
-    order_option = 'ALL'
+    rulesfile = 'syntax_rules/' + 'rules_nsubj_freeling.txt'
+    order_option = 'PRECEDING'
 
     try:
         opts, args = getopt.getopt(argv, "hirp:o:", ["idir=", "odir=", "rfile=", "pos="])

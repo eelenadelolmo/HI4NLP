@@ -1,9 +1,9 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	entrenador	entrenador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Celta	celta	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	entrenador	entrenador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Celta	celta	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 7	Víctor	víctor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
 8	Fernández	fernández	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	mod	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
@@ -43,8 +43,8 @@
 43	Bernabéu	bernabéu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	40	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	técnico	técnico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	técnico	técnico	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	justificó	justificar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
 5	aspiraciones	aspiración	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
@@ -229,7 +229,7 @@
 70	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 71	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	Fernández	fernández	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Fernández	fernández	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	resaltó	resaltar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	también	también	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	modnomatch	_	_
@@ -296,8 +296,8 @@
 44	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	confianza	confianza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	confianza	confianza	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 4	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
 5	futbolistas	futbolista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
@@ -351,9 +351,9 @@
 33	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	entrenador	entrenador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	céltico	céltico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	entrenador	entrenador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	céltico	céltico	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
 6	ejemplo	ejemplo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_

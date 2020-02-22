@@ -141,8 +141,8 @@
 19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
 20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-22	Valencia	valencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	subj	_	_
-23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_
+22	Valencia	valencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	30	subj	_	_
+23	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	22	punc	_	_
 24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
 25	efecto	efecto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	modnomatch	_	_
 26	Cúper	cúper	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	30	modnomatch	_	_
@@ -176,7 +176,7 @@
 7	constantes	constante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
 8	cambios	cambio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-10	Cúper	cúper	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	subj	_	_
+10	Cúper	cúper	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	12	subj	_	_
 11	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	12	aux	_	_
 12	obrado	obrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
@@ -363,7 +363,7 @@
 2	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
 3	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	Cúper	cúper	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+5	Cúper	cúper	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
 7	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	8	aux	_	_
 8	inventado	inventar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -511,12 +511,12 @@
 6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
 7	Tardelli	tardelli	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	coor	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	sensatez	sensatez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-11	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	13	subj	_	_
-12	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
-13	traído	traer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	10	mod	_	_
-14	Cúper	cúper	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	dobj	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	sensatez	sensatez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+11	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	13	subj	_	_
+12	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
+13	traído	traer	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	10	mod	_	_
+14	Cúper	cúper	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	13	dobj	_	_
 15	supone	suponer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 16	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
 17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_

@@ -28,8 +28,8 @@
 28	espectadores	espectador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	Comentario	comentario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-2	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
+1	Comentario	comentario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+2	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	1	punc	_	_
 3	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	selección	selección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 5	inglesa	inglés	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
@@ -170,7 +170,7 @@
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
 13	torneo	torneo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
 14	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
-15	Inglaterra	inglaterra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
+15	Inglaterra	inglaterra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
 16	debe	deber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	prt	_	_
 17	derrotar	derrotar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 18	a	a	SP	SP	matched=no|pos=adposition|type=preposition	17	modnomatch	_	_

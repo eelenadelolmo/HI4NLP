@@ -1,15 +1,15 @@
-1	EL	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	PROYECTO	proyecto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-3	municipal	municipal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-5	avanzado	avanzar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
-6	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	2	modnomatch	_	_
-7	por	por	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-8	L'Informatiu	l'informatiu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-10	TVE	t_ve	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-11	Catalunya	catalunya	RG	RG	matched=no|pos=adverb|type=general	2	modnomatch	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	EL	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	PROYECTO	proyecto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+3	municipal	municipal	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+5	avanzado	avanzar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	modnomatch	_	_
+6	ayer	ayer	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+7	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	L'Informatiu	l'informatiu	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+10	TVE	t_ve	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+11	Catalunya	catalunya	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 13	recuperaría	recuperar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
 14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
 15	fauna	fauna	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	coor	_	_
@@ -51,8 +51,8 @@
 51	usos	uso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	50	comp	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	50	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	foro	foro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	foro	foro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 4	Internet	internet	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	3	comp	_	_
 5	recogerá	recoger	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_

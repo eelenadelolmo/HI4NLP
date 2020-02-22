@@ -1,43 +1,43 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-5	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-6	catalán	catalán	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-8	Alberto	alberto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-9	Fernández	fernández	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-10	Díaz	día_z	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
-11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	31	punc	_	_
-12	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
-13	advertido	advertir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	31	coor	_	_
-14	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	13	adjt	_	_
-15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
-16	CiU	ciu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
-17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	modnomatch	_	_
-18	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	17	comp	_	_
-19	debe	deber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	20	prt	_	_
-20	elegir	elegir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	mod	_	_
-21	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
-22	ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	21	comp	_	_
-23	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	21	modnomatch	_	_
-24	ERC	erc	NC00000	NC	matched=no|pos=noun|type=common	21	comp	_	_
-25	para	para	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
-26	garantizar	garantizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	25	comp	_	_
-27	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
-28	gobernabilidad	gobernabilidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
-29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
-30	Cataluña	cataluña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
-31	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-32	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	34	mphes	_	_
-33	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	34	aux	_	_
-34	mostrado	mostrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	31	coor	_	_
-35	convencido	convencer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	34	pred	_	_
-36	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
-37	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	39	subj	_	_
-38	finalmente	final_mente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	39	modnomatch	_	_
-39	Jordi	jordi	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	36	comp	_	_
-40	Pujol	pujo_l	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	dobj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	42	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+5	PP	p_p	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+6	catalán	catalán	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
+8	Alberto	alberto	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+9	Fernández	fernández	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+10	Díaz	día_z	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	mod	_	_
+11	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	31	punc	_	_
+12	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	13	aux	_	_
+13	advertido	advertir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	31	coor	_	_
+14	hoy	hoy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	13	adjt	_	_
+15	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	adjt	_	_
+16	CiU	ciu	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	20	modnomatch	_	_
+18	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	17	comp	_	_
+19	debe	deber	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	20	prt	_	_
+20	elegir	elegir	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	16	mod	_	_
+21	entre	entre	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	adjt	_	_
+22	ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	21	comp	_	_
+23	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	21	modnomatch	_	_
+24	ERC	erc	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	21	comp	_	_
+25	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	adjt	_	_
+26	garantizar	garantizar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	25	comp	_	_
+27	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	28	spec	_	_
+28	gobernabilidad	gobernabilidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	dobj	_	_
+29	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	26	adjt	_	_
+30	Cataluña	cataluña	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	29	comp	_	_
+31	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+32	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	34	mphes	_	_
+33	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	34	aux	_	_
+34	mostrado	mostrar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	31	coor	_	_
+35	convencido	convencer	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	34	pred	_	_
+36	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	35	adjt	_	_
+37	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	39	subj	_	_
+38	finalmente	final_mente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	39	modnomatch	_	_
+39	Jordi	jordi	VMIS1S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	36	comp	_	_
+40	Pujol	pujo_l	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	39	dobj	_	_
 41	no	no	RN	RN	matched=no|pos=adverb|type=negative	42	spec	_	_
 42	tendrá	tener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 43	más	más	RG	RG	matched=no|pos=adverb|type=general	44	spec	_	_
@@ -229,24 +229,24 @@
 53	Cataluña	cataluña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	52	comp	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	dirigente	dirigente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	24	subj	_	_
-3	popular	popular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
-6	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	7	spec	_	_
-7	mañana	mañana	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	adjt	_	_
-8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
-9	asistido	asistir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	comp	_	_
-10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
-12	reunión	reunión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
-14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
-15	Ejecutiva	ejecutiva	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-16	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
-17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	dirigente	dirigente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	24	subj	_	_
+3	popular	popular	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+5	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	2	modnomatch	_	_
+6	esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	7	spec	_	_
+7	mañana	mañana	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	adjt	_	_
+8	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
+9	asistido	asistir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	5	comp	_	_
+10	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	reunión	reunión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	mod	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	Ejecutiva	ejecutiva	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+16	Nacional	nacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
 19	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	modnomatch	_	_
 20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
 21	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
@@ -414,7 +414,7 @@
 10	prudencia	prudencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-13	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
+13	PP	p_p	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
 14	esperará	esperar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	dobj	_	_
 16	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
@@ -557,7 +557,7 @@
 10	condiciones	condición	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-13	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	subj	_	_
+13	PP	p_p	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
 14	para	para	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
 15	cualquier	cualquiera	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	16	spec	_	_
 16	pacto	pacto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
@@ -604,7 +604,7 @@
 57	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
 1	Alberto	alberto	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
-2	Fernández	fernández	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+2	Fernández	fernández	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	subrayado	subrayar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	modnomatch	_	_

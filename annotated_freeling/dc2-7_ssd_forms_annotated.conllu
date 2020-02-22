@@ -1,9 +1,9 @@
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	rayos	rayo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
-3	ultravioleta	ultravioleta	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	Sol	sol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	rayos	rayo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+3	ultravioleta	ultravioleta	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Sol	sol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 7	destruirán	destruir	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 8	así	así	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
 9	toda	todo	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	modnomatch	_	_
@@ -96,7 +96,7 @@
 34	monstruoso	monstruoso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	26	pred	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	Quién	quién	PT0CS00	PT	gen=common|matched=no|num=singular|pos=pronoun|type=interrogative	2	subj	_	_
+1	Quién	quién	PT0CS00	PT	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=interrogative	2	subj	_	_
 2	sabe	saber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
@@ -327,8 +327,8 @@
 22	milagro	milagro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	attr	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	esto	este	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	4	subj	_	_
+1	Todo	todo	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	4	subj	_	_
 3	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	iobj	_	_
 4	parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	mágico	mágico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	attr	_	_

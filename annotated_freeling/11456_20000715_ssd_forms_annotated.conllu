@@ -1,10 +1,10 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	selección	selección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-6	Ecuador	ecuador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	selección	selección	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	fútbol	fútbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	Ecuador	ecuador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
 9	dirige	dirigir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	12	modnomatch	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
@@ -48,12 +48,12 @@
 48	2002	2002	Z	Z	matched=no|pos=number	46	comp	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
 
-1	Enfrentarse	enfrentarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	subj	_	_
-2	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
-3	Argentina	argentino	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
-4	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
-5	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
-6	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+1	Enfrentarse	enfrentarse	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	7	subj	_	_
+2	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	adjt	_	_
+3	Argentina	argentino	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	comp	_	_
+4	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	1	punc	_	_
+5	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	dobj	_	_
+6	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
 7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 8	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	mejor	mejor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
@@ -280,7 +280,7 @@
 37	triunfos	triunfo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	35	dobj	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
 
-1	Esa	ese	PD0FS00	PD	gen=feminine|matched=no|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+1	Esa	ese	PD0FS00	PD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
 2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	idea	idea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
@@ -462,8 +462,8 @@
 
 1	Mientras	mientras	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	portero	portero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	portero	portero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 5	José	josé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 6	Cevallos	cevallos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	dobj	_	_
 7	cree	creer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	modnomatch	_	_
@@ -486,7 +486,7 @@
 3	contrario	contrario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	2	subj	_	_
+1	Ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	2	subj	_	_
 2	jugarán	jugar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 3	presionados	presionar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	2	adjt	_	_
 4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
@@ -507,9 +507,9 @@
 19	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	ecuatoriano	ecuatoriano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	equipo	equipo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	ecuatoriano	ecuatoriano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	ya	ya	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
 5	tuvo	tener	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_

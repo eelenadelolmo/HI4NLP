@@ -1,6 +1,6 @@
 1	También	también	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
-2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-3	comunicación	comunicación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	comunicación	comunicación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 4	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	prt	_	_
 5	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 6	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
@@ -33,16 +33,16 @@
 18	perfeccionada	perfeccionar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	modnomatch	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Ningún	ninguno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	animal	animal	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-4	ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-5	siquiera	siquiera	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
-6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
-7	evolutivamente	evolutivamente	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
-8	más	más	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
-9	cercanos	cercano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	4	coor	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Ningún	ninguno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	animal	animal	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
+4	ni	ni	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+5	siquiera	siquiera	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	9	spec	_	_
+6	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+7	evolutivamente	evolutivamente	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	9	spec	_	_
+8	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	9	spec	_	_
+9	cercanos	cercano	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	4	coor	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 11	atesora	atesorar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 13	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_
@@ -101,9 +101,9 @@
 46	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	14	punc	_	_
 47	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	piel	piel	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	humana	humano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	piel	piel	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	humana	humano	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
 6	además	además	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
@@ -160,8 +160,8 @@
 14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
 15	estrellas	estrella	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
 16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
-17	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	18	spec	_	_
-18	telescopios	telescopio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	subj	_	_
+17	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	18	spec	_	_
+18	telescopios	telescopio	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	20	subj	_	_
 19	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	20	mphes	_	_
 20	muestran	mostrar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 21	apariencias	apariencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	20	dobj	_	_
@@ -176,10 +176,10 @@
 30	viento	viento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
-2	nubosidades	nubosidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
-3	cósmicas	cósmico	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Estas	este	DD0FP0	DD	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
+2	nubosidades	nubosidad	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+3	cósmicas	cósmico	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 5	llamadas	llamada	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	modnomatch	_	_
 6	nebulosas	nebuloso	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
 7	revelan	revelar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_

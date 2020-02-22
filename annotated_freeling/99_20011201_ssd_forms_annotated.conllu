@@ -1,10 +1,10 @@
-1	EL	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	3	modnomatch	_	_
-3	CONSELLER	conseller	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-4	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	3	modnomatch	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-6	Sanitat	sanitat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	EL	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	'	'	Fe	Fe	matched=yes: subj child of top deprel|pos=punctuation|type=quotation	3	modnomatch	_	_
+3	CONSELLER	conseller	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+4	'	'	Fe	Fe	matched=yes: subj child of top deprel|pos=punctuation|type=quotation	3	modnomatch	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+6	Sanitat	sanitat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 8	Eduard	eduard	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
 9	Rius	rius	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	8	mod	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_

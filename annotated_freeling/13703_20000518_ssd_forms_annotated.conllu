@@ -54,12 +54,12 @@
 54	Angel	angel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	53	mod	_	_
 55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	51	punc	_	_
 
-1	1.Boca	1.Boca	Z	Z	matched=no|pos=number	2	spec	_	_
-2	Juniors	junior	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-3	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	2	punc	_	_
-4	Oscar	oscar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-5	Córdoba	córdoba	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	mod	_	_
-6	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
+1	1.Boca	1.Boca	Z	Z	matched=yes: subj child of top deprel|pos=number	2	spec	_	_
+2	Juniors	junior	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+3	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	2	punc	_	_
+4	Oscar	oscar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+5	Córdoba	córdoba	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	mod	_	_
+6	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
 7	Hugo	hugo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
 8	Ibarra	i_barra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	mod	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
@@ -128,10 +128,10 @@
 5	Riquelme	riquelme	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
 6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	2-1	2-1	Z	Z	matched=no|pos=number	5	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	m.47	m.47	Z	Z	matched=no|pos=number	1	mod	_	_
-4	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
+1	2-1	2-1	Z	Z	matched=yes: subj child of top deprel|pos=number	5	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	m.47	m.47	Z	Z	matched=yes: subj child of top deprel|pos=number	1	mod	_	_
+4	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	1	punc	_	_
 5	Saviola	saviola	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
@@ -203,8 +203,8 @@
 30	espectadores	espectador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Comentario	comentario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-2	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
+1	Comentario	comentario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+2	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	1	punc	_	_
 3	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	River	river	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	modnomatch	_	_
 5	Plate	plate	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
@@ -253,8 +253,8 @@
 48	América	américa	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	47	comp	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	33	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	colombiano	colombiano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	colombiano	colombiano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	Pablo	pablo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
 5	Angel	angel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	mod	_	_
@@ -296,8 +296,8 @@
 41	30	30	Z	Z	matched=no|pos=number	39	comp	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	39	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	terminó	terminar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	en_medio_de	en_medio_de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
@@ -736,14 +736,14 @@
 33	equipos	equipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	31	comp	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	imagen	imagen	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	mayor	mayor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-5	solvencia	solvencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
-7	dejó	dejar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	imagen	imagen	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	mayor	mayor	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+5	solvencia	solvencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	dejó	dejar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
 9	Boca	boca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	modnomatch	_	_
 10	Juniors	junior	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	9	mod	_	_
 11	antes_de	antes_de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
@@ -896,8 +896,8 @@
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	visitantes	visitante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	subj	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	subj	_	_
 9	Yepes	ye_pes	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	lució	lucir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_

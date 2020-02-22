@@ -1,41 +1,41 @@
 1	0	0	Z	Z	matched=no|pos=number	0	top	_	_
 2	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Millonarios	millonario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	36	subj	_	_
-2	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
-3	Andrés	andrés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-4	López	lópez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	mod	_	_
-5	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
-6	Jair	jair	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	modnomatch	_	_
-7	Ramírez	ramírez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
-9	Oscar	oscar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
-10	Cortés	cortés	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
-12	Javier	javier	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
-13	Martínez	martínez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
-15	Oscar	oscar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-16	Millán	millán	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
-17	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
-18	Javier	javier	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
-19	Jiménez	jiménez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-20	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	1	punc	_	_
-21	Andrés	andrés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-22	Pérez	pérez	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	21	mod	_	_
-23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	21	punc	_	_
-24	m.46	m.46	Z	Z	matched=no|pos=number	1	mod	_	_
-25	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
-26	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-27	Raúl	raúl	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-28	Ramírez	ramírez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	mod	_	_
-29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
-30	Jaime	jaime	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	31	mod	_	_
-31	Suárez	suárez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-32	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	31	punc	_	_
-33	Andrés	andrés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-34	Chitiva	chitiva	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	33	mod	_	_
-35	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+1	Millonarios	millonario	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	36	subj	_	_
+2	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	1	punc	_	_
+3	Andrés	andrés	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+4	López	lópez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	mod	_	_
+5	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
+6	Jair	jair	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	1	modnomatch	_	_
+7	Ramírez	ramírez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	dobj	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
+9	Oscar	oscar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	modnomatch	_	_
+10	Cortés	cortés	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	9	punc	_	_
+12	Javier	javier	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	1	modnomatch	_	_
+13	Martínez	martínez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+14	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	13	punc	_	_
+15	Oscar	oscar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+16	Millán	millán	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+17	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
+18	Javier	javier	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	1	modnomatch	_	_
+19	Jiménez	jiménez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+20	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	1	punc	_	_
+21	Andrés	andrés	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+22	Pérez	pérez	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	mod	_	_
+23	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	21	punc	_	_
+24	m.46	m.46	Z	Z	matched=yes: subj child of top deprel|pos=number	1	mod	_	_
+25	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
+26	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+27	Raúl	raúl	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+28	Ramírez	ramírez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	27	mod	_	_
+29	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	27	punc	_	_
+30	Jaime	jaime	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	31	mod	_	_
+31	Suárez	suárez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+32	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	31	punc	_	_
+33	Andrés	andrés	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+34	Chitiva	chitiva	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	33	mod	_	_
+35	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
 36	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 37	Carlos	car_lo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	36	dobj	_	_
 38	Jaramillo	jara_millo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	mod	_	_
@@ -125,28 +125,28 @@
 18	Millonarios	millonario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Incidencias	incidencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	subj	_	_
-2	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
-3	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	ida	ida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	final	final	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	Copa	copa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-12	Merconorte	merconorte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	mod	_	_
-13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-14	Fútbol	fútbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-16	disputado	disputar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
-17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
-18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
-19	estadio	estadio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
-20	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
-21	Campín	campín	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+1	Incidencias	incidencia	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	23	subj	_	_
+2	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	1	punc	_	_
+3	partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	ida	ida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	final	final	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	Copa	copa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	Merconorte	merconorte	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	mod	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+14	Fútbol	fútbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+16	disputado	disputar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
+17	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	16	adjt	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+19	estadio	estadio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
+20	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	21	spec	_	_
+21	Campín	campín	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+22	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
 23	Bogotá	bogotá	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	23	punc	_	_
 25	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	23	adjt	_	_
@@ -155,10 +155,10 @@
 28	aficionados	aficionado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	comp	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	encuentro	encuentro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	vuelta	vuelta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	encuentro	encuentro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	vuelta	vuelta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
 6	jugará	jugar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
@@ -173,8 +173,8 @@
 16	Medellín	medellín	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
 17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Comentario	comentario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-2	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
+1	Comentario	comentario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+2	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	1	punc	_	_
 3	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	campeón	campeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
 5	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
@@ -229,8 +229,8 @@
 54	Rica	rico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	53	mod	_	_
 55	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	resultado	resultado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	resultado	resultado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	favorece	favorecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -300,8 +300,8 @@
 69	local	local	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	68	mod	_	_
 70	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	51	punc	_	_
 
-1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	hecho	hecho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	hecho	hecho	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	dejó	dejar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	dobj	_	_
@@ -348,9 +348,9 @@
 46	López	lópez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	45	mod	_	_
 47	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	campeón	campeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	campeón	campeón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	colombiano	colombiano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	exhibió	exhibir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
 6	mejor	mejor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
@@ -383,11 +383,11 @@
 2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 3	segundo	2	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	4	mod	_	_
 4	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	técnico	técnico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-7	local	local	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
-9	Diego	diego	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	técnico	técnico	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+7	local	local	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
+9	Diego	diego	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
 10	Umaña	u_maña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
 12	envió	enviar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -418,8 +418,8 @@
 1	A_partir_de	a_partir_de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 2	ahí	ahí	RG	RG	matched=no|pos=adverb|type=general	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	locales	local	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	locales	local	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
 6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
 7	adueñaron	adueñar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_

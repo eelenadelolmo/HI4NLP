@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Espanyol	espanyol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Espanyol	espanyol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	desmiente	desmentir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 5	posible	posible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
@@ -82,8 +82,8 @@
 14	balonmano	balonmano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	azulgranas	azulgrana	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	azulgranas	azulgrana	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	enfrentarán	enfrentar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -110,8 +110,8 @@
 26	bombo	bombo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Celje	celje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Celje	celje	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	Pivovarna	pivovarna	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	Lasko	lasko	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
 5	esloveno	esloveno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
@@ -125,10 +125,10 @@
 13	León	león	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	dobj	_	_
 14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	ida	ida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	ida	ida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
 6	jugará	jugar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
@@ -144,22 +144,22 @@
 17	día_26	[??:26/??/??:??.??:??]	W	W	matched=no|pos=date	6	adjt	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Valero	vale_ro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
-2	Rivera	rivera	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
-4	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
-5	disimuló	disimular	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	11	coor	_	_
-6	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
-7	preocupación	preocupación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
-8	por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	sorteo	sorteo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
-11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
-12	comentó	comentar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	11	coor	_	_
-13	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
-14	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
-15	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-16	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+1	Valero	vale_ro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	subj	_	_
+2	Rivera	rivera	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	11	punc	_	_
+4	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	5	spec	_	_
+5	disimuló	disimular	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	11	coor	_	_
+6	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+7	preocupación	preocupación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
+8	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	sorteo	sorteo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+11	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+12	comentó	comentar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	11	coor	_	_
+13	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	1	modnomatch	_	_
+14	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	1	punc	_	_
+15	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+16	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
 17	jugar	jugar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	modnomatch	_	_
 18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
 19	vuelta	vuelta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	dobj	_	_

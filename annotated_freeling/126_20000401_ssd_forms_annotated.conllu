@@ -12,8 +12,8 @@
 12	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	2	punc	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	realizador	realizador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	realizador	realizador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	dice	decir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	volverá	volver	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	7	prt	_	_
@@ -50,10 +50,10 @@
 15	carrera	carrera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Antonio	antonio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-2	Banderas	bandera	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
-3	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
-4	Penélope	penélope	RG	RG	matched=no|pos=adverb|type=general	3	coor	_	_
+1	Antonio	antonio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+2	Banderas	bandera	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
+3	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+4	Penélope	penélope	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	3	coor	_	_
 5	Cruz	cruz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 6	trabajarán	trabajar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
@@ -117,7 +117,7 @@
 53	Azorín	azorín	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	50	dobj	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	50	punc	_	_
 
-1	Almodóvar	almodóvar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	subj	_	_
+1	Almodóvar	almodóvar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	subj	_	_
 2	quiso	querer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -177,7 +177,7 @@
 14	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Almodóvar	almodóvar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	subj	_	_
+1	Almodóvar	almodóvar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	subj	_	_
 2	adelantó	adelantar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
@@ -240,7 +240,7 @@
 10	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
 11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Almodóvar	almodóvar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	subj	_	_
+1	Almodóvar	almodóvar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	3	subj	_	_
 2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
 3	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -322,11 +322,11 @@
 17	extranjeros	extranjero	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	16	mod	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Protagonistas	protagonista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-2	masculinos	masculino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
-3	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
-4	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-5	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+1	Protagonistas	protagonista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+2	masculinos	masculino	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
+3	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	1	punc	_	_
+4	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+5	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
 6	En	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
 8	tres	3	Z	Z	matched=no|pos=number	6	comp	_	_
@@ -353,9 +353,9 @@
 29	adelantó	adelantar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	9	modnomatch	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	proyecto	proyecto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	americano	americano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	proyecto	proyecto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	americano	americano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	adaptación	adaptación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
@@ -389,10 +389,10 @@
 20	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	dos	2	Z	Z	matched=no|pos=number	3	spec	_	_
-3	guiones	guión	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
-4	españoles	español	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	guiones	guión	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+4	españoles	español	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
 5	los	lo	PP3MPA0	PP	case=accusative|gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	6	dobj	_	_
 6	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	avanzados	avanzar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	6	pred	_	_
@@ -447,8 +447,8 @@
 24	películas	película	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	comp	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cineasta	cineasta	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cineasta	cineasta	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	fotografió	fotografiar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -539,9 +539,9 @@
 41	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	señor	señor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	dorado	dorar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	señor	señor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	dorado	dorar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
 4	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	5	iobj	_	_
 5	visitó	visitar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
@@ -562,7 +562,7 @@
 21	Hollywood	hollywood	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+1	Eso	ese	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
 2	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 3	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
 4	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
@@ -599,8 +599,8 @@
 9	cumplir	cumplir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	comp	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Oscar	oscar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Oscar	oscar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	3	attr	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
@@ -645,8 +645,8 @@
 1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 2	momento	momento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Oscar	oscar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Oscar	oscar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 6	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	8	dobj	_	_
 7	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	8	aux	_	_
 8	colocado	colocar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -705,7 +705,7 @@
 5	sobrevivido	sobrevivir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnorule	_	_
 6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+1	Eso	ese	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
 2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 3	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
@@ -764,7 +764,7 @@
 15	?	?	Fit	Fit	matched=no|pos=punctuation|punctenclose=close|type=questionmark	3	punc	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Almodóvar	almodóvar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	subj	_	_
+1	Almodóvar	almodóvar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	subj	_	_
 2	sonrió	sonreír	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	2	adjt	_	_
 4	escuchó	escuchar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	comp	_	_
@@ -793,8 +793,8 @@
 7	?	?	Fit	Fit	matched=no|pos=punctuation|punctenclose=close|type=questionmark	3	punc	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	surrealismo	surrealismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	surrealismo	surrealismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	una	uno	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	3	attr	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_

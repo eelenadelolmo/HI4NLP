@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	degradado	degradar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	mod	_	_
-3	palacio	palacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
-4	Abaria	a_baria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	mod	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	degradado	degradar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	3	mod	_	_
+3	palacio	palacio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+4	Abaria	a_baria	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	mod	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	siglo_XVIII	[s:xviii]	W	W	matched=no|pos=date	6	comp	_	_
@@ -26,8 +26,8 @@
 26	Govern	govern	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	modnomatch	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
 
-1	Esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	actuación	actuación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+1	Esa	ese	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	actuación	actuación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 4	pleno	pleno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 5	casco	casco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
@@ -43,14 +43,14 @@
 15	circundantes	circundante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	14	mod	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Representantes	representante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
-3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	spec	_	_
-4	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	mod	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	coor	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	consistorio	consistorio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+1	Representantes	representante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	1	spec	_	_
+4	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+5	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	mod	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	coor	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	consistorio	consistorio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 9	presentaron	presentar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
 11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
@@ -116,8 +116,8 @@
 71	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	68	comp	_	_
 72	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	obras	obra	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	obras	obra	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	estarán	estar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	listas	lista	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	attr	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_

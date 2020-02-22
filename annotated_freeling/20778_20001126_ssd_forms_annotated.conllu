@@ -26,9 +26,9 @@
 26	brillantes	brillante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	24	mod	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Turbo	turbo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	favorito	favorito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+1	Turbo	turbo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	favorito	favorito	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
 6	pronósticos	pronóstico	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
@@ -80,10 +80,10 @@
 9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 10	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	9	comp	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	27	subj	_	_
-13	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	14	iobj	_	_
-14	provocara	provocar	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	12	comp	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+12	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	27	subj	_	_
+13	le	le	PP3CSD0	PP	case=dative|gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	14	iobj	_	_
+14	provocara	provocar	VMSI3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	12	comp	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	12	punc	_	_
 16	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
 17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
 18	km.24	km.24	Z	Z	matched=no|pos=number	16	comp	_	_
@@ -100,8 +100,8 @@
 29	adecuada	adecuar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	28	mod	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
 
-1	Rocío	rocío	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-2	Ríos	río	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
+1	Rocío	rocío	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+2	Ríos	río	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
 3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 4	rindió	rendir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	bien	bien	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
@@ -118,19 +118,19 @@
 
 1	Así_pues	así_pues	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	falta	falta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	rivales	rival	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-9	atletas	atleta	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
-10	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	12	subj	_	_
-11	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	12	iobj	_	_
-12	pusieran	poner	VMSI3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	4	mod	_	_
-13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
-14	tensión	tensión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	falta	falta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	rivales	rival	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+9	atletas	atleta	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	comp	_	_
+10	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	12	subj	_	_
+11	les	le	PP3CPD0	PP	case=dative|gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	12	iobj	_	_
+12	pusieran	poner	VMSI3P0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	4	mod	_	_
+13	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	pobj	_	_
+14	tensión	tensión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
 16	invalidó	invalidar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
 18	intento	intento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
@@ -153,10 +153,10 @@
 35	calidad	calidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
 36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	1.300	1300	Z	Z	matched=no|pos=number	3	spec	_	_
-3	atletas	atleta	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-4	participantes	participante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	1.300	1300	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	atletas	atleta	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+4	participantes	participante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	mod	_	_
 5	tuvieron	tener	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 7	sí	sí	RG	RG	matched=no|pos=adverb|type=general	6	comp	_	_
@@ -207,13 +207,13 @@
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	49	punc	_	_
 
 1	Sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
-2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-3	tres	3	Z	Z	matched=no|pos=number	4	spec	_	_
-4	hombres	hombre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	subj	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	podio	podio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+3	tres	3	Z	Z	matched=yes: subj child of top deprel|pos=number	4	spec	_	_
+4	hombres	hombre	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	16	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	podio	podio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
 9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
 10	auténticos	auténtico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	11	mod	_	_
 11	protagonistas	protagonista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	16	modnomatch	_	_
@@ -266,8 +266,8 @@
 6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
 7	africanos	africano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	décimo	décimo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	décimo	décimo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
 11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
 12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
 13	llegada	llegada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
@@ -385,8 +385,8 @@
 14	respeto	respeto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	maratón	maratón	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	maratón	maratón	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	terminó	terminar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
@@ -409,8 +409,8 @@
 22	2.12:29	2.12:29	Z	Z	matched=no|pos=number	21	coor	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	marroquí	marroquí	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	marroquí	marroquí	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	Hattab	hattab	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
 5	finalizó	finalizar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -418,11 +418,11 @@
 7	2.14:50	2.14:50	Z	Z	matched=no|pos=number	6	comp	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	resto	resto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	africanos	africano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	resto	resto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	africanos	africano	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 6	fallaron	fallar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
 8	aunque	aunque	CC	CC	matched=no|pos=conjunction|type=coordinating	6	dobj	_	_
@@ -475,8 +475,8 @@
 34	2.28:04	2.28:04	Z	Z	matched=no|pos=number	33	comp	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	Peter	peter	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	subj	_	_
-2	Chebet	chebet	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+1	Peter	peter	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	4	subj	_	_
+2	Chebet	chebet	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	dobj	_	_
 3	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	4	aux	_	_
 4	superado	superar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_

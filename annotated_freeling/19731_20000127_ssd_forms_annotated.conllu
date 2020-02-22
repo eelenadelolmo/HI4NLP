@@ -91,8 +91,8 @@
 49	11.206,60	11206.6	Z	Z	matched=no|pos=number	47	comp	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	44	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	sesión	sesión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	sesión	sesión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	estuvo	estar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	dominada	dominar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	attr	_	_
 5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_
@@ -327,11 +327,11 @@
 38	ciento	100	Z	Z	matched=no|pos=number	37	comp	_	_
 39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	acciones	acción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	BBV	bbv	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	3	comp	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	acciones	acción	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	BBV	bbv	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	comp	_	_
 6	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
 7	registrado	registrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
@@ -388,7 +388,7 @@
 59	ciento	100	Z	Z	matched=no|pos=number	58	comp	_	_
 60	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	Repsol	repsol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Repsol	repsol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	3	aux	_	_
 3	castigado	castigar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 4	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
@@ -442,8 +442,8 @@
 52	recomendado	recomendar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	51	mod	_	_
 53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	participada	participar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	6	subj	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	participada	participar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	6	subj	_	_
 3	Gas	gas	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 4	Natural	natural	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 5	también	también	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
@@ -475,10 +475,10 @@
 1	Entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
 3	valores	valor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	experimentaron	experimentar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	9	subj	_	_
-6	importantes	importante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
-7	alzas	alza	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	dobj	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	experimentaron	experimentar	VMIS3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	9	subj	_	_
+6	importantes	importante	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+7	alzas	alza	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	dobj	_	_
 8	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	9	mphes	_	_
 9	encontraban	encontrar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 10	también	también	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
@@ -619,9 +619,9 @@
 57	ciento	100	Z	Z	matched=no|pos=number	56	comp	_	_
 58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	56	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	restantes	restante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
-3	grupos	grupo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	restantes	restante	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+3	grupos	grupo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 4	pasaron	pasar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	números	número	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
@@ -682,9 +682,9 @@
 1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 2	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
 3	17.30_horas	TM_h:17.30	Zu	Zu	matched=no|pos=number|type=unit	1	comp	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	índice	índice	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-6	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	índice	índice	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+6	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 7	Dow	do_w	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 8	Jones	jones	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
 9	ganaba	ganar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
@@ -738,13 +738,13 @@
 57	ciento	100	Z	Z	matched=no|pos=number	56	comp	_	_
 58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	53	punc	_	_
 
-1	Lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-3	parecía	parecer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	4	prt	_	_
-4	venir	venir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	subj	_	_
-5	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
-6	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	comp	_	_
-7	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+1	Lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+3	parecía	parecer	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	4	prt	_	_
+4	venir	venir	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	8	subj	_	_
+5	desde	desde	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	adjt	_	_
+6	hace	hacer	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	comp	_	_
+7	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	modnomatch	_	_
 8	ocurrió	ocurrir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
 10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	modnomatch	_	_
@@ -789,12 +789,12 @@
 2	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
 3	manera	manera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	inversores	inversor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	subj	_	_
-7	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
-8	quieran	querer	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	6	mod	_	_
-9	comprar	comprar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	dobj	_	_
-10	dólares	dólar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	dobj	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	inversores	inversor	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+7	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+8	quieran	querer	VMSP3P0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	6	mod	_	_
+9	comprar	comprar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	8	dobj	_	_
+10	dólares	dólar	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	dobj	_	_
 11	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	12	iobj	_	_
 12	costaba	costar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 13	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_

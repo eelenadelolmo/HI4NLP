@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	alemán	alemán	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	20	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	alemán	alemán	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	20	subj	_	_
 3	Dieter	dieter	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	20	modnomatch	_	_
 4	Baumann	baumann	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
@@ -47,15 +47,15 @@
 47	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	20	punc	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Comisión	comisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	Jurídica	jurídico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	Federación	federación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	Alemana	alemán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-9	Atletismo	atletismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Comisión	comisión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	Jurídica	jurídico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Federación	federación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	Alemana	alemán	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+9	Atletismo	atletismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
 10	dio	dar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	luz	luz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
 12	verde	verde	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
@@ -129,12 +129,12 @@
 28	federativo	federativo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	27	mod	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	fallo	fallo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	comisión	comisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	jurídica	jurídico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fallo	fallo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	comisión	comisión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	jurídica	jurídico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 7	supone	suponer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
 9	capítulo	capítulo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
@@ -164,10 +164,10 @@
 1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
 2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	reincorporación	reincorporación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	Baumann	baumann	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	reincorporación	reincorporación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	Baumann	baumann	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
 8	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	18	adjt	_	_
 9	máxima	máximo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
 10	estrella	estrella	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
@@ -206,9 +206,9 @@
 43	IAAF	iaaf	NC00000	NC	matched=no|pos=noun|type=common	18	modnomatch	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	caso	caso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	Baumann	baumann	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	caso	caso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	Baumann	baumann	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	empezó	empezar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	otoño	otoño	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
@@ -235,8 +235,8 @@
 27	noviembre_de_1999	[??:??/11/1999:??.??:??]	W	W	matched=no|pos=date	26	modnomatch	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	afectado	afectar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	afectado	afectar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	4	subj	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	jurado	jurar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	dobj	_	_
@@ -278,11 +278,11 @@
 3	intento	intento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 5	demostrar	demostrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
-6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	11	subj	_	_
-7	no	no	RN	RN	matched=no|pos=adverb|type=negative	9	spec	_	_
-8	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	9	mphes	_	_
-9	dopó	dopar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	6	comp	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+6	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	11	subj	_	_
+7	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	9	spec	_	_
+8	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	9	mphes	_	_
+9	dopó	dopar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	6	comp	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
 11	presentó	presentar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	denuncia	denuncia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
 13	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
@@ -339,8 +339,8 @@
 26	persecutoria	persecutorio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	Finalmente	final_mente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Finalmente	final_mente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	Comisión	comisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 5	Jurídica	jurídico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
@@ -384,8 +384,8 @@
 43	dopaje	dopaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	42	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Federación	federación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Federación	federación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	attr	_	_
 5	cree	creer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	comp	_	_
@@ -529,28 +529,28 @@
 27	críticas	crítica	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	24	dobj	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Katrin	katrin	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	23	subj	_	_
-2	Krabbe	krabbe	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	ex-plusmarquista	ex_plusmarquista	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	1	mod	_	_
-6	mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	modnomatch	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	comp	_	_
-10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
-11	suspendió	suspender	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	mod	_	_
-12	por	por	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-13	tres	3	Z	Z	matched=no|pos=number	14	spec	_	_
-14	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
-15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	mod	_	_
-16	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	18	subj	_	_
-17	sigue	seguir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	prt	_	_
-18	luchando	luchar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	15	coor	_	_
-19	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	18	pobj	_	_
-20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
-21	dictamen	dictamen	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
-22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Katrin	katrin	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	23	subj	_	_
+2	Krabbe	krabbe	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	ex-plusmarquista	ex_plusmarquista	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	1	mod	_	_
+6	mundial	mundial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	modnomatch	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	comp	_	_
+10	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	11	mphes	_	_
+11	suspendió	suspender	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	mod	_	_
+12	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+13	tres	3	Z	Z	matched=yes: subj child of top deprel|pos=number	14	spec	_	_
+14	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	comp	_	_
+15	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	mod	_	_
+16	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	18	subj	_	_
+17	sigue	seguir	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	prt	_	_
+18	luchando	luchar	VMG0000	VMG	matched=yes: subj child of top deprel|mood=gerund|pos=verb|type=main	15	coor	_	_
+19	contra	contra	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	pobj	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	21	spec	_	_
+21	dictamen	dictamen	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	comp	_	_
+22	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 23	calificó	calificar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 24	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	23	adjt	_	_
 25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	adjt	_	_
@@ -580,26 +580,26 @@
 49	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	23	punc	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
 
-1	Otros	otro	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	21	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	1	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	Federación	federación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	Deportiva	deportivo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
-12	estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-14	Sajonia	sajonia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-15	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	1	punc	_	_
-16	este	este	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-18	Alemania	alemania	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	17	comp	_	_
-19	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
-20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Otros	otro	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	21	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	1	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	Federación	federación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	Deportiva	deportivo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+14	Sajonia	sajonia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+15	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	1	punc	_	_
+16	este	este	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+18	Alemania	alemania	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	17	comp	_	_
+19	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
+20	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 21	Hermann	hermann	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 22	Winkler	winkler	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	21	dobj	_	_
 23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	21	punc	_	_

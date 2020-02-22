@@ -19,10 +19,10 @@
 8	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	hermosa	hermoso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	subj	_	_
-3	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-4	discreta	discreto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	coor	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	hermosa	hermoso	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	subj	_	_
+3	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+4	discreta	discreto	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	coor	_	_
 5	anciana	anciano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	modnomatch	_	_
 6	Isabel	isabel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
 7	Bowes-Lyon	bowes-lyon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_

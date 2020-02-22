@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	precio	precio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	carburante	carburante	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	precio	precio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	carburante	carburante	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 7	Suecia	suecia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	comp	_	_
 8	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
@@ -75,10 +75,10 @@
 51	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	49	comp	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	Lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
-4	sabe	saber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	subj	_	_
+1	Lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+3	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	4	spec	_	_
+4	sabe	saber	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	subj	_	_
 5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	attr	_	_
 7	posiblemente	posiblemente	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
@@ -141,8 +141,8 @@
 33	consumidor	consumidor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	situación	situación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	situación	situación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	equiparable	equiparable	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
@@ -235,11 +235,11 @@
 7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
 8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	Competencia	competencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-10	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	subj	_	_
-11	investigó	investigar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	19	subj	_	_
-12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	asunto	asunto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
-14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+10	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	11	subj	_	_
+11	investigó	investigar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	19	subj	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	asunto	asunto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	dobj	_	_
+14	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	11	punc	_	_
 15	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
 16	informaciones	información	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	19	modnomatch	_	_
 17	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	18	subj	_	_
@@ -434,11 +434,11 @@
 20	Wallander	wallander	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	dobj	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	Otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	periódicos	periódico	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+1	Otros	otro	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	periódicos	periódico	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	2	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
 6	Svenska	svenska	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
 7	Dagbladet	dagbladet	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
@@ -514,7 +514,7 @@
 1	Para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 2	Wallander	wallander	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	esto	este	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	5	subj	_	_
+4	esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	5	subj	_	_
 5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 6	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	5	punc	_	_
 7	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	attr	_	_
@@ -541,9 +541,9 @@
 1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	consumidores	consumidor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
-6	suecos	sueco	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	consumidores	consumidor	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+6	suecos	sueco	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	5	mod	_	_
 7	miran	mirar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	con	con	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 9	cierta	cierto	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
@@ -576,9 +576,9 @@
 10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
 11	asuntos	asunto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
 12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
-14	consumidor	consumidor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-15	medio	medio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	consumidor	consumidor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+15	medio	medio	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	14	mod	_	_
 16	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 17	convencido	convencer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	16	pred	_	_
 18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	modnomatch	_	_
@@ -630,8 +630,8 @@
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
 13	combustible	combustible	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
 14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
-16	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	Estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
 17	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
 19	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	23	subj	_	_

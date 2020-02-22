@@ -9,14 +9,14 @@
 9	comarcal	comarcal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	secretario	secretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	PSC	psc	NC00000	NC	matched=no|pos=noun|type=common	4	comp	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	PSC	psc	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	modnomatch	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
 9	Vallès	vallès	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	modnomatch	_	_
 10	Oriental	oriental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
@@ -76,7 +76,7 @@
 26	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Terrades	terrades	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	subj	_	_
+1	Terrades	terrades	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	subj	_	_
 2	ejerce	ejercer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 4	adjunto	adjunto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_

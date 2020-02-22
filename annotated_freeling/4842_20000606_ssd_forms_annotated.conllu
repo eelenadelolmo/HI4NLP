@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Príncipe	príncipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Príncipe	príncipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	dedicó	dedicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	6	spec	_	_
 5	segundo	2	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	6	mod	_	_
@@ -149,13 +149,13 @@
 51	provincia	provincia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	49	comp	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	programa	programa	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-6	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-7	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	programa	programa	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	Don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	mod	_	_
 8	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	9	iobj	_	_
 9	llevó	llevar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
@@ -178,7 +178,7 @@
 3	estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	4	spec	_	_
 4	lugares	lugar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 5	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	mod	_	_
-6	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+6	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 7	comprobó	comprobar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
@@ -213,11 +213,11 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
 2	Alcañiz	alcañiz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	5	adjt	_	_
-5	inició	iniciar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	27	subj	_	_
-6	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
-7	jornada	jornada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+4	donde	donde	PR00000	PR	matched=yes: subj child of top deprel|pos=pronoun|type=relative	5	adjt	_	_
+5	inició	iniciar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	27	subj	_	_
+6	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+7	jornada	jornada	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
 9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
 10	Príncipe	príncipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	modnomatch	_	_
 11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
@@ -264,8 +264,8 @@
 11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
 12	riqueza	riqueza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
 13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
-14	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-15	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	mod	_	_
+14	Don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+15	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	mod	_	_
 16	conversó	conversar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 17	acerca_de	acerca_de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
 18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
@@ -296,11 +296,11 @@
 43	despoblación	despoblación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	41	dobj	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	población	población	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	provincia	provincia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	población	población	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	provincia	provincia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
 7	Teruel	teruel	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	comp	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
@@ -339,14 +339,14 @@
 41	siglo	siglo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	modnomatch	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	39	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	empresarios	empresario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	subj	_	_
-3	turolenses	turolense	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	industrias	industria	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
-7	cárnicas	cárnico	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	6	mod	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	empresarios	empresario	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	subj	_	_
+3	turolenses	turolense	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	industrias	industria	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	comp	_	_
+7	cárnicas	cárnico	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 9	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	13	adjt	_	_
 10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 11	auge	auge	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
@@ -410,12 +410,12 @@
 9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 10	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
 11	distancias	distancia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
-12	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	13	subj	_	_
-13	separan	separar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	20	subj	_	_
-14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
-15	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
-16	pueblos	pueblo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
-17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+12	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	13	subj	_	_
+13	separan	separar	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	20	subj	_	_
+14	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	adjt	_	_
+15	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	16	spec	_	_
+16	pueblos	pueblo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	comp	_	_
+17	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	13	punc	_	_
 18	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	modnomatch	_	_
 19	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	mod	_	_
 20	viajó	viajar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -454,8 +454,8 @@
 53	información	información	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	51	comp	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	39	punc	_	_
 
-1	Andrés	andrés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Andrés	andrés	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	junto_a	junto_a	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 4	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
 5	colegas	colega	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
@@ -496,14 +496,14 @@
 40	telemáticos	telemático	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	39	mod	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	alcalde	alcalde	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
-5	pueblo	pueblo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	350	350	Z	Z	matched=no|pos=number	8	spec	_	_
-8	habitantes	habitante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	alcalde	alcalde	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
+5	pueblo	pueblo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	350	350	Z	Z	matched=yes: subj child of top deprel|pos=number	8	spec	_	_
+8	habitantes	habitante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
 9	resumió	resumir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	11	spec	_	_
 11	soluciones	solución	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	dobj	_	_
@@ -542,8 +542,8 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 2	Albarracín	albarracín	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-5	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	mod	_	_
+4	Don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+5	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	mod	_	_
 6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 7	testigo	testigo	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
@@ -584,8 +584,8 @@
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 5	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	4	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-7	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-8	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	mod	_	_
+7	Don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+8	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	mod	_	_
 9	conoció	conocer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
 11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
@@ -632,8 +632,8 @@
 9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
 10	Ayuntamiento	ayuntamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
-12	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-13	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	mod	_	_
+12	Don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+13	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	mod	_	_
 14	vio	ver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 15	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	14	adjt	_	_
 16	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
@@ -738,8 +738,8 @@
 48	Teruel	teruel	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	47	comp	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	47	punc	_	_
 
-1	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	Don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 3	pernoctará	pernoctar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
@@ -747,14 +747,14 @@
 7	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	señora	señor	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-4	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	5	aux	_	_
-5	acudido	acudir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
-7	vitorearlo	vitorearlo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	señora	señor	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+4	había	haber	VAII3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	5	aux	_	_
+5	acudido	acudir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+6	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	pobj	_	_
+7	vitorearlo	vitorearlo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
 11	saber	saber	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	modnomatch	_	_

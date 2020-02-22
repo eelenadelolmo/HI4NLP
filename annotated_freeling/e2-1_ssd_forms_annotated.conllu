@@ -1,6 +1,6 @@
-1	Todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-3	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	Todo	todo	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	mundo	mundo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 4	parece	parecer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	prt	_	_
 5	estar	estar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	attr	_	_
@@ -79,8 +79,8 @@
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
 3	para	para	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 4	algunos	alguno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	1	modnomatch	_	_
-5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
-6	cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	cultura	cultura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 7	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
 8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	característica	característica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	attr	_	_
@@ -125,8 +125,8 @@
 1	Por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 2	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
 3	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	cultura	cultura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 6	podía	poder	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	7	prt	_	_
 7	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	0	top	_	_
 8	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
@@ -184,7 +184,7 @@
 16	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
 17	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
 18	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
-19	cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
+19	cultura	cultura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
 20	designa	designar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 21	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	22	spec	_	_
 22	tipo	tipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	dobj	_	_
@@ -225,12 +225,12 @@
 
 1	Así_pues	así_pues	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	investigación	investigación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-5	antropológica	antropológico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-7	tan	tan	RG	RG	matched=no|pos=adverb|type=general	8	spec	_	_
-8	fecunda	fecundo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	investigación	investigación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+5	antropológica	antropológico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
+7	tan	tan	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	8	spec	_	_
+8	fecunda	fecundo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
 11	presente	presente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
@@ -324,8 +324,8 @@
 27	convicción	convicción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	primera	1	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	refiere	referir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
@@ -379,27 +379,27 @@
 53	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	4	punc	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	segunda	2	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	23	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	perenne	perenne	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
-6	actualidad	actualidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-8	según	según	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
-9	la	lo	PP3FSA0	PP	case=accusative|gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	10	dobj	_	_
-10	expone	exponer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	comp	_	_
-11	Lowie	lowie	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
-12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
-13	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_
-14	libro	libro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-15	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
-16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
-17	origen	origen	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
-18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
-19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
-20	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
-21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	segunda	2	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	23	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	perenne	perenne	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+6	actualidad	actualidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+8	según	según	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	2	modnomatch	_	_
+9	la	lo	PP3FSA0	PP	case=accusative|gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	10	dobj	_	_
+10	expone	exponer	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	comp	_	_
+11	Lowie	lowie	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	modnomatch	_	_
+12	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	adjt	_	_
+13	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_
+14	libro	libro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	sobre	sobre	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	adjt	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	17	spec	_	_
+17	origen	origen	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	mod	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	20	spec	_	_
+20	Estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	comp	_	_
+21	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 22	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	23	mphes	_	_
 23	refiere	referir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 24	a	a	SP	SP	matched=no|pos=adposition|type=preposition	23	pobj	_	_

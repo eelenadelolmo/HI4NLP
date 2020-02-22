@@ -1,27 +1,27 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	candidato	candidato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	subj	_	_
-3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	presidencia	presidencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	Partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	Reformista	reformista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	Social	social	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-11	Cristiano	cristiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-12	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	13	modnomatch	_	_
-13	PRSC	prsc	NC00000	NC	matched=no|pos=noun|type=common	2	mod	_	_
-14	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	13	modnomatch	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
-16	Joaquín	joaquín	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
-17	Balaguer	balaguer	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
-19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
-20	93	93	Z	Z	matched=no|pos=number	21	spec	_	_
-21	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	comp	_	_
-22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-23	ciego	ciego	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	22	coor	_	_
-24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	candidato	candidato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	25	subj	_	_
+3	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	presidencia	presidencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	Partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	Reformista	reformista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	Social	social	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+11	Cristiano	cristiano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+12	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	13	modnomatch	_	_
+13	PRSC	prsc	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	2	mod	_	_
+14	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	13	modnomatch	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	13	punc	_	_
+16	Joaquín	joaquín	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	17	mod	_	_
+17	Balaguer	balaguer	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	17	punc	_	_
+19	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	mod	_	_
+20	93	93	Z	Z	matched=yes: subj child of top deprel|pos=number	21	spec	_	_
+21	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	19	comp	_	_
+22	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+23	ciego	ciego	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	coor	_	_
+24	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 25	encabezará	encabezar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 26	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	25	adjt	_	_
 27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
@@ -56,9 +56,9 @@
 56	encuestas	encuesta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	54	comp	_	_
 57	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	sondeo	sondeo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-3	realizado	realizar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	sondeo	sondeo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+3	realizado	realizar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
 4	para	para	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 5	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	Siglo	siglo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
@@ -161,8 +161,8 @@
 9	largo	largo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	comp	_	_
 10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 11	toda	todo	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	1	spec	_	_
-12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	campaña	campaña	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	campaña	campaña	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	subj	_	_
 14	por	por	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
 15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
 16	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
@@ -194,10 +194,10 @@
 42	Balaguer	balaguer	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	41	comp	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	41	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	candidato	candidato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	candidato	candidato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
 5	PLD	pld	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
 6	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
 7	manifestado	manifestar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -230,12 +230,12 @@
 34	papeleta	papeleta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	dobj	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	32	punc	_	_
 
-1	Fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-4	dirección	dirección	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	spec	_	_
+1	Fuentes	fuente	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	dirección	dirección	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	1	spec	_	_
 7	PLD	pld	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
 8	cuestionaron	cuestionar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	también	también	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
@@ -299,10 +299,10 @@
 67	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	8	punc	_	_
 68	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	legislación	legislación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	electoral	electoral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	dominicana	dominicano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	legislación	legislación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	electoral	electoral	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	dominicana	dominicano	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 5	exige	exigir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	dobj	_	_
 7	para	para	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
@@ -343,10 +343,10 @@
 8	esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	9	spec	_	_
 9	puntuación	puntuación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
-12	dos	2	Z	Z	matched=no|pos=number	14	spec	_	_
-13	más	más	RG	RG	matched=no|pos=adverb|type=general	14	spec	_	_
-14	votados	votar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	17	subj	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	14	spec	_	_
+12	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	14	spec	_	_
+13	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	14	spec	_	_
+14	votados	votar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	17	subj	_	_
 15	tendrían	tener	VMIC3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=conditional|type=main	17	prt	_	_
 16	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	17	prt	_	_
 17	presentarse	presentarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -361,11 +361,11 @@
 26	tarde	tarde	RG	RG	matched=no|pos=adverb|type=general	17	adjt	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	organizadores	organizador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	mitin	mitin	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	organizadores	organizador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	mitin	mitin	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 7	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	6	comp	_	_
 8	esperan	esperar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
@@ -528,19 +528,19 @@
 65	proceso	proceso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	63	comp	_	_
 66	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Balaguer	balaguer	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	siete	7	Z	Z	matched=no|pos=number	4	spec	_	_
-4	veces	vez	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
-5	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	mod	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	mod	_	_
-10	acusado	acusar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	9	coor	_	_
-11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
-12	múltiples	múltiple	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	13	mod	_	_
-13	ocasiones	ocasión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
+1	Balaguer	balaguer	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	24	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	siete	7	Z	Z	matched=yes: subj child of top deprel|pos=number	4	spec	_	_
+4	veces	vez	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
+5	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	mod	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	país	país	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	mod	_	_
+10	acusado	acusar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	9	coor	_	_
+11	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	adjt	_	_
+12	múltiples	múltiple	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	13	mod	_	_
+13	ocasiones	ocasión	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	comp	_	_
 14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
 15	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	14	comp	_	_
 16	trampas	trampa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	dobj	_	_
@@ -638,9 +638,9 @@
 27	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 28	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	modnomatch	_	_
 29	menos	menos	RG	RG	matched=no|pos=adverb|type=general	34	adjt	_	_
-30	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	31	spec	_	_
-31	ocasión	ocasión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	subj	_	_
-32	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	31	punc	_	_
+30	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	31	spec	_	_
+31	ocasión	ocasión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	34	subj	_	_
+32	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	31	punc	_	_
 33	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	34	aux	_	_
 34	cargado	cargar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 35	en	en	SP	SP	matched=no|pos=adposition|type=preposition	34	adjt	_	_
@@ -663,9 +663,9 @@
 52	automóvil	automóvil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	50	comp	_	_
 53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
 
-1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	escena	escena	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	escena	escena	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 4	fotografiada	fotografiar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	adjt	_	_
 5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_
 6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_

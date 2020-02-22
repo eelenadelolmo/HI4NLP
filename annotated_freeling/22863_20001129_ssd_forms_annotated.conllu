@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	príncipe	príncipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Asturias	asturias	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	príncipe	príncipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Asturias	asturias	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 6	don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
 7	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
@@ -46,25 +46,25 @@
 46	comunicación	comunicación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	coor	_	_
 47	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	galardón	galardón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
-4	concedido	conceder	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	coor	_	_
-5	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
-6	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	adjt	_	_
-7	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_
-8	esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	9	spec	_	_
-9	institución	institución	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-10	privada	privar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	9	mod	_	_
-11	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
-12	ánimo	ánimo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
-13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
-14	lucro	lucro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-16	dedicada	dedicar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	coor	_	_
-17	a	a	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
-18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
-19	difusión	difusión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	galardón	galardón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	15	punc	_	_
+4	concedido	conceder	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	15	coor	_	_
+5	cada	cada	DI0CS0	DI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	año	año	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	adjt	_	_
+7	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	agnt	_	_
+8	esa	ese	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	9	spec	_	_
+9	institución	institución	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	privada	privar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	9	mod	_	_
+11	sin	sin	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	adjt	_	_
+12	ánimo	ánimo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+13	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	adjt	_	_
+14	lucro	lucro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+15	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+16	dedicada	dedicar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	15	coor	_	_
+17	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	16	pobj	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+19	difusión	difusión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
 20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
 21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
 22	cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
@@ -286,8 +286,8 @@
 40	alumnos	alumno	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	38	comp	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	33	punc	_	_
 
-1	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	Don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 3	hizo	hacer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	hincapié	hincapié	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
@@ -390,10 +390,10 @@
 2	ese	ese	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
 3	sentido	sentido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-6	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	mod	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-8	Borbón	borbón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+5	don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+6	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+8	Borbón	borbón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
 9	resaltó	resaltar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	dobj	_	_
 11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
@@ -419,8 +419,8 @@
 31	continentes	continente	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	30	coor	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	Otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	manera	manera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
+1	Otra	otro	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	manera	manera	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
 3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 4	superar	superar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	comp	_	_
 5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
@@ -469,8 +469,8 @@
 48	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	47	mod	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	Don	don	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	Felipe	felipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	Don	don	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Felipe	felipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 3	reiteró	reiterar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
 5	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
@@ -758,22 +758,22 @@
 39	política	política	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	coor	_	_
 40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Spanish	spanish	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-2	Intitute	inti_tute	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
-5	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
-6	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	comp	_	_
-7	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	modnomatch	_	_
-8	cuenta	contar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	mod	_	_
-9	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
-10	respaldo	respaldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
-12	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
-13	Reyes	rey	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
-14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
-15	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
-16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Spanish	spanish	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+2	Intitute	inti_tute	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+5	desde	desde	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	adjt	_	_
+6	hace	hacer	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	comp	_	_
+7	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	modnomatch	_	_
+8	cuenta	contar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	mod	_	_
+9	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	pobj	_	_
+10	respaldo	respaldo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	mod	_	_
+12	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	13	spec	_	_
+13	Reyes	rey	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	comp	_	_
+14	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	mod	_	_
+15	España	españa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	comp	_	_
+16	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 17	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	18	mphes	_	_
 18	mantiene	mantener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 19	fundamentalmente	fundamentalmente	RG	RG	matched=no|pos=adverb|type=general	18	adjt	_	_
@@ -815,37 +815,37 @@
 55	Cuevas	cueva	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	54	comp	_	_
 56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	32	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Príncipe	príncipe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Asturias	asturias	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	9	adjt	_	_
-9	asistió	asistir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
-10	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	9	adjt	_	_
-11	invitado	invitado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
-13	honor	honor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
-15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
-16	ceremonia	ceremonia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
-17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
-18	apertura	apertura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
-19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
-20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
-21	llamado	llamar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	22	mod	_	_
-22	Año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
-23	Internacional	internacional	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
-24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
-25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
-26	Voluntariado	voluntariado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
-27	2001	2001	Z	Z	matched=no|pos=number	9	dobj	_	_
-28	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-29	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-30	ONU	onu	I	I	matched=no|pos=interjection	2	modnomatch	_	_
-31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Príncipe	príncipe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	32	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Asturias	asturias	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	martes	[M:??/??/??:??.??:??]	W	W	matched=yes: subj child of top deprel|pos=date	9	adjt	_	_
+9	asistió	asistir	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+10	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	9	adjt	_	_
+11	invitado	invitado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	mod	_	_
+13	honor	honor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+14	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	pobj	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	ceremonia	ceremonia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	comp	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	16	mod	_	_
+18	apertura	apertura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
+19	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	mod	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	22	spec	_	_
+21	llamado	llamar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	22	mod	_	_
+22	Año	año	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	comp	_	_
+23	Internacional	internacional	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	22	mod	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	26	spec	_	_
+26	Voluntariado	voluntariado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	24	comp	_	_
+27	2001	2001	Z	Z	matched=yes: subj child of top deprel|pos=number	9	dobj	_	_
+28	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+29	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+30	ONU	onu	I	I	matched=yes: subj child of top deprel|pos=interjection	2	modnomatch	_	_
+31	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 32	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 33	previsto	prever	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	32	pred	_	_
 34	viajar	viajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	32	dobj	_	_

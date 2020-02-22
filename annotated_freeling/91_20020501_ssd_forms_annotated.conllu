@@ -29,8 +29,8 @@
 29	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	3	punc	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	dato	dato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	dato	dato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	contrasta	contrastar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
@@ -94,9 +94,9 @@
 18	mismos	mismo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	15	dobj	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	opiniones	opinión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-3	vertidas	verter	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	2	mod	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	opiniones	opinión	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+3	vertidas	verter	VMP00PF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	2	mod	_	_
 4	pueden	poder	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	prt	_	_
 5	entrar	entrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_

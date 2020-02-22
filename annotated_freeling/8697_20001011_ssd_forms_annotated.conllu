@@ -1,6 +1,6 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	promotor	promotor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	Francisco	francisco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	promotor	promotor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	Francisco	francisco	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
 4	García	garcía	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
 5	Montoya	montoya	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
@@ -274,8 +274,8 @@
 39	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	36	adjt	_	_
 40	validez	validez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
 41	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-42	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	43	spec	_	_
-43	promotor	promotor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	subj	_	_
+42	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	43	spec	_	_
+43	promotor	promotor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	44	subj	_	_
 44	exige	exigir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 45	en	en	SP	SP	matched=no|pos=adposition|type=preposition	44	adjt	_	_
 46	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	47	spec	_	_
@@ -319,8 +319,8 @@
 84	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	44	punc	_	_
 85	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	44	punc	_	_
 
-1	Francisco	francisco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	García	garcía	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	Francisco	francisco	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	García	garcía	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 3	Montoya	montoya	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	también	también	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 5	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
@@ -361,8 +361,8 @@
 40	Montserrat	montserrat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	mod	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	misiva	misiva	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	misiva	misiva	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	finaliza	finalizar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	diciendo	decir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	3	adjt	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_

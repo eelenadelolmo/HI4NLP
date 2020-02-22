@@ -61,7 +61,7 @@
 12	arte	arte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
 13	Arco	arco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	mod	_	_
 14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
-15	Rato	rato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
+15	Rato	rato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
 16	afirmó	afirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 17	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	16	modnomatch	_	_
 18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
@@ -136,7 +136,7 @@
 24	empresariales	empresarial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	23	mod	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	Eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	4	subj	_	_
+1	Eso	ese	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	4	subj	_	_
 2	ya	ya	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 3	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	desaparecido	desaparecer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -252,7 +252,7 @@
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	periodistas	periodista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-7	Rato	rato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+7	Rato	rato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 8	respondió	responder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
 10	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	11	spec	_	_
@@ -379,9 +379,9 @@
 64	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	modnorule	_	_
 65	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	segundo	2	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	vicepresidente	vicepresidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	segundo	2	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	2	mod	_	_
 4	aseguró	asegurar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	dobj	_	_
 6	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
@@ -469,7 +469,7 @@
 44	española	español	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	43	mod	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
 
-1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
 2	creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -521,41 +521,41 @@
 29	asunto	asunto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	modnomatch	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	36	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
-4	apuntó	apuntar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	14	coor	_	_
-5	Pimentel	pimentel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
-7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	9	mphes	_	_
-8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
-9	enterado	enterar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	coor	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
-11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
-12	operación	operación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
-14	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-15	no	no	RN	RN	matched=no|pos=adverb|type=negative	17	spec	_	_
-16	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	17	aux	_	_
-17	participado	participar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	coor	_	_
-18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
-19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
-20	gestión	gestión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
-21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	mod	_	_
-22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
-23	pacto	pacto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
-24	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
-26	BBVA	bbva	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	27	coor	_	_
-27	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-28	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	27	coor	_	_
-29	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
-30	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
-31	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	34	subj	_	_
-32	va	ir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	34	prt	_	_
-33	a	a	SP	SP	matched=no|pos=adposition|type=preposition	34	prt	_	_
-34	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	29	coor	_	_
-35	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	34	adjt	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	36	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	14	punc	_	_
+4	apuntó	apuntar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	14	coor	_	_
+5	Pimentel	pimentel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	dobj	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	14	punc	_	_
+7	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	9	mphes	_	_
+8	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
+9	enterado	enterar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	14	coor	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	pobj	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	operación	operación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	14	punc	_	_
+14	pero	pero	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+15	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	17	spec	_	_
+16	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	17	aux	_	_
+17	participado	participar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	14	coor	_	_
+18	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	pobj	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	20	spec	_	_
+20	gestión	gestión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	comp	_	_
+21	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	20	mod	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	23	spec	_	_
+23	pacto	pacto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	comp	_	_
+24	entre	entre	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	26	spec	_	_
+26	BBVA	bbva	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	27	coor	_	_
+27	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+28	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	27	coor	_	_
+29	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+30	lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	31	spec	_	_
+31	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	34	subj	_	_
+32	va	ir	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	34	prt	_	_
+33	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	34	prt	_	_
+34	hacer	hacer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	29	coor	_	_
+35	ahora	ahora	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	34	adjt	_	_
 36	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 37	estudiar	estudiar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	36	attr	_	_
 38	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	37	dobj	_	_
@@ -638,7 +638,7 @@
 2	ese	ese	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
 3	sentido	sentido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	Rato	rato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+5	Rato	rato	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 6	afirmó	afirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	modnomatch	_	_
 8	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	6	punc	_	_

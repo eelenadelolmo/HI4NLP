@@ -44,14 +44,14 @@
 44	tabla	tabla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	37	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	lateral	lateral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	Marc	mar_c	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
-4	Amargant	amargant	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	mod	_	_
-5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
-7	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	3	mod	_	_
-8	siendo	ser	VSG0000	VSG	matched=no|mood=gerund|pos=verb|type=semiauxiliary	3	modnomatch	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	lateral	lateral	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	Marc	mar_c	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	subj	_	_
+4	Amargant	amargant	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	mod	_	_
+5	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	está	estar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	3	mod	_	_
+8	siendo	ser	VSG0000	VSG	matched=yes: subj child of top deprel|mood=gerund|pos=verb|type=semiauxiliary	3	modnomatch	_	_
 9	una	uno	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	21	modnomatch	_	_
 10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
 11	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
@@ -107,8 +107,8 @@
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-9	Miguel	miguel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-10	Angel	angel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
+9	Miguel	miguel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+10	Angel	angel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	mod	_	_
 11	Gutierrez	gutierrez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
 12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
 13	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
@@ -211,7 +211,7 @@
 5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
 6	tenía	tener	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	1	comp	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-8	Granollers	granollers	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	subj	_	_
+8	Granollers	granollers	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	subj	_	_
 9	a_principios_de	a_principios_de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 10	Liga	liga	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_

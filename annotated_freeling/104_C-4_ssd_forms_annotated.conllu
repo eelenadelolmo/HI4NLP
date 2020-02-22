@@ -1,12 +1,12 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	órgano	órgano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	regulador	regulador	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
-9	Telecomunicaciones	telecomunicación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	órgano	órgano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	regulador	regulador	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	Telecomunicaciones	telecomunicación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
 10	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 11	mostró	mostrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	partidario	partidario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	pred	_	_
@@ -58,8 +58,8 @@
 13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	prt	_	_
 14	aprobar	aprobar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
 15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-16	CMT	centímetro_t	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	20	subj	_	_
-17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+16	CMT	centímetro_t	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	20	subj	_	_
+17	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	16	punc	_	_
 18	Vázquez	vázquez	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	20	modnomatch	_	_
 19	Quintana	quintana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	mod	_	_
 20	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -115,8 +115,8 @@
 17	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	mod	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	inversión	inversión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	inversión	inversión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 4	investigación	investigación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	básica	básico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
@@ -199,15 +199,15 @@
 14	investigación	investigación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	investigación	investigación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	subj	_	_
-3	básica	básico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-6	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
-7	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-8	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	investigación	investigación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	33	subj	_	_
+3	básica	básico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+6	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+7	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+8	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 10	editado	editar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	33	adjt	_	_
 11	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	agnt	_	_
 12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
@@ -516,19 +516,19 @@
 26	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	documento	documento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
-5	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
-6	tomado	tomar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-7	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	6	adjt	_	_
-8	referencia	referencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	Comunidad	comunidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
-12	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	documento	documento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+5	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
+6	tomado	tomar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+7	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	6	adjt	_	_
+8	referencia	referencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	Comunidad	comunidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	dobj	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	mod	_	_
+12	Madrid	madrid	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 14	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 15	hincapié	hincapié	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
 16	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
@@ -587,8 +587,8 @@
 6	Investigación	investigación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
 7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-9	CAM	cam	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	12	subj	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+9	CAM	cam	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	12	subj	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	9	punc	_	_
 11	Francisco	francisco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
 12	José	josé	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 13	Rubia	rubio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	12	modnomatch	_	_
@@ -620,15 +620,15 @@
 39	productivo	productivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	38	mod	_	_
 40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-5	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-7	Rafael	rafael	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-8	Hernando	hernando	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	2	modnomatch	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	portavoz	portavoz	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+5	PP	p_p	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
+7	Rafael	rafael	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+8	Hernando	hernando	VMG0000	VMG	matched=yes: subj child of top deprel|mood=gerund|pos=verb|type=main	2	modnomatch	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 10	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
 12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
@@ -900,7 +900,7 @@
 15	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
 16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	modnomatch	_	_
-18	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	subj	_	_
+18	PP	p_p	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
 19	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 20	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	19	dobj	_	_
 21	dicha	decir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	22	mod	_	_

@@ -8,8 +8,8 @@
 8	rápidas	rápido	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Fisco	fisco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Fisco	fisco	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	comenzó	comenzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	prt	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	prt	_	_
 5	llevar_a_cabo	llevar_a_cabo	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_

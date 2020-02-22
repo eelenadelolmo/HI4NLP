@@ -1,5 +1,5 @@
-1	Norma	norma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-2	Duval	duval	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+1	Norma	norma	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+2	Duval	duval	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 4	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	montado	montar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -16,7 +16,7 @@
 16	bajar	bajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	mod	_	_
 17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	subj	_	_
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	4	subj	_	_
 2	misma	mismo	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	4	modnomatch	_	_
 3	está	estar	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	4	prt	_	_
 4	alimentando	alimentar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_
@@ -36,8 +36,8 @@
 4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
 5	abandonada	abandonar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	vedette	vedette	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	vedette	vedette	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 9	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	11	mphes	_	_
 10	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	11	aux	_	_
 11	complicado	complicar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -127,9 +127,9 @@
 42	estético	estético	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	41	mod	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cita	cita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	veraniega	veraniego	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cita	cita	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	veraniega	veraniego	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	coincidió	coincidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	alguna	alguno	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	5	comp	_	_
@@ -157,19 +157,19 @@
 28	Yugoslavia	yugoslavia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	Oír	oír	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	18	subj	_	_
-2	hablar	hablar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	dobj	_	_
-3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
-4	Norma	norma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
-7	penas	pena	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
-8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
-9	pasaba	pasar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	7	mod	_	_
-10	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	11	spec	_	_
-11	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
-12	política	político	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Oír	oír	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	18	subj	_	_
+2	hablar	hablar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	1	dobj	_	_
+3	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	adjt	_	_
+4	Norma	norma	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	7	spec	_	_
+7	penas	pena	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	comp	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+9	pasaba	pasar	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	7	mod	_	_
+10	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	11	spec	_	_
+11	familia	familia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	dobj	_	_
+12	política	político	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 14	residente	residente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	pred	_	_
 15	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
 16	Croacia	croacia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
@@ -185,7 +185,7 @@
 26	rutilante	rutilante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	Ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
 2	sabrá	saber	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 4	qué	qué	DT0CN0	DT	gen=common|matched=no|num=invariable|pos=determiner|type=interrogative	5	spec	_	_
@@ -266,8 +266,8 @@
 35	alergia	alergia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
 36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	productor	productor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	productor	productor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	empezó	empezar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	poner	poner	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_

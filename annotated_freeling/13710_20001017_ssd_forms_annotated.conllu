@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	número	número	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
 3	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	13	modnomatch	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -41,7 +41,7 @@
 41	capital	capital	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
 
-1	Kasparov	kasparov	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	2	subj	_	_
+1	Kasparov	kasparov	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	2	subj	_	_
 2	repitió	repetir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	gambito	gambito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
@@ -81,14 +81,14 @@
 38	derrota	derrota	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	dobj	_	_
 39	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	partida	partida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	partida	partida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	animó	animar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	pronto	pronto	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Kramnik	kramnik	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Kramnik	kramnik	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	lanzó	lanzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	4	spec	_	_
 4	infanteria	infanteria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
@@ -124,13 +124,13 @@
 34	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-2	dos	2	Z	Z	matched=no|pos=number	4	spec	_	_
-3	mejores	mejor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
-4	jugadores	jugador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+2	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	4	spec	_	_
+3	mejores	mejor	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	4	mod	_	_
+4	jugadores	jugador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	mundo	mundo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
 8	tuvieron	tener	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	10	prt	_	_
 9	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	prt	_	_
 10	emplear	emplear	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -154,10 +154,10 @@
 5	presión	presión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
 6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	spec	_	_
-8	ala	ala	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
-10	rey	rey	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-11	Kasparov	kasparov	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	10	mod	_	_
+8	ala	ala	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	mod	_	_
+10	rey	rey	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+11	Kasparov	kasparov	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	10	mod	_	_
 12	intentaba	intentar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 13	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
 14	tímido	tímido	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
@@ -169,10 +169,10 @@
 20	rey	rey	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	blancas	blanco	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Kramnik	kramnik	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	blancas	blanco	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Kramnik	kramnik	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	estaban	estar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 6	mejor	mejor	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
 7	situadas	situar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	5	attr	_	_
@@ -201,18 +201,18 @@
 3	medio	medio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 4	juego	juego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	ventaja	ventaja	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
-10	piezas	pieza	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
-11	blancas	blanco	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	10	mod	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	ventaja	ventaja	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	10	spec	_	_
+10	piezas	pieza	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	comp	_	_
+11	blancas	blanco	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	10	mod	_	_
 12	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	14	mphes	_	_
 13	iba	ir	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	14	prt	_	_
 14	acentuando	acentuar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	Kramnik	kramnik	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Kramnik	kramnik	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	limitó	limitar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
@@ -275,10 +275,10 @@
 43	ninguno	ninguno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	42	comp	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	séptima	7	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	partida	partida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	séptima	7	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	partida	partida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
 6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
@@ -300,7 +300,7 @@
 4	partidas	partida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 5	jugadas	jugada	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	mod	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-7	Kramnik	kramnik	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+7	Kramnik	kramnik	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 8	aventaja	aventajar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 10	Kasparov	kasparov	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	9	comp	_	_
@@ -308,8 +308,8 @@
 12	3,5-2,5	3,5-2,5	Z	Z	matched=no|pos=number	11	comp	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	Mundial	mundial	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	Mundial	mundial	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	juega	jugar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_

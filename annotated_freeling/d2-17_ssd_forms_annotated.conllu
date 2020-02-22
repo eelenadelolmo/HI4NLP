@@ -2,8 +2,8 @@
 2	alimento	alimento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	0	top	_	_
 3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
-2	contacto	contacto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	contacto	contacto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 3	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 4	ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	3	comp	_	_
 5	posee	poseer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
@@ -68,11 +68,11 @@
 28	vecindad	vecindad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	comp	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	Esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
-2	íntima	íntimo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	necesidad	necesidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	victoria	victoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	Esa	ese	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
+2	íntima	íntimo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	necesidad	necesidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	victoria	victoria	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 6	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 8	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
@@ -99,10 +99,10 @@
 29	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	dobj	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	subj	_	_
-2	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	3	dobj	_	_
-3	perdieran	perder	VMSI3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	1	comp	_	_
-4	tal_vez	tal_vez	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+1	Que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	5	subj	_	_
+2	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	3	dobj	_	_
+3	perdieran	perder	VMSI3P0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	1	comp	_	_
+4	tal_vez	tal_vez	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	3	adjt	_	_
 5	fuera	ser	VSSI3S0	VSS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
 6	injusto	injusto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	attr	_	_
 7	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
@@ -110,8 +110,8 @@
 9	ilógico	ilógico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	modnomatch	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	blancos	blanco	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	blancos	blanco	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 4	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
 5	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -154,11 +154,11 @@
 20	sabido	saber	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	modnomatch	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	4	spec	_	_
-3	bello	bello	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
-4	aluvión	aluvión	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-5	atacante	atacante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+1	Todo	todo	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	4	spec	_	_
+3	bello	bello	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+4	aluvión	aluvión	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+5	atacante	atacante	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
 6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
 7	estrelló	estrellar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
@@ -198,7 +198,7 @@
 2	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
 3	equipos	equipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	querer	querer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	subj	_	_
+5	querer	querer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	7	subj	_	_
 6	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
 7	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	0	top	_	_
 8	poder	poder	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	attr	_	_

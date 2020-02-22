@@ -65,7 +65,7 @@
 65	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	47	modnomatch	_	_
 66	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	47	punc	_	_
 
-1	Beatriz	beatriz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+1	Beatriz	beatriz	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 2	Ferrer	ferrer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	modnomatch	_	_
 3	Salat	salar_t	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	2	dobj	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
@@ -227,17 +227,17 @@
 49	amazona	amazona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	47	dobj	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	47	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	jinetes	jinete	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Doma	doma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	Clásica	clásico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
-6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
-7	vayan	ir	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	9	prt	_	_
-8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	prt	_	_
-9	competir	competir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	mod	_	_
-10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-11	Australia	australia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	jinetes	jinete	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Doma	doma	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	Clásica	clásico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+7	vayan	ir	VMSP3P0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	9	prt	_	_
+8	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	prt	_	_
+9	competir	competir	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	mod	_	_
+10	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+11	Australia	australia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
 12	llevaran	llevar	VMSI3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 13	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
 14	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	16	spec	_	_
@@ -350,7 +350,7 @@
 48	Sydney	sydney	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	47	comp	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	Beatriz	beatriz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
+1	Beatriz	beatriz	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
 2	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	12	adjt	_	_
 3	jinete	jinete	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
 4	olímpico	olímpico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_

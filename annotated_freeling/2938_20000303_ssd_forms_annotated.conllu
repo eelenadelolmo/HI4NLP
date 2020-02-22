@@ -279,9 +279,9 @@
 6	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	hecho	hacer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	6	mod	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	Partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-11	Popular	popular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	Partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+11	Popular	popular	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
 12	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 13	crédito	crédito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	dobj	_	_
 14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
@@ -313,7 +313,7 @@
 40	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	12	punc	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	Aparicio	aparicio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Aparicio	aparicio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	considera	considerar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
 4	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
@@ -389,7 +389,7 @@
 26	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	9	punc	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	Aparicio	aparicio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Aparicio	aparicio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	3	aux	_	_
 3	hecho	hacer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 4	estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	5	spec	_	_

@@ -49,22 +49,22 @@
 49	acontecimientos	acontecimiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	48	comp	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	48	punc	_	_
 
-1	Diversas	diverso	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	actividades	actividad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	17	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	van	ir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	2	mod	_	_
-6	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
-7	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
-8	congreso	congreso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
-11	prostitutas	prostituta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
-12	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
-13	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
-14	prueba	prueba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-15	ciclista	ciclista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
-16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Diversas	diverso	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	actividades	actividad	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	17	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	van	ir	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+6	desde	desde	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	pobj	_	_
+7	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	congreso	congreso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	mundial	mundial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	mod	_	_
+11	prostitutas	prostituta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	comp	_	_
+12	hasta	hasta	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	pobj	_	_
+13	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	prueba	prueba	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	ciclista	ciclista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+16	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 17	dificultarán	dificultar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
 19	labor	labor	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	dobj	_	_
@@ -115,8 +115,8 @@
 19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
 20	niño	niño	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
 21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
-23	capital	capital	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	26	subj	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	23	spec	_	_
+23	capital	capital	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	subj	_	_
 24	comienza	comenzar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	26	prt	_	_
 25	a	a	SP	SP	matched=no|pos=adposition|type=preposition	26	prt	_	_
 26	llenarse	llenarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
@@ -194,13 +194,13 @@
 2	todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
 3	esto	este	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	dos_millares	2000	Zd	Zd	matched=no|pos=number|type=partitive	7	spec	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	prostitutas	prostituta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	subj	_	_
-8	procedentes	procedente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
-10	23	23	Z	Z	matched=no|pos=number	11	spec	_	_
-11	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+5	dos_millares	2000	Zd	Zd	matched=yes: subj child of top deprel|pos=number|type=partitive	7	spec	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	prostitutas	prostituta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+8	procedentes	procedente	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	mod	_	_
+10	23	23	Z	Z	matched=yes: subj child of top deprel|pos=number	11	spec	_	_
+11	países	país	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	comp	_	_
 12	celebran	celebrar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 13	a_partir_de	a_partir_de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 14	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	13	comp	_	_
@@ -246,8 +246,8 @@
 19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
 20	Charlottenburg	charlottenburg	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
 21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-22	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	23	spec	_	_
-23	prostitutas	prostituta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	25	subj	_	_
+22	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	23	spec	_	_
+23	prostitutas	prostituta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	25	subj	_	_
 24	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	25	mphes	_	_
 25	apoderarán	apoderar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	adjt	_	_
@@ -338,13 +338,13 @@
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	coincidencia	coincidencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
-11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
-12	diversos	diverso	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	13	spec	_	_
-13	eventos	evento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
-14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	coincidencia	coincidencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	13	spec	_	_
+12	diversos	diverso	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	13	spec	_	_
+13	eventos	evento	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	comp	_	_
+14	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	9	punc	_	_
 15	especialmente	especialmente	RG	RG	matched=no|pos=adverb|type=general	22	adjt	_	_
 16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
 17	visita	visita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	modnomatch	_	_
@@ -439,12 +439,12 @@
 49	Mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	48	mod	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	claros	claro	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
-3	perdedores	perdedor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	6	spec	_	_
-6	días	día	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	claros	claro	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+3	perdedores	perdedor	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	6	spec	_	_
+6	días	día	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	comp	_	_
 7	serán	ser	VSIF3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
 9	sin_lugar_a_dudas	sin_lugar_a_dudas	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
@@ -539,7 +539,7 @@
 62	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	61	comp	_	_
 63	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	61	punc	_	_
 
-1	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
 3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	primero	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	2	attr	_	_
@@ -581,7 +581,7 @@
 4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
 5	otra	otro	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	1	comp	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-7	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
+7	Clinton	clin_ton	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
 8	viajará	viajar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	modnomatch	_	_
 10	Aquisgrán	aquisgrán	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	8	modnomatch	_	_

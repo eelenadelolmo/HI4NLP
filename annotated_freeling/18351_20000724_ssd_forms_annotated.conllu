@@ -366,8 +366,8 @@
 22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
 23	PSC-PSOE	psc-psoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
 24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
-26	cambio	cambio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	28	subj	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	26	spec	_	_
+26	cambio	cambio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	28	subj	_	_
 27	debe	deber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	28	prt	_	_
 28	servir	servir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 29	para	para	SP	SP	matched=no|pos=adposition|type=preposition	28	pobj	_	_
@@ -547,11 +547,11 @@
 65	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	modnomatch	_	_
 66	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	65	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	líder	líder	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	PSC-PSOE	psc-psoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	líder	líder	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	PSC-PSOE	psc-psoe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
 7	mostró	mostrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	también	también	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
@@ -628,15 +628,15 @@
 17	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
 18	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
 19	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
-20	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
-21	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
-22	forma	forma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	29	subj	_	_
-23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
-24	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
-25	interna	interno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	24	mod	_	_
-26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
-27	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
-28	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+20	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	22	spec	_	_
+21	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+22	forma	forma	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	29	subj	_	_
+23	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	22	mod	_	_
+24	vida	vida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	23	comp	_	_
+25	interna	interno	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	24	mod	_	_
+26	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	22	mod	_	_
+27	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	28	spec	_	_
+28	partido	partido	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	comp	_	_
 29	posibilita	posibilitar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 30	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	32	spec	_	_
 31	mayor	mayor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	32	mod	_	_

@@ -9,7 +9,7 @@
 9	vuelo	vuelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Nada	nada	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	2	subj	_	_
+1	Nada	nada	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	2	subj	_	_
 2	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	más	más	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
 4	espantoso	espantoso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	modnomatch	_	_
@@ -20,7 +20,7 @@
 9	virtudes	virtud	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	2	subj	_	_
+1	Todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	2	subj	_	_
 2	quieren	querer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	8	coor	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
@@ -88,7 +88,7 @@
 44	hombre	hombre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
 
-1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
 2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	attr	_	_
 4	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_

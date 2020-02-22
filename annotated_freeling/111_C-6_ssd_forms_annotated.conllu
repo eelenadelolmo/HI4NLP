@@ -1,29 +1,29 @@
-1	Todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	29	subj	_	_
-2	ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	según	según	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	médicos	médico	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
-8	sufren	sufrir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	19	coor	_	_
-9	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	8	adjt	_	_
-10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	jefatura	jefatura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
-12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
-13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
-14	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-15	cediese	ceder	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	9	comp	_	_
-16	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
-17	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	18	spec	_	_
-18	golpistas	golpista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
-19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
-20	disolviese	disolver	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	19	coor	_	_
-21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
-22	gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	dobj	_	_
-23	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	24	subj	_	_
-24	formaban	formar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	22	mod	_	_
-25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-26	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	1	modnomatch	_	_
+1	Todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	29	subj	_	_
+2	ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	según	según	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	médicos	médico	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	19	punc	_	_
+8	sufren	sufrir	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	19	coor	_	_
+9	porque	porque	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	8	adjt	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	jefatura	jefatura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	subj	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	mod	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	Estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	cediese	ceder	VMSI3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	9	comp	_	_
+16	ante	ante	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	15	adjt	_	_
+17	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	18	spec	_	_
+18	golpistas	golpista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	16	comp	_	_
+19	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+20	disolviese	disolver	VMSI3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	19	coor	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	22	spec	_	_
+22	gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	dobj	_	_
+23	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	24	subj	_	_
+24	formaban	formar	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	22	mod	_	_
+25	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+26	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	1	modnomatch	_	_
 27	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	29	aux	_	_
 28	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	29	aux	_	_
 29	elegido	elegir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -32,9 +32,9 @@
 32	mayo_de_1999	[??:??/5/1999:??.??:??]	W	W	matched=no|pos=date	31	comp	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	empresario	empresario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	fiyiano	fiyiano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	empresario	empresario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	fiyiano	fiyiano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	George	george	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	Speight	speight	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
 6	encabeza	encabezar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
@@ -210,8 +210,8 @@
 45	palestinos	palestino	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	44	mod	_	_
 46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	negociaciones	negociación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	negociaciones	negociación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	deberían	deber	VMIC3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=conditional|type=main	4	prt	_	_
 4	reanudarse	reanudarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 5	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
@@ -230,9 +230,9 @@
 18	Estocolomo	estocolomo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Fuentes	fuente	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
-2	políticas	político	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	1	mod	_	_
-3	israelíes	israelí	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	1	mod	_	_
+1	Fuentes	fuente	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+2	políticas	político	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	1	mod	_	_
+3	israelíes	israelí	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	1	mod	_	_
 4	indicaron	indicar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	dobj	_	_
 6	Barak	barak	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
@@ -276,9 +276,9 @@
 44	Líbano	líbano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	42	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	habló	hablar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	teléfono	teléfono	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
@@ -319,9 +319,9 @@
 19	Medio	medio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	estadounidense	estadounidense	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	miércoles	[X:??/??/??:??.??:??]	W	W	matched=no|pos=date	4	adjt	_	_
@@ -361,7 +361,7 @@
 40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Barak	barak	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Barak	barak	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	reunió	reunir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
@@ -390,26 +390,26 @@
 27	Europea	europeo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	26	mod	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Guterres	guterres	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	quien	quien	PR0CS00	PR	gen=common|matched=no|num=singular|pos=pronoun|type=relative	5	subj	_	_
-4	también	también	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
-5	habló	hablar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
-6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-7	miércoles	[X:??/??/??:??.??:??]	W	W	matched=no|pos=date	5	adjt	_	_
-8	por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
-9	teléfono	teléfono	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
-10	con	con	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
-11	Arafat	arafat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-12	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
-13	conocer	conocer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	comp	_	_
-14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
-15	versión	versión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
-16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
-17	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	19	spec	_	_
-18	dos	2	Z	Z	matched=no|pos=number	19	spec	_	_
-19	partes	parte	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
-20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Guterres	guterres	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	21	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	quien	quien	PR0CS00	PR	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=relative	5	subj	_	_
+4	también	también	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	adjt	_	_
+5	habló	hablar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	miércoles	[X:??/??/??:??.??:??]	W	W	matched=yes: subj child of top deprel|pos=date	5	adjt	_	_
+8	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	pobj	_	_
+9	teléfono	teléfono	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+10	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+11	Arafat	arafat	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+12	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	pobj	_	_
+13	conocer	conocer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	12	comp	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	versión	versión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	dobj	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	pobj	_	_
+17	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	19	spec	_	_
+18	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	19	spec	_	_
+19	partes	parte	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	16	comp	_	_
+20	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 21	manifestó	manifestar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 22	a	a	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
 23	Barak	barak	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_

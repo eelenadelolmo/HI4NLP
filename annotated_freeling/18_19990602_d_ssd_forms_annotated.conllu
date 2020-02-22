@@ -29,7 +29,7 @@
 29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	28	pobj	_	_
 30	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	29	comp	_	_
 31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
-32	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	33	subj	_	_
+32	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	33	subj	_	_
 33	pido	pedir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 34	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	33	modnomatch	_	_
 35	en	en	SP	SP	matched=no|pos=adposition|type=preposition	33	adjt	_	_
@@ -80,16 +80,16 @@
 3	pide	pedir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	comp	_	_
 4	cubrir	cubrir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	dobj	_	_
 5	autopistas	autopista	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
-6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
-7	ya	ya	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
-8	existían	existir	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	20	subj	_	_
-9	antes_de	antes_de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
-10	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	comp	_	_
-11	pisos	piso	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
-12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
-13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
-14	lado	lado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+7	ya	ya	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	8	adjt	_	_
+8	existían	existir	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	20	subj	_	_
+9	antes_de	antes_de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	adjt	_	_
+10	hacer	hacer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	9	comp	_	_
+11	pisos	piso	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	dobj	_	_
+12	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	adjt	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	lado	lado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	8	punc	_	_
 16	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	20	modnomatch	_	_
 17	ya	ya	RG	RG	matched=no|pos=adverb|type=general	20	adjt	_	_
 18	no	no	RN	RN	matched=no|pos=adverb|type=negative	20	spec	_	_
@@ -99,9 +99,9 @@
 22	nada	nada	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	21	comp	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	políticos	político	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	políticos	político	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 5	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
 6	votos	voto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
@@ -115,7 +115,7 @@
 14	sea	ser	VSSP1S0	VSS	matched=no|mood=subjunctive|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	8	modnomatch	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
 2	prometo	prometer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 3	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	4	spec	_	_
 4	voto	voto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_

@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	fin	fin	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	fin	fin	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	semana	semana	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 7	junio	[??:??/6/??:??.??:??]	W	W	matched=no|pos=date	6	comp	_	_
 8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
@@ -21,7 +21,7 @@
 1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
 2	domingo_7	[G:7/??/??:??.??:??]	W	W	matched=no|pos=date	10	adjt	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	poco	poco	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	10	subj	_	_
+4	poco	poco	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	10	subj	_	_
 5	antes_de	antes_de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	mediodía	[??:??/??/??:12.00:pm]	W	W	matched=no|pos=date	5	comp	_	_
@@ -80,14 +80,14 @@
 45	contrario	contrario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	44	mod	_	_
 46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	39	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	cinco	5	Z	Z	matched=no|pos=number	3	spec	_	_
-3	jóvenes	joven	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	16	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	4	comp	_	_
-6	18	18	Z	Z	matched=no|pos=number	5	mod	_	_
-7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
-8	20	20	Z	Z	matched=no|pos=number	5	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	cinco	5	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	jóvenes	joven	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	16	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	entre	entre	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	comp	_	_
+6	18	18	Z	Z	matched=yes: subj child of top deprel|pos=number	5	mod	_	_
+7	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	5	modnomatch	_	_
+8	20	20	Z	Z	matched=yes: subj child of top deprel|pos=number	5	mod	_	_
 9	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	adjt	_	_
 10	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	11	subj	_	_
 11	viajaban	viajar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	9	mod	_	_

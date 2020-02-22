@@ -7,7 +7,7 @@
 7	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
 8	inventiva	inventiva	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	coor	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-10	TVE-1	TVE-1	Z	Z	matched=no|pos=number	11	subj	_	_
+10	TVE-1	TVE-1	Z	Z	matched=yes: subj child of top deprel|pos=number	11	subj	_	_
 11	estrenó	estrenar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
 13	miércoles	[X:??/??/??:??.??:??]	W	W	matched=no|pos=date	11	adjt	_	_
@@ -33,8 +33,8 @@
 11	noche	noche	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	adjt	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	problema	problema	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	problema	problema	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	attr	_	_
 5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
@@ -308,31 +308,31 @@
 33	alternativa	alternativa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	attr	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
 
-1	Lástima	lástima	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	subj	_	_
-2	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
-3	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	4	spec	_	_
-4	intervención	intervención	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-5	fuera	fuera	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
-6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-7	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-8	tercer	3	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	9	mod	_	_
-9	grado	grado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-11	Carlos	car_lo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-12	Dávila	dávila	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-14	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	1	mod	_	_
-15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
-16	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	18	spec	_	_
-17	más	más	RG	RG	matched=no|pos=adverb|type=general	18	spec	_	_
-18	aguerridos	aguerrir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	15	comp	_	_
-19	representantes	representante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
-20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
-21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
-22	periodismo	periodismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
-23	popular	popular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
-24	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	1	modnomatch	_	_
-25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Lástima	lástima	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	31	subj	_	_
+2	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	1	modnomatch	_	_
+3	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	4	spec	_	_
+4	intervención	intervención	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+5	fuera	fuera	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	1	modnomatch	_	_
+6	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+7	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+8	tercer	3	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	9	mod	_	_
+9	grado	grado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+11	Carlos	car_lo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+12	Dávila	dávila	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+14	uno	uno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	1	mod	_	_
+15	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	mod	_	_
+16	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	18	spec	_	_
+17	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	18	spec	_	_
+18	aguerridos	aguerrir	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	15	comp	_	_
+19	representantes	representante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
+20	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	mod	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	22	spec	_	_
+22	periodismo	periodismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	comp	_	_
+23	popular	popular	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	1	modnomatch	_	_
+25	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 26	fiel	fiel	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	31	modnomatch	_	_
 27	a	a	SP	SP	matched=no|pos=adposition|type=preposition	31	adjt	_	_
 28	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	29	spec	_	_
@@ -392,7 +392,7 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 2	fin	fin	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	Dávila	dávila	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+4	Dávila	dávila	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 5	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
 6	vibrará	vibrar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 7	con	con	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_

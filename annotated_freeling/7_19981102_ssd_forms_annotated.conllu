@@ -1,5 +1,5 @@
-1	Casi	casi	RG	RG	matched=no|pos=adverb|type=general	2	spec	_	_
-2	10_millones_de_dólares	$_USD:10000000	Zm	Zm	matched=no|pos=number|type=currency	7	subj	_	_
+1	Casi	casi	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	spec	_	_
+2	10_millones_de_dólares	$_USD:10000000	Zm	Zm	matched=yes: subj child of top deprel|pos=number|type=currency	7	subj	_	_
 3	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	4	modnomatch	_	_
 4	1.400_millones_de_pesetas	$_ESP:1400000000	Zm	Zm	matched=no|pos=number|type=currency	7	modnomatch	_	_
 5	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	4	modnomatch	_	_
@@ -110,8 +110,8 @@
 44	becaria	becario	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	42	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	malestar	malestar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	malestar	malestar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	impulsó	impulsar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	dobj	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_

@@ -1,13 +1,13 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	anunciada	anunciar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	mod	_	_
-3	dimisión	dimisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	Weizman	weizman	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-8	76	76	Z	Z	matched=no|pos=number	9	spec	_	_
-9	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	anunciada	anunciar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	3	mod	_	_
+3	dimisión	dimisión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	Weizman	weizman	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+8	76	76	Z	Z	matched=yes: subj child of top deprel|pos=number	9	spec	_	_
+9	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	12	mphes	_	_
 12	formalizó	formalizar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 13	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
@@ -107,8 +107,8 @@
 1	Pese_a	pese_a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 2	ello	ello	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	74	74	Z	Z	matched=no|pos=number	11	subj	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	74	74	Z	Z	matched=yes: subj child of top deprel|pos=number	11	subj	_	_
 6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 7	ciento	100	Z	Z	matched=no|pos=number	6	comp	_	_
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
@@ -275,7 +275,7 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 2	cambio	cambio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	Katsav	katsav	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	5	subj	_	_
+4	Katsav	katsav	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	5	subj	_	_
 5	presentará	presentar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 6	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
 7	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_

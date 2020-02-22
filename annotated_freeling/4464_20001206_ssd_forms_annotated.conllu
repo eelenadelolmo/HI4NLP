@@ -1,8 +1,8 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Asociación	asociación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	Mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	Boxeo	boxeo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Asociación	asociación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	Mundial	mundial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	Boxeo	boxeo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
 6	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	7	modnomatch	_	_
 7	AMB	amb	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 8	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	7	modnomatch	_	_
@@ -27,8 +27,8 @@
 27	oficial	oficial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	26	mod	_	_
 28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
 
-1	Gilberto	gilbert_o	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	Jesús	jesús	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	Gilberto	gilbert_o	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Jesús	jesús	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 3	Mendoza	mendoza	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
 5	Director	director	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
@@ -106,9 +106,9 @@
 45	Mendoza	mendoza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	dobj	_	_
 46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	44	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
-3	combate	combate	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	combate	combate	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 4	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	próximo_24_de_febrero	[??:24/2/??:??.??:??]	W	W	matched=no|pos=date	4	adjt	_	_
@@ -162,19 +162,19 @@
 12	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
 13	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 14	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
-15	Gámez	gámez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	40	subj	_	_
-16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
-17	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	18	subj	_	_
-18	ganó	ganar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	15	mod	_	_
-19	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	21	spec	_	_
-20	cuarta	4	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	21	mod	_	_
-21	corona	corona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	dobj	_	_
-22	mundial	mundial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	21	mod	_	_
-23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
-24	cuatro	4	Z	Z	matched=no|pos=number	25	spec	_	_
-25	divisiones	división	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
-26	distintas	distinto	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	25	mod	_	_
-27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+15	Gámez	gámez	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	40	subj	_	_
+16	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	15	punc	_	_
+17	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	18	subj	_	_
+18	ganó	ganar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	15	mod	_	_
+19	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	21	spec	_	_
+20	cuarta	4	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	21	mod	_	_
+21	corona	corona	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	dobj	_	_
+22	mundial	mundial	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	21	mod	_	_
+23	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	adjt	_	_
+24	cuatro	4	Z	Z	matched=yes: subj child of top deprel|pos=number	25	spec	_	_
+25	divisiones	división	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	23	comp	_	_
+26	distintas	distinto	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	25	mod	_	_
+27	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	15	punc	_	_
 28	a	a	SP	SP	matched=no|pos=adposition|type=preposition	40	adjt	_	_
 29	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	30	spec	_	_
 30	noquear	noquear	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	28	modnomatch	_	_

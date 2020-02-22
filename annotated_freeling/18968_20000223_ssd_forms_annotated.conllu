@@ -1,10 +1,10 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	francés	francés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	Nicolás	nicolás	RG	RG	matched=no|pos=adverb|type=general	2	modnomatch	_	_
-4	Anelka	anelka	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-6	Fernando	fernando	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	5	coor	_	_
-7	Morientes	m_oriente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	francés	francés	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	Nicolás	nicolás	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+4	Anelka	anelka	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+5	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+6	Fernando	fernando	VMG0000	VMG	matched=yes: subj child of top deprel|mood=gerund|pos=verb|type=main	5	coor	_	_
+7	Morientes	m_oriente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	dobj	_	_
 8	demostraron	demostrar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
@@ -41,8 +41,8 @@
 41	punto	punto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Raúl	raúl	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Raúl	raúl	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 4	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
 5	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
@@ -118,12 +118,12 @@
 20	circunstancia	circunstancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Raúl	raúl	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-2	González	gonzález	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-3	Blanco	blanco	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	mod	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	por_el_contrario	por_el_contrario	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Raúl	raúl	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+2	González	gonzález	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	Blanco	blanco	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+5	por_el_contrario	por_el_contrario	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	1	modnomatch	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 7	no	no	RN	RN	matched=no|pos=adverb|type=negative	8	spec	_	_
 8	saltó	saltar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
@@ -144,13 +144,13 @@
 24	estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	8	subj	_	_
-2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-3	médicos	médico	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
-4	ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-6	propio	propio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
-7	jugador	jugador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+1	Ni	ni	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	8	subj	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+3	médicos	médico	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
+4	ni	ni	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+6	propio	propio	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+7	jugador	jugador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
 8	dicen	decir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 9	nada	nada	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	8	dobj	_	_
 10	más	más	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_

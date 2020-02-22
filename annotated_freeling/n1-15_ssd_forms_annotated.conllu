@@ -171,8 +171,8 @@
 14	muerte	muerte	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	guerrilleros	guerrillero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	guerrilleros	guerrillero	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	abrazaban	abrazar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	6	spec	_	_
@@ -405,10 +405,10 @@
 12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
 13	alegre	alegre	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	coor	_	_
 14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-15	Flor	flor	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
-16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
-17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
-18	Monte	monte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+15	Flor	flor	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	15	mod	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	18	spec	_	_
+18	Monte	monte	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
 19	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	20	mphes	_	_
 20	queda	quedar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 21	sola	solo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	20	pred	_	_
@@ -450,9 +450,9 @@
 57	pueblo	pueblo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	55	comp	_	_
 58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	53	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	ex	ex	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	3	mod	_	_
-3	combatientes	combatiente	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	ex	ex	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	3	mod	_	_
+3	combatientes	combatiente	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 4	salen	salir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	coor	_	_
 6	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
@@ -576,8 +576,8 @@
 16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
 17	Christiania	christiania	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	comp	_	_
 18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
-19	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
-20	cartel	cartel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
+19	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	cartel	cartel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	subj	_	_
 21	advertía	advertir	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 22	a	a	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
 23	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	24	spec	_	_

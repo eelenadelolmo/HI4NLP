@@ -8,8 +8,8 @@
 8	telecomunicaciones	telecomunicación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	compañía	compañía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	alcanzó	alcanzar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	modnomatch	_	_
 5	2,2_billones	2200000000000	Zd	Zd	matched=no|pos=number|type=partitive	7	spec	_	_
@@ -21,8 +21,8 @@
 11	semestre	semestre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	firma	firma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	firma	firma	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	sube	subir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	bolsa	bolsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
@@ -48,9 +48,9 @@
 25	ganancias	ganancia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
 26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	Telefónica	telefónico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	superó	superar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
 6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
@@ -105,9 +105,9 @@
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	facturación	facturación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
-9	beneficios	beneficio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	subj	_	_
-10	netos	neto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	beneficios	beneficio	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	subj	_	_
+10	netos	neto	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	9	mod	_	_
 11	cayeron	caer	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
 13	3_%	3/100	Zp	Zp	matched=no|pos=number|type=percentage	11	dobj	_	_
@@ -115,8 +115,8 @@
 15	164.500_millones_de_pesetas	$_ESP:164500000000	Zm	Zm	matched=no|pos=number|type=currency	14	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	compañía	compañía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	remarcó	remarcar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	6	spec	_	_
@@ -191,7 +191,7 @@
 34	europeas	europeo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	33	mod	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	BT	b_t	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	BT	b_t	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	redujo	reducir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	4	spec	_	_
 4	ganancias	ganancia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
@@ -233,14 +233,14 @@
 14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
 15	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 16	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	1	spec	_	_
-17	alza	alza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	subj	_	_
-18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
-19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
-20	37,1_%	37.1/100	Zp	Zp	matched=no|pos=number|type=percentage	18	comp	_	_
-21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
-22	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	23	spec	_	_
-23	ventas	venta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	21	comp	_	_
-24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+17	alza	alza	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	25	subj	_	_
+18	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	mod	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	20	spec	_	_
+20	37,1_%	37.1/100	Zp	Zp	matched=yes: subj child of top deprel|pos=number|type=percentage	18	comp	_	_
+21	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	mod	_	_
+22	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	23	spec	_	_
+23	ventas	venta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	21	comp	_	_
+24	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	17	punc	_	_
 25	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 26	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
 27	motores	motor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	25	modnomatch	_	_
@@ -278,8 +278,8 @@
 59	beneficios	beneficio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	57	comp	_	_
 60	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	mercados	mercado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	mercados	mercado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	recibieron	recibir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	resultados	resultado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
@@ -324,7 +324,7 @@
 20	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
 21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Terra	terra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Terra	terra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	3	aux	_	_
 3	ganado	ganar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -349,19 +349,19 @@
 13	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
 14	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 15	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
-16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
-17	castigo	castigo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	subj	_	_
-18	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	20	subj	_	_
-19	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	20	aux	_	_
-20	sufrido	sufrir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	17	mod	_	_
-21	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	22	spec	_	_
-22	valores	valor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	dobj	_	_
-23	tecnológicos	tecnológico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	22	mod	_	_
-24	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
-25	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	26	spec	_	_
-26	últimos	último	AO0MP00	AO	gen=masculine|matched=no|num=plural|pos=adjective|type=ordinal	24	comp	_	_
-27	seis	6	Z	Z	matched=no|pos=number	28	spec	_	_
-28	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	modnomatch	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	17	spec	_	_
+17	castigo	castigo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	29	subj	_	_
+18	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	20	subj	_	_
+19	han	haber	VAIP3P0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	20	aux	_	_
+20	sufrido	sufrir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	17	mod	_	_
+21	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	22	spec	_	_
+22	valores	valor	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	20	dobj	_	_
+23	tecnológicos	tecnológico	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	22	mod	_	_
+24	durante	durante	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	20	adjt	_	_
+25	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	26	spec	_	_
+26	últimos	último	AO0MP00	AO	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=ordinal	24	comp	_	_
+27	seis	6	Z	Z	matched=yes: subj child of top deprel|pos=number	28	spec	_	_
+28	meses	mes	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	20	modnomatch	_	_
 29	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 30	prever	prever	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	29	dobj	_	_
 31	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	32	spec	_	_
@@ -381,14 +381,14 @@
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
 6	Gaesco	gaesco	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	endeudamiento	endeudamiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
-10	creciente	creciente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
-12	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
-13	operadoras	operador	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
-14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
-15	telecomunicaciones	telecomunicación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	endeudamiento	endeudamiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+10	creciente	creciente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+12	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	13	spec	_	_
+13	operadoras	operador	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	comp	_	_
+14	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+15	telecomunicaciones	telecomunicación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	comp	_	_
 16	para	para	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
 17	alcanzar	alcanzar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	comp	_	_
 18	nuevas	nuevo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	19	mod	_	_
@@ -413,8 +413,8 @@
 37	optimistas	optimista	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	36	mod	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	analistas	analista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	analistas	analista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	advierten	advertir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
 5	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_

@@ -1,6 +1,6 @@
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	conservadores	conservador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-3	islámicos	islámico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	conservadores	conservador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+3	islámicos	islámico	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
 4	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
 5	tendrán	tener	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 6	ningún	ninguno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
@@ -105,17 +105,17 @@
 
 1	Rafsanyani	rafsanyani	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-4	aspiraba	aspirar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	15	subj	_	_
-5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
-6	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	5	comp	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-8	próximo	próximo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-9	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
-11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
-12	Cámara	cámara	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	aspiraba	aspirar	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	15	subj	_	_
+5	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	pobj	_	_
+6	ser	ser	VSN0000	VSN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=semiauxiliary	5	comp	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+8	próximo	próximo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+9	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	attr	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	adjt	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	Cámara	cámara	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
 14	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	15	mphes	_	_
 15	presentó	presentar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 16	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	15	adjt	_	_
@@ -143,9 +143,9 @@
 2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
 3	elegidos	elegido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	tres	3	Z	Z	matched=no|pos=number	8	subj	_	_
-7	primeros	1	AO0MP00	AO	gen=masculine|matched=no|num=plural|pos=adjective|type=ordinal	6	mod	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	tres	3	Z	Z	matched=yes: subj child of top deprel|pos=number	8	subj	_	_
+7	primeros	1	AO0MP00	AO	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=ordinal	6	mod	_	_
 8	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 9	hermanos	hermano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	attr	_	_
 10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
@@ -175,10 +175,10 @@
 34	Jatamí	jatamí	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	8	modnomatch	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
-2	segunda	2	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	4	mod	_	_
-3	más	más	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
-4	votada	votar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	6	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+2	segunda	2	AO0FS00	AO	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=ordinal	4	mod	_	_
+3	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	spec	_	_
+4	votada	votar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	6	subj	_	_
 5	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	6	aux	_	_
 6	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	0	top	_	_
 7	Yamile	yamile	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
@@ -396,7 +396,7 @@
 10	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 11	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	10	comp	_	_
 12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
-13	121	121	Z	Z	matched=no|pos=number	14	subj	_	_
+13	121	121	Z	Z	matched=yes: subj child of top deprel|pos=number	14	subj	_	_
 14	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 15	para	para	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 16	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_

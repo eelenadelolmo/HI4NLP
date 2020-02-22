@@ -57,8 +57,8 @@
 34	Pública	público	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	33	mod	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	Una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	beca	beca	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	beca	beca	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	la	lo	PP3FSA0	PP	case=accusative|gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	dobj	_	_
 4	catapultó	catapultar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -101,9 +101,9 @@
 5	presupuestaria	presupuestario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	1	modnomatch	_	_
 6	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
 7	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-9	Gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
-10	Manzana	manzana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+9	Gran	gran	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+10	Manzana	manzana	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 11	destinó	destinar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	55.000_millones_de_pesetas	$_ESP:55000000000	Zm	Zm	matched=no|pos=number|type=currency	11	dobj	_	_
 13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
@@ -178,8 +178,8 @@
 7	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	8	modnorule	_	_
 8	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	modnomatch	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
-10	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	11	spec	_	_
-11	licenciada	licenciado	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
+10	esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	11	spec	_	_
+11	licenciada	licenciado	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
 12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
 13	Ciencias	ciencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
 14	Políticas	político	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	13	mod	_	_
@@ -197,14 +197,14 @@
 26	empleo	empleo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	Misión	misión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-2	complicada	complicar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	a_tenor_de	a_tenor_de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
-5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
-6	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
-7	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
-8	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
+1	Misión	misión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+2	complicada	complicar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+4	a_tenor_de	a_tenor_de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+5	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	1	modnomatch	_	_
+6	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	1	punc	_	_
+7	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+8	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
 9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 10	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
 11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	12	mphes	_	_
@@ -273,8 +273,8 @@
 6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 7	Catalunya	catalunya	RG	RG	matched=no|pos=adverb|type=general	6	comp	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	experta	experto	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	experta	experto	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
 11	no	no	RN	RN	matched=no|pos=adverb|type=negative	12	spec	_	_
 12	dudará	dudar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_

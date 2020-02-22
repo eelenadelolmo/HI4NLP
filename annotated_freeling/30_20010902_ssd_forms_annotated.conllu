@@ -19,8 +19,8 @@
 19	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	20	spec	_	_
 20	capitales	capital	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
 21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
-22	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	23	spec	_	_
-23	autor	autor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	subj	_	_
+22	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	23	spec	_	_
+23	autor	autor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	24	subj	_	_
 24	declaró	declarar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 25	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	24	adjt	_	_
 26	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	24	dobj	_	_

@@ -1,6 +1,6 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	remolcador	remolcador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
-3	Chame	chame	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	remolcador	remolcador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+3	Chame	chame	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	II	i_i	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	modnomatch	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
 6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
@@ -60,19 +60,19 @@
 60	oficiales	oficial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	59	mod	_	_
 61	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	57	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
-2	ACP	acp	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-3	indicó	indicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	modnomatch	_	_
-4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
-5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
-6	comunicado	comunicado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	14	subj	_	_
-8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
-9	remolcadores	remolcador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	coor	_	_
-10	Chame	chame	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
-11	II	i_i	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	coor	_	_
-12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
-13	Gamboa	gamboa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	coor	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+2	ACP	acp	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	indicó	indicar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	modnomatch	_	_
+4	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	adjt	_	_
+5	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	comunicado	comunicado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	14	subj	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	remolcadores	remolcador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	coor	_	_
+10	Chame	chame	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+11	II	i_i	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	coor	_	_
+12	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	7	modnomatch	_	_
+13	Gamboa	gamboa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	coor	_	_
 14	transportaban	transportar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
 16	barcaza	barcaza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
@@ -115,15 +115,15 @@
 53	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	14	punc	_	_
 54	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	Dos	2	Z	Z	matched=no|pos=number	2	spec	_	_
-2	marinos	marino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-4	iban	ir	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
-5	a_bordo	a_bordo	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	Chame	chame	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	comp	_	_
-9	II	i_i	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+1	Dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	2	spec	_	_
+2	marinos	marino	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	iban	ir	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+5	a_bordo	a_bordo	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	adjt	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	Chame	chame	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	comp	_	_
+9	II	i_i	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	modnomatch	_	_
 10	saltaron	saltar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
 12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
@@ -161,9 +161,9 @@
 44	panameña	panameño	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	43	mod	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	41	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	grúa	grúa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	Titán	titán	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	grúa	grúa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	Titán	titán	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
 4	trabaja	trabajar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_

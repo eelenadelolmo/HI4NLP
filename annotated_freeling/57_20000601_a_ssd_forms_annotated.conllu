@@ -1,5 +1,5 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	PSC	psc	NC00000	NC	matched=no|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	PSC	psc	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	3	subj	_	_
 3	propondrá	proponer	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	dobj	_	_
@@ -36,9 +36,9 @@
 36	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	35	modnomatch	_	_
 37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	decisión	decisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	decisión	decisión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 4	anunciada	anunciar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	10	adjt	_	_
 5	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
 6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
@@ -109,9 +109,9 @@
 41	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	40	modnomatch	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	38	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	cambios	cambio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	subj	_	_
-3	reclamados	reclamar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	2	mod	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	cambios	cambio	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	subj	_	_
+3	reclamados	reclamar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	2	mod	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
 6	socialistas	socialista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
@@ -154,9 +154,9 @@
 43	positivo	positivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	41	mod	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	39	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	líder	líder	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	socialista	socialista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	líder	líder	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	socialista	socialista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	mostró	mostrar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	convencido	convencer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	pred	_	_

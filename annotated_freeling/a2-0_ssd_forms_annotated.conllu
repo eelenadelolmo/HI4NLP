@@ -1,10 +1,10 @@
 1	Inesperadamente	inesperadamente	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-4	límites	límite	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
-7	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	límites	límite	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+7	vida	vida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
 8	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	10	mphes	_	_
 9	habían	haber	VAII3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=auxiliary	10	aux	_	_
 10	reducido	reducir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -93,8 +93,8 @@
 39	distancia	distancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	38	comp	_	_
 40	de	de	SP	SP	matched=no|pos=adposition|type=preposition	35	modnomatch	_	_
 41	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	35	spec	_	_
-42	Beta	beta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	44	subj	_	_
-43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	42	punc	_	_
+42	Beta	beta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	44	subj	_	_
+43	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	42	punc	_	_
 44	decidió	decidir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 45	construir	construir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	44	dobj	_	_
 46	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	48	spec	_	_

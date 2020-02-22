@@ -15,8 +15,8 @@
 15	aficionados	aficionado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	eliminatoria	eliminatoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	eliminatoria	eliminatoria	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	subj	_	_
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
 4	partido	partido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	único	único	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
@@ -72,8 +72,8 @@
 55	Eslovaquia	eslovaquia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	54	comp	_	_
 56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	54	punc	_	_
 
-1	Comentario	comentario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-2	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
+1	Comentario	comentario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+2	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	1	punc	_	_
 3	Inglaterra	inglaterra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
 4	ganó	ganar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	coor	_	_
@@ -119,7 +119,7 @@
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
 7	A	a	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-9	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+9	España	españa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
 10	defenderá	defender	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 11	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 12	Croacia	croacia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
@@ -137,9 +137,9 @@
 24	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	22	modnomatch	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	conjunto	conjunto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	inglés	inglés	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	conjunto	conjunto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	inglés	inglés	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
 5	muy	muy	RG	RG	matched=no|pos=adverb|type=general	6	spec	_	_
 6	superior	superior	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	attr	_	_
@@ -202,7 +202,7 @@
 2	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	3	spec	_	_
 3	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	Yugoslavia	yugoslavia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+5	Yugoslavia	yugoslavia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 6	aplicó	aplicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	pase	pase	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
@@ -221,11 +221,11 @@
 21	Wright	wright	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
-2	panorama	panorama	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	relativa	relativo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-5	igualdad	igualdad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	Este	este	DD0MS0	DD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	panorama	panorama	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	relativa	relativo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+5	igualdad	igualdad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
 7	rompió	romper	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	7	adjt	_	_
@@ -268,10 +268,10 @@
 45	inglesa	inglés	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	44	mod	_	_
 46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	jugador	jugador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-4	yugoslavo	yugoslavo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	jugador	jugador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+4	yugoslavo	yugoslavo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
 5	dispuso	disponer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
 7	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
@@ -301,7 +301,7 @@
 31	larguero	larguero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	dobj	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
 
-1	Inglaterra	inglaterra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Inglaterra	inglaterra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
 3	permitió	permitir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	mayores	mayor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
@@ -331,10 +331,10 @@
 28	impotencia	impotencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
 29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
-2	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	tanto	tanto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+2	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	tanto	tanto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
 7	centrocampista	centrocampista	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	comp	_	_

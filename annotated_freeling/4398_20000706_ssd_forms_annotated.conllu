@@ -1,5 +1,5 @@
-1	Estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
-2	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	1	mod	_	_
+1	Estados	estado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+2	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	1	mod	_	_
 3	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
 5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
@@ -44,14 +44,14 @@
 44	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	43	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	43	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Departamento	departamento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	portavoz	portavoz	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Departamento	departamento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	Estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 9	Richard	richard	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
 10	Boucher	boucher	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
@@ -101,8 +101,8 @@
 55	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	12	punc	_	_
 56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	pruebas	prueba	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	pruebas	prueba	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	tardarán	tardar	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 4	dos	2	Z	Z	matched=no|pos=number	5	spec	_	_
 5	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	adjt	_	_
@@ -311,43 +311,43 @@
 49	rotativo	rotativo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	47	comp	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	44	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	conocimiento	conocimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	hongo	hongo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-7	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
-8	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	9	mphes	_	_
-9	reproduce	reproducir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-11	forma	forma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
-12	natural	natural	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
-13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
-14	algunas	alguno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	15	spec	_	_
-15	plantas	planta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
-16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-17	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	16	coor	_	_
-18	variantes	variante	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	17	dobj	_	_
-19	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	21	subj	_	_
-20	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	21	adjt	_	_
-21	atacan	atacar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	18	mod	_	_
-22	a	a	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
-23	determinadas	determinar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	24	mod	_	_
-24	especies	especie	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	comp	_	_
-25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	31	punc	_	_
-26	data	data	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	coor	_	_
-27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
-28	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	27	comp	_	_
-29	varios	varios	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	30	modnorule	_	_
-30	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	28	modnomatch	_	_
-31	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	21	dobj	_	_
-32	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	34	spec	_	_
-33	posible	posible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	34	mod	_	_
-34	uso	uso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	coor	_	_
-35	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	21	adjt	_	_
-36	arma	arma	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	35	comp	_	_
-37	biológica	biológico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	36	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	conocimiento	conocimiento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	39	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	hongo	hongo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+7	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+8	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	9	mphes	_	_
+9	reproduce	reproducir	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+11	forma	forma	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+12	natural	natural	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	adjt	_	_
+14	algunas	alguno	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	15	spec	_	_
+15	plantas	planta	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	comp	_	_
+16	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+17	tiene	tener	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	16	coor	_	_
+18	variantes	variante	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	17	dobj	_	_
+19	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	21	subj	_	_
+20	sólo	sólo	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	21	adjt	_	_
+21	atacan	atacar	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	18	mod	_	_
+22	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	21	adjt	_	_
+23	determinadas	determinar	VMP00PF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	24	mod	_	_
+24	especies	especie	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	22	comp	_	_
+25	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	31	punc	_	_
+26	data	data	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	31	coor	_	_
+27	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	26	mod	_	_
+28	hace	hacer	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	27	comp	_	_
+29	varios	varios	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	30	modnorule	_	_
+30	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	28	modnomatch	_	_
+31	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	21	dobj	_	_
+32	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	34	spec	_	_
+33	posible	posible	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	34	mod	_	_
+34	uso	uso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	31	coor	_	_
+35	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	21	adjt	_	_
+36	arma	arma	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	35	comp	_	_
+37	biológica	biológico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	36	mod	_	_
 38	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	39	aux	_	_
 39	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	0	top	_	_
 40	objeto	objeto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	attr	_	_

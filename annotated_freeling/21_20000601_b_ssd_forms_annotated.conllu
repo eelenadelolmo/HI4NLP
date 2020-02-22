@@ -23,8 +23,8 @@
 14	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Señores	señor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Señores	señor	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	5	modnomatch	_	_
 4	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	5	mphes	_	_
 5	pregunto	preguntar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
@@ -68,8 +68,8 @@
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
 1	¿	¿	Fia	Fia	matched=no|pos=punctuation|punctenclose=open|type=questionmark	5	punc	_	_
-2	Qué	qué	DT0CN0	DT	gen=common|matched=no|num=invariable|pos=determiner|type=interrogative	3	spec	_	_
-3	servicio	servicio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+2	Qué	qué	DT0CN0	DT	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=determiner|type=interrogative	3	spec	_	_
+3	servicio	servicio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
 4	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	5	mphes	_	_
 5	quiere	querer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 6	prestar	prestar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
@@ -107,7 +107,7 @@
 29	?	?	Fit	Fit	matched=no|pos=punctuation|punctenclose=close|type=questionmark	21	punc	_	_
 30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
 2	creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	5	spec	_	_

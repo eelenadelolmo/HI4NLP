@@ -1,6 +1,6 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	delantero	delantero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	Ronaldo	ronaldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	delantero	delantero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	Ronaldo	ronaldo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
 4	Luiz	luiz	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
 5	Nazario	nazario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
 6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
@@ -51,30 +51,30 @@
 51	autoridades	autoridad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	49	comp	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	reloj	reloj	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	subj	_	_
-3	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	modnomatch	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	3	comp	_	_
-6	Ronaldo	ronaldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-7	habría	haber	VAIC1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=conditional|type=auxiliary	8	aux	_	_
-8	pagado	pagar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-9	20.000_dólares	$_USD:20000	Zm	Zm	matched=no|pos=number|type=currency	8	dobj	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-11	según	según	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-12	versiones	versión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
-13	periodísticas	periodístico	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	12	mod	_	_
-14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
-15	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-16	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	15	coor	_	_
-17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
-18	futbolista	futbolista	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	19	subj	_	_
-19	asegura	asegurar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	16	comp	_	_
-20	haber	haber	VAN0000	VAN	matched=no|mood=infinitive|pos=verb|type=auxiliary	21	aux	_	_
-21	adquirido	adquirir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	19	dobj	_	_
-22	por	por	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
-23	130_dólares	$_USD:130	Zm	Zm	matched=no|pos=number|type=currency	22	comp	_	_
-24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	reloj	reloj	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	25	subj	_	_
+3	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	3	comp	_	_
+6	Ronaldo	ronaldo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+7	habría	haber	VAIC1S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=conditional|type=auxiliary	8	aux	_	_
+8	pagado	pagar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+9	20.000_dólares	$_USD:20000	Zm	Zm	matched=yes: subj child of top deprel|pos=number|type=currency	8	dobj	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+11	según	según	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+12	versiones	versión	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	comp	_	_
+13	periodísticas	periodístico	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	12	mod	_	_
+14	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	15	punc	_	_
+15	pero	pero	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+16	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	15	coor	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	18	spec	_	_
+18	futbolista	futbolista	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	subj	_	_
+19	asegura	asegurar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	16	comp	_	_
+20	haber	haber	VAN0000	VAN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=auxiliary	21	aux	_	_
+21	adquirido	adquirir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	19	dobj	_	_
+22	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	21	adjt	_	_
+23	130_dólares	$_USD:130	Zm	Zm	matched=yes: subj child of top deprel|pos=number|type=currency	22	comp	_	_
+24	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 25	constituye	constituir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 26	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
 27	objeto	objeto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	dobj	_	_
@@ -87,8 +87,8 @@
 34	Federal	federal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	33	mod	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	compra	compra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	compra	compra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	produjo	producir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -112,21 +112,21 @@
 23	Paraguay	par_aguay	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
 24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	jugadores	jugador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	subj	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	estaban	estar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
-6	concentrados	concentrar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	5	attr	_	_
-7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-10	brasileña	brasileño	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
-11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
-12	Foz	foz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
-13	do	do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	mod	_	_
-14	Iguazú	iguazú	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	modnomatch	_	_
-15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	jugadores	jugador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	17	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	estaban	estar	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+6	concentrados	concentrar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	5	attr	_	_
+7	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	adjt	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	brasileña	brasileño	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	adjt	_	_
+12	Foz	foz	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+13	do	do	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	mod	_	_
+14	Iguazú	iguazú	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	modnomatch	_	_
+15	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 16	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	17	mphes	_	_
 17	trasladaron	trasladar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
@@ -190,13 +190,13 @@
 41	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	39	comp	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	asesor	asesor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	prensa	prensa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-6	Ronaldo	ronaldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	asesor	asesor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	prensa	prensa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	Ronaldo	ronaldo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	Rodrigo	rodrigar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 9	Paiva	paiva	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	modnomatch	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
@@ -236,7 +236,7 @@
 44	brasileños	brasileño	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	43	mod	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	Ronaldo	ronaldo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Ronaldo	ronaldo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	declaró	declarar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 4	más	más	RG	RG	matched=no|pos=adverb|type=general	3	comp	_	_

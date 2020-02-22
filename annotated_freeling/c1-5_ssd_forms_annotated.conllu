@@ -297,7 +297,7 @@
 13	pestañea	pestañear	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	coor	_	_
 14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	3	subj	_	_
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	3	subj	_	_
 2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
 3	necesito	necesitar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
 4	para	para	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
@@ -345,8 +345,8 @@
 46	reconstruirme	reconstruirme	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	45	comp	_	_
 47	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	42	punc	_	_
 
-1	Francamente	franco_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-2	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	1	punc	_	_
+1	Francamente	franco_mente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+2	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	1	punc	_	_
 3	cualquiera	cualquiera	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	9	modnomatch	_	_
 4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
 5	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	6	mphes	_	_
@@ -515,8 +515,8 @@
 
 1	Tan	tan	RG	RG	matched=no|pos=adverb|type=general	2	spec	_	_
 2	creativa	creativo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	modnomatch	_	_
-3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-4	intentaré	intentar	VMIF1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	5	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	intentaré	intentar	VMIF1S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	5	subj	_	_
 5	solucionarle	solucionarle	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_

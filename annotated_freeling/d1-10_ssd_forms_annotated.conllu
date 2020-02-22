@@ -1,10 +1,10 @@
 1	Hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	adjt	_	_
 2	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	modnorule	_	_
 3	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	modnomatch	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	mayoría	mayoría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
-7	equipos	equipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	mayoría	mayoría	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	mod	_	_
+7	equipos	equipo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
 8	jugaban	jugar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 9	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 10	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	9	comp	_	_
@@ -15,15 +15,15 @@
 15	cuarenta_minutos	TM_min:40	Zu	Zu	matched=no|pos=number|type=unit	13	comp	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	Cualquiera	cualquiera	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	11	subj	_	_
-2	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-3	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	dobj	_	_
-4	hiciese	hacer	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	1	mod	_	_
-5	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
-6	más	más	RG	RG	matched=no|pos=adverb|type=general	7	spec	_	_
-7	jugadores	jugador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
-8	relevándolos	relevándolos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	mod	_	_
-9	habitualmente	habitualmente	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+1	Cualquiera	cualquiera	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	11	subj	_	_
+2	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+3	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	4	dobj	_	_
+4	hiciese	hacer	VMSI3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	1	mod	_	_
+5	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	adjt	_	_
+6	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	7	spec	_	_
+7	jugadores	jugador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	comp	_	_
+8	relevándolos	relevándolos	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	mod	_	_
+9	habitualmente	habitualmente	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	adjt	_	_
 10	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	11	aux	_	_
 11	considerado	considerar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 12	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	11	adjt	_	_
@@ -63,21 +63,21 @@
 26	activas	activo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	13	modnomatch	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
 
-1	Otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	aspecto	aspecto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
-3	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	3	comp	_	_
-6	a_buen_seguro	a_buen_seguro	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
-7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
-8	producirá	producir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	2	mod	_	_
-9	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
-10	mayor	mayor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
-11	número	número	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
-12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
-13	relevos	relevo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
-14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
-15	jugadores	jugador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+1	Otro	otro	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	aspecto	aspecto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	subj	_	_
+3	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	3	comp	_	_
+6	a_buen_seguro	a_buen_seguro	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	8	adjt	_	_
+7	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	8	mphes	_	_
+8	producirá	producir	VMIF3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	2	mod	_	_
+9	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+10	mayor	mayor	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+11	número	número	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	dobj	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	mod	_	_
+13	relevos	relevo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	comp	_	_
+14	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	mod	_	_
+15	jugadores	jugador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	14	comp	_	_
 16	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	0	top	_	_
 17	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	16	attr	_	_
 18	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	19	spec	_	_
@@ -108,11 +108,11 @@
 43	actuales	actual	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	42	mod	_	_
 44	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	evolución	evolución	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	defensas	defensa	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	evolución	evolución	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	defensas	defensa	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 6	obligará	obligar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
 8	mejorar	mejorar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	comp	_	_
@@ -159,7 +159,7 @@
 16	espectáculo	espectáculo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
 17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Realmente	real_mente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Realmente	real_mente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	hacen	hacer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 3	más	más	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
 4	faltas	falta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
@@ -221,8 +221,8 @@
 31	acciones	acción	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	29	modnomatch	_	_
 32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	colmo	colmo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	colmo	colmo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	llega	llegar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_

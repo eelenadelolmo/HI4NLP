@@ -46,7 +46,7 @@
 46	respectivamente	respectivamente	RG	RG	matched=no|pos=adverb|type=general	11	modnomatch	_	_
 47	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	Venezuela	venezuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Venezuela	venezuela	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	empezará	empezar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	adjt	_	_
@@ -111,9 +111,9 @@
 2	estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	3	spec	_	_
 3	pensamientos	pensamiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
 4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
-6	dos	2	Z	Z	matched=no|pos=number	7	spec	_	_
-7	equipos	equipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	7	spec	_	_
+6	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	7	spec	_	_
+7	equipos	equipo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
 8	saldrán	salir	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	0	top	_	_
 9	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	10	spec	_	_
 10	miércoles_a_las_15:00	[X:??/??/??:15.00:??]	W	W	matched=no|pos=date	8	adjt	_	_
@@ -206,11 +206,11 @@
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
 6	Villahermosa	villahermosa	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-8	cuyo	cuyo	PR0MS00	PR	gen=masculine|matched=no|num=singular|pos=pronoun|type=relative	9	spec	_	_
-9	césped	césped	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-10	luce	lucir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	subj	_	_
-11	descuidado	descuidar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	10	adjt	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+8	cuyo	cuyo	PR0MS00	PR	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=relative	9	spec	_	_
+9	césped	césped	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+10	luce	lucir	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	18	subj	_	_
+11	descuidado	descuidar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	10	adjt	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	10	punc	_	_
 13	según	según	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
 14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
 15	prensa	prensa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
@@ -350,10 +350,10 @@
 45	lunes	[L:??/??/??:??.??:??]	W	W	matched=no|pos=date	43	comp	_	_
 46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	32	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Venezuela	venezuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	equipo	equipo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Venezuela	venezuela	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	llegará	llegar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 6	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	7	spec	_	_
 7	martes	[M:??/??/??:??.??:??]	W	W	matched=no|pos=date	5	adjt	_	_
@@ -393,9 +393,9 @@
 41	Suramérica	suramérica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	40	comp	_	_
 42	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cuadro	cuadro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	venezolano	venezolano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cuadro	cuadro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	venezolano	venezolano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	presentará	presentar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 5	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
 6	novedades	novedad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
@@ -442,7 +442,7 @@
 47	española	español	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	46	mod	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
 
-1	Pastoriza	pasto_riza	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Pastoriza	pasto_riza	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	llegará	llegar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
 4	Villahermosa	villahermosa	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	comp	_	_

@@ -134,10 +134,10 @@
 22	progreso	progreso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
 23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	Algunos	alguno	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	6	subj	_	_
-2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
-4	protagonistas	protagonista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
+1	Algunos	alguno	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	6	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	protagonistas	protagonista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
 5	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
 6	quieren	querer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	dobj	_	_
@@ -155,7 +155,7 @@
 19	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Otros	otro	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	3	subj	_	_
+1	Otros	otro	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	3	subj	_	_
 2	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	3	dobj	_	_
 3	rechazan	rechazar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_

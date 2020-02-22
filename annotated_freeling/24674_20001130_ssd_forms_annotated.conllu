@@ -1,41 +1,41 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	secretario	secretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	54	subj	_	_
-3	general	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-6	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
-8	Javier	javier	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
-9	Arenas	arena	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	dobj	_	_
-10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
-11	expresó	expresar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	33	coor	_	_
-12	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
-13	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_
-14	satisfacción	satisfacción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
-15	por	por	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
-16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
-17	concesión	concesión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
-18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
-19	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
-20	crédito	crédito	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
-21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	mod	_	_
-22	1.000_millones_de_pesetas	$_ESP:1000000000	Zm	Zm	matched=no|pos=number|type=currency	21	comp	_	_
-23	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
-24	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	25	spec	_	_
-25	Minas	mina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
-26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
-27	Río	río	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
-28	Tinto	tinto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	27	mod	_	_
-29	Sociedad	sociedad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
-30	Anónima	anónimo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
-31	Laboral	laboral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
-32	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	33	punc	_	_
-33	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-34	deseó	desear	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	33	coor	_	_
-35	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
-36	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
-37	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-38	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	54	subj	_	_
+3	general	general	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+6	PP	p_p	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	6	punc	_	_
+8	Javier	javier	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+9	Arenas	arena	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	dobj	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	33	punc	_	_
+11	expresó	expresar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	33	coor	_	_
+12	hoy	hoy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	11	adjt	_	_
+13	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	14	spec	_	_
+14	satisfacción	satisfacción	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	dobj	_	_
+15	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	adjt	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	17	spec	_	_
+17	concesión	concesión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	17	mod	_	_
+19	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	crédito	crédito	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	comp	_	_
+21	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	20	mod	_	_
+22	1.000_millones_de_pesetas	$_ESP:1000000000	Zm	Zm	matched=yes: subj child of top deprel|pos=number|type=currency	21	comp	_	_
+23	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	11	adjt	_	_
+24	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	25	spec	_	_
+25	Minas	mina	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	23	comp	_	_
+26	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	25	mod	_	_
+27	Río	río	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	comp	_	_
+28	Tinto	tinto	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	27	mod	_	_
+29	Sociedad	sociedad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	modnomatch	_	_
+30	Anónima	anónimo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+31	Laboral	laboral	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+32	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	33	punc	_	_
+33	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+34	deseó	desear	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	33	coor	_	_
+35	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	2	modnomatch	_	_
+36	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+37	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+38	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
 39	igual	igual	RG	RG	matched=no|pos=adverb|type=general	54	adjt	_	_
 40	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	54	modnomatch	_	_
 41	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	42	aux	_	_
@@ -59,7 +59,7 @@
 59	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	54	punc	_	_
 60	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	54	punc	_	_
 
-1	Arenas	arena	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Arenas	arena	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
 3	refirió	referir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_

@@ -15,8 +15,8 @@
 15	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	1	punc	_	_
 16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	lío	lío	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	lío	lío	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	asamblea	asamblea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
@@ -186,10 +186,10 @@
 3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
 1	¿	¿	Fia	Fia	matched=no|pos=punctuation|punctenclose=open|type=questionmark	9	punc	_	_
-2	Más	más	RG	RG	matched=no|pos=adverb|type=general	3	spec	_	_
-3	putadas	putada	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
-4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
-5	Felipe	felipe	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	4	comp	_	_
+2	Más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	3	spec	_	_
+3	putadas	putada	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+4	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	3	modnomatch	_	_
+5	Felipe	felipe	VMSP3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	4	comp	_	_
 6	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	9	mphes	_	_
 7	va	ir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	9	prt	_	_
 8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	prt	_	_
@@ -268,7 +268,7 @@
 14	cinco	5	Z	Z	matched=no|pos=number	13	coor	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
 
-1	Muchos	mucho	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	4	subj	_	_
+1	Muchos	mucho	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	4	subj	_	_
 2	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 3	podrán	poder	VMIF3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=future|type=main	4	prt	_	_
 4	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_

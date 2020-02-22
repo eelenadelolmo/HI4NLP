@@ -20,7 +20,7 @@
 20	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	16	modnomatch	_	_
 21	XX	x_x	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
 22	Sigmund	sigmund	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	mod	_	_
-23	Freud	freud	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	subj	_	_
+23	Freud	freud	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	24	subj	_	_
 24	creaba	crear	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 25	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	24	dobj	_	_
 26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_

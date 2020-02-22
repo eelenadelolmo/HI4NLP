@@ -15,36 +15,36 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
 2	Belén	belén	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	10	adjt	_	_
-5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
-6	ánimos	ánimo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
-7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
-8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
-9	habitantes	habitante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
-10	están	estar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	24	subj	_	_
-11	extremadamente	extremadamente	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
-12	crispados	crispar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	10	attr	_	_
-13	por	por	SP	SP	matched=no|pos=adposition|type=preposition	12	agnt	_	_
-14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
-15	asedio	asedio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
-17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
-18	basílica	basílica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
-19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
-20	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
-21	Natividad	natividad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
-22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+4	donde	donde	PR00000	PR	matched=yes: subj child of top deprel|pos=pronoun|type=relative	10	adjt	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	ánimos	ánimo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	habitantes	habitante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
+10	están	estar	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	24	subj	_	_
+11	extremadamente	extremadamente	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	10	adjt	_	_
+12	crispados	crispar	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	10	attr	_	_
+13	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	agnt	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	15	spec	_	_
+15	asedio	asedio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	adjt	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	18	spec	_	_
+18	basílica	basílica	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
+19	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	12	adjt	_	_
+20	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	21	spec	_	_
+21	Natividad	natividad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	comp	_	_
+22	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	10	punc	_	_
 23	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	24	mphes	_	_
 24	registraron	registrar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 25	varios	varios	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	26	spec	_	_
 26	incidentes	incidente	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	dobj	_	_
 27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
 
-1	Un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	niño	niño	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	11	11	Z	Z	matched=no|pos=number	5	spec	_	_
-5	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	niño	niño	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	11	11	Z	Z	matched=yes: subj child of top deprel|pos=number	5	spec	_	_
+5	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 6	falleció	fallecer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
 8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	dobj	_	_
@@ -112,11 +112,11 @@
 14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
 15	Gaza	gaza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
 16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
-17	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	18	spec	_	_
-18	niña	niño	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
-19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
-20	2	2	Z	Z	matched=no|pos=number	21	spec	_	_
-21	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	comp	_	_
+17	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	18	spec	_	_
+18	niña	niño	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+19	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	mod	_	_
+20	2	2	Z	Z	matched=yes: subj child of top deprel|pos=number	21	spec	_	_
+21	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	19	comp	_	_
 22	perdió	perder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
 24	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
@@ -133,9 +133,9 @@
 35	israelí	israelí	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	34	mod	_	_
 36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
 
-1	Otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
-2	dos	2	Z	Z	matched=no|pos=number	3	spec	_	_
-3	adultos	adulto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Otros	otro	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+2	dos	2	Z	Z	matched=yes: subj child of top deprel|pos=number	3	spec	_	_
+3	adultos	adulto	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 4	murieron	morir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
 6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
@@ -158,8 +158,8 @@
 11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
 12	Ejército	ejército	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
 13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
-14	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
-15	soldados	soldado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	subj	_	_
+14	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	15	spec	_	_
+15	soldados	soldado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	16	subj	_	_
 16	rastrearon	rastrear	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
 18	zona	zona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_

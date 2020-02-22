@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	infierno	infierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Atlético	atlético	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	infierno	infierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Atlético	atlético	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	comp	_	_
 6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 7	Segunda	2	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	8	mod	_	_
 8	División	división	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
@@ -115,9 +115,9 @@
 3	INSULTOS	insulto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	coor	_	_
 4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	delantero	delantero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	jerezano	jerezano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	delantero	delantero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	jerezano	jerezano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 4	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
@@ -169,20 +169,20 @@
 13	nueve	9	Z	Z	matched=no|pos=number	14	spec	_	_
 14	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
 15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-16	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	18	subj	_	_
-17	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	18	iobj	_	_
-18	esperaban	esperar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	32	subj	_	_
-19	dentro_de	dentro_de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
-20	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	21	spec	_	_
-21	coche	coche	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
-22	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
-23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
-24	puerta	puerta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
-25	cero	0	Z	Z	matched=no|pos=number	18	dobj	_	_
-26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
-27	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
-28	estadio	estadio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
-29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+16	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	18	subj	_	_
+17	le	le	PP3CSD0	PP	case=dative|gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	18	iobj	_	_
+18	esperaban	esperar	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	32	subj	_	_
+19	dentro_de	dentro_de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	adjt	_	_
+20	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	21	spec	_	_
+21	coche	coche	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	comp	_	_
+22	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	adjt	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	24	spec	_	_
+24	puerta	puerta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	comp	_	_
+25	cero	0	Z	Z	matched=yes: subj child of top deprel|pos=number	18	dobj	_	_
+26	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	25	mod	_	_
+27	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	28	spec	_	_
+28	estadio	estadio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	26	comp	_	_
+29	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	18	punc	_	_
 30	Kiko	kiko	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	32	modnomatch	_	_
 31	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	32	aux	_	_
 32	amenazado	amenazar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
@@ -269,8 +269,8 @@
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	vestuario	vestuario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
-9	jugadores	jugador	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	jugadores	jugador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
 10	decidieron	decidir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 11	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	dobj	_	_
 12	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
@@ -288,8 +288,8 @@
 24	pidieron	pedir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	20	modnomatch	_	_
 25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	dinero	dinero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	dinero	dinero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	4	aux	_	_
 4	entregado	entregar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
@@ -304,7 +304,7 @@
 14	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
 15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Kiko	kiko	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Kiko	kiko	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	comunicó	comunicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
 4	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_

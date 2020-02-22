@@ -1,6 +1,6 @@
-1	Que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	subj	_	_
-2	inventen	inventar	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	1	comp	_	_
-3	ellas	ellos	PP3FP00	PP	gen=feminine|matched=no|num=plural|person=3|pos=pronoun|type=personal	2	dobj	_	_
+1	Que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	4	subj	_	_
+2	inventen	inventar	VMSP3P0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	1	comp	_	_
+3	ellas	ellos	PP3FP00	PP	gen=feminine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	2	dobj	_	_
 4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	título	título	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_

@@ -1,10 +1,10 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	líder	líder	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	parlamentario	parlamentario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	laborista	laborista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	líder	líder	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	grupo	grupo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	parlamentario	parlamentario	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	laborista	laborista	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
 8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
 9	Noruega	noruego	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	comp	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
@@ -42,12 +42,12 @@
 42	Bondevik	bondevik	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	41	dobj	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	41	punc	_	_
 
-1	Stoltenberg	stoltenberg	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
-4	41	41	Z	Z	matched=no|pos=number	5	spec	_	_
-5	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Stoltenberg	stoltenberg	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+4	41	41	Z	Z	matched=yes: subj child of top deprel|pos=number	5	spec	_	_
+5	años	año	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 7	iniciará	iniciar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
 9	contactos	contacto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
@@ -141,7 +141,7 @@
 52	diputados	diputado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	49	comp	_	_
 53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
 
-1	Bondevik	bondevik	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Bondevik	bondevik	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	presentó	presentar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	anoche	anoche	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
 4	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
@@ -192,8 +192,8 @@
 49	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	48	modnomatch	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	ley	ley	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ley	ley	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	4	aux	_	_
 4	aprobada	aprobar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 5	anoche	anoche	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
@@ -251,11 +251,11 @@
 57	Kioto	kioto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	56	comp	_	_
 58	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	56	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	modificación	modificación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	leyes	ley	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	modificación	modificación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	leyes	ley	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 6	elimina	eliminar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
 8	límites	límite	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
@@ -300,10 +300,10 @@
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	audiencia	audiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
-8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	comp	_	_
-10	presentó	presentar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	19	subj	_	_
+7	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	modnomatch	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	comp	_	_
+10	presentó	presentar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	19	subj	_	_
 11	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
 12	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	13	spec	_	_
 13	dimisión	dimisión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	modnomatch	_	_
@@ -458,13 +458,13 @@
 9	conservadores	conservador	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	10	coor	_	_
 10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
 11	derechistas	derechista	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	10	coor	_	_
-12	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	13	subj	_	_
-13	formaban	formar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	38	subj	_	_
-14	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
-15	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	14	comp	_	_
-16	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
-17	oposición	oposición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
-18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+12	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	13	subj	_	_
+13	formaban	formar	VMII3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	38	subj	_	_
+14	hasta	hasta	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	adjt	_	_
+15	ahora	ahora	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	14	comp	_	_
+16	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	17	spec	_	_
+17	oposición	oposición	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	dobj	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	13	punc	_	_
 19	quienes	quien	PR0CP00	PR	gen=common|matched=no|num=plural|pos=pronoun|type=relative	20	subj	_	_
 20	sostenían	sostener	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	38	modnomatch	_	_
 21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	38	modnomatch	_	_
@@ -501,12 +501,12 @@
 52	CO2	CO2	Z	Z	matched=no|pos=number	51	comp	_	_
 53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	51	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	5	subj	_	_
-5	encabezará	encabezar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	3	mod	_	_
-6	Stoltenberg	stoltenberg	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	encabezará	encabezar	VMIF3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	3	mod	_	_
+6	Stoltenberg	stoltenberg	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	dobj	_	_
 7	tendrá	tener	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 8	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	tarea	tarea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_

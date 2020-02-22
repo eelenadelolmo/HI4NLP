@@ -34,8 +34,8 @@
 8	presentador	presentador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	coor	_	_
 9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
 10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
-11	TN	t_n	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-12	migdia	migdia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+11	TN	t_n	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+12	migdia	migdia	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	mod	_	_
 13	dirigirá	dirigir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
 15	próxima	próximo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_

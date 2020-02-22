@@ -48,8 +48,8 @@
 36	problemática	problemática	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	dobj	_	_
 37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	33	punc	_	_
 
-1	Ambos	ambos	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	sindicatos	sindicato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Ambos	ambos	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	sindicatos	sindicato	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	abogan	abogar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
 5	reforzar	reforzar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_

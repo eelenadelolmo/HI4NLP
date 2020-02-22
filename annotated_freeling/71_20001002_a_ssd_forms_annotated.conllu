@@ -1,4 +1,4 @@
-1	Correos	correo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Correos	correo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 2	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	3	aux	_	_
 3	previsto	prever	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
@@ -73,8 +73,8 @@
 47	40_pesetas	$_ESP:40	Zm	Zm	matched=no|pos=number|type=currency	46	comp	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	43	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	sello	sello	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	sello	sello	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
 3	para	para	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
 4	envío	envío	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
@@ -133,9 +133,9 @@
 14	más	más	RG	RG	matched=no|pos=adverb|type=general	15	spec	_	_
 15	barato	barato	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
 16	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	1	punc	_	_
-17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
-18	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
-19	envío	envío	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+18	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+19	envío	envío	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
 20	cuesta	costar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 21	51_pesetas	$_ESP:51	Zm	Zm	matched=no|pos=number|type=currency	20	dobj	_	_
 22	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	20	punc	_	_
@@ -154,10 +154,10 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
 2	Finlandia	finlandia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
-5	más	más	RG	RG	matched=no|pos=adverb|type=general	6	spec	_	_
-6	caro	caro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+4	país	país	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+5	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	6	spec	_	_
+6	caro	caro	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
 8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
 9	envío	envío	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
 10	cuesta	costar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_

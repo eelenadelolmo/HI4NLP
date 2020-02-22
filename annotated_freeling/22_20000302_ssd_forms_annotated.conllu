@@ -57,7 +57,7 @@
 7	dos	2	Z	Z	matched=no|pos=number	8	spec	_	_
 8	dirigentes	dirigente	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
-10	Chirac	chirac	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+10	Chirac	chirac	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
 11	reafirmó	reafirmar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 12	ante	ante	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
 13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
@@ -143,10 +143,10 @@
 45	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	25	punc	_	_
 46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	gubernamental	gubernamental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	portavoz	portavoz	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	gubernamental	gubernamental	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 5	Daniel	dar_niel	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	9	modnomatch	_	_
 6	Vaillant	vaillant	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	mod	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_

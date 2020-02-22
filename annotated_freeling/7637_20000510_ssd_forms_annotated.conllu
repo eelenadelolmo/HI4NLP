@@ -1,31 +1,31 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-2	PP	p_p	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	coor	_	_
-3	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	PSOE	psoe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	coor	_	_
-6	alertaron	alertar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	1	modnomatch	_	_
-7	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
-8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
-9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
-10	deterioro	deterioro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
-11	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	19	subj	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	modnomatch	_	_
-13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
-14	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_
-15	juicio	juicio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
-16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
-17	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	19	mphes	_	_
-18	está	estar	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	19	prt	_	_
-19	produciendo	producir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	35	subj	_	_
-20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
-21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
-22	sociedad	sociedad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
-23	vasca	vasco	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
-24	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
-25	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	27	spec	_	_
-26	últimos	último	AO0MP00	AO	gen=masculine|matched=no|num=plural|pos=adjective|type=ordinal	27	mod	_	_
-27	acontecimientos	acontecimiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	24	comp	_	_
-28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+2	PP	p_p	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	coor	_	_
+3	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	PSOE	psoe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	coor	_	_
+6	alertaron	alertar	VMIS3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	1	modnomatch	_	_
+7	hoy	hoy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	6	adjt	_	_
+8	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	10	spec	_	_
+10	deterioro	deterioro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+11	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	19	subj	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	11	modnomatch	_	_
+13	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	adjt	_	_
+14	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_
+15	juicio	juicio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	comp	_	_
+16	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	13	punc	_	_
+17	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	19	mphes	_	_
+18	está	estar	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	19	prt	_	_
+19	produciendo	producir	VMG0000	VMG	matched=yes: subj child of top deprel|mood=gerund|pos=verb|type=main	35	subj	_	_
+20	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	adjt	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	22	spec	_	_
+22	sociedad	sociedad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	comp	_	_
+23	vasca	vasco	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	tras	tras	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	adjt	_	_
+25	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	27	spec	_	_
+26	últimos	último	AO0MP00	AO	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=ordinal	27	mod	_	_
+27	acontecimientos	acontecimiento	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	24	comp	_	_
+28	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	19	punc	_	_
 29	especialmente	especialmente	RG	RG	matched=no|pos=adverb|type=general	35	adjt	_	_
 30	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	31	spec	_	_
 31	asesinato	asesinato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	35	modnomatch	_	_
@@ -221,7 +221,7 @@
 106	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	31	punc	_	_
 107	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	Iturgaiz	iturgaiz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Iturgaiz	iturgaiz	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	aseguró	asegurar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -400,13 +400,13 @@
 69	sociedad	sociedad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	67	comp	_	_
 70	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	65	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Parlamento	parlamento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	Vasco	vasco	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Parlamento	parlamento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Vasco	vasco	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 9	María	maría	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
 10	Atutxa	atutxa	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
@@ -510,8 +510,8 @@
 56	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	36	punc	_	_
 57	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
 
-1	Frutos	fruto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	subj	_	_
-2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Frutos	fruto	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
 4	declaraciones	declaración	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
@@ -704,13 +704,13 @@
 81	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	80	modnomatch	_	_
 82	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	62	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	Vasco	vasco	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	portavoz	portavoz	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Vasco	vasco	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	Josu	josu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
 9	Jon	jon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 10	Imaz	imaz	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	modnomatch	_	_
@@ -831,14 +831,14 @@
 67	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	45	punc	_	_
 68	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	45	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	Navarra	navarro	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	presidente	presidente	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	Navarra	navarro	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 9	Miguel	miguel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
 10	Sanz	santo_z	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
 11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
@@ -961,12 +961,12 @@
 74	declaró	declarar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	1	modnorule	_	_
 75	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	74	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	secretario	secretario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	subj	_	_
-3	general	general	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-5	ERC	erc	NC00000	NC	matched=no|pos=noun|type=common	4	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secretario	secretario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+3	general	general	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+5	ERC	erc	NC00000	NC	matched=yes: subj child of top deprel|pos=noun|type=common	4	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 7	Josep	josep	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
 8	Lluís	lluís	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
 9	Carod-Rovira	carod-rovira	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
@@ -1024,8 +1024,8 @@
 61	populares	popular	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	59	comp	_	_
 62	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	59	punc	_	_
 
-1	Estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
-2	declaraciones	declaración	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Estas	este	DD0FP0	DD	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
+2	declaraciones	declaración	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	4	aux	_	_
 4	replicadas	replicar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	0	top	_	_
 5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	agnt	_	_

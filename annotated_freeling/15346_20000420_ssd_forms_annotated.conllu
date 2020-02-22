@@ -1,6 +1,6 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	pívot	pívot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
-3	David	dar_vid	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	pívot	pívot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	David	dar_vid	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	2	mod	_	_
 4	Robinson	robinson	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 5	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	6	iobj	_	_
 6	envió	enviar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -49,8 +49,8 @@
 49	regular	regular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	48	mod	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	Lakers	lakers	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	Lakers	lakers	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	4	aux	_	_
 4	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -101,8 +101,8 @@
 50	Sacramento	sacramento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	49	comp	_	_
 51	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	30	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	Spurs	spurs	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	8	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	Spurs	spurs	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	8	subj	_	_
 3	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	alero	alero	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
@@ -199,8 +199,8 @@
 59	triunfos	triunfo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	15	dobj	_	_
 60	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	59	punc	_	_
 
-1	Malik	malik	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
-2	Rose	ro_e	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
+1	Malik	malik	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Rose	ro_e	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
 3	consiguió	conseguir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	14	14	Z	Z	matched=no|pos=number	5	spec	_	_
 5	puntos	punto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	coor	_	_
@@ -277,8 +277,8 @@
 37	Popovich	popovich	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	36	mod	_	_
 38	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	29	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	spurs	spurs	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	6	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	spurs	spurs	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	6	subj	_	_
 3	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	4	modnomatch	_	_
 4	53-29	53-29	Z	Z	matched=no|pos=number	6	modnomatch	_	_
 5	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	4	modnomatch	_	_
@@ -319,8 +319,8 @@
 40	Phoenix	phoenix	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	39	comp	_	_
 41	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	pívot	pívot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	pívot	pívot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	Shaquille	shaquille	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	O'Neal	o'neal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	modnomatch	_	_
 5	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_

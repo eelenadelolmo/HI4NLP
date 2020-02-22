@@ -1,5 +1,5 @@
-1	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
-2	INCENDIO	incendio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	UN	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	INCENDIO	incendio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	desató	desatar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
@@ -33,8 +33,8 @@
 33	suicidarse	suicidarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	32	dobj	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	llamas	llama	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	llamas	llama	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	extendieron	extender	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	rápidamente	rápidamente	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
@@ -46,7 +46,7 @@
 4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
 5	bomberos	bombero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
 6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-7	13	13	Z	Z	matched=no|pos=number	9	subj	_	_
+7	13	13	Z	Z	matched=yes: subj child of top deprel|pos=number	9	subj	_	_
 8	habían	haber	VAII3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=auxiliary	9	aux	_	_
 9	muerto	morir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
 10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_

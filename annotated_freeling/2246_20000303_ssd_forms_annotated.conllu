@@ -45,9 +45,9 @@
 45	especialidad	especialidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	43	comp	_	_
 46	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
 
-1	Jesús	jesús	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-2	Puras	puro	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	1	mod	_	_
-3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+1	Jesús	jesús	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+2	Puras	puro	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	1	mod	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
@@ -70,22 +70,22 @@
 23	isleña	isleño	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
 24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	vigente	vigente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	campeón	campeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	subj	_	_
-4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-5	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
-7	rallys	rally	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
-8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
-9	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	10	subj	_	_
-10	acudirá	acudir	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	3	mod	_	_
-11	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	10	adjt	_	_
-12	piloto	piloto	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
-13	prioritario	prioritario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
-14	FIA	fi_a	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	modnomatch	_	_
-15	B	b	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	mod	_	_
-16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	vigente	vigente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	campeón	campeón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	España	españa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+7	rallys	rally	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	10	subj	_	_
+10	acudirá	acudir	VMIF3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	3	mod	_	_
+11	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	10	adjt	_	_
+12	piloto	piloto	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+13	prioritario	prioritario	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+14	FIA	fi_a	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	modnomatch	_	_
+15	B	b	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	mod	_	_
+16	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
 17	buscará	buscar	VMIF3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=main	0	top	_	_
 18	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	20	spec	_	_
 19	triple	triple	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
@@ -272,8 +272,8 @@
 55	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	54	modnomatch	_	_
 56	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	42	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Rally	rally	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Rally	rally	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 3	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
 4	Corte	corte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
 5	Inglés	inglés	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_

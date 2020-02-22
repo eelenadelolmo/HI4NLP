@@ -193,9 +193,9 @@
 47	profundidad	profundidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	46	comp	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	salida	salida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	salida	salida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
 4	Puigbó	puigbó	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
 6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	modnomatch	_	_
@@ -275,27 +275,27 @@
 49	Generalitat	generalitat	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
 50	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	49	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	cadena	cadena	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
-3	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-5	capitaneada	capitanear	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	agnt	_	_
-7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
-8	empresario	empresario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-9	gerundense	gerundense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	Bartomeu	bartomeu	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	2	mod	_	_
-11	Espadalé	espadalé	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
-12	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-13	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-14	próximo	próximo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
-15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-16	Convergència	convergència	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
-17	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-18	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
-19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-20	Puigbó	puigbó	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	19	coor	_	_
-21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	cadena	cadena	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	22	subj	_	_
+3	catalana	catalán	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+5	capitaneada	capitanear	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+6	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	agnt	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	empresario	empresario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	gerundense	gerundense	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	Bartomeu	bartomeu	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	2	mod	_	_
+11	Espadalé	espadalé	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	mod	_	_
+12	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+13	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+14	próximo	próximo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+15	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+16	Convergència	convergència	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+17	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+18	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+19	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+20	Puigbó	puigbó	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	19	coor	_	_
+21	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 22	consiguió	conseguir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 23	entonces	entonces	RG	RG	matched=no|pos=adverb|type=general	22	adjt	_	_
 24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	22	punc	_	_

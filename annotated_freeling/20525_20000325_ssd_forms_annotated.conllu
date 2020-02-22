@@ -1,9 +1,9 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	PNV	pnv	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	3	comp	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	portavoz	portavoz	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	PNV	pnv	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 7	Joseba	joseba	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	Egibar	egibar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	dobj	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
@@ -73,7 +73,7 @@
 73	terrorista	terrorista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	72	mod	_	_
 74	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	70	punc	_	_
 
-1	Egibar	egibar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	subj	_	_
+1	Egibar	egibar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	subj	_	_
 2	participó	participar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
 4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
@@ -116,11 +116,11 @@
 5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
 6	reunión	reunión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
 7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
-8	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	spec	_	_
-9	portavoz	portavoz	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
-10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
-11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
-12	PNV	pnv	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	10	comp	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	portavoz	portavoz	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	PNV	pnv	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	10	comp	_	_
 13	ofreció	ofrecer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 14	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
 15	rueda	rueda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
@@ -324,7 +324,7 @@
 70	produjera	producir	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	68	comp	_	_
 71	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	67	punc	_	_
 
-1	Egibar	egibar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	subj	_	_
+1	Egibar	egibar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	subj	_	_
 2	criticó	criticar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	también	también	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
 4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -406,10 +406,10 @@
 24	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	1	punc	_	_
 25	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 26	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	1	punc	_	_
-27	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
-28	propuesta	propuesta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	subj	_	_
-29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	mod	_	_
-30	Ibarretxe	ibarretxe	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	29	comp	_	_
+27	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	28	spec	_	_
+28	propuesta	propuesta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	31	subj	_	_
+29	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	28	mod	_	_
+30	Ibarretxe	ibarretxe	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	29	comp	_	_
 31	supone	suponer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 32	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	33	spec	_	_
 33	respuesta	respuesta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	dobj	_	_

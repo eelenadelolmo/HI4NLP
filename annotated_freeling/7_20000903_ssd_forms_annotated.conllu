@@ -1,10 +1,10 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	religiosa	religioso	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	por	por	SP	SP	matched=no|pos=adposition|type=preposition	6	subj	_	_
-4	cuya	cuyo	PR0FS00	PR	gen=feminine|matched=no|num=singular|pos=pronoun|type=relative	3	spec	_	_
-5	curación	curación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
-6	será	ser	VSIF3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	2	mod	_	_
-7	beato	beato	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	attr	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	religiosa	religioso	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	subj	_	_
+4	cuya	cuyo	PR0FS00	PR	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=relative	3	spec	_	_
+5	curación	curación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	modnomatch	_	_
+6	será	ser	VSIF3S0	VSI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=future|type=semiauxiliary	2	mod	_	_
+7	beato	beato	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	attr	_	_
 8	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 9	XXIII	xxiii	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
 10	rehúye	rehuir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	modnomatch	_	_
@@ -16,15 +16,15 @@
 1	Caterina	caterina	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	modnomatch	_	_
 2	Capitani	capitani	RG	RG	matched=no|pos=adverb|type=general	1	spec	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	13	subj	_	_
-5	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
-6	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	4	comp	_	_
-7	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
-8	devota	devoto	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
-10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
-11	Papa	papa	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+4	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	13	subj	_	_
+5	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	6	spec	_	_
+6	era	ser	VSII3S0	VSI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	4	comp	_	_
+7	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	devota	devoto	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	attr	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	mod	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	Papa	papa	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
 13	sanó	sanar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
 15	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	16	spec	_	_
@@ -32,16 +32,16 @@
 17	mortal	mortal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
 18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	beneficiaria	beneficiario	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	milagro	milagro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
-7	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	9	iobj	_	_
-8	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
-9	valido	valer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
-10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	beneficiaria	beneficiario	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	milagro	milagro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+7	le	le	PP3CSD0	PP	case=dative|gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	9	iobj	_	_
+8	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	9	aux	_	_
+9	valido	valer	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+10	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
 11	Juan	juan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 12	XXIII	xxiii	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
 13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
@@ -145,14 +145,14 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 2	1966	1966	Z	Z	matched=no|pos=number	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	monja	monje	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	monja	monje	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 6	vomitó	vomitar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 7	sangre	sangre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	hecho	hecho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	hecho	hecho	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
 4	repitió	repetir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	a_el_cabo_de	al_cabo_de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
@@ -174,8 +174,8 @@
 21	Zannini	zannini	RG	RG	matched=no|pos=adverb|type=general	20	adjt	_	_
 22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	doctor	doctor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	doctor	doctor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	iobj	_	_
 4	diagnosticó	diagnosticar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 5	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
@@ -296,8 +296,8 @@
 1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
 2	realidad	realidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
 3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	hermana	hermano	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	hermana	hermano	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
 6	Capitani	capitani	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
 7	confiesa	confesar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	dobj	_	_
@@ -362,9 +362,9 @@
 8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
 9	muerte	muerte	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-11	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
-12	monja	monje	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+11	otra	otro	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	monja	monje	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	12	punc	_	_
 14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
 15	hermana	hermano	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	modnomatch	_	_
 16	Adele	a_dele	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	mod	_	_

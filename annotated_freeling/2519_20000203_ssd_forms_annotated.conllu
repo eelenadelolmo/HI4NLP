@@ -1,23 +1,23 @@
-1	Varios	varios	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	médicos	médico	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	25	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
-5	brigadas	brigada	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-7	socorro	socorro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
-8	enviadas	enviar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	2	mod	_	_
-9	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	agnt	_	_
-10	Cuba	cuba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-11	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
-12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
-13	desastre	desastre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
-14	natural	natural	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
-15	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
-16	asoló	asolar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	13	mod	_	_
-17	Venezuela	venezuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
-18	a_mediados_de	a_mediados_de	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
-19	diciembre	[??:??/12/??:??.??:??]	W	W	matched=no|pos=date	18	comp	_	_
-20	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	2	modnomatch	_	_
+1	Varios	varios	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	médicos	médico	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	25	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	brigadas	brigada	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	socorro	socorro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	enviadas	enviar	VMP00PF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	2	mod	_	_
+9	por	por	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	agnt	_	_
+10	Cuba	cuba	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+11	tras	tras	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	adjt	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	13	spec	_	_
+13	desastre	desastre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+14	natural	natural	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+16	asoló	asolar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	13	mod	_	_
+17	Venezuela	venezuela	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	dobj	_	_
+18	a_mediados_de	a_mediados_de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	16	adjt	_	_
+19	diciembre	[??:??/12/??:??.??:??]	W	W	matched=yes: subj child of top deprel|pos=date	18	comp	_	_
+20	han	haber	VAIP3P0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	2	modnomatch	_	_
 21	pedido	pedir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	22	mod	_	_
 22	asilo	asilo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	25	modnomatch	_	_
 23	político	político	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
@@ -83,7 +83,7 @@
 47	peticiones	petición	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	45	dobj	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	40	punc	_	_
 
-1	Romaní	romaní	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Romaní	romaní	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	indicó	indicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
 4	envió	enviar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	3	comp	_	_
@@ -157,7 +157,7 @@
 30	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	5	punc	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Cuba	cuba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+1	Cuba	cuba	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
 2	envió	enviar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 3	varias	varios	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	4	spec	_	_
 4	brigadas	brigada	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_

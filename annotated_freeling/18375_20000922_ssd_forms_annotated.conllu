@@ -1,6 +1,6 @@
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	Bolsa	bolsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Bolsa	bolsa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
 4	París	parir	VMIP2P0	VMI	matched=no|mood=indicative|num=plural|person=2|pos=verb|tense=present|type=main	0	top	_	_
 5	acogió	acoger	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	4	modnomatch	_	_
 6	hoy	hoy	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
@@ -33,10 +33,10 @@
 33	Bruselas	brusela	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	32	coor	_	_
 34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	Varios	varios	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	centenares	centenar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+1	Varios	varios	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	centenares	centenar	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
 5	acudieron	acudir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
@@ -82,31 +82,31 @@
 47	edificio	edificio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	45	comp	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	centralita	centralita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	Bolsa	bolsa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
-7	París	parir	VMIP2P0	VMI	matched=no|mood=indicative|num=plural|person=2|pos=verb|tense=present|type=main	19	coor	_	_
-8	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	10	mphes	_	_
-9	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	10	aux	_	_
-10	puesto	poner	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	19	coor	_	_
-11	también	también	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
-12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
-13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
-14	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
-15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
-16	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	18	spec	_	_
-17	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
-18	realidad	realidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
-19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-20	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	21	mphes	_	_
-21	identifica	identificar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	19	coor	_	_
-22	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
-23	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
-24	quot	quot	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-25	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	centralita	centralita	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	27	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Bolsa	bolsa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+7	París	parir	VMIP2P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=2|pos=verb|tense=present|type=main	19	coor	_	_
+8	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	10	mphes	_	_
+9	ha	haber	VAIP3S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	10	aux	_	_
+10	puesto	poner	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	19	coor	_	_
+11	también	también	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	10	adjt	_	_
+12	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	10	pobj	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	14	spec	_	_
+14	día	día	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	mod	_	_
+16	su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	18	spec	_	_
+17	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+18	realidad	realidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	15	comp	_	_
+19	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+20	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	21	mphes	_	_
+21	identifica	identificar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	19	coor	_	_
+22	como	como	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	2	modnomatch	_	_
+23	&	&	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+24	quot	quot	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+25	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	2	punc	_	_
 26	Euronext	euronext	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	modnomatch	_	_
 27	París	parir	VMIP2P0	VMI	matched=no|mood=indicative|num=plural|person=2|pos=verb|tense=present|type=main	0	top	_	_
 28	&	&	Fz	Fz	matched=no|pos=punctuation|type=other	27	punc	_	_
@@ -114,8 +114,8 @@
 30	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	27	punc	_	_
 31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	brindis	brindis	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	13	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	brindis	brindis	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	13	subj	_	_
 3	por	por	SP	SP	matched=no|pos=adposition|type=preposition	13	agnt	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
 5	nacimiento	nacimiento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
@@ -249,8 +249,8 @@
 44	de	de	SP	SP	matched=no|pos=adposition|type=preposition	50	adjt	_	_
 45	Japón	japón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	44	comp	_	_
 46	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	44	punc	_	_
-47	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	48	spec	_	_
-48	CAC-40	CAC-40	Z	Z	matched=no|pos=number	50	subj	_	_
+47	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	48	spec	_	_
+48	CAC-40	CAC-40	Z	Z	matched=yes: subj child of top deprel|pos=number	50	subj	_	_
 49	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	50	mphes	_	_
 50	situaba	situar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
 51	en	en	SP	SP	matched=no|pos=adposition|type=preposition	50	pobj	_	_

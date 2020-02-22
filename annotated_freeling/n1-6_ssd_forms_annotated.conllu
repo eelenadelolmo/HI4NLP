@@ -163,11 +163,11 @@
 8	pueblos	pueblo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
-1	Lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	4	subj	_	_
-3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
-4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	6	subj	_	_
-5	necesario	necesario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	attr	_	_
+1	Lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+3	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	4	spec	_	_
+4	es	ser	VSIP3S0	VSI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	6	subj	_	_
+5	necesario	necesario	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	attr	_	_
 6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	tráfico	tráfico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	coor	_	_
@@ -239,8 +239,8 @@
 6	miedo	miedo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
 7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
-1	Nuestra	nuestro	DP1FSP	DP	gen=feminine|matched=no|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	2	spec	_	_
-2	experiencia	experiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Nuestra	nuestro	DP1FSP	DP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	2	spec	_	_
+2	experiencia	experiencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
 5	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_

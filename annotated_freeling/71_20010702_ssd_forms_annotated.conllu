@@ -97,8 +97,8 @@
 48	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	15	punc	_	_
 49	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	fotografías	fotografía	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	fotografías	fotografía	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
 3	más	más	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
 4	vistas	ver	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	9	modnomatch	_	_
 5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
@@ -149,10 +149,10 @@
 14	mayores	mayor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	15	mod	_	_
 15	golpes	golpe	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
 16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
-17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
-18	tema	tema	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
-19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
-20	conversación	conversación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	18	spec	_	_
+18	tema	tema	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	subj	_	_
+19	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	18	mod	_	_
+20	conversación	conversación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	19	comp	_	_
 21	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
 22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
 23	actuación	actuación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	25	coor	_	_
@@ -302,10 +302,10 @@
 
 1	Ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
 2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-3	varios	varios	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	4	spec	_	_
-4	cientos	ciento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
-6	manifestantes	manifestante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+3	varios	varios	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	4	spec	_	_
+4	cientos	ciento	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	manifestantes	manifestante	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	comp	_	_
 7	firmaron	firmar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
 9	poder	poder	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
@@ -372,7 +372,7 @@
 19	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	dobj	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
 
-1	Eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	3	subj	_	_
+1	Eso	ese	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	3	subj	_	_
 2	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	3	mphes	_	_
 3	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 4	peligrosos	peligroso	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	pred	_	_

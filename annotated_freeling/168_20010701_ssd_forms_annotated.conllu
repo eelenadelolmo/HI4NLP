@@ -34,9 +34,9 @@
 34	Tarragona	tarragona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	33	comp	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	33	punc	_	_
 
-1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-2	primeras	1	AO0FP00	AO	gen=feminine|matched=no|num=plural|pos=adjective|type=ordinal	3	mod	_	_
-3	informaciones	información	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+2	primeras	1	AO0FP00	AO	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=ordinal	3	mod	_	_
+3	informaciones	información	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 4	apuntan	apuntar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
 6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	comp	_	_
@@ -136,8 +136,8 @@
 42	lista	lista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	40	comp	_	_
 43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	edil	edil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	edil	edil	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
 3	podría	poder	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	4	prt	_	_
 4	dimitir	dimitir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
 5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_

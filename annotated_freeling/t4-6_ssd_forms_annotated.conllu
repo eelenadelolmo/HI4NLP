@@ -32,8 +32,8 @@
 18	apellido	apellido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
 19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
 
-1	Mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
-2	vecino	vecino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	vecino	vecino	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
 5	psiquiatra	psiquiatra	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
@@ -43,7 +43,7 @@
 9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
 
 1	Casi	casi	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
-2	todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	4	subj	_	_
+2	todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	4	subj	_	_
 3	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	dobj	_	_
 4	están	estar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
 5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	attr	_	_
@@ -69,8 +69,8 @@
 7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
 
 1	Aquí	aquí	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
-2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
-3	búhos	búho	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+3	búhos	búho	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
 4	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 5	pequeños	pequeño	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	6	coor	_	_
 6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	attr	_	_
@@ -125,7 +125,7 @@
 7	tanto	tanto	RG	RG	matched=no|pos=adverb|type=general	5	coor	_	_
 8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
 
-1	Todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	2	subj	_	_
+1	Todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	2	subj	_	_
 2	sabemos	saber	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
 3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
 4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
@@ -139,9 +139,9 @@
 12	mañana	mañana	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
 13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	peor	peor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	subj	_	_
-3	mío	mío	AP0MS1S	AP	gen=masculine|matched=no|num=singular|pos=adjective|possessornum=singular|possessorpers=1|type=possessive	2	mod	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	peor	peor	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	subj	_	_
+3	mío	mío	AP0MS1S	AP	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|possessornum=singular|possessorpers=1|type=possessive	2	mod	_	_
 4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
 5	ayer	ayer	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
 6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_

@@ -1,8 +1,8 @@
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	impacto	impacto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
-5	pájaro	pájaro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	impacto	impacto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	30	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	pájaro	pájaro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 6	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
 7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
 8	turbina	turbina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
@@ -104,33 +104,33 @@
 44	Londres	londres	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	43	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	avión	avión	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	subj	_	_
-3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
-4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
-5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	3	comp	_	_
-6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
-7	chicos	chico	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	subj	_	_
-8	partieron	partir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	2	mod	_	_
-9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
-10	Valencia	valencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
-11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
-12	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	14	subj	_	_
-13	ya	ya	RG	RG	matched=no|pos=adverb|type=general	14	adjt	_	_
-14	sufría	sufrir	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
-15	tres_horas_y_media	[??:??/??/??:3.30:??]	W	W	matched=no|pos=date	14	adjt	_	_
-16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
-17	retraso	retraso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
-18	cuando	cuando	PR00000	PR	matched=no|pos=pronoun|type=relative	19	subj	_	_
-19	despegó	despegar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	17	mod	_	_
-20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
-21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
-22	capital	capital	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
-23	levantina	levantino	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	22	mod	_	_
-24	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
-25	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	26	spec	_	_
-26	1.30_horas	TM_h:1.30	Zu	Zu	matched=no|pos=number|type=unit	24	comp	_	_
-27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	avión	avión	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	31	subj	_	_
+3	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	pobj	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	3	comp	_	_
+6	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	7	spec	_	_
+7	chicos	chico	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+8	partieron	partir	VMIS3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	2	mod	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	pobj	_	_
+10	Valencia	valencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+11	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+12	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	14	subj	_	_
+13	ya	ya	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	14	adjt	_	_
+14	sufría	sufrir	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+15	tres_horas_y_media	[??:??/??/??:3.30:??]	W	W	matched=yes: subj child of top deprel|pos=date	14	adjt	_	_
+16	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	14	adjt	_	_
+17	retraso	retraso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
+18	cuando	cuando	PR00000	PR	matched=yes: subj child of top deprel|pos=pronoun|type=relative	19	subj	_	_
+19	despegó	despegar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	17	mod	_	_
+20	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	adjt	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	22	spec	_	_
+22	capital	capital	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	comp	_	_
+23	levantina	levantino	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	22	mod	_	_
+24	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	adjt	_	_
+25	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	26	spec	_	_
+26	1.30_horas	TM_h:1.30	Zu	Zu	matched=yes: subj child of top deprel|pos=number|type=unit	24	comp	_	_
+27	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 28	volvió	volver	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	31	prt	_	_
 29	a	a	SP	SP	matched=no|pos=adposition|type=preposition	31	prt	_	_
 30	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	31	aux	_	_
@@ -312,8 +312,8 @@
 32	Jarabo	jarabo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	31	dobj	_	_
 33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	monitor	monitor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	monitor	monitor	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	explicó	explicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	6	spec	_	_
@@ -367,8 +367,8 @@
 19	estudiantes	estudiante	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
 20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
 
-1	Varios	varios	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	2	spec	_	_
-2	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Varios	varios	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	niños	niño	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	relataron	relatar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
 5	Efe	efe	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
@@ -413,8 +413,8 @@
 44	operaciones	operación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	43	comp	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	34	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	compañía	compañía	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
 3	señaló	señalar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	tras	tras	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
@@ -507,8 +507,8 @@
 34	dormir	dormir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	26	comp	_	_
 35	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
 
-1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
-2	monitores	monitor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	subj	_	_
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	monitores	monitor	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
 3	destacaron	destacar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
 4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
 5	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_

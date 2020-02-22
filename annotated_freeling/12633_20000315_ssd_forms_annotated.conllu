@@ -93,9 +93,9 @@
 47	objetivos	objetivo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	44	dobj	_	_
 48	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
-2	escasa	escaso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
-3	presencia	presencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	escasa	escaso	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	presencia	presencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
 4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
 5	interesados	interesar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	comp	_	_
 6	provocó	provocar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
@@ -176,34 +176,34 @@
 39	Bolivia	bolivia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	38	coor	_	_
 40	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	directora	director	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Turismo	turismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-6	México	méxico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-8	Fráncfort	fráncfort	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
-9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
-10	Anne	anne	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
-11	Schumacher	schumacher	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
-12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
-13	dijo	decir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	25	coor	_	_
-14	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	13	dobj	_	_
-15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
-16	relación	relación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	subj	_	_
-17	dólar-marco	dólar_marco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	mod	_	_
-18	impidió	impedir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	14	comp	_	_
-19	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	18	dobj	_	_
-20	existiera	existir	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	19	comp	_	_
-21	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	23	spec	_	_
-22	mayor	mayor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	23	mod	_	_
-23	interés	interés	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
-24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
-25	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
-26	destacó	destacar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	25	coor	_	_
-27	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
-28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	directora	director	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	34	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Turismo	turismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	México	méxico	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	Fráncfort	fráncfort	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
+10	Anne	anne	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+11	Schumacher	schumacher	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	25	punc	_	_
+13	dijo	decir	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	25	coor	_	_
+14	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	13	dobj	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	relación	relación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+17	dólar-marco	dólar_marco	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	mod	_	_
+18	impidió	impedir	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	14	comp	_	_
+19	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	18	dobj	_	_
+20	existiera	existir	VMSI3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	19	comp	_	_
+21	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	23	spec	_	_
+22	mayor	mayor	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	23	mod	_	_
+23	interés	interés	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+24	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	25	punc	_	_
+25	pero	pero	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+26	destacó	destacar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	25	coor	_	_
+27	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	2	modnomatch	_	_
+28	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 29	a_pesar_de	a_pesar_de	SP	SP	matched=no|pos=adposition|type=preposition	34	adjt	_	_
 30	ello	ello	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	29	comp	_	_
 31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	29	punc	_	_
@@ -286,13 +286,13 @@
 7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
 8	Integración	integración	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
 9	Centroamericana	centroamericano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
-10	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	11	modnomatch	_	_
-11	SICA	sica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
-12	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	11	modnomatch	_	_
-13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
-14	Lucy	lucy	RG	RG	matched=no|pos=adverb|type=general	15	spec	_	_
-15	Valenti	valenti	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	11	mod	_	_
-16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+10	(	(	Fpa	Fpa	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=open|type=parenthesis	11	modnomatch	_	_
+11	SICA	sica	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	21	subj	_	_
+12	)	)	Fpt	Fpt	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=parenthesis	11	modnomatch	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	11	punc	_	_
+14	Lucy	lucy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	15	spec	_	_
+15	Valenti	valenti	AQ0CN00	AQ	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=adjective|type=qualificative	11	mod	_	_
+16	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	11	punc	_	_
 17	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	18	spec	_	_
 18	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	modnomatch	_	_
 19	asiáticos	asiático	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	18	mod	_	_
@@ -426,11 +426,11 @@
 14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
 15	turistas	turista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
 16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
-17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
-18	paulatina	paulatino	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
-19	apertura	apertura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	subj	_	_
-20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
-21	Cuba	cuba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	19	spec	_	_
+18	paulatina	paulatino	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+19	apertura	apertura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	23	subj	_	_
+20	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	19	mod	_	_
+21	Cuba	cuba	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	comp	_	_
 22	sigue	seguir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	23	prt	_	_
 23	siendo	ser	VSG0000	VSG	matched=no|mood=gerund|pos=verb|type=semiauxiliary	0	top	_	_
 24	motivo	motivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	attr	_	_
@@ -566,10 +566,10 @@
 67	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	66	modnomatch	_	_
 68	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	55	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	operadora	operador	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	turismo	turismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	operadora	operador	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	turismo	turismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
 5	peruana	peruano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
 6	Gloria	gloria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
 7	Mancisidor	mancisidor	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
@@ -619,13 +619,13 @@
 51	turística	turístico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	50	mod	_	_
 52	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	secretaria	secretario	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Turismo	turismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-6	Paraguay	par_aguay	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
-7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	secretaria	secretario	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Turismo	turismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	Paraguay	par_aguay	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 8	Juani	juani	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
 9	Quevedo	quevedo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	modnomatch	_	_
 10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
@@ -665,12 +665,12 @@
 44	atractivos	atractivo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	41	dobj	_	_
 45	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	31	punc	_	_
 
-1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
-2	representante	representante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	7	subj	_	_
-3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
-4	Costa	costa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
-5	Rica	rico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
-6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	representante	representante	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Costa	costa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	Rica	rico	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
 7	Claudia	claudia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
 8	Fernández	fernández	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
 9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_

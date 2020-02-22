@@ -12,10 +12,10 @@
 12	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	13	spec	_	_
 13	Beatles	beatles	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
 14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
-15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
-16	Hotel	hotel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	32	subj	_	_
-17	Cabana	cabana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	mod	_	_
-18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	Hotel	hotel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	32	subj	_	_
+17	Cabana	cabana	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	mod	_	_
+18	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	16	punc	_	_
 19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	32	adjt	_	_
 20	Palo	palo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
 21	Alto	alto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
