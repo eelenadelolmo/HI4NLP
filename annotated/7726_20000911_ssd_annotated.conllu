@@ -157,7 +157,7 @@
 17	Tribunal	Tribunal	np00000	np00000	matched=no	16	pobj	_	_
 18	,	,	fc	fc	matched=no	19	punct	_	_
 19	recordó	recordar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-20	Ramírez	Ramírez	np00000	np00000	matched=no	19	nsubj	_	_
+20	Ramírez	Ramírez	np00000	np00000	matched=yes: nsubj child of root deprel	19	nsubj	_	_
 21	.	.	fp	fp	matched=no	19	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	18	punct	_	_
@@ -198,8 +198,8 @@
 36	&quot;	&quot;	fe	fe	matched=no	18	punct	_	_
 37	,	,	fc	fc	matched=no	38	punct	_	_
 38	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-39	la	el	da0fs0	da0fs0	matched=no	40	det	_	_
-40	ministra	ministra	ncfs000	ncfs000	matched=no	38	nsubj	_	_
+39	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	40	det	_	_
+40	ministra	ministra	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	38	nsubj	_	_
 41	.	.	fp	fp	matched=no	38	punct	_	_
 
 1	Ramírez	Ramírez	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
@@ -403,7 +403,7 @@
 51	&quot;	&quot;	fe	fe	matched=no	25	punct	_	_
 52	,	,	fc	fc	matched=no	53	punct	_	_
 53	comentó	comentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-54	Ramírez	Ramírez	np00000	np00000	matched=no	53	nsubj	_	_
+54	Ramírez	Ramírez	np00000	np00000	matched=yes: nsubj child of root deprel	53	nsubj	_	_
 55	.	.	fp	fp	matched=no	53	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

@@ -66,14 +66,14 @@
 18	,	,	fc	fc	matched=no	19	punct	_	_
 19	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 20	hoy	hoy	rg	rg	matched=no	19	advmod	_	_
-21	la	el	da0fs0	da0fs0	matched=no	23	det	_	_
-22	&quot;	&quot;	fe	fe	matched=no	23	punct	_	_
-23	número	número	ncms000	ncms000	matched=no	19	nsubj	_	_
-24	dos	dos	pn0cp000	pn0cp000	matched=no	23	dep	_	_
-25	&quot;	&quot;	fe	fe	matched=no	23	punct	_	_
-26	del	del	spcms	spcms	matched=no	23	prepn	_	_
-27	Gobierno	Gobierno	np0000o	np0000o	matched=no	26	pobj	_	_
-28	austriaco	austriaco	aq0ms0	aq0ms0	matched=no	27	amod	_	_
+21	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	23	det	_	_
+22	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	23	punct	_	_
+23	número	número	ncms000	ncms000	matched=yes: nsubj child of root deprel	19	nsubj	_	_
+24	dos	dos	pn0cp000	pn0cp000	matched=yes: nsubj child of root deprel	23	dep	_	_
+25	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	23	punct	_	_
+26	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	23	prepn	_	_
+27	Gobierno	Gobierno	np0000o	np0000o	matched=yes: nsubj child of root deprel	26	pobj	_	_
+28	austriaco	austriaco	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	27	amod	_	_
 29	,	,	fc	fc	matched=no	19	punct	_	_
 30	en	en	sps00	sps00	matched=no	19	prepv	_	_
 31	una	uno	di0fs0	di0fs0	matched=no	32	det	_	_
@@ -264,8 +264,8 @@
 40	&quot;	&quot;	fe	fe	matched=no	29	punct	_	_
 41	,	,	fc	fc	matched=no	42	punct	_	_
 42	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-43	la	el	da0fs0	da0fs0	matched=no	44	det	_	_
-44	vicecanciller	vicecanciller	nccs000	nccs000	matched=no	42	nsubj	_	_
+43	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	44	det	_	_
+44	vicecanciller	vicecanciller	nccs000	nccs000	matched=yes: nsubj child of root deprel	42	nsubj	_	_
 45	.	.	fp	fp	matched=no	42	punct	_	_
 
 1	Igualmente	igualmente	rg	rg	matched=no	3	advmod	_	_

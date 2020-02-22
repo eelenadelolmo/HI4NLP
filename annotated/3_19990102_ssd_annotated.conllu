@@ -229,7 +229,7 @@
 31	estabilidad	estabilidad	ncfs000	ncfs000	matched=no	30	pobj	_	_
 32	,	,	fc	fc	matched=no	33	punct	_	_
 33	señaló	señalar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-34	Edlinger	Edlinger	np00000	np00000	matched=no	33	nsubj	_	_
+34	Edlinger	Edlinger	np00000	np00000	matched=yes: nsubj child of root deprel	33	nsubj	_	_
 35	.	.	fp	fp	matched=no	33	punct	_	_
 
 1	Alemania	Alemania	np00000	np00000	matched=no	2	nsubj	_	_
@@ -300,13 +300,13 @@
 11	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
 12	,	,	fc	fc	matched=no	13	punct	_	_
 13	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-14	el	el	da0ms0	da0ms0	matched=no	15	det	_	_
-15	ministro	ministro	ncms000	ncms000	matched=no	13	nsubj	_	_
-16	portugués	portugués	aq0ms0	aq0ms0	matched=no	15	amod	_	_
-17	,	,	fc	fc	matched=no	15	punct	_	_
-18	António	António	np0000o	np0000o	matched=no	15	appos	_	_
-19	de	de	sps00	sps00	matched=no	18	prepn	_	_
-20	Sousa	Sousa	np0000l	np0000l	matched=no	19	pobj	_	_
+14	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	15	det	_	_
+15	ministro	ministro	ncms000	ncms000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
+16	portugués	portugués	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	15	amod	_	_
+17	,	,	fc	fc	matched=yes: nsubj child of root deprel	15	punct	_	_
+18	António	António	np0000o	np0000o	matched=yes: nsubj child of root deprel	15	appos	_	_
+19	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	18	prepn	_	_
+20	Sousa	Sousa	np0000l	np0000l	matched=yes: nsubj child of root deprel	19	pobj	_	_
 21	.	.	fp	fp	matched=no	13	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -352,18 +352,18 @@
 
 1	No	no	rn	rn	matched=no	2	neg	_	_
 2	cuesta	costar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-3	igual	igual	rg	rg	matched=no	4	advmod	_	_
-4	un	uno	di0ms0	di0ms0	matched=no	6	det	_	_
-5	mismo	mismo	di0ms0	di0ms0	matched=no	6	det	_	_
-6	producto	producto	ncms000	ncms000	matched=no	2	nsubj	_	_
+3	igual	igual	rg	rg	matched=yes: nsubj child of root deprel	4	advmod	_	_
+4	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	6	det	_	_
+5	mismo	mismo	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	producto	producto	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 7	en	en	sps00	sps00	matched=no	2	prepv	_	_
 8	Barcelona	Barcelona	np00000	np00000	matched=no	7	pobj	_	_
-9	que	que	cs	cs	matched=no	3	crobj	_	_
-10	en	en	sps00	sps00	matched=no	12	coord	_	_
-11	Murcia	Murcia	np00000	np00000	matched=no	10	pobj	_	_
-12	o	o	cc	cc	matched=no	9	cobj	_	_
-13	en	en	sps00	sps00	matched=no	12	coord	_	_
-14	Pontevedra	Pontevedra	np00000	np00000	matched=no	13	pobj	_	_
+9	que	que	cs	cs	matched=yes: nsubj child of root deprel	3	crobj	_	_
+10	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	12	coord	_	_
+11	Murcia	Murcia	np00000	np00000	matched=yes: nsubj child of root deprel	10	pobj	_	_
+12	o	o	cc	cc	matched=yes: nsubj child of root deprel	9	cobj	_	_
+13	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	12	coord	_	_
+14	Pontevedra	Pontevedra	np00000	np00000	matched=yes: nsubj child of root deprel	13	pobj	_	_
 15	.	.	fp	fp	matched=no	2	punct	_	_
 
 1	Hay	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
@@ -421,12 +421,12 @@
 2	pesetas	peseta	ncfp000	ncfp000	matched=no	1	pobj	_	_
 3	se	se	p0000000	p0000000	matched=no	4	reflec	_	_
 4	ve	ver	vmip3s0	vmip3s0	matched=no	0	root	_	_
-5	la	el	da0fs0	da0fs0	matched=no	6	det	_	_
-6	diferencia	diferencia	ncfs000	ncfs000	matched=no	4	nsubj	_	_
-7	de	de	sps00	sps00	matched=no	6	prepn	_	_
-8	forma	forma	ncfs000	ncfs000	matched=no	7	pobj	_	_
-9	bien	bien	rg	rg	matched=no	10	advmod	_	_
-10	transparente	transparente	aq0cs0	aq0cs0	matched=no	8	amod	_	_
+5	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	diferencia	diferencia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+7	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	6	prepn	_	_
+8	forma	forma	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	7	pobj	_	_
+9	bien	bien	rg	rg	matched=yes: nsubj child of root deprel	10	advmod	_	_
+10	transparente	transparente	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	8	amod	_	_
 11	:	:	fd	fd	matched=no	14	punct	_	_
 12	en	en	sps00	sps00	matched=no	14	prepv	_	_
 13	Berlín	Berlín	np00000	np00000	matched=no	12	pobj	_	_
@@ -563,11 +563,11 @@
 4	tenerla	tenerla	vmn0000	vmn0000	matched=no	3	dobj	_	_
 5	en	en	spcms	spcms	matched=no	4	iobj	_	_
 6	cuenta	cuenta	ncms000	ncms000	matched=no	5	pobj	_	_
-7	las	el	da0fp0	da0fp0	matched=no	8	det	_	_
-8	empresas	empresa	ncfp000	ncfp000	matched=no	3	nsubj	_	_
-9	de	de	sps00	sps00	matched=no	8	prepn	_	_
-10	gran	gran	aq0cs0	aq0cs0	matched=no	11	amod	_	_
-11	consumo	consumo	ncms000	ncms000	matched=no	9	pobj	_	_
+7	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	empresas	empresa	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+9	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	gran	gran	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	11	amod	_	_
+11	consumo	consumo	ncms000	ncms000	matched=yes: nsubj child of root deprel	9	pobj	_	_
 12	en	en	sps00	sps00	matched=no	4	prepv	_	_
 13	sus	su	dp3cp0	dp3cp0	matched=no	14	poss	_	_
 14	políticas	política	ncfp000	ncfp000	matched=no	12	pobj	_	_

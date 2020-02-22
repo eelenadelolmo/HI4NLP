@@ -24,12 +24,12 @@
 24	dólares	dólar	zm	zm	matched=no	23	pobj	_	_
 25	,	,	fc	fc	matched=no	26	punct	_	_
 26	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-27	hoy	hoy	rg	rg	matched=no	28	advmod	_	_
-28	un	uno	di0ms0	di0ms0	matched=no	29	det	_	_
-29	comunicado	comunicado	ncms000	ncms000	matched=no	26	nsubj	_	_
-30	del	del	spcms	spcms	matched=no	29	prepn	_	_
-31	Banco	banco	ncfs000	ncfs000	matched=no	30	pobj	_	_
-32	Central	central	nc00000	nc00000	matched=no	31	appos	_	_
+27	hoy	hoy	rg	rg	matched=yes: nsubj child of root deprel	28	advmod	_	_
+28	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	29	det	_	_
+29	comunicado	comunicado	ncms000	ncms000	matched=yes: nsubj child of root deprel	26	nsubj	_	_
+30	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	29	prepn	_	_
+31	Banco	banco	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	30	pobj	_	_
+32	Central	central	nc00000	nc00000	matched=yes: nsubj child of root deprel	31	appos	_	_
 33	.	.	fp	fp	matched=no	26	punct	_	_
 
 1	Según	según	sps00	sps00	matched=no	18	prepv	_	_

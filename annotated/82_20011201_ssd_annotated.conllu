@@ -45,10 +45,10 @@
 5	se	se	p0000000	p0000000	matched=no	6	reflec	_	_
 6	están	estar	vmip3p0	vmip3p0	matched=no	0	root	_	_
 7	probando	probar	vmg0000	vmg0000	matched=no	6	attr	_	_
-8	dos	dos	pn0cp000	pn0cp000	matched=no	6	nsubj	_	_
-9	de	de	sps00	sps00	matched=no	8	prepn	_	_
-10	las	el	da0fp0	da0fp0	matched=no	11	det	_	_
-11	cámaras	cámara	ncfp000	ncfp000	matched=no	9	pobj	_	_
+8	dos	dos	pn0cp000	pn0cp000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+9	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	cámaras	cámara	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	9	pobj	_	_
 12	.	.	fp	fp	matched=no	6	punct	_	_
 
 1	Joan	Joan	np0000l	np0000l	matched=yes: nsubj child of root deprel	3	nsubj	_	_

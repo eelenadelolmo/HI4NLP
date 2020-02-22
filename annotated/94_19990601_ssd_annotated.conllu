@@ -547,12 +547,12 @@
 25	)	)	fpt	fpt	matched=no	9	punct	_	_
 26	se	él	p0300000	p0300000	matched=no	27	reflec	_	_
 27	desprende	desprender	vmip3s0	vmip3s0	matched=no	0	root	_	_
-28	la	el	da0fs0	da0fs0	matched=no	29	det	_	_
-29	fortaleza	fortaleza	ncfs000	ncfs000	matched=no	27	nsubj	_	_
-30	de	de	sps00	sps00	matched=no	29	prepn	_	_
-31	la	el	da0fs0	da0fs0	matched=no	32	det	_	_
-32	inversión	inversión	ncfs000	ncfs000	matched=no	30	pobj	_	_
-33	española	español	aq0fs0	aq0fs0	matched=no	32	amod	_	_
+28	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	29	det	_	_
+29	fortaleza	fortaleza	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	27	nsubj	_	_
+30	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	29	prepn	_	_
+31	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	32	det	_	_
+32	inversión	inversión	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	30	pobj	_	_
+33	española	español	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	32	amod	_	_
 34	.	.	fp	fp	matched=no	27	punct	_	_
 
 1	En	en	sps00	sps00	matched=no	13	prepv	_	_

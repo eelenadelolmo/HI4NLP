@@ -64,14 +64,14 @@
 21	,	,	fc	fc	matched=no	22	punct	_	_
 22	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
 23	hoy	hoy	rg	rg	matched=no	22	advmod	_	_
-24	Richard	Richard	np0000l	np0000l	matched=no	22	nsubj	_	_
-25	Boucher	Boucher	np0000l	np0000l	matched=no	24	appos	_	_
-26	,	,	fc	fc	matched=no	24	punct	_	_
-27	portavoz	portavoz	nccs000	nccs000	matched=no	24	appos	_	_
-28	del	del	spcms	spcms	matched=no	27	prepn	_	_
-29	Departamento	departamento	ncfs000	ncfs000	matched=no	28	pobj	_	_
-30	de	de	sps00	sps00	matched=no	29	prepn	_	_
-31	Estado	Estado	np00000	np00000	matched=no	30	pobj	_	_
+24	Richard	Richard	np0000l	np0000l	matched=yes: nsubj child of root deprel	22	nsubj	_	_
+25	Boucher	Boucher	np0000l	np0000l	matched=yes: nsubj child of root deprel	24	appos	_	_
+26	,	,	fc	fc	matched=yes: nsubj child of root deprel	24	punct	_	_
+27	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	24	appos	_	_
+28	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	27	prepn	_	_
+29	Departamento	departamento	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	28	pobj	_	_
+30	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	29	prepn	_	_
+31	Estado	Estado	np00000	np00000	matched=yes: nsubj child of root deprel	30	pobj	_	_
 32	.	.	fp	fp	matched=no	22	punct	_	_
 
 1	Expresó	expresar	vmis3s0	vmis3s0	matched=no	0	root	_	_
@@ -248,7 +248,7 @@
 27	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 28	,	,	fc	fc	matched=no	29	punct	_	_
 29	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-30	Boucher	Boucher	np00000	np00000	matched=no	29	nsubj	_	_
+30	Boucher	Boucher	np00000	np00000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
 31	.	.	fp	fp	matched=no	29	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

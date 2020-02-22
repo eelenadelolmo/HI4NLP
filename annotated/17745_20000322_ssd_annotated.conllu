@@ -144,7 +144,7 @@
 36	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 37	,	,	fc	fc	matched=no	38	punct	_	_
 38	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-39	Veiga	Veiga	np0000p	np0000p	matched=no	38	nsubj	_	_
+39	Veiga	Veiga	np0000p	np0000p	matched=yes: nsubj child of root deprel	38	nsubj	_	_
 40	.	.	fp	fp	matched=no	38	punct	_	_
 
 1	En	en	sps00	sps00	matched=no	11	prepv	_	_
@@ -158,14 +158,14 @@
 9	AutoFoco	autofoco	ncms000	ncms000	matched=no	7	pobj	_	_
 10	&quot;	&quot;	fe	fe	matched=no	9	punct	_	_
 11	aparece	aparecer	vmip3s0	vmip3s0	matched=no	0	root	_	_
-12	un	uno	di0ms0	di0ms0	matched=no	14	det	_	_
-13	nuevo	nuevo	aq0ms0	aq0ms0	matched=no	14	amod	_	_
-14	modelo	modelo	ncms000	ncms000	matched=no	11	nsubj	_	_
-15	deportivo	deportivo	aq0ms0	aq0ms0	matched=no	14	amod	_	_
-16	de	de	sps00	sps00	matched=no	14	prepn	_	_
-17	la	el	da0fs0	da0fs0	matched=no	18	det	_	_
-18	marca	marca	ncfs000	ncfs000	matched=no	16	pobj	_	_
-19	Alfa	alfa	np00000	np00000	matched=no	18	appos	_	_
-20	Romeo	romeo	ncms000	ncms000	matched=no	19	appos	_	_
+12	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	14	det	_	_
+13	nuevo	nuevo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	14	amod	_	_
+14	modelo	modelo	ncms000	ncms000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+15	deportivo	deportivo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	14	amod	_	_
+16	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	14	prepn	_	_
+17	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	18	det	_	_
+18	marca	marca	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	16	pobj	_	_
+19	Alfa	alfa	np00000	np00000	matched=yes: nsubj child of root deprel	18	appos	_	_
+20	Romeo	romeo	ncms000	ncms000	matched=yes: nsubj child of root deprel	19	appos	_	_
 21	.	.	fp	fp	matched=no	11	punct	_	_
 

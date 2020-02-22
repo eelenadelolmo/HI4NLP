@@ -40,8 +40,8 @@
 
 1	Porque	porque	cs	cs	matched=no	2	te	_	_
 2	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
-3	moda	moda	ncfs000	ncfs000	matched=no	2	nsubj	_	_
-4	última	último	ao0fs0	ao0fs0	matched=no	3	amod	_	_
+3	moda	moda	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+4	última	último	ao0fs0	ao0fs0	matched=yes: nsubj child of root deprel	3	amod	_	_
 5	que	que	cs	cs	matched=no	2	attr	_	_
 6	mozos	mozo	ncmp000	ncmp000	matched=no	7	coord	_	_
 7	y	y	cc	cc	matched=no	5	cobj	_	_

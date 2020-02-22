@@ -205,16 +205,16 @@
 37	,	,	fc	fc	matched=no	1	punct	_	_
 38	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 39	ayer	ayer	rg	rg	matched=no	38	advmod	_	_
-40	Philip	Philip	np0000l	np0000l	matched=no	38	nsubj	_	_
-41	Jennings	Jennings	np0000l	np0000l	matched=no	40	appos	_	_
-42	,	,	fc	fc	matched=no	40	punct	_	_
-43	secretario	secretario	ncms000	ncms000	matched=no	40	appos	_	_
-44	general	general	aq0cs0	aq0cs0	matched=no	43	amod	_	_
-45	de	de	sps00	sps00	matched=no	43	prepn	_	_
-46	Union	Union	ncfs000	ncfs000	matched=no	45	pobj	_	_
-47	Network	network	ncms000	ncms000	matched=no	46	appos	_	_
-48	International	International	np00000	np00000	matched=no	47	appos	_	_
-49	,	,	fc	fc	matched=no	40	punct	_	_
+40	Philip	Philip	np0000l	np0000l	matched=yes: nsubj child of root deprel	38	nsubj	_	_
+41	Jennings	Jennings	np0000l	np0000l	matched=yes: nsubj child of root deprel	40	appos	_	_
+42	,	,	fc	fc	matched=yes: nsubj child of root deprel	40	punct	_	_
+43	secretario	secretario	ncms000	ncms000	matched=yes: nsubj child of root deprel	40	appos	_	_
+44	general	general	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	43	amod	_	_
+45	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	43	prepn	_	_
+46	Union	Union	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	45	pobj	_	_
+47	Network	network	ncms000	ncms000	matched=yes: nsubj child of root deprel	46	appos	_	_
+48	International	International	np00000	np00000	matched=yes: nsubj child of root deprel	47	appos	_	_
+49	,	,	fc	fc	matched=yes: nsubj child of root deprel	40	punct	_	_
 50	en	en	sps00	sps00	matched=no	38	prepv	_	_
 51	una	uno	di0fs0	di0fs0	matched=no	52	det	_	_
 52	rueda	rueda	ncms000	ncms000	matched=no	50	pobj	_	_
@@ -322,7 +322,7 @@
 23	&quot;	&quot;	fe	fe	matched=no	10	punct	_	_
 24	,	,	fc	fc	matched=no	25	punct	_	_
 25	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-26	Case	Case	np00000	np00000	matched=no	25	nsubj	_	_
+26	Case	Case	np00000	np00000	matched=yes: nsubj child of root deprel	25	nsubj	_	_
 27	.	.	fp	fp	matched=no	25	punct	_	_
 
 1	Un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

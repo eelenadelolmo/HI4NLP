@@ -178,10 +178,10 @@
 31	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 32	,	,	fc	fc	matched=no	33	punct	_	_
 33	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-34	el	el	da0ms0	da0ms0	matched=no	35	det	_	_
-35	titular	titular	ncms000	ncms000	matched=no	33	nsubj	_	_
-36	de	de	sps00	sps00	matched=no	35	prepn	_	_
-37	Economía	Economía	np00000	np00000	matched=no	36	pobj	_	_
+34	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	35	det	_	_
+35	titular	titular	ncms000	ncms000	matched=yes: nsubj child of root deprel	33	nsubj	_	_
+36	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	35	prepn	_	_
+37	Economía	Economía	np00000	np00000	matched=yes: nsubj child of root deprel	36	pobj	_	_
 38	.	.	fp	fp	matched=no	33	punct	_	_
 
 1	Pero	pero	cc	cc	matched=no	6	te	_	_
@@ -382,19 +382,19 @@
 34	&quot;	&quot;	fe	fe	matched=no	22	punct	_	_
 35	,	,	fc	fc	matched=no	36	punct	_	_
 36	comentó	comentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-37	el	el	da0ms0	da0ms0	matched=no	38	det	_	_
-38	agricultor	agricultor	ncms000	ncms000	matched=no	36	nsubj	_	_
-39	Charlie	Charlie	np0000l	np0000l	matched=no	38	appos	_	_
-40	Armstrong	Armstrong	np0000l	np0000l	matched=no	39	appos	_	_
-41	,	,	fc	fc	matched=no	38	punct	_	_
-42	quien	quien	pr0cs000	pr0cs000	matched=no	43	nsubj	_	_
-43	participa	participar	vmip3s0	vmip3s0	matched=no	38	rcmod	_	_
-44	en	en	sps00	sps00	matched=no	43	oobj	_	_
-45	el	el	da0ms0	da0ms0	matched=no	46	det	_	_
-46	bloqueo	bloqueo	ncms000	ncms000	matched=no	44	pobj	_	_
-47	de	de	sps00	sps00	matched=no	46	prepn	_	_
-48	la	el	da0fs0	da0fs0	matched=no	49	det	_	_
-49	autopista	autopista	ncfs000	ncfs000	matched=no	47	pobj	_	_
+37	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	38	det	_	_
+38	agricultor	agricultor	ncms000	ncms000	matched=yes: nsubj child of root deprel	36	nsubj	_	_
+39	Charlie	Charlie	np0000l	np0000l	matched=yes: nsubj child of root deprel	38	appos	_	_
+40	Armstrong	Armstrong	np0000l	np0000l	matched=yes: nsubj child of root deprel	39	appos	_	_
+41	,	,	fc	fc	matched=yes: nsubj child of root deprel	38	punct	_	_
+42	quien	quien	pr0cs000	pr0cs000	matched=yes: nsubj child of root deprel	43	nsubj	_	_
+43	participa	participar	vmip3s0	vmip3s0	matched=yes: nsubj child of root deprel	38	rcmod	_	_
+44	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	43	oobj	_	_
+45	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	46	det	_	_
+46	bloqueo	bloqueo	ncms000	ncms000	matched=yes: nsubj child of root deprel	44	pobj	_	_
+47	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	46	prepn	_	_
+48	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	49	det	_	_
+49	autopista	autopista	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	47	pobj	_	_
 50	.	.	fp	fp	matched=no	36	punct	_	_
 
 1	En	en	sps00	sps00	matched=no	10	prepv	_	_
@@ -541,11 +541,11 @@
 27	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
 28	,	,	fc	fc	matched=no	29	punct	_	_
 29	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-30	una	uno	di0fs0	di0fs0	matched=no	31	det	_	_
-31	portavoz	portavoz	nccs000	nccs000	matched=no	29	nsubj	_	_
-32	de	de	sps00	sps00	matched=no	31	prepn	_	_
-33	BP	BP	np0000l	np0000l	matched=no	32	pobj	_	_
-34	Amoco	Amoco	np0000l	np0000l	matched=no	33	appos	_	_
+30	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	31	det	_	_
+31	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
+32	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	31	prepn	_	_
+33	BP	BP	np0000l	np0000l	matched=yes: nsubj child of root deprel	32	pobj	_	_
+34	Amoco	Amoco	np0000l	np0000l	matched=yes: nsubj child of root deprel	33	appos	_	_
 35	.	.	fp	fp	matched=no	29	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

@@ -153,8 +153,8 @@
 14	&quot;	&quot;	fe	fe	matched=no	10	punct	_	_
 15	,	,	fc	fc	matched=no	16	punct	_	_
 16	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-17	Caroline	Caroline	np0000l	np0000l	matched=no	16	nsubj	_	_
-18	Kennedy	Kennedy	np0000l	np0000l	matched=no	17	appos	_	_
+17	Caroline	Caroline	np0000l	np0000l	matched=yes: nsubj child of root deprel	16	nsubj	_	_
+18	Kennedy	Kennedy	np0000l	np0000l	matched=yes: nsubj child of root deprel	17	appos	_	_
 19	en	en	sps00	sps00	matched=no	16	prepv	_	_
 20	su	su	dp3cs0	dp3cs0	matched=no	22	poss	_	_
 21	primera	primero	ao0fs0	ao0fs0	matched=no	22	amod	_	_
@@ -388,8 +388,8 @@
 24	&quot;	&quot;	fe	fe	matched=no	18	punct	_	_
 25	,	,	fc	fc	matched=no	26	punct	_	_
 26	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-27	Ted	Ted	np0000l	np0000l	matched=no	26	nsubj	_	_
-28	Kennedy	Kennedy	np0000l	np0000l	matched=no	27	appos	_	_
+27	Ted	Ted	np0000l	np0000l	matched=yes: nsubj child of root deprel	26	nsubj	_	_
+28	Kennedy	Kennedy	np0000l	np0000l	matched=yes: nsubj child of root deprel	27	appos	_	_
 29	ante	ante	sps00	sps00	matched=no	26	prepv	_	_
 30	un	uno	di0ms0	di0ms0	matched=no	31	det	_	_
 31	público	público	ncms000	ncms000	matched=no	29	pobj	_	_

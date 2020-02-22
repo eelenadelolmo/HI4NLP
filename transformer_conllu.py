@@ -4,7 +4,6 @@ import os
 import re
 import fileinput
 import pyconll as pc
-from conllu import parse
 import sys
 import getopt
 
@@ -59,7 +58,7 @@ def conllu_transformer(file_conll, file_conllu):
 
 def main(argv):
 
-    inputdir = 'in/'
+    inputdir = 'conll/'
     outputdir = 'conllu/'
 
     try:
@@ -76,10 +75,10 @@ def main(argv):
             sys.exit()
 
         elif opt in ("-i", "--idir"):
-            inputdir = arg
+            inputdir = arg + "/"
 
         elif opt in ("-o", "--odir"):
-            outputdir = arg
+            outputdir = arg + "/"
 
     print('The input directory is', inputdir)
     print('The output directory is', outputdir)

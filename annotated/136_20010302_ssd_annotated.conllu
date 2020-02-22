@@ -115,14 +115,14 @@
 27	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 28	,	,	fc	fc	matched=no	29	punct	_	_
 29	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-30	el	el	da0ms0	da0ms0	matched=no	31	det	_	_
-31	central	central	ncms000	ncms000	matched=no	29	nsubj	_	_
-32	,	,	fc	fc	matched=no	31	punct	_	_
-33	que	que	pr0cn000	pr0cn000	matched=no	34	nsubj	_	_
-34	pasará	pasar	vmif3s0	vmif3s0	matched=no	31	rcmod	_	_
-35	una	uno	di0fs0	di0fs0	matched=no	36	det	_	_
-36	prueba	prueba	ncfs000	ncfs000	matched=no	34	dobj	_	_
-37	física	físico	aq0fs0	aq0fs0	matched=no	36	amod	_	_
+30	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	31	det	_	_
+31	central	central	ncms000	ncms000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
+32	,	,	fc	fc	matched=yes: nsubj child of root deprel	31	punct	_	_
+33	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	34	nsubj	_	_
+34	pasará	pasar	vmif3s0	vmif3s0	matched=yes: nsubj child of root deprel	31	rcmod	_	_
+35	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	36	det	_	_
+36	prueba	prueba	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	34	dobj	_	_
+37	física	físico	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	36	amod	_	_
 38	.	.	fp	fp	matched=no	29	punct	_	_
 
 1	Pero	pero	cc	cc	matched=no	4	te	_	_

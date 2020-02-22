@@ -203,11 +203,11 @@
 26	&quot;	&quot;	fe	fe	matched=no	16	punct	_	_
 27	,	,	fc	fc	matched=no	28	punct	_	_
 28	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-29	una	uno	di0fs0	di0fs0	matched=no	30	det	_	_
-30	empleada	empleada	ncfs000	ncfs000	matched=no	28	nsubj	_	_
-31	de	de	sps00	sps00	matched=no	30	prepn	_	_
-32	Halcón	Halcón	np00000	np00000	matched=no	31	pobj	_	_
-33	Viajes	viaje	ncms000	ncms000	matched=no	32	appos	_	_
+29	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	30	det	_	_
+30	empleada	empleada	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	28	nsubj	_	_
+31	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	30	prepn	_	_
+32	Halcón	Halcón	np00000	np00000	matched=yes: nsubj child of root deprel	31	pobj	_	_
+33	Viajes	viaje	ncms000	ncms000	matched=yes: nsubj child of root deprel	32	appos	_	_
 34	.	.	fp	fp	matched=no	28	punct	_	_
 
 1	Ésta	éste	pd0fs000	pd0fs000	matched=yes: nsubj child of root deprel	2	coord	_	_
@@ -285,16 +285,16 @@
 27	llegar	llegar	vmn0000	vmn0000	matched=no	26	dobj	_	_
 28	a	a	sps00	sps00	matched=no	27	prepv	_	_
 29	pagar	pagar	vmn0000	vmn0000	matched=no	27	dobj	_	_
-30	hasta	hasta	rg	rg	matched=no	31	advmod	_	_
-31	249	249	z	z	matched=no	26	nsubj	_	_
-32	(	(	fpa	fpa	matched=no	34	punct	_	_
-33	41.430	41430	z	z	matched=no	34	num	_	_
-34	pesetas	peseta	zm	zm	matched=no	31	num	_	_
-35	)	)	fpt	fpt	matched=no	34	punct	_	_
-36	,	,	fc	fc	matched=no	31	punct	_	_
-37	casi	casi	rg	rg	matched=no	39	advmod	_	_
-38	el	el	da0ms0	da0ms0	matched=no	39	det	_	_
-39	doble	doble	aq0cs0	aq0cs0	matched=no	31	amod	_	_
+30	hasta	hasta	rg	rg	matched=yes: nsubj child of root deprel	31	advmod	_	_
+31	249	249	z	z	matched=yes: nsubj child of root deprel	26	nsubj	_	_
+32	(	(	fpa	fpa	matched=yes: nsubj child of root deprel	34	punct	_	_
+33	41.430	41430	z	z	matched=yes: nsubj child of root deprel	34	num	_	_
+34	pesetas	peseta	zm	zm	matched=yes: nsubj child of root deprel	31	num	_	_
+35	)	)	fpt	fpt	matched=yes: nsubj child of root deprel	34	punct	_	_
+36	,	,	fc	fc	matched=yes: nsubj child of root deprel	31	punct	_	_
+37	casi	casi	rg	rg	matched=yes: nsubj child of root deprel	39	advmod	_	_
+38	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	39	det	_	_
+39	doble	doble	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	31	amod	_	_
 40	.	.	fp	fp	matched=no	26	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	3	det	_	_
@@ -341,11 +341,11 @@
 13	&quot;	&quot;	fe	fe	matched=no	8	punct	_	_
 14	,	,	fc	fc	matched=no	15	punct	_	_
 15	manifestó	manifestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-16	un	uno	di0ms0	di0ms0	matched=no	17	det	_	_
-17	portavoz	portavoz	nccs000	nccs000	matched=no	15	nsubj	_	_
-18	de	de	sps00	sps00	matched=no	17	prepn	_	_
-19	la	el	da0fs0	da0fs0	matched=no	20	det	_	_
-20	naviera	naviera	ncfs000	ncfs000	matched=no	18	pobj	_	_
+16	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	15	nsubj	_	_
+18	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	17	prepn	_	_
+19	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	20	det	_	_
+20	naviera	naviera	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	18	pobj	_	_
 21	.	.	fp	fp	matched=no	15	punct	_	_
 
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -553,8 +553,8 @@
 32	penal	penal	aq0cs0	aq0cs0	matched=no	31	amod	_	_
 33	,	,	fc	fc	matched=no	34	punct	_	_
 34	manifestó	manifestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-35	la	el	da0fs0	da0fs0	matched=no	37	det	_	_
-36	misma	mismo	di0fs0	di0fs0	matched=no	37	det	_	_
-37	fuente	fuente	ncfs000	ncfs000	matched=no	34	nsubj	_	_
+35	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	37	det	_	_
+36	misma	mismo	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	37	det	_	_
+37	fuente	fuente	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	34	nsubj	_	_
 38	.	.	fp	fp	matched=no	34	punct	_	_
 

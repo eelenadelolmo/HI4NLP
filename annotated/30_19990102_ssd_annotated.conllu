@@ -80,7 +80,7 @@
 27	&quot;	&quot;	fe	fe	matched=no	18	punct	_	_
 28	,	,	fc	fc	matched=no	29	punct	_	_
 29	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-30	Biljana	Biljana	np00000	np00000	matched=no	29	nsubj	_	_
+30	Biljana	Biljana	np00000	np00000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
 31	al	al	spcms	spcms	matched=no	29	iobj	_	_
 32	rotativo	rotativo	ncms000	ncms000	matched=no	31	pobj	_	_
 33	durante	durante	sps00	sps00	matched=no	29	prepv	_	_
@@ -210,8 +210,8 @@
 42	comentó	comentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 43	con	con	sps00	sps00	matched=no	42	prepv	_	_
 44	ironía	ironía	ncfs000	ncfs000	matched=no	43	pobj	_	_
-45	Biljana	Biljana	np0000l	np0000l	matched=no	42	nsubj	_	_
-46	Karadzic	Karadzic	np0000l	np0000l	matched=no	45	appos	_	_
+45	Biljana	Biljana	np0000l	np0000l	matched=yes: nsubj child of root deprel	42	nsubj	_	_
+46	Karadzic	Karadzic	np0000l	np0000l	matched=yes: nsubj child of root deprel	45	appos	_	_
 47	.	.	fp	fp	matched=no	42	punct	_	_
 
 1	Por	por	sps00	sps00	matched=no	10	advcl	_	_

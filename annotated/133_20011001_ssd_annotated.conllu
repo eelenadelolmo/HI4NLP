@@ -205,11 +205,11 @@
 7	no	no	rn	rn	matched=no	9	neg	_	_
 8	se	se	p0000000	p0000000	matched=no	9	reflec	_	_
 9	incorporarán	incorporar	vmif3p0	vmif3p0	matched=no	0	root	_	_
-10	más	más	rg	rg	matched=no	11	advmod	_	_
-11	escenarios	escenario	ncmp000	ncmp000	matched=no	9	nsubj	_	_
-12	abiertos	abierto	aq0mpp	aq0mpp	matched=no	11	amod	_	_
-13	al	al	spcms	spcms	matched=no	12	iobj	_	_
-14	público	público	ncms000	ncms000	matched=no	13	pobj	_	_
+10	más	más	rg	rg	matched=yes: nsubj child of root deprel	11	advmod	_	_
+11	escenarios	escenario	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
+12	abiertos	abierto	aq0mpp	aq0mpp	matched=yes: nsubj child of root deprel	11	amod	_	_
+13	al	al	spcms	spcms	matched=yes: nsubj child of root deprel	12	iobj	_	_
+14	público	público	ncms000	ncms000	matched=yes: nsubj child of root deprel	13	pobj	_	_
 15	.	.	fp	fp	matched=no	9	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -492,9 +492,9 @@
 5	su	su	dp3cs0	dp3cs0	matched=no	6	poss	_	_
 6	momento	momento	ncms000	ncms000	matched=no	4	pobj	_	_
 7	quedan	quedar	vmip3p0	vmip3p0	matched=no	0	root	_	_
-8	aún	aún	rg	rg	matched=no	9	advmod	_	_
-9	dos	dos	dn0cp0	dn0cp0	matched=no	10	det	_	_
-10	piezas	pieza	ncfp000	ncfp000	matched=no	7	nsubj	_	_
+8	aún	aún	rg	rg	matched=yes: nsubj child of root deprel	9	advmod	_	_
+9	dos	dos	dn0cp0	dn0cp0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	piezas	pieza	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
 11	pendientes	pendiente	aq0cp0	aq0cp0	matched=no	7	cpred	_	_
 12	de	de	sps00	sps00	matched=no	11	prepa	_	_
 13	realización	realización	ncfs000	ncfs000	matched=no	12	pobj	_	_

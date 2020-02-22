@@ -19,6 +19,30 @@
 19	verano	verano	ncms000	ncms000	matched=no	18	pobj	_	_
 20	.	.	fp	fp	matched=no	15	punct	_	_
 
+1	Dice	decir	vmip3s0	vmip3s0	matched=no	0	root	_	_
+2	Antonio	Antonio	np0000l	np0000l	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+3	Romero	romero	np0000l	np0000l	matched=yes: nsubj child of root deprel	2	appos	_	_
+4	que	que	cs	cs	matched=no	1	dobj	_	_
+5	para	para	sps00	sps00	matched=no	10	prepv	_	_
+6	IU	IU	np0000o	np0000o	matched=no	5	pobj	_	_
+7	estas	este	dd0fp0	dd0fp0	matched=no	8	det	_	_
+8	elecciones	elección	ncfp000	ncfp000	matched=no	10	nsubj	_	_
+9	andaluzas	andaluz	aq0fp0	aq0fp0	matched=no	8	amod	_	_
+10	son	ser	vsip3p0	vsip3p0	matched=no	4	cobj	_	_
+11	distintas	distinto	aq0fp0	aq0fp0	matched=no	10	attr	_	_
+12	a	a	sps00	sps00	matched=no	11	prepa	_	_
+13	las	el	da0fp0	da0fp0	matched=no	14	det	_	_
+14	elecciones	elección	ncfp000	ncfp000	matched=no	12	pobj	_	_
+15	anteriores	anterior	aq0cp0	aq0cp0	matched=no	14	amod	_	_
+16	dentro	dentro	sps00	sps00	matched=no	17	coord	_	_
+17	y	y	cc	cc	matched=no	14	prepn	_	_
+18	fuera	ser	vsii3s0	vsii3s0	matched=no	17	coord	_	_
+19	de	de	sps00	sps00	matched=no	18	prepv	_	_
+20	esa	ese	dd0fs0	dd0fs0	matched=no	21	det	_	_
+21	comunidad	comunidad	ncfs000	ncfs000	matched=no	17	coord	_	_
+22	autónoma	autónomo	aq0fs0	aq0fs0	matched=no	21	amod	_	_
+23	.	.	fp	fp	matched=no	1	punct	_	_
+
 1	Romero	Romero	np0000p	np0000p	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 2	lo	él	pp3msa00	pp3msa00	matched=no	3	dobj	_	_
 3	explica	explicar	vmip3s0	vmip3s0	matched=no	0	root	_	_
@@ -117,6 +141,31 @@
 49	Parlamento	Parlamento	np00000	np00000	matched=no	48	pobj	_	_
 50	Europeo	europeo	ncms000	ncms000	matched=no	49	appos	_	_
 51	.	.	fp	fp	matched=no	31	punct	_	_
+
+1	Ahora	ahora	rg	rg	matched=no	2	advmod	_	_
+2	será	ser	vsif3s0	vsif3s0	matched=no	0	root	_	_
+3	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	viceministra	viceministra	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+5	Margarita	margarita	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	appos	_	_
+6	Robles	roble	nc00000	nc00000	matched=yes: nsubj child of root deprel	5	appos	_	_
+7	quien	quien	pr0cs000	pr0cs000	matched=no	14	coord	_	_
+8	tome	tomar	vmsp3s0	vmsp3s0	matched=no	14	cobj	_	_
+9	las	el	da0fp0	da0fp0	matched=no	10	det	_	_
+10	riendas	rienda	ncfp000	ncfp000	matched=no	8	dobj	_	_
+11	de	de	sps00	sps00	matched=no	10	prepn	_	_
+12	la	el	da0fs0	da0fs0	matched=no	13	det	_	_
+13	negociación	negociación	ncfs000	ncfs000	matched=no	11	pobj	_	_
+14	y	y	cc	cc	matched=no	2	rcmod	_	_
+15	se	él	p0300000	p0300000	matched=no	16	reflec	_	_
+16	convierta	convertir	vmsp3s0	vmsp3s0	matched=no	14	cobj	_	_
+17	en	en	sps00	sps00	matched=no	16	oobj	_	_
+18	la	el	da0fs0	da0fs0	matched=no	19	det	_	_
+19	interlocutora	interlocutora	ncfs000	ncfs000	matched=no	17	pobj	_	_
+20	de	de	sps00	sps00	matched=no	19	prepn	_	_
+21	María	María	ncfs000	ncfs000	matched=no	20	pobj	_	_
+22	Eugenia	Eugenia	ncms000	ncms000	matched=no	21	appos	_	_
+23	Cuenca	cuenca	np00000	np00000	matched=no	22	appos	_	_
+24	.	.	fp	fp	matched=no	2	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	chantaje	chantaje	ncms000	ncms000	matched=yes: nsubj child of root deprel	6	nsubj	_	_

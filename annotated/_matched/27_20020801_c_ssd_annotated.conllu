@@ -26,6 +26,23 @@
 26	odisea	odisea	ncfs000	ncfs000	matched=no	24	pobj	_	_
 27	.	.	fp	fp	matched=no	22	punct	_	_
 
+1	Su	su	dp3cs0	dp3cs0	matched=no	2	poss	_	_
+2	colofón	colofón	ncms000	ncms000	matched=no	3	attr	_	_
+3	fueron	ser	vsis3p0	vsis3p0	matched=no	0	root	_	_
+4	14	14	z	z	matched=yes: nsubj child of root deprel	5	num	_	_
+5	horas	hora	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+6	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	5	prepn	_	_
+7	espera	espera	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	pobj	_	_
+8	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	5	prepn	_	_
+9	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	aeropuerto	aeropuerto	ncms000	ncms000	matched=yes: nsubj child of root deprel	8	pobj	_	_
+11	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	10	prepn	_	_
+12	Maó	Maó	np00000	np00000	matched=yes: nsubj child of root deprel	11	pobj	_	_
+13	(	(	fpa	fpa	matched=yes: nsubj child of root deprel	12	punct	_	_
+14	Menorca	Menorca	np00000	np00000	matched=yes: nsubj child of root deprel	12	appos	_	_
+15	)	)	fpt	fpt	matched=yes: nsubj child of root deprel	12	punct	_	_
+16	.	.	fp	fp	matched=no	3	punct	_	_
+
 1	Este	este	dd0ms0	dd0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	barcelonés	barcelonés	ncms000	ncms000	matched=yes: nsubj child of root deprel	3	coord	_	_
 3	y	y	cc	cc	matched=yes: nsubj child of root deprel	18	nsubj	_	_
@@ -90,6 +107,39 @@
 29	el	el	da0ms0	da0ms0	matched=no	30	det	_	_
 30	puerto	puerto	ncms000	ncms000	matched=no	28	pobj	_	_
 31	.	.	fp	fp	matched=no	4	punct	_	_
+
+1	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
+2	Nos	yo	p010p000	p010p000	matched=no	4	dep	_	_
+3	hemos	haber	vaip1p0	vaip1p0	matched=no	17	dobj	_	_
+4	tenido	tener	vmp00sm	vmp00sm	matched=no	3	cobj	_	_
+5	que	que	cs	cs	matched=no	4	conj	_	_
+6	levantar	levantar	vmn0000	vmn0000	matched=no	5	cobj	_	_
+7	a	a	sps00	sps00	matched=no	4	prepv	_	_
+8	las	el	da0fp0	da0fp0	matched=no	9	det	_	_
+9	cuatro	cuatro	pn0cp000	pn0cp000	matched=no	7	pobj	_	_
+10	de	de	sps00	sps00	matched=no	9	prepn	_	_
+11	la	el	da0fs0	da0fs0	matched=no	12	det	_	_
+12	mañana	mañana	ncfs000	ncfs000	matched=no	10	pobj	_	_
+13	para	para	sps00	sps00	matched=no	4	prepv	_	_
+14	nada	nada	pi0cs000	pi0cs000	matched=no	13	pobj	_	_
+15	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
+16	,	,	fc	fc	matched=no	3	punct	_	_
+17	lamentaba	lamentar	vmii3s0	vmii3s0	matched=no	0	root	_	_
+18	agotado	agotado	aq0msp	aq0msp	matched=no	17	cpred	_	_
+19	a	a	sps00	sps00	matched=no	17	advmod	_	_
+20	mediodía	mediodía	ncmp000	ncmp000	matched=no	19	pobj	_	_
+21	Joel	Joel	np00000	np00000	matched=yes: nsubj child of root deprel	17	nsubj	_	_
+22	,	,	fc	fc	matched=no	17	punct	_	_
+23	tras	tras	sps00	sps00	matched=no	17	prepv	_	_
+24	haber	haber	van0000	van0000	matched=no	23	pobj	_	_
+25	dormido	dormir	vmp00sm	vmp00sm	matched=no	24	vobj	_	_
+26	en	en	sps00	sps00	matched=no	25	prepv	_	_
+27	asientos	asiento	ncmp000	ncmp000	matched=no	28	coord	_	_
+28	y	y	cc	cc	matched=no	26	pobj	_	_
+29	lavabos	lavabo	ncmp000	ncmp000	matched=no	28	coord	_	_
+30	del	del	spcms	spcms	matched=no	28	coord	_	_
+31	aeropuerto	aeropuerto	ncms000	ncms000	matched=no	30	pobj	_	_
+32	.	.	fp	fp	matched=no	17	punct	_	_
 
 1	Tras	tras	sps00	sps00	matched=no	9	prepv	_	_
 2	12	12	z	z	matched=no	3	num	_	_

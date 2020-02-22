@@ -28,8 +28,8 @@
 28	,	,	fc	fc	matched=no	29	punct	_	_
 29	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 30	hoy	hoy	rg	rg	matched=no	29	advmod	_	_
-31	la	el	da0fs0	da0fs0	matched=no	32	det	_	_
-32	empresa	empresa	ncfs000	ncfs000	matched=no	29	nsubj	_	_
+31	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	32	det	_	_
+32	empresa	empresa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
 33	.	.	fp	fp	matched=no	29	punct	_	_
 
 1	Según	según	sps00	sps00	matched=no	11	prepv	_	_
@@ -105,8 +105,8 @@
 33	amplia	amplio	aq0fs0	aq0fs0	matched=no	32	amod	_	_
 34	,	,	fc	fc	matched=no	35	punct	_	_
 35	dijeron	decir	vmis3p0	vmis3p0	matched=no	0	root	_	_
-36	las	el	da0fp0	da0fp0	matched=no	37	det	_	_
-37	fuentes	fuente	ncfp000	ncfp000	matched=no	35	nsubj	_	_
+36	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	37	det	_	_
+37	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	35	nsubj	_	_
 38	.	.	fp	fp	matched=no	35	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

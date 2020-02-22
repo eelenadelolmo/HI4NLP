@@ -174,16 +174,16 @@
 29	.	.	fp	fp	matched=no	10	punct	_	_
 
 1	Añade	añadir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-2	Rafael	Rafael	np0000l	np0000l	matched=no	1	nsubj	_	_
-3	Ribó	Ribó	np0000l	np0000l	matched=no	2	appos	_	_
-4	,	,	fc	fc	matched=no	2	punct	_	_
-5	antes	antes	rg	rg	matched=no	6	advmod	_	_
-6	ecosocialista	ecosocialista	nccs000	nccs000	matched=no	7	coord	_	_
-7	y	y	cc	cc	matched=no	2	dep	_	_
-8	ahora	ahora	rg	rg	matched=no	9	advmod	_	_
-9	un	uno	di0ms0	di0ms0	matched=no	10	det	_	_
-10	eco	eco	ncms000	ncms000	matched=no	7	coord	_	_
-11	socialista	socialista	aq0cs0	aq0cs0	matched=no	10	amod	_	_
+2	Rafael	Rafael	np0000l	np0000l	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+3	Ribó	Ribó	np0000l	np0000l	matched=yes: nsubj child of root deprel	2	appos	_	_
+4	,	,	fc	fc	matched=yes: nsubj child of root deprel	2	punct	_	_
+5	antes	antes	rg	rg	matched=yes: nsubj child of root deprel	6	advmod	_	_
+6	ecosocialista	ecosocialista	nccs000	nccs000	matched=yes: nsubj child of root deprel	7	coord	_	_
+7	y	y	cc	cc	matched=yes: nsubj child of root deprel	2	dep	_	_
+8	ahora	ahora	rg	rg	matched=yes: nsubj child of root deprel	9	advmod	_	_
+9	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	eco	eco	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	coord	_	_
+11	socialista	socialista	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	10	amod	_	_
 12	:	:	fd	fd	matched=no	14	punct	_	_
 13	&quot;	&quot;	fe	fe	matched=no	14	punct	_	_
 14	sigue	seguir	vmip3s0	vmip3s0	matched=no	1	dobj	_	_

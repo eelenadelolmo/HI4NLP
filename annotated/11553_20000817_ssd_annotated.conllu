@@ -160,8 +160,8 @@
 6	agosto	agosto	ncms000	ncms000	matched=no	5	pobj	_	_
 7	se	se	p0000000	p0000000	matched=no	8	reflec	_	_
 8	instalaron	instalar	vmis3p0	vmis3p0	matched=no	0	root	_	_
-9	dos	dos	dn0cp0	dn0cp0	matched=no	10	det	_	_
-10	parlamentos	parlamento	ncmp000	ncmp000	matched=no	8	nsubj	_	_
+9	dos	dos	dn0cp0	dn0cp0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	parlamentos	parlamento	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
 11	en	en	sps00	sps00	matched=no	8	prepv	_	_
 12	sesiones	sesión	ncfp000	ncfp000	matched=no	11	pobj	_	_
 13	paralelas	paralelo	aq0fp0	aq0fp0	matched=no	12	amod	_	_

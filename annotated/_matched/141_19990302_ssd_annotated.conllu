@@ -104,6 +104,22 @@
 10	retransmisión	retransmisión	ncfs000	ncfs000	matched=no	8	pobj	_	_
 11	.	.	fp	fp	matched=no	5	punct	_	_
 
+1	En	en	sps00	sps00	matched=no	6	advcl	_	_
+2	opinión	opinión	ncfs000	ncfs000	matched=no	1	pobj	_	_
+3	de	de	sps00	sps00	matched=no	2	prepn	_	_
+4	González	González	np00000	np00000	matched=no	3	pobj	_	_
+5	no	no	rn	rn	matched=no	6	neg	_	_
+6	existe	existir	vmip3s0	vmip3s0	matched=no	0	root	_	_
+7	ningún	ninguno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	motivo	motivo	ncms000	ncms000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+9	para	para	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	que	que	cs	cs	matched=yes: nsubj child of root deprel	9	pobj	_	_
+11	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	12	det	_	_
+12	gente	gente	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	14	nsubj	_	_
+13	se	él	p0300000	p0300000	matched=yes: nsubj child of root deprel	14	reflec	_	_
+14	escandalice	escandalizar	vmsp3s0	vmsp3s0	matched=yes: nsubj child of root deprel	10	cobj	_	_
+15	.	.	fp	fp	matched=no	6	punct	_	_
+
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	conductor	conductor	ncms000	ncms000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
 3	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	2	prepn	_	_

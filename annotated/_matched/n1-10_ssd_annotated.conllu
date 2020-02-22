@@ -1,3 +1,14 @@
+1	Otro	otro	di0ms0	di0ms0	matched=no	2	det	_	_
+2	grupo	grupo	ncms000	ncms000	matched=no	7	dobj	_	_
+3	importante	importante	aq0cs0	aq0cs0	matched=no	2	amod	_	_
+4	de	de	sps00	sps00	matched=no	2	prepn	_	_
+5	desplazados	desplazado	ncmp000	ncmp000	matched=no	4	pobj	_	_
+6	lo	él	pp3msa00	pp3msa00	matched=no	7	dobj	_	_
+7	constituyen	constituir	vmip3p0	vmip3p0	matched=no	0	root	_	_
+8	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	estudiantes	estudiante	nccp000	nccp000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+10	.	.	fp	fp	matched=no	7	punct	_	_
+
 1	Andrea	Andrea	np0000l	np0000l	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 2	Hoffmann	Hoffmann	np0000l	np0000l	matched=yes: nsubj child of root deprel	1	appos	_	_
 3	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
@@ -31,6 +42,31 @@
 6	mucha	mucho	di0fs0	di0fs0	matched=no	7	det	_	_
 7	marcha	marcha	ncfs000	ncfs000	matched=no	5	pobj	_	_
 8	.	.	fp	fp	matched=no	2	punct	_	_
+
+1	No	no	rn	rn	matched=no	2	neg	_	_
+2	hay	haber	vaip3s0	vaip3s0	matched=no	16	cobj	_	_
+3	ducha	ducha	ncfs000	ncfs000	matched=no	2	dobj	_	_
+4	,	,	fc	fc	matched=no	16	punct	_	_
+5	el	el	da0ms0	da0ms0	matched=no	6	det	_	_
+6	baño	baño	ncms000	ncms000	matched=no	7	nsubj	_	_
+7	está	estar	vmip3s0	vmip3s0	matched=no	16	cobj	_	_
+8	en	en	sps00	sps00	matched=no	7	oobj	_	_
+9	el	el	da0ms0	da0ms0	matched=no	10	det	_	_
+10	pasillo	pasillo	ncms000	ncms000	matched=no	8	pobj	_	_
+11	,	,	fc	fc	matched=no	16	punct	_	_
+12	las	el	da0fp0	da0fp0	matched=no	13	det	_	_
+13	paredes	pared	ncfp000	ncfp000	matched=no	15	nsubj	_	_
+14	se	él	p0300000	p0300000	matched=no	15	reflec	_	_
+15	caen	caer	vmip3p0	vmip3p0	matched=no	16	cobj	_	_
+16	y	y	cc	cc	matched=no	21	dobj	_	_
+17	hace	hacer	vmip3s0	vmip3s0	matched=no	16	cobj	_	_
+18	frío	frío	ncms000	ncms000	matched=no	17	dobj	_	_
+19	-	-	fg	fg	matched=no	16	punct	_	_
+20	,	,	fc	fc	matched=no	21	punct	_	_
+21	afirma	afirmar	vmip3s0	vmip3s0	matched=no	0	root	_	_
+22	este	este	dd0ms0	dd0ms0	matched=yes: nsubj child of root deprel	23	det	_	_
+23	universitario	universitario	ncms000	ncms000	matched=yes: nsubj child of root deprel	21	nsubj	_	_
+24	.	.	fp	fp	matched=no	21	punct	_	_
 
 1	Entre	entre	sps00	sps00	matched=no	19	prepv	_	_
 2	el	el	da0ms0	da0ms0	matched=no	3	det	_	_

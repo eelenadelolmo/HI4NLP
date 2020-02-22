@@ -236,8 +236,8 @@
 4	,	,	fc	fc	matched=no	6	punct	_	_
 5	se	se	p0000000	p0000000	matched=no	6	reflec	_	_
 6	espera	esperar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-7	la	el	da0fs0	da0fs0	matched=no	8	det	_	_
-8	llegada	llegada	ncfs000	ncfs000	matched=no	6	nsubj	_	_
+7	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	llegada	llegada	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
 9	de	de	sps00	sps00	matched=no	21	cobj	_	_
 10	más	más	rg	rg	matched=no	12	advmod	_	_
 11	de	de	sps00	sps00	matched=no	10	prep	_	_
@@ -532,7 +532,7 @@
 2	también	también	rg	rg	matched=no	4	advmod	_	_
 3	lo	él	pp3msa00	pp3msa00	matched=no	4	dobj	_	_
 4	ganó	ganar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-5	Fox	Fox	np0000p	np0000p	matched=no	4	nsubj	_	_
+5	Fox	Fox	np0000p	np0000p	matched=yes: nsubj child of root deprel	4	nsubj	_	_
 6	,	,	fc	fc	matched=no	4	punct	_	_
 7	según	según	sps00	sps00	matched=no	4	prepv	_	_
 8	la	el	da0fs0	da0fs0	matched=no	9	det	_	_
@@ -754,10 +754,10 @@
 21	,	,	fc	fc	matched=no	20	punct	_	_
 22	jueves	jueves	ncms000	ncms000	matched=no	20	dep	_	_
 23	,	,	fc	fc	matched=no	20	punct	_	_
-24	la	el	da0fs0	da0fs0	matched=no	25	det	_	_
-25	Radio	radio	ncms000	ncms000	matched=no	19	nsubj	_	_
-26	Nacional	nacional	aq0ms0	aq0ms0	matched=no	25	amod	_	_
-27	búlgara	búlgaro	aq0fs0	aq0fs0	matched=no	25	amod	_	_
+24	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	25	det	_	_
+25	Radio	radio	ncms000	ncms000	matched=yes: nsubj child of root deprel	19	nsubj	_	_
+26	Nacional	nacional	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	25	amod	_	_
+27	búlgara	búlgaro	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	25	amod	_	_
 28	.	.	fp	fp	matched=no	19	punct	_	_
 
 1	Mladénov	Mladénov	np0000p	np0000p	matched=no	2	nsubj	_	_

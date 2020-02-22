@@ -41,12 +41,12 @@
 41	,	,	fc	fc	matched=no	3	punct	_	_
 42	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 43	hoy	hoy	rg	rg	matched=no	42	advmod	_	_
-44	su	su	dp3cs0	dp3cs0	matched=no	45	poss	_	_
-45	director	director	ncms000	ncms000	matched=no	42	nsubj	_	_
-46	general	general	aq0cs0	aq0cs0	matched=no	45	amod	_	_
-47	,	,	fc	fc	matched=no	45	punct	_	_
-48	Javier	Javier	np0000l	np0000l	matched=no	45	appos	_	_
-49	Eraso	Eraso	np0000l	np0000l	matched=no	48	appos	_	_
+44	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	45	poss	_	_
+45	director	director	ncms000	ncms000	matched=yes: nsubj child of root deprel	42	nsubj	_	_
+46	general	general	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	45	amod	_	_
+47	,	,	fc	fc	matched=yes: nsubj child of root deprel	45	punct	_	_
+48	Javier	Javier	np0000l	np0000l	matched=yes: nsubj child of root deprel	45	appos	_	_
+49	Eraso	Eraso	np0000l	np0000l	matched=yes: nsubj child of root deprel	48	appos	_	_
 50	.	.	fp	fp	matched=no	42	punct	_	_
 
 1	Eraso	Eraso	np00000	np00000	matched=no	23	nsubj	_	_
@@ -148,9 +148,9 @@
 38	&quot;	&quot;	fe	fe	matched=no	50	punct	_	_
 39	,	,	fc	fc	matched=no	50	punct	_	_
 40	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-41	el	el	da0ms0	da0ms0	matched=no	42	det	_	_
-42	director	director	ncms000	ncms000	matched=no	40	nsubj	_	_
-43	general	general	aq0cs0	aq0cs0	matched=no	42	amod	_	_
+41	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	42	det	_	_
+42	director	director	ncms000	ncms000	matched=yes: nsubj child of root deprel	40	nsubj	_	_
+43	general	general	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	42	amod	_	_
 44	en	en	sps00	sps00	matched=no	40	prepv	_	_
 45	conferencia	conferencia	ncfs000	ncfs000	matched=no	44	pobj	_	_
 46	de	de	sps00	sps00	matched=no	45	prepn	_	_

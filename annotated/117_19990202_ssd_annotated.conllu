@@ -418,10 +418,10 @@
 3	Turner	Turner	np00000	np00000	matched=no	1	cobj	_	_
 4	,	,	fc	fc	matched=no	5	punct	_	_
 5	quedaba	quedar	vmii3s0	vmii3s0	matched=no	0	root	_	_
-6	tiempo	tiempo	ncms000	ncms000	matched=no	5	nsubj	_	_
-7	para	para	sps00	sps00	matched=no	6	prepn	_	_
-8	la	el	da0fs0	da0fs0	matched=no	9	det	_	_
-9	remontada	remontado	aq0fsp	aq0fsp	matched=no	7	pobj	_	_
+6	tiempo	tiempo	ncms000	ncms000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+7	para	para	sps00	sps00	matched=yes: nsubj child of root deprel	6	prepn	_	_
+8	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	remontada	remontado	aq0fsp	aq0fsp	matched=yes: nsubj child of root deprel	7	pobj	_	_
 10	.	.	fp	fp	matched=no	5	punct	_	_
 
 1	Pero	pero	cc	cc	matched=no	11	te	_	_

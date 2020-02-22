@@ -179,9 +179,9 @@
 12	les	él	pp3cpd00	pp3cpd00	matched=no	14	iobj	_	_
 13	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
 14	aplicado	aplicar	vmp00sm	vmp00sm	matched=no	13	vobj	_	_
-15	el	el	da0ms0	da0ms0	matched=no	16	det	_	_
-16	indulto	indulto	ncms000	ncms000	matched=no	13	nsubj	_	_
-17	total	total	aq0cs0	aq0cs0	matched=no	16	amod	_	_
+15	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	16	det	_	_
+16	indulto	indulto	ncms000	ncms000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
+17	total	total	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	16	amod	_	_
 18	.	.	fp	fp	matched=no	13	punct	_	_
 
 1	INDULTO	INDULTO	np0000l	np0000l	matched=no	31	dobj	_	_

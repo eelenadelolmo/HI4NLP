@@ -137,7 +137,7 @@
 7	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 8	,	,	fc	fc	matched=no	16	punct	_	_
 9	asegura	asegurar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-10	Queco	Queco	np00000	np00000	matched=no	9	nsubj	_	_
+10	Queco	Queco	np00000	np00000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
 11	&quot;	&quot;	fe	fe	matched=no	16	punct	_	_
 12	Un	uno	di0ms0	di0ms0	matched=no	13	det	_	_
 13	fenómeno	fenómeno	ncms000	ncms000	matched=no	16	nsubj	_	_
@@ -197,8 +197,8 @@
 6	Córdoba	Córdoba	np00000	np00000	matched=no	5	pobj	_	_
 7	,	,	fc	fc	matched=no	3	punct	_	_
 8	nació	nacer	vmis3s0	vmis3s0	matched=no	0	root	_	_
-9	Manuel	Manuel	np0000l	np0000l	matched=no	8	nsubj	_	_
-10	Ruiz	Ruiz	np0000l	np0000l	matched=no	9	appos	_	_
+9	Manuel	Manuel	np0000l	np0000l	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+10	Ruiz	Ruiz	np0000l	np0000l	matched=yes: nsubj child of root deprel	9	appos	_	_
 11	hace	hacer	vmip3s0	vmip3s0	matched=no	8	dobj	_	_
 12	38	38	z	z	matched=no	13	num	_	_
 13	años	año	ncmp000	ncmp000	matched=no	11	dobj	_	_

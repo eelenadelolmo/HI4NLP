@@ -30,9 +30,9 @@
 6	atrás	atrás	rg	rg	matched=no	5	advmod	_	_
 7	-	-	fg	fg	matched=no	4	punct	_	_
 8	dice	decir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-9	el	el	da0ms0	da0ms0	matched=no	11	det	_	_
-10	señor	señor	ncms000	ncms000	matched=no	11	appos	_	_
-11	Sundermeyer	Sundermeyer	np0000p	np0000p	matched=no	8	nsubj	_	_
+9	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	11	det	_	_
+10	señor	señor	ncms000	ncms000	matched=yes: nsubj child of root deprel	11	appos	_	_
+11	Sundermeyer	Sundermeyer	np0000p	np0000p	matched=yes: nsubj child of root deprel	8	nsubj	_	_
 12	-	-	fg	fg	matched=no	8	punct	_	_
 13	.	.	fp	fp	matched=no	8	punct	_	_
 

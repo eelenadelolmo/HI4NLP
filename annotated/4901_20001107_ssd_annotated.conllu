@@ -216,9 +216,9 @@
 22	&quot;	&quot;	fe	fe	matched=no	8	punct	_	_
 23	,	,	fc	fc	matched=no	24	punct	_	_
 24	añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-25	el	el	da0ms0	da0ms0	matched=no	27	det	_	_
-26	primer	primero	ao0ms0	ao0ms0	matched=no	27	amod	_	_
-27	ministro	ministro	ncms000	ncms000	matched=no	24	nsubj	_	_
+25	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	27	det	_	_
+26	primer	primero	ao0ms0	ao0ms0	matched=yes: nsubj child of root deprel	27	amod	_	_
+27	ministro	ministro	ncms000	ncms000	matched=yes: nsubj child of root deprel	24	nsubj	_	_
 28	en	en	sps00	sps00	matched=no	24	prepv	_	_
 29	el	el	da0ms0	da0ms0	matched=no	31	det	_	_
 30	emotivo	emotivo	aq0ms0	aq0ms0	matched=no	31	amod	_	_

@@ -116,14 +116,14 @@
 23	)	)	fpt	fpt	matched=no	19	punct	_	_
 24	no	no	rn	rn	matched=no	25	neg	_	_
 25	figuran	figurar	vmip3p0	vmip3p0	matched=no	0	root	_	_
-26	ni	ni	cc	cc	matched=no	30	conj	_	_
-27	Rivaldo	Rivaldo	np00000	np00000	matched=no	30	coord	_	_
-28	ni	ni	cc	cc	matched=no	30	conj	_	_
-29	Overmars	Overmars	np00000	np00000	matched=no	30	coord	_	_
-30	ni	ni	cc	cc	matched=no	25	nsubj	_	_
-31	De	de	sps00	sps00	matched=no	30	coord	_	_
-32	la	el	da0fs0	da0fs0	matched=no	33	det	_	_
-33	Peña	Peña	np00000	np00000	matched=no	31	pobj	_	_
+26	ni	ni	cc	cc	matched=yes: nsubj child of root deprel	30	conj	_	_
+27	Rivaldo	Rivaldo	np00000	np00000	matched=yes: nsubj child of root deprel	30	coord	_	_
+28	ni	ni	cc	cc	matched=yes: nsubj child of root deprel	30	conj	_	_
+29	Overmars	Overmars	np00000	np00000	matched=yes: nsubj child of root deprel	30	coord	_	_
+30	ni	ni	cc	cc	matched=yes: nsubj child of root deprel	25	nsubj	_	_
+31	De	de	sps00	sps00	matched=yes: nsubj child of root deprel	30	coord	_	_
+32	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	33	det	_	_
+33	Peña	Peña	np00000	np00000	matched=yes: nsubj child of root deprel	31	pobj	_	_
 34	.	.	fp	fp	matched=no	25	punct	_	_
 
 1	Los	el	da0mp0	da0mp0	matched=no	3	det	_	_

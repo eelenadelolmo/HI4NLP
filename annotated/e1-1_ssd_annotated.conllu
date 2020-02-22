@@ -66,14 +66,14 @@
 13	el	el	da0ms0	da0ms0	matched=no	14	det	_	_
 14	personaje	personaje	ncms000	ncms000	matched=no	12	pobj	_	_
 15	exento	exento	aq0ms0	aq0ms0	matched=no	14	amod	_	_
-16	los	el	da0mp0	da0mp0	matched=no	17	det	_	_
-17	rasgos	rasgo	ncmp000	ncmp000	matched=no	11	nsubj	_	_
-18	menos	menos	rg	rg	matched=no	19	advmod	_	_
-19	inocentes	inocente	aq0cp0	aq0cp0	matched=no	17	amod	_	_
-20	de	de	sps00	sps00	matched=no	17	prepn	_	_
-21	un	uno	di0ms0	di0ms0	matched=no	22	det	_	_
-22	prototipo	prototipo	ncms000	ncms000	matched=no	20	pobj	_	_
-23	sobrecargado	sobrecargado	aq0msp	aq0msp	matched=no	22	amod	_	_
+16	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	rasgos	rasgo	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+18	menos	menos	rg	rg	matched=yes: nsubj child of root deprel	19	advmod	_	_
+19	inocentes	inocente	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	17	amod	_	_
+20	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	17	prepn	_	_
+21	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	22	det	_	_
+22	prototipo	prototipo	ncms000	ncms000	matched=yes: nsubj child of root deprel	20	pobj	_	_
+23	sobrecargado	sobrecargado	aq0msp	aq0msp	matched=yes: nsubj child of root deprel	22	amod	_	_
 24	.	.	fp	fp	matched=no	11	punct	_	_
 
 1	Hasta	hasta	sps00	sps00	matched=no	6	te	_	_
@@ -205,12 +205,12 @@
 4	sin	sin	sps00	sps00	matched=no	2	advmod	_	_
 5	duda	duda	ncmp000	ncmp000	matched=no	4	pobj	_	_
 6	,	,	fc	fc	matched=no	2	punct	_	_
-7	similitudes	similitud	ncfp000	ncfp000	matched=no	2	nsubj	_	_
-8	que	que	pr0cn000	pr0cn000	matched=no	9	nsubj	_	_
-9	apuntan	apuntar	vmip3p0	vmip3p0	matched=no	7	rcmod	_	_
-10	en	en	sps00	sps00	matched=no	9	prepv	_	_
-11	esta	este	dd0fs0	dd0fs0	matched=no	12	det	_	_
-12	dirección	dirección	ncfs000	ncfs000	matched=no	10	pobj	_	_
+7	similitudes	similitud	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+8	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
+9	apuntan	apuntar	vmip3p0	vmip3p0	matched=yes: nsubj child of root deprel	7	rcmod	_	_
+10	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	9	prepv	_	_
+11	esta	este	dd0fs0	dd0fs0	matched=yes: nsubj child of root deprel	12	det	_	_
+12	dirección	dirección	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	10	pobj	_	_
 13	.	.	fp	fp	matched=no	2	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

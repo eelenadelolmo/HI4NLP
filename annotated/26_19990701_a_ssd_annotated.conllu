@@ -594,8 +594,8 @@
 7	,	,	fc	fc	matched=no	6	punct	_	_
 8	pues	pues	cs	cs	matched=no	6	te	_	_
 9	,	,	fc	fc	matched=no	6	punct	_	_
-10	los	el	da0mp0	da0mp0	matched=no	11	det	_	_
-11	corresponsales	corresponsal	nccp000	nccp000	matched=no	6	nsubj	_	_
+10	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	corresponsales	corresponsal	nccp000	nccp000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
 12	?	?	fit	fit	matched=no	6	punct	_	_
 13	-	-	fg	fg	matched=no	6	punct	_	_
 14	-	-	fg	fg	matched=no	6	punct	_	_
@@ -809,8 +809,8 @@
 3	¿	¿	fia	fia	matched=no	5	punct	_	_
 4	Qué	qué	pt0cs000	pt0cs000	matched=no	5	dobj	_	_
 5	decía	decir	vmii3s0	vmii3s0	matched=no	0	root	_	_
-6	ese	ese	dd0ms0	dd0ms0	matched=no	7	det	_	_
-7	artículo	artículo	ncms000	ncms000	matched=no	5	nsubj	_	_
+6	ese	ese	dd0ms0	dd0ms0	matched=yes: nsubj child of root deprel	7	det	_	_
+7	artículo	artículo	ncms000	ncms000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
 8	?	?	fit	fit	matched=no	5	punct	_	_
 9	-	-	fg	fg	matched=no	5	punct	_	_
 10	-	-	fg	fg	matched=no	5	punct	_	_
@@ -893,8 +893,8 @@
 
 1	Oiga	oír	vmm03s0	vmm03s0	matched=no	0	root	_	_
 2	,	,	fc	fc	matched=no	1	punct	_	_
-3	señor	señor	ncms000	ncms000	matched=no	1	nsubj	_	_
-4	espía	espía	nccs000	nccs000	matched=no	3	appos	_	_
+3	señor	señor	ncms000	ncms000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+4	espía	espía	nccs000	nccs000	matched=yes: nsubj child of root deprel	3	appos	_	_
 5	,	,	fc	fc	matched=no	1	punct	_	_
 6	que	que	cs	cs	matched=no	1	dobj	_	_
 7	le	él	pp3csd00	pp3csd00	matched=no	8	iobj	_	_
@@ -1163,8 +1163,8 @@
 14	en	en	sps00	sps00	matched=no	11	prepv	_	_
 15	su	su	dp3cs0	dp3cs0	matched=no	16	poss	_	_
 16	familia	familia	ncfs000	ncfs000	matched=no	14	pobj	_	_
-17	el	el	da0ms0	da0ms0	matched=no	18	det	_	_
-18	payés	payés	ncms000	ncms000	matched=no	11	nsubj	_	_
+17	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	18	det	_	_
+18	payés	payés	ncms000	ncms000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
 19	.	.	fp	fp	matched=no	11	punct	_	_
 
 1	-	-	fg	fg	matched=no	3	punct	_	_
@@ -1201,20 +1201,20 @@
 3	centrista	centrista	aq0cs0	aq0cs0	matched=no	2	attr	_	_
 4	me	yo	pp1cs000	pp1cs000	matched=no	5	iobj	_	_
 5	enseñó	enseñar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-6	Cambó	Cambó	np00000	np00000	matched=no	5	nsubj	_	_
-7	,	,	fc	fc	matched=no	6	punct	_	_
-8	un	uno	di0ms0	di0ms0	matched=no	9	det	_	_
-9	político	político	ncms000	ncms000	matched=no	6	appos	_	_
-10	que	que	pr0cn000	pr0cn000	matched=no	12	nsubj	_	_
-11	se	él	p0300000	p0300000	matched=no	12	reflec	_	_
-12	adelantó	adelantar	vmis3s0	vmis3s0	matched=no	9	rcmod	_	_
-13	a	a	sps00	sps00	matched=no	12	prepv	_	_
-14	su	su	dp3cs0	dp3cs0	matched=no	15	poss	_	_
-15	tiempo	tiempo	ncms000	ncms000	matched=no	13	pobj	_	_
-16	,	,	fc	fc	matched=no	6	punct	_	_
-17	un	uno	di0ms0	di0ms0	matched=no	18	det	_	_
-18	político	político	ncms000	ncms000	matched=no	6	appos	_	_
-19	europeo	europeo	aq0ms0	aq0ms0	matched=no	18	amod	_	_
+6	Cambó	Cambó	np00000	np00000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+7	,	,	fc	fc	matched=yes: nsubj child of root deprel	6	punct	_	_
+8	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	político	político	ncms000	ncms000	matched=yes: nsubj child of root deprel	6	appos	_	_
+10	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	12	nsubj	_	_
+11	se	él	p0300000	p0300000	matched=yes: nsubj child of root deprel	12	reflec	_	_
+12	adelantó	adelantar	vmis3s0	vmis3s0	matched=yes: nsubj child of root deprel	9	rcmod	_	_
+13	a	a	sps00	sps00	matched=yes: nsubj child of root deprel	12	prepv	_	_
+14	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	15	poss	_	_
+15	tiempo	tiempo	ncms000	ncms000	matched=yes: nsubj child of root deprel	13	pobj	_	_
+16	,	,	fc	fc	matched=yes: nsubj child of root deprel	6	punct	_	_
+17	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	18	det	_	_
+18	político	político	ncms000	ncms000	matched=yes: nsubj child of root deprel	6	appos	_	_
+19	europeo	europeo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	18	amod	_	_
 20	.	.	fp	fp	matched=no	5	punct	_	_
 
 1	Lo	el	da0ns0	da0ns0	matched=no	2	det	_	_

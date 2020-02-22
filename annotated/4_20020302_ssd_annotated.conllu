@@ -88,8 +88,8 @@
 3	se	se	p0000000	p0000000	matched=no	5	reflec	_	_
 4	le	él	pp3csd00	pp3csd00	matched=no	5	iobj	_	_
 5	retira	retirar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-6	el	el	da0ms0	da0ms0	matched=no	7	det	_	_
-7	carnet	carnet	ncms000	ncms000	matched=no	5	nsubj	_	_
+6	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	7	det	_	_
+7	carnet	carnet	ncms000	ncms000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
 8	cuando	cuando	cs	cs	matched=no	5	advcl	_	_
 9	acumula	acumular	vmip3s0	vmip3s0	matched=no	8	cobj	_	_
 10	tres	tres	dn0cp0	dn0cp0	matched=no	11	det	_	_

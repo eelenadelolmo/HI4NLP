@@ -320,11 +320,11 @@
 8	sin	sin	sps00	sps00	matched=no	4	advmod	_	_
 9	embargo	embargo	ncmp000	ncmp000	matched=no	8	pobj	_	_
 10	,	,	fc	fc	matched=no	4	punct	_	_
-11	miembros	miembro	ncmp000	ncmp000	matched=no	4	nsubj	_	_
-12	de	de	sps00	sps00	matched=no	11	prepn	_	_
-13	las	el	da0fp0	da0fp0	matched=no	15	det	_	_
-14	dos	dos	dn0cp0	dn0cp0	matched=no	15	det	_	_
-15	delegaciones	delegación	ncfp000	ncfp000	matched=no	12	pobj	_	_
+11	miembros	miembro	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+12	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	11	prepn	_	_
+13	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	15	det	_	_
+14	dos	dos	dn0cp0	dn0cp0	matched=yes: nsubj child of root deprel	15	det	_	_
+15	delegaciones	delegación	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	12	pobj	_	_
 16	,	,	fc	fc	matched=no	4	punct	_	_
 17	aunque	aunque	cs	cs	matched=no	4	advcl	_	_
 18	se	se	p0000000	p0000000	matched=no	19	reflec	_	_

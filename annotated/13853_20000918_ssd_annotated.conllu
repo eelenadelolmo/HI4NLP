@@ -58,9 +58,9 @@
 6	han	haber	vaip3p0	vaip3p0	matched=no	0	root	_	_
 7	dado	dar	vmp00sm	vmp00sm	matched=no	6	vobj	_	_
 8	bien	bien	rg	rg	matched=no	7	advmod	_	_
-9	los	el	da0mp0	da0mp0	matched=no	10	det	_	_
-10	equipos	equipo	ncmp000	ncmp000	matched=no	6	nsubj	_	_
-11	alemanes	alemán	aq0mp0	aq0mp0	matched=no	10	amod	_	_
+9	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	equipos	equipo	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+11	alemanes	alemán	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	10	amod	_	_
 12	en	en	sps00	sps00	matched=no	7	prepv	_	_
 13	competición	competición	ncfs000	ncfs000	matched=no	12	pobj	_	_
 14	europea	europeo	aq0fs0	aq0fs0	matched=no	13	amod	_	_

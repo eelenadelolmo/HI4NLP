@@ -52,7 +52,7 @@
 2	particular	particular	aq0msp	aq0msp	matched=no	1	pobj	_	_
 3	,	,	fc	fc	matched=no	4	punct	_	_
 4	son	ser	vsip3p0	vsip3p0	matched=no	0	root	_	_
-5	tres	tres	pn0cp000	pn0cp000	matched=no	4	nsubj	_	_
+5	tres	tres	pn0cp000	pn0cp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
 6	los	el	da0mp0	da0mp0	matched=no	7	det	_	_
 7	objetivos	objetivo	ncmp000	ncmp000	matched=no	4	attr	_	_
 8	:	:	fd	fd	matched=no	19	punct	_	_
@@ -101,10 +101,10 @@
 3	se	se	p0000000	p0000000	matched=no	5	reflec	_	_
 4	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
 5	dedicado	dedicar	vmp00sm	vmp00sm	matched=no	4	vobj	_	_
-6	un	uno	di0ms0	di0ms0	matched=no	8	det	_	_
-7	gran	gran	aq0cs0	aq0cs0	matched=no	8	amod	_	_
-8	esfuerzo	esfuerzo	ncms000	ncms000	matched=no	4	nsubj	_	_
-9	investigador	investigador	ncms000	ncms000	matched=no	8	appos	_	_
+6	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	8	det	_	_
+7	gran	gran	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	8	amod	_	_
+8	esfuerzo	esfuerzo	ncms000	ncms000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+9	investigador	investigador	ncms000	ncms000	matched=yes: nsubj child of root deprel	8	appos	_	_
 10	en	en	sps00	sps00	matched=no	5	prepv	_	_
 11	los	el	da0mp0	da0mp0	matched=no	13	det	_	_
 12	últimos	último	ao0mp0	ao0mp0	matched=no	13	amod	_	_

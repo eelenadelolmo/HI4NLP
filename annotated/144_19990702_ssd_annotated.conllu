@@ -72,8 +72,8 @@
 3	risas	risa	ncfp000	ncfp000	matched=no	1	pobj	_	_
 4	,	,	fc	fc	matched=no	5	punct	_	_
 5	llegará	llegar	vmif3s0	vmif3s0	matched=no	0	root	_	_
-6	Testimoni	Testimoni	np0000l	np0000l	matched=no	5	nsubj	_	_
-7	silenciós	silenciós	np0000l	np0000l	matched=no	6	appos	_	_
+6	Testimoni	Testimoni	np0000l	np0000l	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+7	silenciós	silenciós	np0000l	np0000l	matched=yes: nsubj child of root deprel	6	appos	_	_
 8	(	(	fpa	fpa	matched=no	9	punct	_	_
 9	foto	foto	ncfs000	ncfs000	matched=no	5	dobj	_	_
 10	derecha	derecho	aq0fs0	aq0fs0	matched=no	9	amod	_	_

@@ -40,8 +40,8 @@
 40	,	,	fc	fc	matched=no	26	punct	_	_
 41	informaron	informar	vmis3p0	vmis3p0	matched=no	0	root	_	_
 42	hoy	hoy	rg	rg	matched=no	41	advmod	_	_
-43	fuentes	fuente	ncfp000	ncfp000	matched=no	41	nsubj	_	_
-44	judiciales	judicial	aq0cp0	aq0cp0	matched=no	43	amod	_	_
+43	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	41	nsubj	_	_
+44	judiciales	judicial	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	43	amod	_	_
 45	.	.	fp	fp	matched=no	41	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

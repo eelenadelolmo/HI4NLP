@@ -101,8 +101,8 @@
 51	&quot;	&quot;	fe	fe	matched=no	33	punct	_	_
 52	,	,	fc	fc	matched=no	53	punct	_	_
 53	declaró	declarar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-54	Michel	Michel	np0000l	np0000l	matched=no	53	nsubj	_	_
-55	Salgado	salgar	np0000l	np0000l	matched=no	54	appos	_	_
+54	Michel	Michel	np0000l	np0000l	matched=yes: nsubj child of root deprel	53	nsubj	_	_
+55	Salgado	salgar	np0000l	np0000l	matched=yes: nsubj child of root deprel	54	appos	_	_
 56	.	.	fp	fp	matched=no	53	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -174,7 +174,7 @@
 49	&quot;	&quot;	fe	fe	matched=no	31	punct	_	_
 50	,	,	fc	fc	matched=no	51	punct	_	_
 51	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-52	Michel	Michel	np00000	np00000	matched=no	51	nsubj	_	_
+52	Michel	Michel	np00000	np00000	matched=yes: nsubj child of root deprel	51	nsubj	_	_
 53	.	.	fp	fp	matched=no	51	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	28	punct	_	_
@@ -219,9 +219,9 @@
 40	&quot;	&quot;	fe	fe	matched=no	28	punct	_	_
 41	,	,	fc	fc	matched=no	42	punct	_	_
 42	añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-43	el	el	da0ms0	da0ms0	matched=no	44	det	_	_
-44	lateral	lateral	nccs000	nccs000	matched=no	42	nsubj	_	_
-45	derecho	derecho	aq0ms0	aq0ms0	matched=no	44	amod	_	_
+43	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	44	det	_	_
+44	lateral	lateral	nccs000	nccs000	matched=yes: nsubj child of root deprel	42	nsubj	_	_
+45	derecho	derecho	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	44	amod	_	_
 46	.	.	fp	fp	matched=no	42	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -435,8 +435,8 @@
 41	&quot;	&quot;	fe	fe	matched=no	20	punct	_	_
 42	,	,	fc	fc	matched=no	43	punct	_	_
 43	subrayó	subrayar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-44	el	el	da0ms0	da0ms0	matched=no	45	det	_	_
-45	lateral	lateral	nccs000	nccs000	matched=no	43	nsubj	_	_
+44	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	45	det	_	_
+45	lateral	lateral	nccs000	nccs000	matched=yes: nsubj child of root deprel	43	nsubj	_	_
 46	.	.	fp	fp	matched=no	43	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	17	punct	_	_
@@ -481,7 +481,7 @@
 40	&quot;	&quot;	fe	fe	matched=no	17	punct	_	_
 41	,	,	fc	fc	matched=no	42	punct	_	_
 42	finalizó	finalizar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-43	Michel	Michel	np0000l	np0000l	matched=no	42	nsubj	_	_
-44	Salgado	salgar	np0000l	np0000l	matched=no	43	appos	_	_
+43	Michel	Michel	np0000l	np0000l	matched=yes: nsubj child of root deprel	42	nsubj	_	_
+44	Salgado	salgar	np0000l	np0000l	matched=yes: nsubj child of root deprel	43	appos	_	_
 45	.	.	fp	fp	matched=no	42	punct	_	_
 

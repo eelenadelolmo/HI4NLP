@@ -77,14 +77,14 @@
 23	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
 24	a	a	sps00	sps00	matched=no	23	iobj	_	_
 25	EFE	EFE	np0000o	np0000o	matched=no	24	pobj	_	_
-26	el	el	da0ms0	da0ms0	matched=no	27	det	_	_
-27	director	director	ncms000	ncms000	matched=no	23	nsubj	_	_
-28	del	del	spcms	spcms	matched=no	27	prepn	_	_
-29	experimento	experimento	ncms000	ncms000	matched=no	28	pobj	_	_
-30	,	,	fc	fc	matched=no	27	punct	_	_
-31	Shane	Shane	np0000l	np0000l	matched=no	27	appos	_	_
-32	Deichman	Deichman	np0000l	np0000l	matched=no	31	appos	_	_
-33	,	,	fc	fc	matched=no	27	punct	_	_
+26	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	27	det	_	_
+27	director	director	ncms000	ncms000	matched=yes: nsubj child of root deprel	23	nsubj	_	_
+28	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	27	prepn	_	_
+29	experimento	experimento	ncms000	ncms000	matched=yes: nsubj child of root deprel	28	pobj	_	_
+30	,	,	fc	fc	matched=yes: nsubj child of root deprel	27	punct	_	_
+31	Shane	Shane	np0000l	np0000l	matched=yes: nsubj child of root deprel	27	appos	_	_
+32	Deichman	Deichman	np0000l	np0000l	matched=yes: nsubj child of root deprel	31	appos	_	_
+33	,	,	fc	fc	matched=yes: nsubj child of root deprel	27	punct	_	_
 34	que	que	pr0cn000	pr0cn000	matched=no	36	nsubj	_	_
 35	se	se	p0000000	p0000000	matched=no	36	reflec	_	_
 36	llevará	llevar	vmn0000	vmn0000	matched=no	23	rcmod	_	_
@@ -362,7 +362,7 @@
 25	&quot;	&quot;	fe	fe	matched=no	5	punct	_	_
 26	,	,	fc	fc	matched=no	27	punct	_	_
 27	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-28	Deichman	Deichman	np0000p	np0000p	matched=no	27	nsubj	_	_
+28	Deichman	Deichman	np0000p	np0000p	matched=yes: nsubj child of root deprel	27	nsubj	_	_
 29	.	.	fp	fp	matched=no	27	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	22	punct	_	_
@@ -502,7 +502,7 @@
 8	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 9	,	,	fc	fc	matched=no	10	punct	_	_
 10	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-11	Deichman	Deichman	np0000p	np0000p	matched=no	10	nsubj	_	_
+11	Deichman	Deichman	np0000p	np0000p	matched=yes: nsubj child of root deprel	10	nsubj	_	_
 12	.	.	fp	fp	matched=no	10	punct	_	_
 
 1	Las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	3	det	_	_

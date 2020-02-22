@@ -341,10 +341,10 @@
 22	&quot;	&quot;	fe	fe	matched=no	17	punct	_	_
 23	,	,	fc	fc	matched=no	24	punct	_	_
 24	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-25	su	su	dp3cs0	dp3cs0	matched=no	26	poss	_	_
-26	portavoz	portavoz	nccs000	nccs000	matched=no	24	nsubj	_	_
-27	,	,	fc	fc	matched=no	26	punct	_	_
-28	Catherine	Catherine	np0000l	np0000l	matched=no	26	appos	_	_
-29	Colonna	Colonna	np0000l	np0000l	matched=no	28	appos	_	_
+25	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	26	poss	_	_
+26	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	24	nsubj	_	_
+27	,	,	fc	fc	matched=yes: nsubj child of root deprel	26	punct	_	_
+28	Catherine	Catherine	np0000l	np0000l	matched=yes: nsubj child of root deprel	26	appos	_	_
+29	Colonna	Colonna	np0000l	np0000l	matched=yes: nsubj child of root deprel	28	appos	_	_
 30	.	.	fp	fp	matched=no	24	punct	_	_
 

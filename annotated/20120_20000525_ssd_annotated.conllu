@@ -33,9 +33,9 @@
 33	ciento	ciento	pi0ms000	pi0ms000	matched=no	32	pobj	_	_
 34	,	,	fc	fc	matched=no	35	punct	_	_
 35	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-36	la	el	da0fs0	da0fs0	matched=no	37	det	_	_
-37	autoridad	autoridad	ncfs000	ncfs000	matched=no	35	nsubj	_	_
-38	monetaria	monetario	aq0fs0	aq0fs0	matched=no	37	amod	_	_
+36	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	37	det	_	_
+37	autoridad	autoridad	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	35	nsubj	_	_
+38	monetaria	monetario	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	37	amod	_	_
 39	.	.	fp	fp	matched=no	35	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

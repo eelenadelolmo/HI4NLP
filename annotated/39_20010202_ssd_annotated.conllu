@@ -249,7 +249,7 @@
 5	en	en	sps00	sps00	matched=no	2	prepv	_	_
 6	la	el	da0fs0	da0fs0	matched=no	7	det	_	_
 7	Constitución	Constitución	np00000	np00000	matched=no	5	pobj	_	_
-8	que	que	pr0cn000	pr0cn000	matched=no	2	nsubj	_	_
+8	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 9	establece	establecer	vmip3s0	vmip3s0	matched=no	2	rcmod	_	_
 10	que	que	cs	cs	matched=no	9	dobj	_	_
 11	en	en	sps00	sps00	matched=no	15	prepv	_	_
@@ -331,7 +331,7 @@
 9	,	,	fc	fc	matched=no	11	punct	_	_
 10	no	no	rn	rn	matched=no	11	neg	_	_
 11	existiría	existir	vmic3s0	vmic3s0	matched=no	0	root	_	_
-12	esta	este	dd0fs0	dd0fs0	matched=no	13	det	_	_
-13	NTV	NTV	np00000	np00000	matched=no	11	nsubj	_	_
+12	esta	este	dd0fs0	dd0fs0	matched=yes: nsubj child of root deprel	13	det	_	_
+13	NTV	NTV	np00000	np00000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
 14	.	.	fp	fp	matched=no	11	punct	_	_
 

@@ -26,9 +26,9 @@
 26	tripulantes	tripulante	nccp000	nccp000	matched=no	25	pobj	_	_
 27	,	,	fc	fc	matched=no	28	punct	_	_
 28	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-29	la	el	da0fs0	da0fs0	matched=no	30	det	_	_
-30	Armada	Armada	np00000	np00000	matched=no	28	nsubj	_	_
-31	rusa	ruso	aq0fs0	aq0fs0	matched=no	30	amod	_	_
+29	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	30	det	_	_
+30	Armada	Armada	np00000	np00000	matched=yes: nsubj child of root deprel	28	nsubj	_	_
+31	rusa	ruso	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	30	amod	_	_
 32	.	.	fp	fp	matched=no	28	punct	_	_
 
 1	Un	uno	di0ms0	di0ms0	matched=no	2	det	_	_
@@ -336,11 +336,11 @@
 10	se	se	p0000000	p0000000	matched=no	12	reflec	_	_
 11	habían	haber	vaii3p0	vaii3p0	matched=no	0	root	_	_
 12	explorado	explorar	vmp00sm	vmp00sm	matched=no	11	vobj	_	_
-13	los	el	da0mp0	da0mp0	matched=no	14	det	_	_
-14	compartimentos	compartimento	ncmp000	ncmp000	matched=no	11	nsubj	_	_
-15	ocho	ocho	pn0cp000	pn0cp000	matched=no	16	coord	_	_
-16	y	y	cc	cc	matched=no	14	dep	_	_
-17	nueve	nueve	pn0cp000	pn0cp000	matched=no	16	coord	_	_
+13	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	14	det	_	_
+14	compartimentos	compartimento	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+15	ocho	ocho	pn0cp000	pn0cp000	matched=yes: nsubj child of root deprel	16	coord	_	_
+16	y	y	cc	cc	matched=yes: nsubj child of root deprel	14	dep	_	_
+17	nueve	nueve	pn0cp000	pn0cp000	matched=yes: nsubj child of root deprel	16	coord	_	_
 18	,	,	fc	fc	matched=no	11	punct	_	_
 19	aunque	aunque	cs	cs	matched=no	12	advcl	_	_
 20	se	se	p0000000	p0000000	matched=no	21	reflec	_	_

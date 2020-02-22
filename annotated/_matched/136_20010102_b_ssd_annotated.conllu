@@ -276,6 +276,37 @@
 42	Rajastán	Rajastán	ncms000	ncms000	matched=no	41	pobj	_	_
 43	.	.	fp	fp	matched=no	16	punct	_	_
 
+1	Bajo	bajo	sps00	sps00	matched=no	4	prepv	_	_
+2	ese	ese	dd0ms0	dd0ms0	matched=no	3	det	_	_
+3	reclamo	reclamo	ncms000	ncms000	matched=no	1	pobj	_	_
+4	intervendrán	intervenir	vmif3p0	vmif3p0	matched=no	0	root	_	_
+5	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	formación	formación	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	13	coord	_	_
+7	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	6	prepn	_	_
+8	big	big	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	9	amod	_	_
+9	beat	beat	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	pobj	_	_
+10	Bentley	Bentley	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	appos	_	_
+11	Rhythm	Rhythm	ncms000	ncms000	matched=yes: nsubj child of root deprel	10	appos	_	_
+12	Ace	Ace	np00000	np00000	matched=yes: nsubj child of root deprel	11	appos	_	_
+13	y	y	cc	cc	matched=yes: nsubj child of root deprel	22	cobj	_	_
+14	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	15	det	_	_
+15	pioneros	pionero	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	13	coord	_	_
+16	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	15	prepn	_	_
+17	tecno-pop	tecno-pop	ncms000	ncms000	matched=yes: nsubj child of root deprel	16	pobj	_	_
+18	español	español	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	17	amod	_	_
+19	Aviador	Aviador	np0000l	np0000l	matched=yes: nsubj child of root deprel	15	appos	_	_
+20	Dro	Dro	np0000l	np0000l	matched=yes: nsubj child of root deprel	19	appos	_	_
+21	,	,	fc	fc	matched=yes: nsubj child of root deprel	22	punct	_	_
+22	así	así	rg	rg	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+23	como	como	cs	cs	matched=yes: nsubj child of root deprel	22	dep	_	_
+24	John	John	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	27	coord	_	_
+25	Landis	Landis	ncms000	ncms000	matched=yes: nsubj child of root deprel	24	appos	_	_
+26	Fans	Fans	np00000	np00000	matched=yes: nsubj child of root deprel	25	appos	_	_
+27	y	y	cc	cc	matched=yes: nsubj child of root deprel	23	cobj	_	_
+28	Dj	Dj	np0000l	np0000l	matched=yes: nsubj child of root deprel	27	coord	_	_
+29	Cosmos	Cosmos	np0000l	np0000l	matched=yes: nsubj child of root deprel	28	appos	_	_
+30	.	.	fp	fp	matched=no	4	punct	_	_
+
 1	El	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	Laboratorio	laboratorio	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
 3	del	del	sps00	sps00	matched=yes: nsubj child of root deprel	2	prepn	_	_

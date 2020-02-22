@@ -43,11 +43,11 @@
 10	&quot;	&quot;	fe	fe	matched=no	6	punct	_	_
 11	,	,	fc	fc	matched=no	12	punct	_	_
 12	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-13	el	el	da0ms0	da0ms0	matched=no	14	det	_	_
-14	artista	artista	nccs000	nccs000	matched=no	12	nsubj	_	_
-15	del	del	spcms	spcms	matched=no	14	prepn	_	_
-16	Poble	Poble	np0000l	np0000l	matched=no	15	pobj	_	_
-17	Sec	Sec	np0000l	np0000l	matched=no	16	appos	_	_
+13	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	14	det	_	_
+14	artista	artista	nccs000	nccs000	matched=yes: nsubj child of root deprel	12	nsubj	_	_
+15	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	14	prepn	_	_
+16	Poble	Poble	np0000l	np0000l	matched=yes: nsubj child of root deprel	15	pobj	_	_
+17	Sec	Sec	np0000l	np0000l	matched=yes: nsubj child of root deprel	16	appos	_	_
 18	.	.	fp	fp	matched=no	12	punct	_	_
 
 1	Serrat	Serrat	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_

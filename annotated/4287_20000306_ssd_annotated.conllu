@@ -25,11 +25,11 @@
 25	,	,	fc	fc	matched=no	24	punct	_	_
 26	lunes	lunes	ncms000	ncms000	matched=no	24	dep	_	_
 27	,	,	fc	fc	matched=no	24	punct	_	_
-28	el	el	da0ms0	da0ms0	matched=no	29	det	_	_
-29	diputado	diputado	ncms000	ncms000	matched=no	23	nsubj	_	_
-30	laborista	laborista	aq0cs0	aq0cs0	matched=no	29	amod	_	_
-31	George	George	np0000l	np0000l	matched=no	29	appos	_	_
-32	Galloway	Galloway	np0000l	np0000l	matched=no	31	appos	_	_
+28	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	29	det	_	_
+29	diputado	diputado	ncms000	ncms000	matched=yes: nsubj child of root deprel	23	nsubj	_	_
+30	laborista	laborista	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	29	amod	_	_
+31	George	George	np0000l	np0000l	matched=yes: nsubj child of root deprel	29	appos	_	_
+32	Galloway	Galloway	np0000l	np0000l	matched=yes: nsubj child of root deprel	31	appos	_	_
 33	.	.	fp	fp	matched=no	23	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -243,8 +243,8 @@
 9	&quot;	&quot;	fe	fe	matched=no	8	punct	_	_
 10	,	,	fc	fc	matched=no	11	punct	_	_
 11	añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-12	el	el	da0ms0	da0ms0	matched=no	13	det	_	_
-13	diputado	diputado	ncms000	ncms000	matched=no	11	nsubj	_	_
+12	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	13	det	_	_
+13	diputado	diputado	ncms000	ncms000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
 14	.	.	fp	fp	matched=no	11	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	30	punct	_	_
@@ -356,9 +356,9 @@
 33	&quot;	&quot;	fe	fe	matched=no	19	punct	_	_
 34	,	,	fc	fc	matched=no	35	punct	_	_
 35	aseguró	asegurar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-36	el	el	da0ms0	da0ms0	matched=no	37	det	_	_
-37	diputado	diputado	ncms000	ncms000	matched=no	35	nsubj	_	_
-38	laborista	laborista	aq0cs0	aq0cs0	matched=no	37	amod	_	_
+36	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	37	det	_	_
+37	diputado	diputado	ncms000	ncms000	matched=yes: nsubj child of root deprel	35	nsubj	_	_
+38	laborista	laborista	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	37	amod	_	_
 39	a	a	sps00	sps00	matched=no	35	iobj	_	_
 40	Radio	radio	ncmp000	ncmp000	matched=no	39	pobj	_	_
 41	4	4	zm	zm	matched=no	40	num	_	_
@@ -435,6 +435,6 @@
 39	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 40	,	,	fc	fc	matched=no	41	punct	_	_
 41	manifestó	manifestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-42	Galloway	Galloway	np00000	np00000	matched=no	41	nsubj	_	_
+42	Galloway	Galloway	np00000	np00000	matched=yes: nsubj child of root deprel	41	nsubj	_	_
 43	.	.	fp	fp	matched=no	41	punct	_	_
 

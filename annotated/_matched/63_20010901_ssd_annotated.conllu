@@ -276,6 +276,29 @@
 29	custodia	custodia	ncfs000	ncfs000	matched=no	27	pobj	_	_
 30	.	.	fp	fp	matched=no	12	punct	_	_
 
+1	Esta	este	dd0fs0	dd0fs0	matched=no	2	det	_	_
+2	semana	semana	ncfs000	ncfs000	matched=no	4	tmod	_	_
+3	fueron	ser	vsis3p0	vsis3p0	matched=no	0	root	_	_
+4	detenidas	detener	vmp00pf	vmp00pf	matched=no	3	attr	_	_
+5	en	en	sps00	sps00	matched=no	4	prepv	_	_
+6	Bermeo	Bermeo	np00000	np00000	matched=no	5	pobj	_	_
+7	dos	dos	dn0cp0	dn0cp0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	mujeres	mujer	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+9	bolivianas	boliviano	aq0fp0	aq0fp0	matched=yes: nsubj child of root deprel	8	amod	_	_
+10	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+11	25	25	z	z	matched=yes: nsubj child of root deprel	12	coord	_	_
+12	y	y	cc	cc	matched=yes: nsubj child of root deprel	14	dep	_	_
+13	19	19	z	z	matched=yes: nsubj child of root deprel	12	coord	_	_
+14	años	año	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	10	pobj	_	_
+15	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	16	nsubj	_	_
+16	desempeñaron	desempeñar	vmis3p0	vmis3p0	matched=yes: nsubj child of root deprel	8	rcmod	_	_
+17	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	18	det	_	_
+18	papel	papel	ncms000	ncms000	matched=yes: nsubj child of root deprel	16	dobj	_	_
+19	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	18	prepn	_	_
+20	madres	madre	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	19	pobj	_	_
+21	correo	correo	ncms000	ncms000	matched=yes: nsubj child of root deprel	20	appos	_	_
+22	.	.	fp	fp	matched=no	3	punct	_	_
+
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	niños	niño	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
 3	implicados	implicado	aq0mpp	aq0mpp	matched=yes: nsubj child of root deprel	2	amod	_	_

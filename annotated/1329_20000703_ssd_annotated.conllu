@@ -98,7 +98,7 @@
 37	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
 38	comentado	comentar	vmp00sm	vmp00sm	matched=no	37	vobj	_	_
 39	hoy	hoy	rg	rg	matched=no	38	advmod	_	_
-40	Castells	Castells	np0000p	np0000p	matched=no	37	nsubj	_	_
+40	Castells	Castells	np0000p	np0000p	matched=yes: nsubj child of root deprel	37	nsubj	_	_
 41	,	,	fc	fc	matched=no	37	punct	_	_
 42	en	en	sps00	sps00	matched=no	38	prepv	_	_
 43	una	uno	di0fs0	di0fs0	matched=no	44	det	_	_
@@ -268,6 +268,6 @@
 28	,	,	fc	fc	matched=no	29	punct	_	_
 29	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
 30	añadido	añadir	vmp00sm	vmp00sm	matched=no	29	vobj	_	_
-31	Castells	Castells	np0000p	np0000p	matched=no	29	nsubj	_	_
+31	Castells	Castells	np0000p	np0000p	matched=yes: nsubj child of root deprel	29	nsubj	_	_
 32	.	.	fp	fp	matched=no	29	punct	_	_
 

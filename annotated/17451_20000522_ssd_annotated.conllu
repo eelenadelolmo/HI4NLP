@@ -267,9 +267,9 @@
 52	por	por	sps00	sps00	matched=no	58	prepv	_	_
 53	lo	el	da0ns0	da0ns0	matched=no	54	det	_	_
 54	que	que	pr0cn000	pr0cn000	matched=no	53	nsubj	_	_
-55	el	el	da0ms0	da0ms0	matched=no	56	det	_	_
-56	secretario	secretario	ncms000	ncms000	matched=no	16	nsubj	_	_
-57	general	general	aq0cs0	aq0cs0	matched=no	56	amod	_	_
+55	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	56	det	_	_
+56	secretario	secretario	ncms000	ncms000	matched=yes: nsubj child of root deprel	16	nsubj	_	_
+57	general	general	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	56	amod	_	_
 58	sobrepasó	sobrepasar	vmis3s0	vmis3s0	matched=no	18	vobj	_	_
 59	con	con	sps00	sps00	matched=no	58	advmod	_	_
 60	creces	crece	ncmp000	ncmp000	matched=no	59	pobj	_	_
@@ -553,6 +553,6 @@
 39	&quot;	&quot;	fe	fe	matched=no	38	punct	_	_
 40	,	,	fc	fc	matched=no	41	punct	_	_
 41	señaló	señalar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-42	Alvarez	Alvarez	np0000p	np0000p	matched=no	41	nsubj	_	_
+42	Alvarez	Alvarez	np0000p	np0000p	matched=yes: nsubj child of root deprel	41	nsubj	_	_
 43	.	.	fp	fp	matched=no	41	punct	_	_
 

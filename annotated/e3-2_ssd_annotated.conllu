@@ -35,10 +35,10 @@
 
 1	También	también	rg	rg	matched=no	2	advmod	_	_
 2	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
-3	un	uno	di0ms0	di0ms0	matched=no	4	det	_	_
-4	don	don	ncms000	ncms000	matched=no	2	nsubj	_	_
-5	de	de	sps00	sps00	matched=no	4	prepn	_	_
-6	naturaleza	naturaleza	ncfs000	ncfs000	matched=no	5	pobj	_	_
+3	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	don	don	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+5	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	4	prepn	_	_
+6	naturaleza	naturaleza	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	pobj	_	_
 7	el	el	da0ms0	da0ms0	matched=no	8	det	_	_
 8	talento	talento	ncms000	ncms000	matched=no	2	attr	_	_
 9	para	para	sps00	sps00	matched=no	8	prepn	_	_
@@ -400,9 +400,9 @@
 3	oposición	oposición	ncfs000	ncfs000	matched=no	1	pobj	_	_
 4	extrema	extremo	aq0fs0	aq0fs0	matched=no	3	amod	_	_
 5	baste	bastar	vmsp3s0	vmsp3s0	matched=no	0	root	_	_
-6	aquí	aquí	rg	rg	matched=no	7	advmod	_	_
-7	una	uno	di0fs0	di0fs0	matched=no	8	det	_	_
-8	muestra	muestra	ncfs000	ncfs000	matched=no	5	nsubj	_	_
+6	aquí	aquí	rg	rg	matched=yes: nsubj child of root deprel	7	advmod	_	_
+7	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	muestra	muestra	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
 9	.	.	fp	fp	matched=no	5	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	3	det	_	_

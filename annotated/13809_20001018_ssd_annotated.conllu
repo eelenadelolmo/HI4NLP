@@ -269,8 +269,8 @@
 43	&quot;	&quot;	fe	fe	matched=no	37	punct	_	_
 44	,	,	fc	fc	matched=no	45	punct	_	_
 45	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-46	Al	al	sps00	sps00	matched=no	45	nsubj	_	_
-47	Gore	gore	ncmp000	ncmp000	matched=no	46	pobj	_	_
+46	Al	al	sps00	sps00	matched=yes: nsubj child of root deprel	45	nsubj	_	_
+47	Gore	gore	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	46	pobj	_	_
 48	.	.	fp	fp	matched=no	45	punct	_	_
 
 1	Bush	Bush	np0000p	np0000p	matched=no	2	nsubj	_	_

@@ -129,13 +129,13 @@
 6	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 7	,	,	fc	fc	matched=no	8	punct	_	_
 8	comentó	comentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-9	Gerry	Gerry	np0000l	np0000l	matched=no	8	nsubj	_	_
-10	Hunsicker	Hunsicker	np0000l	np0000l	matched=no	9	appos	_	_
-11	,	,	fc	fc	matched=no	9	punct	_	_
-12	gerente	gerente	nccs000	nccs000	matched=no	9	appos	_	_
-13	general	general	aq0cs0	aq0cs0	matched=no	12	amod	_	_
-14	del	del	spcms	spcms	matched=no	12	prepn	_	_
-15	equipo	equipo	ncms000	ncms000	matched=no	14	pobj	_	_
+9	Gerry	Gerry	np0000l	np0000l	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+10	Hunsicker	Hunsicker	np0000l	np0000l	matched=yes: nsubj child of root deprel	9	appos	_	_
+11	,	,	fc	fc	matched=yes: nsubj child of root deprel	9	punct	_	_
+12	gerente	gerente	nccs000	nccs000	matched=yes: nsubj child of root deprel	9	appos	_	_
+13	general	general	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	12	amod	_	_
+14	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	12	prepn	_	_
+15	equipo	equipo	ncms000	ncms000	matched=yes: nsubj child of root deprel	14	pobj	_	_
 16	.	.	fp	fp	matched=no	8	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_

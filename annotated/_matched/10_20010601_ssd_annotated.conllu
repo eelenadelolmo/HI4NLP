@@ -110,3 +110,31 @@
 26	años	año	ncmp000	ncmp000	matched=no	24	dobj	_	_
 27	.	.	fp	fp	matched=no	5	punct	_	_
 
+1	¿	¿	fia	fia	matched=no	3	punct	_	_
+2	Qué	qué	pt0cs000	pt0cs000	matched=no	3	dobj	_	_
+3	tendrán	tener	vmif3p0	vmif3p0	matched=no	0	root	_	_
+4	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	gallegos	gallego	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+6	bonaerenses	bonaerense	aq0cp0	aq0cp0	matched=yes: nsubj child of root deprel	5	amod	_	_
+7	,	,	fc	fc	matched=no	3	punct	_	_
+8	si	si	cs	cs	matched=no	3	advcl	_	_
+9	los	el	da0mp0	da0mp0	matched=no	10	det	_	_
+10	italianos	italiano	ncmp000	ncmp000	matched=no	12	nsubj	_	_
+11	emigrados	emigrado	aq0mpp	aq0mpp	matched=no	10	amod	_	_
+12	mueren	morir	vmip3p0	vmip3p0	matched=no	8	cobj	_	_
+13	a	a	sps00	sps00	matched=no	12	prepv	_	_
+14	la	el	da0fs0	da0fs0	matched=no	16	det	_	_
+15	misma	mismo	di0fs0	di0fs0	matched=no	16	det	_	_
+16	edad	edad	ncfs000	ncfs000	matched=no	13	pobj	_	_
+17	que	que	cs	cs	matched=no	16	dep	_	_
+18	sus	su	dp3cp0	dp3cp0	matched=no	19	poss	_	_
+19	parientes	pariente	nccp000	nccp000	matched=no	17	cobj	_	_
+20	que	que	pr0cn000	pr0cn000	matched=no	23	nsubj	_	_
+21	no	no	rn	rn	matched=no	23	neg	_	_
+22	se	él	p0300000	p0300000	matched=no	23	reflec	_	_
+23	movieron	mover	vmis3p0	vmis3p0	matched=no	19	rcmod	_	_
+24	de	de	sps00	sps00	matched=no	23	prepv	_	_
+25	Nápoles	Nápoles	np00000	np00000	matched=no	24	pobj	_	_
+26	?	?	fit	fit	matched=no	3	punct	_	_
+27	.	.	fp	fp	matched=no	3	punct	_	_
+

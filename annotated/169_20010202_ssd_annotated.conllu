@@ -111,16 +111,16 @@
 13	colección	colección	ncfs000	ncfs000	matched=no	11	pobj	_	_
 14	,	,	fc	fc	matched=no	15	punct	_	_
 15	destaca	destacar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-16	un	uno	di0ms0	di0ms0	matched=no	17	det	_	_
-17	violín	violín	ncms000	ncms000	matched=no	15	nsubj	_	_
-18	llamado	llamado	aq0msp	aq0msp	matched=no	19	amod	_	_
-19	Ex	ex	ncms000	ncms000	matched=no	17	appos	_	_
-20	Von	Von	np0000o	np0000o	matched=no	19	appos	_	_
-21	Szerdahely	Szerdahely	ncms000	ncms000	matched=no	19	appos	_	_
-22	VieuxTemps	VieuxTemps	np0000a	np0000a	matched=no	21	appos	_	_
-23	,	,	fc	fc	matched=no	17	punct	_	_
-24	de	de	sps00	sps00	matched=no	17	prepn	_	_
-25	1736	1736	z	z	matched=no	24	pobj	_	_
+16	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	violín	violín	ncms000	ncms000	matched=yes: nsubj child of root deprel	15	nsubj	_	_
+18	llamado	llamado	aq0msp	aq0msp	matched=yes: nsubj child of root deprel	19	amod	_	_
+19	Ex	ex	ncms000	ncms000	matched=yes: nsubj child of root deprel	17	appos	_	_
+20	Von	Von	np0000o	np0000o	matched=yes: nsubj child of root deprel	19	appos	_	_
+21	Szerdahely	Szerdahely	ncms000	ncms000	matched=yes: nsubj child of root deprel	19	appos	_	_
+22	VieuxTemps	VieuxTemps	np0000a	np0000a	matched=yes: nsubj child of root deprel	21	appos	_	_
+23	,	,	fc	fc	matched=yes: nsubj child of root deprel	17	punct	_	_
+24	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	17	prepn	_	_
+25	1736	1736	z	z	matched=yes: nsubj child of root deprel	24	pobj	_	_
 26	.	.	fp	fp	matched=no	15	punct	_	_
 
 1	Su	su	dp3cs0	dp3cs0	matched=no	2	poss	_	_
@@ -182,13 +182,13 @@
 1	Por	por	sps00	sps00	matched=no	3	prepv	_	_
 2	él	él	pp3ms000	pp3ms000	matched=no	1	pobj	_	_
 3	suspiró	suspirar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-4	Yehudi	Yehudi	np0000l	np0000l	matched=no	3	nsubj	_	_
-5	Menuhin	Menuhin	np0000l	np0000l	matched=no	4	appos	_	_
-6	,	,	fc	fc	matched=no	4	punct	_	_
-7	que	que	pr0cn000	pr0cn000	matched=no	8	nsubj	_	_
-8	elogió	elogiar	vmis3s0	vmis3s0	matched=no	4	rcmod	_	_
-9	su	su	dp3cs0	dp3cs0	matched=no	10	poss	_	_
-10	sonoridad	sonoridad	ncfs000	ncfs000	matched=no	8	dobj	_	_
+4	Yehudi	Yehudi	np0000l	np0000l	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+5	Menuhin	Menuhin	np0000l	np0000l	matched=yes: nsubj child of root deprel	4	appos	_	_
+6	,	,	fc	fc	matched=yes: nsubj child of root deprel	4	punct	_	_
+7	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+8	elogió	elogiar	vmis3s0	vmis3s0	matched=yes: nsubj child of root deprel	4	rcmod	_	_
+9	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	10	poss	_	_
+10	sonoridad	sonoridad	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	8	dobj	_	_
 11	.	.	fp	fp	matched=no	3	punct	_	_
 
 1	Estos	este	dd0mp0	dd0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -303,15 +303,15 @@
 32	&quot;	&quot;	fe	fe	matched=no	22	punct	_	_
 33	,	,	fc	fc	matched=no	34	punct	_	_
 34	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-35	Claude	Claude	np0000l	np0000l	matched=no	34	nsubj	_	_
-36	Lebet	Lebet	np0000l	np0000l	matched=no	35	appos	_	_
-37	,	,	fc	fc	matched=no	35	punct	_	_
-38	uno	uno	pi0ms000	pi0ms000	matched=no	35	dep	_	_
-39	de	de	sps00	sps00	matched=no	38	prepn	_	_
-40	los	el	da0mp0	da0mp0	matched=no	41	det	_	_
-41	luthiers	luthier	ncmp000	ncmp000	matched=no	39	pobj	_	_
-42	más	más	rg	rg	matched=no	43	advmod	_	_
-43	reconocido	reconocido	aq0msp	aq0msp	matched=no	38	amod	_	_
+35	Claude	Claude	np0000l	np0000l	matched=yes: nsubj child of root deprel	34	nsubj	_	_
+36	Lebet	Lebet	np0000l	np0000l	matched=yes: nsubj child of root deprel	35	appos	_	_
+37	,	,	fc	fc	matched=yes: nsubj child of root deprel	35	punct	_	_
+38	uno	uno	pi0ms000	pi0ms000	matched=yes: nsubj child of root deprel	35	dep	_	_
+39	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	38	prepn	_	_
+40	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	41	det	_	_
+41	luthiers	luthier	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	39	pobj	_	_
+42	más	más	rg	rg	matched=yes: nsubj child of root deprel	43	advmod	_	_
+43	reconocido	reconocido	aq0msp	aq0msp	matched=yes: nsubj child of root deprel	38	amod	_	_
 44	.	.	fp	fp	matched=no	34	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -358,8 +358,8 @@
 23	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
 24	,	,	fc	fc	matched=no	25	punct	_	_
 25	apuntó	apuntar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-26	Claude	Claude	np0000l	np0000l	matched=no	25	nsubj	_	_
-27	Lebet	Lebet	np0000l	np0000l	matched=no	26	appos	_	_
+26	Claude	Claude	np0000l	np0000l	matched=yes: nsubj child of root deprel	25	nsubj	_	_
+27	Lebet	Lebet	np0000l	np0000l	matched=yes: nsubj child of root deprel	26	appos	_	_
 28	.	.	fp	fp	matched=no	25	punct	_	_
 
 1	Como	como	cs	cs	matched=no	29	dep	_	_

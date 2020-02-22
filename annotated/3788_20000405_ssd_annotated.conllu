@@ -25,11 +25,11 @@
 25	Leeds	Leeds	np00000	np00000	matched=no	23	coord	_	_
 26	,	,	fc	fc	matched=no	27	punct	_	_
 27	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-28	el	el	da0ms0	da0ms0	matched=no	29	det	_	_
-29	canal	canal	ncms000	ncms000	matched=no	27	nsubj	_	_
-30	de	de	sps00	sps00	matched=no	29	prepn	_	_
-31	televisión	televisión	ncfs000	ncfs000	matched=no	30	pobj	_	_
-32	NTV	NTV	np00000	np00000	matched=no	29	appos	_	_
+28	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	29	det	_	_
+29	canal	canal	ncms000	ncms000	matched=yes: nsubj child of root deprel	27	nsubj	_	_
+30	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	29	prepn	_	_
+31	televisión	televisión	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	30	pobj	_	_
+32	NTV	NTV	np00000	np00000	matched=yes: nsubj child of root deprel	29	appos	_	_
 33	.	.	fp	fp	matched=no	27	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_
@@ -82,16 +82,16 @@
 48	bar	bar	ncms000	ncms000	matched=no	46	pobj	_	_
 49	,	,	fc	fc	matched=no	50	punct	_	_
 50	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-51	la	el	da0fs0	da0fs0	matched=no	52	det	_	_
-52	policía	policía	nccs000	nccs000	matched=no	50	nsubj	_	_
-53	,	,	fc	fc	matched=no	52	punct	_	_
-54	que	que	pr0cn000	pr0cn000	matched=no	56	nsubj	_	_
-55	no	no	rn	rn	matched=no	56	neg	_	_
-56	facilitó	facilitar	vmis3s0	vmis3s0	matched=no	52	rcmod	_	_
-57	la	el	da0fs0	da0fs0	matched=no	58	det	_	_
-58	identidad	identidad	ncfs000	ncfs000	matched=no	56	dobj	_	_
-59	del	del	spcms	spcms	matched=no	58	prepn	_	_
-60	fallecido	fallecido	aq0msp	aq0msp	matched=no	59	pobj	_	_
+51	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	52	det	_	_
+52	policía	policía	nccs000	nccs000	matched=yes: nsubj child of root deprel	50	nsubj	_	_
+53	,	,	fc	fc	matched=yes: nsubj child of root deprel	52	punct	_	_
+54	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	56	nsubj	_	_
+55	no	no	rn	rn	matched=yes: nsubj child of root deprel	56	neg	_	_
+56	facilitó	facilitar	vmis3s0	vmis3s0	matched=yes: nsubj child of root deprel	52	rcmod	_	_
+57	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	58	det	_	_
+58	identidad	identidad	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	56	dobj	_	_
+59	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	58	prepn	_	_
+60	fallecido	fallecido	aq0msp	aq0msp	matched=yes: nsubj child of root deprel	59	pobj	_	_
 61	.	.	fp	fp	matched=no	50	punct	_	_
 
 1	Una	uno	di0fs0	di0fs0	matched=no	2	det	_	_
@@ -125,10 +125,10 @@
 29	allí	allí	rg	rg	matched=no	28	advmod	_	_
 30	,	,	fc	fc	matched=no	31	punct	_	_
 31	señaló	señalar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-32	la	el	da0fs0	da0fs0	matched=no	33	det	_	_
-33	agencia	agencia	ncfs000	ncfs000	matched=no	31	nsubj	_	_
-34	turca	turco	aq0fs0	aq0fs0	matched=no	33	amod	_	_
-35	Anatolia	Anatolia	np00000	np00000	matched=no	33	appos	_	_
+32	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	33	det	_	_
+33	agencia	agencia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	31	nsubj	_	_
+34	turca	turco	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	33	amod	_	_
+35	Anatolia	Anatolia	np00000	np00000	matched=yes: nsubj child of root deprel	33	appos	_	_
 36	.	.	fp	fp	matched=no	31	punct	_	_
 
 1	En	en	sps00	sps00	matched=no	5	prepv	_	_

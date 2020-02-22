@@ -206,11 +206,11 @@
 5	entrará	entrar	vmif3s0	vmif3s0	matched=no	0	root	_	_
 6	en	en	sps00	sps00	matched=no	5	prepv	_	_
 7	vigor	vigor	ncms000	ncms000	matched=no	6	pobj	_	_
-8	la	el	da0fs0	da0fs0	matched=no	9	det	_	_
-9	prórroga	prórroga	ncfs000	ncfs000	matched=no	5	nsubj	_	_
-10	del	del	spcms	spcms	matched=no	9	prepn	_	_
-11	actual	actual	aq0cs0	aq0cs0	matched=no	12	amod	_	_
-12	modelo	modelo	ncfs000	ncfs000	matched=no	10	pobj	_	_
+8	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	prórroga	prórroga	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+10	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	9	prepn	_	_
+11	actual	actual	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	12	amod	_	_
+12	modelo	modelo	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	10	pobj	_	_
 13	,	,	fc	fc	matched=no	5	punct	_	_
 14	lo	el	da0ns0	da0ns0	matched=no	15	det	_	_
 15	que	que	pr0cn000	pr0cn000	matched=no	17	nsubj	_	_

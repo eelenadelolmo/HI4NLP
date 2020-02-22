@@ -1,13 +1,13 @@
 1	Fallece	fallecer	vmip3s0	vmip3s0	matched=no	0	root	_	_
-2	Rodolfo	Rodolfo	ncfs000	ncfs000	matched=no	1	nsubj	_	_
-3	Bay	Bay	ncms000	ncms000	matched=no	2	appos	_	_
-4	Wright	Wright	np00000	np00000	matched=no	3	appos	_	_
-5	,	,	fc	fc	matched=no	2	punct	_	_
-6	fundador	fundador	ncms000	ncms000	matched=no	2	appos	_	_
-7	de	de	sps00	sps00	matched=no	6	prepn	_	_
-8	la	el	da0fs0	da0fs0	matched=no	9	det	_	_
-9	aerolínea	aerolínea	ncfs000	ncfs000	matched=no	7	pobj	_	_
-10	Spantax	Spantax	np00000	np00000	matched=no	9	appos	_	_
+2	Rodolfo	Rodolfo	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+3	Bay	Bay	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	appos	_	_
+4	Wright	Wright	np00000	np00000	matched=yes: nsubj child of root deprel	3	appos	_	_
+5	,	,	fc	fc	matched=yes: nsubj child of root deprel	2	punct	_	_
+6	fundador	fundador	ncms000	ncms000	matched=yes: nsubj child of root deprel	2	appos	_	_
+7	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	6	prepn	_	_
+8	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	aerolínea	aerolínea	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	7	pobj	_	_
+10	Spantax	Spantax	np00000	np00000	matched=yes: nsubj child of root deprel	9	appos	_	_
 11	.	.	fp	fp	matched=no	1	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

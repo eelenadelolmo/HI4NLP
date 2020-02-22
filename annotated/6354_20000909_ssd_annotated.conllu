@@ -260,15 +260,15 @@
 16	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
 17	,	,	fc	fc	matched=no	18	punct	_	_
 18	aseguró	asegurar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-19	Stan	Stan	np0000l	np0000l	matched=no	18	nsubj	_	_
-20	Smith	Smith	np0000l	np0000l	matched=no	19	appos	_	_
-21	,	,	fc	fc	matched=no	19	punct	_	_
-22	entrenador	entrenador	ncms000	ncms000	matched=no	19	appos	_	_
-23	del	del	spcms	spcms	matched=no	22	prepn	_	_
-24	equipo	equipo	ncms000	ncms000	matched=no	23	pobj	_	_
-25	olímpico	olímpico	aq0ms0	aq0ms0	matched=no	24	amod	_	_
-26	de	de	sps00	sps00	matched=no	24	prepn	_	_
-27	Estados	estado	ncms000	ncms000	matched=no	26	pobj	_	_
-28	Unidos	unido	aq0ms0	aq0ms0	matched=no	27	amod	_	_
+19	Stan	Stan	np0000l	np0000l	matched=yes: nsubj child of root deprel	18	nsubj	_	_
+20	Smith	Smith	np0000l	np0000l	matched=yes: nsubj child of root deprel	19	appos	_	_
+21	,	,	fc	fc	matched=yes: nsubj child of root deprel	19	punct	_	_
+22	entrenador	entrenador	ncms000	ncms000	matched=yes: nsubj child of root deprel	19	appos	_	_
+23	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	22	prepn	_	_
+24	equipo	equipo	ncms000	ncms000	matched=yes: nsubj child of root deprel	23	pobj	_	_
+25	olímpico	olímpico	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	24	amod	_	_
+26	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	24	prepn	_	_
+27	Estados	estado	ncms000	ncms000	matched=yes: nsubj child of root deprel	26	pobj	_	_
+28	Unidos	unido	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	27	amod	_	_
 29	.	.	fp	fp	matched=no	18	punct	_	_
 

@@ -142,9 +142,9 @@
 49	&quot;	&quot;	fe	fe	matched=no	6	punct	_	_
 50	,	,	fc	fc	matched=no	51	punct	_	_
 51	añade	añadir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-52	el	el	da0ms0	da0ms0	matched=no	53	det	_	_
-53	político	político	ncms000	ncms000	matched=no	51	nsubj	_	_
-54	mexicano	mexicano	aq0ms0	aq0ms0	matched=no	53	amod	_	_
+52	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	53	det	_	_
+53	político	político	ncms000	ncms000	matched=yes: nsubj child of root deprel	51	nsubj	_	_
+54	mexicano	mexicano	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	53	amod	_	_
 55	.	.	fp	fp	matched=no	51	punct	_	_
 
 1	Cárdenas	Cárdenas	np00000	np00000	matched=no	14	nsubj	_	_

@@ -135,7 +135,7 @@
 17	&quot;	&quot;	fe	fe	matched=no	27	punct	_	_
 18	,	,	fc	fc	matched=no	21	punct	_	_
 19	manifestó	manifestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-20	Marroquín	Marroquín	np00000	np00000	matched=no	19	nsubj	_	_
+20	Marroquín	Marroquín	np00000	np00000	matched=yes: nsubj child of root deprel	19	nsubj	_	_
 21	ante	ante	sps00	sps00	matched=no	19	prepv	_	_
 22	cerca	cerca	rg	rg	matched=no	26	advmod	_	_
 23	de	de	sps00	sps00	matched=no	26	prep	_	_
@@ -332,7 +332,7 @@
 18	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
 19	,	,	fc	fc	matched=no	20	punct	_	_
 20	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-21	Blanco	Blanco	np00000	np00000	matched=no	20	nsubj	_	_
+21	Blanco	Blanco	np00000	np00000	matched=yes: nsubj child of root deprel	20	nsubj	_	_
 22	al	al	spcms	spcms	matched=no	20	prepv	_	_
 23	expresar	expresar	vmn0000	vmn0000	matched=no	22	pobj	_	_
 24	su	su	dp3cs0	dp3cs0	matched=no	25	poss	_	_

@@ -265,7 +265,7 @@
 65	.	.	fp	fp	matched=no	28	punct	_	_
 
 1	Hay	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
-2	quienes	quien	pr0cp000	pr0cp000	matched=no	1	nsubj	_	_
+2	quienes	quien	pr0cp000	pr0cp000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 3	comparan	comparar	vmip3p0	vmip3p0	matched=no	1	rcmod	_	_
 4	a	a	sps00	sps00	matched=no	3	dobj	_	_
 5	Wahid	Wahid	np00000	np00000	matched=no	4	pobj	_	_
@@ -314,10 +314,10 @@
 15	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 16	,	,	fc	fc	matched=no	17	punct	_	_
 17	dice	decir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-18	su	su	dp3cs0	dp3cs0	matched=no	19	poss	_	_
-19	biógrafo	biógrafo	ncms000	ncms000	matched=no	17	nsubj	_	_
-20	Greg	Greg	np0000l	np0000l	matched=no	19	appos	_	_
-21	Barton	Barton	np0000l	np0000l	matched=no	20	appos	_	_
+18	su	su	dp3cs0	dp3cs0	matched=yes: nsubj child of root deprel	19	poss	_	_
+19	biógrafo	biógrafo	ncms000	ncms000	matched=yes: nsubj child of root deprel	17	nsubj	_	_
+20	Greg	Greg	np0000l	np0000l	matched=yes: nsubj child of root deprel	19	appos	_	_
+21	Barton	Barton	np0000l	np0000l	matched=yes: nsubj child of root deprel	20	appos	_	_
 22	.	.	fp	fp	matched=no	17	punct	_	_
 
 1	En	en	sps00	sps00	matched=no	3	prepv	_	_

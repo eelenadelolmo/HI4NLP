@@ -214,11 +214,11 @@
 6	dos	dos	dn0cp0	dn0cp0	matched=no	7	det	_	_
 7	posturas	postura	ncfp000	ncfp000	matched=no	4	pobj	_	_
 8	surge	surgir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-9	una	uno	di0fs0	di0fs0	matched=no	10	det	_	_
-10	película	película	ncfs000	ncfs000	matched=no	8	nsubj	_	_
-11	magnífica	magnífico	aq0fs0	aq0fs0	matched=no	12	coord	_	_
-12	y	y	cc	cc	matched=no	10	dep	_	_
-13	medida	medido	aq0fsp	aq0fsp	matched=no	12	coord	_	_
+9	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	película	película	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+11	magnífica	magnífico	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	12	coord	_	_
+12	y	y	cc	cc	matched=yes: nsubj child of root deprel	10	dep	_	_
+13	medida	medido	aq0fsp	aq0fsp	matched=yes: nsubj child of root deprel	12	coord	_	_
 14	.	.	fp	fp	matched=no	8	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

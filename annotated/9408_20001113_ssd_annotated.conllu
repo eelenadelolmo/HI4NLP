@@ -127,8 +127,8 @@
 73	&quot;	&quot;	fe	fe	matched=no	23	punct	_	_
 74	,	,	fc	fc	matched=no	75	punct	_	_
 75	apuntó	apuntar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-76	el	el	da0ms0	da0ms0	matched=no	77	det	_	_
-77	técnico	técnico	ncms000	ncms000	matched=no	75	nsubj	_	_
+76	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	77	det	_	_
+77	técnico	técnico	ncms000	ncms000	matched=yes: nsubj child of root deprel	75	nsubj	_	_
 78	.	.	fp	fp	matched=no	75	punct	_	_
 
 1	Para	para	sps00	sps00	matched=no	8	advcl	_	_

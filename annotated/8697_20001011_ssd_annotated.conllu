@@ -223,8 +223,8 @@
 37	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 38	,	,	fc	fc	matched=no	39	punct	_	_
 39	aseguró	asegurar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-40	García	García	np0000l	np0000l	matched=no	39	nsubj	_	_
-41	Montoya	Montoya	np0000l	np0000l	matched=no	40	appos	_	_
+40	García	García	np0000l	np0000l	matched=yes: nsubj child of root deprel	39	nsubj	_	_
+41	Montoya	Montoya	np0000l	np0000l	matched=yes: nsubj child of root deprel	40	appos	_	_
 42	.	.	fp	fp	matched=no	39	punct	_	_
 
 1	Si	si	cs	cs	matched=no	42	advcl	_	_

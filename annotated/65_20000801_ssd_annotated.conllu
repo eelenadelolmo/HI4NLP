@@ -421,9 +421,9 @@
 7	estación	estación	ncfs000	ncfs000	matched=no	5	pobj	_	_
 8	se	se	p0000000	p0000000	matched=no	9	reflec	_	_
 9	instalarán	instalar	vmif3p0	vmif3p0	matched=no	0	root	_	_
-10	varios	varios	di0mp0	di0mp0	matched=no	11	det	_	_
-11	paneles	panel	ncmp000	ncmp000	matched=no	9	nsubj	_	_
-12	orientativos	orientativo	aq0mp0	aq0mp0	matched=no	11	amod	_	_
+10	varios	varios	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	paneles	panel	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
+12	orientativos	orientativo	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	11	amod	_	_
 13	para	para	sps00	sps00	matched=no	9	prepv	_	_
 14	facilitar	facilitar	vmn0000	vmn0000	matched=no	13	pobj	_	_
 15	la	el	da0fs0	da0fs0	matched=no	16	det	_	_

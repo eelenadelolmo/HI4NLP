@@ -26,6 +26,13 @@
 7	victoria	victoria	ncfs000	ncfs000	matched=no	6	dobj	_	_
 8	.	.	fp	fp	matched=no	5	punct	_	_
 
+1	Así	así	rg	rg	matched=no	3	advmod	_	_
+2	se	se	p0000000	p0000000	matched=no	3	reflec	_	_
+3	mantiene	mantener	vmip3s0	vmip3s0	matched=no	0	root	_	_
+4	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	moral	moral	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+6	.	.	fp	fp	matched=no	3	punct	_	_
+
 1	Si	si	cs	cs	matched=no	25	advcl	_	_
 2	ponen	poner	vmip3p0	vmip3p0	matched=no	1	cobj	_	_
 3	atención	atención	ncfs000	ncfs000	matched=no	2	dobj	_	_

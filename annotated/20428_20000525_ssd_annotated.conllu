@@ -111,9 +111,9 @@
 12	&quot;	&quot;	fe	fe	matched=no	6	punct	_	_
 13	,	,	fc	fc	matched=no	14	punct	_	_
 14	aseguró	asegurar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-15	el	el	da0ms0	da0ms0	matched=no	16	det	_	_
-16	productor	productor	ncms000	ncms000	matched=no	14	nsubj	_	_
-17	rural	rural	aq0cs0	aq0cs0	matched=no	16	amod	_	_
+15	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	16	det	_	_
+16	productor	productor	ncms000	ncms000	matched=yes: nsubj child of root deprel	14	nsubj	_	_
+17	rural	rural	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	16	amod	_	_
 18	al	al	spcms	spcms	matched=no	14	prepv	_	_
 19	indicar	indicar	vmn0000	vmn0000	matched=no	18	pobj	_	_
 20	que	que	cs	cs	matched=no	19	dobj	_	_

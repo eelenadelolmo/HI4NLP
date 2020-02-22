@@ -306,11 +306,11 @@
 14	.	.	fp	fp	matched=no	1	punct	_	_
 
 1	Existe	existir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-2	también	también	rg	rg	matched=no	3	advmod	_	_
-3	un	uno	di0ms0	di0ms0	matched=no	4	det	_	_
-4	trasfondo	trasfondo	ncms000	ncms000	matched=no	1	nsubj	_	_
-5	más	más	rg	rg	matched=no	6	advmod	_	_
-6	complejo	complejo	aq0ms0	aq0ms0	matched=no	4	amod	_	_
+2	también	también	rg	rg	matched=yes: nsubj child of root deprel	3	advmod	_	_
+3	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	trasfondo	trasfondo	ncms000	ncms000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+5	más	más	rg	rg	matched=yes: nsubj child of root deprel	6	advmod	_	_
+6	complejo	complejo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	4	amod	_	_
 7	.	.	fp	fp	matched=no	1	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -581,11 +581,11 @@
 20	&quot;	&quot;	fe	fe	matched=no	15	punct	_	_
 21	,	,	fc	fc	matched=no	22	punct	_	_
 22	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-23	Pujol	Pujol	np00000	np00000	matched=no	22	nsubj	_	_
-24	,	,	fc	fc	matched=no	23	punct	_	_
-25	que	que	pr0cn000	pr0cn000	matched=no	26	nsubj	_	_
-26	añadió	añadir	vmis3s0	vmis3s0	matched=no	23	rcmod	_	_
-27	que	que	cs	cs	matched=no	26	dobj	_	_
+23	Pujol	Pujol	np00000	np00000	matched=yes: nsubj child of root deprel	22	nsubj	_	_
+24	,	,	fc	fc	matched=yes: nsubj child of root deprel	23	punct	_	_
+25	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	26	nsubj	_	_
+26	añadió	añadir	vmis3s0	vmis3s0	matched=yes: nsubj child of root deprel	23	rcmod	_	_
+27	que	que	cs	cs	matched=yes: nsubj child of root deprel	26	dobj	_	_
 28	en	en	sps00	sps00	matched=no	34	prepv	_	_
 29	la	el	da0fs0	da0fs0	matched=no	30	det	_	_
 30	ceremonia	ceremonia	ncfs000	ncfs000	matched=no	28	pobj	_	_

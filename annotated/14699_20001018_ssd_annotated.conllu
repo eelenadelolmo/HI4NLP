@@ -36,10 +36,10 @@
 36	establecido	establecido	aq0msp	aq0msp	matched=no	35	amod	_	_
 37	,	,	fc	fc	matched=no	6	punct	_	_
 38	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-39	hoy	hoy	rg	rg	matched=no	40	advmod	_	_
-40	un	uno	di0ms0	di0ms0	matched=no	41	det	_	_
-41	portavoz	portavoz	nccs000	nccs000	matched=no	38	nsubj	_	_
-42	oficial	oficial	aq0cs0	aq0cs0	matched=no	41	amod	_	_
+39	hoy	hoy	rg	rg	matched=yes: nsubj child of root deprel	40	advmod	_	_
+40	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	41	det	_	_
+41	portavoz	portavoz	nccs000	nccs000	matched=yes: nsubj child of root deprel	38	nsubj	_	_
+42	oficial	oficial	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	41	amod	_	_
 43	.	.	fp	fp	matched=no	38	punct	_	_
 
 1	Gilberto	Gilberto	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
@@ -117,7 +117,7 @@
 29	&quot;	&quot;	fe	fe	matched=no	8	punct	_	_
 30	,	,	fc	fc	matched=no	31	punct	_	_
 31	aseveró	aseverar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-32	Mendoza	Mendoza	np0000p	np0000p	matched=no	31	nsubj	_	_
+32	Mendoza	Mendoza	np0000p	np0000p	matched=yes: nsubj child of root deprel	31	nsubj	_	_
 33	.	.	fp	fp	matched=no	31	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_

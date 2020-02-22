@@ -50,10 +50,10 @@
 50	hoy	hoy	rg	rg	matched=no	49	advmod	_	_
 51	a	a	sps00	sps00	matched=no	49	iobj	_	_
 52	Efe	Efe	np00000	np00000	matched=no	51	pobj	_	_
-53	fuentes	fuente	ncfp000	ncfp000	matched=no	49	nsubj	_	_
-54	de	de	sps00	sps00	matched=no	53	prepn	_	_
-55	ese	ese	dd0ms0	dd0ms0	matched=no	56	det	_	_
-56	órgano	órgano	ncms000	ncms000	matched=no	54	pobj	_	_
+53	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	49	nsubj	_	_
+54	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	53	prepn	_	_
+55	ese	ese	dd0ms0	dd0ms0	matched=yes: nsubj child of root deprel	56	det	_	_
+56	órgano	órgano	ncms000	ncms000	matched=yes: nsubj child of root deprel	54	pobj	_	_
 57	.	.	fp	fp	matched=no	49	punct	_	_
 
 1	Además	además	rg	rg	matched=no	7	advmod	_	_

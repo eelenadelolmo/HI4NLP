@@ -128,6 +128,47 @@
 5	hecho	hecho	aq0msp	aq0msp	matched=no	4	attr	_	_
 6	.	.	fp	fp	matched=no	4	punct	_	_
 
+1	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
+2	Nos	yo	pp1cp000	pp1cp000	matched=no	4	dobj	_	_
+3	han	haber	vaip3p0	vaip3p0	matched=no	7	dobj	_	_
+4	engañado	engañar	vmp00sm	vmp00sm	matched=no	3	cobj	_	_
+5	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
+6	,	,	fc	fc	matched=no	3	punct	_	_
+7	clamó	clamar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+8	Jordi	Jordi	np0000l	np0000l	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+9	Ripoll	Ripoll	np0000l	np0000l	matched=yes: nsubj child of root deprel	8	appos	_	_
+10	,	,	fc	fc	matched=no	7	punct	_	_
+11	esgrimiendo	esgrimir	vmg0000	vmg0000	matched=no	7	advcl	_	_
+12	el	el	da0ms0	da0ms0	matched=no	13	det	_	_
+13	centenar	centenar	ncms000	ncms000	matched=no	11	dobj	_	_
+14	de	de	sps00	sps00	matched=no	13	prepn	_	_
+15	reclamaciones	reclamación	ncfp000	ncfp000	matched=no	14	pobj	_	_
+16	cursadas	cursado	aq0fpp	aq0fpp	matched=no	15	amod	_	_
+17	por	por	sps00	sps00	matched=no	16	agent	_	_
+18	el	el	da0ms0	da0ms0	matched=no	19	det	_	_
+19	pasaje	pasaje	ncms000	ncms000	matched=no	17	pobj	_	_
+20	.	.	fp	fp	matched=no	7	punct	_	_
+
+1	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
+2	No	no	rn	rn	matched=no	3	neg	_	_
+3	es	ser	vsip3s0	vsip3s0	matched=no	16	dobj	_	_
+4	la	el	da0fs0	da0fs0	matched=no	6	det	_	_
+5	primera	primero	ao0fs0	ao0fs0	matched=no	6	amod	_	_
+6	vez	vez	ncfs000	ncfs000	matched=no	3	attr	_	_
+7	que	que	pr0cn000	pr0cn000	matched=no	11	dobj	_	_
+8	Air	Air	np0000l	np0000l	matched=no	11	nsubj	_	_
+9	Europa	Europa	np0000l	np0000l	matched=no	8	appos	_	_
+10	me	yo	pp1cs000	pp1cs000	matched=no	11	iobj	_	_
+11	toma	tomar	vmip3s0	vmip3s0	matched=no	6	rcmod	_	_
+12	el	el	da0ms0	da0ms0	matched=no	13	det	_	_
+13	pelo	pelo	ncms000	ncms000	matched=no	11	dobj	_	_
+14	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
+15	,	,	fc	fc	matched=no	16	punct	_	_
+16	vociferó	vociferar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+17	Joaquín	Joaquín	np0000l	np0000l	matched=yes: nsubj child of root deprel	16	nsubj	_	_
+18	Camp	camp	np0000l	np0000l	matched=yes: nsubj child of root deprel	17	appos	_	_
+19	.	.	fp	fp	matched=no	16	punct	_	_
+
 1	Mario	Mario	np00000	np00000	matched=yes: nsubj child of root deprel	10	nsubj	_	_
 2	Hidalgo	hidalgo	ncms000	ncms000	matched=yes: nsubj child of root deprel	1	appos	_	_
 3	,	,	fc	fc	matched=yes: nsubj child of root deprel	1	punct	_	_
@@ -176,4 +217,35 @@
 16	el	el	da0ms0	da0ms0	matched=no	17	det	_	_
 17	fallo	fallo	ncms000	ncms000	matched=no	15	dobj	_	_
 18	.	.	fp	fp	matched=no	3	punct	_	_
+
+1	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
+2	No	no	rn	rn	matched=no	4	neg	_	_
+3	se	se	p0000000	p0000000	matched=no	5	reflec	_	_
+4	podía	poder	vmii3s0	vmii3s0	matched=no	10	dobj	_	_
+5	volar	volar	vmn0000	vmn0000	matched=no	4	cobj	_	_
+6	sin	sin	sps00	sps00	matched=no	5	prepv	_	_
+7	ella	él	pp3fs000	pp3fs000	matched=no	6	pobj	_	_
+8	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
+9	,	,	fc	fc	matched=no	10	punct	_	_
+10	defendió	defender	vmis3s0	vmis3s0	matched=no	0	root	_	_
+11	Hidalgo	Hidalgo	np00000	np00000	matched=yes: nsubj child of root deprel	10	nsubj	_	_
+12	.	.	fp	fp	matched=no	10	punct	_	_
+
+1	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
+2	¿	¿	fia	fia	matched=no	7	punct	_	_
+3	Por	por	sps00	sps00	matched=no	7	prepv	_	_
+4	Qué	qué	pt0cs000	pt0cs000	matched=no	3	pobj	_	_
+5	AENA	AENA	np00000	np00000	matched=no	7	nsubj	_	_
+6	no	no	rn	rn	matched=no	7	neg	_	_
+7	hace	hacer	vmip3s0	vmip3s0	matched=no	15	dobj	_	_
+8	nada	nada	pi0cs000	pi0cs000	matched=no	7	dobj	_	_
+9	en	en	sps00	sps00	matched=no	7	prepv	_	_
+10	estos	este	dd0mp0	dd0mp0	matched=no	11	det	_	_
+11	casos	caso	ncmp000	ncmp000	matched=no	9	pobj	_	_
+12	?	?	fit	fit	matched=no	7	punct	_	_
+13	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
+14	,	,	fc	fc	matched=no	15	punct	_	_
+15	pregunta	preguntar	vmip3s0	vmip3s0	matched=no	0	root	_	_
+16	Camp	Camp	np00000	np00000	matched=yes: nsubj child of root deprel	15	nsubj	_	_
+17	.	.	fp	fp	matched=no	15	punct	_	_
 

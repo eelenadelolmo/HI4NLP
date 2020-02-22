@@ -97,8 +97,8 @@
 
 1	Primero	primero	rg	rg	matched=no	2	advmod	_	_
 2	fue	ser	vsis3s0	vsis3s0	matched=no	0	root	_	_
-3	Pablo	pablar	np0000l	np0000l	matched=no	2	nsubj	_	_
-4	VI	VI	np0000l	np0000l	matched=no	3	appos	_	_
+3	Pablo	pablar	np0000l	np0000l	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+4	VI	VI	np0000l	np0000l	matched=yes: nsubj child of root deprel	3	appos	_	_
 5	el	el	da0ms0	da0ms0	matched=no	8	det	_	_
 6	que	que	pr0cn000	pr0cn000	matched=no	7	nsubj	_	_
 7	quiso	querer	vmis3s0	vmis3s0	matched=no	2	attr	_	_

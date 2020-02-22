@@ -302,7 +302,7 @@
 28	&quot;	&quot;	fe	fe	matched=no	17	punct	_	_
 29	,	,	fc	fc	matched=no	30	punct	_	_
 30	comentó	comentar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-31	Bjorklund	Bjorklund	np00000	np00000	matched=no	30	nsubj	_	_
+31	Bjorklund	Bjorklund	np00000	np00000	matched=yes: nsubj child of root deprel	30	nsubj	_	_
 32	.	.	fp	fp	matched=no	30	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	40	punct	_	_
@@ -353,8 +353,8 @@
 46	&quot;	&quot;	fe	fe	matched=no	40	punct	_	_
 47	,	,	fc	fc	matched=no	48	punct	_	_
 48	añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-49	el	el	da0ms0	da0ms0	matched=no	50	det	_	_
-50	defensa	defensa	nccs000	nccs000	matched=no	48	nsubj	_	_
+49	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	50	det	_	_
+50	defensa	defensa	nccs000	nccs000	matched=yes: nsubj child of root deprel	48	nsubj	_	_
 51	.	.	fp	fp	matched=no	48	punct	_	_
 
 1	Aún	aún	rg	rg	matched=no	2	advmod	_	_

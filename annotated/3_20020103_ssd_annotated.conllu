@@ -70,16 +70,16 @@
 27	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 28	,	,	fc	fc	matched=no	3	punct	_	_
 29	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-30	José	José	ncms000	ncms000	matched=no	29	nsubj	_	_
-31	Manuel	Manuel	np0000o	np0000o	matched=no	30	appos	_	_
-32	Fernández	Fernández	ncms000	ncms000	matched=no	30	appos	_	_
-33	Norniella	Norniella	np0000a	np0000a	matched=no	32	appos	_	_
-34	,	,	fc	fc	matched=no	30	punct	_	_
-35	presidente	presidente	ncms000	ncms000	matched=no	30	appos	_	_
-36	del	del	spcms	spcms	matched=no	35	prepn	_	_
-37	Consejo	consejo	ncfs000	ncfs000	matched=no	36	pobj	_	_
-38	de	de	sps00	sps00	matched=no	37	prepn	_	_
-39	Cámaras	Cámaras	np00000	np00000	matched=no	38	pobj	_	_
+30	José	José	ncms000	ncms000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
+31	Manuel	Manuel	np0000o	np0000o	matched=yes: nsubj child of root deprel	30	appos	_	_
+32	Fernández	Fernández	ncms000	ncms000	matched=yes: nsubj child of root deprel	30	appos	_	_
+33	Norniella	Norniella	np0000a	np0000a	matched=yes: nsubj child of root deprel	32	appos	_	_
+34	,	,	fc	fc	matched=yes: nsubj child of root deprel	30	punct	_	_
+35	presidente	presidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	30	appos	_	_
+36	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	35	prepn	_	_
+37	Consejo	consejo	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	36	pobj	_	_
+38	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	37	prepn	_	_
+39	Cámaras	Cámaras	np00000	np00000	matched=yes: nsubj child of root deprel	38	pobj	_	_
 40	.	.	fp	fp	matched=no	29	punct	_	_
 
 1	Antonino	Antonino	np00000	np00000	matched=yes: nsubj child of root deprel	16	nsubj	_	_

@@ -30,10 +30,10 @@
 30	Sudamérica	Sudamérica	np0000l	np0000l	matched=no	29	pobj	_	_
 31	,	,	fc	fc	matched=no	16	punct	_	_
 32	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-33	hoy	hoy	rg	rg	matched=no	34	advmod	_	_
-34	una	uno	di0fs0	di0fs0	matched=no	35	det	_	_
-35	fuente	fuente	ncfs000	ncfs000	matched=no	32	nsubj	_	_
-36	diplomática	diplomático	aq0fs0	aq0fs0	matched=no	35	amod	_	_
+33	hoy	hoy	rg	rg	matched=yes: nsubj child of root deprel	34	advmod	_	_
+34	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	35	det	_	_
+35	fuente	fuente	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	32	nsubj	_	_
+36	diplomática	diplomático	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	35	amod	_	_
 37	.	.	fp	fp	matched=no	32	punct	_	_
 
 1	Una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -210,17 +210,17 @@
 34	años	año	ncmp000	ncmp000	matched=no	30	pobj	_	_
 35	,	,	fc	fc	matched=no	36	punct	_	_
 36	dice	decir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-37	el	el	da0ms0	da0ms0	matched=no	38	det	_	_
-38	informe	informe	ncms000	ncms000	matched=no	36	nsubj	_	_
-39	,	,	fc	fc	matched=no	38	punct	_	_
-40	que	que	pr0cn000	pr0cn000	matched=no	42	nsubj	_	_
-41	no	no	rn	rn	matched=no	42	neg	_	_
-42	cita	citar	vmip3s0	vmip3s0	matched=no	38	rcmod	_	_
-43	la	el	da0fs0	da0fs0	matched=no	44	det	_	_
-44	nacionalidad	nacionalidad	ncfs000	ncfs000	matched=no	42	dobj	_	_
-45	hondureña	hondureño	aq0fs0	aq0fs0	matched=no	44	amod	_	_
-46	del	del	spcms	spcms	matched=no	44	prepn	_	_
-47	detenido	detenido	aq0msp	aq0msp	matched=no	46	pobj	_	_
+37	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	38	det	_	_
+38	informe	informe	ncms000	ncms000	matched=yes: nsubj child of root deprel	36	nsubj	_	_
+39	,	,	fc	fc	matched=yes: nsubj child of root deprel	38	punct	_	_
+40	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	42	nsubj	_	_
+41	no	no	rn	rn	matched=yes: nsubj child of root deprel	42	neg	_	_
+42	cita	citar	vmip3s0	vmip3s0	matched=yes: nsubj child of root deprel	38	rcmod	_	_
+43	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	44	det	_	_
+44	nacionalidad	nacionalidad	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	42	dobj	_	_
+45	hondureña	hondureño	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	44	amod	_	_
+46	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	44	prepn	_	_
+47	detenido	detenido	aq0msp	aq0msp	matched=yes: nsubj child of root deprel	46	pobj	_	_
 48	.	.	fp	fp	matched=no	36	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=no	2	det	_	_
@@ -252,8 +252,8 @@
 27	criminales	criminal	aq0cp0	aq0cp0	matched=no	26	amod	_	_
 28	,	,	fc	fc	matched=no	29	punct	_	_
 29	añade	añadir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-30	la	el	da0fs0	da0fs0	matched=no	31	det	_	_
-31	nota	nota	ncfs000	ncfs000	matched=no	29	nsubj	_	_
+30	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	31	det	_	_
+31	nota	nota	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	29	nsubj	_	_
 32	.	.	fp	fp	matched=no	29	punct	_	_
 
 1	Según	según	sps00	sps00	matched=no	12	advcl	_	_
@@ -386,9 +386,9 @@
 36	Castillo	Castillo	np0000p	np0000p	matched=no	35	cobj	_	_
 37	,	,	fc	fc	matched=no	22	punct	_	_
 38	indica	indicar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-39	la	el	da0fs0	da0fs0	matched=no	40	det	_	_
-40	sede	sede	ncfs000	ncfs000	matched=no	38	nsubj	_	_
-41	estadounidense	estadounidense	aq0cs0	aq0cs0	matched=no	40	amod	_	_
+39	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	40	det	_	_
+40	sede	sede	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	38	nsubj	_	_
+41	estadounidense	estadounidense	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	40	amod	_	_
 42	.	.	fp	fp	matched=no	38	punct	_	_
 
 1	Hasta	hasta	sps00	sps00	matched=no	11	prepv	_	_

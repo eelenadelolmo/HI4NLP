@@ -191,7 +191,7 @@
 35	prohibición	prohibición	ncfs000	ncfs000	matched=no	33	pobj	_	_
 36	,	,	fc	fc	matched=no	37	punct	_	_
 37	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-38	HI	HI	np0000o	np0000o	matched=no	37	nsubj	_	_
+38	HI	HI	np0000o	np0000o	matched=yes: nsubj child of root deprel	37	nsubj	_	_
 39	.	.	fp	fp	matched=no	37	punct	_	_
 
 1	Más	más	rg	rg	matched=no	4	advmod	_	_
@@ -233,7 +233,7 @@
 37	vietnamitas	vietnamita	aq0cp0	aq0cp0	matched=no	36	amod	_	_
 38	,	,	fc	fc	matched=no	39	punct	_	_
 39	señaló	señalar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-40	HI	HI	np0000o	np0000o	matched=no	39	nsubj	_	_
+40	HI	HI	np0000o	np0000o	matched=yes: nsubj child of root deprel	39	nsubj	_	_
 41	.	.	fp	fp	matched=no	39	punct	_	_
 
 1	Sólo	sólo	rg	rg	matched=no	2	advmod	_	_
@@ -263,8 +263,8 @@
 25	vietnamita	vietnamita	aq0cs0	aq0cs0	matched=no	24	amod	_	_
 26	,	,	fc	fc	matched=no	27	punct	_	_
 27	agregó	agregar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-28	la	el	da0fs0	da0fs0	matched=no	29	det	_	_
-29	organización	organización	ncfs000	ncfs000	matched=no	27	nsubj	_	_
+28	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	29	det	_	_
+29	organización	organización	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	27	nsubj	_	_
 30	.	.	fp	fp	matched=no	27	punct	_	_
 
 1	Handicap	Handicap	np0000l	np0000l	matched=yes: nsubj child of root deprel	3	nsubj	_	_
@@ -359,7 +359,7 @@
 23	alternativa	alternativo	aq0fs0	aq0fs0	matched=no	22	amod	_	_
 24	,	,	fc	fc	matched=no	25	punct	_	_
 25	recordó	recordar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-26	HI	HI	np0000o	np0000o	matched=no	25	nsubj	_	_
+26	HI	HI	np0000o	np0000o	matched=yes: nsubj child of root deprel	25	nsubj	_	_
 27	.	.	fp	fp	matched=no	25	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=no	2	det	_	_
@@ -385,7 +385,7 @@
 21	desconoce	desconocer	vmip3s0	vmip3s0	matched=no	23	dobj	_	_
 22	,	,	fc	fc	matched=no	23	punct	_	_
 23	concluye	concluir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-24	la	el	da0fs0	da0fs0	matched=no	25	det	_	_
-25	organización	organización	ncfs000	ncfs000	matched=no	23	nsubj	_	_
+24	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	25	det	_	_
+25	organización	organización	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	23	nsubj	_	_
 26	.	.	fp	fp	matched=no	23	punct	_	_
 

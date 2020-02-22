@@ -89,6 +89,31 @@
 21	carga	carga	ncfs000	ncfs000	matched=no	20	pobj	_	_
 22	.	.	fp	fp	matched=no	3	punct	_	_
 
+1	Así	así	rg	rg	matched=no	5	advmod	_	_
+2	,	,	fc	fc	matched=no	4	punct	_	_
+3	se	se	p0000000	p0000000	matched=no	5	reflec	_	_
+4	han	haber	vaip3p0	vaip3p0	matched=no	0	root	_	_
+5	conseguido	conseguir	vmp00sm	vmp00sm	matched=no	4	vobj	_	_
+6	mesofases	mesofase	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+7	discóticas	discótico	aq0fp0	aq0fp0	matched=yes: nsubj child of root deprel	6	amod	_	_
+8	con	con	sps00	sps00	matched=no	5	prepv	_	_
+9	derivados	derivado	ncmp000	ncmp000	matched=no	8	pobj	_	_
+10	de	de	sps00	sps00	matched=no	9	prepn	_	_
+11	ftalocianinas	ftalocianina	ncfp000	ncfp000	matched=no	10	pobj	_	_
+12	tanto	tanto	rg	rg	matched=no	19	advmod	_	_
+13	con	con	sps00	sps00	matched=no	19	cobj	_	_
+14	tomo	tomo	ncms000	ncms000	matched=no	13	pobj	_	_
+15	metálico	metálico	aq0ms0	aq0ms0	matched=no	14	amod	_	_
+16	en	en	sps00	sps00	matched=no	14	prepn	_	_
+17	su	su	dp3cs0	dp3cs0	matched=no	18	poss	_	_
+18	interior	interior	ncms000	ncms000	matched=no	16	pobj	_	_
+19	como	como	cs	cs	matched=no	9	dep	_	_
+20	en	en	sps00	sps00	matched=no	19	cobj	_	_
+21	ausencia	ausencia	ncfs000	ncfs000	matched=no	20	pobj	_	_
+22	de	de	sps00	sps00	matched=no	21	prepn	_	_
+23	metal	metal	ncms000	ncms000	matched=no	22	pobj	_	_
+24	.	.	fp	fp	matched=no	4	punct	_	_
+
 1	Sin	sin	sps00	sps00	matched=no	12	te	_	_
 2	embargo	embargo	ncmp000	ncmp000	matched=no	1	pobj	_	_
 3	,	,	fc	fc	matched=no	12	punct	_	_
@@ -280,4 +305,25 @@
 33	al	al	spcms	spcms	matched=no	27	dobj	_	_
 34	TCNQ-TTF	TCNQ-TTF	nc00000	nc00000	matched=no	33	pobj	_	_
 35	.	.	fp	fp	matched=no	4	punct	_	_
+
+1	Desde	desde	sps00	sps00	matched=no	5	advmod	_	_
+2	entonces	entonces	rg	rg	matched=no	1	advmod	_	_
+3	se	se	p0000000	p0000000	matched=no	5	reflec	_	_
+4	ha	haber	vaip3s0	vaip3s0	matched=no	0	root	_	_
+5	suscitado	suscitar	vmp00sm	vmp00sm	matched=no	4	vobj	_	_
+6	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	8	det	_	_
+7	enorme	enorme	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	8	amod	_	_
+8	interés	interés	ncms000	ncms000	matched=yes: nsubj child of root deprel	4	nsubj	_	_
+9	por	por	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	14	coord	_	_
+11	diseño	diseño	ncms000	ncms000	matched=yes: nsubj child of root deprel	14	coord	_	_
+12	,	,	fc	fc	matched=yes: nsubj child of root deprel	14	punct	_	_
+13	síntesis	síntesis	ncfn000	ncfn000	matched=yes: nsubj child of root deprel	14	coord	_	_
+14	y	y	cc	cc	matched=yes: nsubj child of root deprel	9	pobj	_	_
+15	propiedades	propiedad	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	14	coord	_	_
+16	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	14	coord	_	_
+17	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	18	det	_	_
+18	CTC	CTC	nc00000	nc00000	matched=yes: nsubj child of root deprel	16	pobj	_	_
+19	conductores	conductor	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	18	amod	_	_
+20	.	.	fp	fp	matched=no	4	punct	_	_
 

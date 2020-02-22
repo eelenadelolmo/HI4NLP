@@ -148,8 +148,8 @@
 
 1	Se	él	p0300000	p0300000	matched=no	2	reflec	_	_
 2	acabó	acabar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-3	la	el	da0fs0	da0fs0	matched=no	4	det	_	_
-4	Nochebuena	Nochebuena	np0000a	np0000a	matched=no	2	nsubj	_	_
+3	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	Nochebuena	Nochebuena	np0000a	np0000a	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 5	,	,	fc	fc	matched=no	37	punct	_	_
 6	el	el	da0ms0	da0ms0	matched=no	7	det	_	_
 7	año	año	ncmp000	ncmp000	matched=no	2	dobj	_	_
@@ -192,7 +192,7 @@
 1	¿	¿	fia	fia	matched=no	3	punct	_	_
 2	Qué	qué	pt0cs000	pt0cs000	matched=no	3	dobj	_	_
 3	hago	hacer	vmip1s0	vmip1s0	matched=no	0	root	_	_
-4	yo	yo	pp1csn00	pp1csn00	matched=no	3	nsubj	_	_
+4	yo	yo	pp1csn00	pp1csn00	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 5	ahora	ahora	rg	rg	matched=no	3	advmod	_	_
 6	?	?	fit	fit	matched=no	3	punct	_	_
 

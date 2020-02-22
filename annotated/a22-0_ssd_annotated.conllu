@@ -155,10 +155,10 @@
 5	ocurre	ocurrir	vmip3s0	vmip3s0	matched=no	3	cobj	_	_
 6	-	-	fg	fg	matched=no	3	punct	_	_
 7	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-8	una	uno	pi0fs000	pi0fs000	matched=no	7	nsubj	_	_
-9	de	de	sps00	sps00	matched=no	8	prepn	_	_
-10	mis	mi	dp1cps	dp1cps	matched=no	11	poss	_	_
-11	hijas	hija	ncfp000	ncfp000	matched=no	9	pobj	_	_
+8	una	uno	pi0fs000	pi0fs000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+9	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	mis	mi	dp1cps	dp1cps	matched=yes: nsubj child of root deprel	11	poss	_	_
+11	hijas	hija	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	9	pobj	_	_
 12	-	-	fg	fg	matched=no	7	punct	_	_
 13	.	.	fp	fp	matched=no	7	punct	_	_
 

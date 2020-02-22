@@ -275,14 +275,14 @@
 41	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
 42	,	,	fc	fc	matched=no	43	punct	_	_
 43	advierte	advertir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-44	Ludek	Ludek	np0000l	np0000l	matched=no	43	nsubj	_	_
-45	Niedermayer	Niedermayer	np0000l	np0000l	matched=no	44	appos	_	_
-46	,	,	fc	fc	matched=no	44	punct	_	_
-47	de	de	sps00	sps00	matched=no	44	prepn	_	_
-48	consejo	consejo	ncms000	ncms000	matched=no	47	pobj	_	_
-49	bancario	bancario	aq0ms0	aq0ms0	matched=no	48	amod	_	_
-50	del	del	spcms	spcms	matched=no	48	prepn	_	_
-51	CNB	CNB	np0000o	np0000o	matched=no	50	pobj	_	_
+44	Ludek	Ludek	np0000l	np0000l	matched=yes: nsubj child of root deprel	43	nsubj	_	_
+45	Niedermayer	Niedermayer	np0000l	np0000l	matched=yes: nsubj child of root deprel	44	appos	_	_
+46	,	,	fc	fc	matched=yes: nsubj child of root deprel	44	punct	_	_
+47	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	44	prepn	_	_
+48	consejo	consejo	ncms000	ncms000	matched=yes: nsubj child of root deprel	47	pobj	_	_
+49	bancario	bancario	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	48	amod	_	_
+50	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	48	prepn	_	_
+51	CNB	CNB	np0000o	np0000o	matched=yes: nsubj child of root deprel	50	pobj	_	_
 52	.	.	fp	fp	matched=no	43	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=no	2	det	_	_
@@ -328,6 +328,6 @@
 41	crudo	crudo	ncms000	ncms000	matched=no	40	pobj	_	_
 42	,	,	fc	fc	matched=no	43	punct	_	_
 43	afirma	afirmar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-44	Niedermayer	Niedermayer	np0000p	np0000p	matched=no	43	nsubj	_	_
+44	Niedermayer	Niedermayer	np0000p	np0000p	matched=yes: nsubj child of root deprel	43	nsubj	_	_
 45	.	.	fp	fp	matched=no	43	punct	_	_
 

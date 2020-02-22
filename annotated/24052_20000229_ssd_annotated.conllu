@@ -116,9 +116,9 @@
 12	ronda	ronda	ncfs000	ncfs000	matched=no	9	pobj	_	_
 13	europea	europeo	aq0fs0	aq0fs0	matched=no	12	amod	_	_
 14	figuraba	figurar	vmii3s0	vmii3s0	matched=no	0	root	_	_
-15	el	el	da0ms0	da0ms0	matched=no	16	det	_	_
-16	Kolding	Kolding	np00000	np00000	matched=no	14	nsubj	_	_
-17	danés	danés	aq0ms0	aq0ms0	matched=no	16	amod	_	_
+15	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	16	det	_	_
+16	Kolding	Kolding	np00000	np00000	matched=yes: nsubj child of root deprel	14	nsubj	_	_
+17	danés	danés	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	16	amod	_	_
 18	aunque	aunque	cs	cs	matched=no	14	advcl	_	_
 19	,	,	fc	fc	matched=no	28	punct	_	_
 20	tras	tras	sps00	sps00	matched=no	28	prepv	_	_
@@ -422,7 +422,7 @@
 40	&quot;	&quot;	fe	fe	matched=no	6	punct	_	_
 41	,	,	fc	fc	matched=no	42	punct	_	_
 42	aseveró	aseverar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-43	Equísoain	Equísoain	np00000	np00000	matched=no	42	nsubj	_	_
+43	Equísoain	Equísoain	np00000	np00000	matched=yes: nsubj child of root deprel	42	nsubj	_	_
 44	.	.	fp	fp	matched=no	42	punct	_	_
 
 1	Por	por	sps00	sps00	matched=no	8	advmod	_	_

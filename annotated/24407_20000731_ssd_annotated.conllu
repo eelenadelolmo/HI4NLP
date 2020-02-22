@@ -38,9 +38,9 @@
 38	,	,	fc	fc	matched=no	39	punct	_	_
 39	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 40	hoy	hoy	rg	rg	matched=no	39	advmod	_	_
-41	la	el	da0fs0	da0fs0	matched=no	42	det	_	_
-42	prensa	prensa	ncfs000	ncfs000	matched=no	39	nsubj	_	_
-43	local	local	aq0cs0	aq0cs0	matched=no	42	amod	_	_
+41	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	42	det	_	_
+42	prensa	prensa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	39	nsubj	_	_
+43	local	local	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	42	amod	_	_
 44	.	.	fp	fp	matched=no	39	punct	_	_
 
 1	Arambulet	Arambulet	np00000	np00000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
@@ -99,9 +99,9 @@
 22	&quot;	&quot;	fe	fe	matched=no	11	punct	_	_
 23	,	,	fc	fc	matched=no	24	punct	_	_
 24	aseveró	aseverar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-25	el	el	da0ms0	da0ms0	matched=no	26	det	_	_
-26	campeón	campeón	ncms000	ncms000	matched=no	24	nsubj	_	_
-27	mundial	mundial	aq0cs0	aq0cs0	matched=no	26	amod	_	_
+25	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	26	det	_	_
+26	campeón	campeón	ncms000	ncms000	matched=yes: nsubj child of root deprel	24	nsubj	_	_
+27	mundial	mundial	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	26	amod	_	_
 28	.	.	fp	fp	matched=no	24	punct	_	_
 
 1	Arambulet	Arambulet	np00000	np00000	matched=yes: nsubj child of root deprel	10	nsubj	_	_

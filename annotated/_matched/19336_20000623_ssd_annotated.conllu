@@ -93,6 +93,33 @@
 46	131	131	z	z	matched=no	45	num	_	_
 47	.	.	fp	fp	matched=no	10	punct	_	_
 
+1	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
+2	Es	ser	vsip3s0	vsip3s0	matched=no	16	dobj	_	_
+3	la	el	da0fs0	da0fs0	matched=no	4	det	_	_
+4	decisión	decisión	ncfs000	ncfs000	matched=no	2	attr	_	_
+5	lógica	lógico	aq0fs0	aq0fs0	matched=no	4	amod	_	_
+6	,	,	fc	fc	matched=no	4	punct	_	_
+7	resultante	resultante	aq0cs0	aq0cs0	matched=no	4	amod	_	_
+8	de	de	sps00	sps00	matched=no	7	prepa	_	_
+9	la	el	da0fs0	da0fs0	matched=no	10	det	_	_
+10	situación	situación	ncfs000	ncfs000	matched=no	8	pobj	_	_
+11	de	de	sps00	sps00	matched=no	10	prepn	_	_
+12	los	el	da0mp0	da0mp0	matched=no	13	det	_	_
+13	indicios	indicio	ncmp000	ncmp000	matched=no	11	pobj	_	_
+14	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
+15	,	,	fc	fc	matched=no	16	punct	_	_
+16	manifestó	manifestar	vmis3s0	vmis3s0	matched=no	0	root	_	_
+17	Baumann	Baumann	np00000	np00000	matched=yes: nsubj child of root deprel	16	nsubj	_	_
+18	,	,	fc	fc	matched=no	16	punct	_	_
+19	horas	hora	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	17	appos	_	_
+20	después	después	rg	rg	matched=yes: nsubj child of root deprel	17	advmod	_	_
+21	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	20	prep	_	_
+22	conocerse	conocer	vmn0000	vmn0000	matched=yes: nsubj child of root deprel	21	pobj	_	_
+23	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	24	det	_	_
+24	veredicto	veredicto	ncms000	ncms000	matched=yes: nsubj child of root deprel	22	dobj	_	_
+25	federativo	federativo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	24	amod	_	_
+26	.	.	fp	fp	matched=no	16	punct	_	_
+
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	fallo	fallo	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
 3	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	2	prepn	_	_

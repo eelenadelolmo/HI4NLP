@@ -146,9 +146,9 @@
 64	&quot;	&quot;	fe	fe	matched=no	26	punct	_	_
 65	,	,	fc	fc	matched=no	66	punct	_	_
 66	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-67	el	el	da0ms0	da0ms0	matched=no	68	det	_	_
-68	dirigente	dirigente	nccs000	nccs000	matched=no	66	nsubj	_	_
-69	canadiense	canadiense	aq0cs0	aq0cs0	matched=no	68	amod	_	_
+67	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	68	det	_	_
+68	dirigente	dirigente	nccs000	nccs000	matched=yes: nsubj child of root deprel	66	nsubj	_	_
+69	canadiense	canadiense	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	68	amod	_	_
 70	.	.	fp	fp	matched=no	66	punct	_	_
 
 1	Esta	este	dd0fs0	dd0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

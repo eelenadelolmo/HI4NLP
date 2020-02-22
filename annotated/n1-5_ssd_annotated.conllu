@@ -5,15 +5,15 @@
 5	bar	bar	ncms000	ncms000	matched=no	4	pobj	_	_
 6	,	,	fc	fc	matched=no	7	punct	_	_
 7	seducía	seducir	vmii3s0	vmii3s0	matched=no	0	root	_	_
-8	una	uno	di0fs0	di0fs0	matched=no	9	det	_	_
-9	paella	paella	ncfs000	ncfs000	matched=no	7	nsubj	_	_
-10	que	que	pr0cn000	pr0cn000	matched=no	11	nsubj	_	_
-11	era	ser	vsii3s0	vsii3s0	matched=no	9	rcmod	_	_
-12	inmediatamente	inmediatamente	rg	rg	matched=no	11	advmod	_	_
-13	devorada	devorar	vmp00sf	vmp00sf	matched=no	11	attr	_	_
-14	por	por	sps00	sps00	matched=no	11	agent	_	_
-15	los	el	da0mp0	da0mp0	matched=no	16	det	_	_
-16	apetitos	apetito	ncmp000	ncmp000	matched=no	14	pobj	_	_
+8	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	paella	paella	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
+10	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+11	era	ser	vsii3s0	vsii3s0	matched=yes: nsubj child of root deprel	9	rcmod	_	_
+12	inmediatamente	inmediatamente	rg	rg	matched=yes: nsubj child of root deprel	11	advmod	_	_
+13	devorada	devorar	vmp00sf	vmp00sf	matched=yes: nsubj child of root deprel	11	attr	_	_
+14	por	por	sps00	sps00	matched=yes: nsubj child of root deprel	11	agent	_	_
+15	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	16	det	_	_
+16	apetitos	apetito	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	14	pobj	_	_
 17	.	.	fp	fp	matched=no	7	punct	_	_
 
 1	50	50	z	z	matched=no	3	num	_	_

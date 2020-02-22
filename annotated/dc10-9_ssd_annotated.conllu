@@ -78,9 +78,9 @@
 4	1765	1765	z	z	matched=no	3	pobj	_	_
 5	había	haber	vaii3s0	vaii3s0	matched=no	0	root	_	_
 6	presentado	presentar	vmp00sm	vmp00sm	matched=no	5	vobj	_	_
-7	Nicholas	Nicholas	ncfs000	ncfs000	matched=no	5	nsubj	_	_
-8	Joseph	Joseph	ncms000	ncms000	matched=no	7	appos	_	_
-9	Cugnot	Cugnot	np00000	np00000	matched=no	8	appos	_	_
+7	Nicholas	Nicholas	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+8	Joseph	Joseph	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	appos	_	_
+9	Cugnot	Cugnot	np00000	np00000	matched=yes: nsubj child of root deprel	8	appos	_	_
 10	en	en	sps00	sps00	matched=no	6	prepv	_	_
 11	París	París	np0000l	np0000l	matched=no	10	pobj	_	_
 12	su	su	dp3cs0	dp3cs0	matched=no	14	poss	_	_

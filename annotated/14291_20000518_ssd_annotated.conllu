@@ -40,8 +40,8 @@
 40	,	,	fc	fc	matched=no	41	punct	_	_
 41	informó	informar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 42	hoy	hoy	rg	rg	matched=no	41	advmod	_	_
-43	la	el	da0fs0	da0fs0	matched=no	44	det	_	_
-44	compañía	compañía	ncfs000	ncfs000	matched=no	41	nsubj	_	_
+43	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	44	det	_	_
+44	compañía	compañía	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	41	nsubj	_	_
 45	en	en	sps00	sps00	matched=no	41	prepv	_	_
 46	Estocolmo	Estocolmo	np0000l	np0000l	matched=no	45	pobj	_	_
 47	.	.	fp	fp	matched=no	41	punct	_	_
@@ -115,15 +115,15 @@
 31	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
 32	a	a	sps00	sps00	matched=no	31	iobj	_	_
 33	EFE	EFE	np0000o	np0000o	matched=no	32	pobj	_	_
-34	la	el	da0fs0	da0fs0	matched=no	35	det	_	_
-35	jefa	jefa	ncfs000	ncfs000	matched=no	31	nsubj	_	_
-36	de	de	sps00	sps00	matched=no	35	prepn	_	_
-37	información	información	ncfs000	ncfs000	matched=no	36	pobj	_	_
-38	de	de	sps00	sps00	matched=no	37	prepn	_	_
-39	Telia	Telia	np0000o	np0000o	matched=no	38	pobj	_	_
-40	,	,	fc	fc	matched=no	35	punct	_	_
-41	Inger	Inger	np0000l	np0000l	matched=no	35	appos	_	_
-42	Gunterberg	Gunterberg	np0000l	np0000l	matched=no	41	appos	_	_
+34	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	35	det	_	_
+35	jefa	jefa	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	31	nsubj	_	_
+36	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	35	prepn	_	_
+37	información	información	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	36	pobj	_	_
+38	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	37	prepn	_	_
+39	Telia	Telia	np0000o	np0000o	matched=yes: nsubj child of root deprel	38	pobj	_	_
+40	,	,	fc	fc	matched=yes: nsubj child of root deprel	35	punct	_	_
+41	Inger	Inger	np0000l	np0000l	matched=yes: nsubj child of root deprel	35	appos	_	_
+42	Gunterberg	Gunterberg	np0000l	np0000l	matched=yes: nsubj child of root deprel	41	appos	_	_
 43	.	.	fp	fp	matched=no	31	punct	_	_
 
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -214,7 +214,7 @@
 39	Polonia	Polonia	np0000l	np0000l	matched=no	38	coord	_	_
 40	,	,	fc	fc	matched=no	41	punct	_	_
 41	señaló	señalar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-42	Gunterberg	Gunterberg	np0000p	np0000p	matched=no	41	nsubj	_	_
+42	Gunterberg	Gunterberg	np0000p	np0000p	matched=yes: nsubj child of root deprel	41	nsubj	_	_
 43	.	.	fp	fp	matched=no	41	punct	_	_
 
 1	La	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	2	det	_	_

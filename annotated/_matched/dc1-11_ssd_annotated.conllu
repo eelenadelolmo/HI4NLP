@@ -264,6 +264,43 @@
 25	expuesta	exponer	vmp00sf	vmp00sf	matched=no	24	attr	_	_
 26	.	.	fp	fp	matched=no	7	punct	_	_
 
+1	Cuando	cuando	cs	cs	matched=no	8	advcl	_	_
+2	son	ser	vsip3p0	vsip3p0	matched=no	1	cobj	_	_
+3	absorbidas	absorber	vmp00pf	vmp00pf	matched=no	2	attr	_	_
+4	por	por	sps00	sps00	matched=no	3	prepv	_	_
+5	las	el	da0fp0	da0fp0	matched=no	6	det	_	_
+6	células	célula	ncfp000	ncfp000	matched=no	4	pobj	_	_
+7	se	él	p0300000	p0300000	matched=no	8	reflec	_	_
+8	producen	producir	vmip3p0	vmip3p0	matched=no	0	root	_	_
+9	ionizaciones	ionización	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	10	coord	_	_
+10	y	y	cc	cc	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+11	excitaciones	excitación	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	10	coord	_	_
+12	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	13	nsubj	_	_
+13	llegan	llegar	vmip3p0	vmip3p0	matched=yes: nsubj child of root deprel	10	rcmod	_	_
+14	a	a	sps00	sps00	matched=yes: nsubj child of root deprel	13	prepv	_	_
+15	romper	romper	vmn0000	vmn0000	matched=yes: nsubj child of root deprel	13	dobj	_	_
+16	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	enlaces	enlace	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	13	dobj	_	_
+18	químicos	químico	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	17	amod	_	_
+19	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	17	prepn	_	_
+20	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	21	det	_	_
+21	moléculas	molécula	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	19	pobj	_	_
+22	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	23	nsubj	_	_
+23	constituyen	constituir	vmip3p0	vmip3p0	matched=yes: nsubj child of root deprel	21	rcmod	_	_
+24	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	25	det	_	_
+25	materia	materia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	23	dobj	_	_
+26	viva	vivo	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	25	amod	_	_
+27	dando	dar	vmp00sm	vmp00sm	matched=yes: nsubj child of root deprel	13	dobj	_	_
+28	lugar	lugar	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	27	dobj	_	_
+29	a	a	sps00	sps00	matched=yes: nsubj child of root deprel	27	oobj	_	_
+30	recombinaciones	recombinación	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	29	pobj	_	_
+31	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	32	nsubj	_	_
+32	pueden	poder	vmip3p0	vmip3p0	matched=yes: nsubj child of root deprel	30	rcmod	_	_
+33	generar	generar	vmn0000	vmn0000	matched=yes: nsubj child of root deprel	32	dobj	_	_
+34	auténticos	auténtico	aq0mp0	aq0mp0	matched=yes: nsubj child of root deprel	35	amod	_	_
+35	venenos	veneno	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	33	dobj	_	_
+36	.	.	fp	fp	matched=no	8	punct	_	_
+
 1	Muchas	mucho	pi0fp000	pi0fp000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
 2	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	1	prepn	_	_
 3	estas	este	dd0fp0	dd0fp0	matched=yes: nsubj child of root deprel	6	coord	_	_
@@ -292,4 +329,18 @@
 26	muerte	muerte	ncfs000	ncfs000	matched=no	24	coord	_	_
 27	celular	celular	aq0cs0	aq0cs0	matched=no	26	amod	_	_
 28	.	.	fp	fp	matched=no	9	punct	_	_
+
+1	Se	él	p0300000	p0300000	matched=no	3	reflec	_	_
+2	suelen	soler	vmip3p0	vmip3p0	matched=no	0	root	_	_
+3	dividir	dividir	vmn0000	vmn0000	matched=no	2	dobj	_	_
+4	estos	este	dd0mp0	dd0mp0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	efectos	efecto	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+6	en	en	sps00	sps00	matched=no	3	prepv	_	_
+7	dos	dos	dn0cp0	dn0cp0	matched=no	8	det	_	_
+8	grupos	grupo	ncmp000	ncmp000	matched=no	6	pobj	_	_
+9	:	:	fd	fd	matched=no	11	punct	_	_
+10	somáticos	somático	aq0mp0	aq0mp0	matched=no	11	coord	_	_
+11	y	y	cc	cc	matched=no	8	dep	_	_
+12	genéticos	genético	aq0mp0	aq0mp0	matched=no	11	coord	_	_
+13	.	.	fp	fp	matched=no	2	punct	_	_
 

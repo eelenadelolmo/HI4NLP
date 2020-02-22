@@ -149,8 +149,8 @@
 33	,	,	fc	fc	matched=no	34	punct	_	_
 34	señalaron	señalar	vmis3p0	vmis3p0	matched=no	0	root	_	_
 35	hoy	hoy	rg	rg	matched=no	34	advmod	_	_
-36	fuentes	fuente	ncfp000	ncfp000	matched=no	34	nsubj	_	_
-37	comunitarias	comunitario	aq0fp0	aq0fp0	matched=no	36	amod	_	_
+36	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	34	nsubj	_	_
+37	comunitarias	comunitario	aq0fp0	aq0fp0	matched=yes: nsubj child of root deprel	36	amod	_	_
 38	.	.	fp	fp	matched=no	34	punct	_	_
 
 1	Austria	Austria	np0000o	np0000o	matched=yes: nsubj child of root deprel	2	nsubj	_	_

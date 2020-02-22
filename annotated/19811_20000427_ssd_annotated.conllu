@@ -192,10 +192,10 @@
 6	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
 7	brillante	brillante	aq0cs0	aq0cs0	matched=no	5	attr	_	_
 8	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_
-9	la	el	da0fs0	da0fs0	matched=no	10	det	_	_
-10	respuesta	respuesta	ncfs000	ncfs000	matched=no	5	nsubj	_	_
-11	de	de	sps00	sps00	matched=no	10	prepn	_	_
-12	Aznar	Aznar	np00000	np00000	matched=no	11	pobj	_	_
+9	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	10	det	_	_
+10	respuesta	respuesta	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+11	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	10	prepn	_	_
+12	Aznar	Aznar	np00000	np00000	matched=yes: nsubj child of root deprel	11	pobj	_	_
 13	al	al	spcms	spcms	matched=no	5	prepv	_	_
 14	definir	definir	vmn0000	vmn0000	matched=no	13	pobj	_	_
 15	como	como	cs	cs	matched=no	14	cpred	_	_

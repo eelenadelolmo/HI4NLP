@@ -36,9 +36,9 @@
 36	,	,	fc	fc	matched=no	35	punct	_	_
 37	Martes	Martes	ncms000	ncms000	matched=no	35	dep	_	_
 38	,	,	fc	fc	matched=no	35	punct	_	_
-39	una	uno	di0fs0	di0fs0	matched=no	40	det	_	_
-40	fuente	fuente	ncfs000	ncfs000	matched=no	34	nsubj	_	_
-41	empresarial	empresarial	aq0cs0	aq0cs0	matched=no	40	amod	_	_
+39	una	uno	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	40	det	_	_
+40	fuente	fuente	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	34	nsubj	_	_
+41	empresarial	empresarial	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	40	amod	_	_
 42	.	.	fp	fp	matched=no	34	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -143,7 +143,7 @@
 34	compra	compra	ncfs000	ncfs000	matched=no	33	pobj	_	_
 35	,	,	fc	fc	matched=no	36	punct	_	_
 36	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-37	Echeverría	Echeverría	np00000	np00000	matched=no	36	nsubj	_	_
+37	Echeverría	Echeverría	np00000	np00000	matched=yes: nsubj child of root deprel	36	nsubj	_	_
 38	.	.	fp	fp	matched=no	36	punct	_	_
 
 1	Añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_

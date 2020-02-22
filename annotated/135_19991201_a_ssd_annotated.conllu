@@ -74,9 +74,9 @@
 29	,	,	fc	fc	matched=no	30	punct	_	_
 30	explicó	explicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 31	ayer	ayer	rg	rg	matched=no	30	advmod	_	_
-32	la	el	da0fs0	da0fs0	matched=no	33	det	_	_
-33	actriz	actriz	ncfs000	ncfs000	matched=no	30	nsubj	_	_
-34	italiana	italiano	aq0fs0	aq0fs0	matched=no	33	amod	_	_
+32	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	33	det	_	_
+33	actriz	actriz	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	30	nsubj	_	_
+34	italiana	italiano	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	33	amod	_	_
 35	.	.	fp	fp	matched=no	30	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -134,8 +134,8 @@
 8	asume	asumir	vmip3s0	vmip3s0	matched=no	0	root	_	_
 9	la	el	da0fs0	da0fs0	matched=no	10	det	_	_
 10	dirección	dirección	ncfs000	ncfs000	matched=no	8	dobj	_	_
-11	Carlo	Carlo	np0000l	np0000l	matched=no	8	nsubj	_	_
-12	Battistoni	Battistoni	np0000l	np0000l	matched=no	11	appos	_	_
+11	Carlo	Carlo	np0000l	np0000l	matched=yes: nsubj child of root deprel	8	nsubj	_	_
+12	Battistoni	Battistoni	np0000l	np0000l	matched=yes: nsubj child of root deprel	11	appos	_	_
 13	:	:	fd	fd	matched=no	8	punct	_	_
 14	&quot;	&quot;	fe	fe	matched=no	18	punct	_	_
 15	Si	si	cs	cs	matched=no	18	advcl	_	_

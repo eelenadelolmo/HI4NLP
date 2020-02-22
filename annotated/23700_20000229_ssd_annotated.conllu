@@ -261,8 +261,8 @@
 42	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
 43	,	,	fc	fc	matched=no	44	punct	_	_
 44	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-45	el	el	da0ms0	da0ms0	matched=no	46	det	_	_
-46	parlamentario	parlamentario	ncms000	ncms000	matched=no	44	nsubj	_	_
+45	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	46	det	_	_
+46	parlamentario	parlamentario	ncms000	ncms000	matched=yes: nsubj child of root deprel	44	nsubj	_	_
 47	.	.	fp	fp	matched=no	44	punct	_	_
 
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_

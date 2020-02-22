@@ -78,3 +78,24 @@
 17	)	)	fpt	fpt	matched=no	14	punct	_	_
 18	.	.	fp	fp	matched=no	7	punct	_	_
 
+1	Hace	hacer	vmip3s0	vmip3s0	matched=no	5	dobj	_	_
+2	dos	dos	dn0cp0	dn0cp0	matched=no	3	det	_	_
+3	semanas	semana	ncfp000	ncfp000	matched=no	1	dobj	_	_
+4	se	se	p0000000	p0000000	matched=no	5	reflec	_	_
+5	iniciaron	iniciar	vmis3p0	vmis3p0	matched=no	0	root	_	_
+6	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	7	det	_	_
+7	obras	obra	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+8	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	7	prepn	_	_
+9	tramo	tramo	ncms000	ncms000	matched=yes: nsubj child of root deprel	8	pobj	_	_
+10	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	11	nsubj	_	_
+11	arranca	arrancar	vmip3s0	vmip3s0	matched=yes: nsubj child of root deprel	9	rcmod	_	_
+12	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	11	prepv	_	_
+13	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	14	det	_	_
+14	carretera	carretera	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	12	pobj	_	_
+15	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	14	prepn	_	_
+16	Cardedeu	Cardedeu	np00000	np00000	matched=yes: nsubj child of root deprel	15	pobj	_	_
+17	(	(	fpa	fpa	matched=yes: nsubj child of root deprel	18	punct	_	_
+18	C-35	c-35	np00000	np00000	matched=yes: nsubj child of root deprel	14	appos	_	_
+19	)	)	fpt	fpt	matched=yes: nsubj child of root deprel	18	punct	_	_
+20	.	.	fp	fp	matched=no	5	punct	_	_
+

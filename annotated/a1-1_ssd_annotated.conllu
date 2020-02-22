@@ -7,13 +7,13 @@
 7	bellas	bello	aq0fp0	aq0fp0	matched=no	3	amod	_	_
 8	-	-	fg	fg	matched=no	7	punct	_	_
 9	está	estar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-10	acaso	acaso	rg	rg	matched=no	11	advmod	_	_
-11	un	uno	di0ms0	di0ms0	matched=no	12	det	_	_
-12	quehacer	quehacer	ncms000	ncms000	matched=no	9	nsubj	_	_
-13	que	que	pr0cn000	pr0cn000	matched=no	15	nsubj	_	_
-14	se	él	p0300000	p0300000	matched=no	15	reflec	_	_
-15	asoma	asomar	vmip3s0	vmip3s0	matched=no	12	rcmod	_	_
-16	muchísimo	muchísimo	rg	rg	matched=no	15	advmod	_	_
+10	acaso	acaso	rg	rg	matched=yes: nsubj child of root deprel	11	advmod	_	_
+11	un	uno	di0ms0	di0ms0	matched=yes: nsubj child of root deprel	12	det	_	_
+12	quehacer	quehacer	ncms000	ncms000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
+13	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	15	nsubj	_	_
+14	se	él	p0300000	p0300000	matched=yes: nsubj child of root deprel	15	reflec	_	_
+15	asoma	asomar	vmip3s0	vmip3s0	matched=yes: nsubj child of root deprel	12	rcmod	_	_
+16	muchísimo	muchísimo	rg	rg	matched=yes: nsubj child of root deprel	15	advmod	_	_
 17	.	.	fp	fp	matched=no	9	punct	_	_
 
 1	Sesenta	sesenta	dn0cp0	dn0cp0	matched=no	3	det	_	_

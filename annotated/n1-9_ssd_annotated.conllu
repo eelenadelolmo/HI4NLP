@@ -47,8 +47,8 @@
 1	-	-	fg	fg	matched=no	3	punct	_	_
 2	Me	yo	pp1cs000	pp1cs000	matched=no	3	iobj	_	_
 3	gusta	gustar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-4	este	este	dd0ms0	dd0ms0	matched=no	5	det	_	_
-5	trabajo	trabajo	ncms000	ncms000	matched=no	3	nsubj	_	_
+4	este	este	dd0ms0	dd0ms0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	trabajo	trabajo	ncms000	ncms000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 6	,	,	fc	fc	matched=no	3	punct	_	_
 7	porque	porque	cs	cs	matched=no	3	advcl	_	_
 8	aquí	aquí	rg	rg	matched=no	9	advmod	_	_
@@ -235,14 +235,14 @@
 14	:	:	fd	fd	matched=no	3	punct	_	_
 15	da	dar	vmip3s0	vmip3s0	matched=no	3	cobj	_	_
 16	igual	igual	rg	rg	matched=no	15	advmod	_	_
-17	lo	el	da0ns0	da0ns0	matched=no	18	det	_	_
-18	que	que	pr0cn000	pr0cn000	matched=no	19	dobj	_	_
-19	hicieran	hacer	vmsi3p0	vmsi3p0	matched=no	20	rcmod	_	_
-20	o	o	cc	cc	matched=no	3	nsubj	_	_
-21	lo	el	da0ns0	da0ns0	matched=no	22	det	_	_
-22	duro	duro	aq0ms0	aq0ms0	matched=no	20	coord	_	_
-23	que	que	pr0cn000	pr0cn000	matched=no	24	dobj	_	_
-24	trabajasen	trabajar	vmsi3p0	vmsi3p0	matched=no	22	rcmod	_	_
+17	lo	el	da0ns0	da0ns0	matched=yes: nsubj child of root deprel	18	det	_	_
+18	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	19	dobj	_	_
+19	hicieran	hacer	vmsi3p0	vmsi3p0	matched=yes: nsubj child of root deprel	20	rcmod	_	_
+20	o	o	cc	cc	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+21	lo	el	da0ns0	da0ns0	matched=yes: nsubj child of root deprel	22	det	_	_
+22	duro	duro	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	20	coord	_	_
+23	que	que	pr0cn000	pr0cn000	matched=yes: nsubj child of root deprel	24	dobj	_	_
+24	trabajasen	trabajar	vmsi3p0	vmsi3p0	matched=yes: nsubj child of root deprel	22	rcmod	_	_
 25	.	.	fp	fp	matched=no	3	punct	_	_
 
 1	Es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_

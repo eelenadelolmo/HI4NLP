@@ -153,9 +153,9 @@
 17	&quot;	&quot;	fe	fe	matched=no	2	punct	_	_
 18	,	,	fc	fc	matched=no	19	punct	_	_
 19	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-20	el	el	da0ms0	da0ms0	matched=no	22	det	_	_
-21	ex	ex	aq0cn0	aq0cn0	matched=no	22	amod	_	_
-22	diputado	diputado	ncms000	ncms000	matched=no	19	nsubj	_	_
+20	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	22	det	_	_
+21	ex	ex	aq0cn0	aq0cn0	matched=yes: nsubj child of root deprel	22	amod	_	_
+22	diputado	diputado	ncms000	ncms000	matched=yes: nsubj child of root deprel	19	nsubj	_	_
 23	.	.	fp	fp	matched=no	19	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	15	punct	_	_

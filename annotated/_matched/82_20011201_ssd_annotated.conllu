@@ -38,6 +38,19 @@
 38	velocidad	velocidad	ncfs000	ncfs000	matched=no	37	pobj	_	_
 39	.	.	fp	fp	matched=no	18	punct	_	_
 
+1	De	de	sps00	sps00	matched=no	6	advmod	_	_
+2	momento	momento	vmn0000	vmn0000	matched=no	1	pobj	_	_
+3	,	,	fc	fc	matched=no	6	punct	_	_
+4	ya	ya	rg	rg	matched=no	6	advmod	_	_
+5	se	se	p0000000	p0000000	matched=no	6	reflec	_	_
+6	están	estar	vmip3p0	vmip3p0	matched=no	0	root	_	_
+7	probando	probar	vmg0000	vmg0000	matched=no	6	attr	_	_
+8	dos	dos	pn0cp000	pn0cp000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+9	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	8	prepn	_	_
+10	las	el	da0fp0	da0fp0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	cámaras	cámara	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	9	pobj	_	_
+12	.	.	fp	fp	matched=no	6	punct	_	_
+
 1	Joan	Joan	np0000l	np0000l	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 2	Delort	Delort	np0000l	np0000l	matched=yes: nsubj child of root deprel	1	appos	_	_
 3	aseguró	asegurar	vmis3s0	vmis3s0	matched=no	0	root	_	_

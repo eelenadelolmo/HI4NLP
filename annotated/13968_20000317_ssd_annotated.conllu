@@ -601,12 +601,12 @@
 59	Chirac	Chirac	np0000p	np0000p	matched=no	58	coord	_	_
 60	,	,	fc	fc	matched=no	61	punct	_	_
 61	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-62	el	el	da0ms0	da0ms0	matched=no	63	det	_	_
-63	canal	canal	ncms000	ncms000	matched=no	61	nsubj	_	_
-64	televisivo	televisivo	aq0ms0	aq0ms0	matched=no	63	amod	_	_
-65	&quot;	&quot;	fe	fe	matched=no	66	punct	_	_
-66	LCI	LCI	np0000o	np0000o	matched=no	63	appos	_	_
-67	&quot;	&quot;	fe	fe	matched=no	66	punct	_	_
+62	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	63	det	_	_
+63	canal	canal	ncms000	ncms000	matched=yes: nsubj child of root deprel	61	nsubj	_	_
+64	televisivo	televisivo	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	63	amod	_	_
+65	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	66	punct	_	_
+66	LCI	LCI	np0000o	np0000o	matched=yes: nsubj child of root deprel	63	appos	_	_
+67	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	66	punct	_	_
 68	.	.	fp	fp	matched=no	61	punct	_	_
 
 1	Otros	otro	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
@@ -741,13 +741,13 @@
 37	&quot;	&quot;	fe	fe	matched=no	22	punct	_	_
 38	,	,	fc	fc	matched=no	39	punct	_	_
 39	indicó	indicar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-40	Alain	Alain	np0000l	np0000l	matched=no	39	nsubj	_	_
-41	Madelin	Madelin	np0000l	np0000l	matched=no	40	appos	_	_
-42	,	,	fc	fc	matched=no	40	punct	_	_
-43	líder	líder	nccs000	nccs000	matched=no	40	appos	_	_
-44	de	de	sps00	sps00	matched=no	43	prepn	_	_
-45	Democracia	democracia	ncfs000	ncfs000	matched=no	44	pobj	_	_
-46	Liberal	liberal	nc00000	nc00000	matched=no	45	appos	_	_
+40	Alain	Alain	np0000l	np0000l	matched=yes: nsubj child of root deprel	39	nsubj	_	_
+41	Madelin	Madelin	np0000l	np0000l	matched=yes: nsubj child of root deprel	40	appos	_	_
+42	,	,	fc	fc	matched=yes: nsubj child of root deprel	40	punct	_	_
+43	líder	líder	nccs000	nccs000	matched=yes: nsubj child of root deprel	40	appos	_	_
+44	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	43	prepn	_	_
+45	Democracia	democracia	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	44	pobj	_	_
+46	Liberal	liberal	nc00000	nc00000	matched=yes: nsubj child of root deprel	45	appos	_	_
 47	.	.	fp	fp	matched=no	39	punct	_	_
 
 1	Bajo	bajo	sps00	sps00	matched=no	20	prepv	_	_
@@ -874,11 +874,11 @@
 59	&quot;	&quot;	fe	fe	matched=no	27	punct	_	_
 60	,	,	fc	fc	matched=no	61	punct	_	_
 61	afirma	afirmar	vmip3s0	vmip3s0	matched=no	0	root	_	_
-62	el	el	da0ms0	da0ms0	matched=no	63	det	_	_
-63	diario	diario	ncms000	ncms000	matched=no	61	nsubj	_	_
-64	izquierdista	izquierdista	aq0cs0	aq0cs0	matched=no	63	amod	_	_
-65	&quot;	&quot;	fe	fe	matched=no	66	punct	_	_
-66	Liberation	Liberation	np0000a	np0000a	matched=no	63	appos	_	_
-67	&quot;	&quot;	fe	fe	matched=no	66	punct	_	_
+62	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	63	det	_	_
+63	diario	diario	ncms000	ncms000	matched=yes: nsubj child of root deprel	61	nsubj	_	_
+64	izquierdista	izquierdista	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	63	amod	_	_
+65	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	66	punct	_	_
+66	Liberation	Liberation	np0000a	np0000a	matched=yes: nsubj child of root deprel	63	appos	_	_
+67	&quot;	&quot;	fe	fe	matched=yes: nsubj child of root deprel	66	punct	_	_
 68	.	.	fp	fp	matched=no	61	punct	_	_
 

@@ -275,8 +275,8 @@
 3	se	él	p0300000	p0300000	matched=no	5	reflec	_	_
 4	las	él	pp3fpa00	pp3fpa00	matched=no	5	dobj	_	_
 5	rifaban	rifar	vmii3p0	vmii3p0	matched=no	0	root	_	_
-6	los	el	da0mp0	da0mp0	matched=no	7	det	_	_
-7	chicos	chico	ncmp000	ncmp000	matched=no	5	nsubj	_	_
+6	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	7	det	_	_
+7	chicos	chico	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	5	nsubj	_	_
 8	porque	porque	cs	cs	matched=no	5	advcl	_	_
 9	eran	ser	vsii3p0	vsii3p0	matched=no	16	coord	_	_
 10	altas	alto	aq0fp0	aq0fp0	matched=no	11	coord	_	_

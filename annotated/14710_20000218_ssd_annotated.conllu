@@ -508,8 +508,8 @@
 62	&quot;	&quot;	fe	fe	matched=no	30	punct	_	_
 63	,	,	fc	fc	matched=no	64	punct	_	_
 64	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-65	el	el	da0ms0	da0ms0	matched=no	66	det	_	_
-66	analista	analista	nccs000	nccs000	matched=no	64	nsubj	_	_
+65	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	66	det	_	_
+66	analista	analista	nccs000	nccs000	matched=yes: nsubj child of root deprel	64	nsubj	_	_
 67	.	.	fp	fp	matched=no	64	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	7	punct	_	_

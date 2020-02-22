@@ -96,6 +96,20 @@
 57	lejos	lejos	rg	rg	matched=no	56	advmod	_	_
 58	.	.	fp	fp	matched=no	7	punct	_	_
 
+1	Y	y	cc	cc	matched=no	3	te	_	_
+2	ahí	ahí	rg	rg	matched=no	3	advmod	_	_
+3	está	estar	vmip3s0	vmip3s0	matched=no	0	root	_	_
+4	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	lección	lección	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+6	:	:	fd	fd	matched=no	12	punct	_	_
+7	Barça	Barça	np0000o	np0000o	matched=no	12	dep	_	_
+8	5	5	z	z	matched=no	9	coord	_	_
+9	,	,	fc	fc	matched=no	3	dobj	_	_
+10	Real	real	ncms000	ncms000	matched=no	12	dep	_	_
+11	Madrid	Madrid	np00000	np00000	matched=no	10	appos	_	_
+12	0	0	z	z	matched=no	9	coord	_	_
+13	.	.	fp	fp	matched=no	3	punct	_	_
+
 1	Los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	2	det	_	_
 2	partidos	partido	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	63	nsubj	_	_
 3	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	2	prepn	_	_
@@ -220,6 +234,15 @@
 56	de	de	sps00	sps00	matched=no	55	prepn	_	_
 57	días	día	ncmp000	ncmp000	matched=no	56	pobj	_	_
 58	.	.	fp	fp	matched=no	51	punct	_	_
+
+1	Por	por	sps00	sps00	matched=no	5	prepv	_	_
+2	eso	ese	pd0ns000	pd0ns000	matched=no	1	pobj	_	_
+3	,	,	fc	fc	matched=no	5	punct	_	_
+4	¡	¡	faa	faa	matched=no	5	punct	_	_
+5	vengan	venir	vmm03p0	vmm03p0	matched=no	0	root	_	_
+6	más	más	rg	rg	matched=yes: nsubj child of root deprel	7	advmod	_	_
+7	Madrid-Barcelona	Madrid-Barcelona	np0000a	np0000a	matched=yes: nsubj child of root deprel	5	nsubj	_	_
+8	!	!	fat	fat	matched=no	5	punct	_	_
 
 1	Aíto	Aíto	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	coord	_	_
 2	García	García	ncms000	ncms000	matched=yes: nsubj child of root deprel	1	appos	_	_

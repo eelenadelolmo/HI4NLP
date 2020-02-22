@@ -216,6 +216,16 @@
 13	usted	tú	pp2cs00p	pp2cs00p	matched=no	12	nsubj	_	_
 14	.	.	fp	fp	matched=no	5	punct	_	_
 
+1	¿	¿	fit	fit	matched=no	3	punct	_	_
+2	Le	él	pp3csd00	pp3csd00	matched=no	3	iobj	_	_
+3	pesa	pesar	vmip3s0	vmip3s0	matched=no	0	root	_	_
+4	este	este	dd0ms0	dd0ms0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	hecho	hecho	ncms000	ncms000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+6	?	?	fit	fit	matched=no	3	punct	_	_
+7	-	-	fg	fg	matched=no	3	punct	_	_
+8	-	-	fg	fg	matched=no	3	punct	_	_
+9	.	.	fp	fp	matched=no	3	punct	_	_
+
 1	Yo	yo	pp1csn00	pp1csn00	matched=yes: nsubj child of root deprel	2	nsubj	_	_
 2	tengo	tener	vmip1s0	vmip1s0	matched=no	0	root	_	_
 3	muchas	mucho	di0fp0	di0fp0	matched=no	4	det	_	_

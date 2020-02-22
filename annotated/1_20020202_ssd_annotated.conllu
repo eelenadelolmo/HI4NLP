@@ -339,10 +339,10 @@
 10	&quot;	&quot;	fe	fe	matched=no	3	punct	_	_
 11	,	,	fc	fc	matched=no	12	punct	_	_
 12	señalaron	señalar	vmis3p0	vmis3p0	matched=no	0	root	_	_
-13	fuentes	fuente	ncfp000	ncfp000	matched=no	12	nsubj	_	_
-14	próximas	próximo	aq0fp0	aq0fp0	matched=no	13	amod	_	_
-15	al	al	spcms	spcms	matched=no	14	prepa	_	_
-16	caso	caso	ncms000	ncms000	matched=no	15	pobj	_	_
+13	fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	12	nsubj	_	_
+14	próximas	próximo	aq0fp0	aq0fp0	matched=yes: nsubj child of root deprel	13	amod	_	_
+15	al	al	spcms	spcms	matched=yes: nsubj child of root deprel	14	prepa	_	_
+16	caso	caso	ncms000	ncms000	matched=yes: nsubj child of root deprel	15	pobj	_	_
 17	.	.	fp	fp	matched=no	12	punct	_	_
 
 1	Fuentes	fuente	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	5	nsubj	_	_

@@ -97,8 +97,8 @@
 13	,	,	fc	fc	matched=no	14	punct	_	_
 14	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
 15	orgulloso	orgulloso	aq0ms0	aq0ms0	matched=no	14	cpred	_	_
-16	el	el	da0ms0	da0ms0	matched=no	17	det	_	_
-17	presidente	presidente	ncms000	ncms000	matched=no	14	nsubj	_	_
+16	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	presidente	presidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	14	nsubj	_	_
 18	sin	sin	sps00	sps00	matched=no	14	prepv	_	_
 19	darse	darse	vmp00sm	vmp00sm	matched=no	18	pobj	_	_
 20	cuenta	cuenta	ncfp000	ncfp000	matched=no	19	dobj	_	_

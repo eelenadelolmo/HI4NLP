@@ -148,8 +148,8 @@
 36	&quot;	&quot;	fe	fe	matched=no	12	punct	_	_
 37	,	,	fc	fc	matched=no	38	punct	_	_
 38	dijo	decir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-39	Martínez	Martínez	np0000l	np0000l	matched=no	38	nsubj	_	_
-40	Rovira	Rovira	np0000l	np0000l	matched=no	39	appos	_	_
+39	Martínez	Martínez	np0000l	np0000l	matched=yes: nsubj child of root deprel	38	nsubj	_	_
+40	Rovira	Rovira	np0000l	np0000l	matched=yes: nsubj child of root deprel	39	appos	_	_
 41	en	en	sps00	sps00	matched=no	38	prepv	_	_
 42	unas	uno	di0fp0	di0fp0	matched=no	43	det	_	_
 43	declaraciones	declaración	ncfp000	ncfp000	matched=no	41	pobj	_	_
@@ -271,8 +271,8 @@
 35	&quot;	&quot;	fe	fe	matched=no	16	punct	_	_
 36	,	,	fc	fc	matched=no	37	punct	_	_
 37	aseguró	asegurar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-38	el	el	da0ms0	da0ms0	matched=no	40	det	_	_
-39	ex	ex	aq0cn0	aq0cn0	matched=no	40	nsubj	_	_
-40	vicepresidente	vicepresidente	ncms000	ncms000	matched=no	37	nsubj	_	_
+38	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	40	det	_	_
+39	ex	ex	aq0cn0	aq0cn0	matched=yes: nsubj child of root deprel	40	nsubj	_	_
+40	vicepresidente	vicepresidente	ncms000	ncms000	matched=yes: nsubj child of root deprel	37	nsubj	_	_
 41	.	.	fp	fp	matched=no	37	punct	_	_
 

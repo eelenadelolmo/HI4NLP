@@ -512,10 +512,10 @@
 60	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
 61	a	a	sps00	sps00	matched=no	60	iobj	_	_
 62	Efe	Efe	np00000	np00000	matched=no	61	pobj	_	_
-63	el	el	da0ms0	da0ms0	matched=no	64	det	_	_
-64	técnico	técnico	ncms000	ncms000	matched=no	60	nsubj	_	_
-65	Joan	Joan	np0000l	np0000l	matched=no	64	appos	_	_
-66	Jané	Jané	np0000l	np0000l	matched=no	65	appos	_	_
+63	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	64	det	_	_
+64	técnico	técnico	ncms000	ncms000	matched=yes: nsubj child of root deprel	60	nsubj	_	_
+65	Joan	Joan	np0000l	np0000l	matched=yes: nsubj child of root deprel	64	appos	_	_
+66	Jané	Jané	np0000l	np0000l	matched=yes: nsubj child of root deprel	65	appos	_	_
 67	.	.	fp	fp	matched=no	60	punct	_	_
 
 1	&quot;	&quot;	fe	fe	matched=no	21	punct	_	_
@@ -562,7 +562,7 @@
 42	&quot;	&quot;	fe	fe	matched=no	21	punct	_	_
 43	,	,	fc	fc	matched=no	44	punct	_	_
 44	añadió	añadir	vmis3s0	vmis3s0	matched=no	0	root	_	_
-45	Jané	Jané	np00000	np00000	matched=no	44	nsubj	_	_
+45	Jané	Jané	np00000	np00000	matched=yes: nsubj child of root deprel	44	nsubj	_	_
 46	.	.	fp	fp	matched=no	44	punct	_	_
 
 1	Bakero	Bakero	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
@@ -646,13 +646,13 @@
 
 1	Termina	terminar	vmip3s0	vmip3s0	matched=no	0	root	_	_
 2	así	así	rg	rg	matched=no	1	advmod	_	_
-3	la	el	da0fs0	da0fs0	matched=no	4	det	_	_
-4	aventura	aventura	ncfs000	ncfs000	matched=no	1	nsubj	_	_
-5	de	de	sps00	sps00	matched=no	4	prepn	_	_
-6	Bakero	Bakero	np00000	np00000	matched=no	5	pobj	_	_
-7	en	en	sps00	sps00	matched=no	4	prepn	_	_
-8	el	el	da0ms0	da0ms0	matched=no	9	det	_	_
-9	banquillo	banquillo	ncms000	ncms000	matched=no	7	pobj	_	_
+3	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	aventura	aventura	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+5	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	4	prepn	_	_
+6	Bakero	Bakero	np00000	np00000	matched=yes: nsubj child of root deprel	5	pobj	_	_
+7	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	4	prepn	_	_
+8	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	9	det	_	_
+9	banquillo	banquillo	ncms000	ncms000	matched=yes: nsubj child of root deprel	7	pobj	_	_
 10	ya	ya	rg	rg	matched=no	11	advmod	_	_
 11	que	que	pi0ms000	pi0ms000	matched=no	1	advcl	_	_
 12	en	en	sps00	sps00	matched=no	40	prepv	_	_

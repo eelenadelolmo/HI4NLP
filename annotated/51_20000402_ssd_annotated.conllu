@@ -178,8 +178,8 @@
 7	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
 8	,	,	fc	fc	matched=no	9	punct	_	_
 9	afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-10	el	el	da0ms0	da0ms0	matched=no	11	det	_	_
-11	diputado	diputado	ncms000	ncms000	matched=no	9	nsubj	_	_
+10	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	diputado	diputado	ncms000	ncms000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
 12	,	,	fc	fc	matched=no	4	punct	_	_
 13	que	que	pr0cn000	pr0cn000	matched=no	14	nsubj	_	_
 14	es	ser	vsip3s0	vsip3s0	matched=no	6	rcmod	_	_

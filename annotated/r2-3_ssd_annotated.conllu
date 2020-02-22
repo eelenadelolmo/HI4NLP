@@ -28,8 +28,8 @@
 20	.	.	fp	fp	matched=no	15	punct	_	_
 
 1	Dice	decir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-2	Antonio	Antonio	np0000l	np0000l	matched=no	1	nsubj	_	_
-3	Romero	romero	np0000l	np0000l	matched=no	2	appos	_	_
+2	Antonio	Antonio	np0000l	np0000l	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+3	Romero	romero	np0000l	np0000l	matched=yes: nsubj child of root deprel	2	appos	_	_
 4	que	que	cs	cs	matched=no	1	dobj	_	_
 5	para	para	sps00	sps00	matched=no	10	prepv	_	_
 6	IU	IU	np0000o	np0000o	matched=no	5	pobj	_	_
@@ -293,10 +293,10 @@
 
 1	Ahora	ahora	rg	rg	matched=no	2	advmod	_	_
 2	será	ser	vsif3s0	vsif3s0	matched=no	0	root	_	_
-3	la	el	da0fs0	da0fs0	matched=no	4	det	_	_
-4	viceministra	viceministra	ncfs000	ncfs000	matched=no	2	nsubj	_	_
-5	Margarita	margarita	ncfs000	ncfs000	matched=no	4	appos	_	_
-6	Robles	roble	nc00000	nc00000	matched=no	5	appos	_	_
+3	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	4	det	_	_
+4	viceministra	viceministra	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
+5	Margarita	margarita	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	4	appos	_	_
+6	Robles	roble	nc00000	nc00000	matched=yes: nsubj child of root deprel	5	appos	_	_
 7	quien	quien	pr0cs000	pr0cs000	matched=no	14	coord	_	_
 8	tome	tomar	vmsp3s0	vmsp3s0	matched=no	14	cobj	_	_
 9	las	el	da0fp0	da0fp0	matched=no	10	det	_	_

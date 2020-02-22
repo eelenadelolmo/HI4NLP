@@ -358,17 +358,17 @@
 7	ya	ya	rg	rg	matched=no	8	advmod	_	_
 8	una	uno	di0fs0	di0fs0	matched=no	9	det	_	_
 9	decena	decena	ncfs000	ncfs000	matched=no	6	dobj	_	_
-10	los	el	da0mp0	da0mp0	matched=no	11	det	_	_
-11	atentados	atentado	ncmp000	ncmp000	matched=no	6	nsubj	_	_
-12	contra	contra	sps00	sps00	matched=no	11	prepn	_	_
-13	estas	este	dd0fp0	dd0fp0	matched=no	14	det	_	_
-14	dependencias	dependencia	ncfp000	ncfp000	matched=no	12	pobj	_	_
-15	de	de	sps00	sps00	matched=no	14	prepn	_	_
-16	la	el	da0fs0	da0fs0	matched=no	17	det	_	_
-17	Guardia	guardia	ncms000	ncms000	matched=no	15	pobj	_	_
-18	Civil	civil	aq0ms0	aq0ms0	matched=no	17	amod	_	_
-19	en	en	sps00	sps00	matched=no	11	prepn	_	_
-20	Getxo	Getxo	np00000	np00000	matched=no	19	pobj	_	_
+10	los	el	da0mp0	da0mp0	matched=yes: nsubj child of root deprel	11	det	_	_
+11	atentados	atentado	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+12	contra	contra	sps00	sps00	matched=yes: nsubj child of root deprel	11	prepn	_	_
+13	estas	este	dd0fp0	dd0fp0	matched=yes: nsubj child of root deprel	14	det	_	_
+14	dependencias	dependencia	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	12	pobj	_	_
+15	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	14	prepn	_	_
+16	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	17	det	_	_
+17	Guardia	guardia	ncms000	ncms000	matched=yes: nsubj child of root deprel	15	pobj	_	_
+18	Civil	civil	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	17	amod	_	_
+19	en	en	sps00	sps00	matched=yes: nsubj child of root deprel	11	prepn	_	_
+20	Getxo	Getxo	np00000	np00000	matched=yes: nsubj child of root deprel	19	pobj	_	_
 21	.	.	fp	fp	matched=no	6	punct	_	_
 
 1	ETA	ETA	np00000	np00000	matched=yes: nsubj child of root deprel	2	nsubj	_	_
@@ -432,7 +432,7 @@
 5	ahora	ahora	rg	rg	matched=no	4	advmod	_	_
 6	se	se	p0000000	p0000000	matched=no	7	reflec	_	_
 7	produjeron	producir	vmis3p0	vmis3p0	matched=no	0	root	_	_
-8	detenciones	detención	ncfp000	ncfp000	matched=no	7	nsubj	_	_
+8	detenciones	detención	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	7	nsubj	_	_
 9	.	.	fp	fp	matched=no	7	punct	_	_
 
 1	Los	el	da0mp0	da0mp0	matched=no	2	det	_	_
@@ -572,9 +572,9 @@
 4	PP	PP	np00000	np00000	matched=no	3	pobj	_	_
 5	,	,	fc	fc	matched=no	6	punct	_	_
 6	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
-7	la	el	da0fs0	da0fs0	matched=no	8	det	_	_
-8	coalición	coalición	ncfs000	ncfs000	matched=no	6	nsubj	_	_
-9	aberzale	aberzale	aq0cs0	aq0cs0	matched=no	8	amod	_	_
+7	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	8	det	_	_
+8	coalición	coalición	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	6	nsubj	_	_
+9	aberzale	aberzale	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	8	amod	_	_
 10	quien	quien	pr0cs000	pr0cs000	matched=no	16	coord	_	_
 11	tiene	tener	vmip3s0	vmip3s0	matched=no	16	cobj	_	_
 12	el	el	da0ms0	da0ms0	matched=no	14	det	_	_

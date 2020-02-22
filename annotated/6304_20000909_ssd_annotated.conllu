@@ -272,12 +272,12 @@
 22	&quot;	&quot;	fe	fe	matched=no	14	punct	_	_
 23	,	,	fc	fc	matched=no	24	punct	_	_
 24	apostilló	apostillar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-25	el	el	da0ms0	da0ms0	matched=no	26	det	_	_
-26	plusmarquista	plusmarquista	nccs000	nccs000	matched=no	24	nsubj	_	_
-27	mundial	mundial	aq0cs0	aq0cs0	matched=no	26	amod	_	_
-28	de	de	sps00	sps00	matched=no	26	prepn	_	_
-29	salto	salto	ncms000	ncms000	matched=no	28	pobj	_	_
-30	alto	alto	aq0ms0	aq0ms0	matched=no	29	amod	_	_
+25	el	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	26	det	_	_
+26	plusmarquista	plusmarquista	nccs000	nccs000	matched=yes: nsubj child of root deprel	24	nsubj	_	_
+27	mundial	mundial	aq0cs0	aq0cs0	matched=yes: nsubj child of root deprel	26	amod	_	_
+28	de	de	sps00	sps00	matched=yes: nsubj child of root deprel	26	prepn	_	_
+29	salto	salto	ncms000	ncms000	matched=yes: nsubj child of root deprel	28	pobj	_	_
+30	alto	alto	aq0ms0	aq0ms0	matched=yes: nsubj child of root deprel	29	amod	_	_
 31	.	.	fp	fp	matched=no	24	punct	_	_
 
 1	Afirmó	afirmar	vmis3s0	vmis3s0	matched=no	0	root	_	_
@@ -800,7 +800,7 @@
 12	&quot;	&quot;	fe	fe	matched=no	4	punct	_	_
 13	,	,	fc	fc	matched=no	14	punct	_	_
 14	apostilló	apostillar	vmis3s0	vmis3s0	matched=no	0	root	_	_
-15	Javier	Javier	np0000l	np0000l	matched=no	14	nsubj	_	_
-16	Sotomayor	Sotomayor	np0000l	np0000l	matched=no	15	appos	_	_
+15	Javier	Javier	np0000l	np0000l	matched=yes: nsubj child of root deprel	14	nsubj	_	_
+16	Sotomayor	Sotomayor	np0000l	np0000l	matched=yes: nsubj child of root deprel	15	appos	_	_
 17	.	.	fp	fp	matched=no	14	punct	_	_
 

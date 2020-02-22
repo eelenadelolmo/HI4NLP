@@ -272,11 +272,11 @@
 10	empezar	empezar	vmn0000	vmn0000	matched=no	9	dobj	_	_
 11	a	a	sps00	sps00	matched=no	10	prepv	_	_
 12	ejecutarse	ejecutar	vmn0000	vmn0000	matched=no	11	pobj	_	_
-13	la	el	da0fs0	da0fs0	matched=no	15	det	_	_
-14	primera	primero	ao0fs0	ao0fs0	matched=no	15	amod	_	_
-15	fase	fase	ncfs000	ncfs000	matched=no	9	nsubj	_	_
-16	del	del	spcms	spcms	matched=no	15	prepn	_	_
-17	proyecto	proyecto	ncms000	ncms000	matched=no	16	pobj	_	_
+13	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	15	det	_	_
+14	primera	primero	ao0fs0	ao0fs0	matched=yes: nsubj child of root deprel	15	amod	_	_
+15	fase	fase	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	9	nsubj	_	_
+16	del	del	spcms	spcms	matched=yes: nsubj child of root deprel	15	prepn	_	_
+17	proyecto	proyecto	ncms000	ncms000	matched=yes: nsubj child of root deprel	16	pobj	_	_
 18	en	en	sps00	sps00	matched=no	10	prepv	_	_
 19	la	el	da0fs0	da0fs0	matched=no	20	det	_	_
 20	porción	porción	ncfs000	ncfs000	matched=no	18	pobj	_	_

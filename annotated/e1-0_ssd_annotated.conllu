@@ -199,9 +199,9 @@
 1	¿	¿	fia	fia	matched=no	3	punct	_	_
 2	No	no	rn	rn	matched=no	3	neg	_	_
 3	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
-4	acaso	acaso	rg	rg	matched=no	5	advmod	_	_
-5	toda	todo	di0fs0	di0fs0	matched=no	6	det	_	_
-6	religión	religión	ncfs000	ncfs000	matched=no	3	nsubj	_	_
+4	acaso	acaso	rg	rg	matched=yes: nsubj child of root deprel	5	advmod	_	_
+5	toda	todo	di0fs0	di0fs0	matched=yes: nsubj child of root deprel	6	det	_	_
+6	religión	religión	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 7	la	el	da0fs0	da0fs0	matched=no	8	det	_	_
 8	hipóstasis	hipóstasis	ncfn000	ncfn000	matched=no	3	attr	_	_
 9	del	del	spcms	spcms	matched=no	8	prepn	_	_
@@ -225,7 +225,7 @@
 1	¿	¿	fia	fia	matched=no	3	punct	_	_
 2	No	no	rn	rn	matched=no	3	neg	_	_
 3	es	ser	vsip3s0	vsip3s0	matched=no	0	root	_	_
-4	ZZNM	ZZNM	np0000p	np0000p	matched=no	3	nsubj	_	_
+4	ZZNM	ZZNM	np0000p	np0000p	matched=yes: nsubj child of root deprel	3	nsubj	_	_
 5	el	el	da0ms0	da0ms0	matched=no	6	det	_	_
 6	arquetipo	arquetipo	ncms000	ncms000	matched=no	3	attr	_	_
 7	de	de	sps00	sps00	matched=no	6	prepn	_	_

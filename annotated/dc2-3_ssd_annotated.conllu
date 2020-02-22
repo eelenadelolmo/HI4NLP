@@ -330,11 +330,11 @@
 1	Finalmente	finalmente	rg	rg	matched=no	3	advmod	_	_
 2	,	,	fc	fc	matched=no	3	punct	_	_
 3	sobreviene	sobrevenir	vmip3s0	vmip3s0	matched=no	0	root	_	_
-4	la	el	da0fs0	da0fs0	matched=no	5	det	_	_
-5	muerte	muerte	ncfs000	ncfs000	matched=no	3	nsubj	_	_
-6	por	por	sps00	sps00	matched=no	5	prepn	_	_
-7	parálisis	parálisis	ncfn000	ncfn000	matched=no	6	pobj	_	_
-8	respiratoria	respiratorio	aq0fs0	aq0fs0	matched=no	7	amod	_	_
+4	la	el	da0fs0	da0fs0	matched=yes: nsubj child of root deprel	5	det	_	_
+5	muerte	muerte	ncfs000	ncfs000	matched=yes: nsubj child of root deprel	3	nsubj	_	_
+6	por	por	sps00	sps00	matched=yes: nsubj child of root deprel	5	prepn	_	_
+7	parálisis	parálisis	ncfn000	ncfn000	matched=yes: nsubj child of root deprel	6	pobj	_	_
+8	respiratoria	respiratorio	aq0fs0	aq0fs0	matched=yes: nsubj child of root deprel	7	amod	_	_
 9	.	.	fp	fp	matched=no	3	punct	_	_
 
 1	El	el	da0ms0	da0ms0	matched=yes: nsubj child of root deprel	2	det	_	_

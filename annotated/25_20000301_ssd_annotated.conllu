@@ -1,6 +1,6 @@
 1	Faltan	faltar	vmip3p0	vmip3p0	matched=no	0	root	_	_
-2	pocos	poco	di0mp0	di0mp0	matched=no	3	det	_	_
-3	meses	mes	ncmp000	ncmp000	matched=no	1	nsubj	_	_
+2	pocos	poco	di0mp0	di0mp0	matched=yes: nsubj child of root deprel	3	det	_	_
+3	meses	mes	ncmp000	ncmp000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
 4	para	para	sps00	sps00	matched=no	1	prepv	_	_
 5	que	que	cs	cs	matched=no	4	pobj	_	_
 6	se	se	p0000000	p0000000	matched=no	7	reflec	_	_
@@ -320,9 +320,9 @@
 54	.	.	fp	fp	matched=no	27	punct	_	_
 
 1	Existen	existir	vmip3p0	vmip3p0	matched=no	0	root	_	_
-2	muchas	mucho	di0fp0	di0fp0	matched=no	3	det	_	_
-3	obras	obra	ncfp000	ncfp000	matched=no	1	nsubj	_	_
-4	cartelísticas	cartelístico	aq0fp0	aq0fp0	matched=no	3	amod	_	_
+2	muchas	mucho	di0fp0	di0fp0	matched=yes: nsubj child of root deprel	3	det	_	_
+3	obras	obra	ncfp000	ncfp000	matched=yes: nsubj child of root deprel	1	nsubj	_	_
+4	cartelísticas	cartelístico	aq0fp0	aq0fp0	matched=yes: nsubj child of root deprel	3	amod	_	_
 5	,	,	fc	fc	matched=no	12	punct	_	_
 6	diseños	diseño	ncmp000	ncmp000	matched=no	1	dobj	_	_
 7	de	de	sps00	sps00	matched=no	6	prepn	_	_
