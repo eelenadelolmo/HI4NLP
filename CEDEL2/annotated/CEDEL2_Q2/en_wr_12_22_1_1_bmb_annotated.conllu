@@ -1,0 +1,72 @@
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	llamo	llamar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	Brandis	brandis	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	2	dobj	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	attr	_	_
+3	norteamericana	norteamericano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	comp	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Vivo	vivir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+3	Georgia	georgia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	capital	capital	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	Georgia	georgia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	clima	clima	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	simpatico	simpatico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	veranos	verano	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	caliente	caliente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+7	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	primaveras	primavera	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	coor	_	_
+9	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	3	modnomatch	_	_
+10	calurosa	caluroso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	attr	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	0	top	_	_
+2	otonos	o_tono	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+3	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+4	calurosa	caluroso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+6	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	inviernos	invierno	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	coor	_	_
+9	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+10	muy	muy	RG	RG	matched=no|pos=adverb|type=general	11	spec	_	_
+11	frio	frio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	9	attr	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Georgia	georgia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	montanas	montano	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	2	pred	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	norte	norte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	universidad	universidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Georgia	georgia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	State	state	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	mod	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	attr	_	_
+8	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+

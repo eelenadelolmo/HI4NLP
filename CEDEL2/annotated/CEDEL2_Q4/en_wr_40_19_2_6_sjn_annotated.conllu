@@ -1,0 +1,340 @@
+1	Durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+2	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	vacaciones	vacaciones	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	santa	santo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+8	fui	ir	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
+10	sevilla	sevilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+12	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	13	spec	_	_
+13	amigas	amigo	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+2	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	4	spec	_	_
+3	primera	1	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	4	mod	_	_
+4	vez	vez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	adjt	_	_
+5	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	attr	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+7	Andalucia	andalucia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	comp	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	adjt	_	_
+9	también	también	RG	RG	matched=no|pos=adverb|type=general	8	coor	_	_
+10	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	modnomatch	_	_
+11	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	procesiones	procesión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	santa	santo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+2	impresionante	impresionante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	attr	_	_
+3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Salimos	salir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	12	coor	_	_
+2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+3	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	sabado_por_la_mañana	[S:??/??/??:??.??:am]	W	W	matched=no|pos=date	1	adjt	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	una	uno	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	6	comp	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	autobús	autobús	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+13	lleguemos	llegar	VMSP1P0	VMS	matched=no|mood=subjunctive|num=plural|person=1|pos=verb|tense=present|type=main	12	coor	_	_
+14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+15	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	16	spec	_	_
+16	7	7	Z	Z	matched=no|pos=number	14	comp	_	_
+17	por	por	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	mañana	mañana	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Pasamos	pasar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	rato	rato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+5	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
+6	café	café	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+7	descansando	descansar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	1	adjt	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	adjt	_	_
+9	entonces	entonces	RG	RG	matched=no|pos=adverb|type=general	8	coor	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+11	decidimos	decidir	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	1	modnomatch	_	_
+12	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	dobj	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	dobj	_	_
+15	andando	andar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	11	adjt	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Aunque	aunque	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+2	llovia	llovia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	coor	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	poco	poco	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	1	coor	_	_
+5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	mañana	mañana	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+9	volvia	volvia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	coor	_	_
+10	soleado	solear	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+11	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	10	adjt	_	_
+12	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	13	modnorule	_	_
+13	horas	hora	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	modnomatch	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Fuimos	ir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	6	coor	_	_
+2	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	catedral	catedral	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+5	enorme	enorme	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+7	subimos	subir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	6	coor	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	modnomatch	_	_
+10	torre	torre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+11	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	13	adjt	_	_
+12	pudimos	poder	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	13	prt	_	_
+13	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	mod	_	_
+14	toda	todo	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	6	modnomatch	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+17	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+18	arriba	arriba	RG	RG	matched=no|pos=adverb|type=general	17	comp	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	cuidad	cuidar	VMM02P0	VMM	matched=no|mood=imperative|num=plural|person=2|pos=verb|type=main	1	modnomatch	_	_
+3	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	1	modnomatch	_	_
+4	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	gente	gente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	coor	_	_
+9	maja	majo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	procesiones	procesión	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	sabado	[S:??/??/??:??.??:??]	W	W	matched=no|pos=date	3	comp	_	_
+6	empezaron	empezar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+7	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	seis	6	Z	Z	matched=no|pos=number	7	comp	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Esperamos	esperar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+3	lado	lado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	catedral	catedral	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	10	adjt	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	procesiones	procesión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	subj	_	_
+10	pasaban	pasar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	6	mod	_	_
+11	cerca	cerca	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	modnomatch	_	_
+13	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	15	adjt	_	_
+14	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	15	mphes	_	_
+15	terminan	terminar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	10	modnomatch	_	_
+16	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	17	spec	_	_
+17	vuelta	vuelta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	modnomatch	_	_
+18	por	por	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+19	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Conocimos	conocer	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	0	top	_	_
+2	dos	2	Z	Z	matched=no|pos=number	3	spec	_	_
+3	chicas	chico	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	dobj	_	_
+4	americanas	americano	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+6	no	no	RN	RN	matched=no|pos=adverb|type=negative	7	spec	_	_
+7	dijeron	decir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	3	mod	_	_
+8	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	dobj	_	_
+9	estaban	estar	VAII3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=auxiliary	10	prt	_	_
+10	estudiando	estudiar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	8	comp	_	_
+11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+12	Sevilla	sevilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+14	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	15	spec	_	_
+15	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	También	también	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	mujer	mujer	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+5	española	español	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+8	Sevilla	sevilla	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
+10	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	11	mphes	_	_
+11	contó	contar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+12	cosas	cosa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
+15	procesiones	procesión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	modnomatch	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	coor	_	_
+18	Sevilla	sevilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	explicó	explicar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+3	cómo	cómo	PT00000	PT	matched=no|pos=pronoun|type=interrogative	2	adjt	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+5	procesiones	procesión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+6	pasan	pasar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+8	por	por	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
+9	dónde	dónde	PT00000	PT	matched=no|pos=pronoun|type=interrogative	8	comp	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+12	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Había	haber	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+2	tanta	tanto	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	gente	gente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
+6	procesiones	procesión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	coor	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	calles	calle	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	coor	_	_
+14	cualquier	cualquiera	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
+15	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	También	también	RG	RG	matched=no|pos=adverb|type=general	2	spec	_	_
+2	habia	habia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	0	top	_	_
+3	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	4	spec	_	_
+4	turistas	turista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	2	modnomatch	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Todo	todo	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	mundo	mundo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+4	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+5	divirtiendose	divirtiendose	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+7	sacando	sacar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	4	adjt	_	_
+8	fotos	foto	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	attr	_	_
+10	todo	todo	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	9	coor	_	_
+11	incluyendo	incluir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	4	adjt	_	_
+12	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	11	modnomatch	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	verdad	verdad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	coor	_	_
+6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+8	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	1	coor	_	_
+9	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
+10	poco	poco	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
+11	asustado	asustar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+12	por	por	SP	SP	matched=no|pos=adposition|type=preposition	11	agnt	_	_
+13	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	procesiones	procesión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Nunca	nunca	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+2	he	haber	VAIP1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=auxiliary	3	aux	_	_
+3	visto	ver	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+4	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	3	dobj	_	_
+5	así	así	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	files	files	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+10	files	files	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	gente	gente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	cubierto	cubrir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	pred	_	_
+14	con	con	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	capas	capa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+17	marchando	marchar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	3	adjt	_	_
+18	lentamente	lentamente	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+2	muy	muy	RG	RG	matched=no|pos=adverb|type=general	3	spec	_	_
+3	interesante	interesante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	attr	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+3	me	me	PP1CS00	PP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	4	mphes	_	_
+4	impresionó	impresionar	VMIS3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	6	subj	_	_
+5	mucho	mucho	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	adjt	_	_
+6	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	música	música	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	verdad	verdad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+5	bonito	bonito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	attr	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	procesión	procesión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	0	top	_	_
+3	tenia	tenia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+4	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
+5	músicos	músico	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	mod	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Tenía	tener	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	4	coor	_	_
+2	tan	tan	RG	RG	matched=no|pos=adverb|type=general	1	adjt	_	_
+3	fuerza	fuerza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+5	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	6	mphes	_	_
+6	encantaba	encantar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	4	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
+2	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+3	vuelvo	volver	VMIP1S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	5	prt	_	_
+4	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	prt	_	_
+5	pensar	pensar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	11	subj	_	_
+6	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	pobj	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	viaje	viaje	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
+10	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	11	mphes	_	_
+11	alegro	alegrar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+12	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
+13	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	11	dobj	_	_
+14	fui	ir	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	13	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	1	attr	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+4	nunca	nunca	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+5	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	8	mphes	_	_
+6	voy	ir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	8	prt	_	_
+7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	prt	_	_
+8	olvidar	olvidar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	mod	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+

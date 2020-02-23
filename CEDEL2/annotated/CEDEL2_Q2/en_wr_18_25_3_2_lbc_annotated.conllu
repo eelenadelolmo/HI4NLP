@@ -1,0 +1,64 @@
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	Mickey	mickey	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+4	Mouse	mouse	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	2	modnomatch	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	muy	muy	RG	RG	matched=no|pos=adverb|type=general	3	spec	_	_
+3	graioso	graioso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	attr	_	_
+5	extrovertido	extrovertido	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Lleva	llevar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	pantalones	pantalón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	dobj	_	_
+3	do	do	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+4	rojo	rojo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	novia	novio	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	Minne	minne	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	Mouse	mouse	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	2	iobj	_	_
+2	gustan	gustar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	bailar	bailar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+5	jugar	jugar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	coor	_	_
+6	con	con	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	8	spec	_	_
+8	amigos	amigo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+10	Goofy	goofy	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	coor	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+12	Donald	donald	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	coor	_	_
+13	Duck	duck	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	12	mod	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Donald	donald	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	coor	_	_
+3	nariz	nariz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	anaranjado	anaranjado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	6	coor	_	_
+8	furioso	furioso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
+9	siempre	siempre	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Goofy	goofy	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	tonto	tonto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	poco	poco	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+6	muy	muy	RG	RG	matched=no|pos=adverb|type=general	7	spec	_	_
+7	alto	alto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

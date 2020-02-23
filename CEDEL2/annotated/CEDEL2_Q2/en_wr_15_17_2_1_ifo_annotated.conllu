@@ -1,0 +1,98 @@
+1	Soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	attr	_	_
+3	Decatur	decatur	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
+6	poco	poco	RG	RG	matched=no|pos=adverb|type=general	1	adjt	_	_
+7	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+9	Georgia	georgia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	0	top	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	cuatro_de_julio	[??:4/7/??:??.??:??]	W	W	matched=no|pos=date	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	1	comp	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	celebracion	celebracion	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+8	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+9	fireworks	fireworks	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+12	musica	musicar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	coor	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+3	restaurantes	restaurante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	dobj	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	restaurantes	restaurante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	modnomatch	_	_
+3	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	caro	caro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+7	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+8	muy	muy	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
+9	delicioso	delicioso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	coor	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnomatch	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	café	café	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	con	con	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+4	leche	leche	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+6	JavaMonkey	javamonkey	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+8	muy	muy	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+9	bien	bien	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+3	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	dobj	_	_
+4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+5	caro	caro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	comp	_	_
+6	coches	coche	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	modnomatch	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	restaurante	restaurante	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	0	top	_	_
+3	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	5	adjt	_	_
+4	trabajadoro	trabajador_o	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	mod	_	_
+6	amarillo	amarillo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	coor	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	mod	_	_
+8	azul	azul	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	coor	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	0	top	_	_
+2	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	1	modnomatch	_	_
+3	árbol	árbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	parque	parque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	ontono	ontono	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	comp	_	_
+6	arboles	arbolar	VMSP2S0	VMS	matched=no|mood=subjunctive|num=singular|person=2|pos=verb|tense=present|type=main	0	top	_	_
+7	estan	estan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+8	rojo	rojo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	coor	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+10	amarillo	amarillo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	coor	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+13	anaranjado	anaranjado	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	coor	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Esta	este	PD0FS00	PD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	3	subj	_	_
+2	muy	muy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+3	magnifico	magnificar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

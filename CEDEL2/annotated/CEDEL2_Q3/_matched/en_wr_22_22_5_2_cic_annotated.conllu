@@ -1,0 +1,24 @@
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	persona	persona	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	famosa	famoso	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+5	me	me	PP1CS00	PP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	6	mphes	_	_
+6	gusta	gustar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+8	Michael	michael	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	attr	_	_
+9	Ian	ian	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+10	Black	black	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Michael	michael	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	Ian	ian	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	Black	black	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	modnomatch	_	_
+6	personalidad	personalidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	popular	popular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	tambien	tambien	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+

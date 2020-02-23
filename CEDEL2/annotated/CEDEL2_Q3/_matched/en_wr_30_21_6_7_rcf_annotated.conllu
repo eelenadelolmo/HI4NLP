@@ -1,0 +1,124 @@
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	verano	verano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	ano	ano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	2008	2008	Z	Z	matched=yes: subj child of top deprel|pos=number	13	subj	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
+9	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	10	spec	_	_
+10	madre	madre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+11	llegó	llegar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	13	prt	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	prt	_	_
+13	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	0	top	_	_
+14	muy	muy	RG	RG	matched=no|pos=adverb|type=general	15	spec	_	_
+15	enferma	enfermo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	attr	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+17	ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	18	subj	_	_
+18	tuvo	tener	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	13	modnomatch	_	_
+19	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	coágulo	coágulo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	dobj	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	20	mod	_	_
+22	sangre	sangre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	intestino	intestino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	delgado	delgado	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
+27	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+28	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	18	pred	_	_
+29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	28	coor	_	_
+30	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	29	comp	_	_
+31	no	no	RN	RN	matched=no|pos=adverb|type=negative	32	spec	_	_
+32	supe	saber	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	13	modnomatch	_	_
+33	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	34	spec	_	_
+34	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	13	modnomatch	_	_
+35	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	modnomatch	_	_
+36	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	35	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	fin	fin	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	médico	médico	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+10	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	11	mphes	_	_
+11	dice	decir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	11	dobj	_	_
+13	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	14	spec	_	_
+14	madre	madre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
+15	necesitaba	necesitar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	12	comp	_	_
+16	improvar	improvar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	15	dobj	_	_
+17	muy	muy	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
+18	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	15	adjt	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+20	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	11	modnomatch	_	_
+21	ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	20	coor	_	_
+22	no	no	RN	RN	matched=no|pos=adverb|type=negative	24	spec	_	_
+23	pudo	poder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	24	prt	_	_
+24	recuperar	recuperar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	modnomatch	_	_
+25	muy	muy	RG	RG	matched=no|pos=adverb|type=general	24	adjt	_	_
+26	bien	bien	RG	RG	matched=no|pos=adverb|type=general	24	adjt	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+
+1	Primero	primero	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	4	spec	_	_
+4	padre	padre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+5	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
+6	concordó	concordar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+7	con	con	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+8	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	6	modnomatch	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	dobj	_	_
+10	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	11	spec	_	_
+11	hermanos	hermano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+13	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+14	eventualmente	eventual_mente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	coor	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	modnomatch	_	_
+17	concordó	concordar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	6	modnomatch	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+19	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	17	adjt	_	_
+20	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	21	spec	_	_
+21	madre	madre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
+22	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	19	comp	_	_
+23	improvando	improvando	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	22	adjt	_	_
+24	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	25	punc	_	_
+25	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	17	dobj	_	_
+26	ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	25	coor	_	_
+27	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	6	modnomatch	_	_
+28	en	en	SP	SP	matched=no|pos=adposition|type=preposition	27	attr	_	_
+29	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	30	spec	_	_
+30	condición	condición	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+31	stable	stable	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	30	mod	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	27	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	evento	evento	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+4	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	5	spec	_	_
+5	madre	madre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	8	mphes	_	_
+7	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	8	aux	_	_
+8	causado	causar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+9	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	dobj	_	_
+10	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	visión	visión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+12	nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	14	punc	_	_
+14	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	adjt	_	_
+15	nunca	nunca	RG	RG	matched=no|pos=adverb|type=general	14	coor	_	_
+16	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	17	aux	_	_
+17	visto	ver	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	modnomatch	_	_
+18	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	20	spec	_	_
+20	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	luz	luz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	misma	mismo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	23	mod	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+

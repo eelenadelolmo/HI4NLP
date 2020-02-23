@@ -1,0 +1,71 @@
+1 ¿      ¿      Fia     Fia pos=punctuation|type=questionmark|punctenclose=open                             - - (grup-verb:3(F-no-c:1)    3 punc - -
+2 Cómo   cómo   PT00000 PT  pos=pronoun|type=interrogative                                                  - - (sadv:2(adv-interrog:2))  3 adjt - -
+3 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                  0 top  - -
+4 la     el     DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                           - - (sn:5(espec-fs:4(j-fs:4)) 5 spec - -
+5 región región NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:5(n-fs:5))   3 attr - -
+6 donde  donde  PR00000 PR  pos=pronoun|type=relative                                                       - - (relativa:7(relatiu-sn:6) 7 adjt - -
+7 vives  vivir  VMIP2S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=2|num=singular          - - (verb:7)))                5 mod  - -
+8 ?      ?      Fit     Fit pos=punctuation|type=questionmark|punctenclose=close                            - - (F-term:8))               3 punc - -
+
+1 Yo      yo      PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative      - - (grup-verb:3(sn:1(pron:1(psubj-s:1))) 3 subj       - -
+2 región  región  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:2(grup-nom-fs:2(n-fs:2)))         3 modnomatch - -
+3 es      ser     VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                              0 top        - -
+4 cuatro  4       Z       Z   pos=number                                                                      - - (sn:5(numero-nopart:4)                5 spec       - -
+5 seasons seasons NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                                    - - (grup-nom-fp:5(n-fp:5)))              3 attr       - -
+6 .       .       Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:6))                           3 punc       - -
+
+1 Muy      muy      RG      RG  pos=adverb|type=general                                                         - - (grup-verb:3(s-adj:2(sadv:1)   2 spec       - -
+2 frío     frío     AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:2(a-ms:2)))            3 attr       - -
+3 es       ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                       0 top        - -
+4 Decembre decembre NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:4(grup-nom-ms:4(n-ms:4)))  3 modnomatch - -
+5 por      por      SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:5(prep:5)             3 adjt       - -
+6 Febuary  febuary  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:6(grup-nom-ms:6(n-ms:6)))) 5 comp       - -
+7 .        .        Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:7))                    3 punc       - -
+
+1 Muy    muy    RG      RG  pos=adverb|type=general                                                - - (grup-verb:2(sadv:1)                   2 adjt - -
+2 alago  alagar VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular - - (verb:2)                               0 top  - -
+3 un     uno    DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular              - - (coor-n:5(sn:4(espec-ms:3(indef-ms:3)) 4 spec - -
+4 spring spring NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-nom-ms:4(n-ms:4)))               5 coor - -
+5 y      y      CC      CC  pos=conjunction|type=coordinating                                      - - -                                      2 dobj - -
+6 fall   fa_ll  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:6(grup-nom-ms:6(n-ms:6))))         5 coor - -
+7 .      .      Fp      Fp  pos=punctuation|type=period                                            - - (F-term:7))                            2 punc - -
+
+1 Fall  fa_ll NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-verb:2(sn:1(grup-nom-ms:1(n-ms:1))) 2 subj - -
+2 es    ser   VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                                  0 top  - -
+3 color color NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:3(grup-nom-ms:3(n-ms:3)))             2 attr - -
+4 .     .     Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:4))                               2 punc - -
+
+1  Vivo    vivo     AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular            - - (grup-verb:5(sn:2(grup-nom-ms:2(s-a-ms:1(a-ms:1))     2  mod        - -
+2  allegro allegro  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-nom-ms:2(n-ms:2)                                5  subj       - -
+3  casa    casa     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (n-fs:3)))                                            2  mod        - -
+4  amigo   amigo    AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular            - - (s-adj:4(s-a-ms:4(a-ms:4))))                          2  mod        - -
+5  cervasa cervasa  VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (verb:5)                                              0  top        - -
+6  madre   madre    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (sn:6(grup-nom-fs:6(n-fs:6)                           5  dobj       - -
+7  padre   padre    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (n-ms:7)))                                            6  mod        - -
+8  niños   niño     NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                          - - (sn:8(grup-nom-mp:8(n-mp:8)                           5  modnomatch - -
+9  masa    masa     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (n-fs:9)))                                            8  mod        - -
+10 comer   comer    VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (grup-verb-inf:10(infinitiu:10(inf:10(forma-inf:10))) 5  modnomatch - -
+11 familia familia  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (sn:11(grup-nom-fs:11(n-fs:11)                        10 dobj       - -
+12 coché   coché    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (n-ms:12))))                                          11 mod        - -
+13 escribe escribir VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:13(verb:13)                                5  modnomatch - -
+14 .       .        Fp      Fp  pos=punctuation|type=period                                            - - (F-term:14)))                                         13 punc       - -
+
+1 Voy     ir                    VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular - - (grup-verb:1(verb:1)      0 top  - -
+2 a       a                     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:2(prep:2)        1 pobj - -
+3 la      el                    DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                  - - (sn:4(espec-fs:3(j-fs:3)) 4 spec - -
+4 escuela escuela               NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (grup-nom-fs:4(n-fs:4)))) 2 comp - -
+5 agosto  [??:??/8/??:??.??:??] W       W   pos=date                                                               - - (data:5)                  1 adjt - -
+6 por     por                   SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:6(prep:6)        1 adjt - -
+7 mayo    [??:??/5/??:??.??:??] W       W   pos=date                                                               - - (data:7))                 6 comp - -
+8 .       .                     Fp      Fp  pos=punctuation|type=period                                            - - (F-term:8))               1 punc - -
+
+1 El       el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (grup-verb:3(sn:2(j-ms:1) 2 spec       - -
+2 caliente caliente AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-a-ms:2(a-ms:2)))       3 subj       - -
+3 es       ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                  0 top        - -
+4 cerca    cerca    RG      RG  pos=adverb|type=general                                                         - - (sadv:4                   3 adjt       - -
+5 de       de       SP      SP  pos=adposition|type=preposition                                                 - - -                         4 modnomatch - -
+6 90       90       Z       Z   pos=number                                                                      - - (sn:6(numero:6)))         4 modnomatch - -
+7 a        a        SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:7(prep:7)        3 adjt       - -
+8 100      100      Z       Z   pos=number                                                                      - - (numero:8))               7 comp       - -
+9 .        .        Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:9))               3 punc       - -
+

@@ -1,0 +1,24 @@
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	persona	persona	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	famosa	famoso	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+5	Michael	michael	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
+6	Jordan	jordan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	papa	papa	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	4	aux	_	_
+4	asesinado	asesinar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+5	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
+6	pocos	poco	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	7	spec	_	_
+7	anos	ano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	modnomatch	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Michael	michael	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	Jordan	jordan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	attr	_	_
+5	motocicletas	motocicleta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

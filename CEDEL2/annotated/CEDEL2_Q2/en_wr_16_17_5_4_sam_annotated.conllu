@@ -1,0 +1,52 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	verano	verano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+4	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	5	modnomatch	_	_
+5	fui	ir	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	modnomatch	_	_
+8	Cancun	cancun	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+10	Mexico	mexico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	pred	_	_
+11	con	con	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+12	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	13	spec	_	_
+13	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	quedaremos	quedar	VMIF1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=future|type=main	0	top	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	hotel	hotel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+7	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	0	top	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	modnorule	_	_
+3	dia	dia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	subj	_	_
+4	tome	tomar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	1	modnorule	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	sol	sol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+7	todoa	todo_a	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	modnorule	_	_
+9	dias	dias	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	modnorule	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Nadamos	nadar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	spec	_	_
+4	delfines	delfín	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Tambien	tambien	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	fui	ser	VSIS1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=semiauxiliary	1	modnomatch	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	tallar	tallar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	0	top	_	_
+2	divertirse	divertirse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	modnomatch	_	_
+3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

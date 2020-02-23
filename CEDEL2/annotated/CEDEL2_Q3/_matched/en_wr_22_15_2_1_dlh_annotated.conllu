@@ -1,0 +1,26 @@
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	abuela	abuelo	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	attr	_	_
+5	Puerto	puerto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	Rico	rico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	modnomatch	_	_
+10	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	3	modnomatch	_	_
+11	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	13	adjt	_	_
+12	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	13	subj	_	_
+13	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	10	attr	_	_
+14	vivo	vivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	13	modnomatch	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	dice	decir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+5	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+6	bonito	bonito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+7	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+8	aqui	aqui	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	2	modnomatch	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+

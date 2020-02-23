@@ -1,0 +1,29 @@
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	decribir	decribir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	5	spec	_	_
+5	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	Vegas	vega	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	21	21	Z	Z	matched=no|pos=number	4	spec	_	_
+4	anos	ano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+6	dia	dia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+7	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+9	llegamos	llegar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	6	mod	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Millones	millón	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+4	visitan	visitar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	ano	ano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

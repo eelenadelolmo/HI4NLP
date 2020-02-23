@@ -1,0 +1,139 @@
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+5	planes	plan	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	subj	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	estan	estan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	3	comp	_	_
+10	fundamentalmente	fundamentalmente	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+11	basado	basar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	9	adjt	_	_
+12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
+13	dos	2	Z	Z	matched=no|pos=number	14	spec	_	_
+14	temas	tema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	2	punc	_	_
+16	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+18	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Trabajo	trabajo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+2	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	petrolifera	petrolifera	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	comp	_	_
+5	Italiana	italiano	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	cual	cual	PR0CS00	PR	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=relative	1	modnomatch	_	_
+7	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+8	oficinas	oficina	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+10	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	modnomatch	_	_
+11	Haya	haber	VASP1S0	VAS	matched=no|mood=subjunctive|num=singular|person=1|pos=verb|tense=present|type=auxiliary	7	aux	_	_
+12	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	13	modnomatch	_	_
+13	Holanda	holanda	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	pred	_	_
+14	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	13	modnomatch	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+16	Milano	milano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	coor	_	_
+17	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	18	modnomatch	_	_
+18	Italia	italia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	coor	_	_
+19	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	18	modnomatch	_	_
+20	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+21	Londres	londres	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	coor	_	_
+22	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	23	modnomatch	_	_
+23	Reino	reino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	coor	_	_
+24	Unido	unir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	23	mod	_	_
+25	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	23	modnomatch	_	_
+26	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+27	Atyrau	atyrau	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	coor	_	_
+28	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	7	punc	_	_
+29	Kazajístan	kazajístan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+30	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	7	punc	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	llevo	llevar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	tres	3	Z	Z	matched=no|pos=number	4	spec	_	_
+4	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	adjt	_	_
+5	basado	basar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	pred	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+7	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+8	Haya	haber	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+9	muy	muy	RG	RG	matched=no|pos=adverb|type=general	10	spec	_	_
+10	agusto	a_gusto	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+11	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	2	punc	_	_
+12	aparte_de	aparte_de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+14	clima	clima	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+15	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	2	punc	_	_
+16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	pred	_	_
+17	sempre	sempre	RG	RG	matched=no|pos=adverb|type=general	18	spec	_	_
+18	habia	habia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	coor	_	_
+19	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	rumour	rumour	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	27	coor	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	26	subj	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	oficina	oficina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	modnomatch	_	_
+24	va	ir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	26	prt	_	_
+25	a	a	SP	SP	matched=no|pos=adposition|type=preposition	26	prt	_	_
+26	cerrar	cerrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	20	mod	_	_
+27	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+28	todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	27	coor	_	_
+29	debemos	deber	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	30	prt	_	_
+30	transladar	transladar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+31	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+32	Kazajístan	kazajístan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	32	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+2	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+4	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
+6	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	coor	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+8	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	9	spec	_	_
+9	futuro	futuro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	pred	_	_
+10	mujer	mujer	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+11	trabaja	trabajar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
+13	Sevilla	sevilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	modnomatch	_	_
+15	esta	este	PD0FS00	PD	gen=feminine|matched=no|num=singular|pos=pronoun|type=demonstrative	14	coor	_	_
+16	haciendo	hacer	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	11	adjt	_	_
+17	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	11	modnomatch	_	_
+18	practicas	practicar	VMIP2S0	VMI	matched=no|mood=indicative|num=singular|person=2|pos=verb|tense=present|type=main	11	modnomatch	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	medicina	medicina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+
+1	Mirando	mirar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	8	adjt	_	_
+2	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnorule	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	coor	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	modnorule	_	_
+7	todo	todo	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	8	subj	_	_
+8	depende	depender	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+10	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	9	comp	_	_
+11	va	ir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	10	comp	_	_
+12	temas	tema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	subj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	11	pobj	_	_
+16	ya	ya	RG	RG	matched=no|pos=adverb|type=general	15	comp	_	_
+17	he	haber	VAIP1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=auxiliary	18	aux	_	_
+18	comentado	comentar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	modnomatch	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+20	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	8	modnomatch	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+22	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	8	mphes	_	_
+23	gustaria	gustaria	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	modnomatch	_	_
+24	pasar	pasar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	dobj	_	_
+25	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	24	mphes	_	_
+26	por	por	SP	SP	matched=no|pos=adposition|type=preposition	24	pobj	_	_
+27	Australia	australia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+28	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	29	spec	_	_
+29	vez	vez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	adjt	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+

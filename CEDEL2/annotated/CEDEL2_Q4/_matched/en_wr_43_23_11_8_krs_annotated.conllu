@@ -1,0 +1,206 @@
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	2	dobj	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	problema	problema	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	terrorismo	terrorismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	3	comp	_	_
+10	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	9	attr	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+13	problemas	problema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
+14	más	más	RG	RG	matched=no|pos=adverb|type=general	15	spec	_	_
+15	importantes	importante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	10	mod	_	_
+16	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	17	subj	_	_
+17	existe	existir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	9	modnomatch	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	17	pobj	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	22	coor	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	adjt	_	_
+23	también	también	RG	RG	matched=no|pos=adverb|type=general	22	coor	_	_
+24	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	2	modnomatch	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+26	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	28	spec	_	_
+27	más	más	RG	RG	matched=no|pos=adverb|type=general	28	spec	_	_
+28	difíciles	difícil	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	2	modnomatch	_	_
+29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	3	subj	_	_
+2	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	3	modnomatch	_	_
+3	miramos	mirar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	silencio	silencio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	dobj	_	_
+7	sorpresa	sorpresa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	coor	_	_
+8	total	total	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	terrorismo	terrorismo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	para	para	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+4	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	3	comp	_	_
+5	siempre	siempre	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+7	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	6	attr	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+9	ocurrió	ocurrir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	7	mod	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+11	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	12	spec	_	_
+12	países	país	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+14	menos	menos	RG	RG	matched=no|pos=adverb|type=general	15	spec	_	_
+15	seguros	seguro	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	16	coor	_	_
+16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+17	tolerantes	tolerante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	16	coor	_	_
+18	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	6	punc	_	_
+19	no	no	RN	RN	matched=no|pos=adverb|type=negative	20	spec	_	_
+20	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	6	modnomatch	_	_
+21	posible	posible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	attr	_	_
+22	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	20	modnomatch	_	_
+23	ocurriera	ocurrir	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	22	comp	_	_
+24	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	23	subj	_	_
+25	así	así	RG	RG	matched=no|pos=adverb|type=general	23	adjt	_	_
+26	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+27	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	6	modnomatch	_	_
+28	EEUU	eeuu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	28	punc	_	_
+
+1	Eso	ese	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	4	subj	_	_
+2	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+3	mí	mí	PP1CSO0	PP	case=oblique|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	comp	_	_
+4	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	terror	terror	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
+7	verdadero	verdadero	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	4	punc	_	_
+9	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	modnomatch	_	_
+10	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	modnomatch	_	_
+11	racionales	racional	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	10	mod	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+13	buenas	bueno	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	12	coor	_	_
+14	estaban	estar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	4	modnomatch	_	_
+15	tan	tan	RG	RG	matched=no|pos=adverb|type=general	16	spec	_	_
+16	llenas	lleno	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	14	attr	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	coor	_	_
+18	odio	odio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	14	pred	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	coor	_	_
+21	violencia	violencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+
+1	Nadie	nadie	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	2	subj	_	_
+2	quería	querer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+3	pensar	pensar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	4	comp	_	_
+7	qué	qué	PT00000	PT	matched=no|pos=pronoun|type=interrogative	6	mod	_	_
+8	:	:	Fd	Fd	matched=no|pos=punctuation|type=colon	2	punc	_	_
+9	¿	¿	Fia	Fia	matched=no|pos=punctuation|punctenclose=open|type=questionmark	14	punc	_	_
+10	por	por	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+11	qué	qué	PT00000	PT	matched=no|pos=pronoun|type=interrogative	10	comp	_	_
+12	esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	13	spec	_	_
+13	gente	gente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	subj	_	_
+14	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	modnomatch	_	_
+15	tan	tan	RG	RG	matched=no|pos=adverb|type=general	14	adjt	_	_
+16	enojada	enojar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	14	attr	_	_
+17	con	con	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+18	nuestro	nuestro	DP1MSP	DP	gen=masculine|matched=no|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	19	spec	_	_
+19	país	país	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	?	?	Fit	Fit	matched=no|pos=punctuation|punctenclose=close|type=questionmark	14	punc	_	_
+
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	guerras	guerra	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	9	subj	_	_
+3	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Iraq	ira_q	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+6	Afghanistan	afghanistan	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	coor	_	_
+7	pueden	poder	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	9	prt	_	_
+8	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	9	aux	_	_
+9	percibidas	percibir	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	0	top	_	_
+10	fácilmente	fácilmente	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+11	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	9	adjt	_	_
+12	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	ataque	ataque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	religión	religión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	musulmana	musulmán	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+19	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	21	spec	_	_
+20	falsas	falso	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	21	mod	_	_
+21	acusaciones	acusación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	dobj	_	_
+22	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+23	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	22	comp	_	_
+24	armas	arma	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	dobj	_	_
+25	nucleares	nuclear	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	24	mod	_	_
+26	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+27	relaciones	relación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	26	coor	_	_
+28	con	con	SP	SP	matched=no|pos=adposition|type=preposition	36	adjt	_	_
+29	terroristas	terrorista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+30	con	con	SP	SP	matched=no|pos=adposition|type=preposition	33	adjt	_	_
+31	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	32	spec	_	_
+32	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	30	comp	_	_
+33	atacamos	atacar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	36	subj	_	_
+34	a	a	SP	SP	matched=no|pos=adposition|type=preposition	36	adjt	_	_
+35	Iraq	ira_q	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	34	comp	_	_
+36	hacen	hacer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	9	modnomatch	_	_
+37	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	36	dobj	_	_
+38	esta	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	39	spec	_	_
+39	guerra	guerra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	42	subj	_	_
+40	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	42	prt	_	_
+41	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	42	aux	_	_
+42	percibida	percibir	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	37	comp	_	_
+43	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	42	adjt	_	_
+44	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	45	spec	_	_
+45	guerra	guerra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	43	comp	_	_
+46	imperial	imperial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	45	mod	_	_
+47	de	de	SP	SP	matched=no|pos=adposition|type=preposition	45	mod	_	_
+48	intereses	interés	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	47	comp	_	_
+49	económicos	económico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	48	mod	_	_
+50	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	36	modnomatch	_	_
+51	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	52	spec	_	_
+52	uso	uso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	50	coor	_	_
+53	de	de	SP	SP	matched=no|pos=adposition|type=preposition	52	mod	_	_
+54	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	55	spec	_	_
+55	tortura	tortura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	53	comp	_	_
+56	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	modnomatch	_	_
+57	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	modnomatch	_	_
+58	cárceles	cárcel	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	60	subj	_	_
+59	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	60	aux	_	_
+60	mostrado	mostrar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	9	modnomatch	_	_
+61	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	60	dobj	_	_
+62	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	63	adjt	_	_
+63	respetamos	respetar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	61	comp	_	_
+64	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	65	spec	_	_
+65	derechos	derecho	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	63	dobj	_	_
+66	humanos	humano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	65	mod	_	_
+67	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	63	adjt	_	_
+68	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	67	comp	_	_
+69	conveniente	conveniente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	68	attr	_	_
+70	para	para	SP	SP	matched=no|pos=adposition|type=preposition	68	adjt	_	_
+71	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	70	comp	_	_
+72	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	60	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	lucha	lucha	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	terrorismo	terrorismo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	no	no	RN	RN	matched=no|pos=adverb|type=negative	7	spec	_	_
+7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+8	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	guerra	guerra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	attr	_	_
+10	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	13	subj	_	_
+11	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	13	mphes	_	_
+12	puede	poder	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	13	prt	_	_
+13	ganar	ganar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	mod	_	_
+14	con	con	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	fuerza	fuerza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	armada	armar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	16	mod	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+

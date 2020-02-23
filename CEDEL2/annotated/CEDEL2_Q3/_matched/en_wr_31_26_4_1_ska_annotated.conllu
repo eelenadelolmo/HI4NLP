@@ -1,0 +1,27 @@
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	vivo	vivir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+7	Oregon	oregon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	2	modnomatch	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	10	mod	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	cosa	cosa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	mala	malo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	:	:	Fd	Fd	matched=yes: subj child of top deprel|pos=punctuation|type=colon	2	punc	_	_
+5	!	!	Fat	Fat	matched=yes: subj child of top deprel|pos=punctuation|punctenclose=close|type=exclamationmark	2	punc	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	7	spec	_	_
+7	gente	gente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+8	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+9	Oregon	oregon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+10	conduce	conducir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	9	modnomatch	_	_
+11	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+12	despacio	despacio	I	I	matched=no|pos=interjection	9	adjt	_	_
+13	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	9	punc	_	_
+

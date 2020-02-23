@@ -1,0 +1,88 @@
+1	Pennsylvania	pennsylvania	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	pred	_	_
+2	esta	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
+3	parte	parte	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	mod	_	_
+5	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+6	estados	estado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	comp	_	_
+7	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	8	mphes	_	_
+8	consideraron	considerar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	Mid-Atlantic	mid-atlantic	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	región	región	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	donde	donde	PR00000	PR	matched=yes: subj child of top deprel|pos=pronoun|type=relative	4	adjt	_	_
+4	vivo	vivir	VMIP1S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	2	mod	_	_
+5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+6	muy	muy	RG	RG	matched=no|pos=adverb|type=general	7	spec	_	_
+7	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	attr	_	_
+8	usualmente	usualmente	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+10	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	coor	_	_
+12	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	13	spec	_	_
+13	momento	momento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+15	está	estar	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	16	prt	_	_
+16	lloviendo	llover	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	5	modnomatch	_	_
+17	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	16	adjt	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+
+1	Algunas	alguno	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+3	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	4	iobj	_	_
+4	gustan	gustar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	4	modnomatch	_	_
+6	animales	animal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	modnomatch	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+8	pescados	pescar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	4	adjt	_	_
+9	aquí	aquí	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Pescadores	pescador	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	subj	_	_
+2	comen	comer	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	2	modnomatch	_	_
+4	trotas	trotar	VMIP2S0	VMI	matched=no|mood=indicative|num=singular|person=2|pos=verb|tense=present|type=main	2	modnomatch	_	_
+5	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	lago	lago	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Para	para	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+2	recreación	recreación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	verano	verano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+7	algunas	alguno	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	8	spec	_	_
+8	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	subj	_	_
+9	también	también	RG	RG	matched=no|pos=adverb|type=general	11	adjt	_	_
+10	les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	11	iobj	_	_
+11	gustan	gustar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+12	andar	andar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	modnomatch	_	_
+13	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	14	spec	_	_
+14	motocicletas	motocicleta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	dobj	_	_
+15	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+16	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	millas	milla	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	17	mod	_	_
+19	avenidas	avenida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+21	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	22	spec	_	_
+22	ciudades	ciudad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	20	comp	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	educación	educación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	importante	importante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	Pennsylvania	pennsylvania	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	comp	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

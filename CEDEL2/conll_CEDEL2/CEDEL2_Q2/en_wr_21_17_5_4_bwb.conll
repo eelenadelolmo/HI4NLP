@@ -1,0 +1,40 @@
+1  La     el     DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular               - - (espec-fs:1(j-fs:1)                     0 top        - -
+2  verano verano NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                     - - (grup-verb:5(sn:2(grup-nom-ms:2(n-ms:2) 5 subj       - -
+3  pasado pasar  VMP00SM VMP pos=verb|type=main|mood=participle|num=singular|gen=masculine       - - (s-a-ms:3(parti-ms:3)))                 2 mod        - -
+4  ,      ,      Fc      Fc  pos=punctuation|type=comma                                          - - (Fc:4))                                 2 punc       - -
+5  fui    ir     VMIS1S0 VMI pos=verb|type=main|mood=indicative|tense=past|person=1|num=singular - - (verb:5)                                1 modnomatch - -
+6  a      a      SP      SP  pos=adposition|type=preposition                                     - - (grup-sp:6(prep:6)                      5 pobj       - -
+7  el     el     DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular              - - (sn:8(espec-ms:7(j-ms:7))               8 spec       - -
+8  New    new    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                     - - (grup-nom-ms:8(n-ms:8)                  6 comp       - -
+9  Mexico mexico AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular         - - (s-a-ms:9(a-ms:9)))))                   8 mod        - -
+10 .      .      Fp      Fp  pos=punctuation|type=period                                         - - (F-term:10)))                           5 punc       - -
+
+1  Mientras mientras CS      CS  pos=conjunction|type=subordinating                                         - - (grup-verb:7(subord:1                 7 adjt - -
+2  yo       yo       PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:3(sn:2(pron:2(psubj-s:2))) 3 subj - -
+3  iba      ir       VMII3S0 VMI pos=verb|type=main|mood=indicative|tense=imperfect|person=3|num=singular   - - (verb:3)                              1 comp - -
+4  a        a        SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:4(prep:4)                    3 pobj - -
+5  alli     alli     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (sn:5(grup-nom-fs:5(n-fs:5)))))       4 comp - -
+6  ,        ,        Fc      Fc  pos=punctuation|type=comma                                                 - - (Fc:6))                               1 punc - -
+7  hice     hacer    VMIS1S0 VMI pos=verb|type=main|mood=indicative|tense=past|person=1|num=singular        - - (verb:7)                              0 top  - -
+8  muchas   mucho    DI0FP0  DI  pos=determiner|type=indefinite|gen=feminine|num=plural                     - - (sn:9(espec-fp:8(indef-fp:8))         9 spec - -
+9  cosas    cosa     NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                               - - (grup-nom-fp:9(n-fp:9)))              7 dobj - -
+10 .        .        Fp      Fp  pos=punctuation|type=period                                                - - (F-term:10))                          7 punc - -
+
+1  Escale   escalar VMM03S0 VMM pos=verb|type=main|mood=imperative|person=3|num=singular                - - (coor-vb:12(grup-verb:1(verb:1) 12 coor       - -
+2  los      el      DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                    - - (s-adj:3(espec-mp:2(j-mp:2))    3  spec       - -
+3  montanas montano AQ0FP00 AQ  pos=adjective|type=qualificative|gen=feminine|num=plural                - - (s-a-fp:3(a-fp:3))))            1  modnomatch - -
+4  ,        ,       Fc      Fc  pos=punctuation|type=comma                                              - - (Fc:4)                          12 punc       - -
+5  camine   caminar VMSP3S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=singular - - (grup-verb:5(verb:5)            12 coor       - -
+6  mucho    mucho   RG      RG  pos=adverb|type=general                                                 - - (sadv:6))                       5  adjt       - -
+7  ,        ,       Fc      Fc  pos=punctuation|type=comma                                              - - (Fc:7)                          12 punc       - -
+8  monte    montar  VMM03S0 VMM pos=verb|type=main|mood=imperative|person=3|num=singular                - - (grup-verb:8(verb:8)            12 coor       - -
+9  los      el      DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                    - - (sn:10(espec-mp:9(j-mp:9))      10 spec       - -
+10 animales animal  NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                           - - (grup-nom-mp:10(n-mp:10))))     8  dobj       - -
+11 ,        ,       Fc      Fc  pos=punctuation|type=comma                                              - - (Fc:11)                         12 punc       - -
+12 y        y       CC      CC  pos=conjunction|type=coordinating                                       - - -                               0  top        - -
+13 acampe   acampar VMSP3S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=singular - - (grup-verb:13(verb:13)          12 coor       - -
+14 por      por     SP      SP  pos=adposition|type=preposition                                         - - (grup-sp:14(prep:14)            13 adjt       - -
+15 doce     12      Z       Z   pos=number                                                              - - (sn:16(numero-nopart:15)        16 spec       - -
+16 dias     dias    NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                            - - (grup-nom-fp:16(n-fp:16)))))    14 comp       - -
+17 .        .       Fp      Fp  pos=punctuation|type=period                                             - - (F-term:17))                    12 punc       - -
+

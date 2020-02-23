@@ -1,0 +1,65 @@
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	amiga	amigo	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	20	subj	_	_
+3	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+5	solo	solo	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	6	adjt	_	_
+6	tenía	tener	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	ropa	ropa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	dobj	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	10	subj	_	_
+10	llevaba	llevar	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	8	mod	_	_
+11	puesta	poner	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	10	pred	_	_
+12	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+13	algunas	alguno	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+14	cosa	cosa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+15	mas	mas	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	mod	_	_
+16	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	15	coor	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	18	spec	_	_
+18	mochila	mochila	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	16	comp	_	_
+19	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+20	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+21	muy	muy	RG	RG	matched=no|pos=adverb|type=general	20	adjt	_	_
+22	enfadada	enfadar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	20	attr	_	_
+23	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	20	adjt	_	_
+24	no	no	RN	RN	matched=no|pos=adverb|type=negative	26	spec	_	_
+25	podía	poder	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	26	prt	_	_
+26	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	23	comp	_	_
+27	nada	nada	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	28	modnomatch	_	_
+28	solo	solo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	26	dobj	_	_
+29	esperar	esperar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	26	modnomatch	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	Dos_días	TM_d:2	Zu	Zu	matched=yes: subj child of top deprel|pos=number|type=unit	3	subj	_	_
+2	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	3	mphes	_	_
+3	tocaron	tocar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	lluvia	lluvia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	dobj	_	_
+7	dos	2	Z	Z	matched=no|pos=number	6	coor	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	sol	sol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Mis	mi	DP1CPS	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	amigas	amigo	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	estaban	estar	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	attr	_	_
+5	acuerdo	acuerdo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	conmigo	conmigo	PP1CSO0	PP	case=oblique|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	3	adjt	_	_
+7	hasta_cierto_punto	hasta_cierto_punto	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+8	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	14	subj	_	_
+12	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	14	mphes	_	_
+13	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	14	iobj	_	_
+14	perdió	perder	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	9	comp	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	maleta	maleta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
+17	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	8	comp	_	_
+18	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	3	pred	_	_
+19	dudosa	dudoso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	18	coor	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+21	regresar	regresar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	20	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+

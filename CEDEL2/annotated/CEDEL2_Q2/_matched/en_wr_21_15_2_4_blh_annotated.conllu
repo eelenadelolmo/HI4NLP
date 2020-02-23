@@ -1,0 +1,22 @@
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	primo	primo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	quiere	querer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	bicicleta	bicicleta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	para	para	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	8	spec	_	_
+8	cumpleanos	cumplir_ano	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	6	comp	_	_
+9	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
+10	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	9	comp	_	_
+11	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+12	activo	activo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	coor	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Mall	mal_l	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+2	of	o_f	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	America	america	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	mod	_	_
+4	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
+6	tiendas	tienda	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

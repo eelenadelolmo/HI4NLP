@@ -1,0 +1,262 @@
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	nombre	nombre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	Ajori	ajori	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	4	spec	_	_
+3	primero	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	4	mod	_	_
+4	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	adjt	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+6	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	1	modnomatch	_	_
+7	Universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	attr	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+9	Georgia	georgia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+10	State	state	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	mod	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	encanta	encantar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
+8	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	7	comp	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	experiencia	experiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	attr	_	_
+11	Buena	bueno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Georgia	georgia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	State	state	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	da	dar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	5	spec	_	_
+5	opportunidades	opportunidades	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Universidad	universidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	ayuda	ayudar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	preparer	preparer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	dobj	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	3	modnomatch	_	_
+6	planes	plan	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+3	planes	plan	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	dobj	_	_
+4	para	para	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gustaría	gustar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
+3	graduar	graduar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+4	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	Georgia	georgia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	State	state	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	mod	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	dobj	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	medicina	medicina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	mod	_	_
+7	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+8	graduando	graduando	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+10	Georgia	georgia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	State	state	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gustaría	gustar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
+3	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+7	Emory	emory	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+8	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	medicina	medicina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	dobj	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	medicina	medicina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	aprendio	aprendio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	mod	_	_
+9	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	2	modnomatch	_	_
+10	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
+11	surgeón	surgeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+13	corazon	corazon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	1	modnomatch	_	_
+14	para	para	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Ayudar	ayudar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	5	subj	_	_
+2	me	me	PP1CS00	PP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	1	mphes	_	_
+3	preparer	preparer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	1	dobj	_	_
+4	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+5	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	surgeón	surgeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	attr	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+9	corazon	corazon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	5	modnomatch	_	_
+10	para	para	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+12	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	5	modnomatch	_	_
+13	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	14	spec	_	_
+14	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	attr	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	0	top	_	_
+2	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
+3	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	6	spec	_	_
+6	escuelo	escuelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+8	cuido	cuidar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	7	coor	_	_
+9	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	dobj	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	spec	_	_
+12	semanas	semana	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	mod	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Ayudando	ayudar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	5	adjt	_	_
+2	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+3	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
+4	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	5	mphes	_	_
+5	ayuda	ayudar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	7	spec	_	_
+7	relación	relación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	con	con	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	8	comp	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
+3	surgeón	surgeón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	attr	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+5	corazon	corazon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	1	modnomatch	_	_
+6	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+8	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+9	solo	solo	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+10	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	8	attr	_	_
+11	plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+12	para	para	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+13	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	14	spec	_	_
+14	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Otro	otro	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	plan	plan	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	para	para	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+4	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	5	spec	_	_
+5	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	comprar	comprar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	attr	_	_
+8	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Vivo	vivir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	apartmento	apartmento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+5	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	1	adjt	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	4	coor	_	_
+2	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+4	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+5	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	4	coor	_	_
+6	comprar	comprar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+8	no	no	RN	RN	matched=no|pos=adverb|type=negative	9	spec	_	_
+9	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	4	coor	_	_
+10	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	4	modnomatch	_	_
+11	padres	padre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	subj	_	_
+12	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	13	dobj	_	_
+13	compran	comprar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	coor	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	5	adjt	_	_
+2	compro	comprar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	1	comp	_	_
+3	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	4	spec	_	_
+4	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+5	sé	saber	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+6	independiente	independiente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	modnomatch	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	movar	movar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	dobj	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	buckhead	buckhead	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	3	comp	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+8	muy	muy	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
+9	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+11	buckhead	buckhead	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	10	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Ser	ser	VSN0000	VSN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=semiauxiliary	5	subj	_	_
+2	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	1	spec	_	_
+3	surgeón	surgeón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	attr	_	_
+4	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+5	corazon	corazon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+8	voy	ir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	5	modnomatch	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	para	para	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
+13	dias	dias	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	12	comp	_	_
+14	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	adjt	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	0	top	_	_
+2	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	3	spec	_	_
+3	carera	carero	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	modnomatch	_	_
+4	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	1	modnorule	_	_
+5	caerarse	caerarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	dobj	_	_
+6	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	7	spec	_	_
+7	novio	novio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	mucho	mucho	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
+3	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	dobj	_	_
+4	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+5	caerarse	caerarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
+6	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	7	spec	_	_
+7	novio	novio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	encantan	encantar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	4	spec	_	_
+4	planes	plan	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+5	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+6	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	7	spec	_	_
+7	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

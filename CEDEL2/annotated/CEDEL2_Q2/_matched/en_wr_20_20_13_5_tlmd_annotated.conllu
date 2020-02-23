@@ -1,0 +1,54 @@
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	6	subj	_	_
+6	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+7	practicar	practicar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	dobj	_	_
+8	medicina	medicina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
+9	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	7	adjt	_	_
+10	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	doctor	doctor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tomaré	tomar	VMIF1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	0	top	_	_
+3	clases	clase	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+4	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+5	ayudar	ayudar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+7	prepararme	prepararme	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	examen	examen	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	9	adjt	_	_
+2	completaré	completar	VMIF1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	1	comp	_	_
+3	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	4	spec	_	_
+4	clases	clase	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+5	para	para	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	1	spec	_	_
+7	premedicina	pre_medicina	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
+9	viajaré	viajar	VMIF1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	0	top	_	_
+10	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	9	modnomatch	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	9	modnomatch	_	_
+12	otono	o_tono	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	coor	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	modnomatch	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	primavera	primavera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	coor	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Finalmente	final_mente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	trabajar	trabajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	organización	organización	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	doctores	doctor	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	mod	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+9	sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+10	fronteras	frontera	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+

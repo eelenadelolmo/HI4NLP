@@ -1,0 +1,145 @@
+1 No     no     RN      RN  pos=adverb|type=negative                                               - - (grup-verb:3(neg:1)           3 spec       - -
+2 me     me     PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular             - - (patons:2(paton-s:2))         3 mphes      - -
+3 gusta  gustar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:3(verb:3))         0 top        - -
+4 tobaco tobaco NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:4(grup-nom-ms:4(n-ms:4))) 3 modnomatch - -
+5 .      .      Fp      Fp  pos=punctuation|type=period                                            - - (F-term:5))                   3 punc       - -
+
+1 Porque porque CS      CS pos=conjunction|type=subordinating                                                    - - (conj-subord:1               0 top       - -
+2 ,      ,      Fc      Fc pos=punctuation|type=comma                                                            - - (Fc:2)                       1 modnorule - -
+3 esta   este   PD0FS00 PD pos=pronoun|type=demonstrative|gen=feminine|num=singular                              - - (sn:3(pron-fs:3(pdem-fs:3))) 1 modnorule - -
+4 no     no     RN      RN pos=adverb|type=negative                                                              - - (sadv:5(neg:4)               5 spec      - -
+5 bien   bien   RG      RG pos=adverb|type=general                                                               - - )                            1 modnorule - -
+6 para   para   SP      SP pos=adposition|type=preposition                                                       - - (prep:6)                     1 modnorule - -
+7 sus    su     DP3CPN  DP pos=determiner|type=possessive|person=3|gen=common|num=plural|possessornum=invariable - - (espec-mp:7(pos-mp:7))       1 modnorule - -
+8 cuerpo cuerpo NCMS000 NC pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:8(grup-nom-ms:8(n-ms:8)) 1 modnorule - -
+9 .      .      Fp      Fp pos=punctuation|type=period                                                           - - (F-term:9)))                 8 punc      - -
+
+1 El     el     DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                                - - (grup-verb:3(grup-verb-inf:2(espec-ms:1(j-ms:1)) 2 spec       - -
+2 fumar  fumar  VMN0000 VMN pos=verb|type=main|mood=infinitive                                                    - - (infinitiu:2(inf:2(forma-inf:2))))               3 subj       - -
+3 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (verb:3)                                         0 top        - -
+4 malo   malo   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                           - - (s-adj:4(s-a-ms:4(a-ms:4)))                      3 attr       - -
+5 para   para   SP      SP  pos=adposition|type=preposition                                                       - - (prep:5)                                         3 modnomatch - -
+6 sus    su     DP3CPN  DP  pos=determiner|type=possessive|person=3|gen=common|num=plural|possessornum=invariable - - (espec-mp:6(pos-mp:6))                           3 modnomatch - -
+7 cuerpo cuerpo NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:7(grup-nom-ms:7(n-ms:7))                     3 modnomatch - -
+8 .      .      Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:8)))                                     7 punc       - -
+
+1 El     el    DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular        - - (grup-verb-inf:2(espec-ms:1(j-ms:1))               2 spec       - -
+2 fumar  fumar VMN0000 VMN pos=verb|type=main|mood=infinitive                            - - (infinitiu:2(inf:2(forma-inf:2)))                  0 top        - -
+3 tener  tener VMN0000 VMN pos=verb|type=main|mood=infinitive                            - - (grup-verb-inf:3(infinitiu:3(inf:3(forma-inf:3)))) 2 dobj       - -
+4 comido comer VMP00SM VMP pos=verb|type=main|mood=participle|num=singular|gen=masculine - - (subord-part:4(parti-ms:4))                        2 adjt       - -
+5 malos  malo  AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural     - - (s-adj:5(s-a-mp:5(a-mp:5)))                        2 modnomatch - -
+6 .      .     Fp      Fp  pos=punctuation|type=period                                   - - (F-term:6))                                        2 punc       - -
+
+1  Insiste insistir VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular                  - - (grup-verb:1(verb:1)                                0  top        - -
+2  a       a        SP      SP  pos=adposition|type=preposition                                                         - - (grup-sp-inf:2(prep:2)                              1  adjt       - -
+3  fumar   fumar    VMN0000 VMN pos=verb|type=main|mood=infinitive                                                      - - (grup-verb-inf:3(infinitiu:3(inf:3(forma-inf:3))))) 2  comp       - -
+4  ,       ,        Fc      Fc  pos=punctuation|type=comma                                                              - - (Fc:4)                                              1  punc       - -
+5  entoces entoces  NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                                            - - (sn:5(grup-nom-fp:5(n-fp:5)))                       1  dobj       - -
+6  su      su       DP3CSN  DP  pos=determiner|type=possessive|person=3|gen=common|num=singular|possessornum=invariable - - (sn:7(espec-fs:6(pos-fs:6))                         7  spec       - -
+7  vida    vida     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                          - - (grup-nom-fs:7(n-fs:7)))                            1  modnomatch - -
+8  el      el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                                  - - (sn:9(espec-ms:8(j-ms:8))                           9  spec       - -
+9  fin     fin      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                         - - (grup-nom-ms:9(n-ms:9)))                            1  modnomatch - -
+10 mas     mas      CC      CC  pos=conjunction|type=coordinating                                                       - - (coor-sa:10                                         1  modnomatch - -
+11 rapido  rapido   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                             - - (s-adj:11(s-a-ms:11(a-ms:11))))                     10 coor       - -
+12 .       .        Fp      Fp  pos=punctuation|type=period                                                             - - (F-term:12))                                        1  punc       - -
+
+1 Tobaco tobaco NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                         - - (grup-verb:3(sn:1(grup-nom-ms:1(n-ms:1))) 3 subj - -
+2 no     no     RN      RN  pos=adverb|type=negative                                                                - - (neg:2)                                   3 spec - -
+3 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular         - - (verb:3)                                  0 top  - -
+4 fresca fresco AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                              - - (s-adj:4(s-a-fs:4(a-fs:4)))               3 attr - -
+5 para   para   SP      SP  pos=adposition|type=preposition                                                         - - (grup-sp:5(prep:5)                        3 adjt - -
+6 su     su     DP3CSN  DP  pos=determiner|type=possessive|person=3|gen=common|num=singular|possessornum=invariable - - (sn:7(espec-ms:6(pos-ms:6))               7 spec - -
+7 cuerpo cuerpo NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                         - - (grup-nom-ms:7(n-ms:7))))                 5 comp - -
+8 .      .      Fp      Fp  pos=punctuation|type=period                                                             - - (F-term:8))                               3 punc - -
+
+1 Tobaco tobaco NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-verb:2(sn:1(grup-nom-ms:1(n-ms:1))) 2 subj - -
+2 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                                  0 top  - -
+3 hazard hazard NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:3(grup-nom-ms:3(n-ms:3)))             2 attr - -
+4 para   para   SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:4(prep:4)                        2 adjt - -
+5 el     el     DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:6(espec-ms:5(j-ms:5))                 6 spec - -
+6 cabeza cabeza NCCS000 NC  pos=noun|type=common|gen=common|num=singular                                    - - (grup-nom-ms:6(n-ms:6))))                 4 comp - -
+7 .      .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:7))                               2 punc - -
+
+1 El        el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (grup-verb:3(grup-verb-inf:2(espec-ms:1(j-ms:1)) 2 spec - -
+2 fumar     fumar    VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (infinitiu:2(inf:2(forma-inf:2))))               3 subj - -
+3 tiene     tener    VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                                         0 top  - -
+4 problemas problema NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                          - - (sn:4(grup-nom-mp:4(n-mp:4)))                    3 dobj - -
+5 con       con      SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:5(prep:5)                               3 adjt - -
+6 vida      vida     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (sn:6(grup-nom-fs:6(n-fs:6))))                   5 comp - -
+7 .         .        Fp      Fp  pos=punctuation|type=period                                            - - (F-term:7))                                      3 punc - -
+
+1 Realamente reala_mente NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                          - - (grup-verb:4(sn:1(grup-nom-fs:1(n-fs:1)) 4 subj - -
+2 ,          ,           Fc      Fc  pos=punctuation|type=comma                                              - - (Fc:2))                                  1 punc - -
+3 no         no          RN      RN  pos=adverb|type=negative                                                - - (neg:3)                                  4 spec - -
+4 juegue     jugar       VMSP3S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=singular - - (verb:4)                                 0 top  - -
+5 futbol     futbol      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                         - - (sn:5(grup-nom-ms:5(n-ms:5)))            4 dobj - -
+6 con        con         SP      SP  pos=adposition|type=preposition                                         - - (grup-sp:6(prep:6)                       4 adjt - -
+7 tobacos    tobacos     NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                           - - (sn:7(grup-nom-mp:7(n-mp:7))))           6 comp - -
+8 .          .           Fp      Fp  pos=punctuation|type=period                                             - - (F-term:8))                              4 punc - -
+
+1 Aqui    aqui    VMIS1S0 VMI pos=verb|type=main|mood=indicative|tense=past|person=1|num=singular    - - (grup-verb:1(verb:1)                               0 top        - -
+2 fumar   fumar   VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (grup-verb-inf:2(infinitiu:2(inf:2(forma-inf:2)))  1 dobj       - -
+3 de      de      SP      SP  pos=adposition|type=preposition                                        - - (sp-de:3                                           2 adjt       - -
+4 tobacos tobacos NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                          - - (sn:4(grup-nom-mp:4(n-mp:4)))))                    3 comp       - -
+5 ,       ,       Fc      Fc  pos=punctuation|type=comma                                             - - (Fc:5)                                             1 punc       - -
+6 visitar visitar VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (grup-verb-inf:6(infinitiu:6(inf:6(forma-inf:6)))) 1 modnomatch - -
+7 el      el      DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (espec-ms:7(j-ms:7))                               1 modnomatch - -
+8 medico  medicar VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular - - (grup-verb:8(verb:8)                               1 modnomatch - -
+9 .       .       Fp      Fp  pos=punctuation|type=period                                            - - (F-term:9)))                                       8 punc       - -
+
+1 Tener tener VMN0000 VMN pos=verb|type=main|mood=infinitive              - - (grup-verb-inf:1(infinitiu:1(inf:1(forma-inf:1))) 0 top  - -
+2 miedo miedo NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular - - (sn:2(grup-nom-ms:2(n-ms:2)))                     1 dobj - -
+3 .     .     Fp      Fp  pos=punctuation|type=period                     - - (F-term:3))                                       1 punc - -
+
+1 Tobaco tobaco NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                         - - (sn:1(grup-nom-ms:1(n-ms:1))                      0 top        - -
+2 y      y      CC      CC  pos=conjunction|type=coordinating                                                       - - (coor-inf:2                                       1 modnomatch - -
+3 fumar  fumar  VMN0000 VMN pos=verb|type=main|mood=infinitive                                                      - - (grup-verb-inf:3(infinitiu:3(inf:3(forma-inf:3))) 2 coor       - -
+4 menos  menos  RG      RG  pos=adverb|type=general                                                                 - - (sn:5(espec-mp:4(cuantif:4))                      5 spec       - -
+5 anos   ano    NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                           - - (grup-nom-mp:5(n-mp:5))                           3 dobj       - -
+6 de     de     SP      SP  pos=adposition|type=preposition                                                         - - (sp-de:6                                          5 mod        - -
+7 su     su     DP3CSN  DP  pos=determiner|type=possessive|person=3|gen=common|num=singular|possessornum=invariable - - (sn:8(espec-fs:7(pos-fs:7))                       8 spec       - -
+8 vida   vida   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                          - - (grup-nom-fs:8(n-fs:8)))))))                      6 comp       - -
+9 .      .      Fp      Fp  pos=punctuation|type=period                                                             - - (F-term:9))                                       1 punc       - -
+
+1  Me      me      PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular             - - (grup-verb:2(patons:1(paton-s:1)) 2  mphes      - -
+2  gusta   gustar  VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:2(verb:2))             0  top        - -
+3  una     uno     DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular               - - (sn:4(espec-fs:3(indef-fs:3))     4  spec       - -
+4  vida    vida    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (grup-nom-fs:4(n-fs:4)            2  modnomatch - -
+5  buena   bueno   AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular             - - (s-a-fs:5(a-fs:5))))              4  mod        - -
+6  ,       ,       Fc      Fc  pos=punctuation|type=comma                                             - - (Fc:6)                            2  punc       - -
+7  y       y       CC      CC  pos=conjunction|type=coordinating                                      - - (coord:7)                         2  modnomatch - -
+8  no      no      RN      RN  pos=adverb|type=negative                                               - - (neg:8)                           2  spec       - -
+9  posible posible AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular               - - (s-adj:9(s-a-ms:9(a-ms:9)))       2  modnomatch - -
+10 con     con     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:10(prep:10)              2  adjt       - -
+11 tobaco  tobaco  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:11(grup-nom-ms:11(n-ms:11)))  10 comp       - -
+12 .       .       Fp      Fp  pos=punctuation|type=period                                            - - (F-term:12)))                     10 punc       - -
+
+1 Los       el       DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                          - - (grup-verb:3(sn:2(espec-mp:1(j-mp:1)) 2 spec - -
+2 problemas problema NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                 - - (grup-nom-mp:2(n-mp:2)))              3 subj - -
+3 son       ser      VSIP3P0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=plural - - (verb:3)                              0 top  - -
+4 muchos    mucho    PI0MP00 PI  pos=pronoun|type=indefinite|gen=masculine|num=plural                          - - (sn:4(pron-mp:4(pindef-mp:4)))        3 attr - -
+5 .         .        Fp      Fp  pos=punctuation|type=period                                                   - - (F-term:5))                           3 punc - -
+
+1 Los       el       DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                          - - (grup-verb:3(sn:2(espec-mp:1(j-mp:1)) 2 spec - -
+2 problemas problema NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                 - - (grup-nom-mp:2(n-mp:2)))              3 subj - -
+3 son       ser      VSIP3P0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=plural - - (verb:3)                              0 top  - -
+4 todos     todo     DI0MP0  DI  pos=determiner|type=indefinite|gen=masculine|num=plural                       - - (sn:5(indef-mp:4)                     5 spec - -
+5 negativos negativo AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural                     - - (s-a-mp:5(a-mp:5)))                   3 attr - -
+6 .         .        Fp      Fp  pos=punctuation|type=period                                                   - - (F-term:6))                           3 punc - -
+
+1 El     el     DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (espec-ms:1(j-ms:1)                      0 top        - -
+2 verdad verdad NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-verb:5(sn:2(grup-nom-fs:2(n-fs:2)) 5 subj       - -
+3 ,      ,      Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:3))                                  2 punc       - -
+4 tobaco tobaco NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:4(grup-nom-ms:4(n-ms:4)))            5 modnomatch - -
+5 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:5)                                 1 modnomatch - -
+6 malo   malo   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:6(s-a-ms:6(a-ms:6)))              5 attr       - -
+7 .      .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:7)))                             5 punc       - -
+
+1 No    no    RN      RN  pos=adverb|type=negative                                   - - (grup-verb-inf:2(neg:1)           2 spec       - -
+2 fumar fumar VMN0000 VMN pos=verb|type=main|mood=infinitive                         - - (infinitiu:2(inf:2(forma-inf:2))) 0 top        - -
+3 para  para  SP      SP  pos=adposition|type=preposition                            - - (prep:3)                          2 modnomatch - -
+4 un    uno   DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular  - - (espec-ms:4(indef-ms:4))          2 spec       - -
+5 vida  vida  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular             - - (sn:5(grup-nom-fs:5(n-fs:5)       2 dobj       - -
+6 buena bueno AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular - - (s-a-fs:6(a-fs:6)))               5 mod        - -
+7 .     .     Fp      Fp  pos=punctuation|type=period                                - - (F-term:7)))                      5 punc       - -
+

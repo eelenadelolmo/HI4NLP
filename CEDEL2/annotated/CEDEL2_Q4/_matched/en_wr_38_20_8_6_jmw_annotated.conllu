@@ -1,0 +1,80 @@
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	viaje	viaje	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	recente	recente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	Hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	adjt	_	_
+5	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	6	modnorule	_	_
+6	semana	semana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+7	había	haber	VAII3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=auxiliary	8	aux	_	_
+8	regresado	regresar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
+10	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	magnífica	magnífico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	modnomatch	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+15	mejor	mejor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+17	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+18	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	19	spec	_	_
+19	semestre	semestre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+21	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tenemos	tener	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+4	mismas	mismo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+5	preferencias	preferencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+6	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	2	modnomatch	_	_
+7	viajando	viajar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	2	adjt	_	_
+8	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	2	punc	_	_
+9	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	10	mphes	_	_
+10	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+11	visitar	visitar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	modnomatch	_	_
+12	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	13	spec	_	_
+13	sitios	sitio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	dobj	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+15	pagar	pagar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	modnomatch	_	_
+16	poquito	poquito	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+18	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	10	modnomatch	_	_
+19	esperar	esperar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	18	coor	_	_
+20	poco	poco	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+21	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	2	punc	_	_
+22	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	23	spec	_	_
+23	combinación	combinación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+24	perfecta	perfecto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	23	mod	_	_
+25	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+26	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	2	modnomatch	_	_
+27	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+28	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+29	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+30	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+31	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	30	coor	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	viaje	viaje	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+4	total	total	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+6	extroardinario	extroardinario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	attr	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	adjt	_	_
+8	todavía	todavía	RG	RG	matched=no|pos=adverb|type=general	7	coor	_	_
+9	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	10	mphes	_	_
+10	echo	echar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	5	modnomatch	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+12	menos	menos	RG	RG	matched=no|pos=adverb|type=general	11	comp	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+14	estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	15	spec	_	_
+15	oportunidades	oportunidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	para	para	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+17	viajar	viajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	a	a	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	sitios	sitio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	comp	_	_
+20	diferentes	diferente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	19	mod	_	_
+21	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+22	intersantes	intersantes	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	21	coor	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+

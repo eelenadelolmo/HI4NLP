@@ -1,0 +1,34 @@
+1  Adam      adam     NCMN000 NC  pos=noun|type=common|gen=masculine|num=invariable                               - - (grup-verb:3(sn:1(grup-nom-ms:1(n-ms:1) 3 subj       - -
+2  Sandler   sandler  NCCS000 NC  pos=noun|type=common|gen=common|num=singular                                    - - (n-fs:2)))                              1 mod        - -
+3  es        ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                                0 top        - -
+4  una       uno      DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (espec-fs:4(indef-fs:4))                3 modnomatch - -
+5  actor     actor    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:5(grup-nom-ms:5(n-ms:5)))           3 attr       - -
+6  muy       muy      RG      RG  pos=adverb|type=general                                                         - - (sn:7                                   7 spec       - -
+7  comico    comic_o  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:7(n-ms:7)))                3 modnomatch - -
+8  y         y        CC      CC  pos=conjunction|type=coordinating                                               - - (coord:8)                               3 modnomatch - -
+9  divertido divertir VMP00SM VMP pos=verb|type=main|mood=participle|num=singular|gen=masculine                   - - (subord-part:9(parti-ms:9))             3 adjt       - -
+10 .         .        Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:10))                            3 punc       - -
+
+1 El         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (coor-n:3(sn:2(espec-ms:1(j-ms:1)) 2 spec       - -
+2 examen     examen     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:2(n-ms:2)))           3 coor       - -
+3 y          y          CC      CC  pos=conjunction|type=coordinating                                               - - -                                  0 top        - -
+4 Adam       adam       NCMN000 NC  pos=noun|type=common|gen=masculine|num=invariable                               - - (sn:4(grup-nom-ms:4(n-ms:4)        3 coor       - -
+5 Sandler    sandler    NCCS000 NC  pos=noun|type=common|gen=common|num=singular                                    - - (n-fs:5)))                         4 mod        - -
+6 es         ser        VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:6(verb:6)               3 modnomatch - -
+7 muy        muy        RG      RG  pos=adverb|type=general                                                         - - (s-adj:8(sadv:7)                   8 spec       - -
+8 differente differente AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-a-ms:8(a-ms:8)))                6 attr       - -
+9 .          .          Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:9)))                       6 punc       - -
+
+1  El        el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (verb-pass:4(sn:2(espec-ms:1(j-ms:1)) 2  spec       - -
+2  examen    examen   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:2(n-ms:2)))              4  subj       - -
+3  es        ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (vser:3)                              4  aux        - -
+4  abburido  abburido VMP00SM VMP pos=verb|type=main|mood=participle|num=singular|gen=masculine                   - - (parti-flex:4(parti-ms:4))            0  top        - -
+5  y         y        CC      CC  pos=conjunction|type=coordinating                                               - - (coor-sa:5                            4  modnomatch - -
+6  estupido  estupido AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:6(s-a-ms:6(a-ms:6))))          5  coor       - -
+7  y         y        CC      CC  pos=conjunction|type=coordinating                                               - - (coor-n:7                             4  modnomatch - -
+8  Adam      adam     NCMN000 NC  pos=noun|type=common|gen=masculine|num=invariable                               - - (sn:8(grup-nom-ms:8(n-ms:8)           7  coor       - -
+9  Sandler   sandler  NCCS000 NC  pos=noun|type=common|gen=common|num=singular                                    - - (n-fs:9))))                           8  mod        - -
+10 es        ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb-pass:11(vser:10)                11 aux        - -
+11 divertido divertir VMP00SM VMP pos=verb|type=main|mood=participle|num=singular|gen=masculine                   - - (parti-flex:11(parti-ms:11))          4  modnomatch - -
+12 .         .        Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:12)))                         11 punc       - -
+

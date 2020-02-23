@@ -1,0 +1,54 @@
+1	Bill	bill	I	I	matched=no|pos=interjection	3	adjt	_	_
+2	Gates	gates	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	persona	persona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+6	famosa	famoso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+8	él	él	PP3MS00	PP	gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	9	subj	_	_
+9	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	3	modnomatch	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	presidente	presidente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	attr	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	Microsoft	microsoft	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Microsoft	microsoft	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	modnomatch	_	_
+4	computadoras	computador	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+6	technologia	technologia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Microsoft	microsoft	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	largo	largo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+6	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+7	muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	8	spec	_	_
+8	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	coor	_	_
+9	no	no	RN	RN	matched=no|pos=adverb|type=negative	11	spec	_	_
+10	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	11	iobj	_	_
+11	gustan	gustar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+13	company	company	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Algunas	alguno	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	piensan	pensar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
+5	Microsoft	microsoft	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+6	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	comp	_	_
+7	muy	muy	RG	RG	matched=no|pos=adverb|type=general	8	spec	_	_
+8	mal	mal	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	pred	_	_
+9	productos	producto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	productos	producto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
+13	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	3	modnomatch	_	_
+14	expensivos	expensivos	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	13	attr	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+

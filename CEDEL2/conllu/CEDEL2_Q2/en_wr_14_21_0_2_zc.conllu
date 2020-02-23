@@ -1,0 +1,31 @@
+1	Habla	hablar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+3	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	persona	persona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+5	famosa	famoso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+7	Usher	usher	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Usher	usher	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	cantante	cantante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	6	modnomatch	_	_
+6	singer	singer	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	2	modnomatch	_	_
+7	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	6	modnomatch	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Usher	usher	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	bonito	bonito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Usher	usher	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	alto	alto	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	attr	_	_
+5	impatiente	impatiente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

@@ -8,7 +8,6 @@ import sys
 import getopt
 
 
-
 def conllu_transformer(file_conll, file_conllu):
 
     # greedy quantifier to match every commented line as $1
@@ -38,8 +37,6 @@ def conllu_transformer(file_conll, file_conllu):
 
         tmp_nf.close()
 
-
-
     conll = pc.load_from_file(tmp_file_name)
     os.remove(tmp_file_name)
 
@@ -50,10 +47,6 @@ def conllu_transformer(file_conll, file_conllu):
 
     nf = open(file_conllu, "w")
     nf.write(conll.conll())
-
-
-
-
 
 
 def main(argv):
@@ -94,11 +87,6 @@ def main(argv):
             # Puts its output (.conllu) in the outputdir folder
             conllu_transformer(inputdir + f, outputdir + f_noExt + ".conllu")
 
-    # conllu_transformer(inputdir + "2_19991102_ssd.conll", outputdir + f_noExt + ".conllu")
-
-
 
 if __name__ == "__main__":
     main(sys.argv[1:])
-
-

@@ -1,0 +1,45 @@
+1 Me         me         PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular             - - (grup-verb:2(patons:1(paton-s:1)) 2 mphes      - -
+2 gusta      gustar     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:2(verb:2))             0 top        - -
+3 Justin     justin     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:3(grup-nom-ms:3(n-ms:3)       2 modnomatch - -
+4 Timberlake timberlake NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (n-fs:4)))                        3 mod        - -
+5 .          .          Fp      Fp  pos=punctuation|type=period                                            - - (F-term:5))                       2 punc       - -
+
+1 Justin      justin      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-verb:2(sn:1(grup-nom-ms:1(n-ms:1))) 2 subj       - -
+2 es          ser         VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                                  0 top        - -
+3 muy         muy         RG      RG  pos=adverb|type=general                                                         - - (s-adj:4(sadv:3)                          4 spec       - -
+4 interesante interesante AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-a-ms:4(a-ms:4)))                       2 attr       - -
+5 y           y           CC      CC  pos=conjunction|type=coordinating                                               - - (coor-n:5                                 2 modnomatch - -
+6 fascinato   fascinato   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:6(grup-nom-ms:6(n-ms:6))))            5 coor       - -
+7 .           .           Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:7))                               2 punc       - -
+
+1 Justin justin NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-verb:2(sn:1(grup-nom-ms:1(n-ms:1))) 2 subj - -
+2 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                                  0 top  - -
+3 alto   alto   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (coor-sa:6(s-adj:3(s-a-ms:3(a-ms:3)))     6 coor - -
+4 ,      ,      Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:4)                                    6 punc - -
+5 rubio  rubio  AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:5(s-a-ms:5(a-ms:5)))               6 coor - -
+6 y      y      CC      CC  pos=conjunction|type=coordinating                                               - - -                                         2 attr - -
+7 muy    muy    RG      RG  pos=adverb|type=general                                                         - - (s-adj:8(sadv:7)                          8 spec - -
+8 guapo  guapo  AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:8(a-ms:8))))                      6 coor - -
+9 .      .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:9))                               2 punc - -
+
+1 Justin  justin  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-verb:2(sn:1(grup-nom-ms:1(n-ms:1))) 2 subj - -
+2 es      ser     VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                                  0 top  - -
+3 muy     muy     RG      RG  pos=adverb|type=general                                                         - - (coor-n:6(sn:5                            5 spec - -
+4 famosa  famoso  AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                      - - (grup-nom-fs:5(s-a-fs:4(a-fs:4))          5 mod  - -
+5 persona persona NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:5(n-fs:5))))                 6 coor - -
+6 y       y       CC      CC  pos=conjunction|type=coordinating                                               - - -                                         2 attr - -
+7 nuevo   nuevo   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (sn:8(grup-nom-ms:8(s-a-ms:7(a-ms:7))     8 mod  - -
+8 actor   actor   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:8(n-ms:8)))))                6 coor - -
+9 .       .       Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:9))                               2 punc - -
+
+1 Es   ser  VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)     0 top  - -
+2 muy  muy  RG      RG  pos=adverb|type=general                                                         - - (sn:3                    3 spec - -
+3 roca roca NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:3(n-fs:3))) 1 attr - -
+4 .    .    Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:4))              1 punc - -
+
+1 Justin    justin               NCMS000 NC pos=noun|type=common|gen=masculine|num=singular           - - (sn:1(grup-nom-ms:1(n-ms:1))          0 top        - -
+2 cuplianos cuplianos            AQ0MP00 AQ pos=adjective|type=qualificative|gen=masculine|num=plural - - (sn:3(grup-nom-mp:3(s-a-mp:2(a-mp:2)) 3 mod        - -
+3 anos      ano                  NCMP000 NC pos=noun|type=common|gen=masculine|num=plural             - - (grup-nom-mp:3(n-mp:3))))             1 mod        - -
+4 5_de_mayo [??:5/5/??:??.??:??] W       W  pos=date                                                  - - (data:4)                              1 modnomatch - -
+5 .         .                    Fp      Fp pos=punctuation|type=period                               - - (F-term:5))                           1 punc       - -
+

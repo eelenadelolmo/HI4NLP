@@ -1,0 +1,44 @@
+1	Cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	9	adjt	_	_
+2	regresamos	regresar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	1	comp	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+5	Estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+6	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	5	mod	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+8	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	9	subj	_	_
+9	viajé	viajar	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	Peru	peru	NCFN000	NC	gen=feminine|matched=no|num=invariable|pos=noun|type=common	10	comp	_	_
+12	con	con	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+13	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	equipo	equipo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	misión	misión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	Ejército	ejército	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	mod	_	_
+21	Salvación	salvación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+2	total	total	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	5	subj	_	_
+5	viajé	viajar	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	avión	avión	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	doce	12	Z	Z	matched=no|pos=number	9	spec	_	_
+9	veces	vez	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	adjt	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	verano	verano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Mis	mi	DP1CPS	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	vacaciones	vacaciones	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	divertido	divertir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	attr	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

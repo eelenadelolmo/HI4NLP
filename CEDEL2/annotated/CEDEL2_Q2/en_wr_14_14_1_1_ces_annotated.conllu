@@ -1,0 +1,320 @@
+1	Hola	hola	I	I	matched=no|pos=interjection	0	top	_	_
+2	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	1	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	llamo	llamar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	Clairebear	clairebear	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	rubia	rubio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+5	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	4	coor	_	_
+6	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	2	modnomatch	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	ojos	ojo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
+9	azules	azul	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	intelectual	intelectual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	coor	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+5	atletica	atletica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	coor	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	attr	_	_
+8	simpatica	simpatica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	coor	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	4	spec	_	_
+4	amigas	amigo	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	coor	_	_
+5	buenas	bueno	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+7	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	8	spec	_	_
+8	amigos	amigo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	coor	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	social	social	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	coor	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+5	flaca	flaco	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	coor	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+7	alta	alto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	coor	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	attr	_	_
+10	americana	americano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	coor	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	juego	jugar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	baloncesto	baloncesto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+5	futbol	futbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+8	correr	correr	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	coor	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+4	grande	grande	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	catorce	14	Z	Z	matched=no|pos=number	4	spec	_	_
+4	hermanas	hermano	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+6	cinco	5	Z	Z	matched=no|pos=number	7	spec	_	_
+7	hermanos	hermano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	cuatro	4	Z	Z	matched=no|pos=number	4	spec	_	_
+4	padres	padre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+5	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	2	adjt	_	_
+6	estan	estan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	comp	_	_
+7	separados	separar	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	6	adjt	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	cientos	ciento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+4	caballos	caballo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	mod	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+6	cinco	5	Z	Z	matched=no|pos=number	7	spec	_	_
+7	perros	perro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+10	dos	2	Z	Z	matched=no|pos=number	11	spec	_	_
+11	gatos	gato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	voy	ir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	clases	clase	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+4	ochos	ochos	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	faciles	faciles	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	2	attr	_	_
+5	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+6	ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	5	coor	_	_
+7	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+8	muy	muy	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+9	aburridas	aburrir	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	7	attr	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	ingles	ingle	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+5	ciencias	ciencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	17	coor	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+7	litertura	litertura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+9	algebra	algebra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+11	espanol	espanol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+13	religion	religion	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+15	imformatica	imformatica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+18	historia	historia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusto	gustar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	comer	comer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+5	beber	beber	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	vegetales	vegetal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	modnomatch	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+5	frutas	fruto	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	modnomatch	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+7	agua	agua	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+10	limonada	limonado	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	coor	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	casa	casa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	gris	gris	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	attr	_	_
+5	blanco	blanco	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	jardinero	jardinero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	musica	musicar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+5	bailar	bailar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	dobj	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+7	cantar	cantar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	modnomatch	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+10	leer	leer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	coor	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	carros	carro	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	azules	azul	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	attr	_	_
+6	rojo	rojo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	ropa	ropa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	blue	blue	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+4	jeans	jeans	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	10	coor	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+6	blusas	blusa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+8	zapatos	zapato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+11	camisetas	camiseta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	leer	leer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+4	libros	libro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+6	revista	revista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	mirar	mirar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+4	pelicula	pelicula	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+6	noticias	noticia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	television	television	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	deportes	deporte	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	modnomatch	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	6	coor	_	_
+2	juego	juego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	estadio	estadio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+7	cancha	cancha	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	coor	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	correr	correr	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+4	rapido	rapido	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	modnomatch	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	pies	pie	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	coor	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+5	piernas	pierna	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	coor	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+7	rodillas	rodilla	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	coor	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+9	manos	mano	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	coor	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+11	brazos	brazo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	coor	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+14	cabeza	cabeza	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	13	coor	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Escuela	escuela	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	importante	importante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+2	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	3	spec	_	_
+3	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	6	subj	_	_
+6	llevamos	llevar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+7	uniformes	uniforme	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	profesoras	profesor	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	simpatica	simpatica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	coor	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	attr	_	_
+7	inteligente	inteligente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	coor	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	modnomatch	_	_
+4	amigas	amigo	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+6	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

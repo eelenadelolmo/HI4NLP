@@ -1,0 +1,44 @@
+1	Después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+2	salir	salir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+4	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	5	spec	_	_
+5	padres	padre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+7	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	8	subj	_	_
+8	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+9	emocionada	emocionar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	8	attr	_	_
+10	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	8	adjt	_	_
+11	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	12	subj	_	_
+12	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	10	comp	_	_
+13	independiente	independiente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	attr	_	_
+14	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	adjt	_	_
+15	por_lo_tanto	por_lo_tanto	RG	RG	matched=no|pos=adverb|type=general	14	coor	_	_
+16	podía	poder	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	17	prt	_	_
+17	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	modnomatch	_	_
+18	cualquier	cualquiera	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	19	spec	_	_
+19	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	20	subj	_	_
+20	quería	querer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	17	modnomatch	_	_
+21	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	20	dobj	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Kate	kate	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	amable	amable	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	attr	_	_
+6	sociable	sociable	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	adjt	_	_
+8	en_consecuencia	en_consecuencia	RG	RG	matched=no|pos=adverb|type=general	7	coor	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+10	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	11	mphes	_	_
+11	hicimos	hacer	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	2	modnomatch	_	_
+12	amigas	amigo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	11	pred	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fiesta	fiesta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	parecía	parecer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	divertido	divertir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	attr	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

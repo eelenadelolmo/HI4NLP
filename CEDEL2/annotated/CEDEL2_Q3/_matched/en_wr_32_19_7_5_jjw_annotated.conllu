@@ -1,0 +1,113 @@
+1	Ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	4	subj	_	_
+4	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	jugador	jugador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	beisbol	beisbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+13	florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	12	comp	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Beisbol	beisbol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	deporte	deporte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	4	mod	_	_
+7	muy	muy	RG	RG	matched=no|pos=adverb|type=general	8	spec	_	_
+8	interesante	interesante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	attr	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+10	divertido	divertir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	adjt	_	_
+11	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+12	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	modnomatch	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	otro	otro	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	3	subj	_	_
+3	razon	razon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
+5	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	12	subj	_	_
+6	querria	querria	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	12	modnomatch	_	_
+8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	jugador	jugador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	attr	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	beisbol	beisbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	4	comp	_	_
+13	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
+14	tu	tu	DP2CSS	DP	gen=common|matched=no|num=singular|person=2|pos=determiner|possessornum=singular|type=possessive	3	modnomatch	_	_
+15	solamente	solamente	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
+16	trabajar	trabajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	subj	_	_
+17	para	para	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+18	seis	6	Z	Z	matched=no|pos=number	17	comp	_	_
+19	meces	mecer	VMIP2S0	VMI	matched=no|mood=indicative|num=singular|person=2|pos=verb|tense=present|type=main	3	modnomatch	_	_
+20	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+21	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	ano	ano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	19	punc	_	_
+24	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+25	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	modnomatch	_	_
+26	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	27	spec	_	_
+27	seis	6	Z	Z	matched=no|pos=number	28	subj	_	_
+28	meces	mecer	VMIP2S0	VMI	matched=no|mood=indicative|num=singular|person=2|pos=verb|tense=present|type=main	3	modnomatch	_	_
+29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	28	punc	_	_
+30	estas	este	DD0FP0	DD	gen=feminine|matched=no|num=plural|pos=determiner|type=demonstrative	31	spec	_	_
+31	libre	libre	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	28	modnomatch	_	_
+32	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	28	dobj	_	_
+33	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	32	dobj	_	_
+34	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
+35	tu	tu	DP2CSS	DP	gen=common|matched=no|num=singular|person=2|pos=determiner|possessornum=singular|type=possessive	3	modnomatch	_	_
+36	deseas	desear	VMIP2S0	VMI	matched=no|mood=indicative|num=singular|person=2|pos=verb|tense=present|type=main	3	modnomatch	_	_
+37	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	36	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quierra	quierra	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	ayudar	ayudar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+5	atletas	atleta	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+6	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	negaciones	negación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	contractos	contractos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+10	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	equipos	equipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	2	modnomatch	_	_
+14	ellos	ellos	PP3MP00	PP	gen=masculine|matched=no|num=plural|person=3|pos=pronoun|type=personal	2	modnomatch	_	_
+15	jugando	jugar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	2	adjt	_	_
+16	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quierra	quierra	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	nueve	9	Z	Z	matched=no|pos=number	5	spec	_	_
+5	ninos	ninos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+7	cinco	5	Z	Z	matched=no|pos=number	8	spec	_	_
+8	muchachas	muchacho	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+10	cuatro	4	Z	Z	matched=no|pos=number	11	spec	_	_
+11	muchachos	muchacho	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quierra	quierra	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	vivir	vivir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	6	spec	_	_
+6	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+8	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	muy	muy	RG	RG	matched=no|pos=adverb|type=general	11	spec	_	_
+11	granda	granda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+13	lujoso	lujoso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	coor	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

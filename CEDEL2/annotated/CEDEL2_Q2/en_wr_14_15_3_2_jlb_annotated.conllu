@@ -1,0 +1,363 @@
+1	Hola	hola	I	I	matched=no|pos=interjection	4	adjt	_	_
+2	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	1	punc	_	_
+3	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	4	mphes	_	_
+4	llamo	llamar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	4	modnomatch	_	_
+6	Jessica	jessica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	attr	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	5	subj	_	_
+2	ecribire	ecribire	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+4	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	Wade	wade	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Jessica	jessica	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	Wade	wade	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	Famoso	famoso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+5	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+7	feo	feo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	attr	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	5	coor	_	_
+3	alta	alto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+5	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+6	no	no	RN	RN	matched=no|pos=adverb|type=negative	7	spec	_	_
+7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	5	coor	_	_
+8	muy	muy	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
+9	alta	alto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	popular	popular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Amigos	amigo	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	Jessica	jessica	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	comp	_	_
+4	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+5	Jessica	jessica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	attr	_	_
+6	Behr	behr	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	modnomatch	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+8	Claire	centilitro_aire	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	4	modnomatch	_	_
+9	Riehle	riehle	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+11	Maggie	maggie	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+12	Mraz	mraz	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	mod	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+14	Ashley	ashley	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+15	Detzner	detzner	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	modnomatch	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+17	Meggie	meggie	RG	RG	matched=no|pos=adverb|type=general	18	adjt	_	_
+18	Ortman	ortman	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+20	Elizabeth	elizabeth	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	21	mod	_	_
+21	Wulbrect	wulbrect	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	subj	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	21	punc	_	_
+23	Colten	colten	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+24	Austerman	austerman	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+26	Nicole	nicole	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+27	Smith	smith	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	dobj	_	_
+28	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+29	Ashley	ashley	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	modnomatch	_	_
+30	Adams	adams	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	29	mod	_	_
+31	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	29	punc	_	_
+32	Rachel	rachel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	modnomatch	_	_
+33	Anthrop	anthrop	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	32	mod	_	_
+34	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	32	punc	_	_
+35	Sarah	sarah	I	I	matched=no|pos=interjection	26	adjt	_	_
+36	Penix	penix	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	26	modnomatch	_	_
+37	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	26	punc	_	_
+38	MaryRose	maryrose	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+39	Korty	korty	RG	RG	matched=no|pos=adverb|type=general	38	adjt	_	_
+40	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	38	punc	_	_
+41	Devan	deva_n	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	42	subj	_	_
+42	Vonderhide	vonderhide	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+43	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	42	punc	_	_
+44	Lynn	lynn	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+45	Hardy	hardy	RG	RG	matched=no|pos=adverb|type=general	44	adjt	_	_
+46	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	44	punc	_	_
+47	Olivia	olivia	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	51	modnomatch	_	_
+48	Walker	walker	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	51	subj	_	_
+49	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	48	punc	_	_
+50	Sammy	sammy	RG	RG	matched=no|pos=adverb|type=general	51	adjt	_	_
+51	Gruse	gruse	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+52	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	51	punc	_	_
+53	Olivia	olivia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	51	dobj	_	_
+54	Misenhimer	misenhimer	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	53	mod	_	_
+55	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	53	punc	_	_
+56	Chriss	ch_riss	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	51	modnomatch	_	_
+57	LaNeve	laneve	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	56	mod	_	_
+58	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	59	punc	_	_
+59	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+60	Monica	monica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	59	coor	_	_
+61	Montero	montero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+62	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	61	punc	_	_
+
+1	Moinca	moinca	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+2	Montero	montero	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	professora	professora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Pam	pam	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	madre	madre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Tony	ton_y	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	padre	padre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Jorden	j_orden	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	hermano	hermano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Anithony	anithony	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	hermano	hermano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Blaze	blaze	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	perro	perro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	popular	popular	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	rubia	rubio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	attr	_	_
+5	intelenjente	intelenjente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	habla	hablar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	espanol	espanol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+5	ingles	ingle	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	pinta	pintar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	cosas	cosa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+4	azul	azul	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	3	subj	_	_
+2	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
+3	ama	amar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	coor	_	_
+4	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+5	Behr	behr	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+7	Pete	petar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	6	coor	_	_
+8	Kirgiss	kirgiss	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	ama	amar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	coor	_	_
+3	Pete	petar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	7	coor	_	_
+4	Kirgiss	kirgiss	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+5	tambien	tambien	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	7	coor	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+7	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+8	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	7	coor	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	problemo	problemo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	attr	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	gustan	gustar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	chocalate	chocalate	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+5	Helado	helado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+7	especialmente	especialmente	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+8	vainilla	vainilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	coor	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+10	chocolate	chocolate	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	coor	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	gustan	gustar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	tacos	taco	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+5	coco-cola	coco_cola	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	celoso	celoso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+5	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	Behr	behr	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	celoso	celoso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+6	todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	0	top	_	_
+2	perro	perro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	mod	_	_
+3	is	i	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	mod	_	_
+4	violeta	violeta	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	3	subj	_	_
+2	gato	gato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	rojo	rojo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	3	subj	_	_
+2	perro	perro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	anaranjado	anaranjado	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	3	subj	_	_
+2	gato	gato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	amario	amario	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	pared	pared	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+4	blanco	blanco	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	compuador	compuador	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	plata	plata	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+6	negro	negro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	favortia	favortia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	gente	gente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+4	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+5	Jessica	jessica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	attr	_	_
+6	Behr	behr	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	modnomatch	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+8	Claire	centilitro_aire	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	4	modnomatch	_	_
+9	Riehle	riehle	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	8	punc	_	_
+11	Tyson	tyson	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+12	Ritter	ritter	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	11	mod	_	_
+13	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+14	Senoria	senoria	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+15	Reed	reed	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+17	Maggie	maggie	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+18	Mraz	mraz	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	17	punc	_	_
+20	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+21	Tate	tate	I	I	matched=no|pos=interjection	2	adjt	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	Tia	tia	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+4	Carri	carri	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+6	Verionica	verionica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	coor	_	_
+2	Tio	tio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+3	John	john	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+5	Mark	mar_k	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	amigo	amigo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	Jessica	jessica	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	alta	alto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	attr	_	_
+5	merana	merana	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+5	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
+6	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+7	feo	feo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	attr	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	3	subj	_	_
+2	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	3	mphes	_	_
+3	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	rojo	rojo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+6	verde	verde	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	3	subj	_	_
+2	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	3	mphes	_	_
+3	gusta	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	ingles	ingle	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tenemos	tener	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	almuerzo	almuerzo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+5	12:45	12:45	Z	Z	matched=no|pos=number	4	comp	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

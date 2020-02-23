@@ -1,0 +1,232 @@
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	persona	persona	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+4	me	me	PP1CS00	PP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	5	mphes	_	_
+5	interesa	interesar	VMIP3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	mod	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	artista	artista	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
+9	mexicana	mexicano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	Frida	frida	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	6	adjt	_	_
+11	Kahlo	kahlo	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	mujer	mujer	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	ya	ya	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+4	tenía	tener	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+5	conocimientos	conocimiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	ella	él	PP3FS00	PP	gen=feminine|matched=no|num=singular|person=3|pos=pronoun|type=personal	6	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+9	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	4	modnomatch	_	_
+10	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	2	spec	_	_
+2	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	adjt	_	_
+3	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	11	adjt	_	_
+4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	parte	parte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+7	mí	mí	PP1CSO0	PP	case=oblique|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	6	comp	_	_
+8	carrera	carrera	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	subj	_	_
+9	universitaria	universitario	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	estoy	estar	VAIP1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=auxiliary	11	prt	_	_
+11	estudiando	estudiar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	0	top	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	Cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	coor	_	_
+14	Hispánica	hispánico	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	dobj	_	_
+16	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	15	coor	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	19	spec	_	_
+19	presentaciones	presentación	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+21	nuestro	nuestro	DP1MSP	DP	gen=masculine|matched=no|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	22	spec	_	_
+22	profesor	profesor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	24	aux	_	_
+24	Frida	frida	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	11	modnomatch	_	_
+25	Kahlo	kahlo	RG	RG	matched=no|pos=adverb|type=general	24	adjt	_	_
+26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	padre	padre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	descendió	descender	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	raíces	raíz	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+6	europeas	europeo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+7	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	3	punc	_	_
+8	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	9	spec	_	_
+9	abuelo	abuelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	subj	_	_
+10	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	3	modnomatch	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	attr	_	_
+12	Alemania	alemania	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Su	su	DP3CSN	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	madre	madre	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+4	mexicana	mexicano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	aunque	aunque	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+6	algunos	alguno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	7	spec	_	_
+7	antepasados	antepasado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+8	vinieron	venir	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
+10	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+12	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	Conquista	conquista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	Revolución	revolución	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	Mexicana	mexicano	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	brotó	brotar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	coor	_	_
+7	estos	este	DD0MP0	DD	gen=masculine|matched=no|num=plural|pos=determiner|type=demonstrative	8	spec	_	_
+8	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	tumultuosos	tumultuoso	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
+10	debía	deber	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	12	prt	_	_
+11	haber	haber	VAN0000	VAN	matched=no|mood=infinitive|pos=verb|type=auxiliary	12	modnomatch	_	_
+12	visto	ver	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	4	modnomatch	_	_
+13	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	14	spec	_	_
+14	acontecimientos	acontecimiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	dobj	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
+17	naturaleza	naturaleza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	violenta	violento	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	atropello	atropello	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	4	iobj	_	_
+4	rotó	rotar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	columna	columna	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
+7	vertebral	vertebral	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	dobj	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	pelvis	pelvis	NCFN000	NC	gen=feminine|matched=no|num=invariable|pos=noun|type=common	8	coor	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	injurias	injuria	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	21	subj	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+4	dejo	dejo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+5	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+6	necesidad	necesidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	llevar	llevar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	7	comp	_	_
+9	un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	soporte	soporte	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	dobj	_	_
+11	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	8	pobj	_	_
+12	yeso	yeso	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	11	comp	_	_
+13	-	-	Fg	Fg	matched=yes: subj child of top deprel|pos=punctuation|type=hyphen	2	punc	_	_
+14	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+15	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	16	modnomatch	_	_
+16	tarde	tarde	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	14	coor	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+18	hierro	hierro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	17	comp	_	_
+19	–	–	Fz	Fz	matched=yes: subj child of top deprel|pos=punctuation|type=other	2	punc	_	_
+20	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+21	soportarle	soportarle	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	espalda	espalda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	dobj	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	21	punc	_	_
+
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	creencias	creencia	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+3	políticas	político	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+4	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	5	iobj	_	_
+5	hizo	hacer	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+6	hacerse	hacerse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
+7	comunista	comunista	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	modnomatch	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	corazón	corazón	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
+11	le	le	PP3CSD0	PP	case=dative|gen=common|matched=no|num=singular|person=3|pos=pronoun|type=personal	12	iobj	_	_
+12	convirtió	convertir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	modnomatch	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+14	muy	muy	RG	RG	matched=no|pos=adverb|type=general	16	spec	_	_
+15	tierna	tierno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	edad	edad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+17	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+18	apoyador	apoyador	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	fiel	fiel	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+20	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	modnomatch	_	_
+22	“	“	Fra	Fra	matched=no|pos=punctuation|punctenclose=open|type=quotation	5	punc	_	_
+23	mexicanidad	mexicanidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+24	”	”	Frc	Frc	matched=no|pos=punctuation|punctenclose=close|type=quotation	5	punc	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Estos	este	DD0MP0	DD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=demonstrative	2	spec	_	_
+2	rastros	rastro	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	carácter	carácter	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	Kahlo-ano	kahlo-ano	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	aparecían	aparecer	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+8	con	con	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	frecuencia	frecuencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
+11	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	12	spec	_	_
+12	cuadros	cuadro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+13	además_de	además_de	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
+14	actitudes	actitud	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+15	feministas	feminista	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	14	mod	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Sus	su	DP3CPN	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	2	spec	_	_
+2	obras	obra	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	muestran	mostrar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	lado	lado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	colores	color	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	mod	_	_
+8	vistosos	vistoso	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	pred	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+10	animales	animal	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	11	coor	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	dobj	_	_
+12	flores	flor	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	coor	_	_
+13	mexicanos	mexicano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	12	mod	_	_
+14	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	pred	_	_
+15	por	por	SP	SP	matched=no|pos=adposition|type=preposition	14	coor	_	_
+16	otro	otro	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	15	comp	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+18	imágenes	imagen	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+20	sí	sí	PP3CNO0	PP	case=oblique|gen=common|matched=no|num=invariable|person=3|pos=pronoun|type=personal	19	comp	_	_
+21	misma	mismo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	pred	_	_
+22	tendida	tender	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	pred	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+24	camas	cama	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
+25	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+26	sillas	silla	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	25	coor	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+28	ruedas	rueda	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
+29	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+30	quirófanos	quirófano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	29	comp	_	_
+31	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+32	hospitales	hospital	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	31	coor	_	_
+33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Estos	este	PD0MP00	PD	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=demonstrative	2	subj	_	_
+2	eran	ser	VSII3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+3	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	4	spec	_	_
+4	experiencias	experiencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	attr	_	_
+5	–	–	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
+6	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+7	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+8	cuotidiana	cuotidiano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	–	–	Fz	Fz	matched=no|pos=punctuation|type=other	2	punc	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+11	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	coor	_	_
+12	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	11	comp	_	_
+13	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	15	subj	_	_
+15	pintaba	pintar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	12	mod	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+

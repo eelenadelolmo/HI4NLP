@@ -1,0 +1,30 @@
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	0	top	_	_
+2	planes	plan	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+3	para	para	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnorule	_	_
+7	cantar	cantar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	attr	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	talentosa	talentoso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Seré	ser	VSIF1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=semiauxiliary	3	coor	_	_
+2	famosa	famoso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	1	attr	_	_
+3	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+4	iré	ir	VMIF1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	3	coor	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	modnomatch	_	_
+7	Grammys	grammys	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Comenzaré	comenzar	VMIF1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=future|type=main	0	top	_	_
+2	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	compañía	compañía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	registro	registro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+

@@ -1,0 +1,162 @@
+1	Lloyd	lloyd	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	cantante	cantante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	chico	chico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+3	bajo	bajo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+5	delgado	delgado	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	coor	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnomatch	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+3	pelo	pelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+4	largo	largo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+6	muy	muy	RG	RG	matched=no|pos=adverb|type=general	7	spec	_	_
+7	negro	negro	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnomatch	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
+4	voz	voz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+5	suave	suave	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Lloyd	lloyd	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	attractivo	attractivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Lloyd	lloyd	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+2	cante	cante	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+3	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+4	Ashanti	ashanti	NCCN000	NC	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	comp	_	_
+5	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	1	spec	_	_
+7	cancion	cancion	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+8	llame	llamar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+9	"	"	Fe	Fe	matched=no|pos=punctuation|type=quotation	8	punc	_	_
+10	Southside	southside	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	8	modnomatch	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+12	"	"	Fe	Fe	matched=no|pos=punctuation|type=quotation	8	punc	_	_
+13	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	14	subj	_	_
+14	amo	amar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	8	modnomatch	_	_
+15	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	8	modnomatch	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Lloyd	lloyd	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	attr	_	_
+4	Georgia	georgia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	State	state	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+6	on	o_n	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	cinco_de_septiembre	[??:5/9/??:??.??:??]	W	W	matched=no|pos=date	5	adjt	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	fui	ser	VSIS1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	contenta	contento	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	Llyod	ll_yod	NCFN000	NC	gen=feminine|matched=no|num=invariable|pos=noun|type=common	2	dobj	_	_
+4	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	2	modnomatch	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	6	spec	_	_
+6	novio	novio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	cara	cara	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+4	bonito	bonito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	conocer	conocer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	poner	poner	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	dobj	_	_
+5	baile	baile	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	visita	visita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+4	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
+5	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	simpatico	simpatico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	vive	vivir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+4	Decatur	decatur	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+6	Georia	georia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Esa	ese	PD0FS00	PD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	2	modnomatch	_	_
+4	cinquenta	cinquenta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+5	minuto	minuto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	mod	_	_
+6	mande	mandar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	cantar	cantar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	Lloyd	lloyd	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	dia	dia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Esa	ese	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	0	top	_	_
+2	ser	ser	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+3	simpatico	simpatico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	0	top	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+3	pantolones	pantolones	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+4	largo	largo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Tambien	tambien	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	modnomatch	_	_
+3	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+4	camisas	camisa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+5	bajas	bajo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	4	mod	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	llamo	llamar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	5	coor	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	5	coor	_	_
+4	Jessica	jessica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+6	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	5	coor	_	_
+7	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	6	dobj	_	_
+8	Senora	senora	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+9	Lloyd	lloyd	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	attr	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+

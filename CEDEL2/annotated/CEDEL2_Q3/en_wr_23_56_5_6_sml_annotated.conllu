@@ -1,0 +1,167 @@
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	decribir	decribir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	5	spec	_	_
+5	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	Vegas	vega	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+2	2002	2002	Z	Z	matched=no|pos=number	1	comp	_	_
+3	visito	visitar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+5	Vegas	vega	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	dobj	_	_
+6	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	8	spec	_	_
+8	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Celebremos	celebrar	VMM01P0	VMM	matched=no|mood=imperative|num=plural|person=1|pos=verb|type=main	0	top	_	_
+2	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	cumpleanos	cumplir_ano	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	1	dobj	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	6	spec	_	_
+6	hija	hijo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	Lorri	lorri	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Ella	él	PP3FS00	PP	gen=feminine|matched=yes: subj child of top deprel|num=singular|person=3|pos=pronoun|type=personal	2	subj	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	21	21	Z	Z	matched=no|pos=number	4	spec	_	_
+4	anos	ano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+6	dia	dia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+7	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+9	llegamos	llegar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	6	mod	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Visitamos	visitar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	9	coor	_	_
+2	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+3	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	1	modnomatch	_	_
+4	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	dobj	_	_
+5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
+6	nacio	nacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+8	Nicaragua	nicaragua	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+10	viven	vivir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	9	coor	_	_
+11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+12	San	san	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+13	Francisco	francisco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Salemos	salar	VMM01P0	VMM	matched=no|mood=imperative|num=plural|person=1|pos=verb|type=main	11	coor	_	_
+2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+3	Columbus	columbus	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	Ohio	ohio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	modnomatch	_	_
+7	Estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+8	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	1	adjt	_	_
+9	antes	antes	RG	RG	matched=no|pos=adverb|type=general	1	adjt	_	_
+10	desayuno	desayuno	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+12	llegamos	llegar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	11	coor	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+14	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
+15	Vegas	vega	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	por	por	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+17	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	18	spec	_	_
+18	tardes	tarde	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	comp	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+3	casinos	casino	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	coor	_	_
+4	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	dobj	_	_
+5	restaurantes	restaurante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	coor	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+7	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	1	modnomatch	_	_
+8	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Millones	millón	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	4	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+4	visitan	visitar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	ano	ano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	7	adjt	_	_
+2	quiere	querer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	comp	_	_
+3	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	mejor	mejor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	2	dobj	_	_
+5	comida	comida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+7	come	comer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+9	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	modnomatch	_	_
+10	restaurante	restaurante	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	Emil	emil	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	Lagasi	lagasi	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	experiencia	experiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	attr	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+5	no	no	RN	RN	matched=no|pos=adverb|type=negative	6	spec	_	_
+6	olvide	olvidar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	3	mod	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
+8	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	9	spec	_	_
+9	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	1	punc	_	_
+
+1	Es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	muy	muy	RG	RG	matched=no|pos=adverb|type=general	3	spec	_	_
+3	interesante	interesante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	attr	_	_
+4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+6	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
+7	Vegas	vega	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+8	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	4	comp	_	_
+9	posible	posible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	attr	_	_
+10	anda	andar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+11	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	calles	calle	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
+13	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+14	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_
+15	vaso	vaso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	15	mod	_	_
+17	vino	vino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	10	modnomatch	_	_
+19	cerbeza	cerbeza	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	18	coor	_	_
+20	abierto	abrir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	19	mod	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Todas	todo	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	0	top	_	_
+2	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+4	estan	estan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+5	muy	muy	RG	RG	matched=no|pos=adverb|type=general	6	spec	_	_
+6	agradables	agradable	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	7	coor	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+8	simpaticas	simpaticas	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	7	coor	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnomatch	_	_
+
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	gusto	gustar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	coor	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	Vegas	vega	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+10	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	9	coor	_	_
+11	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	2	modnomatch	_	_
+12	volver	volver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	dobj	_	_
+13	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	vez	vez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	adjt	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+

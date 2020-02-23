@@ -1,0 +1,72 @@
+1	Quienes	quien	PR0CP00	PR	gen=common|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=relative	3	subj	_	_
+2	tu	tu	DP2CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=2|pos=determiner|possessornum=singular|type=possessive	1	spec	_	_
+3	sabes	saber	VMIP2S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=2|pos=verb|tense=present|type=main	4	subj	_	_
+4	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	modnomatch	_	_
+6	corazon	corazon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	4	modnomatch	_	_
+7	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	6	adjt	_	_
+8	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	7	comp	_	_
+9	?	?	Fit	Fit	matched=no|pos=punctuation|punctenclose=close|type=questionmark	6	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	hombre	hombre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	tira	tirar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	5	spec	_	_
+5	dinero	dinero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
+7	basura	basura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+9	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
+10	todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	modnomatch	_	_
+11	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
+13	unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	12	mod	_	_
+14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+15	buscando	buscar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	3	adjt	_	_
+16	para	para	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	modnomatch	_	_
+18	razon	razon	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	3	modnomatch	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	21	spec	_	_
+21	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+23	nuestro	nuestro	DP1MSP	DP	gen=masculine|matched=no|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	3	modnomatch	_	_
+24	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+25	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+26	general	general	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	25	comp	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	25	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	hombre	hombre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+3	encontra	encontra	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	2	modnomatch	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+6	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	8	spec	_	_
+8	estado	estado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+10	alaska	ala_ska	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+11	y	y	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	2	modnomatch	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+13	vive	vivir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+15	completa	completo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	libertad	libertad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	13	punc	_	_
+
+1	Cada	cada	DI0CS0	DI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	dia	dia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+4	vive	vivir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	contente	contentar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+6	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+7	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	modnomatch	_	_
+8	sonrie	sonrie	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+10	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	11	spec	_	_
+11	cara	cara	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	4	modnomatch	_	_
+13	llega	llegar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+14	tragedia	tragedia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	subj	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+

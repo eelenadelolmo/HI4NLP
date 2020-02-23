@@ -1,0 +1,83 @@
+1	Por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+2	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	proximo	proximo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	7	subj	_	_
+6	otono	o_tono	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	modnomatch	_	_
+7	intento	intentar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+8	empezar	empezar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	dobj	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	para	para	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+13	hacerme	hacerme	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+14	certificado	certificado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+16	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+17	licenciado	licenciar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	adjt	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+19	por	por	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+20	ensenar	ensenar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	comp	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
+
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	vida	vida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	subj	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	hospitalidad	hospitalidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	8	mphes	_	_
+7	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	8	aux	_	_
+8	provenido	provenir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+9	millones	millón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	dobj	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	experiencias	experiencia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+12	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+13	educar	educar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	comp	_	_
+14	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	14	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+2	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
+3	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	6	subj	_	_
+6	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+7	"	"	Fe	Fe	matched=no|pos=punctuation|type=quotation	6	punc	_	_
+8	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+9	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	6	punc	_	_
+10	profesor	profesor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
+11	"	"	Fe	Fe	matched=no|pos=punctuation|type=quotation	6	punc	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+13	empleados	empleado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+14	nuevos	nuevo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	13	mod	_	_
+15	--	--	Fg	Fg	matched=no|pos=punctuation|type=hyphen	6	punc	_	_
+16	cocineros	cocinero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	modnomatch	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+18	camareros	camarero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	modnomatch	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+20	anfitrionas	anfitrión	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	modnomatch	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	20	punc	_	_
+22	etc.	etcétera	Fs	Fs	matched=no|pos=punctuation|type=etc	6	punc	_	_
+23	Despues	despues	RG	RG	matched=no|pos=adverb|type=general	30	adjt	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+25	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	apertura	apertura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+28	69	69	Z	Z	matched=no|pos=number	29	spec	_	_
+29	restaurantes	restaurante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
+30	tome	tomar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+31	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	32	spec	_	_
+32	siesta	siesta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	dobj	_	_
+33	de	de	SP	SP	matched=no|pos=adposition|type=preposition	30	adjt	_	_
+34	viajar	viajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	33	comp	_	_
+35	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+36	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	6	mphes	_	_
+37	hacia	hacia	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+38	gerente	gerente	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+39	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+40	solo	solo	RG	RG	matched=no|pos=adverb|type=general	39	comp	_	_
+41	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	42	spec	_	_
+42	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+43	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	42	punc	_	_
+
