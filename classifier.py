@@ -39,7 +39,7 @@ def main(argv):
         opts, args = getopt.getopt(argv, "hu:a:i:", ["idir=", "udir=", "mdir="])
 
     except getopt.GetoptError:
-        print('transformer_conllu.py -i <inputDirectoru> -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
+        print('classifier.py -i <inputDirectoru> -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
         sys.exit(2)
 
     for opt, arg in opts:

@@ -17,13 +17,13 @@ def main(argv):
         opts, args = getopt.getopt(argv, "hi:a:u::", ["udir=", "mdir="])
 
     except getopt.GetoptError:
-        print('transformer_conllu.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
+        print('metrics.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
         sys.exit(2)
 
     for opt, arg in opts:
 
         if opt == '-h':
-            print('matrics.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
+            print('metrics.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
             sys.exit()
 
         elif opt in ("-u", "--udir"):
