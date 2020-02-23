@@ -38,10 +38,6 @@ This repository contains the following Bash and Python scripts:
 
 ### Execution options
 
-* freeling_analize.sh
-```sh
-$ 
-``` 
 * transformer_forms_conllu.py
 ```sh
 $ transformer_forms_conllu.py -i <inputDirectory> -o <outputDirectory>
