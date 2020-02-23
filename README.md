@@ -5,6 +5,7 @@ pip install -r requirements.txt
 # Corpus processed:
 
 * [Ancora corpus]
+
 _AnCora Surface Syntax Dependencies published in 2014 at UPF (GLiCom) by Benjamin Kolz, Toni Badia and Roser Saurí_
 
 _Syntax information, which is crucial in many NLP tools, can be represented by means of constituent structures or dependency relations. 
