@@ -1,8 +1,8 @@
-# Installation:
+# Installation
 pip install -r requirements.txt
 
 
-# Corpus processed:
+# Corpus processed
 
 * [Ancora corpus]
 
@@ -43,7 +43,7 @@ This repository contains the following Bash and Python scripts:
 | metrics.py | Generates a txt file containing statistical information on the annotations matched |
 
 
-### Execution options
+### Execution options:
 
 * transformer_forms_conllu.py
 ```sh
