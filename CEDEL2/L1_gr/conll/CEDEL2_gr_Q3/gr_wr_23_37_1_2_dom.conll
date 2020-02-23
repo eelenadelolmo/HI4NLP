@@ -1,0 +1,18 @@
+1  En      en      SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:1(prep:1)             0  top        - -
+2  2007    2007    Z       Z   pos=number                                                             - - (sn:3(numero-nopart:2)         3  spec       - -
+3  caso    caso    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-nom-ms:3(n-ms:3)))       1  comp       - -
+4  con     con     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:4(prep:4)             1  comp       - -
+5  Javier  javier  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:5(grup-nom-ms:5(n-ms:5)    4  comp       - -
+6  Bardem  bardem  AQ0CN00 AQ  pos=adjective|type=qualificative|gen=common|num=invariable             - - (s-a-ms:6(a-ms:6)))))          5  mod        - -
+7  y       y       CC      CC  pos=conjunction|type=coordinating                                      - - (coor-vb:7                     1  modnomatch - -
+8  tiene   tener   VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:8(verb:8)           7  coor       - -
+9  dos     2       Z       Z   pos=number                                                             - - (sn:10(numero-nopart:9)        10 spec       - -
+10 hijos   hijo    NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                          - - (grup-nom-mp:10(n-mp:10)))))   8  dobj       - -
+11 ,       ,       Fc      Fc  pos=punctuation|type=comma                                             - - (Fc:11)                        1  punc       - -
+12 Lio     lio     AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular            - - (s-adj:12(s-a-ms:12(a-ms:12))) 1  comp       - -
+13 Ensinas ensinas NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                           - - (sn:13(grup-nom-fp:13(n-fp:13) 1  comp       - -
+14 Bardem  bardem  AQ0CN00 AQ  pos=adjective|type=qualificative|gen=common|num=invariable             - - (s-a-fp:14(a-fp:14))))         13 mod        - -
+15 y       y       CC      CC  pos=conjunction|type=coordinating                                      - - (coor-sadv:15                  1  comp       - -
+16 Luny    luny    RG      RG  pos=adverb|type=general                                                - - (sadv:16))                     15 coor       - -
+17 .       .       Fp      Fp  pos=punctuation|type=period                                            - - (F-term:17))                   1  punc       - -
+

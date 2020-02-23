@@ -45,6 +45,10 @@ This repository contains the following Bash and Python scripts:
 
 ### Execution options:
 
+* freeling_analize.sh
+```sh
+$ freeling_analize.sh -i <inputDirectory> -o <outputDirectory>
+``` 
 * transformer_forms_conllu.py
 ```sh
 $ transformer_forms_conllu.py -i <inputDirectory> -o <outputDirectory>
@@ -67,7 +71,7 @@ $ classifier.py -i <inputDirectoru> -u <UnmatchedOutputDirectory> -m <MatchedOut
 ``` 
 * metrics.py
 ```sh
-$ metrics.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>
+$ metrics.py -u <UnmatchedOutputDirectory> -a <MatchedOutputDirectory> -m <MetricsFile>
 ``` 
 
 

@@ -1,0 +1,26 @@
+1  y             y            CC      CC  pos=conjunction|type=coordinating                                                - - (coor-vb:1                         0  top        - -
+2  aunque        aunque       CC      CC  pos=conjunction|type=coordinating                                                - - (coor-n:2                          1  modnomatch - -
+3  uno           uno          PI0MS00 PI  pos=pronoun|type=indefinite|gen=masculine|num=singular                           - - (sn:3(pron-ms:3(pindef-ms:3))))    2  coor       - -
+4  sea           ser          VSSP1S0 VSS pos=verb|type=semiauxiliary|mood=subjunctive|tense=present|person=1|num=singular - - (grup-verb:4(verb:4)               1  coor       - -
+5  una           uno          DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                         - - (sn:6(espec-fs:5(indef-fs:5))      6  spec       - -
+6  persona       persona      NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                   - - (grup-nom-fs:6(n-fs:6)))           4  attr       - -
+7  con           con          SP      SP  pos=adposition|type=preposition                                                  - - (grup-sp:7(prep:7)                 4  adjt       - -
+8  conocimientos conocimiento NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                    - - (sn:8(grup-nom-mp:8(n-mp:8))))     7  comp       - -
+9  ,             ,            Fc      Fc  pos=punctuation|type=comma                                                       - - (Fc:9)                             4  punc       - -
+10 experiencias  experiencia  NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                                     - - (sn:10(grup-nom-fp:10(n-fp:10)))   4  modnomatch - -
+11 .             .            Fp      Fp  pos=punctuation|type=period                                                      - - (F-term:11)                        4  punc       - -
+12 .             .            Fp      Fp  pos=punctuation|type=period                                                      - - (F-term:12))                       4  punc       - -
+13 etc           etcétera     Fs      Fs  pos=punctuation|type=etc                                                         - - (F-no-c:13)                        1  punc       - -
+14 todo          todo         DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                        - - (sn:15(indef-ms:14)                15 spec       - -
+15 eso           ese          PD00S00 PD  pos=pronoun|type=demonstrative|num=singular                                      - - (pdem-ms:15))                      1  modnomatch - -
+16 no            no           RN      RN  pos=adverb|type=negative                                                         - - (neg:16)                           1  modnomatch - -
+17 "             "            Fe      Fe  pos=punctuation|type=quotation                                                   - - (F-no-c:17)                        1  punc       - -
+18 vale          valer        VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular           - - (grup-verb:18(verb:18))            1  coor       - -
+19 "             "            Fe      Fe  pos=punctuation|type=quotation                                                   - - (F-no-c:19)                        1  punc       - -
+20 para          para         SP      SP  pos=adposition|type=preposition                                                  - - (grup-sp:20(prep:20)               1  modnomatch - -
+21 nada          nada         PI0CS00 PI  pos=pronoun|type=indefinite|gen=common|num=singular                              - - (sn:21(pron-ms:21(pindef-ms:21)))) 20 comp       - -
+22 si            si           CS      CS  pos=conjunction|type=subordinating                                               - - (subord:22                         1  modnomatch - -
+23 falta         faltar       VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular           - - (grup-verb:23(verb:23)             22 comp       - -
+24 ella          él           PP3FS00 PP  pos=pronoun|type=personal|person=3|gen=feminine|num=singular                     - - (sn:24(pron-fs:24(psubj-fs:24))))  23 modnomatch - -
+25 .             .            Fp      Fp  pos=punctuation|type=period                                                      - - (F-term:25)))                      22 punc       - -
+

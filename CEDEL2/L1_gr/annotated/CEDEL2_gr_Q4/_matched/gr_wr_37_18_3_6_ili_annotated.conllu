@@ -1,0 +1,18 @@
+1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	lo	el	DA00S0	DA	matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	vi	ver	VMIS1S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	6	subj	_	_
+6	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+7	suficiente	suficiente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	attr	_	_
+8	para	para	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+9	convencerme	convencerme	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+11	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	comp	_	_
+12	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+13	segunda	2	AO0FS00	AO	gen=feminine|matched=no|num=singular|pos=adjective|type=ordinal	14	mod	_	_
+14	visita	visita	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	subj	_	_
+15	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	11	comp	_	_
+16	necesaria	necesario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	15	attr	_	_
+17	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	9	punc	_	_
+

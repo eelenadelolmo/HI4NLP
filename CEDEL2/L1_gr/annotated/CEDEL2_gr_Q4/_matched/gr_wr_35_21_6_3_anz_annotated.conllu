@@ -1,0 +1,71 @@
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	verdad	verdad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	attr	_	_
+5	algunas	alguno	PI0FP00	PI	gen=feminine|matched=no|num=plural|pos=pronoun|type=indefinite	6	subj	_	_
+6	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	4	comp	_	_
+7	mejores	mejor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	6	attr	_	_
+8	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	modnomatch	_	_
+9	otros	otro	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	10	coor	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+11	algunas	alguno	PI0FP00	PI	gen=feminine|matched=no|num=plural|pos=pronoun|type=indefinite	12	modnomatch	_	_
+12	peores	peor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	10	coor	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	mayoria	mayoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	buenas	bueno	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	7	subj	_	_
+6	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	7	aux	_	_
+7	contadas	contar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	0	top	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+2	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	3	spec	_	_
+3	modo	modo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+5	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
+6	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	pelicúla	pelicúla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	9	subj	_	_
+9	considero	considerar	VMIP1S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	12	subj	_	_
+10	muy	muy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	11	spec	_	_
+11	interesante	interesante	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	9	pred	_	_
+12	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+13	una	uno	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	12	attr	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+15	he	haber	VAIP1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=auxiliary	16	aux	_	_
+16	visto	ver	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	mod	_	_
+17	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	16	adjt	_	_
+18	dos	2	Z	Z	matched=no|pos=number	19	modnorule	_	_
+19	semanas	semana	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	17	modnomatch	_	_
+20	cuyo	cuyo	PR0MS00	PR	gen=masculine|matched=no|num=singular|pos=pronoun|type=relative	21	spec	_	_
+21	título	título	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	subj	_	_
+22	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	13	mod	_	_
+23	"	"	Fe	Fe	matched=no|pos=punctuation|type=quotation	12	punc	_	_
+24	Now	no_w	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	subj	_	_
+25	You	you	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	mod	_	_
+26	See	see	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	12	modnomatch	_	_
+27	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	26	mphes	_	_
+28	"	"	Fe	Fe	matched=no|pos=punctuation|type=quotation	12	punc	_	_
+29	¨	¨	Fz	Fz	matched=no|pos=punctuation|type=other	12	punc	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+2	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
+3	modo	modo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	5	spec	_	_
+5	cosas	cosa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	8	subj	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	surgen	surgir	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	mod	_	_
+8	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+9	inesperadas	inesperado	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	8	attr	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	¡	¡	Faa	Faa	matched=no|pos=punctuation|punctenclose=open|type=exclamationmark	3	punc	_	_
+2	Eso	ese	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	todo	todo	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	3	attr	_	_
+5	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	3	punc	_	_
+

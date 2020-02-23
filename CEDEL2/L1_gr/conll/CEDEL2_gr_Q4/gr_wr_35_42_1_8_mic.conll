@@ -1,0 +1,25 @@
+1  Asi         as_i        NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-verb:9(sn:1(grup-nom-ms:1(n-ms:1))               9  subj       - -
+2  ,           ,           Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:2))                                                1  punc       - -
+3  como        como        CS      CS  pos=conjunction|type=subordinating                                              - - (subord:3                                              9  adjt       - -
+4  es          ser         VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:4(verb:4)                                   3  comp       - -
+5  necesario   necesario   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:5(s-a-ms:5(a-ms:5)))                            4  attr       - -
+6  combatir    combatir    VMN0000 VMN pos=verb|type=main|mood=infinitive                                              - - (grup-verb-inf:6(infinitiu:6(inf:6(forma-inf:6)))      4  modnomatch - -
+7  el          el          DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:8(espec-ms:7(j-ms:7))                              8  spec       - -
+8  terrorismo  terrorismo  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:8(n-ms:8))))))                            6  dobj       - -
+9  es          ser         VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:9)                                               0  top        - -
+10 tambien     tambien     VMSP3P0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=plural           - - (grup-verb:10(verb:10)                                 9  modnomatch - -
+11 conveniente conveniente AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-adj:11(s-a-ms:11(a-ms:11)))                         10 modnomatch - -
+12 apoyar      apoyar      VMN0000 VMN pos=verb|type=main|mood=infinitive                                              - - (grup-verb-inf:12(infinitiu:12(inf:12(forma-inf:12)))) 10 dobj       - -
+13 organismos  organismo   NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (coor-n:18(sn:13(grup-nom-mp:13(n-mp:13)               18 coor       - -
+14 encargados  encargar    VMP00PM VMP pos=verb|type=main|mood=participle|num=plural|gen=masculine                     - - (s-a-mp:14(parti-mp:14)))                              13 mod        - -
+15 de          de          SP      SP  pos=adposition|type=preposition                                                 - - (sp-de:15                                              13 mod        - -
+16 la          el          DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                           - - (sn:17(espec-fs:16(j-fs:16))                           17 spec       - -
+17 promocion   promocion   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:17(n-fs:17)))))                           15 comp       - -
+18 y           y           CC      CC  pos=conjunction|type=coordinating                                               - - -                                                      10 modnomatch - -
+19 defensa     defensa     NCCS000 NC  pos=noun|type=common|gen=common|num=singular                                    - - (sn:19(grup-nom-ms:19(n-ms:19))                        18 coor       - -
+20 de          de          SP      SP  pos=adposition|type=preposition                                                 - - (sp-de:20                                              19 mod        - -
+21 los         el          DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                            - - (sn:22(espec-mp:21(j-mp:21))                           22 spec       - -
+22 derechos    derecho     NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (grup-nom-mp:22(n-mp:22)                               20 comp       - -
+23 humanos     humano      AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural                       - - (s-a-mp:23(a-mp:23)))))))                              22 mod        - -
+24 .           .           Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:24)))                                          10 punc       - -
+

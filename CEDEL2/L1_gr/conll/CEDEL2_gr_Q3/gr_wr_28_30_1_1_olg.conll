@@ -1,0 +1,14 @@
+1  En            en            SP      SP  pos=adposition|type=preposition                                                 - - (prep:1                                 0  top        - -
+2  fine          finar         VMSP3S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=singular         - - (grup-verb:2(verb:2)                    1  modnorule  - -
+3  ,             ,             Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:3))                                 2  punc       - -
+4  Salonica      salonica      AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                      - - (grup-verb:5(s-adj:4(s-a-fs:4(a-fs:4))) 5  attr       - -
+5  es            ser           VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:5)                                1  modnorule  - -
+6  una           uno           DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (sn:7(espec-fs:6(indef-fs:6))           7  spec       - -
+7  ciudad        ciudad        NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:7(n-fs:7))))               5  modnomatch - -
+8  cosmopolitica cosmopolitica VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:8(verb:8))                   1  modnorule  - -
+9  ,             ,             Fc      Fc  pos=punctuation|type=comma                                                      - - (coor-sa:11(Fc:9)                       11 punc       - -
+10 acogedora     acogedor      AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                      - - (s-adj:10(s-a-fs:10(a-fs:10)))          11 coor       - -
+11 y             y             CC      CC  pos=conjunction|type=coordinating                                               - - -                                       1  modnorule  - -
+12 multicolor    multicolor    AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-adj:12(s-a-ms:12(a-ms:12))))         11 coor       - -
+13 .             .             Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:13))                            1  modnorule  - -
+
