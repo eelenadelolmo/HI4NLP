@@ -212,7 +212,7 @@ def main(argv):
     order_option = 'PRECEDING'
 
     try:
-        opts, args = getopt.getopt(argv, "hirp:o:", ["idir=", "odir=", "rfile=", "pos="])
+        opts, args = getopt.getopt(argv, "hi:r:p:o::", ["idir=", "odir=", "rfile=", "pos="])
 
     except getopt.GetoptError:
         print('transformer_conllu.py -i <inputfile> -o <outputfile> -r <rulesfile> -c <orderOption>')
