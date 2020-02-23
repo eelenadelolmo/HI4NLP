@@ -1,0 +1,38 @@
+1  Penelope penelope RG      RG  pos=adverb|type=general                                                         - - (coor-vb:6(grup-verb:3(sadv:1) 3 adjt - -
+2  Cruz     cruz     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:2(grup-nom-fs:2(n-fs:2)))  3 subj - -
+3  tiene    tener    VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (verb:3)                       6 coor - -
+4  pelo     pelo     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:4(grup-nom-ms:4(n-ms:4)    3 dobj - -
+5  marrón   marrón   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:5(a-ms:5)))))          4 mod  - -
+6  y        y        CC      CC  pos=conjunction|type=coordinating                                               - - -                              0 top  - -
+7  es       ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:7(verb:7)           6 coor - -
+8  muy      muy      RG      RG  pos=adverb|type=general                                                         - - (s-adj:9(sadv:8)               9 spec - -
+9  bonito   bonito   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:9(a-ms:9))))           7 attr - -
+10 .        .        Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:10))                   6 punc - -
+
+1 Ella        él         PP3FS00 PP  pos=pronoun|type=personal|person=3|gen=feminine|num=singular                    - - (grup-verb:2(sn:1(pron-fs:1(psubj-fs:1))) 2 subj       - -
+2 es          ser        VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                                  0 top        - -
+3 agente      agente     NCCS000 NC  pos=noun|type=common|gen=common|num=singular                                    - - (sn:3(grup-nom-ms:3(n-ms:3)))             2 attr       - -
+4 en          en         SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:4(prep:4)                        2 adjt       - -
+5 muchas      mucho      DI0FP0  DI  pos=determiner|type=indefinite|gen=feminine|num=plural                          - - (sn:6(espec-fp:5(indef-fp:5))             6 spec       - -
+6 películas   película   NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                                    - - (grup-nom-fp:6(n-fp:6))))                 4 comp       - -
+7 y           y          CC      CC  pos=conjunction|type=coordinating                                               - - (coor-n:7                                 2 modnomatch - -
+8 trabajadora trabajador NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:8(grup-nom-fs:8(n-fs:8))))            7 coor       - -
+9 .           .          Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:9))                               2 punc       - -
+
+1  En_vez_de en_vez_de SP      SP  pos=adposition|type=preposition                                                 - - (grup-verb:5(grup-sp-inf:1(prep:1)            5  adjt       - -
+2  ser       ser       VSN0000 VSN pos=verb|type=semiauxiliary|mood=infinitive                                     - - (grup-verb-inf:2(infinitiu:2(infaux-ser:2)))) 1  comp       - -
+3  alta      alto      AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                      - - (s-adj:3(s-a-fs:3(a-fs:3)))                   5  attr       - -
+4  ella      él        PP3FS00 PP  pos=pronoun|type=personal|person=3|gen=feminine|num=singular                    - - (sn:4(pron-fs:4(psubj-fs:4)))                 5  subj       - -
+5  es        ser       VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:5)                                      0  top        - -
+6  una       uno       DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (coor-n:10(sn:7(espec-fs:6(indef-fs:6))       7  spec       - -
+7  persona   persona   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:7(n-fs:7))                       10 coor       - -
+8  muy       muy       RG      RG  pos=adverb|type=general                                                         - - (s-adj:9(sadv:8)                              9  spec       - -
+9  corta     corto     AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                      - - (s-a-fs:9(a-fs:9))))                          7  mod        - -
+10 y         y         CC      CC  pos=conjunction|type=coordinating                                               - - -                                             5  modnomatch - -
+11 ella      él        PP3FS00 PP  pos=pronoun|type=personal|person=3|gen=feminine|num=singular                    - - (sn:11(pron-fs:11(psubj-fs:11))))             10 coor       - -
+12 tiene     tener     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:12(verb:12)                        5  modnomatch - -
+13 ojos      ojo       NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (sn:13(grup-nom-mp:13(n-mp:13)                12 dobj       - -
+14 marrones  marrón    AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural                       - - (s-a-mp:14(a-mp:14)))                         13 mod        - -
+15 hermosos  hermoso   AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural                       - - (s-adj:15(s-a-mp:15(a-mp:15))))               13 mod        - -
+16 .         .         Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:16)))                                 12 punc       - -
+

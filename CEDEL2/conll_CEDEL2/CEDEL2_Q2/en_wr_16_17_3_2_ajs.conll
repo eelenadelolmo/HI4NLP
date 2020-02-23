@@ -1,0 +1,125 @@
+1 Me    me     PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular                      - - (grup-verb:2(patons:1(paton-s:1)) 2 mphes      - -
+2 llama llamar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:2(verb:2))             0 top        - -
+3 es    ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:3(verb:3)              2 modnomatch - -
+4 Drew  drew   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:4(grup-nom-ms:4(n-ms:4)))     3 attr       - -
+5 .     .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:5)))                      3 punc       - -
+
+1 Yo   yo   PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative      - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj       - -
+2 soy  ser  VSIP1S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=1|num=singular - - (verb:2)                              0 top        - -
+3 es   ser  VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:3(verb:3)                  2 modnomatch - -
+4 alto alto AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:4(s-a-ms:4(a-ms:4)))           3 attr       - -
+5 .    .    Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:5)))                          3 punc       - -
+
+1 Yo    yo    PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative      - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj       - -
+2 soy   ser   VSIP1S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=1|num=singular - - (verb:2)                              0 top        - -
+3 es    ser   VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:3(verb:3)                  2 modnomatch - -
+4 rubio rubio AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:4(s-a-ms:4(a-ms:4)))           3 attr       - -
+5 .     .     Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:5)))                          3 punc       - -
+
+1 Yo    yo    PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj - -
+2 tengo tener VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:2)                              0 top  - -
+3 un    uno   DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                  - - (sn:4(espec-ms:3(indef-ms:3))         4 spec - -
+4 perro perro NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (grup-nom-ms:4(n-ms:4)))              2 dobj - -
+5 .     .     Fp      Fp  pos=punctuation|type=period                                                - - (F-term:5))                           2 punc - -
+
+1 Un    uno    DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                       - - (grup-verb:3(sn:2(espec-ms:1(indef-ms:1)) 2 spec       - -
+2 perro perro  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:2(n-ms:2)))                  3 subj       - -
+3 llama llamar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (verb:3)                                  0 top        - -
+4 es    ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:4(verb:4)                      3 modnomatch - -
+5 Bo    b_o    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:5(grup-nom-fs:5(n-fs:5)))             4 attr       - -
+6 .     .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:6)))                              4 punc       - -
+
+1 Yo      yo      PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj - -
+2 tengo   tener   VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:2)                              0 top  - -
+3 a       a       SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:3(prep:3)                    2 dobj - -
+4 hermana hermano NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (sn:4(grup-nom-fs:4(n-fs:4))))        3 comp - -
+5 .       .       Fp      Fp  pos=punctuation|type=period                                                - - (F-term:5))                           2 punc - -
+
+1 Mi      mi              DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (grup-verb:3(sn:2(espec-fs:1(pos-fs:1)) 2 spec       - -
+2 hermana hermano         NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:2(n-fs:2)))                3 subj       - -
+3 llama   llamar          VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular                - - (verb:3)                                0 top        - -
+4 es      ser             VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (grup-verb:4(verb:4)                    3 modnomatch - -
+5 Claire  centilitro_aire NCMN000 NC  pos=noun|type=common|gen=masculine|num=invariable                                     - - (sn:5(grup-nom-ms:5(n-ms:5)))           4 attr       - -
+6 .       .               Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:6)))                            4 punc       - -
+
+1 Yo     yo    PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj - -
+2 tengo  tener VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:2)                              0 top  - -
+3 padres padre NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                              - - (sn:3(grup-nom-mp:3(n-mp:3)))         2 dobj - -
+4 .      .     Fp      Fp  pos=punctuation|type=period                                                - - (F-term:4))                           2 punc - -
+
+1 Los    el     DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                            - - (grup-verb:3(sn:2(espec-mp:1(j-mp:1)) 2 spec       - -
+2 padres padre  NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (grup-nom-mp:2(n-mp:2)))              3 subj       - -
+3 llama  llamar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (verb:3)                              0 top        - -
+4 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:4(verb:4)                  3 modnomatch - -
+5 Pam    pam    NCMN000 NC  pos=noun|type=common|gen=masculine|num=invariable                               - - (sn:5(grup-nom-ms:5(n-ms:5)           4 attr       - -
+6 and    and    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (n-ms:6)))                            5 mod        - -
+7 Jeff   jeff   NCMN000 NC  pos=noun|type=common|gen=masculine|num=invariable                               - - (sn:7(grup-nom-ms:7(n-ms:7)))         4 modnomatch - -
+8 .      .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:8)))                          4 punc       - -
+
+1 Yo      yo      PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj       - -
+2 vivo    vivir   VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:2)                              0 top        - -
+3 un      uno     DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                  - - (espec-ms:3(indef-ms:3))              2 modnomatch - -
+4 casa    casa    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (sn:4(grup-nom-fs:4(n-fs:4)))         2 dobj       - -
+5 en      en      SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:5(prep:5)                    2 pobj       - -
+6 Clark's clark's NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                              - - (sn:6(grup-nom-mp:6(n-mp:6))))        5 comp       - -
+7 HIll    hill    I       I   pos=interjection                                                           - - (interjeccio:7)                       2 adjt       - -
+8 .       .       Fp      Fp  pos=punctuation|type=period                                                - - (F-term:8))                           2 punc       - -
+
+1 Mi     mi     DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (grup-verb:3(sn:2(espec-fs:1(pos-fs:1)) 2 spec - -
+2 casa   casa   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:2(n-fs:2)))                3 subj - -
+3 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (verb:3)                                0 top  - -
+4 grande grande AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                              - - (s-adj:4(s-a-ms:4(a-ms:4)))             3 attr - -
+5 .      .      Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:5))                             3 punc - -
+
+1 Nosostros  no_ostro   NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                        - - (grup-verb:2(sn:1(grup-nom-mp:1(n-mp:1))) 2 subj       - -
+2 tenemos    tener      VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural - - (verb:2)                                  0 top        - -
+3 un         uno        DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular            - - (espec-ms:3(indef-ms:3))                  2 modnomatch - -
+4 television television NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                       - - (sn:4(grup-nom-fs:4(n-fs:4))              2 dobj       - -
+5 .          .          Fp      Fp  pos=punctuation|type=period                                          - - (F-term:5)))                              4 punc       - -
+
+1 Nosostros  no_ostro   NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                        - - (grup-verb:2(sn:1(grup-nom-mp:1(n-mp:1))) 2 subj       - -
+2 vemos      ver        VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural - - (verb:2)                                  0 top        - -
+3 un         uno        DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular            - - (espec-ms:3(indef-ms:3))                  2 modnomatch - -
+4 television television NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                       - - (sn:4(grup-nom-fs:4(n-fs:4))              2 dobj       - -
+5 .          .          Fp      Fp  pos=punctuation|type=period                                          - - (F-term:5)))                              4 punc       - -
+
+1 Yo         yo         PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj - -
+2 veo        ver        VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:2)                              0 top  - -
+3 un         uno        DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                  - - (sn:4(espec-ms:3(indef-ms:3))         4 spec - -
+4 basquetbol basquetbol NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (grup-nom-ms:4(n-ms:4)))              2 dobj - -
+5 .          .          Fp      Fp  pos=punctuation|type=period                                                - - (F-term:5))                           2 punc - -
+
+1 Yo         yo         PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj       - -
+2 gusta      gustar     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular     - - (verb:2)                              0 top        - -
+3 un         uno        DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                  - - (sn:4(espec-ms:3(indef-ms:3))         4 spec       - -
+4 basquetbol basquetbol NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (grup-nom-ms:4(n-ms:4)))              2 modnomatch - -
+5 .          .          Fp      Fp  pos=punctuation|type=period                                                - - (F-term:5))                           2 punc       - -
+
+1 Un           uno           DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                       - - (grup-verb:3(sn:2(espec-ms:1(indef-ms:1)) 2 spec - -
+2 basquetbol   basquetbol    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:2(n-ms:2)))                  3 subj - -
+3 es           ser           VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                                  0 top  - -
+4 muy          muy           RG      RG  pos=adverb|type=general                                                         - - (s-adj:5(sadv:4)                          5 spec - -
+5 interestante inter_estante AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-a-ms:5(a-ms:5)))                       3 attr - -
+6 .            .             Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:6))                               3 punc - -
+
+1 Yo         yo         PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj - -
+2 jugue      jugue      VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular     - - (verb:2)                              0 top  - -
+3 basquetbol basquetbol NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:3(grup-nom-ms:3(n-ms:3)))         2 dobj - -
+4 .          .          Fp      Fp  pos=punctuation|type=period                                                - - (F-term:4))                           2 punc - -
+
+1 Lebron lebron VMIS3P0 VMI pos=verb|type=main|mood=indicative|tense=past|person=3|num=plural               - - (grup-verb:1(verb:1)  0 top        - -
+2 James  jamar  VMSP2S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=2|num=singular         - - (grup-verb:2(verb:2)) 1 modnomatch - -
+3 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:3(verb:3)  1 modnomatch - -
+4 muy    muy    RG      RG  pos=adverb|type=general                                                         - - (s-adj:5(sadv:4)      5 spec       - -
+5 bueno  bueno  AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:5(a-ms:5)))   3 attr       - -
+6 .      .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:6)))          3 punc       - -
+
+1 Lebron    lebron    VMIS3P0 VMI pos=verb|type=main|mood=indicative|tense=past|person=3|num=plural       - - (grup-verb:1(verb:1)        0 top        - -
+2 James     jamar     VMSP2S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=2|num=singular - - (grup-verb:2(verb:2))       1 modnomatch - -
+3 juega     jugar     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular  - - (grup-verb:3(verb:3))       1 modnomatch - -
+4 para      para      SP      SP  pos=adposition|type=preposition                                         - - (prep:4)                    1 modnomatch - -
+5 la        el        DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                   - - (espec-fs:5(j-fs:5))        1 modnomatch - -
+6 Cleveland cleveland NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                         - - (sn:6(grup-nom-ms:6(n-ms:6) 1 dobj       - -
+7 Cavaliers cavaliers NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                           - - (n-mp:7))                   6 mod        - -
+8 .         .         Fp      Fp  pos=punctuation|type=period                                             - - (F-term:8)))                6 punc       - -
+

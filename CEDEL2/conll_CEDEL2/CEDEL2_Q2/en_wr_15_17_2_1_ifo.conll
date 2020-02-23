@@ -1,0 +1,98 @@
+1  Soy     ser     VSIP1S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=1|num=singular - - (grup-verb:1(verb:1)           0 top        - -
+2  de      de      SP      SP  pos=adposition|type=preposition                                                 - - (sp-de:2                       1 attr       - -
+3  Decatur decatur NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:3(grup-nom-ms:3(n-ms:3)))) 2 comp       - -
+4  ,       ,       Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:4)                         1 punc       - -
+5  un      uno     DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                       - - (espec-ms:5(indef-ms:5))       1 modnomatch - -
+6  poco    poco    RG      RG  pos=adverb|type=general                                                         - - (sadv:6)                       1 adjt       - -
+7  ciudad  ciudad  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:7(grup-nom-fs:7(n-fs:7)))  1 modnomatch - -
+8  en      en      SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:8(prep:8)             1 adjt       - -
+9  Georgia georgia NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:9(grup-nom-fs:9(n-fs:9)))  8 comp       - -
+10 .       .       Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:10)))                  8 punc       - -
+
+1  En              en                   SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:1(prep:1)             0  top        - -
+2  el              el                   DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (data:3(espec-ms:2(j-ms:2))    3  spec       - -
+3  cuatro_de_julio [??:4/7/??:??.??:??] W       W   pos=date                                                               - - )                              1  comp       - -
+4  ,               ,                    Fc      Fc  pos=punctuation|type=comma                                             - - (Fc:4)                         1  punc       - -
+5  esta            este                 DD0FS0  DD  pos=determiner|type=demonstrative|gen=feminine|num=singular            - - (espec-fs:5(dem-fs:5))         1  comp       - -
+6  la              el                   DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                  - - (sn:7(espec-fs:6(j-fs:6))      7  spec       - -
+7  celebracion     celebracion          NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (grup-nom-fs:7(n-fs:7)))       1  comp       - -
+8  con             con                  SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:8(prep:8)             1  comp       - -
+9  fireworks       fireworks            NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                          - - (sn:9(grup-nom-mp:9(n-mp:9)))) 8  comp       - -
+10 ,               ,                    Fc      Fc  pos=punctuation|type=comma                                             - - (coor-vb:11(Fc:10)             11 punc       - -
+11 y               y                    CC      CC  pos=conjunction|type=coordinating                                      - - -                              1  modnomatch - -
+12 musica          musicar              VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:12(verb:12)))       11 coor       - -
+13 .               .                    Fp      Fp  pos=punctuation|type=period                                            - - (F-term:13))                   1  punc       - -
+
+1 Hay          haber       VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)          0 top  - -
+2 muchos       mucho       DI0MP0  DI  pos=determiner|type=indefinite|gen=masculine|num=plural                - - (sn:3(espec-mp:2(indef-mp:2)) 3 spec - -
+3 restaurantes restaurante NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                          - - (grup-nom-mp:3(n-mp:3)))      1 dobj - -
+4 .            .           Fp      Fp  pos=punctuation|type=period                                            - - (F-term:4))                   1 punc - -
+
+1  El           el          DA0MS0  DA pos=determiner|type=article|gen=masculine|num=singular       - - (espec-ms:1(j-ms:1)            0 top        - -
+2  restaurantes restaurante NCMP000 NC pos=noun|type=common|gen=masculine|num=plural                - - (sn:2(grup-nom-mp:2(n-mp:2))   1 modnomatch - -
+3  este         este        DD0MS0  DD pos=determiner|type=demonstrative|gen=masculine|num=singular - - (s-adj:5(espec-ms:3(dem-ms:3)) 5 spec       - -
+4  muy          muy         RG      RG pos=adverb|type=general                                      - - (sadv:4)                       5 spec       - -
+5  caro         caro        AQ0MS00 AQ pos=adjective|type=qualificative|gen=masculine|num=singular  - - (s-a-ms:5(a-ms:5))))           2 mod        - -
+6  ,            ,           Fc      Fc pos=punctuation|type=comma                                   - - (coor-sa:7(Fc:6)               7 punc       - -
+7  pero         pero        CC      CC pos=conjunction|type=coordinating                            - - -                              1 modnomatch - -
+8  muy          muy         RG      RG pos=adverb|type=general                                      - - (s-adj:9(sadv:8)               9 spec       - -
+9  delicioso    delicioso   AQ0MS00 AQ pos=adjective|type=qualificative|gen=masculine|num=singular  - - (s-a-ms:9(a-ms:9))))           7 coor       - -
+10 .            .           Fp      Fp pos=punctuation|type=period                                  - - (F-term:10))                   1 modnomatch - -
+
+1  El         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (grup-verb:7(sn:2(espec-ms:1(j-ms:1)) 2 spec - -
+2  café       café       NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:2(n-ms:2)))              7 subj - -
+3  con        con        SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:3(prep:3)                    7 adjt - -
+4  leche      leche      NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:4(grup-nom-fs:4(n-fs:4))))        3 comp - -
+5  en         en         SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:5(prep:5)                    7 adjt - -
+6  JavaMonkey javamonkey NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:6(grup-nom-ms:6(n-ms:6))))        5 comp - -
+7  es         ser        VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:7)                              0 top  - -
+8  muy        muy        RG      RG  pos=adverb|type=general                                                         - - (sadv:8)                              7 adjt - -
+9  bien       bien       RG      RG  pos=adverb|type=general                                                         - - (sadv:9)                              7 adjt - -
+10 .          .          Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:10))                          7 punc - -
+
+1 Hay      haber   VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)          0 top        - -
+2 muchas   mucho   DI0FP0  DI  pos=determiner|type=indefinite|gen=feminine|num=plural                 - - (sn:3(espec-fp:2(indef-fp:2)) 3 spec       - -
+3 personas persona NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                           - - (grup-nom-fp:3(n-fp:3)))      1 dobj       - -
+4 con      con     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:4(prep:4)            1 adjt       - -
+5 caro     caro    AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular            - - (s-a-ms:5(a-ms:5)))           4 comp       - -
+6 coches   coche   NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                          - - (sn:6(grup-nom-mp:6(n-mp:6))) 1 modnomatch - -
+7 .        .       Fp      Fp  pos=punctuation|type=period                                            - - (F-term:7))                   1 punc       - -
+
+1 El          el           DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:2(espec-ms:1(j-ms:1))             2 spec - -
+2 restaurante restaurante  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:2(n-ms:2))               0 top  - -
+3 donde       donde        PR00000 PR  pos=pronoun|type=relative                                                       - - (relativa:5(relatiu-sn:3)             5 adjt - -
+4 trabajadoro trabajador_o NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:4(grup-nom-ms:4(n-ms:4)))         5 subj - -
+5 es          ser          VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:5))                             2 mod  - -
+6 amarillo    amarillo     AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (coor-sa:7(s-adj:6(s-a-ms:6(a-ms:6))) 7 coor - -
+7 y           y            CC      CC  pos=conjunction|type=coordinating                                               - - -                                     2 mod  - -
+8 azul        azul         AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-adj:8(s-a-ms:8(a-ms:8))))          7 coor - -
+9 .           .            Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:9))                           2 punc - -
+
+1 Esta   este   DD0FS0  DD pos=determiner|type=demonstrative|gen=feminine|num=singular - - (espec-fs:1(dem-fs:1)         0 top        - -
+2 muchos mucho  DI0MP0  DI pos=determiner|type=indefinite|gen=masculine|num=plural     - - (espec-mp:2(indef-mp:2))      1 modnomatch - -
+3 árbol  árbol  NCMS000 NC pos=noun|type=common|gen=masculine|num=singular             - - (sn:3(grup-nom-ms:3(n-ms:3))) 1 modnomatch - -
+4 en     en     SP      SP pos=adposition|type=preposition                             - - (grup-sp:4(prep:4)            1 modnomatch - -
+5 el     el     DA0MS0  DA pos=determiner|type=article|gen=masculine|num=singular      - - (sn:6(espec-ms:5(j-ms:5))     6 spec       - -
+6 parque parque NCMS000 NC pos=noun|type=common|gen=masculine|num=singular             - - (grup-nom-ms:6(n-ms:6)))      4 comp       - -
+7 .      .      Fp      Fp pos=punctuation|type=period                                 - - (F-term:7)))                  4 punc       - -
+
+1  En         en         SP      SP  pos=adposition|type=preposition                                         - - (grup-verb:6(grup-sp:1(prep:1)         6  adjt       - -
+2  el         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                  - - (sn:3(espec-ms:2(j-ms:2))              3  spec       - -
+3  ontono     ontono     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                         - - (grup-nom-ms:3(n-ms:3)))               1  comp       - -
+4  ,          ,          Fc      Fc  pos=punctuation|type=comma                                              - - (Fc:4)                                 1  punc       - -
+5  el         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                  - - (espec-ms:5(j-ms:5)))                  1  comp       - -
+6  arboles    arbolar    VMSP2S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=2|num=singular - - (verb:6)                               0  top        - -
+7  estan      estan      VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural    - - (grup-verb:7(verb:7))                  6  modnomatch - -
+8  rojo       rojo       AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular             - - (coor-sa:12(s-adj:8(s-a-ms:8(a-ms:8))) 12 coor       - -
+9  ,          ,          Fc      Fc  pos=punctuation|type=comma                                              - - (Fc:9)                                 12 punc       - -
+10 amarillo   amarillo   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular             - - (s-adj:10(s-a-ms:10(a-ms:10)))         12 coor       - -
+11 ,          ,          Fc      Fc  pos=punctuation|type=comma                                              - - (Fc:11)                                12 punc       - -
+12 y          y          CC      CC  pos=conjunction|type=coordinating                                       - - -                                      6  modnomatch - -
+13 anaranjado anaranjado AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular             - - (s-adj:13(s-a-ms:13(a-ms:13))))        12 coor       - -
+14 .          .          Fp      Fp  pos=punctuation|type=period                                             - - (F-term:14))                           6  punc       - -
+
+1 Esta      este       PD0FS00 PD  pos=pronoun|type=demonstrative|gen=feminine|num=singular               - - (grup-verb:3(sn:1(pron-fs:1(pdem-fs:1))) 3 subj - -
+2 muy       muy        RG      RG  pos=adverb|type=general                                                - - (sadv:2)                                 3 adjt - -
+3 magnifico magnificar VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular - - (verb:3)                                 0 top  - -
+4 .         .          Fp      Fp  pos=punctuation|type=period                                            - - (F-term:4))                              3 punc - -
+

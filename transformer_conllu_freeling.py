@@ -57,14 +57,10 @@ def conllu_freeling_transformer(file_conll, file_conllu):
     nf.write(conll.conll())
 
 
-
-
-
-
 def main(argv):
 
-    inputdir = 'conll_freeling/'
-    outputdir = 'conllu_freeling/'
+    inputdir = 'CEDEL2/conll_CEDEL2/CEDEL2_Q1/'
+    outputdir = 'CEDEL2/conllu/CEDEL2_Q1/'
 
     try:
         opts, args = getopt.getopt(argv, "hi:o:", ["idir=", "odir="])

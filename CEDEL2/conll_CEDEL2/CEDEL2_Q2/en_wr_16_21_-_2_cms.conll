@@ -1,0 +1,43 @@
+1 Una        uno        DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (grup-verb:4(sn:2(espec-fs:1(indef-fs:1)) 2 spec - -
+2 persona    persona    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:2(n-fs:2)                    4 subj - -
+3 famosa     famoso     AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                      - - (s-a-fs:3(a-fs:3))))                      2 mod  - -
+4 es         ser        VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:4)                                  0 top  - -
+5 el         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:6(espec-ms:5(j-ms:5))                 6 spec - -
+6 presidente presidente NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:6(n-ms:6)))                  4 attr - -
+7 .          .          Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:7))                               4 punc - -
+
+1 Su     su     DP3CSN  DP  pos=determiner|type=possessive|person=3|gen=common|num=singular|possessornum=invariable - - (grup-verb:4(sn:2(espec-ms:1(pos-ms:1)) 2 spec - -
+2 nombre nombre NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                         - - (grup-nom-ms:2(n-ms:2)                  4 subj - -
+3 is     i      NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                                            - - (n-fp:3)))                              2 mod  - -
+4 George george VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular                  - - (verb:4)                                0 top  - -
+5 Bush   bus_h  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                         - - (sn:5(grup-nom-ms:5(n-ms:5)))           4 dobj - -
+6 .      .      Fp      Fp  pos=punctuation|type=period                                                             - - (F-term:6))                             4 punc - -
+
+1 El           el           DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (espec-ms:1(j-ms:1)                   0 top        - -
+2 es           ser          VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:2(verb:2))                 1 modnomatch - -
+3 no           no           RN      RN  pos=adverb|type=negative                                                        - - (neg:3)                               1 modnomatch - -
+4 joven        joven        AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (coor-sa:5(s-adj:4(s-a-ms:4(a-ms:4))) 5 coor       - -
+5 y            y            CC      CC  pos=conjunction|type=coordinating                                               - - -                                     1 modnomatch - -
+6 muy          muy          RG      RG  pos=adverb|type=general                                                         - - (s-adj:7(sadv:6)                      7 spec       - -
+7 extrovertido extrovertido AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:7(a-ms:7))))                  5 coor       - -
+8 .            .            Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:8))                           1 modnomatch - -
+
+1 George george VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)                                0 top        - -
+2 Bush   bus_h  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:2(grup-nom-ms:2(n-ms:2)))                       1 dobj       - -
+3 gusta  gustar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:3(verb:3)                                1 modnomatch - -
+4 hablar hablar VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (grup-verb-inf:4(infinitiu:4(inf:4(forma-inf:4))))) 3 modnomatch - -
+5 y      y      CC      CC  pos=conjunction|type=coordinating                                      - - (coor-sa:5                                          1 modnomatch - -
+6 alto   alto   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular            - - (s-adj:6(s-a-ms:6(a-ms:6))))                        5 coor       - -
+7 .      .      Fp      Fp  pos=punctuation|type=period                                            - - (F-term:7))                                         1 punc       - -
+
+1  Su      su      DP3CSN  DP  pos=determiner|type=possessive|person=3|gen=common|num=singular|possessornum=invariable - - (grup-verb:4(sn:2(espec-fs:1(pos-fs:1)) 2 spec       - -
+2  esposa  esposo  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                          - - (grup-nom-fs:2(n-fs:2)                  4 subj       - -
+3  nombre  nombre  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                         - - (n-ms:3)))                              2 mod        - -
+4  es      ser     VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular         - - (verb:4)                                0 top        - -
+5  Hilary  hilary  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                         - - (coor-n:6(sn:5(grup-nom-ms:5(n-ms:5)))  6 coor       - -
+6  y       y       CC      CC  pos=conjunction|type=coordinating                                                       - - -                                       4 attr       - -
+7  una     uno     DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                                - - (sn:8(espec-fs:7(indef-fs:7))           8 spec       - -
+8  hija    hijo    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                          - - (grup-nom-fs:8(n-fs:8))))               6 coor       - -
+9  Chelsea chelsea VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular                  - - (grup-verb:9(verb:9)                    4 modnomatch - -
+10 .       .       Fp      Fp  pos=punctuation|type=period                                                             - - (F-term:10)))                           9 punc       - -
+

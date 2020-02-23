@@ -1,0 +1,42 @@
+1  Yo      yo      PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative      - - (grup-verb:4(sn:1(pron:1(psubj-s:1))) 4  subj       - -
+2  voy     ir      VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular          - - (verb:4                               4  prt        - -
+3  a       a       SP      SP  pos=adposition|type=preposition                                                 - - -                                     4  prt        - -
+4  hablar  hablar  VMN0000 VMN pos=verb|type=main|mood=infinitive                                              - - (infinitiu:4(inf:4(forma-inf:4))))    0  top        - -
+5  acera   acera   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:5(grup-nom-fs:5(n-fs:5)))         4  dobj       - -
+6  una     uno     DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (sn:7(espec-fs:6(indef-fs:6))         7  spec       - -
+7  persona persona NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:7(n-fs:7))               4  modnomatch - -
+8  muy     muy     RG      RG  pos=adverb|type=general                                                         - - (s-adj:9(sadv:8)                      9  spec       - -
+9  famoso  famoso  AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:9(a-ms:9))))                  7  mod        - -
+10 ,       ,       Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:10)                               4  punc       - -
+11 el      el      DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (espec-ms:11(j-ms:11))                4  modnomatch - -
+12 es      ser     VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:12(verb:12)                4  modnomatch - -
+13 DJ      d_j     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:13(grup-nom-fs:13(n-fs:13)        12 attr       - -
+14 Krush   krush   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (n-ms:14)))                           13 mod        - -
+15 .       .       Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:15)))                         12 punc       - -
+
+1  Dj     d_j     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-verb:3(sn:1(grup-nom-fs:1(n-fs:1) 3 subj       - -
+2  Krush  krush   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (n-ms:2)))                              1 mod        - -
+3  es     ser     VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                                0 top        - -
+4  un     uno     DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                       - - (espec-ms:4(indef-ms:4))                3 modnomatch - -
+5  musico musicar VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular          - - (grup-verb:5(verb:5)                    3 modnomatch - -
+6  muy    muy     RG      RG  pos=adverb|type=general                                                         - - (s-adj:7(sadv:6)                        7 spec       - -
+7  famoso famoso  AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:7(a-ms:7)))                     5 modnomatch - -
+8  en     en      SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:8(prep:8)                      5 adjt       - -
+9  China  chino   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:9(grup-nom-fs:9(n-fs:9))))          8 comp       - -
+10 .      .       Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:10)))                           5 punc       - -
+
+1  La          lo          PP3FSA0 PP  pos=pronoun|type=personal|person=3|gen=feminine|num=singular|case=accusative    - - (coor-vb:10(grup-verb:2(patons:1(paton-fs:1)) 2  dobj  - -
+2  musica      musicar     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:2(verb:2)))                        10 coor  - -
+3  no          no          RN      RN  pos=adverb|type=negative                                                        - - (grup-verb:4(neg:3)                           4  spec  - -
+4  es          ser         VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:4)                                      10 coor  - -
+5  tradicional tradicional AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-adj:5(s-a-ms:5(a-ms:5))))                  4  attr  - -
+6  ,           ,           Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:6)                                        10 punc  - -
+7  es          ser         VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:7(verb:7)                          10 coor  - -
+8  edad        edad        NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:8(grup-nom-fs:8(n-fs:8))                  7  attr  - -
+9  nuevo       nuevo       AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:9(s-a-ms:9(a-ms:9)))))                 8  mod   - -
+10 y           y           CC      CC  pos=conjunction|type=coordinating                                               - - -                                             0  top   - -
+11 me          me          PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular                      - - (grup-verb:12(patons:11(paton-s:11))          12 mphes - -
+12 gusta       gustar      VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:12(verb:12))                       10 coor  - -
+13 mucho       mucho       RG      RG  pos=adverb|type=general                                                         - - (sadv:13))                                    12 adjt  - -
+14 .           .           Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:14))                                  10 punc  - -
+

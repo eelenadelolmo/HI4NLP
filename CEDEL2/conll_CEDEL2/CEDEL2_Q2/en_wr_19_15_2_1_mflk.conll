@@ -1,0 +1,180 @@
+1 Hola hola I  I  pos=interjection            - - (interjeccio:1 0 top  - -
+2 .    .    Fp Fp pos=punctuation|type=period - - (F-term:2))    1 punc - -
+
+1 Mi      mi      DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (espec-ms:1(pos-ms:1)       0 top        - -
+2 llamo   llamar  VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular                - - (grup-verb:2(verb:2)        1 modnomatch - -
+3 Michael michael NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:3(grup-nom-ms:3(n-ms:3) 2 dobj       - -
+4 Krenek  krenek  AQ0CN00 AQ  pos=adjective|type=qualificative|gen=common|num=invariable                            - - (s-a-ms:4(a-ms:4))))        3 mod        - -
+5 .       .       Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:5)))                2 punc       - -
+
+1  Yo      yo     PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj - -
+2  vivo    vivir  VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:2)                              0 top  - -
+3  in      i_n    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (sn:3(grup-nom-fs:3(n-fs:3)           2 dobj - -
+4  Estados estado NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                              - - (n-mp:4)))                            3 mod  - -
+5  Unidos  unir   VMP00PM VMP pos=verb|type=main|mood=participle|num=plural|gen=masculine                - - (subord-part:5(parti-mp:5)            2 pred - -
+6  en      en     SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:6(prep:6)                    5 adjt - -
+7  Orwell  orwell NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:7(grup-nom-ms:7(n-ms:7))))        6 comp - -
+8  de      de     SP      SP  pos=adposition|type=preposition                                            - - (sp-de:8                              5 adjt - -
+9  Ohio    ohio   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:9(grup-nom-ms:9(n-ms:9)))))       8 comp - -
+10 .       .      Fp      Fp  pos=punctuation|type=period                                                - - (F-term:10))                          2 punc - -
+
+1 Mi      mi      DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (grup-verb:3(sn:2(espec-fs:1(pos-fs:1)) 2 spec - -
+2 cidudad cidudad NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:2(n-fs:2)))                3 subj - -
+3 es      ser     VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (verb:3)                                0 top  - -
+4 no      no      RN      RN  pos=adverb|type=negative                                                              - - (neg:4)                                 3 spec - -
+5 grande  grande  AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                              - - (s-adj:5(s-a-ms:5(a-ms:5)))             3 attr - -
+6 .       .       Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:6))                             3 punc - -
+
+1 En       en       SP      SP pos=adposition|type=preposition                                                       - - (grup-sp:1(prep:1)               0 top  - -
+2 mi       mi       DP1CSS  DP pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (sn:3(espec-fs:2(pos-fs:2))      3 spec - -
+3 cidudad  cidudad  NCFS000 NC pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:3(n-fs:3)           1 comp - -
+4 tenamos  tena_mos NCFS000 NC pos=noun|type=common|gen=feminine|num=singular                                        - - (n-fs:4)))                       3 mod  - -
+5 un       uno      DI0MS0  DI pos=determiner|type=indefinite|gen=masculine|num=singular                             - - (s-adj:6(espec-ms:5(indef-ms:5)) 6 spec - -
+6 esculela esculela AQ0FS00 AQ pos=adjective|type=qualificative|gen=feminine|num=singular                            - - (s-a-fs:6(a-fs:6)))              1 comp - -
+7 grande   grande   AQ0CS00 AQ pos=adjective|type=qualificative|gen=common|num=singular                              - - (s-adj:7(s-a-ms:7(a-ms:7)))      1 comp - -
+8 .        .        Fp      Fp pos=punctuation|type=period                                                           - - (F-term:8))                      1 punc - -
+
+1  Mi        mi        DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (grup-verb:3(s-adj:2(espec-ms:1(pos-ms:1)) 2  spec       - -
+2  esculela  esculela  AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                            - - (s-a-fs:2(a-fs:2)))                        3  modnomatch - -
+3  quiere    querer    VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular                - - (verb:3)                                   0  top        - -
+4  un        uno       DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                             - - (coor-n:14(sn:5(espec-ms:4(indef-ms:4))    5  spec       - -
+5  futbol    futbol    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (grup-nom-ms:5(n-ms:5)                     14 coor       - -
+6  americano americano AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                           - - (s-a-ms:6(a-ms:6))))                       5  mod        - -
+7  ,         ,         Fc      Fc  pos=punctuation|type=comma                                                            - - (Fc:7)                                     14 punc       - -
+8  beisbol   beisbol   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:8(grup-nom-ms:8(n-ms:8)))              14 coor       - -
+9  ,         ,         Fc      Fc  pos=punctuation|type=comma                                                            - - (Fc:9)                                     14 punc       - -
+10 futbol    futbol    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:10(grup-nom-ms:10(n-ms:10)))           14 coor       - -
+11 ,         ,         Fc      Fc  pos=punctuation|type=comma                                                            - - (Fc:11)                                    14 punc       - -
+12 vollibol  vollibol  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:12(grup-nom-ms:12(n-ms:12)))           14 coor       - -
+13 ,         ,         Fc      Fc  pos=punctuation|type=comma                                                            - - (Fc:13)                                    14 punc       - -
+14 y         y         CC      CC  pos=conjunction|type=coordinating                                                     - - -                                          3  dobj       - -
+15 golf      golf      NCMN000 NC  pos=noun|type=common|gen=masculine|num=invariable                                     - - (sn:15(grup-nom-ms:15(n-ms:15))))          14 coor       - -
+16 .         .         Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:16))                               3  punc       - -
+
+1  El        el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (grup-verb:7(sn:2(espec-ms:1(j-ms:1)) 2  spec       - -
+2  futbol    futbol    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:2(n-ms:2)                7  subj       - -
+3  americano americano AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:3(a-ms:3)))                   2  mod        - -
+4  en        en        SP      SP  pos=adposition|type=preposition                                                 - - (prep:4)                              2  modnomatch - -
+5  el        el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (espec-ms:5(j-ms:5)))                 2  spec       - -
+6  escula    escula    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:6(grup-nom-fs:6(n-fs:6)))         7  modnomatch - -
+7  es        ser       VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:7)                              0  top        - -
+8  no        no        RN      RN  pos=adverb|type=negative                                                        - - (neg:8)                               7  spec       - -
+9  bueno     bueno     AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:9(s-a-ms:9(a-ms:9)))           7  attr       - -
+10 ,         ,         Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:10)                               7  punc       - -
+11 es        ser       VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:11(verb:11)                7  modnomatch - -
+12 mal       mal       AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:12(s-a-ms:12(a-ms:12)))        11 attr       - -
+13 .         .         Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:13)))                         11 punc       - -
+
+1 Juego juego NCMS000 NC pos=noun|type=common|gen=masculine|num=singular   - - (sn:1(grup-nom-ms:1(n-ms:1) 0 top  - -
+2 golf  golf  NCMN000 NC pos=noun|type=common|gen=masculine|num=invariable - - (n-ms:2))                   1 mod  - -
+3 .     .     Fp      Fp pos=punctuation|type=period                       - - (F-term:3))                 1 punc - -
+
+1 Mi          mi          DP1CSS  DP pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (sn:2(espec-ms:1(pos-ms:1)) 2 spec - -
+2 professors  professors  NCCN000 NC pos=noun|type=common|gen=common|num=invariable                                        - - (grup-nom-ms:2(n-ms:2)      0 top  - -
+3 intelligent intelligent NCMS000 NC pos=noun|type=common|gen=masculine|num=singular                                       - - (n-ms:3))                   2 mod  - -
+4 .           .           Fp      Fp pos=punctuation|type=period                                                           - - (F-term:4))                 2 punc - -
+
+1  Me        me        PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular                      - - (coor-vb:9(grup-verb:2(patons:1(paton-s:1)) 2  mphes      - -
+2  gusta     gustar    VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:2(verb:2))                       9  coor       - -
+3  clase     clase     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:3(grup-nom-fs:3(n-fs:3)                 2  modnomatch - -
+4  historia  historia  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (n-fs:4)))                                  3  mod        - -
+5  porque    porque    CS      CS  pos=conjunction|type=subordinating                                              - - (subord:5                                   2  adjt       - -
+6  es        ser       VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:6(verb:6)                        5  comp       - -
+7  muy       muy       RG      RG  pos=adverb|type=general                                                         - - (s-adj:8(sadv:7)                            8  spec       - -
+8  bueno     bueno     AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:8(a-ms:8))))))                      6  attr       - -
+9  y         y         CC      CC  pos=conjunction|type=coordinating                                               - - -                                           0  top        - -
+10 me        me        PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular                      - - (grup-verb:11(patons:10(paton-s:10))        11 mphes      - -
+11 gusta     gustar    VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:11(verb:11))                     9  coor       - -
+12 el        el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:13(espec-ms:12(j-ms:12))                13 spec       - -
+13 professor professor NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:13(n-ms:13))))                 11 modnomatch - -
+14 .         .         Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:14))                                9  punc       - -
+
+1  No           no           RN      RN  pos=adverb|type=negative                                                        - - (coor-vb:10(grup-verb:3(neg:1)       3  spec       - -
+2  me           me           PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular                      - - (patons:2(paton-s:2))                3  mphes      - -
+3  gusta        gustar       VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:3(verb:3))                10 coor       - -
+4  clase        clase        NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:4(grup-nom-fs:4(n-fs:4))         3  modnomatch - -
+5  mathematicas mathematicas AQ0FP00 AQ  pos=adjective|type=qualificative|gen=feminine|num=plural                        - - (s-adj:5(s-a-fp:5(a-fp:5))))         4  mod        - -
+6  porque       porque       CS      CS  pos=conjunction|type=subordinating                                              - - (subord:6                            3  adjt       - -
+7  es           ser          VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:7(verb:7)))               6  comp       - -
+8  no           no           RN      RN  pos=adverb|type=negative                                                        - - (neg:8)                              3  spec       - -
+9  facil        facil        AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-adj:9(s-a-ms:9(a-ms:9))))         3  modnomatch - -
+10 pero         pero         CC      CC  pos=conjunction|type=coordinating                                               - - -                                    0  top        - -
+11 me           me           PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular                      - - (grup-verb:12(patons:11(paton-s:11)) 12 mphes      - -
+12 gusta        gustar       VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:12(verb:12))              10 coor       - -
+13 el           el           DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:14(espec-ms:13(j-ms:13))         14 spec       - -
+14 professor    professor    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:14(n-ms:14))))          12 modnomatch - -
+15 .            .            Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:15))                         10 punc       - -
+
+1  El       el      DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (espec-ms:1(j-ms:1)                                 0  top        - -
+2  region   region  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (coor-vb:6(grup-verb:3(sn:2(grup-nom-fs:2(n-fs:2))) 3  subj       - -
+3  es       ser     VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                                            6  coor       - -
+4  muy      muy     RG      RG  pos=adverb|type=general                                                         - - (s-adj:5(sadv:4)                                    5  spec       - -
+5  bonito   bonito  AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:5(a-ms:5))))                                3  attr       - -
+6  y        y       CC      CC  pos=conjunction|type=coordinating                                               - - -                                                   1  modnomatch - -
+7  tiene    tener   VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:7(verb:7)                                6  coor       - -
+8  muy      muy     RG      RG  pos=adverb|type=general                                                         - - (coor-n:10(sn:9                                     9  spec       - -
+9  arbor    arbor   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:9(n-fs:9)))                            10 coor       - -
+10 y        y       CC      CC  pos=conjunction|type=coordinating                                               - - -                                                   7  dobj       - -
+11 caballos caballo NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (sn:11(grup-nom-mp:11(n-mp:11))))))                 10 coor       - -
+12 .        .       Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:12))                                        1  modnomatch - -
+
+1  En          en          SP      SP  pos=adposition|type=preposition                                      - - (grup-verb:4(grup-sp:1(prep:1)         4 adjt - -
+2  la          el          DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                - - (sn:3(espec-fs:2(j-fs:2))              3 spec - -
+3  cidudad     cidudad     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                       - - (grup-nom-fs:3(n-fs:3))))              1 comp - -
+4  tenemos     tener       VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural - - (verb:4)                               0 top  - -
+5  muchos      mucho       DI0MP0  DI  pos=determiner|type=indefinite|gen=masculine|num=plural              - - (coor-n:7(sn:6(espec-mp:5(indef-mp:5)) 6 spec - -
+6  resturantes resturantes NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                        - - (grup-nom-mp:6(n-mp:6)))               7 coor - -
+7  y           y           CC      CC  pos=conjunction|type=coordinating                                    - - -                                      4 dobj - -
+8  casas       casa        NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                         - - (sn:8(grup-nom-fp:8(n-fp:8)            7 coor - -
+9  mobile      mobile      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                      - - (n-ms:9))))                            8 mod  - -
+10 .           .           Fp      Fp  pos=punctuation|type=period                                          - - (F-term:10))                           4 punc - -
+
+1 Tambien    tambien    VMSP3P0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=plural - - (grup-verb:1(verb:1)          0 top  - -
+2 una        uno        DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular              - - (sn:3(espec-fs:2(indef-fs:2)) 3 spec - -
+3 biblioteca biblioteca NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                        - - (grup-nom-fs:3(n-fs:3)))      1 dobj - -
+4 .          .          Fp      Fp  pos=punctuation|type=period                                           - - (F-term:4))                   1 punc - -
+
+1  Mi       mi       DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (grup-verb:3(sn:2(espec-fs:1(pos-fs:1)) 2 spec       - -
+2  region   region   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:2(n-fs:2)))                3 subj       - -
+3  es       ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (verb:3)                                0 top        - -
+4  no       no       RN      RN  pos=adverb|type=negative                                                              - - (neg:4)                                 3 spec       - -
+5  caliente caliente AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                              - - (s-adj:5(s-a-ms:5(a-ms:5)))             3 attr       - -
+6  y        y        CC      CC  pos=conjunction|type=coordinating                                                     - - (coor-n:6                               3 modnomatch - -
+7  mi       mi       DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (sn:8(espec-fs:7(pos-fs:7))             8 spec       - -
+8  cidudad  cidudad  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:8(n-fs:8))))               6 coor       - -
+9  es       ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (grup-verb:9(verb:9)                    3 modnomatch - -
+10 meyor    meyor    AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                              - - (s-adj:10(s-a-ms:10(a-ms:10)))          9 attr       - -
+11 .        .        Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:11)))                           9 punc       - -
+
+1 Mi      mi      DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (grup-verb:3(sn:2(espec-fs:1(pos-fs:1)) 2 spec       - -
+2 cidudad cidudad NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:2(n-fs:2)))                3 subj       - -
+3 tiene   tener   VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular                - - (verb:3)                                0 top        - -
+4 sabor   sabor   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:4(grup-nom-ms:4(n-ms:4)))           3 dobj       - -
+5 200     200     Z       Z   pos=number                                                                            - - (sn:6(numero-nopart:5)                  6 spec       - -
+6 anos    ano     NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                         - - (grup-nom-mp:6(n-mp:6)))                3 modnomatch - -
+7 .       .       Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:7))                             3 punc       - -
+
+1 Tenemos tener  VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural                  - - (grup-verb:1(verb:1)          0 top        - -
+2 muchos  mucho  DI0MP0  DI  pos=determiner|type=indefinite|gen=masculine|num=plural                               - - (espec-mp:2(indef-mp:2))      1 modnomatch - -
+3 tarea   tarea  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (sn:3(grup-nom-fs:3(n-fs:3))) 1 dobj       - -
+4 en      en     SP      SP  pos=adposition|type=preposition                                                       - - (grup-sp:4(prep:4)            1 adjt       - -
+5 mi      mi     DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (sn:6(espec-fs:5(pos-fs:5))   6 spec       - -
+6 region  region NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:6(n-fs:6)))      4 comp       - -
+7 .       .      Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:7)))                  4 punc       - -
+
+1 El    el    DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (s-adj:5(espec-ms:1(j-ms:1)               5 spec       - -
+2 tarea tarea NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-verb:3(sn:2(grup-nom-fs:2(n-fs:2))) 3 subj       - -
+3 es    ser   VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3))                                 1 modnomatch - -
+4 no    no    RN      RN  pos=adverb|type=negative                                                        - - (neg:4))                                  1 modnomatch - -
+5 facil facil AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-a-ms:5(a-ms:5))                        0 top        - -
+6 .     .     Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:6))                               5 punc       - -
+
+1 Orwell orwell I       I   pos=interjection                                                                - - (grup-verb:2(interjeccio:1)  2 adjt       - -
+2 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                     0 top        - -
+3 el     el     DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:4(j-ms:3)                4 spec       - -
+4 bueno  bueno  AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:4(a-ms:4)))          2 attr       - -
+5 en     en     SP      SP  pos=adposition|type=preposition                                                 - - (prep:5)                     2 modnomatch - -
+6 el     el     DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (espec-ms:6(j-ms:6))         2 modnomatch - -
+7 region region NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:7(grup-nom-fs:7(n-fs:7)) 2 modnomatch - -
+8 .      .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:8)))                 7 punc       - -
+

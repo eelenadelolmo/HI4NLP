@@ -206,8 +206,8 @@ def conllu_annotator_scope(file_conllu_annotated, rules_file, file_conllu_annota
 
 def main(argv):
 
-    inputdir = 'conllu_freeling' + '/'
-    outputdir = 'annotated_freeling' + '/'
+    inputdir = 'CEDEL2/conllu/CEDEL2_Q1' + '/'
+    outputdir = 'CEDEL2/annotated/CEDEL2_Q1' + '/'
     rulesfile = 'syntax_rules/' + 'rules_nsubj_freeling.txt'
     order_option = 'PRECEDING'
 

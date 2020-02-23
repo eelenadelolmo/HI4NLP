@@ -1,0 +1,99 @@
+1  En       en       SP      SP  pos=adposition|type=preposition                                            - - (grup-verb:13(grup-sp:1(prep:1)                         13 adjt       - -
+2  el       el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                     - - (sn:3(espec-ms:2(j-ms:2))                               3  spec       - -
+3  futro    futro    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (grup-nom-ms:3(n-ms:3)))                                1  comp       - -
+4  yo       yo       PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:4(pron:4(psubj-s:4)))                               1  comp       - -
+5  planes   plan     NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                              - - (sn:5(grup-nom-mp:5(n-mp:5)))                           1  comp       - -
+6  a        a        SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:6(prep:6)                                      1  comp       - -
+7  finish   finish   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:7(grup-nom-ms:7(n-ms:7))))                          6  comp       - -
+8  la       el       DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                      - - (sn:9(espec-fs:8(j-fs:8))                               9  spec       - -
+9  escula   escula   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (grup-nom-fs:9(n-fs:9)))                                1  comp       - -
+10 y        y        CC      CC  pos=conjunction|type=coordinating                                          - - (coor-inf:10                                            1  modnomatch - -
+11 recibir  recibir  VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:11(infinitiu:11(inf:11(forma-inf:11))))) 10 coor       - -
+12 a        a        SP      SP  pos=adposition|type=preposition                                            - - (prep:12))                                              1  modnomatch - -
+13 degree   degree   VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular     - - (verb:13)                                               0  top        - -
+14 in       i_n      NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (sn:14(grup-nom-fs:14(n-fs:14)                          13 dobj       - -
+15 wildlife wildlife NCCS000 NC  pos=noun|type=common|gen=common|num=singular                               - - (n-fs:15)))                                             14 mod        - -
+16 en       en       SP      SP  pos=adposition|type=preposition                                            - - (prep:16)                                               13 modnomatch - -
+17 LAS      el       DA0FP0  DA  pos=determiner|type=article|gen=feminine|num=plural                        - - (espec-fp:17(j-fp:17))                                  13 modnomatch - -
+18 .        .        Fp      Fp  pos=punctuation|type=period                                                - - (F-term:18))                                            13 punc       - -
+
+1  Yo          yo          PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:1(pron:1(psubj-s:1))                           0 top        - -
+2  planes      plan        NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                              - - (sn:2(grup-nom-mp:2(n-mp:2)))                      1 mod        - -
+3  trabajar    trabajar    VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:3(infinitiu:3(inf:3(forma-inf:3)))) 1 modnomatch - -
+4  en          en          SP      SP  pos=adposition|type=preposition                                            - - (prep:4)                                           1 modnomatch - -
+5  la          el          DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                      - - (espec-fs:5(j-fs:5))                               1 spec       - -
+6  environment environment NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:6(grup-nom-ms:6(n-ms:6)))                      1 mod        - -
+7  en          en          SP      SP  pos=adposition|type=preposition                                            - - (prep:7)                                           1 modnomatch - -
+8  con         con         SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:8(prep:8)                                 1 mod        - -
+9  wildlife    wildlife    NCCS000 NC  pos=noun|type=common|gen=common|num=singular                               - - (sn:9(grup-nom-ms:9(n-ms:9)))                      8 comp       - -
+10 .           .           Fp      Fp  pos=punctuation|type=period                                                - - (F-term:10)))                                      8 punc       - -
+
+1 Before   befo_re  AQ0CN00 AQ  pos=adjective|type=qualificative|gen=common|num=invariable                 - - (s-adj:1(s-a-ms:1(a-ms:1))                        0 top        - -
+2 yo       yo       PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:2(pron:2(psubj-s:2)))                         1 modnomatch - -
+3 recibir  recibir  VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:3(infinitiu:3(inf:3(forma-inf:3))) 1 modnomatch - -
+4 permitir permitir VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:4(infinitiu:4(inf:4(forma-inf:4))) 3 dobj       - -
+5 job      job      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:5(grup-nom-ms:5(n-ms:5)))                     4 dobj       - -
+6 yo       yo       PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:6(pron:6(psubj-s:6))))                        4 modnomatch - -
+7 desear   desear   VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:7(infinitiu:7(inf:7(forma-inf:7))) 3 modnomatch - -
+8 travel   t_ravel  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (sn:8(grup-nom-fs:8(n-fs:8))))                    7 dobj       - -
+9 .        .        Fp      Fp  pos=punctuation|type=period                                                - - (F-term:9)))                                      3 punc       - -
+
+1 Me       me       PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular             - - (grup-verb:2(patons:1(paton-s:1)) 2 mphes      - -
+2 gusta    gustar   VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:2(verb:2))             0 top        - -
+3 outdoors outdoors NCCN000 NC  pos=noun|type=common|gen=common|num=invariable                         - - (sn:3(grup-nom-ms:3(n-ms:3)))     2 modnomatch - -
+4 .        .        Fp      Fp  pos=punctuation|type=period                                            - - (F-term:4))                       2 punc       - -
+
+1  Yo      yo      PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:1(pron:1(psubj-s:1))                          0 top        - -
+2  desear  desear  VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:2(infinitiu:2(inf:2(forma-inf:2))) 1 modnomatch - -
+3  vivo    vivo    AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                - - (s-adj:3(s-a-ms:3(a-ms:3)))                       2 modnomatch - -
+4  en      en      SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:4(prep:4)                                2 adjt       - -
+5  Montana montano AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                 - - (sn:6(grup-nom-fs:6(s-a-fs:5(a-fs:5))             6 mod        - -
+6  or      o_r     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (grup-nom-fs:6(n-fs:6)                            4 comp       - -
+7  PA      p_a     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (n-fs:7)))))                                      6 mod        - -
+8  or      o_r     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (sn:8(grup-nom-fs:8(n-fs:8)                       2 dobj       - -
+9  Alaska  ala_ska NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (n-fs:9)))                                        8 mod        - -
+10 .       .       Fp      Fp  pos=punctuation|type=period                                                - - (F-term:10)))                                     2 punc       - -
+
+1  Someday    someday    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (grup-verb:8(sn:1(grup-nom-ms:1(n-ms:1)))         8  subj       - -
+2  yo         yo         PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:2(pron:2(psubj-s:2)))                         8  modnomatch - -
+3  desear     desear     VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:3(infinitiu:3(inf:3(forma-inf:3))) 8  modnomatch - -
+4  to         t_o        NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (sn:4(grup-nom-fs:4(n-fs:4)                       3  dobj       - -
+5  get        ge_t       NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (n-fs:5))))                                       4  mod        - -
+6  matrimonal matrimonal AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                   - - (sn:7(grup-nom-ms:7(s-a-ms:6(a-ms:6))             7  mod        - -
+7  and        and        NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (grup-nom-ms:7(n-ms:7))))                         8  modnomatch - -
+8  tengo      tener      VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:8)                                          0  top        - -
+9  los        el         DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                       - - (sn:10(espec-mp:9(j-mp:9))                        10 spec       - -
+10 ninos      ninos      NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                              - - (grup-nom-mp:10(n-mp:10)))                        8  dobj       - -
+11 .          .          Fp      Fp  pos=punctuation|type=period                                                - - (F-term:11))                                      8  punc       - -
+
+1 Yo     yo     PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:3(sn:1(pron:1(psubj-s:1)))              3 subj       - -
+2 desear desear VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:2(infinitiu:2(inf:2(forma-inf:2)))) 3 modnomatch - -
+3 tengo  tener  VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:3)                                           0 top        - -
+4 dos    2      Z       Z   pos=number                                                                 - - (sn:4(numero:4))                                   3 dobj       - -
+5 los    el     DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                       - - (sn:6(espec-mp:5(j-mp:5))                          6 spec       - -
+6 ninos  ninos  NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                              - - (grup-nom-mp:6(n-mp:6)))                           3 modnomatch - -
+7 .      .      Fp      Fp  pos=punctuation|type=period                                                - - (F-term:7))                                        3 punc       - -
+
+1  Yo     yo     PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:1(pron:1(psubj-s:1))                          0  top        - -
+2  desear desear VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:2(infinitiu:2(inf:2(forma-inf:2))) 1  modnomatch - -
+3  vivo   vivo   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                - - (s-adj:3(s-a-ms:3(a-ms:3))))                      2  modnomatch - -
+4  en     en     SP      SP  pos=adposition|type=preposition                                            - - (prep:4)                                          1  modnomatch - -
+5  a      a      SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:5(prep:5)                                1  mod        - -
+6  log    lo_g   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:6(grup-nom-ms:6(n-ms:6)                       5  comp       - -
+7  cabin  cabin  AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                   - - (s-a-ms:7(a-ms:7)))))                             6  mod        - -
+8  y      y      CC      CC  pos=conjunction|type=coordinating                                          - - (coor-vb:8                                        1  modnomatch - -
+9  tengo  tener  VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (grup-verb:9(verb:9)                              8  coor       - -
+10 dos    2      Z       Z   pos=number                                                                 - - (sn:11(numero-nopart:10)                          11 spec       - -
+11 horses horses NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                              - - (grup-nom-mp:11(n-mp:11)))))                      9  dobj       - -
+12 .      .      Fp      Fp  pos=punctuation|type=period                                                - - (F-term:12))                                      1  punc       - -
+
+1 Yo        yo        PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:3(sn:1(pron:1(psubj-s:1)))              3 subj       - -
+2 desear    desear    VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:2(infinitiu:2(inf:2(forma-inf:2)))) 3 modnomatch - -
+3 tengo     tener     VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:3)                                           0 top        - -
+4 conseguir conseguir VMN0000 VMN pos=verb|type=main|mood=infinitive                                         - - (grup-verb-inf:4(infinitiu:4(inf:4(forma-inf:4)))  3 dobj       - -
+5 en        en        SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:5(prep:5)                                 4 adjt       - -
+6 todos     todo      PI0MP00 PI  pos=pronoun|type=indefinite|gen=masculine|num=plural                       - - (sn:6(pron-mp:6(pindef-mp:6))))                    5 comp       - -
+7 yo        yo        PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:7(pron:7(psubj-s:7)))                          4 dobj       - -
+8 do        do        NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:8(grup-nom-ms:8(n-ms:8))))                     4 modnomatch - -
+9 .         .         Fp      Fp  pos=punctuation|type=period                                                - - (F-term:9))                                        3 punc       - -
+

@@ -1,0 +1,127 @@
+1 Hola hola I  I  pos=interjection            - - (interjeccio:1 0 top  - -
+2 .    .    Fp Fp pos=punctuation|type=period - - (F-term:2))    1 punc - -
+
+1 Me      me      PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular             - - (grup-verb:2(patons:1(paton-s:1)) 2 mphes - -
+2 llamo   llamar  VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular - - (grup-verb:2(verb:2))             0 top   - -
+3 Eduardo eduardo NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:3(grup-nom-ms:3(n-ms:3)))     2 dobj  - -
+4 .       .       Fp      Fp  pos=punctuation|type=period                                            - - (F-term:4))                       2 punc  - -
+
+1 Vivo   vivir  VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular - - (grup-verb:1(verb:1)           0 top  - -
+2 en     en     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:2(prep:2)             1 pobj - -
+3 Robins robins NCCP000 NC  pos=noun|type=common|gen=common|num=plural                             - - (sn:3(grup-nom-mp:3(n-mp:3)))) 2 comp - -
+4 .      .      Fp      Fp  pos=punctuation|type=period                                            - - (F-term:4))                    1 punc - -
+
+1 Está   estar  VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)                              0 top  - -
+2 cerca  cerca  RG      RG  pos=adverb|type=general                                                - - (sadv:2)                                          1 adjt - -
+3 de     de     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp-inf:3(prep:3)                            1 attr - -
+4 Cedar  cedar  VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (grup-verb-inf:4(infinitiu:4(inf:4(forma-inf:4))) 3 comp - -
+5 Rapids rapids NCCN000 NC  pos=noun|type=common|gen=common|num=invariable                         - - (sn:5(grup-nom-ms:5(n-ms:5)))))                   4 dobj - -
+6 .      .      Fp      Fp  pos=punctuation|type=period                                            - - (F-term:6))                                       1 punc - -
+
+1  Robins    robins   NCCP000 NC  pos=noun|type=common|gen=common|num=plural                                      - - (coor-vb:5(grup-verb:2(sn:1(grup-nom-mp:1(n-mp:1))) 2 subj - -
+2  es        ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                                            5 coor - -
+3  pequena   pe_quena NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:3(grup-nom-fs:3(n-fs:3))))                      2 attr - -
+4  ,         ,        Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:4)                                              5 punc - -
+5  pero      pero     CC      CC  pos=conjunction|type=coordinating                                               - - -                                                   0 top  - -
+6  es        ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:6(verb:6)                                5 coor - -
+7  un        uno      DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                       - - (sn:8(espec-ms:7(indef-ms:7))                       8 spec - -
+8  pueblo    pueblo   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:8(n-ms:8)))                            6 attr - -
+9  muy       muy      RG      RG  pos=adverb|type=general                                                         - - (sadv:9)                                            6 adjt - -
+10 divertido divertir VMP00SM VMP pos=verb|type=main|mood=participle|num=singular|gen=masculine                   - - (subord-part:10(parti-ms:10)))                      6 adjt - -
+11 .         .        Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:11))                                        5 punc - -
+
+1 Hay   haber VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)                               0 top        - -
+2 mucho mucho DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular              - - (espec-ms:2(indef-ms:2))                           1 modnomatch - -
+3 cosas cosa  NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                           - - (sn:3(grup-nom-fp:3(n-fp:3)))                      1 dobj       - -
+4 a     a     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp-inf:4(prep:4)                             1 adjt       - -
+5 hacer hacer VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (grup-verb-inf:5(infinitiu:5(inf:5(forma-inf:5)))) 4 comp       - -
+6 .     .     Fp      Fp  pos=punctuation|type=period                                            - - (F-term:6)))                                       4 punc       - -
+
+1 El      el      DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                  - - (grup-verb:3(sn:2(espec-ms:1(j-ms:1)) 2 spec       - -
+2 parque  parque  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                         - - (grup-nom-ms:2(n-ms:2)))              3 subj       - -
+3 tiene   tener   VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular  - - (verb:3)                              0 top        - -
+4 mucho   mucho   RG      RG  pos=adverb|type=general                                                 - - (sadv:4)                              3 adjt       - -
+5 arboles arbolar VMSP2S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=2|num=singular - - (grup-verb:5(verb:5)                  3 modnomatch - -
+6 y       y       CC      CC  pos=conjunction|type=coordinating                                       - - (coor-n:6                             5 dobj       - -
+7 flores  flor    NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                            - - (sn:7(grup-nom-fp:7(n-fp:7))))        6 coor       - -
+8 .       .       Fp      Fp  pos=punctuation|type=period                                             - - (F-term:8)))                          5 punc       - -
+
+1  Muchas   mucho   DI0FP0  DI  pos=determiner|type=indefinite|gen=feminine|num=plural - - (sn:2(espec-fp:1(indef-fp:1))                     2 spec       - -
+2  personas persona NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural           - - (grup-nom-fp:2(n-fp:2))                           0 top        - -
+3  ir       ir      VMN0000 VMN pos=verb|type=main|mood=infinitive                     - - (grup-verb-inf:3(infinitiu:3(inf:3(forma-inf:3))) 2 modnomatch - -
+4  a        a       SP      SP  pos=adposition|type=preposition                        - - (grup-sp:4(prep:4)                                3 pobj       - -
+5  el       el      DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular - - (sn:6(espec-ms:5(j-ms:5))                         6 spec       - -
+6  parque   parque  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular        - - (grup-nom-ms:6(n-ms:6))))                         4 comp       - -
+7  durante  durante SP      SP  pos=adposition|type=preposition                        - - (grup-sp:7(prep:7)                                3 pobj       - -
+8  la       el      DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular  - - (sn:9(espec-fs:8(j-fs:8))                         9 spec       - -
+9  semana   semana  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular         - - (grup-nom-fs:9(n-fs:9))))                         7 comp       - -
+10 .        .       Fp      Fp  pos=punctuation|type=period                            - - (F-term:10)))                                     3 punc       - -
+
+1 Me     me                    PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular             - - (grup-verb:2(patons:1(paton-s:1))                 2 mphes      - -
+2 gusta  gustar                VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:2(verb:2))                             0 top        - -
+3 ir     ir                    VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (grup-verb-inf:3(infinitiu:3(inf:3(forma-inf:3))) 2 modnomatch - -
+4 a      a                     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:4(prep:4)                                3 pobj       - -
+5 el     el                    DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (sn:6(espec-ms:5(j-ms:5))                         6 spec       - -
+6 parque parque                NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-nom-ms:6(n-ms:6)))))                        4 comp       - -
+7 el     el                    DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (data:8(espec-ms:7(j-ms:7))                       8 spec       - -
+8 sabado [S:??/??/??:??.??:??] W       W   pos=date                                                               - - )                                                 2 adjt       - -
+9 .      .                     Fp      Fp  pos=punctuation|type=period                                            - - (F-term:9))                                       2 punc       - -
+
+1  Tambien    tambien    VMSP3P0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=plural  - - (grup-verb:1(verb:1)                             0  top        - -
+2  ,          ,          Fc      Fc  pos=punctuation|type=comma                                             - - (Fc:2)                                           1  punc       - -
+3  tenemos    tener      VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural   - - (grup-verb:3(verb:3))                            1  modnomatch - -
+4  desayunas  desayunar  VMIP2S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=2|num=singular - - (grup-verb:4(verb:4)                             1  modnomatch - -
+5  en         en         SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:5(prep:5)                               4  adjt       - -
+6  el         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (sn:7(espec-ms:6(j-ms:6))                        7  spec       - -
+7  parque     parque     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-nom-ms:7(n-ms:7)))))                       5  comp       - -
+8  con        con        SP      SP  pos=adposition|type=preposition                                        - - (prep:8)                                         1  modnomatch - -
+9  todo       todo       DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular              - - (espec-ms:10(grup-complex-spec-ms:10(indef-ms:9) 10 spec       - -
+10 el         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (j-ms:10)))                                      1  modnomatch - -
+11 communidad communidad NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (sn:11(grup-nom-fs:11(n-fs:11))                  1  dobj       - -
+12 .          .          Fp      Fp  pos=punctuation|type=period                                            - - (F-term:12)))                                    11 punc       - -
+
+1 Mi     mi     DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (grup-verb:3(sn:2(espec-fs:1(pos-fs:1)) 2 spec       - -
+2 casa   casa   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:2(n-fs:2)))                3 subj       - -
+3 queda  quedar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular                - - (verb:3)                                0 top        - -
+4 una    uno    DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                              - - (sn:5(espec-fs:4(indef-fs:4))           5 spec       - -
+5 cuadra cuadra NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:5(n-fs:5))                 3 modnomatch - -
+6 de     de     SP      SP  pos=adposition|type=preposition                                                       - - (sp-de:6                                5 mod        - -
+7 el     el     DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                                - - (sn:8(espec-ms:7(j-ms:7))               8 spec       - -
+8 parque parque NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (grup-nom-ms:8(n-ms:8)))))              6 comp       - -
+9 .      .      Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:9))                             3 punc       - -
+
+1 Mis        mi         DP1CPS  DP  pos=determiner|type=possessive|person=1|gen=common|num=plural|possessornum=singular - - (grup-verb:3(sn:2(espec-mp:1(pos-mp:1)) 2 spec - -
+2 vecinos    vecino     NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                       - - (grup-nom-mp:2(n-mp:2)))                3 subj - -
+3 son        ser        VSIP3P0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=plural       - - (verb:3)                                0 top  - -
+4 muy        muy        RG      RG  pos=adverb|type=general                                                             - - (s-adj:5(sadv:4)                        5 spec - -
+5 simpaticos simpaticos AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural                           - - (s-a-mp:5(a-mp:5)))                     3 attr - -
+6 .          .          Fp      Fp  pos=punctuation|type=period                                                         - - (F-term:6))                             3 punc - -
+
+1 Me      me      PP1CS00 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular                            - - (grup-verb:2(patons:1(paton-s:1)) 2 mphes - -
+2 invitan invitar VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural                  - - (grup-verb:2(verb:2))             0 top   - -
+3 a       a       SP      SP  pos=adposition|type=preposition                                                       - - (grup-sp:3(prep:3)                2 adjt  - -
+4 sus     su      DP3CPN  DP  pos=determiner|type=possessive|person=3|gen=common|num=plural|possessornum=invariable - - (sn:5(espec-fp:4(pos-fp:4))       5 spec  - -
+5 fiestas fiesta  NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                                          - - (grup-nom-fp:5(n-fp:5))))         3 comp  - -
+6 .       .       Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:6))                       2 punc  - -
+
+1  Tambien     tambien   VMSP3P0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=plural - - (grup-verb:1(verb:1)             0  top        - -
+2  ,           ,         Fc      Fc  pos=punctuation|type=comma                                            - - (Fc:2)                           1  punc       - -
+3  tienen      tener     VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural  - - (grup-verb:3(verb:3)             1  modnomatch - -
+4  hijos       hijo      NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                         - - (sn:4(grup-nom-mp:4(n-mp:4)      3  dobj       - -
+5  locos       loco      AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural             - - (s-a-mp:5(a-mp:5)))              4  mod        - -
+6  que         que       PR0CN00 PR  pos=pronoun|type=relative|gen=common|num=invariable                   - - (relativa:7(relatiu-sn:6)        7  subj       - -
+7  están       estar     VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural  - - (verb:7)                         4  mod        - -
+8  emocionados emocionar VMP00PM VMP pos=verb|type=main|mood=participle|num=plural|gen=masculine           - - (subord-part:8(parti-mp:8)))))   7  attr       - -
+9  cuando      cuando    CS      CS  pos=conjunction|type=subordinating                                    - - (conj-subord:9)                  1  modnomatch - -
+10 juego       juego     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                       - - (sn:10(grup-nom-ms:10(n-ms:10))) 1  dobj       - -
+11 con         con       SP      SP  pos=adposition|type=preposition                                       - - (grup-sp:11(prep:11)             1  adjt       - -
+12 ustedes     usted     PP2CP0P PP  pos=pronoun|type=personal|person=2|gen=common|num=plural|polite=yes   - - (sn:12(pron-mp:12(psubj-mp:12))) 11 comp       - -
+13 .           .         Fp      Fp  pos=punctuation|type=period                                           - - (F-term:13)))                    11 punc       - -
+
+1 Vivo   vivir  VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular - - (grup-verb:1(verb:1)          0 top  - -
+2 en     en     SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:2(prep:2)            1 pobj - -
+3 un     uno    DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular              - - (sn:4(indef-ms:3)             4 spec - -
+4 buen   bueno  AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular            - - (s-a-ms:4(a-ms:4))))          2 comp - -
+5 región región NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (sn:5(grup-nom-fs:5(n-fs:5))) 1 dobj - -
+6 .      .      Fp      Fp  pos=punctuation|type=period                                            - - (F-term:6))                   1 punc - -
+

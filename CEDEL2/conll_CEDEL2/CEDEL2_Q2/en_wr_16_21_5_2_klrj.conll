@@ -1,0 +1,47 @@
+1 Yo       yo       PP1CSN0 PP pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:1(pron:1(psubj-s:1))      0 top        - -
+2 halba    h_alba   NCFS000 NC pos=noun|type=common|gen=feminine|num=singular                             - - (sn:2(grup-nom-fs:2(n-fs:2))) 1 mod        - -
+3 una      uno      DI0FS0  DI pos=determiner|type=indefinite|gen=feminine|num=singular                   - - (sn:4(espec-fs:3(indef-fs:3)) 4 spec       - -
+4 persona  persona  NCFS000 NC pos=noun|type=common|gen=feminine|num=singular                             - - (grup-nom-fs:4(n-fs:4)        1 mod        - -
+5 famosa   famoso   AQ0FS00 AQ pos=adjective|type=qualificative|gen=feminine|num=singular                 - - (s-a-fs:5(a-fs:5)))           4 mod        - -
+6 ,        ,        Fc      Fc pos=punctuation|type=comma                                                 - - (Fc:6))                       4 punc       - -
+7 Oprah    oprah    I       I  pos=interjection                                                           - - (interjeccio:7)               1 modnomatch - -
+8 Whinfrey whinfrey NCMS000 NC pos=noun|type=common|gen=masculine|num=singular                            - - (sn:8(grup-nom-ms:8(n-ms:8))  1 mod        - -
+9 .        .        Fp      Fp pos=punctuation|type=period                                                - - (F-term:9)))                  8 punc       - -
+
+1  La       el       DA0FS0  DA pos=determiner|type=article|gen=feminine|num=singular       - - (sn:2(espec-fs:1(j-fs:1))       2  spec       - -
+2  senorita senorita NCFS000 NC pos=noun|type=common|gen=feminine|num=singular              - - (grup-nom-fs:2(n-fs:2))         0  top        - -
+3  Oprah    oprah    I       I  pos=interjection                                            - - (interjeccio:3)                 2  modnomatch - -
+4  esta     este     PD0FS00 PD pos=pronoun|type=demonstrative|gen=feminine|num=singular    - - (sn:4(pron-fs:4(pdem-fs:4))     2  mod        - -
+5  muy      muy      RG      RG pos=adverb|type=general                                     - - (s-adj:6(sadv:5)                6  spec       - -
+6  bonita   bonito   AQ0FS00 AQ pos=adjective|type=qualificative|gen=feminine|num=singular  - - (s-a-fs:6(a-fs:6))))            4  mod        - -
+7  ,        ,        Fc      Fc pos=punctuation|type=comma                                  - - (coor-sa:10(Fc:7)               10 punc       - -
+8  mediano  mediano  AQ0MS00 AQ pos=adjective|type=qualificative|gen=masculine|num=singular - - (s-adj:8(s-a-ms:8(a-ms:8)))     10 coor       - -
+9  ,        ,        Fc      Fc pos=punctuation|type=comma                                  - - (Fc:9)                          10 punc       - -
+10 y        y        CC      CC pos=conjunction|type=coordinating                           - - -                               2  mod        - -
+11 flaca    flaco    AQ0FS00 AQ pos=adjective|type=qualificative|gen=feminine|num=singular  - - (s-adj:11(s-a-fs:11(a-fs:11)))) 10 coor       - -
+12 .        .        Fp      Fp pos=punctuation|type=period                                 - - (F-term:12))                    2  punc       - -
+
+1 Tu     tu     DP2CSS  DP  pos=determiner|type=possessive|person=2|gen=common|num=singular|possessornum=singular - - (espec-ms:1(pos-ms:1)                 0 top        - -
+2 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (grup-verb:2(verb:2))                 1 modnomatch - -
+3 la     el     DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                                 - - (espec-fs:3(j-fs:3))                  1 modnomatch - -
+4 blanco blanco AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                           - - (sn:5(grup-nom-ms:5(s-a-ms:4(a-ms:4)) 5 mod        - -
+5 pejo   pejo   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (grup-nom-ms:5(n-ms:5)))              1 modnomatch - -
+6 .      .      Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:6)))                          5 punc       - -
+
+1 Esta       este     DD0FS0  DD pos=determiner|type=demonstrative|gen=feminine|num=singular - - (espec-fs:1(dem-fs:1)        0 top        - -
+2 muy        muy      RG      RG pos=adverb|type=general                                     - - (sadv:2)                     1 modnomatch - -
+3 muy        muy      RG      RG pos=adverb|type=general                                     - - (sadv:3)                     1 modnomatch - -
+4 muy        muy      RG      RG pos=adverb|type=general                                     - - (sn:5                        5 spec       - -
+5 dinero     dinero   NCMS000 NC pos=noun|type=common|gen=masculine|num=singular             - - (grup-nom-ms:5(n-ms:5)       1 modnomatch - -
+6 in         i_n      NCFS000 NC pos=noun|type=common|gen=feminine|num=singular              - - (n-fs:6)))                   5 mod        - -
+7 la         el       DA0FS0  DA pos=determiner|type=article|gen=feminine|num=singular       - - (espec-fs:7(j-fs:7))         1 modnomatch - -
+8 pantalones pantalón NCMP000 NC pos=noun|type=common|gen=masculine|num=plural               - - (sn:8(grup-nom-mp:8(n-mp:8)) 1 modnomatch - -
+9 .          .        Fp      Fp pos=punctuation|type=period                                 - - (F-term:9)))                 8 punc       - -
+
+1 Senorita senorita NCFS000 NC pos=noun|type=common|gen=feminine|num=singular              - - (sn:1(grup-nom-fs:1(n-fs:1))     0 top  - -
+2 esta     este     DD0FS0  DD pos=determiner|type=demonstrative|gen=feminine|num=singular - - (espec-fs:2(dem-fs:2))           1 spec - -
+3 muy      muy      RG      RG pos=adverb|type=general                                     - - (sn:5                            5 spec - -
+4 grande   grande   AQ0CS00 AQ pos=adjective|type=qualificative|gen=common|num=singular    - - (grup-nom-fs:5(s-a-fs:4(a-fs:4)) 5 mod  - -
+5 casa     casa     NCFS000 NC pos=noun|type=common|gen=feminine|num=singular              - - (grup-nom-fs:5(n-fs:5)))         1 mod  - -
+6 .        .        Fp      Fp pos=punctuation|type=period                                 - - (F-term:6)))                     5 punc - -
+

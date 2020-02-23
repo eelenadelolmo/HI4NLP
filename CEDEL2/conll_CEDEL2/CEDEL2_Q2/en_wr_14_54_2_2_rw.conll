@@ -1,0 +1,21 @@
+1 Soy       ser       VSIP1S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=1|num=singular - - (grup-verb:1(verb:1)        0 top        - -
+2 escriblan escriblan VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural            - - (grup-verb:2(verb:2)        1 modnomatch - -
+3 Rickie    rickie    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:3(grup-nom-fs:3(n-fs:3) 2 dobj       - -
+4 martin    martin    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (n-ms:4)))                  3 mod        - -
+5 .         .         Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:5)))                2 punc       - -
+
+1 Me     me     PP1CS00 PP pos=pronoun|type=personal|person=1|gen=common|num=singular - - (patons:1(paton-s:1)         0 top       - -
+2 muy    muy    RG      RG pos=adverb|type=general                                    - - (sn:3                        3 spec      - -
+3 gusto  gusto  NCMS000 NC pos=noun|type=common|gen=masculine|num=singular            - - (grup-nom-ms:3(n-ms:3)       1 modnorule - -
+4 rickie rickie AQ0CS00 AQ pos=adjective|type=qualificative|gen=common|num=singular   - - (s-a-ms:4(a-ms:4))))         3 mod       - -
+5 martin martin NCMS000 NC pos=noun|type=common|gen=masculine|num=singular            - - (sn:5(grup-nom-ms:5(n-ms:5)) 1 modnorule - -
+6 .      .      Fp      Fp pos=punctuation|type=period                                - - (F-term:6)))                 5 punc      - -
+
+1 Rickie rickie RG      RG  pos=adverb|type=general                                                         - - (grup-verb:3(sadv:1)                  3 adjt - -
+2 Martin martin NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:2(grup-nom-ms:2(n-ms:2)))         3 subj - -
+3 es     ser    VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                              0 top  - -
+4 alto   alto   AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (coor-sa:5(s-adj:4(s-a-ms:4(a-ms:4))) 5 coor - -
+5 y      y      CC      CC  pos=conjunction|type=coordinating                                               - - -                                     3 attr - -
+6 bonito bonito AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:6(s-a-ms:6(a-ms:6))))          5 coor - -
+7 .      .      Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:7))                           3 punc - -
+
