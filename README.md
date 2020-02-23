@@ -20,8 +20,11 @@ _For further information see: "From constituents to syntax-oriented dependencies
 * [CEDEL2 corpus]
 
 _CEDEL2 stands for Corpus Escrito del Español como L2 ‘L2 Spanish Written Corpus’._
+
 _CEDEL2 (version 1.0) is a large database containing the language produced by learners of Spanish as a second/foreign language (L2). This database is called a linguistic ‘corpus’._
+
 _CEDEL2 contains the language produced by English-speaking natives who are learning Spanish. It also contains a subcorpus of Greek-speaking learners of English. For future versions of the corpus, we are also collecting data from Japanese-speaking learners of Spanish._
+
 _CEDEL2 also contains a subcorpus of Spanish native speakers for comparative purposes._
 
 
