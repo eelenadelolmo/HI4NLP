@@ -14,7 +14,7 @@ def main(argv):
     matcheddir = 'CEDEL2/annotated/CEDEL2_Q4/_matched/'
 
     try:
-        opts, args = getopt.getopt(argv, "hi:au:", ["udir=", "mdir="])
+        opts, args = getopt.getopt(argv, "hi:a:u::", ["udir=", "mdir="])
 
     except getopt.GetoptError:
         print('transformer_conllu.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
