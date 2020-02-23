@@ -1,0 +1,87 @@
+1	Me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	0	top	_	_
+2	planes	plan	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+3	para	para	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnorule	_	_
+7	simple	simple	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	attr	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	licenciadoa	licenciado_a	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	attr	_	_
+3	universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+4	im	i_m	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+5	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	1	modnomatch	_	_
+6	anos	ano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	modnomatch	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+3	grado	grado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	im	i_m	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	mod	_	_
+5	anthropologia	anthropologia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	8	coor	_	_
+2	asistir	asistir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	dobj	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+4	licenciado	licenciar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	comp	_	_
+5	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+6	im	i_m	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	mod	_	_
+7	coloardo	coloardo	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	8	coor	_	_
+8	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+9	Knoxville	knoxville	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	8	coor	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Trabjo	trabjo	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+2	plane	plan_e	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	coor	_	_
+3	im	i_m	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+4	sur	sur	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	coor	_	_
+5	esto	este	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	4	modnomatch	_	_
+6	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	1	dobj	_	_
+7	sur	sur	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	coor	_	_
+8	esto	este	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	7	modnomatch	_	_
+9	Estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	modnomatch	_	_
+10	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	9	mod	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Vivo	vivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	modnomatch	_	_
+2	im	i_m	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	sur	sur	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	mod	_	_
+4	Estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	modnomatch	_	_
+5	UnidosQuiero	unidosquiero	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+6	viagar	viagar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	dobj	_	_
+7	mucho	mucho	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
+9	ober	ober	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+10	tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	5	modnomatch	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	coor	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	10	dobj	_	_
+14	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	coor	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+2	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	1	coor	_	_
+3	salgo	salir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	1	modnomatch	_	_
+4	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	subj	_	_
+6	Virgina	virgina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	coor	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	divertirse	divertirse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	dobj	_	_
+3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Vuelvo	volver	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	estudio	estudio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Tengo	tener	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	estudio	estudio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+3	espana	espana	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	soy	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+5	mal	mal	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+6	idioma	idioma	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

@@ -1,0 +1,42 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	fin	fin	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	semana	semana	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	pasada	pasar	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	4	mod	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	2	punc	_	_
+7	fui	ir	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
+9	Barcelona	barcelona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	para	para	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
+11	visitar	visitar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	comp	_	_
+12	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	amiga	amigo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	dobj	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	15	adjt	_	_
+2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
+3	conoces	conocer	VMIP2S0	VMI	matched=no|mood=indicative|num=singular|person=2|pos=verb|tense=present|type=main	1	comp	_	_
+4	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	sitio	sitio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+7	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+8	mejores	mejor	AQ0CP00	AQ	gen=common|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+9	explicaciones	explicación	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	15	subj	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	mundo	mundo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	no	no	RN	RN	matched=no|pos=adverb|type=negative	15	spec	_	_
+14	te	te	PP2CS00	PP	gen=common|matched=no|num=singular|person=2|pos=pronoun|type=personal	15	mphes	_	_
+15	ayudan	ayudar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	pobj	_	_
+17	encontrar	encontrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	15	modnomatch	_	_
+20	buscas	busca	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	dobj	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	Esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+2	duró	durar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+3	3_días	TM_d:3	Zu	Zu	matched=no|pos=number|type=unit	2	dobj	_	_
+4	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

@@ -1,0 +1,23 @@
+1  Soy         ser         VSIP1S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=1|num=singular - - (grup-verb:1(verb:1)                                    0  top        - -
+2  region      region      NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:2(grup-nom-fs:2(n-fs:2)))                           1  attr       - -
+3  es          ser         VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:3(verb:3)                                    1  modnomatch - -
+4  centro      centro      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:4(grup-nom-ms:4(n-ms:4)                             3  attr       - -
+5  atlanta     atlanta     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (n-fs:5)))                                              4  mod        - -
+6  .           .           Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:6))                                             3  punc       - -
+7  es          ser         VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:7(verb:7)                                    1  modnomatch - -
+8  muy         muy         RG      RG  pos=adverb|type=general                                                         - - (sn:10                                                  10 spec       - -
+9  interesante interesante AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (grup-nom-ms:10(s-a-ms:9(a-ms:9))                       10 mod        - -
+10 lugar       lugar       NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:10(n-ms:10))))                             7  attr       - -
+11 vivir       vivir       VMN0000 VMN pos=verb|type=main|mood=infinitive                                              - - (grup-verb-inf:11(infinitiu:11(inf:11(forma-inf:11))))  7  modnomatch - -
+12 .           .           Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:12))                                            7  punc       - -
+13 hay         haber       VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:13(verb:13)                                  1  modnomatch - -
+14 siempre     siempre     RG      RG  pos=adverb|type=general                                                         - - (sadv:14)                                               13 adjt       - -
+15 a           a           SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp-inf:15(prep:15)                                13 adjt       - -
+16 hacer       hacer       VMN0000 VMN pos=verb|type=main|mood=infinitive                                              - - (grup-verb-inf:16(infinitiu:16(inf:16(forma-inf:16))))) 15 comp       - -
+17 .           .           Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:17))                                            13 punc       - -
+18 bueno       bueno       AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (grup-verb:19(s-adj:18(s-a-ms:18(a-ms:18)))             19 modnomatch - -
+19 musician    musician    VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural            - - (verb:19)                                               1  modnomatch - -
+20 ,           ,           Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:20)                                                 19 punc       - -
+21 alimentos   alimento    NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (sn:21(grup-nom-mp:21(n-mp:21))                         19 dobj       - -
+22 ,           ,           Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:22))))                                              21 punc       - -
+

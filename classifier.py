@@ -6,7 +6,6 @@ import sys
 import getopt
 
 
-
 def conllu_classifier(inputfile, unmatchedfile, matchedfile):
 
     matched_nf = open(matchedfile, "w")
@@ -25,16 +24,16 @@ def conllu_classifier(inputfile, unmatchedfile, matchedfile):
 
         if matched:
             matched_nf.write(sentence.serialize())
+
         else:
             unmatched_nf.write(sentence.serialize())
 
 
-
 def main(argv):
 
-    inputdir = 'annotated_freeling/'
-    unmatched_outputdir = 'annotated_freeling/_unmatched/'
-    matched_outputdir = 'annotated_freeling/_matched/'
+    inputdir = 'CEDEL2/annotated/CEDEL2_Q4/'
+    unmatched_outputdir = 'CEDEL2/annotated/CEDEL2_Q4/_unmatched/'
+    matched_outputdir = 'CEDEL2/annotated/CEDEL2_Q4/_matched/'
 
     try:
         opts, args = getopt.getopt(argv, "hua:i:", ["idir=", "udir=", "mdir="])

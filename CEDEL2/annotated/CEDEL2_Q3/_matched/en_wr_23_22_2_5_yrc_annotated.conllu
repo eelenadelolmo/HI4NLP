@@ -1,0 +1,131 @@
+1	Después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+2	graduarme	graduarme	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+4	escuela	escuela	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+5	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	4	mod	_	_
+6	graduado	graduado	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
+8	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	9	mphes	_	_
+9	gustaría	gustar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
+10	hacerme	hacerme	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	9	modnomatch	_	_
+11	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	consejero	consejero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	primaria	primario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	otro	otro	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	mis	mi	DP1CPS	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	5	spec	_	_
+5	proyectos	proyecto	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+6	debe	deber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	prt	_	_
+7	casarse	casarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+8	después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	graduarse	graduarse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	comp	_	_
+10	gradute	gradute	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	7	modnomatch	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	enseñaría	enseñar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+4	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	comp	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	escuela	escuela	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	primaria	primario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+9	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	grados	grado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+12	primero	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	11	comp	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+14	tercer	3	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	13	coor	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	3	subj	_	_
+2	podría	poder	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	3	prt	_	_
+3	decidir	decidir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+4	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	enseñar	enseñar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	jardín	jardín	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+11	infantes	infante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+12	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	3	dobj	_	_
+13	jardín	jardín	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	coor	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+15	infancia	infancia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Posiblemente	posiblemente	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	4	subj	_	_
+4	ampliaría	ampliar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	6	spec	_	_
+6	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+7	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+8	abrir	abrir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	comp	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	guardería	guardería	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	dobj	_	_
+11	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
+12	todavía	todavía	RG	RG	matched=no|pos=adverb|type=general	14	adjt	_	_
+13	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	14	mphes	_	_
+14	gustaría	gustar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	11	comp	_	_
+15	casarme	casarme	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	modnomatch	_	_
+16	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	14	modnomatch	_	_
+17	tener	tener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	coor	_	_
+18	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	dobj	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	3	subj	_	_
+2	también	también	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+3	disfrutaría	disfrutar	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	0	top	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	idea	idea	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+8	trabajar	trabajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	2	spec	_	_
+2	mismo	mismo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	attr	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	2	punc	_	_
+4	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	graduación	graduación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	8	spec	_	_
+8	plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	prioridad	prioridad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	plan	plan	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+6	he	haber	VAIP1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=auxiliary	7	aux	_	_
+7	tenido	tener	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	4	mod	_	_
+8	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	mucho	mucho	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	sueño	sueño	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+5	realizado	realizar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	4	mod	_	_
+6	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+7	mí	mí	PP1CSO0	PP	case=oblique|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	6	comp	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

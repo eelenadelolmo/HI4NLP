@@ -1,0 +1,130 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	ano	ano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+3	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+4	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
+6	vacaciones	vacaciones	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+8	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	9	spec	_	_
+9	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+11	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	10	coor	_	_
+12	viajamos	viajar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	10	modnomatch	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
+14	Utah	utah	I	I	matched=no|pos=interjection	10	modnomatch	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	0	top	_	_
+2	Utah	utah	I	I	matched=no|pos=interjection	4	adjt	_	_
+3	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	4	subj	_	_
+4	visitamos	visitar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	7	coor	_	_
+5	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	6	spec	_	_
+6	montanas	montano	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	4	dobj	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnorule	_	_
+8	esquiamos	esquiar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	7	coor	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	modnorule	_	_
+
+1	Novia	novio	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	coor	_	_
+2	todos	todo	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	spec	_	_
+4	dias	dias	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	coor	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+7	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	6	coor	_	_
+8	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	6	modnomatch	_	_
+9	siempre	siempre	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+10	divertimos	divertir	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	6	modnomatch	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	8	adjt	_	_
+2	fuimos	ir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	4	prt	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	prt	_	_
+4	esquiar	esquiar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+6	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	8	subj	_	_
+7	siempre	siempre	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+8	escalamos	escalar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+9	tan	tan	RG	RG	matched=no|pos=adverb|type=general	10	spec	_	_
+10	alta	alto	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	modnomatch	_	_
+11	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	12	subj	_	_
+12	pudimos	poder	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	8	modnomatch	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Despues	despues	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+2	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	3	subj	_	_
+3	esquiariamos	esquiariamos	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+5	nuestro	nuestro	DP1MSP	DP	gen=masculine|matched=no|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	3	modnomatch	_	_
+6	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	casa	casa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	estuvo	estar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	montana	montano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	4	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
+2	gatos	gato	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	coor	_	_
+3	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+5	peros	pero	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	3	coor	_	_
+6	viven	vivir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+7	juntos	junto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	6	pred	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+9	Utah	utah	I	I	matched=no|pos=interjection	3	modnomatch	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Tambien	tambien	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	chupacabras	chupar_cabra	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	1	dobj	_	_
+4	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+5	casas	casa	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	piscina	piscina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	0	top	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	OVNIs	ovni	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	subj	_	_
+4	llegaron	llegar	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	1	comp	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+6	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	7	subj	_	_
+7	corrimos	correr	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	12	coor	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	10	spec	_	_
+10	montanas	montano	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	8	comp	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+13	construimos	construir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	12	coor	_	_
+14	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
+15	castillo	castillo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+16	para	para	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+17	proteger	proteger	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	libertad	libertad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	dobj	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Despues	despues	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	martianos	martianos	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+5	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	attr	_	_
+7	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	8	spec	_	_
+8	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	5	modnomatch	_	_
+11	ponieron	ponieron	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	5	modnomatch	_	_
+12	encima_de	encima_de	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	fuego	fuego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Les	le	PP3CPD0	PP	case=dative|gen=common|matched=no|num=plural|person=3|pos=pronoun|type=personal	2	iobj	_	_
+2	mate	matar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+

@@ -1,0 +1,67 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	matrimonio	matrimonio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	sólo	sólo	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	3	attr	_	_
+6	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
+7	unen	unir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	comp	_	_
+8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	hombre	hombre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+11	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	mujer	mujer	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+13	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
+14	dos	2	Z	Z	matched=no|pos=number	15	spec	_	_
+15	mujeres	mujer	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	16	coor	_	_
+16	ni	ni	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+17	dos	2	Z	Z	matched=no|pos=number	18	spec	_	_
+18	hombres	hombre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	coor	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Un	uno	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+2	buen	bueno	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	ejemplo	ejemplo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	seguro	seguro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	attr	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	salud	salud	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Según	según	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	ley	ley	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	corriente	corriente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+6	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	7	spec	_	_
+7	personas	persona	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	subj	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+9	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	relación	relación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	gay	gay	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	no	no	RN	RN	matched=no|pos=adverb|type=negative	13	spec	_	_
+13	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	derecho	derecho	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+17	segurar	segurar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	a	a	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+19	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	20	spec	_	_
+20	amado	amado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+21	/	/	Fh	Fh	matched=no|pos=punctuation|type=slash	13	punc	_	_
+22	a	a	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+
+1	Todavía	todavía	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+2	mucha	mucho	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	gente	gente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+4	aquí	aquí	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+5	cree	creer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	modnomatch	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	5	modnomatch	_	_
+8	gay	gay	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	subj	_	_
+9	deciden	decidir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	modnomatch	_	_
+10	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	9	dobj	_	_
+11	así	así	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+

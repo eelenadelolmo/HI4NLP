@@ -1,0 +1,32 @@
+1  Mi           mi           DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (espec-ms:1(pos-ms:1)                     0  top        - -
+2  planes       plan         NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                         - - (grup-verb:6(sn:2(grup-nom-mp:2(n-mp:2))) 6  subj       - -
+3  para         para         SP      SP  pos=adposition|type=preposition                                                       - - (grup-sp:3(prep:3)                        6  adjt       - -
+4  el           el           DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                                - - (sn:5(espec-ms:4(j-ms:4))                 5  spec       - -
+5  futuro       futuro       NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (grup-nom-ms:5(n-ms:5))))                 3  comp       - -
+6  es           ser          VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (verb:6)                                  1  modnomatch - -
+7  being        being        NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:7(grup-nom-ms:7(n-ms:7)))             6  attr       - -
+8  un           uno          DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                             - - (grup-verb-inf:9(espec-ms:8(indef-ms:8))  9  spec       - -
+9  practitioner practitioner VMN0000 VMN pos=verb|type=main|mood=infinitive                                                    - - (infinitiu:9(inf:9(forma-inf:9)))         6  modnomatch - -
+10 nurse        nurse        NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (sn:10(grup-nom-fs:10(n-fs:10)))          9  dobj       - -
+11 en           en           SP      SP  pos=adposition|type=preposition                                                       - - (grup-sp:11(prep:11)                      9  adjt       - -
+12 un           uno          DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                             - - (sn:13(espec-ms:12(indef-ms:12))          13 spec       - -
+13 hospital     hospital     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (grup-nom-ms:13(n-ms:13)))))              11 comp       - -
+14 .            .            Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:14)))                             6  punc       - -
+
+1  Vive       vivir      VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)            0  top        - -
+2  a          a          SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:2(prep:2)              1  pobj       - -
+3  differente differente AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular               - - (s-a-ms:3(a-ms:3)))             2  comp       - -
+4  las        el         DA0FP0  DA  pos=determiner|type=article|gen=feminine|num=plural                    - - (espec-fp:4(j-fp:4))            1  modnomatch - -
+5  region     region     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (sn:5(grup-nom-fs:5(n-fs:5)))   1  dobj       - -
+6  para       para       SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:6(prep:6)              1  pobj       - -
+7  vacaciones vacaciones NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                           - - (sn:7(grup-nom-fp:7(n-fp:7))))  6  comp       - -
+8  y          y          CC      CC  pos=conjunction|type=coordinating                                      - - (coor-n:8                       1  modnomatch - -
+9  meet       meet       NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:9(grup-nom-ms:9(n-ms:9)     8  coor       - -
+10 exotico    exotico    AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular            - - (s-a-ms:10(a-ms:10)))))         9  mod        - -
+11 personas   persona    NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                           - - (sn:11(grup-nom-fp:11(n-fp:11)) 1  modnomatch - -
+12 .          .          Fp      Fp  pos=punctuation|type=period                                            - - (F-term:12)))                   11 punc       - -
+
+1 Habla   hablar  VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)          0 top  - -
+2 espanol espanol NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:2(grup-nom-ms:2(n-ms:2))) 1 dobj - -
+3 .       .       Fp      Fp  pos=punctuation|type=period                                            - - (F-term:3))                   1 punc - -
+

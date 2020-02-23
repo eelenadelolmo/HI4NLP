@@ -8,11 +8,10 @@ import pandas as pd
 from tabulate import tabulate
 
 
-
 def main(argv):
 
-    unmatcheddir = 'annotated_freeling/_unmatched/'
-    matcheddir = 'annotated_freeling/_matched/'
+    unmatcheddir = 'CEDEL2/annotated/CEDEL2_Q4/_unmatched/'
+    matcheddir = 'CEDEL2/annotated/CEDEL2_Q4/_matched/'
 
     try:
         opts, args = getopt.getopt(argv, "hi:au:", ["udir=", "mdir="])
@@ -35,7 +34,6 @@ def main(argv):
 
     print('The unmatched directory is', unmatcheddir)
     print('The matched directory is', matcheddir)
-
 
     n_matched = 0
     n_unmatched = 0
@@ -60,8 +58,6 @@ def main(argv):
 
             docs_ratio_matched[f][0] += len(sentences)
 
-
-
     directory = os.listdir(matcheddir)
     for f in directory:
         if f.endswith(".conllu"):
@@ -71,17 +67,13 @@ def main(argv):
 
             docs_ratio_matched[f][1] += len(sentences)
 
-
-
     for file in docs_ratio_matched:
 
         # Preventing errors due to empty docs
         if docs_ratio_matched[file][0] + docs_ratio_matched[file][1] != 0:
             docs_ratio_matched[file].append(round((docs_ratio_matched[file][1]/(docs_ratio_matched[file][0] + docs_ratio_matched[file][1]))*100, 2))
 
-
-
-    nf = open("metrics_freeling.txt", "w")
+    nf = open("metrics/metrics_CEDEL2_Q4.txt", "w")
 
     nf.write("Número de oraciones principales con sujeto antepuesto: " + str(n_matched))
     nf.write("\n")
@@ -107,8 +99,6 @@ def main(argv):
     nf.write("\n")
 
     nf.write(tabulate(df, headers='keys', tablefmt='psql'))
-
-
 
 
 if __name__ == "__main__":

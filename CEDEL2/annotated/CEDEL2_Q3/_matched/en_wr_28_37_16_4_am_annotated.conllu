@@ -1,0 +1,89 @@
+1	Mis	mi	DP1CPS	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	Vacaciónes	vacaciónes	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Verano	verano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	2006	2006	Z	Z	matched=no|pos=number	11	modnomatch	_	_
+7	Hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	11	adjt	_	_
+8	cuatro	4	Z	Z	matched=no|pos=number	9	modnorule	_	_
+9	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	modnomatch	_	_
+10	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	11	modnomatch	_	_
+11	fui	ir	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+12	con	con	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+13	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	14	spec	_	_
+14	hija	hijo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	11	modnomatch	_	_
+16	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	17	spec	_	_
+17	novia	novio	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	coor	_	_
+18	para	para	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
+19	tomar	tomar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	18	comp	_	_
+20	clases	clase	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	19	dobj	_	_
+21	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+22	español	español	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+24	Mexico	mexico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	maestros	maestro	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	amable	amable	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	coor	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	attr	_	_
+7	inteligente	inteligente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	coor	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	historia	historia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	Guanajuato	guanajuato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+2	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	3	spec	_	_
+3	clases	clase	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	1	comp	_	_
+6	favoritos	favorito	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+7	fuera	ser	VSSI3S0	VSS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	modnomatch	_	_
+9	clases	clase	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	attr	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	conversación	conversación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Podria	podria	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+2	hablar	hablar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	1	modnomatch	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	pobj	_	_
+4	cualquiera	cualquiera	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	3	comp	_	_
+5	cosa	cosa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	dobj	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	7	punc	_	_
+7	pero	pero	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+8	siempre	siempre	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	7	coor	_	_
+9	hablamos	hablar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	copa	copa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	Mexicanos	mexicano	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	ganan	ganar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	tres	3	Z	Z	matched=no|pos=number	3	dobj	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+6	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	5	comp	_	_
+7	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	3	punc	_	_
+
+1	Finalmente	final_mente	NCCS000	NC	gen=common|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	nos	nos	PP1CP00	PP	gen=common|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	1	modnomatch	_	_
+4	cruzado	cruzar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	7	pred	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	frontera	frontera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+7	fuimos	ir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	0	top	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	modnomatch	_	_
+9	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	7	modnomatch	_	_
+10	Cruces	cruce	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	modnomatch	_	_
+11	Nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	Mexico	mexico	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+

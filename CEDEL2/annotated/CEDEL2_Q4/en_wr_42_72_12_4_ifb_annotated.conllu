@@ -1,0 +1,492 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	spec	_	_
+2	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	adjt	_	_
+3	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+4	tuve	tener	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+5	unas	uno	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
+6	vacaciones	vacaciones	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+7	estupendas	estupendo	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Fui	ir	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+2	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	Museo	museo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	Arte	arte	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+11	Denver	denver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	comp	_	_
+12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+13	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+16	Perú	perú	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	subj	_	_
+18	Bolivia	bolivia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	coor	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	3	spec	_	_
+3	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	visitamos	visitar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+5	sitios	sitio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+6	importantes	importante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+7	pre-colombinos	pre_colombino	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+9	también	también	RG	RG	matched=no|pos=adverb|type=general	10	spec	_	_
+10	coloniales	colonial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	8	coor	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Nuestro	nuestro	DP1MSP	DP	gen=masculine|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	2	spec	_	_
+2	paseo	paseo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	empezó	empezar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	Lima	lima	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Aquí	aquí	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	visitamos	visitar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	catedral	catedral	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	dobj	_	_
+6	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
+7	iglesias	iglesia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	Sto.	sto.	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	Domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	2	adjt	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+12	San	san	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+13	Francisco	francisco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	coor	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	También	también	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	pasamos	pasar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	varias	varios	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	4	spec	_	_
+4	horas	hora	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	adjt	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	2	pobj	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	Museo	museo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	Arqueología	arqueología	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+3	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+5	salimos	salir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	0	top	_	_
+6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+7	avión	avión	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+9	Arequipa	arequipa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+11	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+12	preciosa	precioso	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+13	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+14	colonial	colonial	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	visita	visita	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Convento	convento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+7	Santa	santo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+8	Catalina	catalina	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+10	impresionante	impresionante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	9	attr	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Otro	otro	DI0MS0	DI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	museo	museo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	interesante	interesante	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	attr	_	_
+7	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	8	spec	_	_
+8	Santuarios	santuario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	mod	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
+10	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	11	adjt	_	_
+11	aprendimos	aprender	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	6	mod	_	_
+12	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	11	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
+15	sacrificios	sacrificio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	humanos	humano	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	15	mod	_	_
+17	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	18	subj	_	_
+18	hicieron	hacer	VMIS3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=main	15	mod	_	_
+19	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	4	modnomatch	_	_
+20	Inca	inca	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	0	top	_	_
+2	Arequipa	arequipa	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnorule	_	_
+3	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	vuelo	vuelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	dobj	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+6	Cuzco	cuzco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	modnomatch	_	_
+8	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	10	adjt	_	_
+9	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	10	mphes	_	_
+10	esperaba	esperar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	6	mod	_	_
+11	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	autocar	autocar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+13	para	para	SP	SP	matched=no|pos=adposition|type=preposition	1	modnorule	_	_
+14	llevarnos	llevarnos	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnorule	_	_
+15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	Valle	valle	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	Sagrado	sagrado	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	17	mod	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+
+1	Visitamos	visitar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	taller	taller	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	tejedoras	tejedor	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+7	Chinchero	chinche_ro	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	9	adjt	_	_
+9	hicimos	hacer	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	7	mod	_	_
+10	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+11	buena	bueno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+12	contribución	contribución	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	economía	economía	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	1	modnomatch	_	_
+18	area	a_reo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+
+1	Mientras	mientras	CS	CS	matched=no|pos=conjunction|type=subordinating	0	top	_	_
+2	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+3	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	Valle	valle	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+5	Sagrado	sagrado	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	fuimos	ir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	1	comp	_	_
+7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	coor	_	_
+8	Ollantaytambo	ollantaytambo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	coor	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	mercado	mercado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+14	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	domingo	[G:??/??/??:??.??:??]	W	W	matched=no|pos=date	13	comp	_	_
+16	en	en	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+17	Pisac	pisa_c	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+
+1	¡	¡	Faa	Faa	matched=no|pos=punctuation|punctenclose=open|type=exclamationmark	3	punc	_	_
+2	Ya	ya	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+3	estabamos	estabamos	VMII1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=imperfect|type=main	0	top	_	_
+4	listos	listo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	modnomatch	_	_
+5	para	para	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+7	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+8	aventura	aventura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+9	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	3	punc	_	_
+10	Machu	mach_u	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	3	dobj	_	_
+11	Picchu	picchu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
+12	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	10	punc	_	_
+
+1	Tomamos	tomar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	tren	tren	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	mod	_	_
+5	Ollantaytambo	ollantaytambo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+7	Aguas	agua	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+8	Calientes	caliente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	7	mod	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	adjt	_	_
+10	luego	luego	RG	RG	matched=no|pos=adverb|type=general	9	coor	_	_
+11	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	autobus	auto_bus	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+13	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	15	subj	_	_
+14	nos	nos	PP1CP00	PP	gen=common|matched=no|num=plural|person=1|pos=pronoun|type=personal	15	mphes	_	_
+15	llevó	llevar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	12	mod	_	_
+16	a	a	SP	SP	matched=no|pos=adposition|type=preposition	15	pobj	_	_
+17	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	entrada	entrada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	parque	parque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	Estar	estar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	7	subj	_	_
+2	presente	presente	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	attr	_	_
+3	entre	entre	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	adjt	_	_
+4	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	6	spec	_	_
+5	famosas	famoso	AQ0FP00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+6	ruinas	ruina	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	comp	_	_
+7	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+8	para	para	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	todo	todo	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	grupo	grupo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+12	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	experiencia	experiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	attr	_	_
+14	increíble	increíble	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Todos	todo	PI0MP00	PI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	3	subj	_	_
+2	habíamos	haber	VAII1P0	VAI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=imperfect|type=auxiliary	3	aux	_	_
+3	visto	ver	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+4	fotos	foto	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+5	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	dobj	_	_
+6	programas	programa	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	coor	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	video	video	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	-	-	Fg	Fg	matched=no|pos=punctuation|type=hyphen	3	punc	_	_
+10	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	estar	estar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	coor	_	_
+13	allí	allí	RG	RG	matched=no|pos=adverb|type=general	14	adjt	_	_
+14	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	3	modnomatch	_	_
+15	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	14	attr	_	_
+16	casi	casi	RG	RG	matched=no|pos=adverb|type=general	17	spec	_	_
+17	espiritual	espiritual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+
+1	De	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	Machu	mach_u	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	1	comp	_	_
+3	Picchu	picchu	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	mod	_	_
+4	seguimos	seguir	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	Cuzco	cuzco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	modnomatch	_	_
+8	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	9	adjt	_	_
+9	pasamos	pasar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	6	mod	_	_
+10	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	par	par	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	días	día	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+14	disfrutando	disfrutar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	9	adjt	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	pobj	_	_
+16	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	bellezas	belleza	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	coloniales	colonial	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	17	mod	_	_
+19	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	pred	_	_
+20	Incas	inca	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	19	coor	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Nuestro	nuestro	DP1MSP	DP	gen=masculine|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	2	spec	_	_
+2	hotel	hotel	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+4	ubicado	ubicar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	attr	_	_
+5	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+7	antiguo	antiguo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+8	palacio	palacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	siglo	siglo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	18	18	Z	Z	matched=no|pos=number	3	modnomatch	_	_
+13	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Todos	todo	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	3	spec	_	_
+3	salones	salón	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+4	públicos	público	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+5	tenían	tener	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+6	copias	copia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	dobj	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	pinturas	pintura	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+9	cusqueñas	cusqueñas	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
+10	muy	muy	RG	RG	matched=no|pos=adverb|type=general	11	spec	_	_
+11	bonitas	bonito	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Quizas	quizas	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	attr	_	_
+2	lo	el	DA00S0	DA	matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+3	más	más	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	impresionante	impresionante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	modnomatch	_	_
+5	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	excursión	excursión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+9	Sasayhuaman	sasayhuaman	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	modnomatch	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Despues	despues	RG	RG	matched=no|pos=adverb|type=general	9	adjt	_	_
+2	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+3	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+4	largo	largo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+5	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	adjt	_	_
+7	autobus	auto_bus	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+9	llegamos	llegar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	modnomatch	_	_
+11	Puno	punir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	9	modnomatch	_	_
+12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+13	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	orillas	orilla	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	lago	lago	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	Titicaca	titicaca	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	11	modnomatch	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Aquí	aquí	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	visitamos	visitar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	5	spec	_	_
+4	curiosas	curioso	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+5	islas	isla	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+6	flotantes	flotante	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	5	mod	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	indios	indio	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	7	comp	_	_
+10	Uro	uro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	A	a	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+3	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+5	viajamos	viajar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+6	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+7	autobus	auto_bus	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+10	catamaran	catamaran	VMSI3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	5	modnomatch	_	_
+11	con	con	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+12	destino	destino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+13	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	Paz	paz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+2	camino	camino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	saludamos	saludar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	Virgen	virgen	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	6	mod	_	_
+8	Pomata	pomata	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_
+10	Perú	perú	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	coor	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	llegar	llegar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	modnomatch	_	_
+15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	pobj	_	_
+16	Copacabana	copacabana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+18	Bolivia	bolivia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	subj	_	_
+19	también	también	RG	RG	matched=no|pos=adverb|type=general	20	adjt	_	_
+20	saludamos	saludar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	3	modnomatch	_	_
+21	a	a	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+22	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	23	spec	_	_
+23	Virgen	virgen	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+25	Copacabana	copacabana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+2	catamarán	catamarán	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	cruzamos	cruzar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	lago	lago	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	Titicaca	titicaca	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+8	parando	parar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	15	coor	_	_
+9	en	en	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	Isla	isla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	Sol	sol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	adjt	_	_
+16	subiendo	subir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	15	coor	_	_
+17	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	19	spec	_	_
+18	200	200	Z	Z	matched=no|pos=number	19	spec	_	_
+19	escalones	escalón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	16	dobj	_	_
+20	hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+21	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	22	spec	_	_
+22	cima	cima	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	Paz	paz	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	visitamos	visitar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+5	varios	varios	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
+6	museos	museo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	coor	_	_
+7	e	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	dobj	_	_
+8	iglesias	iglesia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	coor	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+10	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	coor	_	_
+12	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	13	dobj	_	_
+13	pasamos	pasar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	4	modnomatch	_	_
+14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	13	pobj	_	_
+15	Tihuanaco	tihuanaco	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+17	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	18	spec	_	_
+18	sitio	sitio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+19	pre-Inca	pre_inca	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+20	muy	muy	RG	RG	matched=no|pos=adverb|type=general	21	spec	_	_
+21	impresionante	impresionante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Volvimos	volver	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	9	coor	_	_
+2	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+3	Lima	lima	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+5	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	6	adjt	_	_
+6	visitamos	visitar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	3	mod	_	_
+7	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	8	spec	_	_
+8	museos	museo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+10	tuvimos	tener	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	9	coor	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	oportunidad	oportunidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	dobj	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+14	visitar	visitar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	comp	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	Palacio	palacio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+18	Torre	torre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	Tagle	tagle	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	mod	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Ya	ya	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+2	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+3	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	attr	_	_
+4	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+5	volver	volver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	prt	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	prt	_	_
+7	Denver	denver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Volvimos	volver	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	0	top	_	_
+2	con	con	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+3	unos	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	4	spec	_	_
+4	recuerdos	recuerdo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	comp	_	_
+5	de	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	sitios	sitio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+7	bellos	bello	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	6	mod	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	dobj	_	_
+9	gente	gente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
+10	muy	muy	RG	RG	matched=no|pos=adverb|type=general	11	spec	_	_
+11	simpática	simpático	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	¡	¡	Faa	Faa	matched=no|pos=punctuation|punctenclose=open|type=exclamationmark	5	punc	_	_
+2	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	viaje	viaje	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+4	entero	entero	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+6	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	experiencia	experiencia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	attr	_	_
+8	inolvidable	inolvidable	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	5	punc	_	_
+

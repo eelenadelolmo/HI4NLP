@@ -1,0 +1,96 @@
+1	Mis	mi	DP1CPS	DP	gen=common|matched=yes: subj child of top deprel|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	Planes	plan	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	10	subj	_	_
+3	Para	para	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+4	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	Futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	Dentro_de	dentro_de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+7	cinco	5	Z	Z	matched=no|pos=number	8	spec	_	_
+8	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+9	me	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	10	mphes	_	_
+10	veo	ver	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+11	viviendo	vivir	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	10	adjt	_	_
+12	en	en	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
+13	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+14	misma	mismo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+15	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+16	donde	donde	PR00000	PR	matched=no|pos=pronoun|type=relative	17	adjt	_	_
+17	vivo	vivir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	15	mod	_	_
+18	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	17	adjt	_	_
+19	con	con	SP	SP	matched=no|pos=adposition|type=preposition	22	coor	_	_
+20	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	21	spec	_	_
+21	marido	marido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	10	adjt	_	_
+23	con	con	SP	SP	matched=no|pos=adposition|type=preposition	22	coor	_	_
+24	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	25	spec	_	_
+25	par	par	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+27	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	tiempos	tiempo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	corren	correr	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	7	subj	_	_
+6	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
+7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+8	difícil	difícil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
+9	mantener	mantener	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	modnomatch	_	_
+10	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+12	así	así	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+13	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	7	modnomatch	_	_
+14	esperar	esperar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	modnomatch	_	_
+15	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	14	dobj	_	_
+16	tengamos	tener	VMSP1P0	VMS	matched=no|mood=subjunctive|num=plural|person=1|pos=verb|tense=present|type=main	15	comp	_	_
+17	ahorros	ahorro	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	coor	_	_
+18	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+19	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	20	spec	_	_
+20	casa	casa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	coor	_	_
+21	propia	propio	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+22	ya	ya	RG	RG	matched=no|pos=adverb|type=general	23	adjt	_	_
+23	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	7	modnomatch	_	_
+24	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	23	adjt	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	23	punc	_	_
+
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	visión	visión	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	futuro	futuro	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	así	así	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+8	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	6	attr	_	_
+9	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	10	spec	_	_
+10	cuñado	cuñado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+11	murió	morir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	8	comp	_	_
+12	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+13	ya	ya	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
+14	casi	casi	RG	RG	matched=no|pos=adverb|type=general	16	spec	_	_
+15	tres	3	Z	Z	matched=no|pos=number	16	spec	_	_
+16	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	adjt	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	12	adjt	_	_
+18	con	con	SP	SP	matched=no|pos=adposition|type=preposition	17	coor	_	_
+19	solamente	solamente	RG	RG	matched=no|pos=adverb|type=general	18	comp	_	_
+20	27	27	Z	Z	matched=no|pos=number	21	spec	_	_
+21	años	año	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	adjt	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+23	dejando	dejar	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	12	adjt	_	_
+24	a	a	SP	SP	matched=no|pos=adposition|type=preposition	23	dobj	_	_
+25	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	26	spec	_	_
+26	mujer	mujer	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	con	con	SP	SP	matched=no|pos=adposition|type=preposition	23	adjt	_	_
+28	dos	2	Z	Z	matched=no|pos=number	29	spec	_	_
+29	niñas	niño	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	27	comp	_	_
+30	pequeñas	pequeño	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	29	mod	_	_
+31	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	hermana	hermano	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	tuvo	tener	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	5	prt	_	_
+4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	prt	_	_
+5	reinventar	reinventar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+6	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	7	spec	_	_
+7	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+

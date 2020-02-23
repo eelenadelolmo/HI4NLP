@@ -1,0 +1,89 @@
+1	Vivia	vivia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+3	ano	ano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	mod	_	_
+4	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	3	mod	_	_
+5	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+6	America	america	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	comp	_	_
+7	Latina	latino	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	;	;	Fx	Fx	matched=yes: subj child of top deprel|pos=punctuation|type=semicolon	1	punc	_	_
+9	primero	primero	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+10	estudiaba	estudiar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+11	por	por	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+12	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	13	spec	_	_
+13	semestre	semestre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	Universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	Catolica	catolica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	modnomatch	_	_
+19	Cordoba	cordoba	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	10	modnomatch	_	_
+20	en	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+21	Argentina	argentino	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	comp	_	_
+22	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	19	adjt	_	_
+23	despues	despues	RG	RG	matched=no|pos=adverb|type=general	22	coor	_	_
+24	trabajaba	trabajar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	10	modnomatch	_	_
+25	voluntariamente	voluntario_mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	modnomatch	_	_
+26	con	con	SP	SP	matched=no|pos=adposition|type=preposition	24	adjt	_	_
+27	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	28	spec	_	_
+28	organizacion	organizacion	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+29	non-gubernamental	non_gubernamental	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	28	mod	_	_
+30	en	en	SP	SP	matched=no|pos=adposition|type=preposition	24	pobj	_	_
+31	Bolivia	bolivia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	30	comp	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+
+1	Durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	meses	mes	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	pasaba	pasar	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	15	subj	_	_
+6	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	pobj	_	_
+7	Bolivia	bolivia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+8	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	mayoria	mayoria	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	15	modnomatch	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+15	trabajabamos	trabajabamos	VMII1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=imperfect|type=main	0	top	_	_
+16	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+17	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	18	spec	_	_
+18	departamento	departamento	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	18	mod	_	_
+20	Potosi	poto_si	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+21	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+22	en	en	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	sur	sur	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+25	de	de	SP	SP	matched=no|pos=adposition|type=preposition	24	mod	_	_
+26	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	pais	pais	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	25	comp	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+
+1	Alli	alli	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	Khana	khana	RG	RG	matched=no|pos=adverb|type=general	4	adjt	_	_
+4	Wayra	wayra	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	tenia	tenia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	contrato	contrato	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	modnomatch	_	_
+8	con	con	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+9	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	10	spec	_	_
+10	ONG	ong	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	8	comp	_	_
+11	italiana	italiano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	mod	_	_
+12	grande	grande	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	modnomatch	_	_
+13	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	14	mphes	_	_
+14	llama	llamar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	4	modnomatch	_	_
+15	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	4	punc	_	_
+16	Movimientos	movimiento	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	modnomatch	_	_
+17	Laicos	laico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	16	mod	_	_
+18	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+19	America	america	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	Latina	latino	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	19	mod	_	_
+21	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	4	punc	_	_
+22	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	4	modnomatch	_	_
+23	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	24	modnomatch	_	_
+24	MLAL	mlal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	22	coor	_	_
+25	'	'	Fe	Fe	matched=no|pos=punctuation|type=quotation	24	modnomatch	_	_
+26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

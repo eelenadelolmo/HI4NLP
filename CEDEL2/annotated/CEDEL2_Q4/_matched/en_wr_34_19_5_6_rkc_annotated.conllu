@@ -1,0 +1,85 @@
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	lugar	lugar	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	favorito	favorito	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	5	aux	_	_
+5	Granada	granar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+6	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	5	adjt	_	_
+7	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	6	comp	_	_
+8	más	más	RG	RG	matched=no|pos=adverb|type=general	9	spec	_	_
+9	bonita	bonito	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+11	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	coor	_	_
+13	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	5	modnomatch	_	_
+14	simpaticas	simpaticas	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	13	attr	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Sin	sin	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+2	embargo	embargo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	muchas	mucho	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	5	spec	_	_
+5	cosas	cosa	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+6	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	caros	caro	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	6	attr	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+9	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	coor	_	_
+10	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	9	comp	_	_
+11	no	no	RN	RN	matched=no|pos=adverb|type=negative	13	spec	_	_
+12	podía	poder	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	13	prt	_	_
+13	comprar	comprar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	modnomatch	_	_
+14	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	13	adjt	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+4	Italia	italia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+6	muy	muy	RG	RG	matched=no|pos=adverb|type=general	7	spec	_	_
+7	buena	bueno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	5	attr	_	_
+8	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	5	adjt	_	_
+9	hacía	hacer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	8	comp	_	_
+10	mucho	mucho	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	11	spec	_	_
+11	sol	sol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	coor	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+13	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	14	spec	_	_
+14	amigas	amigo	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	coor	_	_
+15	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+16	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	15	coor	_	_
+17	podiamos	podiamos	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	5	modnomatch	_	_
+18	caminar	caminar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	17	dobj	_	_
+19	a	a	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	todos	todo	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	21	spec	_	_
+21	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	22	spec	_	_
+22	lugares	lugar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	19	comp	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+24	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	25	spec	_	_
+25	ciudades	ciudad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	23	comp	_	_
+26	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Este	este	PD0MS00	PD	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+2	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+3	buen	bueno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	practica	practicar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+5	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	5	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	Italia	italia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+3	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	4	subj	_	_
+4	tomé	tomar	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	6	spec	_	_
+6	primero	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	4	pred	_	_
+7	avion	a_vion	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+8	solo	solo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	mod	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+10	Bélgica	bélgica	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	comp	_	_
+11	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+12	reunirse	reunirse	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	comp	_	_
+13	con	con	SP	SP	matched=no|pos=adposition|type=preposition	12	adjt	_	_
+14	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	16	spec	_	_
+15	amiga	amigo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+16	Julie	julie	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

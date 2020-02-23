@@ -1,0 +1,49 @@
+1	Las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	parajas	parajas	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	subj	_	_
+3	gay	gay	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	no	no	RN	RN	matched=no|pos=adverb|type=negative	7	spec	_	_
+5	deben	deber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	7	prt	_	_
+6	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	7	aux	_	_
+7	permitidos	permitir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	0	top	_	_
+8	adoptar	adoptar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	dobj	_	_
+9	niños	niño	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	dobj	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Ser	ser	VSN0000	VSN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=semiauxiliary	2	aux	_	_
+2	adoptado	adoptar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	4	subj	_	_
+3	no	no	RN	RN	matched=no|pos=adverb|type=negative	4	spec	_	_
+4	sea	ser	VSSP1S0	VSS	matched=no|mood=subjunctive|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+5	fácil	fácil	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	4	attr	_	_
+6	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+7	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	niño	niño	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Tener	tener	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	6	subj	_	_
+2	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	dobj	_	_
+3	padres	padre	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	comp	_	_
+4	gay	gay	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	1	pred	_	_
+5	quizás	quizás	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+6	hagan	hacer	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+7	aún	aun	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+8	más	más	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	dobj	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	niño	niño	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	13	mphes	_	_
+13	siente	sentir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+14	diferente	diferente	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	15	coor	_	_
+15	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	6	pred	_	_
+16	malo	malo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	15	coor	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	3	subj	_	_
+2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
+3	pienso	pensar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	3	dobj	_	_
+5	padres	padre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	subj	_	_
+6	gay	gay	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	4	comp	_	_
+8	malos	malo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	7	attr	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

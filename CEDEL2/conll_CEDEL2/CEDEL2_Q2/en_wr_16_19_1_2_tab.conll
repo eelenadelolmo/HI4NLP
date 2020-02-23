@@ -1,0 +1,40 @@
+1  El         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (espec-ms:1(j-ms:1)              0 top        - -
+2  presidenté presidenté VMIS1S0 VMI pos=verb|type=main|mood=indicative|tense=past|person=1|num=singular             - - (grup-verb:2(verb:2)             1 modnomatch - -
+3  de         de         SP      SP  pos=adposition|type=preposition                                                 - - (sp-de:3                         2 adjt       - -
+4  Los        el         DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                            - - (sn:5(espec-mp:4(j-mp:4))        5 spec       - -
+5  Estados    estado     NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (grup-nom-mp:5(n-mp:5)           3 comp       - -
+6  Unidos     unir       VMP00PM VMP pos=verb|type=main|mood=participle|num=plural|gen=masculine                     - - (s-a-mp:6(parti-mp:6))))))       5 mod        - -
+7  es         ser        VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:7(verb:7)             1 modnomatch - -
+8  Señor      señor      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:8(grup-nom-ms:8(n-ms:8))))   7 attr       - -
+9  George     george     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:9(verb:9)             1 modnomatch - -
+10 Bush       bus_h      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:10(grup-nom-ms:10(n-ms:10))) 9 dobj       - -
+11 .          .          Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:11)))                    9 punc       - -
+
+1 Esto       este       PD00S00 PD  pos=pronoun|type=demonstrative|num=singular                                     - - (grup-verb:2(sn:1(pron-ms:1(pdem-ms:1))) 2 subj       - -
+2 es         ser        VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                                 0 top        - -
+3 un         uno        DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                       - - (espec-ms:3(indef-ms:3))                 2 modnomatch - -
+4 presidenté presidenté VMIS1S0 VMI pos=verb|type=main|mood=indicative|tense=past|person=1|num=singular             - - (grup-verb:4(verb:4)                     2 modnomatch - -
+5 muy        muy        RG      RG  pos=adverb|type=general                                                         - - (s-adj:6(sadv:5)                         6 spec       - -
+6 mal        mal        AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:6(a-ms:6)))                      4 modnomatch - -
+7 .          .          Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:7)))                             4 punc       - -
+
+1  No             no             RN      RN  pos=adverb|type=negative                                                        - - (coor-vb:4(grup-verb:2(neg:1) 2  spec - -
+2  es             ser            VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:2)                      4  coor - -
+3  inteligente    inteligente    AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-adj:3(s-a-ms:3(a-ms:3))))  2  attr - -
+4  y              y              CC      CC  pos=conjunction|type=coordinating                                               - - -                             0  top  - -
+5  no             no             RN      RN  pos=adverb|type=negative                                                        - - (grup-verb:6(neg:5)           6  spec - -
+6  es             ser            VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:6)                      4  coor - -
+7  bueno          bueno          AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-adj:7(s-a-ms:7(a-ms:7))))  6  attr - -
+8  representacíon representacíon VMIS3P0 VMI pos=verb|type=main|mood=indicative|tense=past|person=3|num=plural               - - (grup-verb:8(verb:8)          4  coor - -
+9  para           para           SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:9(prep:9)            8  adjt - -
+10 el             el             DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:11(espec-ms:10(j-ms:10))  11 spec - -
+11 país           país           NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:11(n-ms:11))))   9  comp - -
+12 .              .              Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:12)))                 8  punc - -
+
+1 Es   ser  VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:1(verb:1)           0 top  - -
+2 todo todo PI0MS00 PI  pos=pronoun|type=indefinite|gen=masculine|num=singular                          - - (sn:2(pron-ms:2(pindef-ms:2))) 1 attr - -
+3 .    .    Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:3))                    1 punc - -
+
+1 Gracías gracías AQ0FP00 AQ pos=adjective|type=qualificative|gen=feminine|num=plural - - (s-adj:1(s-a-fp:1(a-fp:1)) 0 top  - -
+2 .       .       Fp      Fp pos=punctuation|type=period                              - - (F-term:2))                1 punc - -
+

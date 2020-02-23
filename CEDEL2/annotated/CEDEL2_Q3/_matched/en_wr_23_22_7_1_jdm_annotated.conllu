@@ -1,0 +1,147 @@
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	familia	familia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+4	contente	contentar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+5	venir	venir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	dobj	_	_
+6	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	pobj	_	_
+7	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+8	para	para	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	opportunidades	opportunidades	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+10	mayores	mayor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	horario	horario	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	5	spec	_	_
+5	padre	padre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+7	mayores	mayor	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	6	attr	_	_
+8	despues	despues	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+9	venimos	venir	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	6	modnomatch	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+11	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+12	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	6	modnomatch	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	modnomatch	_	_
+14	trabaja	trabajar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+15	menos	menos	RG	RG	matched=no|pos=adverb|type=general	16	spec	_	_
+16	horas	hora	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	14	adjt	_	_
+17	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	modnomatch	_	_
+18	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	modnomatch	_	_
+19	no	no	RN	RN	matched=no|pos=adverb|type=negative	20	spec	_	_
+20	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	6	modnomatch	_	_
+21	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	modnomatch	_	_
+22	sali	sal_i	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+23	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	estado	estado	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+25	tan	tan	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+26	frequentemente	frequentemente	RG	RG	matched=no|pos=adverb|type=general	6	adjt	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+28	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	6	punc	_	_
+
+1	Mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	madre	madre	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	feliz	feliz	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+6	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	6	comp	_	_
+8	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	3	punc	_	_
+
+1	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	veranos	verano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	calientes	caliente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+6	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	pred	_	_
+7	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	6	coor	_	_
+8	Deciembre	deciembre	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+10	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+11	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+12	muy	muy	RG	RG	matched=no|pos=adverb|type=general	13	spec	_	_
+13	frio	frio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	11	attr	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Cuando	cuando	CS	CS	matched=no|pos=conjunction|type=subordinating	12	adjt	_	_
+2	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	6	subj	_	_
+3	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	norte	norte	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+6	vienen	venir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	1	comp	_	_
+7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
+8	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+10	ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	12	subj	_	_
+11	no	no	RN	RN	matched=no|pos=adverb|type=negative	12	spec	_	_
+12	expecten	expecten	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+13	estar	estar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	dobj	_	_
+14	frio	frio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	attr	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	lugares	lugar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+4	ricos	rico	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+5	incluyiendo	incluyiendo	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	2	adjt	_	_
+6	Lenox	lenox	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	7	mod	_	_
+7	Mall	mal_l	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	dobj	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	pred	_	_
+9	Buckhead	buckhead	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	8	coor	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+11	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	adjt	_	_
+12	tampoco	tampoco	RG	RG	matched=no|pos=adverb|type=general	11	coor	_	_
+13	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+14	lugares	lugar	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	dobj	_	_
+15	baratos	barato	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	14	mod	_	_
+16	incluyiendo	incluyiendo	VMG0000	VMG	matched=no|mood=gerund|pos=verb|type=main	13	adjt	_	_
+17	West	west	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	coor	_	_
+18	End	end	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	mod	_	_
+19	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	13	modnomatch	_	_
+20	East	east	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	coor	_	_
+21	Point	point	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	20	mod	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+
+1	Muchas	mucho	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	turistas	turista	NCCP000	NC	gen=common|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+3	visitan	visitar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+5	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	ano	ano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+7	para	para	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+8	razones	razón	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+9	differentes	differentes	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	8	mod	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Algo	algo	PI0CS00	PI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	3	subj	_	_
+2	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	3	modnomatch	_	_
+3	vienen	venir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	mirar	mirar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	modnomatch	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	aquarium	aquarium	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	dobj	_	_
+7	nuevo	nuevo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+8	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+9	otras	otro	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	10	spec	_	_
+10	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	subj	_	_
+11	vienen	venir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+12	comprar	comprar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	coor	_	_
+13	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	11	modnomatch	_	_
+14	mirar	mirar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	coor	_	_
+15	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	16	spec	_	_
+16	juego	juego	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	futbol	futbol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	americano	americano	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	18	mod	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	cosa	cosa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+3	mala	malo	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+4	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+5	Atlanta	atlanta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	traffico	traffico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+10	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	6	punc	_	_
+

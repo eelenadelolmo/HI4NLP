@@ -1,0 +1,90 @@
+1 Denzel     denzel     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-verb:2(sn:1(grup-nom-ms:1(n-ms:1))) 2 subj       - -
+2 Washington washington VMIS3P0 VMI pos=verb|type=main|mood=indicative|tense=past|person=3|num=plural               - - (verb:2)                                  0 top        - -
+3 es         ser        VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:3(verb:3)                      2 modnomatch - -
+4 muy        muy        RG      RG  pos=adverb|type=general                                                         - - (s-adj:5(sadv:4)                          5 spec       - -
+5 guapo      guapo      AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:5(a-ms:5)))                       3 attr       - -
+6 .          .          Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:6)))                              3 punc       - -
+
+1  El         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (espec-ms:1(j-ms:1)                                    0  top        - -
+2  vive       vivir      VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:2(verb:2)                                   1  modnomatch - -
+3  en         en         SP      SP  pos=adposition|type=preposition                                        - - (grup-sp:3(prep:3)                                     2  pobj       - -
+4  estado     estado     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (sn:4(grup-nom-ms:4(n-ms:4))                           3  comp       - -
+5  de         de         SP      SP  pos=adposition|type=preposition                                        - - (sp-de:5                                               4  mod        - -
+6  California california NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (sn:6(grup-nom-fs:6(n-fs:6))))))                       5  comp       - -
+7  y          y          CC      CC  pos=conjunction|type=coordinating                                      - - (coor-n:7                                              2  dobj       - -
+8  el         el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (sn:9(j-ms:8)                                          9  spec       - -
+9  cuiado     cuiado     VMP00SM VMP pos=verb|type=main|mood=participle|num=singular|gen=masculine          - - (s-a-ms:9(parti-ms:9))                                 7  coor       - -
+10 de         de         SP      SP  pos=adposition|type=preposition                                        - - (sp-de:10                                              9  mod        - -
+11 Bel        be_l       NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (sn:11(grup-nom-fs:11(n-fs:11))))))                    10 comp       - -
+12 Air        air        VMN0000 VMN pos=verb|type=main|mood=infinitive                                     - - (grup-verb-inf:12(infinitiu:12(inf:12(forma-inf:12)))) 2  modnomatch - -
+13 .          .          Fp      Fp  pos=punctuation|type=period                                            - - (F-term:13)))                                          2  punc       - -
+
+1  Denzel    denzel    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (coor-vb:22(grup-verb:2(sn:1(grup-nom-ms:1(n-ms:1)))  2  subj       - -
+2  gana      ganar     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (verb:2)                                              22 coor       - -
+3  un        uno       DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                       - - (espec-ms:3(indef-ms:3)))                             2  modnomatch - -
+4  Academy   academy   RG      RG  pos=adverb|type=general                                                         - - (grup-verb:19(sadv:4)                                 19 adjt       - -
+5  Award     award     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:5(grup-nom-ms:5(n-ms:5)))                         19 subj       - -
+6  para      para      SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:6(prep:6)                                    19 adjt       - -
+7  Training  training  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:7(grup-nom-ms:7(n-ms:7)                           6  comp       - -
+8  Day       dar_y     NCCN000 NC  pos=noun|type=common|gen=common|num=invariable                                  - - (n-fs:8))))                                           7  mod        - -
+9  perro     perro     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:9(grup-nom-ms:9(n-ms:9)))                         19 modnomatch - -
+10 yo        yo        PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative      - - (sn:10(pron:10(psubj-s:10)))                          19 modnomatch - -
+11 creeo     creer_o   NCCN000 NC  pos=noun|type=common|gen=common|num=invariable                                  - - (sn:11(grup-nom-ms:11(n-ms:11)))                      19 modnomatch - -
+12 necesitar necesitar VMN0000 VMN pos=verb|type=main|mood=infinitive                                              - - (grup-verb-inf:12(infinitiu:12(inf:12(forma-inf:12))) 19 modnomatch - -
+13 para      para      SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:13(prep:13)                                  12 adjt       - -
+14 la        el        DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                           - - (sn:15(espec-fs:14(j-fs:14))                          15 spec       - -
+15 pelicula  pelicula  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:15(n-fs:15)                              13 comp       - -
+16 Malcom    malcom    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (n-fs:16))))                                          15 mod        - -
+17 X.        x.        AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (sn:18(grup-nom-ms:18(s-a-ms:17(a-ms:17))             18 mod        - -
+18 Denzel    denzel    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:18(n-ms:18)))))                          12 dobj       - -
+19 tiene     tener     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (verb:19)                                             22 coor       - -
+20 tres      3         Z       Z   pos=number                                                                      - - (sn:21(numero-nopart:20)                              21 spec       - -
+21 hijos     hijo      NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                   - - (grup-nom-mp:21(n-mp:21))))                           19 dobj       - -
+22 y         y         CC      CC  pos=conjunction|type=coordinating                                               - - -                                                     0  top        - -
+23 espasa    espasa    VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular          - - (grup-verb:23(verb:23)                                22 coor       - -
+24 quien     quien     PR0CS00 PR  pos=pronoun|type=relative|gen=common|num=singular                               - - (relativa:25(relatiu-sn:24)                           25 subj       - -
+25 es        ser       VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:25)                                             23 modnomatch - -
+26 muy       muy       RG      RG  pos=adverb|type=general                                                         - - (s-adj:27(sadv:26)                                    27 spec       - -
+27 lindo     lindo     AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                     - - (s-a-ms:27(a-ms:27)))                                 25 attr       - -
+28 a         a         SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:28(prep:28)                                  25 adjt       - -
+29 Denzel    denzel    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:29(grup-nom-ms:29(n-ms:29))))))                   28 comp       - -
+30 .         .         Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:30))                                          22 punc       - -
+
+1 Tienen tener  VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural - - (grup-verb:1(verb:1)          0 top  - -
+2 mucho  mucho  DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular            - - (sn:3(espec-ms:2(indef-ms:2)) 3 spec - -
+3 dinero dinero NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                      - - (grup-nom-ms:3(n-ms:3)))      1 dobj - -
+4 .      .      Fp      Fp  pos=punctuation|type=period                                          - - (F-term:4))                   1 punc - -
+
+1  Denzel    denzel    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                         - - (grup-verb:4(sn:1(grup-nom-ms:1(n-ms:1) 4  subj       - -
+2  mejor     mejor     AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                - - (s-a-ms:2(a-ms:2))))                    1  mod        - -
+3  hijo      hijo      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                         - - (sn:3(grup-nom-ms:3(n-ms:3)))           4  modnomatch - -
+4  juga      juga      VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular  - - (verb:4)                                0  top        - -
+5  el        el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                  - - (sn:6(espec-ms:5(j-ms:5))               6  spec       - -
+6  fut       fu_t      NCMN000 NC  pos=noun|type=common|gen=masculine|num=invariable                       - - (grup-nom-ms:6(n-ms:6)                  4  dobj       - -
+7  bol       bol       NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                         - - (n-ms:7))                               6  mod        - -
+8  americano americano AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular             - - (s-adj:8(s-a-ms:8(a-ms:8))))            6  mod        - -
+9  para      para      SP      SP  pos=adposition|type=preposition                                         - - (prep:9)                                4  modnomatch - -
+10 More      morar     VMSP3S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=singular - - (grup-verb:10(verb:10))                 4  modnomatch - -
+11 house     house     VMSP3S0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=singular - - (grup-verb:11(verb:11)                  4  modnomatch - -
+12 .         .         Fp      Fp  pos=punctuation|type=period                                             - - (F-term:12)))                           11 punc       - -
+
+1 Mi     mi     DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (grup-verb:4(sn:2(espec-fs:1(pos-fs:1)) 2 spec       - -
+2 Tia    tia    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                        - - (grup-nom-fs:2(n-fs:2)))                4 subj       - -
+3 se     se     P00CN00 P0  pos=pronoun|gen=common|num=invariable                                                 - - (morfema-verbal:3)                      4 mphes      - -
+4 gusta  gustar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular                - - (grup-verb:4(verb:4))                   0 top        - -
+5 Denzel denzel NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (sn:5(grup-nom-ms:5(n-ms:5)))           4 modnomatch - -
+6 .      .      Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:6))                             4 punc       - -
+
+1 Denzel   denzel   NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (grup-verb:2(sn:1(grup-nom-ms:1(n-ms:1))) 2 subj - -
+2 es       ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular       - - (verb:2)                                  0 top  - -
+3 mi       mi       DP1CSS  DP  pos=determiner|type=possessive|person=1|gen=common|num=singular|possessornum=singular - - (sn:5(espec-ms:3(pos-ms:3))               5 spec - -
+4 favorito favorito AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular                           - - (grup-nom-ms:5(s-a-ms:4(a-ms:4))          5 mod  - -
+5 actor    actor    NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                       - - (grup-nom-ms:5(n-ms:5))))                 2 attr - -
+6 .        .        Fp      Fp  pos=punctuation|type=period                                                           - - (F-term:6))                               2 punc - -
+
+1 El       el       DA0MS0  DA pos=determiner|type=article|gen=masculine|num=singular      - - (sn:2(j-ms:1)                  2 spec - -
+2 primer   1        AO0MS00 AO pos=adjective|type=ordinal|gen=masculine|num=singular       - - (s-a-ms:2(a-ms:2))             0 top  - -
+3 pelicula pelicula NCFS000 NC pos=noun|type=common|gen=feminine|num=singular              - - (sn:3(grup-nom-fs:3(n-fs:3)))  2 mod  - -
+4 esta     este     DD0FS0  DD pos=determiner|type=demonstrative|gen=feminine|num=singular - - (espec-fs:4(dem-fs:4))         2 spec - -
+5 Denzel   denzel   NCMS000 NC pos=noun|type=common|gen=masculine|num=singular             - - (sn:5(grup-nom-ms:5(n-ms:5)))) 2 mod  - -
+
