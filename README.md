@@ -1,7 +1,7 @@
-# Installation:
+### Installation:
 pip install -r requirements.txt
 
-# Corpus processed:
+### Corpus processed:
 
 AnCora Surface Syntax Dependencies
 published in 2014
@@ -22,19 +22,47 @@ published in SEPLN, march 2014
 ISSN 1135-5948
 © 2014 Sociedad Española para el Procesamiento del Lenguaje Natural
 
+### Scripts
 
+This repository contains the following Bash and Python scripts:
 
-# Execute transformer_conllu.py:
+| Script | Description |
+| ------ | ------ |
+| freeling_analize.sh | Executes the Freeling analyzer for Spanish with the dependency annotation and the output CoNLL option |
+| transformer_forms_conllu.py | Transforms the input documents (CoNLL-U format expected) into a txt file of sentences with the forms of each sentence ended with a full stop |
+| transformer_conllu.py | Transforms the input documents (CoNLL 2006 format expected) into the CoNLL-U format |
+| transformer_conllu_freeling.py | ransforms the input documents (CoNLL Freeling output format expected) into the CoNLL-U format |
+| annotator.py | Exploits a CoNLL-U file in order to add new fields depending on rules |
+| classifier.py | Creates two new folders to classify the sentences in a document depending on whether they contains a matched feature annotation or not |
+| metrics.py | Generates a txt file containing statistical information on the annotations matched |
 
-Options:
+### Execution options
 
--i The directory where the input files are (AnCora_Surface_Syntax_Dependencies corpus).
--o The directory where the conllu files will be saved.
-  
-# Execute annotator.py:
-
-# Execute classifier.py:
-
-# Execute metrics.py:
-
-# Execute transformer_txt.py:
+* freeling_analize.sh
+```sh
+$ 
+``` 
+* transformer_forms_conllu.py
+```sh
+$ transformer_forms_conllu.py -i <inputDirectory> -o <outputDirectory>
+``` 
+* transformer_conllu.py
+```sh
+$ transformer_conllu.py -i <inputDirectory> -o <outputDirectory>
+``` 
+* transformer_conllu_freeling.py
+```sh
+$ transformer_conllu_freeling.py -i <inputDirectory> -o <outputDirectory>
+``` 
+* annotator.py
+```sh
+$ annotator.py -i <inputDirectory> -o <outputDirectory> -r <rulesfile> -p <orderOption>
+``` 
+* classifier.py
+```sh
+$ classifier.py -i <inputDirectoru> -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>
+``` 
+* metrics.py
+```sh
+$ metrics.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>
+``` 
