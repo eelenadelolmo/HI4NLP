@@ -4,6 +4,7 @@ pip install -r requirements.txt
 
 # Corpus processed:
 
+* [Ancora corpus]
 _AnCora Surface Syntax Dependencies published in 2014 at UPF (GLiCom) by Benjamin Kolz, Toni Badia and Roser Saurí_
 
 _Syntax information, which is crucial in many NLP tools, can be represented by means of constituent structures or dependency relations. 
@@ -15,7 +16,15 @@ Therefore we decided to name this corpus 'AnCora Surface Syntax Dependencies'._
 _For further information see: "From constituents to syntax-oriented dependencies" published in SEPLN, march 2014 ISSN 1135-5948 
 © 2014 Sociedad Española para el Procesamiento del Lenguaje Natural_
 
-### Scripts
+* [CEDEL2 corpus]
+
+_CEDEL2 stands for Corpus Escrito del Español como L2 ‘L2 Spanish Written Corpus’._
+_CEDEL2 (version 1.0) is a large database containing the language produced by learners of Spanish as a second/foreign language (L2). This database is called a linguistic ‘corpus’._
+_CEDEL2 contains the language produced by English-speaking natives who are learning Spanish. It also contains a subcorpus of Greek-speaking learners of English. For future versions of the corpus, we are also collecting data from Japanese-speaking learners of Spanish._
+_CEDEL2 also contains a subcorpus of Spanish native speakers for comparative purposes._
+
+
+# Scripts
 
 This repository contains the following Bash and Python scripts:
 
@@ -28,6 +37,7 @@ This repository contains the following Bash and Python scripts:
 | annotator.py | Exploits a CoNLL-U file in order to add new fields depending on rules |
 | classifier.py | Creates two new folders to classify the sentences in a document depending on whether they contains a matched feature annotation or not |
 | metrics.py | Generates a txt file containing statistical information on the annotations matched |
+
 
 ### Execution options
 
@@ -55,3 +65,7 @@ $ classifier.py -i <inputDirectoru> -u <UnmatchedOutputDirectory> -m <MatchedOut
 ```sh
 $ metrics.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>
 ``` 
+
+
+[Ancora corpus]: http://clic.ub.edu/corpus/es/ancora
+[CEDEL2 corpus]: http://cedel2.learnercorpora.com/learners-english/
