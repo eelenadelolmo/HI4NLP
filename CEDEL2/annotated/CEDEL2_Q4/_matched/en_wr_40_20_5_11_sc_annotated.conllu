@@ -1,0 +1,30 @@
+1	Sí	sí	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+2	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	debe	deber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	prt	_	_
+4	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	5	aux	_	_
+5	legalizado	legalizar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Leyes	ley	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	3	subj	_	_
+2	deben	deber	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	3	prt	_	_
+3	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	0	top	_	_
+4	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	3	attr	_	_
+5	acciónes	acciónes	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	lastima	lastimar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	mod	_	_
+8	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	gente	gente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	dobj	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+11	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
+12	contra	contra	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+13	plantas	planta	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	3	modnomatch	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+16	antes_de	antes_de	SP	SP	matched=no|pos=adposition|type=preposition	20	adjt	_	_
+17	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	18	spec	_	_
+18	tiempo	tiempo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	no	no	RN	RN	matched=no|pos=adverb|type=negative	20	spec	_	_
+20	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	3	modnomatch	_	_
+21	problemas	problema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	20	attr	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+

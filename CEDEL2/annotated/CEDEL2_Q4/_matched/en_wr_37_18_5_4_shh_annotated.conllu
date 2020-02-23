@@ -1,0 +1,120 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	colegio	colegio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+4	en	en	SP	SP	matched=no|pos=adposition|type=preposition	3	modnomatch	_	_
+5	Alcalá	alcalá	I	I	matched=no|pos=interjection	3	adjt	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	attr	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	Guadaira	guadaira	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	comp	_	_
+9	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	10	subj	_	_
+10	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	8	mod	_	_
+11	ocho	8	Z	Z	matched=no|pos=number	10	attr	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+13	diez_millas	LN_mi:10	Zu	Zu	matched=no|pos=number|type=unit	12	comp	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	mod	_	_
+15	Sevilla	sevilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	tuviéramos	tener	VMSI1P0	VMS	matched=no|mood=subjunctive|num=plural|person=1|pos=verb|tense=imperfect|type=main	0	top	_	_
+3	coger	coger	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	autobús	autobús	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	adjt	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+9	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	modnomatch	_	_
+10	once_de_la_mañana	[??:??/??/??:11.00:am]	W	W	matched=no|pos=date	2	adjt	_	_
+11	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+12	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	11	comp	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+14	nuestros	nuestro	DP1MPP	DP	gen=masculine|matched=no|num=plural|person=1|pos=determiner|possessornum=plural|type=possessive	2	modnomatch	_	_
+15	clases	clase	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	subj	_	_
+16	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	clases	clase	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	18	modnomatch	_	_
+18	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	2	modnomatch	_	_
+19	sobre	sobre	SP	SP	matched=no|pos=adposition|type=preposition	18	attr	_	_
+20	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	21	spec	_	_
+21	idioma	idioma	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	comp	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+23	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	24	spec	_	_
+24	cultura	cultura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	modnomatch	_	_
+25	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	24	punc	_	_
+26	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	27	spec	_	_
+27	historia	historia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	modnomatch	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	27	mod	_	_
+29	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	28	comp	_	_
+30	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+
+1	Por_lo_menos	por_lo_menos	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+2	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+3	las	el	DA0FP0	DA	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	4	spec	_	_
+4	clases	clase	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+5	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+6	buenas	bueno	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	5	attr	_	_
+7	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	coor	_	_
+9	veces	vez	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+10	parecían	parecer	VMII3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=main	5	modnomatch	_	_
+11	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	subj	_	_
+12	fueron	ser	VSIS3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=past|type=semiauxiliary	11	comp	_	_
+13	larguísimas	larguísimas	AQSFP00	AQ	degree=superlative|gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	12	attr	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	comida	comida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+4	España	españa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	mejora	mejora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	attr	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	Todo	todo	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	2	subj	_	_
+2	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+3	bueno	bueno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	attr	_	_
+4	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+5	tres	3	Z	Z	matched=no|pos=number	6	spec	_	_
+6	semanas	semana	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+7	allí	allí	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+8	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+9	cera	cera	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	coor	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	fin	fin	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+14	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	15	spec	_	_
+15	vacación	vacación	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	tuve	tener	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	2	modnomatch	_	_
+17	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	2	modnomatch	_	_
+18	problema	problema	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+19	con	con	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+20	hablar	hablar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	19	comp	_	_
+21	español	español	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	2	modnomatch	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+2	hablar	hablar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
+3	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	1	modnomatch	_	_
+4	idioma	idioma	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	13	subj	_	_
+5	secundaria	secundario	AQ0FS00	AQ	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	para	para	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+7	casi	casi	RG	RG	matched=no|pos=adverb|type=general	6	comp	_	_
+8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	mes	mes	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	9	punc	_	_
+11	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	12	spec	_	_
+12	mente	mente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	modnomatch	_	_
+13	estaba	estar	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+14	cansado	cansar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	13	attr	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+16	pensar	pensar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	15	comp	_	_
+17	in	i_n	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	dobj	_	_
+18	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	14	adjt	_	_
+19	hablar	hablar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	18	comp	_	_
+20	in	i_n	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	dobj	_	_
+21	español	español	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	14	modnomatch	_	_
+22	en_vez_de	en_vez_de	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+23	ingles	ingle	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	22	comp	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	13	punc	_	_
+

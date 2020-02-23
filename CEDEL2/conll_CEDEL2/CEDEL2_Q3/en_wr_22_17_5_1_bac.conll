@@ -1,0 +1,104 @@
+1 Yo     yo     PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (grup-verb:2(sn:1(pron:1(psubj-s:1))) 2 subj       - -
+2 vivo   vivir  VMIP1S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular     - - (verb:2)                              0 top        - -
+3 en     en     SP      SP  pos=adposition|type=preposition                                            - - (prep:3)                              2 modnomatch - -
+4 Los    el     DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                       - - (espec-mp:4(j-mp:4))                  2 modnomatch - -
+5 Estado estado NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:5(grup-nom-ms:5(n-ms:5)))         2 dobj       - -
+6 Unidos unir   VMP00PM VMP pos=verb|type=main|mood=participle|num=plural|gen=masculine                - - (subord-part:6(parti-mp:6))           2 pred       - -
+7 .      .      Fp      Fp  pos=punctuation|type=period                                                - - (F-term:7))                           2 punc       - -
+
+1  La         el         DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                      - - (grup-verb:14(sn:2(espec-fs:1(j-fs:1)) 2  spec       - -
+2  region     region     NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                             - - (grup-nom-fs:2(n-fs:2))                14 subj       - -
+3  de         de         SP      SP  pos=adposition|type=preposition                                            - - (prep:3)                               2  modnomatch - -
+4  los        el         DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                       - - (espec-mp:4(j-mp:4))                   2  spec       - -
+5  Estado     estado     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:5(grup-nom-ms:5(n-ms:5)))          2  mod        - -
+6  Unidos     unir       VMP00PM VMP pos=verb|type=main|mood=participle|num=plural|gen=masculine                - - (parti-flex:6(parti-mp:6))             2  modnomatch - -
+7  que        que        PR0CN00 PR  pos=pronoun|type=relative|gen=common|num=invariable                        - - (relativa:9(relatiu-sn:7)              9  subj       - -
+8  yo         yo         PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative - - (sn:8(pron:8(psubj-s:8)))              9  modnomatch - -
+9  viven      vivir      VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural       - - (verb:9)                               2  mod        - -
+10 ,          ,          Fc      Fc  pos=punctuation|type=comma                                                 - - (Fc:10))                               9  punc       - -
+11 esta       este       DD0FS0  DD  pos=determiner|type=demonstrative|gen=feminine|num=singular                - - (espec-fs:11(dem-fs:11)))              2  spec       - -
+12 Wisconsin  wisconsin  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (sn:12(grup-nom-ms:12(n-ms:12))        14 modnomatch - -
+13 ,          ,          Fc      Fc  pos=punctuation|type=comma                                                 - - (Fc:13))                               12 punc       - -
+14 hay        haber      VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular     - - (verb:14)                              0  top        - -
+15 cuatro     4          Z       Z   pos=number                                                                 - - (sn:16(numero-nopart:15)               16 spec       - -
+16 estaciónes estaciónes NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                               - - (grup-nom-fp:16(n-fp:16)))             14 dobj       - -
+17 durante    durante    SP      SP  pos=adposition|type=preposition                                            - - (grup-sp:17(prep:17)                   14 adjt       - -
+18 un         uno        DI0MS0  DI  pos=determiner|type=indefinite|gen=masculine|num=singular                  - - (sn:19(espec-ms:18(indef-ms:18))       19 spec       - -
+19 año        año        NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                            - - (grup-nom-ms:19(n-ms:19))))            17 comp       - -
+20 .          .          Fp      Fp  pos=punctuation|type=period                                                - - (F-term:20))                           14 punc       - -
+
+1 Cada     cada     DI0CS0  DI pos=determiner|type=indefinite|gen=common|num=singular      - - (sn:2(espec-fs:1(indef-fs:1)) 2 spec - -
+2 estación estación NCFS000 NC pos=noun|type=common|gen=feminine|num=singular              - - (grup-nom-fs:2(n-fs:2))       0 top  - -
+3 duro     duro     AQ0MS00 AQ pos=adjective|type=qualificative|gen=masculine|num=singular - - (s-adj:3(s-a-ms:3(a-ms:3)))   2 mod  - -
+4 por      por      SP      SP pos=adposition|type=preposition                             - - (grup-sp:4(prep:4)            2 mod  - -
+5 3        3        Z       Z  pos=number                                                  - - (sn:6(numero-nopart:5)        6 spec - -
+6 meses    mes      NCMP000 NC pos=noun|type=common|gen=masculine|num=plural               - - (grup-nom-mp:6(n-mp:6)))      4 comp - -
+7 .        .        Fp      Fp pos=punctuation|type=period                                 - - (F-term:7)))                  4 punc - -
+
+1 El       el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (grup-verb:4(sn:2(j-ms:1)     2 spec       - -
+2 primero  1        AO0MS00 AO  pos=adjective|type=ordinal|gen=masculine|num=singular                           - - (s-a-ms:2(a-ms:2)))           4 subj       - -
+3 estacion estacion NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:3(grup-nom-fs:3(n-fs:3))) 4 modnomatch - -
+4 es       ser      VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:4)                      0 top        - -
+5 el       el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:6(espec-ms:5(j-ms:5))     6 spec       - -
+6 invierno invierno NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:6(n-ms:6)))      4 attr       - -
+7 .        .        Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:7))                   4 punc       - -
+
+1 Durante  durante  SP      SP  pos=adposition|type=preposition                                        - - (grup-verb:4(grup-sp:1(prep:1) 4 adjt - -
+2 el       el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (sn:3(espec-ms:2(j-ms:2))      3 spec - -
+3 invierno invierno NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-nom-ms:3(n-ms:3))))      1 comp - -
+4 está     estar    VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (verb:4)                       0 top  - -
+5 muy      muy      RG      RG  pos=adverb|type=general                                                - - (s-adj:6(sadv:5)               6 spec - -
+6 frio     frio     AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular            - - (s-a-ms:6(a-ms:6)))            4 attr - -
+7 !        !        Fat     Fat pos=punctuation|type=exclamationmark|punctenclose=close                - - (F-term:7))                    4 punc - -
+
+1 Esta    este    DD0FS0  DD  pos=determiner|type=demonstrative|gen=feminine|num=singular           - - (grup-verb:3(sn:2(espec-fs:1(dem-fs:1)) 2 spec - -
+2 nieve   nieve   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                        - - (grup-nom-fs:2(n-fs:2)))                3 subj - -
+3 tambien tambien VMSP3P0 VMS pos=verb|type=main|mood=subjunctive|tense=present|person=3|num=plural - - (verb:3)                                0 top  - -
+4 .       .       Fp      Fp  pos=punctuation|type=period                                           - - (F-term:4))                             3 punc - -
+
+1  Mis        mi       DP1CPS  DP  pos=determiner|type=possessive|person=1|gen=common|num=plural|possessornum=singular - - (coor-n:3(sn:2(espec-mp:1(pos-mp:1))              2  spec       - -
+2  amigos     amigo    NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                                       - - (grup-nom-mp:2(n-mp:2)))                          3  coor       - -
+3  y          y        CC      CC  pos=conjunction|type=coordinating                                                   - - -                                                 0  top        - -
+4  yo         yo       PP1CSN0 PP  pos=pronoun|type=personal|person=1|gen=common|num=singular|case=nominative          - - (sn:4(pron:4(psubj-s:4)))                         3  coor       - -
+5  ,          ,        Fc      Fc  pos=punctuation|type=comma                                                          - - (Fc:5)                                            3  punc       - -
+6  encantamos encantar VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural                - - (grup-verb:6(verb:6))                             3  modnomatch - -
+7  jugamos    jugar    VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural                - - (grup-verb:7(verb:7))                             3  modnomatch - -
+8  en         en       SP      SP  pos=adposition|type=preposition                                                     - - (prep:8)                                          3  modnomatch - -
+9  el         el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                              - - (espec-ms:9(j-ms:9))                              3  modnomatch - -
+10 nieve      nieve    NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                      - - (sn:10(grup-nom-fs:10(n-fs:10)))                  3  coor       - -
+11 todos      todo     DI0MP0  DI  pos=determiner|type=indefinite|gen=masculine|num=plural                             - - (espec-mp:12(grup-complex-spec-mp:12(indef-mp:11) 12 spec       - -
+12 los        el       DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                                - - (j-mp:12)))                                       3  modnomatch - -
+13 dias       dias     NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                                        - - (sn:13(grup-nom-fp:13(n-fp:13)))                  3  coor       - -
+14 en         en       SP      SP  pos=adposition|type=preposition                                                     - - (grup-sp:14(prep:14)                              3  modnomatch - -
+15 el         el       DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                              - - (sn:16(espec-ms:15(j-ms:15))                      16 spec       - -
+16 invierno   invierno NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                     - - (grup-nom-ms:16(n-ms:16)))                        14 comp       - -
+17 .          .        Fp      Fp  pos=punctuation|type=period                                                         - - (F-term:17)))                                     14 punc       - -
+
+1  El        el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (grup-verb:9(sn:2(j-ms:1)       2  spec       - -
+2  segundo   2         AO0MS00 AO  pos=adjective|type=ordinal|gen=masculine|num=singular                           - - (s-a-ms:2(a-ms:2)))             9  subj       - -
+3  estación  estación  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:3(grup-nom-fs:3(n-fs:3))    9  modnomatch - -
+4  de        de        SP      SP  pos=adposition|type=preposition                                                 - - (sp-de:4                        3  mod        - -
+5  el        el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (sn:6(espec-ms:5(j-ms:5))       6  spec       - -
+6  año       año       NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:6(n-ms:6)))))      4  comp       - -
+7  en        en        SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:7(prep:7)              9  adjt       - -
+8  Wisconsin wisconsin NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:8(grup-nom-ms:8(n-ms:8))))  7  comp       - -
+9  es        ser       VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:9)                        0  top        - -
+10 el        el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (espec-ms:10(j-ms:10))          9  modnomatch - -
+11 primavera primavera NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (sn:11(grup-nom-fs:11(n-fs:11)) 9  attr       - -
+12 .         .         Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:12)))                   11 punc       - -
+
+1 El        el        DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (espec-ms:1(j-ms:1)                       0 top        - -
+2 primavera primavera NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - (grup-verb:3(sn:2(grup-nom-fs:2(n-fs:2))) 3 subj       - -
+3 está      estar     VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (verb:3)                                  1 modnomatch - -
+4 muy       muy       RG      RG  pos=adverb|type=general                                                - - (s-adj:5(sadv:4)                          5 spec       - -
+5 bonita    bonito    AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular             - - (s-a-fs:5(a-fs:5)))                       3 attr       - -
+6 .         .         Fp      Fp  pos=punctuation|type=period                                            - - (F-term:6)))                              3 punc       - -
+
+1 Los     el     DA0MP0  DA pos=determiner|type=article|gen=masculine|num=plural     - - (sn:2(espec-mp:1(j-mp:1))     2 spec - -
+2 árboles árbol  NCMP000 NC pos=noun|type=common|gen=masculine|num=plural            - - (grup-nom-mp:2(n-mp:2)        0 top  - -
+3 vuelta  vuelta NCFS000 NC pos=noun|type=common|gen=feminine|num=singular           - - (n-fs:3))                     2 mod  - -
+4 verde   verde  AQ0CS00 AQ pos=adjective|type=qualificative|gen=common|num=singular - - (s-adj:4(s-a-ms:4(a-ms:4)))   2 mod  - -
+5 otra    otro   DI0FS0  DI pos=determiner|type=indefinite|gen=feminine|num=singular - - (sn:6(espec-fs:5(indef-fs:5)) 6 spec - -
+6 vez     vez    NCFS000 NC pos=noun|type=common|gen=feminine|num=singular           - - (grup-nom-fs:6(n-fs:6))       2 mod  - -
+7 .       .      Fp      Fp pos=punctuation|type=period                              - - (F-term:7)))                  6 punc - -
+

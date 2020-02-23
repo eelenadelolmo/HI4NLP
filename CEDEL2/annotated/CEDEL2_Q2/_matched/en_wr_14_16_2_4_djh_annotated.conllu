@@ -1,0 +1,47 @@
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	fui	ir	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+3	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	modnomatch	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	cine	cine	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	2	modnomatch	_	_
+8	Roadhouse	roadhouse	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	2	modnomatch	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	8	dobj	_	_
+10	Bring	brin_g	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	coor	_	_
+11	It	i_t	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	mod	_	_
+12	on	o_n	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	modnomatch	_	_
+13	Again	again	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	mod	_	_
+14	con	con	SP	SP	matched=no|pos=adposition|type=preposition	8	adjt	_	_
+15	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	16	spec	_	_
+16	amigos	amigo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	14	comp	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	ganamos	ganar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	muy	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	baloncestos	baloncesto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+5	partidos	partido	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	mod	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Proximo	proximo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	2	mod	_	_
+2	verano	verano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	muy	muy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	divertido	divertir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	3	attr	_	_
+6	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
+7	fui	ser	VSIS1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=semiauxiliary	6	comp	_	_
+8	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
+9	con	con	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+10	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	11	spec	_	_
+11	padres	padre	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	comp	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+13	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	14	spec	_	_
+14	hermanas	hermano	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	coor	_	_
+15	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+16	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	17	spec	_	_
+17	abuelo	abuelo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	comp	_	_
+18	compleanos	compleanos	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	modnomatch	_	_
+19	de	de	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+20	70th	70th	Z	Z	matched=no|pos=number	19	comp	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

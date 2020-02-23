@@ -1,0 +1,291 @@
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	television	television	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	cine	cine	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	coor	_	_
+7	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	comp	_	_
+8	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	coor	_	_
+9	diaria	diario	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	8	mod	_	_
+10	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+11	imagenes	imagenes	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	drogas	droga	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+14	constantamente	constantamente	RG	RG	matched=no|pos=adverb|type=general	10	adjt	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+2	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	3	spec	_	_
+3	anuncios	anuncio	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	1	comp	_	_
+4	publicos	publicos	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	3	mod	_	_
+5	en_contra_de	en_contra_de	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+6	drogas	droga	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	1	comp	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	artistas	artista	NCCP000	NC	gen=common|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+11	musica	musicar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+12	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	11	dobj	_	_
+13	cantan	cantar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	12	comp	_	_
+14	de	de	SP	SP	matched=no|pos=adposition|type=preposition	13	adjt	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	comp	_	_
+17	increible	increible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	16	mod	_	_
+18	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+19	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	11	punc	_	_
+
+1	Aunque	aunque	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+2	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	1	coor	_	_
+3	las	lo	PP3FPA0	PP	case=accusative|gen=feminine|matched=no|num=plural|person=3|pos=pronoun|type=personal	4	dobj	_	_
+4	usen	usar	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+6	ahora	ahora	RG	RG	matched=no|pos=adverb|type=general	8	adjt	_	_
+7	las	lo	PP3FPA0	PP	case=accusative|gen=feminine|matched=no|num=plural|person=3|pos=pronoun|type=personal	8	dobj	_	_
+8	son	ser	VSIP3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=semiauxiliary	1	modnomatch	_	_
+9	ilegal	ilegal	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	8	attr	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	pregunta	pregunta	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	5	spec	_	_
+5	afecto	afecto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+6	malo	malo	AQ0MS00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	5	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+8	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	9	spec	_	_
+9	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	sociedad	sociedad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	14	aux	_	_
+14	empezado	empezar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	0	top	_	_
+15	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	16	spec	_	_
+16	debate	debate	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
+17	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	14	adjt	_	_
+18	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	subj	_	_
+19	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	21	mphes	_	_
+20	debería	deber	VMIC3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=conditional|type=main	21	prt	_	_
+21	legalizar	legalizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	17	comp	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+
+1	Creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
+3	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+5	sea	ser	VSSP1S0	VSS	matched=no|mood=subjunctive|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	6	aux	_	_
+6	legalizado	legalizar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+7	en	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	estados	estado	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	comp	_	_
+10	unidos	unir	VMP00PM	VMP	gen=masculine|matched=no|mood=participle|num=plural|pos=verb|type=main	9	mod	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+2	primer	1	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	con	con	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	6	spec	_	_
+6	cantidad	cantidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+8	dinero	dinero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	19	subj	_	_
+10	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	11	spec	_	_
+11	Estados	estado	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	13	subj	_	_
+12	Unidos	unir	VMP00PM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=plural|pos=verb|type=main	11	mod	_	_
+13	gastan	gastar	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	9	comp	_	_
+14	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	13	adjt	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	guerra	guerra	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	comp	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	16	mod	_	_
+18	drogas	droga	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	17	comp	_	_
+19	pudieran	poder	VMSI3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+20	usado	usar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	19	adjt	_	_
+21	por	por	SP	SP	matched=no|pos=adposition|type=preposition	20	agnt	_	_
+22	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	23	spec	_	_
+23	causa	causa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	mejor	mejor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	23	mod	_	_
+25	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	19	punc	_	_
+
+1	Creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	1	dobj	_	_
+3	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	subj	_	_
+4	no	no	RN	RN	matched=no|pos=adverb|type=negative	5	spec	_	_
+5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	comp	_	_
+6	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	mayor	mayor	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	attr	_	_
+8	problems	problems	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	modnomatch	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+10	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+11	muchos	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	12	spec	_	_
+12	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	13	spec	_	_
+13	problemas	problema	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	dobj	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	15	subj	_	_
+15	necisitan	necisitan	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	13	mod	_	_
+16	dinero	dinero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	dobj	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+18	en_vez_de	en_vez_de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+19	combatir	combatir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	18	comp	_	_
+20	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	19	dobj	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	Se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	3	mphes	_	_
+2	puedan	poder	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	3	prt	_	_
+3	usar	usar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	0	top	_	_
+4	este	este	DD0MS0	DD	gen=masculine|matched=no|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
+5	dinero	dinero	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	programas	programa	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	comp	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+9	combatir	combatir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	comp	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	pobreza	pobreza	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	dobj	_	_
+12	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	modnomatch	_	_
+14	hambre	hambre	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	segundo	2	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	15	coor	_	_
+5	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	dobj	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	8	subj	_	_
+7	habían	haber	VAII3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=auxiliary	8	aux	_	_
+8	recibido	recibir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	5	mod	_	_
+9	afectos	afecto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	dobj	_	_
+10	malos	malo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	9	mod	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+12	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	13	spec	_	_
+13	drogas	droga	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+15	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+16	tambien	tambien	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	15	coor	_	_
+17	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	15	coor	_	_
+18	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	26	coor	_	_
+19	quien	quien	PR0CS00	PR	gen=common|matched=no|num=singular|pos=pronoun|type=relative	21	subj	_	_
+20	habían	haber	VAII3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=auxiliary	21	aux	_	_
+21	recibido	recibir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	18	mod	_	_
+22	afectos	afecto	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	coor	_	_
+23	malos	malo	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	22	mod	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
+25	alcol	alcol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+26	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	17	dobj	_	_
+27	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	28	spec	_	_
+28	tipos	tipo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	coor	_	_
+29	de	de	SP	SP	matched=no|pos=adposition|type=preposition	28	mod	_	_
+30	sustancias	sustancia	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	29	comp	_	_
+31	legales	legal	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	30	mod	_	_
+32	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	2	spec	_	_
+2	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	subj	_	_
+3	tengan	tener	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	5	prt	_	_
+4	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	prt	_	_
+5	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	12	coor	_	_
+6	responsible	responsible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	attr	_	_
+7	por	por	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+8	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	9	spec	_	_
+9	propios	propio	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	5	modnomatch	_	_
+10	vidas	vida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	5	modnomatch	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+13	no	no	RN	RN	matched=no|pos=adverb|type=negative	14	spec	_	_
+14	necisitamos	necisitamos	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	12	coor	_	_
+15	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	modnomatch	_	_
+16	ley	ley	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	modnomatch	_	_
+17	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	18	subj	_	_
+18	prohibiten	prohibiten	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	16	mod	_	_
+19	todas	todo	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	12	modnomatch	_	_
+20	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	modnomatch	_	_
+21	usar	usar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	20	comp	_	_
+22	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	21	dobj	_	_
+23	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	20	punc	_	_
+
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	tercer	3	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	3	mod	_	_
+3	lugar	lugar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	conozco	conocer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+5	muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	6	spec	_	_
+6	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	coor	_	_
+7	quien	quien	PR0CS00	PR	gen=common|matched=no|num=singular|pos=pronoun|type=relative	8	subj	_	_
+8	fuman	fumar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	6	mod	_	_
+9	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	coor	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	11	punc	_	_
+11	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	dobj	_	_
+12	sus	su	DP3CPN	DP	gen=common|matched=no|num=plural|person=3|pos=determiner|possessornum=invariable|type=possessive	13	spec	_	_
+13	vidas	vida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	coor	_	_
+14	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	15	aux	_	_
+15	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	4	modnomatch	_	_
+16	buenas	bueno	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	15	attr	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+
+1	Aunque	aunque	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+2	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	coor	_	_
+3	muchas	mucho	DI0FP0	DI	gen=feminine|matched=no|num=plural|pos=determiner|type=indefinite	4	spec	_	_
+4	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	2	dobj	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+6	apoyan	apoyar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	4	mod	_	_
+7	mis	mi	DP1CPS	DP	gen=common|matched=no|num=plural|person=1|pos=determiner|possessornum=singular|type=possessive	8	spec	_	_
+8	sentimentos	sentimentos	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	6	dobj	_	_
+9	creo	creer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	1	coor	_	_
+10	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	9	dobj	_	_
+11	sea	ser	VSSP1S0	VSS	matched=no|mood=subjunctive|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	10	comp	_	_
+12	imposible	imposible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	11	attr	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+14	legalizar	legalizar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	comp	_	_
+15	marihuana	marihuana	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	14	dobj	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	gobierno	gobierno	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	4	mphes	_	_
+4	siente	sentir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	dobj	_	_
+6	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	5	comp	_	_
+7	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	8	spec	_	_
+8	trabajo	trabajo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+10	controlar	controlar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	9	comp	_	_
+11	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	12	spec	_	_
+12	vidas	vida	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	10	modnomatch	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+14	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	15	spec	_	_
+15	ciudadanos	ciudadano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	igual	igual	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	1	attr	_	_
+3	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	1	modnomatch	_	_
+4	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	modnomatch	_	_
+5	leyes	ley	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	12	subj	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	dicen	decir	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	mod	_	_
+8	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	dobj	_	_
+10	tienen	tener	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	12	prt	_	_
+11	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	12	prt	_	_
+12	abrochar	abrochar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	modnomatch	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	1	modnomatch	_	_
+14	cintrones	c_intrón	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	modnomatch	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+
+1	No	no	RN	RN	matched=no|pos=adverb|type=negative	2	spec	_	_
+2	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	10	coor	_	_
+3	para	para	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+4	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	buen	bueno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	comp	_	_
+6	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	mod	_	_
+7	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	pais	pais	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	6	comp	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+10	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+11	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	10	coor	_	_
+12	para	para	SP	SP	matched=no|pos=adposition|type=preposition	11	adjt	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	buen	bueno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	12	comp	_	_
+15	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+16	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	17	spec	_	_
+17	personas	persona	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	15	comp	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+

@@ -59,8 +59,8 @@ def conllu_freeling_transformer(file_conll, file_conllu):
 
 def main(argv):
 
-    inputdir = 'CEDEL2/conll_CEDEL2/CEDEL2_Q1/'
-    outputdir = 'CEDEL2/conllu/CEDEL2_Q1/'
+    inputdir = 'CEDEL2/conll_CEDEL2/CEDEL2_Q4/'
+    outputdir = 'CEDEL2/conllu/CEDEL2_Q4/'
 
     try:
         opts, args = getopt.getopt(argv, "hi:o:", ["idir=", "odir="])

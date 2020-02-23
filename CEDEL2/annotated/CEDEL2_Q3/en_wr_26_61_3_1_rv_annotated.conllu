@@ -1,0 +1,157 @@
+1	MI	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	2	spec	_	_
+2	NOMBRE	nombre	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	ES	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	RAY	ray	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	attr	_	_
+5	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+6	VIVO	vivo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	5	coor	_	_
+7	EN	en	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+8	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	BARIO	bario	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+10	DE	de	SP	SP	matched=no|pos=adposition|type=preposition	9	mod	_	_
+11	LONDRES	londres	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	10	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	10	punc	_	_
+
+1	ESTA	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	0	top	_	_
+2	"	"	Fe	Fe	matched=no|pos=punctuation|type=quotation	1	modnomatch	_	_
+3	A	a	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+4	COUNTY	county	RG	RG	matched=no|pos=adverb|type=general	3	comp	_	_
+5	"	"	Fe	Fe	matched=no|pos=punctuation|type=quotation	1	modnomatch	_	_
+6	SE	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	7	mphes	_	_
+7	LLAMA	llamar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+8	ESSEX	essex	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	7	pred	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	VIVO	vivir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+2	EN	en	SP	SP	matched=no|pos=adposition|type=preposition	1	pobj	_	_
+3	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	PUEBLO	pueblo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	comp	_	_
+5	SE	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	6	mphes	_	_
+6	LLAMA	llamar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	modnomatch	_	_
+7	WOODFORD	woodford	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	subj	_	_
+8	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	LA	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	UBICACION	ubicacion	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	ES	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	MUY	muy	RG	RG	matched=no|pos=adverb|type=general	5	spec	_	_
+5	BUENO	bueno	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	attr	_	_
+6	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	ESTA	este	PD0FS00	PD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	3	subj	_	_
+2	MUY	muy	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+3	CIRCA	circa	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	EL	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	spec	_	_
+5	METRO	metro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+6	PARA	para	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+7	IR	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	comp	_	_
+8	A	a	SP	SP	matched=no|pos=adposition|type=preposition	7	pobj	_	_
+9	LONDRES	londres	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	comp	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	SI	si	CS	CS	matched=no|pos=conjunction|type=subordinating	0	top	_	_
+2	QUIERE	querer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	comp	_	_
+3	IR	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+4	A	a	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+5	LONDRES	londres	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	comp	_	_
+6	EL	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	VIAJE	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	modnomatch	_	_
+8	POR	por	SP	SP	matched=no|pos=adposition|type=preposition	3	pobj	_	_
+9	TREN	tren	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	TARDA	tardo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	3	pred	_	_
+11	CUARENTA_MINUTOS	TM_min:40	Zu	Zu	matched=no|pos=number|type=unit	3	modnomatch	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	1	punc	_	_
+
+1	TAMBIEN	tambien	VMSP3P0	VMS	matched=no|mood=subjunctive|num=plural|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	ESTA	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	1	modnomatch	_	_
+3	MUY	muy	RG	RG	matched=no|pos=adverb|type=general	4	spec	_	_
+4	CIRCA	circa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	1	dobj	_	_
+5	A	a	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+6	EL	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	BOSQUE	bosque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	DE	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	EPPING	epping	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	ES	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+2	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	BOSQUE	bosque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	attr	_	_
+4	BONITO	bonito	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+5	CON	con	SP	SP	matched=no|pos=adposition|type=preposition	1	adjt	_	_
+6	VARIOS	varios	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	5	comp	_	_
+7	ARBOLES	arbolar	VMSP2S0	VMS	matched=no|mood=subjunctive|num=singular|person=2|pos=verb|tense=present|type=main	1	modnomatch	_	_
+8	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	dobj	_	_
+9	MUCHOS	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	10	spec	_	_
+10	LAGOS	lago	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	8	coor	_	_
+11	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	ME	me	PP1CS00	PP	gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	2	mphes	_	_
+2	GUSTA	gustar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	9	coor	_	_
+3	EL	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	4	spec	_	_
+4	BOSQUE	bosque	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	modnomatch	_	_
+5	PORQUE	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	2	adjt	_	_
+6	SOY	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	5	comp	_	_
+7	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	CORREDOR	corredor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	attr	_	_
+9	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+10	SOY	ser	VSIP1S0	VSI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=semiauxiliary	9	coor	_	_
+11	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	MIEMBRO	miembro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	attr	_	_
+13	DE	de	SP	SP	matched=no|pos=adposition|type=preposition	12	mod	_	_
+14	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
+15	CLUB	club	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	DE	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+17	CORRER	correr	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	comp	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	HAY	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+2	UNOS	uno	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	3	spec	_	_
+3	PARQUES	parque	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	4	coor	_	_
+4	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	dobj	_	_
+5	UN	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+6	CINE	cine	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	coor	_	_
+7	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+8	MUCHOS	mucho	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	9	spec	_	_
+9	RESTAURANTES	restaurante	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	7	coor	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+11	CHINO	chino	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	modnomatch	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+13	INDIO	indio	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	1	modnomatch	_	_
+14	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+15	FRANCES	frances	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	18	coor	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+17	ITALIANO	italiano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	coor	_	_
+18	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+19	ESPANOL	espanol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	coor	_	_
+20	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	1	punc	_	_
+
+1	LOS	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	COLEGIOS	colegio	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+3	ESTA	este	DD0FS0	DD	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=demonstrative	5	spec	_	_
+4	MUY	muy	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	spec	_	_
+5	BUENOS	bueno	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	2	mod	_	_
+6	AQUI	aqui	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	0	top	_	_
+7	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	dobj	_	_
+8	LAS	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	9	spec	_	_
+9	UNIVERSIDADES	universidad	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	7	coor	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	WOODFORD	woodford	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	coor	_	_
+2	ESTA	este	DD0FS0	DD	gen=feminine|matched=no|num=singular|pos=determiner|type=demonstrative	1	spec	_	_
+3	APROXIMADO	aproximar	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	1	modnomatch	_	_
+4	CUATRO_MILLAS	LN_mi:4	Zu	Zu	matched=no|pos=number|type=unit	9	coor	_	_
+5	DE	de	SP	SP	matched=no|pos=adposition|type=preposition	4	mod	_	_
+6	LA	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	AUTOPISTA	autopista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	M25	M25	Z	Z	matched=no|pos=number	9	coor	_	_
+9	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	0	top	_	_
+10	OCHO	8	Z	Z	matched=no|pos=number	9	coor	_	_
+11	DE	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	LA	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	13	spec	_	_
+13	AUTOPISTA	autopista	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	M11	M11	Z	Z	matched=no|pos=number	9	coor	_	_
+15	PARA	para	SP	SP	matched=no|pos=adposition|type=preposition	9	modnomatch	_	_
+16	IR	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	15	comp	_	_
+17	A	a	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+18	CAMBRIDGE	cambridge	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+

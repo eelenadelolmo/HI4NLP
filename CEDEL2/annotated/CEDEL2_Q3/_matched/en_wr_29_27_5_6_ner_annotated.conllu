@@ -1,0 +1,172 @@
+1	Normalmente	normal_mente	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	subj	_	_
+2	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	1	punc	_	_
+3	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	4	spec	_	_
+4	ano	ano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+5	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	4	punc	_	_
+6	voy	ir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+7	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
+8	Espana	espana	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	7	comp	_	_
+9	con	con	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+10	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	11	spec	_	_
+11	esposa	esposo	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	pobj	_	_
+13	ver	ver	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	comp	_	_
+14	su	su	DP3CSN	DP	gen=common|matched=no|num=singular|person=3|pos=determiner|possessornum=invariable|type=possessive	15	spec	_	_
+15	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+16	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Cada	cada	DI0CS0	DI	gen=common|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	ano	ano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+4	menos	menos	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+5	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	3	attr	_	_
+6	tiene	tener	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	comp	_	_
+7	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+9	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+10	anos	ano	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	9	coor	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+12	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	3	adjt	_	_
+13	todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	12	comp	_	_
+14	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Pues	pues	CS	CS	matched=no|pos=conjunction|type=subordinating	12	adjt	_	_
+2	no	no	RN	RN	matched=no|pos=adverb|type=negative	3	spec	_	_
+3	hay	haber	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	comp	_	_
+4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	1	spec	_	_
+5	idioma	idioma	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	12	subj	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	hablan	hablar	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	mod	_	_
+8	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	7	pobj	_	_
+9	casa	casa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	8	comp	_	_
+10	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	5	punc	_	_
+11	siempre	siempre	RG	RG	matched=no|pos=adverb|type=general	12	adjt	_	_
+12	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	dos	2	Z	Z	matched=no|pos=number	12	attr	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+
+1	Por	por	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+2	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	is	i	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	17	subj	_	_
+5	possible	possible	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	4	mod	_	_
+6	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	7	subj	_	_
+7	escribo	escribir	VMIP1S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	4	mod	_	_
+8	algunas	alguno	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	9	spec	_	_
+9	palabras	palabra	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	dobj	_	_
+10	in	i_n	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	mod	_	_
+11	Catala	cata_la	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	modnomatch	_	_
+12	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	4	punc	_	_
+13	por	por	SP	SP	matched=no|pos=adposition|type=preposition	17	adjt	_	_
+14	eso	ese	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	13	comp	_	_
+15	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	13	punc	_	_
+16	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	17	dobj	_	_
+17	siento	sentar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+18	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+
+1	Normalments	normalments	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	2	subj	_	_
+2	vamos	ir	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	a	a	SP	SP	matched=no|pos=adposition|type=preposition	8	coor	_	_
+4	Tarrega	tarrega	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	comp	_	_
+5	por	por	SP	SP	matched=no|pos=adposition|type=preposition	8	coor	_	_
+6	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	7	spec	_	_
+7	mes	mes	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+8	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	2	pobj	_	_
+9	durante	durante	SP	SP	matched=no|pos=adposition|type=preposition	8	coor	_	_
+10	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	mes	mes	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	vamos	ir	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	2	modnomatch	_	_
+13	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	14	spec	_	_
+14	vez	vez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	12	adjt	_	_
+15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+16	La	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	17	spec	_	_
+17	Seu	seu	NCCN000	NC	gen=common|matched=no|num=invariable|pos=noun|type=common	15	comp	_	_
+18	D'Urgell	d'urgell	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	17	mod	_	_
+19	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	12	punc	_	_
+20	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	21	subj	_	_
+21	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	12	modnomatch	_	_
+22	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	2	modnomatch	_	_
+23	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	2	modnomatch	_	_
+24	precioso	precioso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	25	mod	_	_
+25	pueblo	pueblo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	coor	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
+27	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	28	spec	_	_
+28	pirineos	pirineo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	26	comp	_	_
+29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	16	subj	_	_
+2	se	se	P00CN00	P0	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun	1	modnomatch	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+4	no	no	RN	RN	matched=yes: subj child of top deprel|pos=adverb|type=negative	6	spec	_	_
+5	he	haber	VAIP1S0	VAI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=auxiliary	6	aux	_	_
+6	escrito	escribir	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	1	mod	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+8	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	1	spec	_	_
+9	vacaciones	vacaciones	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	1	mod	_	_
+10	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	9	mod	_	_
+11	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	12	spec	_	_
+12	verano	verano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	comp	_	_
+13	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	14	punc	_	_
+14	pero	pero	CC	CC	matched=yes: subj child of top deprel|pos=conjunction|type=coordinating	1	modnomatch	_	_
+15	solo	solo	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	14	coor	_	_
+16	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+17	saber	saber	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	16	dobj	_	_
+18	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	17	dobj	_	_
+19	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	18	comp	_	_
+20	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	21	spec	_	_
+21	nivel	nivel	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	19	attr	_	_
+22	a	a	SP	SP	matched=no|pos=adposition|type=preposition	19	adjt	_	_
+23	Espanol	espanol	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	comp	_	_
+24	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+
+1	Esto	este	PD00S00	PD	matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=demonstrative	2	subj	_	_
+2	pesa	pesar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+3	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+4	a	a	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+5	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	6	spec	_	_
+6	corazon	corazon	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	4	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+8	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	2	modnomatch	_	_
+9	verdad	verdad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	attr	_	_
+10	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	8	punc	_	_
+
+1	Pues	pues	CS	CS	matched=no|pos=conjunction|type=subordinating	6	adjt	_	_
+2	vale	valer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	gracias	gracia	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	6	subj	_	_
+5	and	and	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	mod	_	_
+6	espero	esperar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+7	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	6	dobj	_	_
+8	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	verano	verano	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	11	subj	_	_
+10	podemos	poder	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	11	prt	_	_
+11	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	7	comp	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
+13	Madrid	madrid	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	comp	_	_
+14	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	15	spec	_	_
+15	otro	otro	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	6	modnomatch	_	_
+16	vez	vez	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	adjt	_	_
+17	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	18	punc	_	_
+18	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	6	adjt	_	_
+19	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	18	coor	_	_
+20	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	19	comp	_	_
+21	possible	possible	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	attr	_	_
+22	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	6	punc	_	_
+23	vamos	ir	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	6	modnomatch	_	_
+24	a	a	SP	SP	matched=no|pos=adposition|type=preposition	6	modnomatch	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	6	modnomatch	_	_
+26	tu	tu	DP2CSS	DP	gen=common|matched=no|num=singular|person=2|pos=determiner|possessornum=singular|type=possessive	27	spec	_	_
+27	universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	modnomatch	_	_
+28	UAM	uam	NCMN000	NC	gen=masculine|matched=no|num=invariable|pos=noun|type=common	27	mod	_	_
+29	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	27	punc	_	_
+30	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	27	modnomatch	_	_
+31	quiero	querer	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	30	comp	_	_
+32	saber	saber	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	31	dobj	_	_
+33	si	si	CS	CS	matched=no|pos=conjunction|type=subordinating	27	modnomatch	_	_
+34	esto	este	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	35	subj	_	_
+35	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	33	comp	_	_
+36	por	por	SP	SP	matched=no|pos=adposition|type=preposition	35	adjt	_	_
+37	verdad	verdad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	36	comp	_	_
+38	!	!	Fat	Fat	matched=no|pos=punctuation|punctenclose=close|type=exclamationmark	27	punc	_	_
+

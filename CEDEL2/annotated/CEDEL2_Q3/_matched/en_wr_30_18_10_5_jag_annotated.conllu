@@ -1,0 +1,92 @@
+1	En	en	SP	SP	matched=no|pos=adposition|type=preposition	6	adjt	_	_
+2	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	3	spec	_	_
+3	futuro	futuro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	1	comp	_	_
+4	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+5	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	6	subj	_	_
+6	planeo	planear	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+7	asistir	asistir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	dobj	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	Universidad	universidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	mod	_	_
+12	Florida	florido	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	13	mod	_	_
+13	Central	central	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	11	comp	_	_
+14	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	15	modnomatch	_	_
+15	UFC	ufc	NC00000	NC	matched=no|pos=noun|type=common	7	dobj	_	_
+16	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	15	modnomatch	_	_
+17	para	para	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+18	estudiar	estudiar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	17	comp	_	_
+19	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	20	spec	_	_
+20	teatro	teatro	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	18	dobj	_	_
+21	musical	musical	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	20	mod	_	_
+22	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	6	punc	_	_
+
+1	Después_de	después_de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+2	mí	mí	PP1CSO0	PP	case=oblique|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	1	comp	_	_
+3	educación	educación	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+4	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	3	punc	_	_
+5	espero	esperar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+6	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	5	dobj	_	_
+7	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	9	subj	_	_
+8	puedo	poder	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	9	prt	_	_
+9	trabajar	trabajar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	6	comp	_	_
+10	en	en	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+11	Nueva	nuevo	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	comp	_	_
+12	York	york	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	9	modnomatch	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+14	Broadway	broadway	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	modnomatch	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+
+1	Otra	otro	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	2	spec	_	_
+2	cosa	cosa	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	quisiera	querer	VMSI3S0	VMS	matched=yes: subj child of top deprel|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+5	hacer	hacer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	4	dobj	_	_
+6	con	con	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	5	adjt	_	_
+7	mi	mi	DP1CSS	DP	gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	8	spec	_	_
+8	vida	vida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	6	comp	_	_
+9	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+10	actuar	actuar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	13	coor	_	_
+11	en	en	SP	SP	matched=no|pos=adposition|type=preposition	10	pobj	_	_
+12	películas	película	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	11	comp	_	_
+13	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	9	attr	_	_
+14	ser	ser	VSN0000	VSN	matched=no|mood=infinitive|pos=verb|type=semiauxiliary	13	coor	_	_
+15	actor	actor	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	14	attr	_	_
+16	famoso	famoso	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	15	mod	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	9	punc	_	_
+
+1	Hacer	hacer	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	10	subj	_	_
+2	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	3	spec	_	_
+3	diferencia	diferencia	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	1	dobj	_	_
+4	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	adjt	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	vida	vida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	una	uno	DI0FS0	DI	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	persona	persona	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+10	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+11	mí	mí	PP1CSO0	PP	case=oblique|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	10	modnomatch	_	_
+12	premio	premiar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	10	modnomatch	_	_
+13	;	;	Fx	Fx	matched=no|pos=punctuation|type=semicolon	10	punc	_	_
+14	no	no	RN	RN	matched=no|pos=adverb|type=negative	15	spec	_	_
+15	necesito	necesitar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	10	modnomatch	_	_
+16	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	17	spec	_	_
+17	Oscar	oscar	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	15	dobj	_	_
+18	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+19	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	10	modnomatch	_	_
+20	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	10	modnomatch	_	_
+21	Emmy	emmy	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	attr	_	_
+22	para	para	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+23	conocer	conocer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	22	comp	_	_
+24	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	10	modnomatch	_	_
+25	yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=no|num=singular|person=1|pos=pronoun|type=personal	27	subj	_	_
+26	he	haber	VAIP1S0	VAI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=auxiliary	27	aux	_	_
+27	hecho	hacer	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	24	comp	_	_
+28	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	29	spec	_	_
+29	cosa	cosa	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	27	dobj	_	_
+30	importante	importante	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	29	mod	_	_
+31	para	para	SP	SP	matched=no|pos=adposition|type=preposition	27	adjt	_	_
+32	otra	otro	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	33	spec	_	_
+33	persona	persona	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	31	comp	_	_
+34	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	24	punc	_	_
+

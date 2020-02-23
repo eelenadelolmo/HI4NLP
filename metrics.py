@@ -10,8 +10,8 @@ from tabulate import tabulate
 
 def main(argv):
 
-    unmatcheddir = 'CEDEL2/annotated/CEDEL2_Q1/_unmatched/'
-    matcheddir = 'CEDEL2/annotated/CEDEL2_Q1/_matched/'
+    unmatcheddir = 'CEDEL2/annotated/CEDEL2_Q4/_unmatched/'
+    matcheddir = 'CEDEL2/annotated/CEDEL2_Q4/_matched/'
 
     try:
         opts, args = getopt.getopt(argv, "hi:au:", ["udir=", "mdir="])
@@ -73,7 +73,7 @@ def main(argv):
         if docs_ratio_matched[file][0] + docs_ratio_matched[file][1] != 0:
             docs_ratio_matched[file].append(round((docs_ratio_matched[file][1]/(docs_ratio_matched[file][0] + docs_ratio_matched[file][1]))*100, 2))
 
-    nf = open("metrics_CEDEL2_Q1.txt", "w")
+    nf = open("metrics/metrics_CEDEL2_Q4.txt", "w")
 
     nf.write("Número de oraciones principales con sujeto antepuesto: " + str(n_matched))
     nf.write("\n")

@@ -31,9 +31,9 @@ def conllu_classifier(inputfile, unmatchedfile, matchedfile):
 
 def main(argv):
 
-    inputdir = 'CEDEL2/annotated/CEDEL2_Q1/'
-    unmatched_outputdir = 'CEDEL2/annotated/CEDEL2_Q1/_unmatched/'
-    matched_outputdir = 'CEDEL2/annotated/CEDEL2_Q1/_matched/'
+    inputdir = 'CEDEL2/annotated/CEDEL2_Q4/'
+    unmatched_outputdir = 'CEDEL2/annotated/CEDEL2_Q4/_unmatched/'
+    matched_outputdir = 'CEDEL2/annotated/CEDEL2_Q4/_matched/'
 
     try:
         opts, args = getopt.getopt(argv, "hua:i:", ["idir=", "udir=", "mdir="])
