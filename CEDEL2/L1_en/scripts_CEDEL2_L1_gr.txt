@@ -1,0 +1,26 @@
+(.+\n)+Essay:()(.+\n)+ > $2
+
+sh freeling_analize.sh -i CEDEL2/L1_gr/txt/CEDEL2_en_Q1/ -o ../../conll/CEDEL2_en_Q1/
+sh freeling_analize.sh -i CEDEL2/L1_gr/txt/CEDEL2_en_Q2/ -o ../../conll/CEDEL2_en_Q2/
+sh freeling_analize.sh -i CEDEL2/L1_gr/txt/CEDEL2_en_Q3/ -o ../../conll/CEDEL2_en_Q3/
+sh freeling_analize.sh -i CEDEL2/L1_gr/txt/CEDEL2_en_Q4/ -o ../../conll/CEDEL2_en_Q4/
+
+./transformer_conllu_freeling.py -i CEDEL2/L1_gr/conll/CEDEL2_en_Q1 -o CEDEL2/L1_gr/conllu/CEDEL2_en_Q1
+./transformer_conllu_freeling.py -i CEDEL2/L1_gr/conll/CEDEL2_en_Q2 -o CEDEL2/L1_gr/conllu/CEDEL2_en_Q2
+./transformer_conllu_freeling.py -i CEDEL2/L1_gr/conll/CEDEL2_en_Q3 -o CEDEL2/L1_gr/conllu/CEDEL2_en_Q3
+./transformer_conllu_freeling.py -i CEDEL2/L1_gr/conll/CEDEL2_en_Q4 -o CEDEL2/L1_gr/conllu/CEDEL2_en_Q4
+
+./annotator.py -i CEDEL2/L1_gr/conllu/CEDEL2_en_Q1 -o CEDEL2/L1_gr/annotated/CEDEL2_en_Q1 -r rules_nsubj_freeling.txt -p PRECEDING
+./annotator.py -i CEDEL2/L1_gr/conllu/CEDEL2_en_Q2 -o CEDEL2/L1_gr/annotated/CEDEL2_en_Q2 -r rules_nsubj_freeling.txt -p PRECEDING
+./annotator.py -i CEDEL2/L1_gr/conllu/CEDEL2_en_Q3 -o CEDEL2/L1_gr/annotated/CEDEL2_en_Q3 -r rules_nsubj_freeling.txt -p PRECEDING
+./annotator.py -i CEDEL2/L1_gr/conllu/CEDEL2_en_Q4 -o CEDEL2/L1_gr/annotated/CEDEL2_en_Q4 -r rules_nsubj_freeling.txt -p PRECEDING
+
+./classifier.py -i CEDEL2/L1_gr/annotated/CEDEL2_en_Q1 -a CEDEL2/L1_gr/annotated/CEDEL2_en_Q1/_matched -u CEDEL2/L1_gr/annotated/CEDEL2_en_Q1/_unmatched
+./classifier.py -i CEDEL2/L1_gr/annotated/CEDEL2_en_Q2 -a CEDEL2/L1_gr/annotated/CEDEL2_en_Q2/_matched -u CEDEL2/L1_gr/annotated/CEDEL2_en_Q2/_unmatched
+./classifier.py -i CEDEL2/L1_gr/annotated/CEDEL2_en_Q3 -a CEDEL2/L1_gr/annotated/CEDEL2_en_Q3/_matched -u CEDEL2/L1_gr/annotated/CEDEL2_en_Q3/_unmatched
+./classifier.py -i CEDEL2/L1_gr/annotated/CEDEL2_en_Q4 -a CEDEL2/L1_gr/annotated/CEDEL2_en_Q4/_matched -u CEDEL2/L1_gr/annotated/CEDEL2_en_Q4/_unmatched
+
+./metrics.py -a CEDEL2/L1_gr/annotated/CEDEL2_en_Q1/_matched -u CEDEL2/L1_gr/annotated/CEDEL2_en_Q1/_unmatched -m metrics_CEDEL_en_Q1.txt
+./metrics.py -a CEDEL2/L1_gr/annotated/CEDEL2_en_Q2/_matched -u CEDEL2/L1_gr/annotated/CEDEL2_en_Q2/_unmatched -m metrics_CEDEL_en_Q2.txt
+./metrics.py -a CEDEL2/L1_gr/annotated/CEDEL2_en_Q3/_matched -u CEDEL2/L1_gr/annotated/CEDEL2_en_Q3/_unmatched -m metrics_CEDEL_en_Q3.txt
+./metrics.py -a CEDEL2/L1_gr/annotated/CEDEL2_en_Q4/_matched -u CEDEL2/L1_gr/annotated/CEDEL2_en_Q4/_unmatched -m metrics_CEDEL_en_Q4.txt

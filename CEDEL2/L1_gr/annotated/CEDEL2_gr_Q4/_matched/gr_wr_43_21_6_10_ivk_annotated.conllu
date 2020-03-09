@@ -1,0 +1,52 @@
+1	Para	para	SP	SP	matched=no|pos=adposition|type=preposition	21	adjt	_	_
+2	concluir	concluir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	1	comp	_	_
+3	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+4	antes_de	antes_de	SP	SP	matched=no|pos=adposition|type=preposition	1	modnomatch	_	_
+5	juzgar	juzgar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	4	comp	_	_
+6	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	1	modnomatch	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+8	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
+9	más	más	RG	RG	matched=no|pos=adverb|type=general	1	modnomatch	_	_
+10	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	1	punc	_	_
+11	tomar	tomar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	21	subj	_	_
+12	decisiones	decisión	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	11	dobj	_	_
+13	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	14	subj	_	_
+14	definen	definir	VMIP3P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	12	mod	_	_
+15	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	16	spec	_	_
+16	vida	vida	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	14	modnomatch	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	16	mod	_	_
+18	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	19	spec	_	_
+19	demás	demás	PI0CP00	PI	gen=common|matched=yes: subj child of top deprel|num=plural|pos=pronoun|type=indefinite	17	comp	_	_
+20	,	,	Fc	Fc	matched=yes: subj child of top deprel|pos=punctuation|type=comma	11	punc	_	_
+21	deberíamos	deber	VMIC1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=conditional|type=main	0	top	_	_
+22	asegurarnos	asegurarnos	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	21	modnomatch	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+24	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	23	comp	_	_
+25	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	26	subj	_	_
+26	somos	ser	VSIP1P0	VSI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=semiauxiliary	24	comp	_	_
+27	capaces	capaz	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	26	attr	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
+29	vivir	vivir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	28	comp	_	_
+30	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	31	spec	_	_
+31	vida	vida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	29	dobj	_	_
+32	digna	digno	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	31	mod	_	_
+33	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	22	punc	_	_
+
+1	Que	que	CS	CS	matched=yes: subj child of top deprel|pos=conjunction|type=subordinating	3	subj	_	_
+2	digna	dignar	VMM02S0	VMM	matched=yes: subj child of top deprel|mood=imperative|num=singular|person=2|pos=verb|type=main	1	comp	_	_
+3	significa	significar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	0	top	_	_
+4	respetar	respetar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	coor	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	7	spec	_	_
+7	derechos	derecho	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	5	comp	_	_
+8	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	mod	_	_
+9	todos	todo	PI0MP00	PI	gen=masculine|matched=no|num=plural|pos=pronoun|type=indefinite	8	comp	_	_
+10	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	dobj	_	_
+11	ayudar	ayudar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	10	coor	_	_
+12	a	a	SP	SP	matched=no|pos=adposition|type=preposition	11	pobj	_	_
+13	cualquiera	cualquiera	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	12	comp	_	_
+14	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	16	subj	_	_
+15	lo	lo	PP3MSA0	PP	case=accusative|gen=masculine|matched=no|num=singular|person=3|pos=pronoun|type=personal	16	dobj	_	_
+16	necesite	necesitar	VMSP3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=present|type=main	13	mod	_	_
+17	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+

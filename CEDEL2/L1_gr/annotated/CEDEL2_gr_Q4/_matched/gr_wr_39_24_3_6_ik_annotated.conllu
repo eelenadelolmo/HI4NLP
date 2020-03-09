@@ -1,0 +1,77 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	punto	punto	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	modnomatch	_	_
+4	empiezo	empezar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+5	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	4	modnomatch	_	_
+6	Ourense	ourense	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	attr	_	_
+7	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+8	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	9	spec	_	_
+9	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+10	preciosísima	preciosísima	AQSFS00	AQ	degree=superlative|gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	9	mod	_	_
+11	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	12	subj	_	_
+12	está	estar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	9	mod	_	_
+13	en	en	SP	SP	matched=no|pos=adposition|type=preposition	12	pobj	_	_
+14	Galicia	galicia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	5	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	plan	plan	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	subj	_	_
+3	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+4	caminar	caminar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	3	attr	_	_
+5	approximadamente	approximadamente	RG	RG	matched=no|pos=adverb|type=general	3	adjt	_	_
+6	treinta_kilómetros	LN_km:30	Zu	Zu	matched=no|pos=number|type=unit	3	modnomatch	_	_
+7	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	8	spec	_	_
+8	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	3	adjt	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	3	punc	_	_
+10	por	por	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+11	cuatro_días	TM_d:4	Zu	Zu	matched=no|pos=number|type=unit	10	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	3	punc	_	_
+
+1	Uno	uno	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	4	subj	_	_
+2	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	ellos	ellos	PP3MP00	PP	gen=masculine|matched=yes: subj child of top deprel|num=plural|person=3|pos=pronoun|type=personal	2	comp	_	_
+4	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+5	que	que	CS	CS	matched=no|pos=conjunction|type=subordinating	4	attr	_	_
+6	nunca	nunca	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+7	ibamos	ibamos	VMII1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=imperfect|type=main	5	comp	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+9	llegar	llegar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	8	comp	_	_
+10	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+11	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+12	sitio	sitio	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	10	comp	_	_
+13	a	a	SP	SP	matched=no|pos=adposition|type=preposition	9	pobj	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	hora	hora	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+16	pronosticada	pronosticar	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	mod	_	_
+17	porque	porque	CS	CS	matched=no|pos=conjunction|type=subordinating	4	adjt	_	_
+18	siempre	siempre	RG	RG	matched=no|pos=adverb|type=general	19	adjt	_	_
+19	pasa	pasar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	17	comp	_	_
+20	algo	algo	PI0CS00	PI	gen=common|matched=no|num=singular|pos=pronoun|type=indefinite	19	dobj	_	_
+21	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	22	subj	_	_
+22	causa	causar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	20	mod	_	_
+23	retraso	retraso	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	22	dobj	_	_
+24	en	en	SP	SP	matched=no|pos=adposition|type=preposition	22	adjt	_	_
+25	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	camino	camino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	Aparte_de	aparte_de	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+2	esto	este	PD00S00	PD	matched=no|num=singular|pos=pronoun|type=demonstrative	1	comp	_	_
+3	todo	todo	PI0MS00	PI	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=pronoun|type=indefinite	4	subj	_	_
+4	salió	salir	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	0	top	_	_
+5	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	4	pobj	_	_
+6	Diós	diós	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	manda	manda	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	mod	_	_
+8	...	...	Fs	Fs	matched=no|pos=punctuation|type=etc	4	punc	_	_
+9	Y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	4	pobj	_	_
+10	por	por	SP	SP	matched=no|pos=adposition|type=preposition	9	coor	_	_
+11	último	último	AO0MS00	AO	gen=masculine|matched=no|num=singular|pos=adjective|type=ordinal	10	comp	_	_
+12	llegué	llegar	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	4	modnomatch	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	14	spec	_	_
+14	día	día	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	12	adjt	_	_
+15	final	final	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	14	mod	_	_
+16	de	de	SP	SP	matched=no|pos=adposition|type=preposition	14	mod	_	_
+17	nuestro	nuestro	DP1MSP	DP	gen=masculine|matched=no|num=singular|person=1|pos=determiner|possessornum=plural|type=possessive	18	spec	_	_
+18	viaje	viaje	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	12	punc	_	_
+

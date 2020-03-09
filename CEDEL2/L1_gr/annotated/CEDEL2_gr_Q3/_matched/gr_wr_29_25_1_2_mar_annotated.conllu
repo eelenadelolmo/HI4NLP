@@ -1,0 +1,135 @@
+1	Empezo	empezo	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	18	subj	_	_
+2	a	a	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+3	estudiar	estudiar	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	2	comp	_	_
+4	en	en	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	adjt	_	_
+5	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	facultad	facultad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	comp	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	adjt	_	_
+8	medicina	medicina	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	comp	_	_
+9	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	adjt	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	11	spec	_	_
+11	universidad	universidad	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	9	comp	_	_
+12	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	3	adjt	_	_
+13	Buenos	bueno	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	14	mod	_	_
+14	Aires	aire	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	12	comp	_	_
+15	para	para	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	mod	_	_
+16	graduarse	graduarse	VMN0000	VMN	matched=yes: subj child of top deprel|mood=infinitive|pos=verb|type=main	15	comp	_	_
+17	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	1	modnomatch	_	_
+18	medico	medicar	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+19	en	en	SP	SP	matched=no|pos=adposition|type=preposition	18	adjt	_	_
+20	1953	1953	Z	Z	matched=no|pos=number	19	comp	_	_
+21	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	18	punc	_	_
+
+1	La	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	figura	figura	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	5	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	Ernesto	ernesto	NCMN000	NC	gen=masculine|matched=yes: subj child of top deprel|num=invariable|pos=noun|type=common	3	comp	_	_
+5	Guevara	guevara	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+6	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	7	aux	_	_
+7	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	5	modnomatch	_	_
+8	motivo	motivo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	attr	_	_
+9	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+10	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	12	spec	_	_
+11	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	12	mod	_	_
+12	cantidad	cantidad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+13	de	de	SP	SP	matched=no|pos=adposition|type=preposition	8	mod	_	_
+14	obras	obra	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	comp	_	_
+15	artísticas	artístico	AQ0FP00	AQ	gen=feminine|matched=no|num=plural|pos=adjective|type=qualificative	14	mod	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+17	tanto	tanto	RG	RG	matched=no|pos=adverb|type=general	7	adjt	_	_
+18	en	en	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+19	Argentina	argentino	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	18	comp	_	_
+20	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+21	Cuba	cuba	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	20	coor	_	_
+22	como	como	CS	CS	matched=no|pos=conjunction|type=subordinating	5	modnomatch	_	_
+23	en	en	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+24	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	25	spec	_	_
+25	resto	resto	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+26	de	de	SP	SP	matched=no|pos=adposition|type=preposition	25	mod	_	_
+27	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	28	spec	_	_
+28	mundo	mundo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	26	comp	_	_
+29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	26	punc	_	_
+
+1	Sin_duda_alguna	sin_duda_alguna	RG	RG	matched=no|pos=adverb|type=general	5	adjt	_	_
+2	la	el	DA0FS0	DA	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	4	spec	_	_
+3	más	más	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	4	spec	_	_
+4	conocida	conocer	VMP00SF	VMP	gen=feminine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	5	subj	_	_
+5	es	ser	VSIP3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=semiauxiliary	0	top	_	_
+6	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	7	spec	_	_
+7	canción	canción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	attr	_	_
+8	Hasta	hasta	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+9	siempre	siempre	RG	RG	matched=no|pos=adverb|type=general	8	comp	_	_
+10	comandante	comandante	NCCS000	NC	gen=common|matched=no|num=singular|pos=noun|type=common	5	modnomatch	_	_
+11	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+12	compuesta	componer	VMP00SF	VMP	gen=feminine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	adjt	_	_
+13	por	por	SP	SP	matched=no|pos=adposition|type=preposition	12	agnt	_	_
+14	Carlos	car_lo	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	comp	_	_
+15	Puebla	poblar	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	5	modnomatch	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+17	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	20	subj	_	_
+18	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	20	mphes	_	_
+19	ha	haber	VAIP3S0	VAI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=auxiliary	20	aux	_	_
+20	convertido	convertir	VMP00SM	VMP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=main	15	modnomatch	_	_
+21	en	en	SP	SP	matched=no|pos=adposition|type=preposition	20	pobj	_	_
+22	un	uno	DI0MS0	DI	gen=masculine|matched=no|num=singular|pos=determiner|type=indefinite	23	spec	_	_
+23	clásico	clásico	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	21	comp	_	_
+24	de	de	SP	SP	matched=no|pos=adposition|type=preposition	23	mod	_	_
+25	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	26	spec	_	_
+26	canción	canción	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	24	comp	_	_
+27	latinoamericana	latinoamericano	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	26	mod	_	_
+28	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	15	punc	_	_
+
+1	Varias	varios	DI0FP0	DI	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	películas	película	NCFP000	NC	gen=feminine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	5	subj	_	_
+3	han	haber	VAIP3P0	VAI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=auxiliary	5	aux	_	_
+4	sido	ser	VSP00SM	VSP	gen=masculine|matched=no|mood=participle|num=singular|pos=verb|type=semiauxiliary	5	aux	_	_
+5	dedicadas	dedicar	VMP00PF	VMP	gen=feminine|matched=no|mood=participle|num=plural|pos=verb|type=main	0	top	_	_
+6	total	total	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	5	modnomatch	_	_
+7	o	o	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+8	parcialmente	parcial_mente	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	7	coor	_	_
+9	a	a	SP	SP	matched=no|pos=adposition|type=preposition	5	dobj	_	_
+10	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	11	spec	_	_
+11	figura	figura	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	modnomatch	_	_
+13	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	5	modnomatch	_	_
+14	Che	che	I	I	matched=no|pos=interjection	15	adjt	_	_
+15	Guevara	guevara	VMSI3S0	VMS	matched=no|mood=subjunctive|num=singular|person=3|pos=verb|tense=imperfect|type=main	31	coor	_	_
+16	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	15	punc	_	_
+17	entre	entre	SP	SP	matched=no|pos=adposition|type=preposition	15	adjt	_	_
+18	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	19	spec	_	_
+19	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	21	subj	_	_
+20	se	se	P00CN00	P0	gen=common|matched=no|num=invariable|pos=pronoun	21	mphes	_	_
+21	destacan	destacar	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	17	comp	_	_
+22	Diarios	diario	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	21	dobj	_	_
+23	de	de	SP	SP	matched=no|pos=adposition|type=preposition	22	mod	_	_
+24	motocicleta	motocicleta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	23	comp	_	_
+25	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	26	modnomatch	_	_
+26	2004	2004	Z	Z	matched=no|pos=number	21	modnomatch	_	_
+27	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	26	modnomatch	_	_
+28	de	de	SP	SP	matched=no|pos=adposition|type=preposition	26	mod	_	_
+29	Walter	walter	AQ0CN00	AQ	gen=common|matched=no|num=invariable|pos=adjective|type=qualificative	30	mod	_	_
+30	Salles	salles	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	28	comp	_	_
+31	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+32	Evita	evitar	VMM02S0	VMM	matched=no|mood=imperative|num=singular|person=2|pos=verb|type=main	31	coor	_	_
+33	(	(	Fpa	Fpa	matched=no|pos=punctuation|punctenclose=open|type=parenthesis	34	modnomatch	_	_
+34	1996	1996	Z	Z	matched=no|pos=number	32	dobj	_	_
+35	)	)	Fpt	Fpt	matched=no|pos=punctuation|punctenclose=close|type=parenthesis	34	modnomatch	_	_
+36	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	5	punc	_	_
+37	de	de	SP	SP	matched=no|pos=adposition|type=preposition	5	adjt	_	_
+38	Alan	a_lan	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	37	comp	_	_
+39	Parker	parker	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	38	mod	_	_
+40	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	41	punc	_	_
+41	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+42	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	43	spec	_	_
+43	recientes	reciente	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	41	coor	_	_
+44	El	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	45	spec	_	_
+45	argentino	argentino	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	46	coor	_	_
+46	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	5	modnomatch	_	_
+47	Guerrilla	guerrilla	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	46	coor	_	_
+48	de	de	SP	SP	matched=no|pos=adposition|type=preposition	47	mod	_	_
+49	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	50	spec	_	_
+50	director	director	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	48	comp	_	_
+51	Steven	steven	VMIP3P0	VMI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=present|type=main	5	modnomatch	_	_
+52	Soderbergh	soderbergh	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	51	dobj	_	_
+53	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	51	punc	_	_
+

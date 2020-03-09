@@ -12,28 +12,33 @@ def main(argv):
 
     unmatcheddir = 'CEDEL2/annotated/CEDEL2_Q4/_unmatched/'
     matcheddir = 'CEDEL2/annotated/CEDEL2_Q4/_matched/'
+    metricsfile = 'metrics.txt'
 
     try:
-        opts, args = getopt.getopt(argv, "hi:a:u::", ["udir=", "mdir="])
+        opts, args = getopt.getopt(argv, "hi:a:u:m:", ["udir=", "adir=", "mfile="])
 
     except getopt.GetoptError:
-        print('transformer_conllu.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
+        print('metrics.py -u <UnmatchedOutputDirectory> -a <MatchedOutputDirectory> -m <MetricsFile>')
         sys.exit(2)
 
     for opt, arg in opts:
 
         if opt == '-h':
-            print('matrics.py -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
+            print('metrics.py -u <UnmatchedOutputDirectory> -a <MatchedOutputDirectory> -m <MetricsFile>')
             sys.exit()
 
         elif opt in ("-u", "--udir"):
-            unmatcheddir = arg+ "/"
+            unmatcheddir = arg + "/"
 
         elif opt in ("-a", "--adir"):
-            matcheddir = arg+ "/"
+            matcheddir = arg + "/"
+
+        elif opt in ("-m", "--mfile"):
+            metricsfile = "metrics/" + arg
 
     print('The unmatched directory is', unmatcheddir)
     print('The matched directory is', matcheddir)
+    print('The metrics file is', metricsfile)
 
     n_matched = 0
     n_unmatched = 0
@@ -73,7 +78,7 @@ def main(argv):
         if docs_ratio_matched[file][0] + docs_ratio_matched[file][1] != 0:
             docs_ratio_matched[file].append(round((docs_ratio_matched[file][1]/(docs_ratio_matched[file][0] + docs_ratio_matched[file][1]))*100, 2))
 
-    nf = open("metrics/metrics_CEDEL2_Q4.txt", "w")
+    nf = open(metricsfile, "w")
 
     nf.write("Número de oraciones principales con sujeto antepuesto: " + str(n_matched))
     nf.write("\n")

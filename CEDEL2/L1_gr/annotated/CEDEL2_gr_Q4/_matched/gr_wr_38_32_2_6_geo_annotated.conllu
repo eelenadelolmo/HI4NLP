@@ -1,0 +1,51 @@
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	3	spec	_	_
+2	mejor	mejor	AQ0CS00	AQ	gen=common|matched=yes: subj child of top deprel|num=singular|pos=adjective|type=qualificative	3	mod	_	_
+3	viaje	viaje	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+4	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	5	subj	_	_
+5	hice	hacer	VMIS1S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	3	mod	_	_
+6	recientemente	recientemente	RG	RG	matched=yes: subj child of top deprel|pos=adverb|type=general	5	adjt	_	_
+7	fue	ser	VSIS3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=semiauxiliary	0	top	_	_
+8	a	a	SP	SP	matched=no|pos=adposition|type=preposition	7	attr	_	_
+9	Granada	granada	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+10	de	de	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+11	Espana	espana	AQ0FS00	AQ	gen=feminine|matched=no|num=singular|pos=adjective|type=qualificative	10	comp	_	_
+12	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	7	punc	_	_
+13	hace	hacer	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	7	adjt	_	_
+14	2	2	Z	Z	matched=no|pos=number	15	modnorule	_	_
+15	semanas	semana	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	13	modnomatch	_	_
+16	con	con	SP	SP	matched=no|pos=adposition|type=preposition	7	adjt	_	_
+17	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	18	spec	_	_
+18	marido	marido	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	16	comp	_	_
+19	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	7	punc	_	_
+
+1	Los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	2	spec	_	_
+2	primeros	1	AO0MP00	AO	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=ordinal	4	subj	_	_
+3	dias	dias	NCFP000	NC	gen=feminine|matched=no|num=plural|pos=noun|type=common	4	modnomatch	_	_
+4	eran	ser	VSII3P0	VSI	matched=no|mood=indicative|num=plural|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+5	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	adjt	_	_
+6	conocer	conocer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	5	comp	_	_
+7	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	8	spec	_	_
+8	ciudad	ciudad	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	6	dobj	_	_
+9	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	sol	sol	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	10	subj	_	_
+3	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	4	subj	_	_
+4	alumbraba	alumbrar	VMII3S0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	2	mod	_	_
+5	el	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	6	spec	_	_
+6	patio	patio	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	dobj	_	_
+7	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	6	mod	_	_
+8	los	el	DA0MP0	DA	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=article	9	spec	_	_
+9	leones	león	NCMP000	NC	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=noun|type=common	7	comp	_	_
+10	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+11	uno	uno	PI0MS00	PI	gen=masculine|matched=no|num=singular|pos=pronoun|type=indefinite	10	attr	_	_
+12	de	de	SP	SP	matched=no|pos=adposition|type=preposition	11	mod	_	_
+13	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	14	spec	_	_
+14	rincones	rincón	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	12	comp	_	_
+15	mas	mas	CC	CC	matched=no|pos=conjunction|type=coordinating	10	modnomatch	_	_
+16	bellos	bello	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	15	coor	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	10	adjt	_	_
+18	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	19	spec	_	_
+19	Alhambra	alhambra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	17	comp	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	17	punc	_	_
+

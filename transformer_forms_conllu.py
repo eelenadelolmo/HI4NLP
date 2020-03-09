@@ -1,10 +1,7 @@
 #! /usr/bin/env python
 
 import os
-import re
-import fileinput
 import pyconll as pc
-from conllu import parse
 import sys
 import getopt
 
@@ -40,7 +37,7 @@ def main(argv):
     for opt, arg in opts:
 
         if opt == '-h':
-            print('transformer_forms_conllu.py -i <inputdir> -o <outputdir>')
+            print('transformer_forms_conllu.py -i <inputDirectory> -o <outputDirectory>')
             sys.exit()
 
         elif opt in ("-i", "--idir"):

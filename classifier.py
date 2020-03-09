@@ -36,10 +36,10 @@ def main(argv):
     matched_outputdir = 'CEDEL2/annotated/CEDEL2_Q4/_matched/'
 
     try:
-        opts, args = getopt.getopt(argv, "hu:a:i:", ["idir=", "udir=", "mdir="])
+        opts, args = getopt.getopt(argv, "hu:i:m:", ["idir=", "udir=", "mdir="])
 
     except getopt.GetoptError:
-        print('transformer_conllu.py -i <inputDirectoru> -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
+        print('classifier.py -i <inputDirectoru> -u <UnmatchedOutputDirectory> -m <MatchedOutputDirectory>')
         sys.exit(2)
 
     for opt, arg in opts:

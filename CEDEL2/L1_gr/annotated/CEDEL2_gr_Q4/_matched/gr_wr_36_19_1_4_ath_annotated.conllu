@@ -1,0 +1,59 @@
+1	Yo	yo	PP1CSN0	PP	case=nominative|gen=common|matched=yes: subj child of top deprel|num=singular|person=1|pos=pronoun|type=personal	2	subj	_	_
+2	voy	ir	VMIP1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=present|type=main	0	top	_	_
+3	allí	allí	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+4	cada	cada	DI0CS0	DI	gen=common|matched=no|num=singular|pos=determiner|type=indefinite	5	spec	_	_
+5	año	año	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	2	adjt	_	_
+6	desde	desde	SP	SP	matched=no|pos=adposition|type=preposition	8	pobj	_	_
+7	que	que	PR0CN00	PR	gen=common|matched=no|num=invariable|pos=pronoun|type=relative	6	comp	_	_
+8	nací	nacer	VMIS1S0	VMI	matched=no|mood=indicative|num=singular|person=1|pos=verb|tense=past|type=main	5	mod	_	_
+9	con	con	SP	SP	matched=no|pos=adposition|type=preposition	2	adjt	_	_
+10	mi	mi	DP1CSS	DP	gen=common|matched=no|num=singular|person=1|pos=determiner|possessornum=singular|type=possessive	11	spec	_	_
+11	familia	familia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	comp	_	_
+12	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	Todos	todo	DI0MP0	DI	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=determiner|type=indefinite	2	spec	_	_
+2	juntos	junto	AQ0MP00	AQ	gen=masculine|matched=yes: subj child of top deprel|num=plural|pos=adjective|type=qualificative	3	subj	_	_
+3	organizamos	organizar	VMIP1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=present|type=main	0	top	_	_
+4	una	uno	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	6	spec	_	_
+5	gran	gran	AQ0CS00	AQ	gen=common|matched=no|num=singular|pos=adjective|type=qualificative	6	mod	_	_
+6	fiesta	fiesta	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	3	dobj	_	_
+7	con	con	SP	SP	matched=no|pos=adposition|type=preposition	3	adjt	_	_
+8	música	música	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	7	comp	_	_
+9	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+10	comida	comida	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	9	coor	_	_
+11	tradicionales	tradicional	AQ0CP00	AQ	gen=common|matched=no|num=plural|pos=adjective|type=qualificative	10	mod	_	_
+12	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	3	modnomatch	_	_
+13	toda	todo	DI0FS0	DI	gen=feminine|matched=no|num=singular|pos=determiner|type=indefinite	3	modnomatch	_	_
+14	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	15	spec	_	_
+15	gente	gente	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	16	subj	_	_
+16	viene	venir	VMIP3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=present|type=main	3	modnomatch	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	pobj	_	_
+18	los	el	DA0MP0	DA	gen=masculine|matched=no|num=plural|pos=determiner|type=article	20	spec	_	_
+19	otros	otro	DI0MP0	DI	gen=masculine|matched=no|num=plural|pos=determiner|type=indefinite	20	spec	_	_
+20	pueblos	pueblo	NCMP000	NC	gen=masculine|matched=no|num=plural|pos=noun|type=common	17	comp	_	_
+21	para	para	SP	SP	matched=no|pos=adposition|type=preposition	16	adjt	_	_
+22	celebrar	celebrar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	21	comp	_	_
+23	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	16	punc	_	_
+24	comer	comer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	25	coor	_	_
+25	y	y	CC	CC	matched=no|pos=conjunction|type=coordinating	16	modnomatch	_	_
+26	bailar	bailar	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	25	coor	_	_
+27	con	con	SP	SP	matched=no|pos=adposition|type=preposition	26	adjt	_	_
+28	nosotros	nosotros	PP1MP00	PP	gen=masculine|matched=no|num=plural|person=1|pos=pronoun|type=personal	27	comp	_	_
+29	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	16	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	verano	verano	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	4	subj	_	_
+3	pasado	pasar	VMP00SM	VMP	gen=masculine|matched=yes: subj child of top deprel|mood=participle|num=singular|pos=verb|type=main	2	mod	_	_
+4	fuimos	ir	VMIS1P0	VMI	matched=no|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	0	top	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+6	excursión	excursión	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	juntos	junto	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	4	pred	_	_
+8	en	en	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+9	el	el	DA0MS0	DA	gen=masculine|matched=no|num=singular|pos=determiner|type=article	10	spec	_	_
+10	río	río	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	8	comp	_	_
+11	Arajzos	arajzos	AQ0MP00	AQ	gen=masculine|matched=no|num=plural|pos=adjective|type=qualificative	4	pred	_	_
+12	para	para	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+13	hacer	hacer	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	12	comp	_	_
+14	rafting	rafting	NCMS000	NC	gen=masculine|matched=no|num=singular|pos=noun|type=common	13	dobj	_	_
+15	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	4	punc	_	_
+

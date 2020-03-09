@@ -1,0 +1,29 @@
+1	María	maría	NCFS000	NC	gen=feminine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	2	subj	_	_
+2	quería	querer	VMII3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=main	0	top	_	_
+3	mucho	mucho	RG	RG	matched=no|pos=adverb|type=general	2	adjt	_	_
+4	ir	ir	VMN0000	VMN	matched=no|mood=infinitive|pos=verb|type=main	2	dobj	_	_
+5	a	a	SP	SP	matched=no|pos=adposition|type=preposition	4	pobj	_	_
+6	Francia	francia	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	5	comp	_	_
+7	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	2	punc	_	_
+
+1	El	el	DA0MS0	DA	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=determiner|type=article	2	spec	_	_
+2	chuletón	chuletón	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	7	subj	_	_
+3	de	de	SP	SP	matched=yes: subj child of top deprel|pos=adposition|type=preposition	2	mod	_	_
+4	buey	buey	NCMS000	NC	gen=masculine|matched=yes: subj child of top deprel|num=singular|pos=noun|type=common	3	comp	_	_
+5	que	que	PR0CN00	PR	gen=common|matched=yes: subj child of top deprel|num=invariable|pos=pronoun|type=relative	6	subj	_	_
+6	comimos	comer	VMIS1P0	VMI	matched=yes: subj child of top deprel|mood=indicative|num=plural|person=1|pos=verb|tense=past|type=main	2	mod	_	_
+7	era	ser	VSII3S0	VSI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=imperfect|type=semiauxiliary	0	top	_	_
+8	riquísimo	riquísimo	AQ0MS00	AQ	gen=masculine|matched=no|num=singular|pos=adjective|type=qualificative	7	attr	_	_
+9	,	,	Fc	Fc	matched=no|pos=punctuation|type=comma	10	punc	_	_
+10	pero	pero	CC	CC	matched=no|pos=conjunction|type=coordinating	7	modnomatch	_	_
+11	la	el	DA0FS0	DA	gen=feminine|matched=no|num=singular|pos=determiner|type=article	12	spec	_	_
+12	sidra	sidra	NCFS000	NC	gen=feminine|matched=no|num=singular|pos=noun|type=common	10	coor	_	_
+13	no	no	RN	RN	matched=no|pos=adverb|type=negative	14	spec	_	_
+14	gustó	gustar	VMIS3S0	VMI	matched=no|mood=indicative|num=singular|person=3|pos=verb|tense=past|type=main	7	modnomatch	_	_
+15	a	a	SP	SP	matched=no|pos=adposition|type=preposition	14	adjt	_	_
+16	ninguna	ninguno	PI0FS00	PI	gen=feminine|matched=no|num=singular|pos=pronoun|type=indefinite	15	comp	_	_
+17	de	de	SP	SP	matched=no|pos=adposition|type=preposition	16	mod	_	_
+18	las	el	DA0FP0	DA	gen=feminine|matched=no|num=plural|pos=determiner|type=article	19	spec	_	_
+19	dos	2	Z	Z	matched=no|pos=number	17	comp	_	_
+20	.	.	Fp	Fp	matched=no|pos=punctuation|type=period	14	punc	_	_
+

@@ -1,0 +1,33 @@
+1  El           el           DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                          - - (coor-vb:7(grup-verb:5(sn:2(espec-ms:1(j-ms:1)) 2  spec - -
+2  centro       centro       NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (grup-nom-ms:2(n-ms:2))                         5  subj - -
+3  de           de           SP      SP  pos=adposition|type=preposition                                                 - - (sp-de:3                                        2  mod  - -
+4  Montreal     montreal     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (sn:4(grup-nom-ms:4(n-ms:4)))))                 3  comp - -
+5  es           ser          VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:5)                                        7  coor - -
+6  pequeno      peque_no     NCCS000 NC  pos=noun|type=common|gen=common|num=singular                                    - - (sn:6(grup-nom-ms:6(n-ms:6))))                  5  attr - -
+7  y            y            CC      CC  pos=conjunction|type=coordinating                                               - - -                                               0  top  - -
+8  es           ser          VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (grup-verb:8(verb:8)                            7  coor - -
+9  una          uno          DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (sn:10(espec-fs:9(indef-fs:9))                  10 spec - -
+10 zona         zona         NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:10(n-fs:10)))                      8  attr - -
+11 con          con          SP      SP  pos=adposition|type=preposition                                                 - - (grup-sp:11(prep:11)                            8  adjt - -
+12 una          uno          DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (sn:14(espec-fs:12(indef-fs:12))                14 spec - -
+13 interesante  interesante  AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (grup-nom-fs:14(s-a-fs:13(a-fs:13))             14 mod  - -
+14 arquitectuta arquitectuta NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:14(n-fs:14))))))                   11 comp - -
+15 .            .            Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:15))                                    7  punc - -
+
+1  En           en          SP      SP  pos=adposition|type=preposition                                      - - (grup-verb:4(grup-sp:1(prep:1)    4  adjt       - -
+2  esta         este        DD0FS0  DD  pos=determiner|type=demonstrative|gen=feminine|num=singular          - - (sn:3(espec-fs:2(dem-fs:2))       3  spec       - -
+3  zona         zona        NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                       - - (grup-nom-fs:3(n-fs:3))))         1  comp       - -
+4  estan        estan       VMIP3P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural - - (verb:4)                          0  top        - -
+5  las          el          DA0FP0  DA  pos=determiner|type=article|gen=feminine|num=plural                  - - (sn:6(espec-fp:5(j-fp:5))         6  spec       - -
+6  discotecas   discoteca   NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                         - - (grup-nom-fp:6(n-fp:6)            4  dobj       - -
+7  maw          maw         NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                      - - (n-ms:7)))                        6  mod        - -
+8  animadas     animar      VMP00PF VMP pos=verb|type=main|mood=participle|num=plural|gen=feminine           - - (subord-part:8(parti-fp:8))       4  adjt       - -
+9  ,            ,           Fc      Fc  pos=punctuation|type=comma                                           - - (coor-n:14(Fc:9)                  14 punc       - -
+10 ademas       adema       NCFP000 NC  pos=noun|type=common|gen=feminine|num=plural                         - - (sn:10(grup-nom-fp:10(n-fp:10))   14 coor       - -
+11 de           de          SP      SP  pos=adposition|type=preposition                                      - - (sp-de:11                         10 mod        - -
+12 varios       varios      DI0MP0  DI  pos=determiner|type=indefinite|gen=masculine|num=plural              - - (sn:13(espec-mp:12(indef-mp:12))  13 spec       - -
+13 bares        bar         NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                        - - (grup-nom-mp:13(n-mp:13)))))      11 comp       - -
+14 y            y           CC      CC  pos=conjunction|type=coordinating                                    - - -                                 4  modnomatch - -
+15 restaurantes restaurante NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                        - - (sn:15(grup-nom-mp:15(n-mp:15)))) 14 coor       - -
+16 .            .           Fp      Fp  pos=punctuation|type=period                                          - - (F-term:16))                      4  punc       - -
+

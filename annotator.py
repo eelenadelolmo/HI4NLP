@@ -215,13 +215,13 @@ def main(argv):
         opts, args = getopt.getopt(argv, "hi:r:p:o::", ["idir=", "odir=", "rfile=", "pos="])
 
     except getopt.GetoptError:
-        print('transformer_conllu.py -i <inputfile> -o <outputfile> -r <rulesfile> -c <orderOption>')
+        print('annotator.py -i <inputdir> -o <outputdir> -r <rulesfile> -p <orderOption>')
         sys.exit(2)
 
     for opt, arg in opts:
 
         if opt == '-h':
-            print('transformer_conllu.py -i <inputfile> -o <outputfile> -r <rulesfile> -c <orderOption>')
+            print('annotator.py -i <inputDirectory> -o <outputDirectory> -r <rulesfile> -p <orderOption>')
             sys.exit()
 
         elif opt in ("-i", "--idir"):

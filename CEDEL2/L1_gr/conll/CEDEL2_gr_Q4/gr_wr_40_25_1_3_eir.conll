@@ -1,0 +1,34 @@
+1  El           el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (coor-n:8(sn:2(espec-ms:1(j-ms:1))          2  spec       - -
+2  conflicto    conflicto  NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-nom-ms:2(n-ms:2))                     8  coor       - -
+3  entre        entre      SP      SP  pos=adposition|type=preposition                                        - - (prep:3)                                    2  modnomatch - -
+4  los          el         DA0MP0  DA  pos=determiner|type=article|gen=masculine|num=plural                   - - (espec-mp:4(j-mp:4))                        2  spec       - -
+5  «            «          Fra     Fra pos=punctuation|type=quotation|punctenclose=open                       - - (F-no-c:5)                                  2  punc       - -
+6  subordinados subordinar VMP00PM VMP pos=verb|type=main|mood=participle|num=plural|gen=masculine            - - (parti-flex:6(parti-mp:6))                  2  modnomatch - -
+7  »            »          Frc     Frc pos=punctuation|type=quotation|punctenclose=close                      - - (F-no-c:7))                                 2  punc       - -
+8  y            y          CC      CC  pos=conjunction|type=coordinating                                      - - -                                           0  top        - -
+9  el           el         DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular                 - - (sn:10(espec-ms:9(j-ms:9))                  10 spec       - -
+10 hombre       hombre     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-nom-ms:10(n-ms:10)                    8  coor       - -
+11 ideal        ideal      AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular               - - (s-a-ms:11(a-ms:11))))                      10 mod        - -
+12 Howard       howard     NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                        - - (grup-verb:15(sn:12(grup-nom-ms:12(n-ms:12) 15 subj       - -
+13 Roark        roark      AQ0CN00 AQ  pos=adjective|type=qualificative|gen=common|num=invariable             - - (s-a-ms:13(a-ms:13)))                       12 mod        - -
+14 ,            ,          Fc      Fc  pos=punctuation|type=comma                                             - - (Fc:14))                                    12 punc       - -
+15 revela       revelar    VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - (verb:15)                                   8  modnomatch - -
+16 mensajes     mensaje    NCMP000 NC  pos=noun|type=common|gen=masculine|num=plural                          - - (sn:16(grup-nom-mp:16(n-mp:16)              15 dobj       - -
+17 políticos    político   AQ0MP00 AQ  pos=adjective|type=qualificative|gen=masculine|num=plural              - - (s-a-mp:17(a-mp:17))))                      16 mod        - -
+18 .            .          Fp      Fp  pos=punctuation|type=period                                            - - (F-term:18)))                               15 punc       - -
+
+1  Esta       este       DD0FS0  DD  pos=determiner|type=demonstrative|gen=feminine|num=singular                     - - (grup-verb:4(sn:2(espec-fs:1(dem-fs:1)) 2  spec       - -
+2  pelicula   pelicula   NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:2(n-fs:2)))                4  subj       - -
+3  no         no         RN      RN  pos=adverb|type=negative                                                        - - (neg:3)                                 4  spec       - -
+4  es         ser        VSIP3S0 VSI pos=verb|type=semiauxiliary|mood=indicative|tense=present|person=3|num=singular - - (verb:4)                                0  top        - -
+5  solo       solo       RG      RG  pos=adverb|type=general                                                         - - (sadv:5)                                4  adjt       - -
+6  una        uno        DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (espec-fs:6(indef-fs:6))                4  modnomatch - -
+7  drama      drama      NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                                 - - (coor-n:10(sn:7(grup-nom-ms:7(n-ms:7)   10 coor       - -
+8  social     social     AQ0CS00 AQ  pos=adjective|type=qualificative|gen=common|num=singular                        - - (s-a-ms:8(a-ms:8))))                    7  mod        - -
+9  ,          ,          Fc      Fc  pos=punctuation|type=comma                                                      - - (Fc:9)                                  10 punc       - -
+10 sino       sino       CC      CC  pos=conjunction|type=coordinating                                               - - -                                       4  attr       - -
+11 una        uno        DI0FS0  DI  pos=determiner|type=indefinite|gen=feminine|num=singular                        - - (sn:12(espec-fs:11(indef-fs:11))        12 spec       - -
+12 obra       obra       NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                                  - - (grup-nom-fs:12(n-fs:12)                10 coor       - -
+13 filosófica filosófico AQ0FS00 AQ  pos=adjective|type=qualificative|gen=feminine|num=singular                      - - (s-a-fs:13(a-fs:13)))))                 12 mod        - -
+14 .          .          Fp      Fp  pos=punctuation|type=period                                                     - - (F-term:14))                            4  punc       - -
+
