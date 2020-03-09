@@ -2,7 +2,7 @@
 pip install -r requirements.txt
 
 
-# Corpus processed
+# Processed corpora
 
 * [Ancora corpus]
 
