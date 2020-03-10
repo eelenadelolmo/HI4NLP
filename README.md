@@ -37,7 +37,7 @@ This repository contains the following Bash and Python scripts:
 | freeling_analize.sh | Executes the Freeling analyzer for Spanish with the dependency annotation and the output CoNLL option |
 | transformer_forms_conllu.py | Transforms the input documents (CoNLL-U format expected) into a txt file of sentences with the forms of each sentence ended with a full stop |
 | transformer_conllu.py | Transforms the input documents (CoNLL 2006 format expected) into the CoNLL-U format |
-| transformer_conllu_freeling.py | ransforms the input documents (CoNLL Freeling output format expected) into the CoNLL-U format |
+| transformer_conllu_freeling.py | Transforms the input documents (CoNLL Freeling output format expected) into the CoNLL-U format |
 | annotator.py | Exploits a CoNLL-U file in order to add new fields depending on rules |
 | classifier.py | Creates two new folders to classify the sentences in a document depending on whether they contains a matched feature annotation or not |
 | metrics.py | Generates a txt file containing statistical information on the annotations matched |
