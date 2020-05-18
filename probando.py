@@ -1,6 +1,0 @@
-import regex
-
-x = "Deportivo Alavés y Espanyol dirimirán este domingo en Mendizorroza una confrontación plagada de alicientes en_aras_de lograr una victoria que acerque un poco más a Europa a cualquiera de ambos equipos , aunque los vitorianos todavía acarician opciones de meter la cabeza en la Liga de Campeones a_expensas_de otros resultados . Pese_a haber conseguido sólo dos puntos en las tres últimas jornadas de Liga disputadas , el combinado de José Manuel Esnal & quot ; Mané & quot ; encarará esta confrontación con la mente puesta en sumar una nueva victoria que , caso de materializarse , serviría para dejar a los de Paco Flores a una distancia de once puntos en la tabla clasificatoria . La remontada de el Espanyol , que hace tan sólo un mes se encontraba a un punto de el descenso , ha venido propiciada en las últimas cuatro jornadas , donde ha conseguido 10 puntos de los 12 posibles , ha ganado dos partidos consecutivos por primera vez en toda la segunda vuelta y ganó un partido a domicilio , a el Mallorca el pasado_domingo , después_de más de dos meses sin hacerlo ."
-
-if regex.search('(' + "La remontada del Espanyol , que hace tan sólo un mes se " + '){e<=10}', x):
-    print("yeahhh")
